@@ -25,7 +25,7 @@ createdffromxml <- function(rss_path){
 }
 
 
-df_feed <- rss_path %>% 
+df_feed <- rss_path_cnbc %>% 
   purrr::map(createdffromxml) %>% 
   dplyr::bind_rows()
 
