@@ -1,0 +1,14 @@
+Package: xxx
+Title: xxx
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Luigi", "Aceto", email = "stekkino@hotmail.com", role = c("aut", "cre"))
+Description: xxx.
+Imports: 
+    rvest,
+    purrr,
+    xml2,
+    XML,
+    dplyr
+Depends: 
+    R (>= 2.10)
