@@ -29,5 +29,9 @@ df_feed <- rss_path_cnbc %>%
   purrr::map(createdffromxml) %>% 
   dplyr::bind_rows()
 
+if (!dir.exists("output")) {
+  dir.create("output")
+}
+
 df_feed %>% 
-  write.table('feeds.txt', sep = "\t", row.names = F)
+  write.table('output/feeds.txt', sep = "\t", row.names = F)
