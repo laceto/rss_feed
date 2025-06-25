@@ -31,4 +31,4 @@ df_feed <- rss_path %>%
   dplyr::bind_rows()
 
 df_feed %>% 
-  write.table('output/feeds.txt', sep = "\t", row.names = F)
+  write.table('feeds.txt', sep = "\t", row.names = F)
