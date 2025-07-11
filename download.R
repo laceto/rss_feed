@@ -37,6 +37,11 @@ if (!dir.exists("output")) {
 file_path <- "output/feeds.txt"
 df_existing <- read.table(file_path, sep = "\t", header = TRUE)
 
+df_existing$guid <- as.character(df_existing$guid)
+df_feed$guid     <- as.character(df_feed$guid)
+
+df_all <- bind_rows(df_existing, df_feed) %>%
+  distinct()
 df_all <- bind_rows(df_existing, df_feed) %>%
   dplyr::distinct()
 
