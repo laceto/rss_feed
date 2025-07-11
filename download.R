@@ -1,6 +1,7 @@
 library(rvest)
 library(xml2)
 library(XML)
+library(dplyr)
 
 
 rss_path_cnbc <- c(
@@ -37,7 +38,7 @@ file_path <- "output/feeds.txt"
 df_existing <- read.table(file_path, sep = "\t", header = TRUE, stringsAsFactors = FALSE)
 
 df_all <- bind_rows(df_existing, df_feed) %>%
-  distinct()
+  dplyr::distinct()
 
 # Write back to the same file
 write.table(df_all, file_path, sep = "\t", row.names = FALSE, quote = FALSE)
