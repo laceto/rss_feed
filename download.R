@@ -33,5 +33,7 @@ if (!dir.exists("output")) {
   dir.create("output")
 }
 
+df_feed
+
 df_feed %>% 
   write.table('output/feeds.txt', sep = "\t", row.names = F)
