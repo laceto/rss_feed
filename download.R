@@ -33,7 +33,11 @@ if (!dir.exists("output")) {
   dir.create("output")
 }
 
-df_feed
+file_path <- "output/feeds.txt"
+df_existing <- read.table(file_path, sep = "\t", header = TRUE, stringsAsFactors = FALSE)
 
-df_feed %>% 
-  write.table('output/feeds.txt', sep = "\t", row.names = F)
+df_all <- bind_rows(df_existing, df_feed) %>%
+  distinct()
+
+# Write back to the same file
+write.table(df_all, file_path, sep = "\t", row.names = FALSE, quote = FALSE)
