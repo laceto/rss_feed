@@ -39,6 +39,9 @@ df_existing <- read.table(file_path, sep = "\t", header = TRUE)
 
 df_existing$guid <- as.character(df_existing$guid)
 df_feed$guid     <- as.character(df_feed$guid)
+df_existing$id <- as.character(df_existing$id)
+df_feed$id     <- as.character(df_feed$id)
+
 
 df_all <- bind_rows(df_existing, df_feed) %>%
   distinct()
