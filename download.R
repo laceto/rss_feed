@@ -42,11 +42,11 @@ df_feed$guid     <- as.character(df_feed$guid)
 df_existing$id <- as.character(df_existing$id)
 df_feed$id     <- as.character(df_feed$id)
 
+ncol(df_feed)
 
 df_all <- bind_rows(df_existing, df_feed) %>%
   distinct()
-df_all <- bind_rows(df_existing, df_feed) %>%
-  dplyr::distinct()
+
 
 # Write back to the same file
 write.table(df_all, file_path, sep = "\t", row.names = FALSE)
