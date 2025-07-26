@@ -37,4 +37,4 @@ if (!dir.exists("output")) {
 file_path <- "output/feeds.txt"
 
 
-write.table(df_all, file_path, sep = "\t", row.names = FALSE)
+write.table(df_feed, file_path, sep = "\t", row.names = FALSE)
