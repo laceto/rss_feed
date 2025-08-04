@@ -11,14 +11,14 @@ def generate_text(prompt):
       
     # Generate text based on the prompt  
     response = llm(prompt)  
-    ai = response.response_metadata['model_name']
+    # ai = response.response_metadata['model_name']
       
-    return response, ai  
+    return response  
   
 if __name__ == "__main__":  
-    prompt = "Write a short story about a robot learning to be human."  
-    generated_text, model = generate_text(prompt)  
+    prompt = "Write a short story about a robot learning to be an actuary."  
+    generated_text = generate_text(prompt)  
       
     # Write the generated text to a file in the repository  
     with open("generated_story.txt", "w") as f:  
-        f.write(model)  
+        f.write(generated_text)  
