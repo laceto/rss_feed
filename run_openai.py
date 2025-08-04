@@ -7,7 +7,7 @@ os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
   
 def generate_text(prompt):  
     # Initialize the OpenAI LLM from LangChain  
-    llm = OpenAI()  
+    llm = OpenAI('gpt-4.1-nano')  
       
     # Generate text based on the prompt  
     response = llm(prompt)  
