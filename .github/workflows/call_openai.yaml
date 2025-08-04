@@ -1,0 +1,36 @@
+on:
+  schedule:
+    - cron:  "0 19 * * 1-5"
+  workflow_dispatch:
+
+jobs:  
+  run-langchain:  
+    runs-on: ubuntu-latest  
+  
+    steps:  
+      - name: Checkout Code  
+        uses: actions/checkout@v2  
+  
+      - name: Set up Python  
+        uses: actions/setup-python@v2  
+        with:  
+          python-version: '3.8'  # Change to your desired Python version  
+  
+      - name: Install Dependencies  
+        run: |  
+          pip install langchain openai  
+  
+      - name: Run LangChain Script  
+        env:  
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}  # Pass the secret as an environment variable  
+        run: |  
+          python run_openai.py  
+  
+      - name: Commit Generated File  
+        run: |  
+          git config --local user.name "github-actions"  
+          git config --local user.email "github-actions@github.com"  
+          git add generated_story.txt  
+          git commit -m "Add generated story from LangChain" || echo "No changes to commit"  
+          git push  
+
