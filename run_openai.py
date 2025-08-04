@@ -1,25 +1,35 @@
-import os  
-from langchain_openai import OpenAI 
-from langchain.prompts import PromptTemplate  
+# import os  
+# from langchain_openai import OpenAI 
+# from langchain.prompts import PromptTemplate  
   
-# Set your OpenAI API key from the environment variable  
-os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")  
+# # Set your OpenAI API key from the environment variable  
+# os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")  
   
-def generate_text(prompt):  
-    # Initialize the OpenAI LLM from LangChain  
-    llm = OpenAI(model="gpt-4.1-nano", temperature=0)  
+# def generate_text(prompt):  
+#     # Initialize the OpenAI LLM from LangChain  
+#     llm = OpenAI(model="gpt-4.1-nano", temperature=0)  
     
       
-    # Generate text based on the prompt  
-    response = llm(prompt)  
-    # ai = response.response_metadata['model_name']
+#     # Generate text based on the prompt  
+#     response = llm(prompt)  
+#     # ai = response.response_metadata['model_name']
       
-    return response  
+#     return response  
   
-if __name__ == "__main__":  
-    prompt = "Write a short story about a robot learning to be an actuary."  
-    generated_text = generate_text(prompt)  
+# if __name__ == "__main__":  
+#     prompt = "Write a short story about a robot learning to be an actuary."  
+#     generated_text = generate_text(prompt)  
       
-    # Write the generated text to a file in the repository  
-    with open("generated_story.txt", "w") as f:  
-        f.write(generated_text)  
+#     # Write the generated text to a file in the repository  
+#     with open("generated_story.txt", "w") as f:  
+#         f.write(generated_text)  
+
+
+# Open the file in read mode  
+with open('output/feeds2025-07-31.txt', 'r') as file:  
+    # Read the entire file  
+    contents = file.read()  
+  
+# Write the generated text to a file in the repository  
+with open("feeds2025-07-31.txt", "w") as f:
+    f.write(contents) 
