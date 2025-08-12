@@ -1,6 +1,7 @@
 library(rvest)
 library(xml2)
 library(XML)
+library(dplyr)
 
 
 rss_path_cnbc <- c(
@@ -33,5 +34,7 @@ if (!dir.exists("output")) {
   dir.create("output")
 }
 
-df_feed %>% 
-  write.table('output/feeds.txt', sep = "\t", row.names = F)
+file_path <- paste0("output/feeds", Sys.Date(), ".txt")
+
+
+write.table(df_feed, file_path, sep = "\t", row.names = FALSE)
