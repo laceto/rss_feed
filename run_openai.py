@@ -25,11 +25,28 @@
 #         f.write(generated_text)  
 
 
-# Open the file in read mode  
-with open('output/feeds2025-07-31.txt', 'r') as file:  
-    # Read the entire file  
-    contents = file.read()  
+# # Open the file in read mode  
+# with open('output/feeds2025-07-31.txt', 'r') as file:  
+#     # Read the entire file  
+#     contents = file.read()  
   
-# Write the generated text to a file in the repository  
-with open("feeds2025-07-31.txt", "w") as f:
-    f.write(contents) 
+# # Write the generated text to a file in the repository  
+# with open("feeds2025-07-31.txt", "w") as f:
+#     f.write(contents) 
+
+# import pandas as pd
+
+# df = pd.read_csv('output/feeds2025-07-31.txt', sep='\t')
+# print(df)
+
+from utils import *
+
+file_list = get_file_paths('output', file_pattern='txt')
+
+dfs = [pd.read_csv(file, sep='\t') for file in file_list]
+dfs = pd.concat(dfs, ignore_index=True)
+
+dfs['description'] = dfs['title'] + dfs['description']
+
+
+print(dfs.columns)
