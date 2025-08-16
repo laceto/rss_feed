@@ -149,7 +149,7 @@ json_data = json.loads(json_str)
 tasks = []
 for data in json_data[:5]:
     
-    description = data
+    description = json.dumps(data)
     ticker = data['ticker']
     
     task = {
@@ -158,9 +158,9 @@ for data in json_data[:5]:
         "url": "/v1/chat/completions",
         "body": {
             # This is what you would have in your Chat Completions API call
-            # "model": "gpt-4o-mini",
+            "model": "gpt-4.1-nano",
             "temperature": 0,
-            "response_format": type_to_response_format_param(TraderAnalysis),
+            # "response_format": type_to_response_format_param(TraderAnalysis),
             "messages": [
                 {
                     "role": "system",
