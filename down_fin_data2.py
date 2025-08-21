@@ -59,60 +59,90 @@
 
 
 
-import yfinance as yf
+# import yfinance as yf
+# import json
+
+# def get_financial_statements(symbol: str, col) -> str:
+#     """Retrieve key financial statement data."""
+#     try:
+#         stock = yf.Ticker(symbol)
+#         financials = stock.financials
+#         balance_sheet = stock.balance_sheet
+
+#         latest_year = financials.columns[col]  # most recent year
+
+#         def safe_get(df, row_name):
+#             """Safely retrieve a value from the DataFrame."""
+#             try:
+#                 return float(df.loc[row_name, latest_year]) if row_name in df.index else None
+#             except Exception:
+#                 return None
+
+#         data = {
+#             "symbol": symbol,
+#             "period": str(latest_year.year) if hasattr(latest_year, "year") else str(latest_year),
+
+#             # Income Statement
+#             "TotalRevenue": safe_get(financials, "Total Revenue"),
+#             "CostOfRevenue": safe_get(financials, "Cost Of Revenue"),
+#             "GrossProfit": safe_get(financials, "Gross Profit"),
+#             "OperatingExpense": safe_get(financials, "Operating Expense"),
+#             "PretaxIncome": safe_get(financials, "Pretax Income"),
+#             "TaxProvision": safe_get(financials, "Tax Provision"),
+#             "NetIncomeCommonStockholders": safe_get(financials, "Net Income Common Stockholders"),
+#             "DilutedEPS": safe_get(financials, "Diluted EPS"),
+#             "EBIT": safe_get(financials, "EBIT"),
+#             "EBITDA": safe_get(financials, "EBITDA"),
+
+#                 # Balance Sheet (useful for leverage, liquidity)
+#             "TotalAssets": safe_get(balance_sheet, "Total Assets"),
+#             "TotalDebt": safe_get(balance_sheet, "Total Debt"),
+#             "TotalLiabilityNetMinorityInterest": safe_get(balance_sheet, "Total Liabilities Net Minority Interest"),
+#             "TotalCapit": safe_get(balance_sheet, "Total Capitalization"),
+#             "CommonStock EyEquity": safe_get(balance_sheet, "Common Stock Equity"),
+#             "NetTangible AyAssets": safe_get(balance_sheet, "Net Tangible Assets"),
+#             "WorkingCap": safe_get(balance_sheet, "Working Capital"),
+#             "InvestedCa": safe_get(balance_sheet, "Invested Capital"),
+#             "OrdinaryShareyNumber": safe_get(balance_sheet, "Ordinary Shares Number"),
+#             "TreasuryShareyNumber": safe_get(balance_sheet, "Treasury Shares Number"),
+
+
+#         }
+
+#         return json.dumps(data, indent=2)
+#     except Exception as e:
+#         return f"Error: {str(e)}"
+
+
+# ticker = 'AAPL'
+# print(get_financial_statements(ticker, 1))
+
+
 import json
+file = 'yhallsym.txt'
+# with open(file, 'r') as file:
+#     my_dict = json.load(file)
 
-def get_financial_statements(symbol: str, col) -> str:
-    """Retrieve key financial statement data."""
-    try:
-        stock = yf.Ticker(symbol)
-        financials = stock.financials
-        balance_sheet = stock.balance_sheet
+with open(file, 'r', encoding='utf-8') as file:
+    content = file.read()
 
-        latest_year = financials.columns[col]  # most recent year
+import ast
 
-        def safe_get(df, row_name):
-            """Safely retrieve a value from the DataFrame."""
-            try:
-                return float(df.loc[row_name, latest_year]) if row_name in df.index else None
-            except Exception:
-                return None
+my_dict = ast.literal_eval(content)
 
-        data = {
-            "symbol": symbol,
-            "period": str(latest_year.year) if hasattr(latest_year, "year") else str(latest_year),
+import pandas as pd
 
-            # Income Statement
-            "TotalRevenue": safe_get(financials, "Total Revenue"),
-            "CostOfRevenue": safe_get(financials, "Cost Of Revenue"),
-            "GrossProfit": safe_get(financials, "Gross Profit"),
-            "OperatingExpense": safe_get(financials, "Operating Expense"),
-            "PretaxIncome": safe_get(financials, "Pretax Income"),
-            "TaxProvision": safe_get(financials, "Tax Provision"),
-            "NetIncomeCommonStockholders": safe_get(financials, "Net Income Common Stockholders"),
-            "DilutedEPS": safe_get(financials, "Diluted EPS"),
-            "EBIT": safe_get(financials, "EBIT"),
-            "EBITDA": safe_get(financials, "EBITDA"),
+df = pd.DataFrame(list(my_dict.items()), columns=['Ticker', 'Company'])
+# print(df)
 
-                # Balance Sheet (useful for leverage, liquidity)
-            "TotalAssets": safe_get(balance_sheet, "Total Assets"),
-            "TotalDebt": safe_get(balance_sheet, "Total Debt"),
-            "TotalLiabilityNetMinorityInterest": safe_get(balance_sheet, "Total Liabilities Net Minority Interest"),
-            "TotalCapit": safe_get(balance_sheet, "Total Capitalization"),
-            "CommonStock EyEquity": safe_get(balance_sheet, "Common Stock Equity"),
-            "NetTangible AyAssets": safe_get(balance_sheet, "Net Tangible Assets"),
-            "WorkingCap": safe_get(balance_sheet, "Working Capital"),
-            "InvestedCa": safe_get(balance_sheet, "Invested Capital"),
-            "OrdinaryShareyNumber": safe_get(balance_sheet, "Ordinary Shares Number"),
-            "TreasuryShareyNumber": safe_get(balance_sheet, "Treasury Shares Number"),
+import polars as pl
+df = pl.DataFrame({
+    "Ticker": list(my_dict.keys()),
+    "Company": list(my_dict.values())
+})
 
+filtered_df = df.filter(
+    df["Company"].str.contains("Fincantieri")
+)
 
-        }
-
-        return json.dumps(data, indent=2)
-    except Exception as e:
-        return f"Error: {str(e)}"
-
-
-ticker = 'AAPL'
-print(get_financial_statements(ticker, 1))
+print(filtered_df)
