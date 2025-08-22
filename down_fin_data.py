@@ -186,28 +186,15 @@ class FundamentalTraderAssistant:
 #         # Cash flow
         d["FCFToRevenue"] = self.safe_div(d["free_cash_flow"], d["total_revenue"])
         d["FCFYield"] = self.safe_div(d["free_cash_flow"], d["total_capitalization"])
+        d["FCFtoDebt"] = self.safe_div(d["free_cash_flow"], d["total_debt"])
 
 #         # Leverage & Liquidity
         d["DebtToEquity"] = self.safe_div(d["total_debt"], d["common_stock_equity"])
-        d["DebtToAssets"] = self.safe_div(d["total_debt"], d["total_assets"])
+        # d["DebtToAssets"] = self.safe_div(d["total_debt"], d["total_assets"])
         d["CurrentRatio"] = self.safe_div(d["working_capital"], d["total_liabilities_net_minority_interest"])
-
-        # Growth
-        # d["RevenueGrowthYoY"] = self.safe_div(
-        #     d["Revenue") - d["Revenue_t1"], d["Revenue_t1")
-        # )
-        # d["EPSGrowthYoY"] = self.safe_div(
-        #     d["EPS") - d["EPS_t1"], d["EPS_t1")
-        # )
 
         d = d.loc[:, ["ticker", "time"] + list(d.loc[:, "GrossMargin":"CurrentRatio"].columns)]
 
-        # d = d.melt(
-        #     id_vars=["ticker", "time"],
-        #     value_vars=d.loc[:, "GrossMargin":"CurrentRatio"].columns,
-        #     var_name="metrics",
-        #     value_name="value"
-        # )
 
         self.metrics = d
         return d
@@ -225,6 +212,7 @@ class FundamentalTraderAssistant:
             "FCFYield": [0.02, 0.04, 0.06, 0.1],
             "DebtToEquity": [0.5, 1.0, 1.5, 2.0],  # inverse scoring
             "CurrentRatio": [1.0, 1.2, 1.5, 2.0],
+            "FCFtoDebt": [0.05, 0.1, 0.2, 0.3],
             # "RevenueGrowthYoY": [0, 0.05, 0.1, 0.2],
             # "EPSGrowthYoY": [0, 0.05, 0.1, 0.2],
         }
@@ -243,41 +231,41 @@ class FundamentalTraderAssistant:
         df['score'] = df.apply(score_row, axis=1)
         return df
     
-        def metrics_red_flags(self, df):
-            """Add red flag names to a long-format DataFrame with 'metrics' and 'value' columns."""
+    def metrics_red_flags(self, df):
+        """Add red flag names to a long-format DataFrame with 'metrics' and 'value' columns."""
 
-            # Step 1: Apply single-metric red flags
-            def single_metric_flag(row):
-                metric, value = row["metrics"], row["value"]
-                if pd.isna(value):
-                    return None
-
-                if metric == "GrossMargin" and value < 0:
-                    return "Negative Gross Margin"
-                if metric == "OperatingMargin" and value < 0:
-                    return "Negative Operating Margin"
-                if metric == "NetMargin" and value < 0:
-                    return "Negative Net Margin"
-                if metric == "ROA" and value < 0:
-                    return "Negative ROA"
-                if metric == "ROE" and value < 0:
-                    return "Negative ROE"
-                if metric == "DebtToEquity" and value > 2:
-                    return "High Debt-to-Equity (>2)"
-                if metric == "DebtToAssets" and value > 0.8:
-                    return "High Debt-to-Assets (>0.8)"
-                if metric == "FreeCashFlow" and value < 0:
-                    return "Negative Free Cash Flow"
-                if metric == "FCFtoDebt" and value < 0.05:
-                    return "Insufficient Free Cash Flow to cover debt"
-                if metric == "OperatingCashFlow" and value < 0:
-                    return "Negative Operating Cash Flow"
+        # Step 1: Apply single-metric red flags
+        def single_metric_flag(row):
+            metric, value = row["metrics"], row["value"]
+            if pd.isna(value):
                 return None
 
-            df["red_flag"] = df.apply(single_metric_flag, axis=1)
-            df = df[df["red_flag"].notna()].reset_index(drop=True)
+            if metric == "GrossMargin" and value < 0:
+                return "Negative Gross Margin"
+            if metric == "OperatingMargin" and value < 0:
+                return "Negative Operating Margin"
+            if metric == "NetProfitMargin" and value < 0:
+                return "Negative Net Margin"
+            if metric == "ROA" and value < 0:
+                return "Negative ROA"
+            if metric == "ROE" and value < 0:
+                return "Negative ROE"
+            if metric == "DebtToEquity" and value > 2:
+                return "High Debt-to-Equity (>2)"
+            # if metric == "DebtToAssets" and value > 0.8:
+            #     return "High Debt-to-Assets (>0.8)"
+            # if metric == "FreeCashFlow" and value < 0:
+            #     return "Negative Free Cash Flow"
+            if metric == "FCFtoDebt" and value < 0.05:
+                return "Insufficient Free Cash Flow to cover debt"
+            # if metric == "OperatingCashFlow" and value < 0:
+            #     return "Negative Operating Cash Flow"
+            return None
 
-            return df
+        df["red_flag"] = df.apply(single_metric_flag, axis=1)
+        df = df[df["red_flag"].notna()].reset_index(drop=True)
+
+        return df
 
     def evaluate(self):
         m = self.compute_metrics()
@@ -325,12 +313,14 @@ class FundamentalTraderAssistant:
         s= compute_composite_scores(s)
         self.scores = s
 
-        self.red_flags = self.red_flags(m)
+        rf = self.metrics_red_flags(m)
+
+        self.red_flags = rf
 
         # return s
         return {
-            "metrics": m,
-            "composite_scores": s,
+            "metrics": self.metrics,
+            "composite_scores": self.scores,
             # "overall_score": round(overall, 1),
             # "regime": regime,
             "red_flags": self.red_flags,
@@ -346,37 +336,7 @@ class FundamentalTraderAssistant:
     #         return "Company fundamentals are weak — profitability, growth, or balance sheet risks suggest caution or bearish stance."
 
 
-# # Example usage:
-# data = {
-#     "Revenue": 1000,
-#     "GrossProfit": 420,
-#     "OperatingIncome": 170,
-#     "NetIncome": 120,
-#     "EBITDA": 220,
-#     "TotalAssets": 2400,
-#     "TotalEquity": 860,
-#     "FreeCashFlow": 110,
-#     "MarketCap": 1800,
-#     "TotalDebt": 700,
-#     "CurrentAssets": 900,
-#     "CurrentLiabilities": 650,
-#     "Revenue_t1": 920,
-#     "EPS": 2.5,
-#     "EPS_t1": 2.1
-# }
 
-# weights = {
-#     "GrossMargin": 1,
-#     "OperatingMargin": 1.5,
-#     "NetProfitMargin": 1.5,
-#     "ROA": 1,
-#     "ROE": 1,
-#     "FCFtoDebt": 2,
-#     "FCFMargin": 2,
-#     "OCFMargin": 1.5,
-#     "DebtToEquity": 1,
-#     "DebtToAssets": 1,
-# }
 
 weights = {
     "GrossMargin": 8, 
@@ -385,11 +345,11 @@ weights = {
     "EBITDAMargin": 10,
     "ROA": 10, 
     "ROE": 12,
-    "DebtToEquity": 12, 
-    "DebtToAssets": 10,   
-    "CurrentRatio": 8,
     "FCFToRevenue": 10, 
-    "FCFYield": 10
+    "FCFYield": 10,
+    "FCFToDebt": 10,
+    "DebtToEquity": 12, 
+    "CurrentRatio": 8,
 }
 
 assistant = FundamentalTraderAssistant(df, weights)
@@ -402,48 +362,12 @@ assistant = FundamentalTraderAssistant(df, weights)
 
 # print(a.get("composite_scores"))
 
+metrics = assistant.evaluate().get("composite_scores")
+print(metrics)
+
 metrics = assistant.evaluate().get("metrics")
-# print(metrics)
+print(metrics)
 
-def metrics_red_flags(df, raw):
-        """Add red flag names to a long-format DataFrame with 'metrics' and 'value' columns."""
+metrics = assistant.evaluate().get("red_flags")
+print(metrics)
 
-        # Step 1: Apply single-metric red flags
-        def single_metric_flag(row):
-            metric, value = row["metrics"], row["value"]
-            if pd.isna(value):
-                return None
-
-            if metric == "GrossMargin" and value < 0:
-                return "Negative Gross Margin"
-            if metric == "OperatingMargin" and value < 0:
-                return "Negative Operating Margin"
-            if metric == "NetMargin" and value < 0:
-                return "Negative Net Margin"
-            if metric == "ROA" and value < 0:
-                return "Negative ROA"
-            if metric == "ROE" and value < 0:
-                return "Negative ROE"
-            if metric == "DebtToEquity" and value > 2:
-                return "High Debt-to-Equity (>2)"
-            if metric == "DebtToAssets" and value > 0.8:
-                return "High Debt-to-Assets (>0.8)"
-            if metric == "FreeCashFlow" and value < 0:
-                return "Negative Free Cash Flow"
-            if metric == "FCFtoDebt" and value < 0.05:
-                return "Insufficient Free Cash Flow to cover debt"
-            if metric == "OperatingCashFlow" and value < 0:
-                return "Negative Operating Cash Flow"
-            return None
-
-        df["red_flag"] = df.apply(single_metric_flag, axis=1)
-        # df = df[df["red_flag"].notna()]
-        df = df[df["red_flag"].notna()].reset_index(drop=True)
-
-        return df
-
-
-
-
-print(metrics_red_flags(metrics))
-print(raw_red_flags(df))
