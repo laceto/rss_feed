@@ -120,9 +120,10 @@ def merge_all_tables(bs, cf, inc_s):
 
     return df_final
 
-ticker = 'AVIO.MI'
+ticker = 'TGYM.MI'
 
 # cf = filter_col_by(df=get_cashflow(ticker), col='index', by=cf_item2filter)
+# print(cf)
 # inc_s = filter_col_by(df=get_income_stmt(ticker), col='index', by=inc_s_item2filter)
 # bs = filter_col_by(df=get_balance_sheet(ticker), col='index', by=bs_item2filter)
 # cf = reshape_fin_data(cf)
@@ -131,27 +132,21 @@ ticker = 'AVIO.MI'
 # df = merge_all_tables(bs, cf, inc_s)
 # df.columns = df.columns.str.lower().str.replace(" ", "_")
 # save_xlsx(df, "df.xlsx", ticker)
-df = pd.read_excel('df.xlsx', sheet_name='AVIO.MI')
+df = pd.read_excel('df.xlsx', sheet_name=ticker)
 df.columns = df.columns.str.lower().str.replace(" ", "_")
 
-# print(df.columns)
+# 
 
 
+# # Big list of keywords
+# keywords = ["debt", "working", "liab"]
 
-# Big list of keywords
-keywords = ["debt", "working", "liab"]
+# # Create a regex pattern
+# pattern = "|".join(keywords)
 
-# Create a regex pattern
-pattern = "|".join(keywords)
+# # Select columns containing any of the keywords
+# df_selected = df.loc[:, df.columns.str.contains(pattern, case=False, regex=True)]
 
-# Select columns containing any of the keywords
-df_selected = df.loc[:, df.columns.str.contains(pattern, case=False, regex=True)]
-
-# print(df_selected)
-
-
-
-# import numpy as np
 
 class FundamentalTraderAssistant:
     def __init__(self, data: pd.DataFrame, weights: dict):
@@ -161,6 +156,7 @@ class FundamentalTraderAssistant:
         self.metrics = {}
         self.scores = {}
         self.red_flags = []
+        # self.raw_red_flags = []
         self.w = weights
 
     def safe_div(self, num, den):
@@ -168,12 +164,32 @@ class FundamentalTraderAssistant:
     
     def safe_div(self, num, den):
         return np.where((den != 0) & (den.notna()) & (num.notna()), num / den, None)
+    
+    def raw_red_flags(self):
+        d = self.d[["ticker", "time", "free_cash_flow", "operating_cash_flow", "ebitda"]].copy()
+
+        d["rrf_fcf"] = np.where(d["free_cash_flow"] < 0, "Negative Free Cash Flow", None)
+        d["rrf_ocf"] = np.where(d["operating_cash_flow"] < 0, "Negative Operating Cash Flow", None)
+        d["ebitdaVSocf"] = np.where(
+            (d["ebitda"].notna()) & (d["operating_cash_flow"].notna()) & (d["ebitda"] > 2 * d["operating_cash_flow"]),
+            "Earnings quality concern (EBITDA >> OCF)",
+            None
+        )
+        d = d.melt(
+            id_vars=["ticker", "time"],
+            value_vars=["rrf_fcf", "rrf_ocf", "ebitdaVSocf"],
+            var_name="metrics",
+            value_name="red_flag"
+        )
+
+        # Filter out rows where value is None
+        d = d[d["red_flag"].notna()]
+
+        return d
 
     def compute_metrics(self):
         d = self.d
-        # m = {}
 
-        # Profitability
         d["GrossMargin"] = self.safe_div(d["gross_profit"], d["total_revenue"])
         d["OperatingMargin"] = self.safe_div(d["operating_income"], d["total_revenue"])
         d["NetProfitMargin"] = self.safe_div(d["net_income_common_stockholders"], d["total_revenue"])
@@ -213,8 +229,6 @@ class FundamentalTraderAssistant:
             "DebtToEquity": [0.5, 1.0, 1.5, 2.0],  # inverse scoring
             "CurrentRatio": [1.0, 1.2, 1.5, 2.0],
             "FCFtoDebt": [0.05, 0.1, 0.2, 0.3],
-            # "RevenueGrowthYoY": [0, 0.05, 0.1, 0.2],
-            # "EPSGrowthYoY": [0, 0.05, 0.1, 0.2],
         }
 
         def score_row(row):
@@ -230,7 +244,7 @@ class FundamentalTraderAssistant:
 
         df['score'] = df.apply(score_row, axis=1)
         return df
-    
+        
     def metrics_red_flags(self, df):
         """Add red flag names to a long-format DataFrame with 'metrics' and 'value' columns."""
 
@@ -252,14 +266,8 @@ class FundamentalTraderAssistant:
                 return "Negative ROE"
             if metric == "DebtToEquity" and value > 2:
                 return "High Debt-to-Equity (>2)"
-            # if metric == "DebtToAssets" and value > 0.8:
-            #     return "High Debt-to-Assets (>0.8)"
-            # if metric == "FreeCashFlow" and value < 0:
-            #     return "Negative Free Cash Flow"
             if metric == "FCFtoDebt" and value < 0.05:
                 return "Insufficient Free Cash Flow to cover debt"
-            # if metric == "OperatingCashFlow" and value < 0:
-            #     return "Negative Operating Cash Flow"
             return None
 
         df["red_flag"] = df.apply(single_metric_flag, axis=1)
@@ -269,15 +277,13 @@ class FundamentalTraderAssistant:
 
     def evaluate(self):
         m = self.compute_metrics()
-
+        d = self.raw_red_flags()
         m = m.melt(
             id_vars=["ticker", "time"],
             value_vars=m.loc[:, "GrossMargin":"CurrentRatio"].columns,
             var_name="metrics",
             value_name="value"
         )
-
-        # m = self.red_flags(m)
 
         s = self.score_metric(m)
         
@@ -314,27 +320,15 @@ class FundamentalTraderAssistant:
         self.scores = s
 
         rf = self.metrics_red_flags(m)
+        rf = rf[["ticker", "time", "metrics", "red_flag"]]
 
         self.red_flags = rf
-
-        # return s
         return {
             "metrics": self.metrics,
             "composite_scores": self.scores,
-            # "overall_score": round(overall, 1),
-            # "regime": regime,
+            "raw_red_flags": d,
             "red_flags": self.red_flags,
-            # "commentary": self.generate_comment(overall, regime),
         }
-
-    # def generate_comment(self, score, regime):
-    #     if regime == "Fundamentally Strong":
-    #         return "Company shows solid profitability, efficient returns, and healthy balance sheet — supportive for bullish outlook."
-    #     elif regime == "Fundamentally Moderate":
-    #         return "Company has mixed fundamentals with areas of strength, but also risks that traders should monitor closely."
-    #     else:
-    #         return "Company fundamentals are weak — profitability, growth, or balance sheet risks suggest caution or bearish stance."
-
 
 
 
@@ -358,16 +352,28 @@ assistant = FundamentalTraderAssistant(df, weights)
 
 # print(assistant.red_flags(metrics))
 
-# a = assistant.evaluate()
+report = assistant.evaluate()
 
+# print(report.get("composite_scores"))
+metrics = report.get("metrics").head(1)
+metrics = report.get("metrics").tail(1)
+# metrics.loc[:, "time"] = metrics["time"].metrics.strftime("%Y-%m-%d")
+print(metrics.to_dict(orient="records"))
+# print(report.get("metrics").head(1).to_dict(orient="records"))
+
+# print(report.get("red_flags"))
+
+# print(report.get("raw_red_flags"))
+
+# print(report)
 # print(a.get("composite_scores"))
 
-metrics = assistant.evaluate().get("composite_scores")
-print(metrics)
+# metrics = assistant.evaluate().get("composite_scores")
+# print(metrics)
 
-metrics = assistant.evaluate().get("metrics")
-print(metrics)
+# metrics = assistant.evaluate().get("metrics")
+# print(metrics)
 
-metrics = assistant.evaluate().get("red_flags")
-print(metrics)
+# metrics = assistant.evaluate().get("raw_red_flags")
+# print(metrics)
 

@@ -1,148 +1,147 @@
-# import yfinance as yf
-# import json
-
-# def get_financial_statements(symbol: str) -> str:
-#     """Retrieve key financial statement data from Yahoo Finance via yfinance."""
-#     try:
-#         stock = yf.Ticker(symbol)
-#         financials = stock.financials
-#         balance_sheet = stock.balance_sheet
-#         shares_info = stock.get_shares_full(start=None, end=None)  # to get shares numbers
-
-#         latest_year = financials.columns[0]  # most recent year
-
-#         def safe_get(df, row_name):
-#             """Safely retrieve a value from the DataFrame."""
-#             try:
-#                 return float(df.loc[row_name, latest_year]) if row_name in df.index else None
-#             except Exception:
-#                 return None
-
-#         # Calculate derived metrics
-#         total_assets = safe_get(balance_sheet, "Total Assets")
-#         total_liabilities = safe_get(balance_sheet, "Total Liab")
-#         minority_interest = safe_get(balance_sheet, "Minority Interest")
-#         total_equity = safe_get(balance_sheet, "Total Equity Gross Minority Interest") or safe_get(balance_sheet, "Total Equity")
-#         current_assets = safe_get(balance_sheet, "Total Current Assets") or safe_get(balance_sheet, "Current Assets")
-#         current_liabilities = safe_get(balance_sheet, "Total Current Liabilities") or safe_get(balance_sheet, "Current Liabilities")
-#         intangible_assets = safe_get(balance_sheet, "Intangible Assets") or 0
-
-#         data = {
-#             "symbol": symbol,
-#             "period": str(latest_year.year) if hasattr(latest_year, "year") else str(latest_year),
-
-#             # Balance Sheet
-#             "TotalAssets": total_assets,
-#             "TotalLiabilitiesNetMinorityInterest": (total_liabilities - minority_interest) if total_liabilities is not None else None,
-#             "TotalCapitalization": total_equity + safe_get(balance_sheet, "Total Debt") if total_equity is not None else None,
-#             "CommonStockEquity": total_equity,
-#             "NetTangibleAssets": total_assets - intangible_assets - total_liabilities if total_assets is not None else None,
-#             "WorkingCapital": current_assets - current_liabilities if current_assets is not None and current_liabilities is not None else None,
-#             "InvestedCapital": total_equity + safe_get(balance_sheet, "Total Debt") - (safe_get(balance_sheet, "Cash And Cash Equivalents") or 0) if total_equity is not None else None,
-#             "TotalDebt": safe_get(balance_sheet, "Total Debt"),
-
-#             # Shares info
-#             "OrdinarySharesNumber": shares_info.get("sharesOutstanding", None) if shares_info is not None else None,
-#             "TreasurySharesNumber": shares_info.get("treasuryStock", None) if shares_info is not None else None,
-#         }
-
-#         return json.dumps(data, indent=2)
-
-#     except Exception as e:
-#         return f"Error: {str(e)}"
-
-
-# # Example usage
-# if __name__ == "__main__":
-#     print(get_financial_statements("AAPL"))
-
-
-
-
-# import yfinance as yf
-# import json
-
-# def get_financial_statements(symbol: str, col) -> str:
-#     """Retrieve key financial statement data."""
-#     try:
-#         stock = yf.Ticker(symbol)
-#         financials = stock.financials
-#         balance_sheet = stock.balance_sheet
-
-#         latest_year = financials.columns[col]  # most recent year
-
-#         def safe_get(df, row_name):
-#             """Safely retrieve a value from the DataFrame."""
-#             try:
-#                 return float(df.loc[row_name, latest_year]) if row_name in df.index else None
-#             except Exception:
-#                 return None
-
-#         data = {
-#             "symbol": symbol,
-#             "period": str(latest_year.year) if hasattr(latest_year, "year") else str(latest_year),
-
-#             # Income Statement
-#             "TotalRevenue": safe_get(financials, "Total Revenue"),
-#             "CostOfRevenue": safe_get(financials, "Cost Of Revenue"),
-#             "GrossProfit": safe_get(financials, "Gross Profit"),
-#             "OperatingExpense": safe_get(financials, "Operating Expense"),
-#             "PretaxIncome": safe_get(financials, "Pretax Income"),
-#             "TaxProvision": safe_get(financials, "Tax Provision"),
-#             "NetIncomeCommonStockholders": safe_get(financials, "Net Income Common Stockholders"),
-#             "DilutedEPS": safe_get(financials, "Diluted EPS"),
-#             "EBIT": safe_get(financials, "EBIT"),
-#             "EBITDA": safe_get(financials, "EBITDA"),
-
-#                 # Balance Sheet (useful for leverage, liquidity)
-#             "TotalAssets": safe_get(balance_sheet, "Total Assets"),
-#             "TotalDebt": safe_get(balance_sheet, "Total Debt"),
-#             "TotalLiabilityNetMinorityInterest": safe_get(balance_sheet, "Total Liabilities Net Minority Interest"),
-#             "TotalCapit": safe_get(balance_sheet, "Total Capitalization"),
-#             "CommonStock EyEquity": safe_get(balance_sheet, "Common Stock Equity"),
-#             "NetTangible AyAssets": safe_get(balance_sheet, "Net Tangible Assets"),
-#             "WorkingCap": safe_get(balance_sheet, "Working Capital"),
-#             "InvestedCa": safe_get(balance_sheet, "Invested Capital"),
-#             "OrdinaryShareyNumber": safe_get(balance_sheet, "Ordinary Shares Number"),
-#             "TreasuryShareyNumber": safe_get(balance_sheet, "Treasury Shares Number"),
-
-
-#         }
-
-#         return json.dumps(data, indent=2)
-#     except Exception as e:
-#         return f"Error: {str(e)}"
-
-
-# ticker = 'AAPL'
-# print(get_financial_statements(ticker, 1))
-
-
+import yfinance as yf
 import json
-file = 'yhallsym.txt'
-# with open(file, 'r') as file:
-#     my_dict = json.load(file)
-
-with open(file, 'r', encoding='utf-8') as file:
-    content = file.read()
-
-import ast
-
-my_dict = ast.literal_eval(content)
+import polars as pl
+import pandas as pd
+import numpy as np
 
 import pandas as pd
 
-df = pd.DataFrame(list(my_dict.items()), columns=['Ticker', 'Company'])
-# print(df)
+class FinancialDataProcessor:
+    def __init__(self, ticker, balance_sheet, income_stmt, cashflow):
+        self.ticker = ticker
+        self._balance_sheet = balance_sheet
+        self._income_stmt = income_stmt
+        self._cashflow = cashflow
 
-import polars as pl
-df = pl.DataFrame({
-    "Ticker": list(my_dict.keys()),
-    "Company": list(my_dict.values())
-})
+    @classmethod
+    def from_ticker(cls, ticker):
+        try:
+            bs = cls.__reshape_fin_data(cls.get_balance_sheet(ticker))
+            inc = cls.__reshape_fin_data(cls.get_income_stmt(ticker))
+            cf = cls.__reshape_fin_data(cls.get_cashflow(ticker))
+            return cls(ticker, bs, inc, cf)
+        except Exception as e:
+            print(f"Failed to create FinancialDataProcessor for {ticker}: {e}")
+            return cls(ticker, pd.DataFrame(), pd.DataFrame(), pd.DataFrame())
 
-filtered_df = df.filter(
-    df["Company"].str.contains("Fincantieri")
-)
+    def get_merged_data(self):
+        """Public method to get merged financial data."""
+        try:
+            df_merged = self._balance_sheet.merge(self._cashflow, how="left", on=["ticker", "time"])
+            return df_merged.merge(self._income_stmt, how="left", on=["ticker", "time"])
+            # return pd.concat([, self._income_stmt, self._cashflow], ignore_index=True)
+        except Exception as e:
+            print(f"Error merging data: {e}")
+            return pd.DataFrame()
 
-print(filtered_df)
+    def export_to_csv(self, path):
+        """Public method to export merged data to CSV."""
+        try:
+            df = self.get_merged_data()
+            df.to_csv(path, index=False)
+            print(f"Data exported to {path}")
+        except Exception as e:
+            print(f"Error exporting to CSV: {e}")
+            
+    def export_to_xlsx(self, path, sheet_name):
+        """Public method to export merged data to CSV."""
+        try:
+            df = self.get_merged_data()
+            with pd.ExcelWriter(path, engine="openpyxl") as writer:
+                df.to_excel(writer, sheet_name=sheet_name, index=False)
+            print(f"Data exported to {path}")
+        except Exception as e:
+            print(f"Error exporting to CSV: {e}")
+
+    @staticmethod
+    def __reshape_fin_data(df):
+        """Private method to reshape financial data."""
+        try:
+            pivot_vars = ["index", "ticker", "docs"]
+            value_vars = [c for c in df.columns if c not in pivot_vars]
+
+            df = df.melt(
+                id_vars=pivot_vars,
+                value_vars=value_vars,
+                var_name="time",
+                value_name="value"
+            )
+
+            df = df.pivot_table(
+                index=["ticker", "docs", "time"],
+                columns="index",
+                values="value"
+            ).reset_index()
+
+            return df
+        except Exception as e:
+            print(f"Error reshaping financial data: {e}")
+            return pd.DataFrame()
+
+    @staticmethod
+    def __filter_col_by(df, col, by):
+        """Private method to filter a column by prefix."""
+        try:
+            return df[df[col].str.startswith(tuple(by))]
+        except Exception as e:
+            print(f"Error filtering column '{col}': {e}")
+            return pd.DataFrame()
+
+    # Placeholder methods for data retrieval
+    @staticmethod
+    def get_balance_sheet(sym):
+        """Fetches and formats the balance sheet for a given ticker."""
+        try:
+            bs = yf.Ticker(sym).balance_sheet
+            if bs is None or bs.empty:
+                return pd.DataFrame()
+            bs = bs.reset_index()
+            bs['ticker'] = sym
+            bs['docs'] = 'balance_sheet'
+            return bs
+        except Exception as e:
+            print(f"Error retrieving balance sheet for {sym}: {e}")
+            return pd.DataFrame()
+
+    @staticmethod
+    def get_income_stmt(sym):
+        """Fetches and formats the income statement for a given ticker."""
+        try:
+            inc = yf.Ticker(sym).income_stmt
+            if inc is None or inc.empty:
+                return pd.DataFrame()
+            inc = inc.reset_index()
+            inc['ticker'] = sym
+            inc['docs'] = 'income_stmt'
+            return inc
+        except Exception as e:
+            print(f"Error retrieving income statement for {sym}: {e}")
+            return pd.DataFrame()
+
+    @staticmethod
+    def get_cashflow(sym):
+        """Fetches and formats the cash flow statement for a given ticker."""
+        try:
+            cf = yf.Ticker(sym).cash_flow
+            if cf is None or cf.empty:
+                return pd.DataFrame()
+            cf = cf.reset_index()
+            cf['ticker'] = sym
+            cf['docs'] = 'cash_flow'
+            return cf
+        except Exception as e:
+            print(f"Error retrieving cash flow for {sym}: {e}")
+            return pd.DataFrame()
+
+            
+            
+# Instantiate the processor for a specific ticker
+processor = FinancialDataProcessor.from_ticker("AAPL")
+
+# Get merged financial data
+merged_data = processor.get_merged_data()
+print(merged_data.head())
+
+# Export to CSV
+processor.export_to_csv("aapl_financials.csv")
+processor.export_to_xlsx("aapl_financials.xlsx", "aapl")
