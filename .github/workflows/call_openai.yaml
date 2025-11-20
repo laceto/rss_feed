@@ -1,7 +1,7 @@
 on:  
-  push:  # Trigger on any push to any branch  
-    branches:  
-      - '**'  # This means all branches  
+  # push:  # Trigger on any push to any branch  
+  #   branches:  
+  #     - '**'  # This means all branches  
   workflow_dispatch:
 
 jobs:  
