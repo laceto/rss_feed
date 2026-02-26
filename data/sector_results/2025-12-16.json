@@ -1,0 +1,84 @@
+{
+  "date": "2025-12-16",
+  "batch_id": "batch_69a0c0d2f81c81909ceb2ac0a713382e",
+  "sectors": [
+    {
+      "entities": [
+        "Reclassification to a Schedule III drug",
+        "pharmaceutical companies"
+      ],
+      "sector": "Health Services",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Obamacare subsidies"
+      ],
+      "sector": "Health Services",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "U.S. crude oil"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Nasdaq"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Micron"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Southwest Airlines",
+        "Circle Internet Group",
+        "Halliburton"
+      ],
+      "sector": "Transportation",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "AI permit process reform",
+        "Big Tech"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "positive",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Waymo",
+        "Zoox",
+        "Tesla"
+      ],
+      "sector": "Transportation",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    }
+  ]
+}

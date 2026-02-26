@@ -1,0 +1,86 @@
+{
+  "date": "2025-08-27",
+  "batch_id": "batch_69a0c0d2f81c81909ceb2ac0a713382e",
+  "sectors": [
+    {
+      "entities": [
+        "Google",
+        "exec"
+      ],
+      "sector": "Commercial Services",
+      "sentiment": "neutral",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Nvidia",
+        "analysts"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Trump White House",
+        "Fed Governor Lisa Cook"
+      ],
+      "sector": "Finance",
+      "sentiment": "negative",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Cracker Barrel"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Taylor Swift",
+        "companies",
+        "prediction markets"
+      ],
+      "sector": "Consumer Services",
+      "sentiment": "positive",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "SpaceX"
+      ],
+      "sector": "Transportation",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "ByteDance"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Saudi AI firm Humain",
+        "Nvidia",
+        "AMD",
+        "Groq"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    }
+  ]
+}

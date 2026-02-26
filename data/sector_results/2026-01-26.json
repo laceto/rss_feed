@@ -1,0 +1,33 @@
+{
+  "date": "2026-01-26",
+  "batch_id": "batch_69a0c0d2f81c81909ceb2ac0a713382e",
+  "sectors": [
+    {
+      "entities": [
+        "Booz Allen",
+        "Charles Edward Littlejohn",
+        "Amazon",
+        "Jeff Bezos",
+        "Tesla",
+        "Michael Burry",
+        "Zoom",
+        "Anthropic",
+        "Microsoft",
+        "Nvidia",
+        "Apple",
+        "Enphase",
+        "Allied Gold",
+        "CoreWeave",
+        "Synthesia",
+        "Costco",
+        "Meta",
+        "Microsoft",
+        "Apple"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}

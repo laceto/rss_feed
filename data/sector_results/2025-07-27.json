@@ -1,0 +1,16 @@
+{
+  "date": "2025-07-27",
+  "batch_id": "batch_69a0c0d2f81c81909ceb2ac0a713382e",
+  "sectors": [
+    {
+      "entities": [
+        "European Commission",
+        "Ursula von der Leyen"
+      ],
+      "sector": "Distribution Services",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    }
+  ]
+}

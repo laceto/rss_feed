@@ -1,0 +1,69 @@
+{
+  "date": "2025-11-30",
+  "batch_id": "batch_69a0c0d2f81c81909ceb2ac0a713382e",
+  "sectors": [
+    {
+      "entities": [
+        "Disney",
+        "Zootopia 2"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "U.S. colleges",
+        "international students"
+      ],
+      "sector": "Consumer Services",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Hong Kong",
+        "Beijing"
+      ],
+      "sector": "Communications",
+      "sentiment": "negative",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Norway wealth fund",
+        "Microsoft",
+        "Satya Nadella"
+      ],
+      "sector": "Finance",
+      "sentiment": "negative",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Pope Leo",
+        "Lebanon",
+        "Hezbollah",
+        "Naim Qassem"
+      ],
+      "sector": "Health Services",
+      "sentiment": "neutral",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "China",
+        "factory"
+      ],
+      "sector": "Process Industries",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    }
+  ]
+}

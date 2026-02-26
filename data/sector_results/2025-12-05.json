@@ -1,0 +1,85 @@
+{
+  "date": "2025-12-05",
+  "batch_id": "batch_69a0c0d2f81c81909ceb2ac0a713382e",
+  "sectors": [
+    {
+      "entities": [
+        "Netflix",
+        "Warner Bros. (WBD)",
+        "Paramount Skydance",
+        "Comcast"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "negative",
+      "news_category": "M&A",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "RFK Jr.",
+        "hepatitis B shot"
+      ],
+      "sector": "Health Services",
+      "sentiment": "neutral",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Federal Reserve"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Nvidia",
+        "CoreWeave"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Meta",
+        "Limitless"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "India's central bank"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Cloudflare"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Binance",
+        "Changpeng Zhao"
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "other",
+      "extraction_status": "ok"
+    }
+  ]
+}

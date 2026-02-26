@@ -1,0 +1,87 @@
+{
+  "date": "2026-02-16",
+  "batch_id": "batch_69a0c0d2f81c81909ceb2ac0a713382e",
+  "sectors": [
+    {
+      "entities": [
+        "Apple",
+        "YouTube",
+        "Spotify"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Visa",
+        "International Olympic Committee"
+      ],
+      "sector": "Distribution Services",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "software stocks",
+        "Citi"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "ByteDance",
+        "Hollywood"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "OpenAI",
+        "Altman"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "appointments",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "China",
+        "U.S. AI monopoly"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "cryptocurrency",
+        "human trafficking"
+      ],
+      "sector": "Finance",
+      "sentiment": "negative",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Deutsche Bank",
+        "U.S. equities"
+      ],
+      "sector": "Finance",
+      "sentiment": "negative",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    }
+  ]
+}

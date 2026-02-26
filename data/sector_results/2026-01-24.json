@@ -1,0 +1,38 @@
+{
+  "date": "2026-01-24",
+  "batch_id": "batch_69a0c0d2f81c81909ceb2ac0a713382e",
+  "sectors": [
+    {
+      "entities": [
+        "Trump",
+        "Canada",
+        "China"
+      ],
+      "sector": "Distribution Services",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Meta",
+        "Reality Labs"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "negative",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Nvidia",
+        "Persis Drell",
+        "Jensen Huang"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}

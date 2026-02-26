@@ -1,0 +1,31 @@
+{
+  "date": "2026-01-18",
+  "batch_id": "batch_69a0c0d2f81c81909ceb2ac0a713382e",
+  "sectors": [
+    {
+      "entities": [
+        "Trump administration",
+        "JPMorgan Chase",
+        "Supreme Court",
+        "Khanna",
+        "Berkshire",
+        "Greenland",
+        "South Korean noodle companies",
+        "Airwallex"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "health CEOs"
+      ],
+      "sector": "Health Services",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}

@@ -1,6 +1,8 @@
+name: daily-pipeline
+
 on:
   schedule:
-    - cron:  "0 19 * * 1-5"
+    - cron: "0 19 * * 1-5"
   workflow_dispatch:
 
 jobs:  
@@ -23,12 +25,12 @@ jobs:
         cache: 'pip'
 
     - name: Install Python dependencies
-      run: pip install langchain-core langchain-openai pydantic python-dotenv pandas
+      run: pip install openai pydantic python-dotenv pandas
 
-    - name: Enrich feeds
+    - name: Submit sector batch
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      run: python enrich_feeds.py
+      run: python create_batch_files_v2.py
 
     # - name: Run Script delete
     #  run: Rscript script_del.R

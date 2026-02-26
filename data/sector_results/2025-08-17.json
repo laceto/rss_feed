@@ -1,0 +1,18 @@
+{
+  "date": "2025-08-17",
+  "batch_id": "batch_69a0c0d2f81c81909ceb2ac0a713382e",
+  "sectors": [
+    {
+      "entities": [
+        "energy transition",
+        "green business leaders",
+        "CNBC",
+        "JP Ong"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    }
+  ]
+}

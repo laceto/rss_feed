@@ -1,0 +1,46 @@
+{
+  "date": "2026-01-29",
+  "batch_id": "batch_69a0c0d2f81c81909ceb2ac0a713382e",
+  "sectors": [
+    {
+      "entities": [
+        "ServiceNow"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Microsoft",
+        "Meta",
+        "Apple",
+        "Waymo",
+        "NHTSA",
+        "Tesla",
+        "Elon Musk",
+        "JPMorgan",
+        "Gold",
+        "JPMorgan",
+        "Nvidia",
+        "ASML",
+        "Toyota",
+        "Deutsche Bank",
+        "SK Hynix",
+        "Samsung",
+        "Carvana",
+        "Southwest Airlines",
+        "Google DeepMind",
+        "Canaccord Genuity",
+        "LightPath Technologies",
+        "UnitedHealthcare",
+        "xAI"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}

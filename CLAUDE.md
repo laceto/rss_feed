@@ -6,8 +6,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 A hybrid R + Python pipeline for financial news analysis:
 
-1. **R (scraping)**: `download.R` fetches CNBC RSS feeds daily → `output/feeds{date}.txt` (tab-separated)
-2. **Python (analysis)**: LLM-powered scripts consume those feed files to extract trading signals and structured financial analysis
+1. **R (scraping)**: `download.R` fetches CNBC RSS feeds daily → `output/feeds{date}.txt`
+2. **Python (sector analysis)**: LLM-powered batch pipeline extracts sector-level trading signals per day
+3. **Python (charting)**: Sentiment trend charts generated from consolidated results
 
 ## Running the Scripts
 
@@ -15,101 +16,104 @@ A hybrid R + Python pipeline for financial news analysis:
 ```bash
 Rscript download.R
 ```
-Outputs `output/feeds{YYYY-MM-DD}.txt`. R package deps are declared in `DESCRIPTION` (`rvest`, `xml2`, `XML`, `dplyr`, `purrr`).
+Outputs `output/feeds{YYYY-MM-DD}.txt` (tab-separated). R deps in `DESCRIPTION` (`rvest`, `xml2`, `XML`, `dplyr`, `purrr`).
 
 ### Python — Virtual Environment
 ```bash
-# Activate venv (Windows)
-venv\Scripts\activate
+venv\Scripts\activate   # Windows
 
-# Run trading signal extractor (reads all output/*.txt feed files)
-python trader_assistant.py
+python create_batch_files_v2.py    # submit sector batch to OpenAI Batch API
+python retrieve_batch_file_results.py  # collect completed batch results
+python read_sector_results.py      # flatten results → data/sector_summary.tsv
+python visualize_sentiment.py      # generate charts → data/charts/
 
-# Run batch job creator (reads output_dict_list.txt of ticker indicator dicts)
-python create_batch_files.py
-
-# Run RAG chatbot (requires pre-built vectorstore at ./vectorstore/book)
-streamlit run chatbot6.py
+python trader_assistant.py         # trading signal extractor (LangChain)
+python create_batch_files.py       # MA/RSI batch analysis (tickers)
+streamlit run chatbot6.py          # RAG chatbot (requires pre-built vectorstore)
 ```
 
-Python deps are in `requirements.txt`. API keys go in `.env` (already gitignored):
+Python deps: `openai pydantic python-dotenv pandas matplotlib seaborn`. API keys in `.env` (gitignored):
 ```
 OPENAI_API_KEY=sk-...
 ```
 
 ## Architecture
 
-### Data Flow
+### Sector Analysis Pipeline (primary daily pipeline)
 ```
-GitHub Actions (weekdays 19:00 UTC)
+GitHub Actions — daily-pipeline (weekdays 19:00 UTC)
   → download.R
-  → output/feeds{date}.txt   (tab-separated: title, description, link, guid, type, id, sponsored, pubDate)
+  → output/feeds{date}.txt
 
-trader_assistant.py
-  → reads all output/*.txt via utils.get_file_paths()
-  → concatenates into pandas DataFrame
-  → converts rows to LangChain Documents via utils.df_to_docs()
-  → LangChain chain: ChatPromptTemplate | ChatOpenAI | OutputFixingParser
-  → outputs structured JSON: {company_or_sector, trading_decision, signal, motivation, news_topic}
+  → create_batch_files_v2.py
+      reads:  output/feeds*.txt  (top-level only — never output/enriched/)
+      skips:  dates with existing data/sector_results/{date}.json
+      writes: data/pending_sector_batch.txt  (batch job ID)
+      writes: data/batch_tasks_sector.jsonl
+      commits all to main
 
-create_batch_files.py
-  → reads output_dict_list.txt (list of ticker indicator dicts: ema_st/mt/lt, rsi, spreads)
-  → builds JSONL batch file → data/batch_tasks_tickers.jsonl
-  → uploads to OpenAI Files API, creates batch job
+GitHub Actions — collect-sector-results (triggered by daily-pipeline completion)
+  → retrieve_batch_file_results.py
+      reads:  data/pending_sector_batch.txt
+      polls:  OpenAI Batch API (exit 0=done, 1=error, 2=retry)
+      writes: data/sector_results/{date}.json  (one per date)
+      clears: data/pending_sector_batch.txt on success
 
-old/retrieve_batch_results.py
-  → reads data/batch_job_results_tickers.jsonl
-  → parses OpenAI batch results
+  → read_sector_results.py
+      reads:  data/sector_results/*.json
+      writes: data/sector_summary.tsv  (flat, one row per date × sector)
 
-chatbot6.py (Streamlit RAG)
-  → loads FAISS vectorstore from ./vectorstore/book (pre-built, FakeEmbeddings for loading)
-  → loads ./data/book.txt and chunks it for BM25
-  → hybrid retriever: EnsembleRetriever(BM25 + semantic FAISS, weights 0.5/0.5)
-  → LangGraph: StateGraph with retrieve → generate nodes + MemorySaver checkpointer
-  → streams responses via ChatOpenAI(model="gpt-4", streaming=True)
+  → visualize_sentiment.py
+      reads:  data/sector_summary.tsv
+      writes: data/charts/sentiment_heatmap.png
+              data/charts/sentiment_trends.png
+              data/charts/sentiment_distribution.png
 ```
+
+### Sector Analysis Schema
+`SectorAnalysis` (Pydantic, defined in `create_batch_files_v2.py`) is the single source of truth:
+
+| Field | Type |
+|---|---|
+| `entities` | `list[str]` — named companies/orgs |
+| `sector` | `Literal[19 values]` — fixed taxonomy (Commercial Services … Utilities) |
+| `sentiment` | `Literal["positive", "neutral", "negative"]` |
+| `news_category` | `Literal["earnings","M&A","regulation","macro","appointments","products","markets","other"]` |
+| `extraction_status` | `Literal["ok", "partial"]` |
+
+`MultiSectorAnalysis` wraps `list[SectorAnalysis]` (1–8 sectors per day).
 
 ### Key Files
 | File | Purpose |
 |---|---|
-| `utils.py` | Shared helpers: `get_file_paths`, `df_to_docs`, `excel_to_docs`, `add_metadata_to_docs` |
-| `enrich_feeds.py` | Batch-enrich feed files → `output/enriched/feeds{date}.txt` (see below) |
+| `create_batch_files_v2.py` | Reads raw feeds, submits daily sector batch to OpenAI |
+| `retrieve_batch_file_results.py` | Collects completed batch; routes to `data/sector_results/` |
+| `read_sector_results.py` | Flattens all JSON results → `data/sector_summary.tsv` |
+| `visualize_sentiment.py` | Three sentiment charts from `sector_summary.tsv` |
+| `utils.py` | Shared helpers: `get_file_paths`, `df_to_docs`, `excel_to_docs` |
 | `trader_assistant.py` | News → trading signal LangChain chain |
-| `create_batch_files.py` | MA/RSI analysis via OpenAI Batch API |
-| `chatbot6.py` | Streamlit RAG chatbot with LangGraph + hybrid retrieval |
+| `create_batch_files.py` | MA/RSI ticker analysis via OpenAI Batch API |
+| `chatbot6.py` | Streamlit RAG chatbot with LangGraph + hybrid FAISS/BM25 retrieval |
 | `download.R` | RSS scraper, called by GitHub Actions |
 | `old/` | Archived/experimental versions — not used in production |
 
-### Pydantic Models in `create_batch_files.py`
-`TraderAnalysis` is a deeply nested Pydantic model representing the full structured MA/RSI report: `Overview`, `MovingAverageStructureAnalysis`, `RSIAndMomentumAssessment`, `TrendStrengthRSIMatrix`, `OverallMarketContext`, `RiskOpportunityAssessment`, `TacticalTradeConsiderations`, `SummarySignal`.
+### Strict Schema Note
+`create_batch_files_v2.py` uses `_make_openai_strict()` to convert the Pydantic schema to OpenAI strict JSON schema format (adds `additionalProperties: false` + `required[]` recursively). This replaces the former private SDK call `openai.lib._pydantic.to_strict_json_schema`.
 
-### Required Directories and Artifacts
-- `output/` — created by `download.R` if absent; holds daily feed files
-- `data/` — must exist before running `create_batch_files.py` (holds JSONL and `book.txt`)
-- `vectorstore/book/` — pre-built FAISS index required by `chatbot6.py` (not regenerated at runtime)
-- `output_dict_list.txt` — JSON list of ticker indicator dicts, input to `create_batch_files.py`
+### Incremental Sentinel
+Both batch scripts use file existence as the processed sentinel:
+- `create_batch_files_v2.py` skips dates where `data/sector_results/{date}.json` already exists
+- `retrieve_batch_file_results.py` clears `data/pending_sector_batch.txt` only after full success
 
-### Feed Enrichment Pipeline (`enrich_feeds.py`)
-
-Uses direct async LangChain calls (`asyncio.gather` with `MAX_CONCURRENCY=20`) to enrich feed rows in one blocking pass.
-
-```
-output/feeds{date}.txt      (raw, immutable)
-        ↓  enrich_feeds.py
-output/enriched/feeds{date}.txt  (guid + entities|sector|sentiment|news_category|extraction_status)
-```
-
-**Join raw + enriched:** `raw_df.merge(enriched_df, on="guid", how="left")`
-
-**Deduplication:** rows with duplicate normalized descriptions (across all new files in a single run) are dropped before calling the LLM. Deduped rows appear as NaN in the merged dataframe.
-
-**Incremental sentinel:** enriched file presence = processed. All-failed dates are NOT written and are retried on the next run.
-
-**`FeedEnrichment` Pydantic model** in `enrich_feeds.py` is the single source of truth for the enriched schema. Add/remove fields there first; writing and joining code follows from it.
-
-```bash
-python enrich_feeds.py   # process all unprocessed dates
-```
+### Required Directories
+- `output/` — daily feed files written by `download.R`
+- `data/sector_results/` — created at runtime by collection script
+- `data/charts/` — created at runtime by visualization script
+- `data/` — must exist for `create_batch_files.py` (holds `batch_tasks_tickers.jsonl`, `book.txt`)
+- `vectorstore/book/` — pre-built FAISS index for `chatbot6.py` (not regenerated at runtime)
 
 ### CI/CD
-`.github/workflows/main.yml` runs `download.R` on weekdays at 19:00 UTC, commits the resulting feed file back to `main`. The second workflow (`call_openai.yaml`) is manual-dispatch only.
+| Workflow | Trigger | What it does |
+|---|---|---|
+| `daily-pipeline` | cron `0 19 * * 1-5` + manual | download.R → create_batch_files_v2.py → commit |
+| `collect-sector-results` | on `daily-pipeline` completion + manual | retrieve → flatten → charts → commit |

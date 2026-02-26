@@ -1,0 +1,90 @@
+{
+  "date": "2026-02-05",
+  "batch_id": "batch_69a0c0d2f81c81909ceb2ac0a713382e",
+  "sectors": [
+    {
+      "entities": [
+        "Bitcoin"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "UAE",
+        "Trump"
+      ],
+      "sector": "Communications",
+      "sentiment": "neutral",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Fed",
+        "Warsh"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Dow",
+        "Nasdaq",
+        "Wall Street",
+        "S&P 500"
+      ],
+      "sector": "Finance",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Amazon",
+        "Qualcomm",
+        "Broadcom",
+        "Alphabet",
+        "Google",
+        "Meta"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Est\u00e9e Lauder",
+        "Hims & Hers",
+        "Wegovy"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "negative",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Peloton"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "negative",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Shell"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    }
+  ]
+}

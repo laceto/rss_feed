@@ -1,0 +1,92 @@
+name: collect-sector-results
+
+on:
+  # Runs automatically once daily-pipeline finishes (which commits pending_sector_batch.txt)
+  workflow_run:
+    workflows: ["daily-pipeline"]
+    types: [completed]
+
+  # Allow manual trigger (e.g. if you want to collect immediately after a manual batch submit)
+  workflow_dispatch:
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    # Only run if the triggering workflow succeeded (skip on daily-pipeline failure)
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Python dependencies
+        run: pip install openai pydantic python-dotenv pandas matplotlib seaborn
+
+      - name: Check if a batch is pending
+        id: check
+        run: |
+          if [ -f data/pending_sector_batch.txt ]; then
+            echo "pending=true" >> "$GITHUB_OUTPUT"
+            echo "Batch ID: $(cat data/pending_sector_batch.txt)"
+          else
+            echo "pending=false" >> "$GITHUB_OUTPUT"
+            echo "No pending batch found — nothing to collect."
+          fi
+
+      - name: Collect batch results (with retry)
+        if: steps.check.outputs.pending == 'true'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        # Exit codes from retrieve_batch_file_results.py:
+        #   0 = collected successfully
+        #   1 = fatal error (bad batch ID, API error, etc.)
+        #   2 = batch not yet complete — safe to retry
+        run: |
+          MAX_ATTEMPTS=12
+          SLEEP_SECONDS=300   # 5 minutes between retries → up to 1 hour total
+
+          for i in $(seq 1 $MAX_ATTEMPTS); do
+            echo "=== Attempt $i / $MAX_ATTEMPTS ==="
+            python retrieve_batch_file_results.py
+            rc=$?
+
+            if [ $rc -eq 0 ]; then
+              echo "Collection succeeded on attempt $i."
+              exit 0
+            elif [ $rc -eq 2 ]; then
+              if [ $i -lt $MAX_ATTEMPTS ]; then
+                echo "Batch not ready yet. Waiting ${SLEEP_SECONDS}s before retry..."
+                sleep $SLEEP_SECONDS
+              else
+                echo "Batch still not complete after $MAX_ATTEMPTS attempts. Giving up."
+                echo "Re-run this workflow manually once the batch finishes."
+                exit 0  # not a pipeline failure; just incomplete
+              fi
+            else
+              echo "Fatal error during collection (exit $rc). Aborting."
+              exit 1
+            fi
+          done
+
+      - name: Build sector summary
+        if: steps.check.outputs.pending == 'true'
+        run: python read_sector_results.py
+
+      - name: Generate sentiment charts
+        if: steps.check.outputs.pending == 'true'
+        run: python visualize_sentiment.py
+
+      - name: Commit sector results
+        if: steps.check.outputs.pending == 'true'
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add data/sector_results/ data/sector_summary.tsv data/charts/ data/pending_sector_batch.txt
+          git commit -m "sector analysis results" || echo "No changes to commit"
+          git push origin || echo "Nothing to push"

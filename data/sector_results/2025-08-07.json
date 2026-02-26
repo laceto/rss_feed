@@ -1,0 +1,32 @@
+{
+  "date": "2025-08-07",
+  "batch_id": "batch_69a0c0d2f81c81909ceb2ac0a713382e",
+  "sectors": [
+    {
+      "entities": [
+        "CNBC",
+        "OpenAI",
+        "Firefly Aerospace",
+        "Meta",
+        "Eli Lilly",
+        "Amazon",
+        "Intel",
+        "Duolingo",
+        "SoftBank",
+        "Maersk",
+        "Toyota",
+        "Samsung",
+        "TSMC",
+        "Gregorys Coffee",
+        "Restaurant Brands International",
+        "Tesla",
+        "Pinterest",
+        "AppLovin"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}

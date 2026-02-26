@@ -1,39 +1,248 @@
+"""
+retrieve_batch_file_results.py
+Collects completed OpenAI Batch API results for sector-level news analysis.
 
-from dotenv import load_dotenv, find_dotenv 
-load_dotenv()
+Architecture:
+- Reads batch job ID from data/pending_sector_batch.txt (written by create_batch_files_v2.py)
+- Checks batch status; exits gracefully if the batch is not yet complete
+- Downloads and parses the output JSONL from OpenAI
+- Routes each result to data/sector_results/{date}.json via the custom_id field
+- Clears pending_sector_batch.txt after a fully successful collection
 
-from openai import OpenAI
-client = OpenAI()
+custom_id convention (set by create_batch_files_v2.py):
+    "sector-YYYY-MM-DD"  →  data/sector_results/YYYY-MM-DD.json
+
+Debugging:
+- data/pending_sector_batch.txt holds the active batch ID; inspect to check state
+- data/batch_output_sector.jsonl is the raw JSONL download from OpenAI
+- Per-item failures are logged with their custom_id and do not abort collection
+"""
+
+from pathlib import Path
 import json
+import sys
+
+from dotenv import load_dotenv
+from openai import OpenAI
+
+load_dotenv()
+client = OpenAI()
+
+# ── Constants ──────────────────────────────────────────────────────────────────
+
+PENDING_BATCH_FILE = Path("data") / "pending_sector_batch.txt"
+RAW_OUTPUT_FILE = Path("data") / "batch_output_sector.jsonl"
+RESULTS_DIR = Path("data") / "sector_results"
+
+# Batch terminal states — anything else means still in flight
+TERMINAL_STATES = {"completed", "failed", "expired", "cancelled"}
+SUCCESS_STATE = "completed"
 
 
-batch_job = client.batches.retrieve('batch_6977e730ee208190995568e837e3fd5a')
+# ── Batch status ────────────────────────────────────────────────────────────────
 
-# # # Retrieving results
-result_file_id = batch_job.output_file_id
-result = client.files.content(result_file_id).content
-result_file_name = "batch_job_results_rss_feeds.jsonl"
+def read_pending_batch_id() -> str:
+    """Read the active batch job ID from the sentinel file.
 
-with open(result_file_name, 'wb') as file:
-    file.write(result)
+    Fails fast with a clear message if the file is missing, which means
+    create_batch_files_v2.py has not been run yet (or already collected).
+    """
+    if not PENDING_BATCH_FILE.exists():
+        print(
+            f"[error] No pending batch found at {PENDING_BATCH_FILE}.\n"
+            "Run create_batch_files_v2.py first to submit a batch job."
+        )
+        sys.exit(1)
+    return PENDING_BATCH_FILE.read_text().strip()
 
-# Loading data from saved file
-results = []
-with open(result_file_name, 'r') as file:
-    for line in file:
-        # Parsing the JSON string into a dict and appending to the list of results
-        json_object = json.loads(line.strip())
-        results.append(json_object)
 
-with open("data/rss_feeds.jsonl", "w") as f: 
-    for row in results: f.write(json.dumps(row) + "\n")
+def check_batch_status(batch_id: str) -> dict:
+    """Retrieve the batch object from OpenAI and report progress.
 
-import rich
-# rich.print(results[0])
+    Returns the batch object dict.
+    Exits with code 0 if the batch is still in flight (caller should retry later).
+    Exits with code 1 if the batch failed, expired, or was cancelled.
+    """
+    batch = client.batches.retrieve(batch_id)
+    counts = batch.request_counts  # OpenAI BatchRequestCounts object
 
-# res = results[0]
-for res in results:
-    rich.print(res['response']['body']['choices'][0]['message']['content'])
-# for res in result[:2]:
-#     rich.print(res['response'])
-    # rich.print(res['response']['body']['choices'][0]['message']['content'])
+    status_line = (
+        f"Batch {batch_id} → status: {batch.status} | "
+        f"total: {counts.total} | completed: {counts.completed} | failed: {counts.failed}"
+    )
+    print(status_line)
+
+    if batch.status not in TERMINAL_STATES:
+        print("Batch is still in progress. Re-run this script once it completes.")
+        sys.exit(2)  # exit 2 = not ready yet; retry is safe
+
+    if batch.status != SUCCESS_STATE:
+        print(
+            f"[error] Batch ended with status '{batch.status}'. "
+            "No results to collect. Check the OpenAI dashboard for details."
+        )
+        sys.exit(1)
+
+    return batch
+
+
+# ── Download ────────────────────────────────────────────────────────────────────
+
+def download_results(batch) -> list[dict]:
+    """Download the output JSONL from OpenAI and parse it into a list of dicts.
+
+    Saves the raw bytes to RAW_OUTPUT_FILE for debugging before parsing.
+    Each element is one batch item: {custom_id, response, error}.
+    """
+    if not batch.output_file_id:
+        print("[error] Batch completed but output_file_id is None. Nothing to download.")
+        sys.exit(1)
+
+    print(f"Downloading output file {batch.output_file_id}...")
+    raw_bytes = client.files.content(batch.output_file_id).content
+
+    RAW_OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    RAW_OUTPUT_FILE.write_bytes(raw_bytes)
+    print(f"Raw output saved → {RAW_OUTPUT_FILE}")
+
+    items = []
+    for line in raw_bytes.decode("utf-8").splitlines():
+        line = line.strip()
+        if line:
+            items.append(json.loads(line))
+
+    print(f"Parsed {len(items)} item(s) from batch output.")
+    return items
+
+
+# ── Parsing and routing ──────────────────────────────────────────────────────────
+
+def _date_from_custom_id(custom_id: str) -> str | None:
+    """Extract date string from 'sector-YYYY-MM-DD' custom_id format.
+
+    Returns None if the format does not match (defensive — should not happen
+    with tasks generated by create_batch_files_v2.py).
+    """
+    prefix = "sector-"
+    if custom_id.startswith(prefix):
+        return custom_id[len(prefix):]
+    return None
+
+
+def _parse_sectors(content_str: str) -> dict | None:
+    """Parse the LLM JSON response string into a dict.
+
+    Returns None if parsing fails. Since create_batch_files_v2.py uses
+    strict JSON schema mode, malformed JSON here indicates an API-level issue.
+    """
+    try:
+        parsed = json.loads(content_str)
+        if "sectors" not in parsed:
+            print("[warn] Response JSON has no 'sectors' key — storing as-is.")
+        return parsed
+    except json.JSONDecodeError as exc:
+        print(f"[error] Failed to parse response JSON: {exc}")
+        return None
+
+
+def save_results(items: list[dict], batch_id: str) -> tuple[int, int]:
+    """Parse each batch item and write to data/sector_results/{date}.json.
+
+    Returns (ok_count, failed_count).
+
+    Each output file format:
+        {
+            "date": "YYYY-MM-DD",
+            "batch_id": "batch_...",
+            "sectors": [{ entities, sector, sentiment, news_category, extraction_status }, ...]
+        }
+    """
+    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+
+    ok_count = 0
+    failed_count = 0
+
+    for item in items:
+        custom_id = item.get("custom_id", "unknown")
+        date = _date_from_custom_id(custom_id)
+
+        if date is None:
+            print(f"[warn] Unrecognised custom_id '{custom_id}' — skipping.")
+            failed_count += 1
+            continue
+
+        # ── Check for item-level error ──────────────────────────────────────
+        if item.get("error"):
+            print(f"[fail] {date}: batch item error → {item['error']}")
+            failed_count += 1
+            continue
+
+        response = item.get("response")
+        if response is None:
+            print(f"[fail] {date}: response is null (no error field either).")
+            failed_count += 1
+            continue
+
+        status_code = response.get("status_code")
+        if status_code != 200:
+            print(f"[fail] {date}: HTTP {status_code} from API.")
+            failed_count += 1
+            continue
+
+        # ── Parse content ───────────────────────────────────────────────────
+        try:
+            content_str = response["body"]["choices"][0]["message"]["content"]
+        except (KeyError, IndexError) as exc:
+            print(f"[fail] {date}: unexpected response structure → {exc}")
+            failed_count += 1
+            continue
+
+        sectors_data = _parse_sectors(content_str)
+        if sectors_data is None:
+            failed_count += 1
+            continue
+
+        # ── Write result file ────────────────────────────────────────────────
+        result = {"date": date, "batch_id": batch_id, **sectors_data}
+        out_path = RESULTS_DIR / f"{date}.json"
+        out_path.write_text(json.dumps(result, indent=2))
+        print(f"[ok]   {date} → {out_path} ({len(sectors_data.get('sectors', []))} sector(s))")
+        ok_count += 1
+
+    return ok_count, failed_count
+
+
+# ── Entry point ──────────────────────────────────────────────────────────────────
+
+def main() -> None:
+    print("=== Sector Batch Collection ===")
+
+    # 1. Read pending batch ID
+    batch_id = read_pending_batch_id()
+    print(f"Found pending batch: {batch_id}")
+
+    # 2. Check status — exits early if not complete
+    batch = check_batch_status(batch_id)
+
+    # 3. Download and parse output
+    items = download_results(batch)
+
+    # 4. Route results to per-date JSON files
+    ok_count, failed_count = save_results(items, batch_id)
+
+    # 5. Summary
+    print(f"\nCollection complete: {ok_count} ok, {failed_count} failed.")
+
+    # 6. Clear sentinel only when all items succeeded; warn otherwise
+    if failed_count == 0:
+        PENDING_BATCH_FILE.unlink()
+        print(f"Cleared {PENDING_BATCH_FILE}.")
+    else:
+        print(
+            f"[warn] {failed_count} item(s) failed — keeping {PENDING_BATCH_FILE} for inspection.\n"
+            "Manually delete it after investigating the failures above."
+        )
+
+
+if __name__ == "__main__":
+    main()
