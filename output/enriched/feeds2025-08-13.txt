@@ -1,0 +1,49 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108185336	Cava|Chipotle	Consumer	negative	markets	ok
+108185014					failed
+108185170					failed
+108184938	Dow|S&P 500|Nasdaq Composite	Other	positive	markets	ok
+108185315	Warren Buffett|CNBC Pro|Morningstar	Industrial	neutral	markets	ok
+108185415	Goldman Sachs|JPMorgan|Galaxy Digital|Richard Kim	Finance	negative	regulation	ok
+108185580					failed
+108185474					failed
+108182360					failed
+108185371		Finance	positive	regulation	ok
+108184722					failed
+108185391					failed
+108185446					failed
+108185267					failed
+108185328	Port of Los Angeles|Trump|China	Other	positive	macro	ok
+108185384					failed
+108185331	Federal Reserve|Kalshi|CNBC|David Zervos|Jefferies	Finance	positive	markets	ok
+108185457	Portland Trail Blazers|Paul Allen's estate|Tom Dundon|Carolina Hurricanes|Pro Pickleball Association|Major League Pickleball	Other	positive	M&A	ok
+108185506					failed
+108185279					failed
+106510252					failed
+108185430					failed
+108185225					failed
+108185192	Gildan Activewear|Hanesbrands	Consumer	positive	M&A	ok
+108185278	Goldman Sachs	Finance	positive	markets	ok
+108184901	Cisco	Technology	positive	earnings	ok
+108184878	Bullish	Finance	positive	markets	ok
+108185307					failed
+108185112					failed
+108185128					failed
+108185108		Other	positive	markets	ok
+108185151	Tencent	Technology	positive	earnings	ok
+108185116					failed
+108185071					failed
+108185113					failed
+108184134					failed
+108183921					failed
+108185037					failed
+108185083	China|U.S. warship|Scarborough Shoal|Chinese warship|coast guard vessels|Philippines	Other	neutral	macro	ok
+108185095	Federal Reserve	Finance	positive	macro	ok
+108185049	South Korea|Kim	Policy	negative	regulation	ok
+108184830					failed
+108184927					failed
+108185369					failed
+108184995	Smithsonian	Policy	neutral	regulation	ok
+108184829	Cava|Hyphen	Consumer	negative	markets	ok
+108184903	Heritage Foundation|E.J. Antoni|Donald Trump|Bureau of Labor Statistics	Policy	neutral	macro	ok
+108185153					failed

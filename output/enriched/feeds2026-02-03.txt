@@ -1,0 +1,74 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108260400					failed
+108260771					failed
+108260862					failed
+108260872					failed
+108260703	Novo Nordisk	Healthcare	negative	products	ok
+108260310					failed
+108260728					failed
+108260781					failed
+108260816					failed
+108260699					failed
+108260316					failed
+108260645					failed
+108260692					failed
+108260897					failed
+108260806					failed
+108258782					failed
+108260729					failed
+108260835	S&P Global Market Intelligence	Finance	negative	markets	ok
+108257935					failed
+108260834					failed
+108260150					failed
+108257725					failed
+108260727					failed
+108260737	Walmart	Consumer	positive	markets	ok
+108253692					failed
+108260662					failed
+108260566					failed
+108260583					failed
+108260307					failed
+108260655					failed
+108260704					failed
+108260256					failed
+108260646					failed
+108260636					failed
+108260508					failed
+108259988					failed
+108260251					failed
+108260614					failed
+108260308					failed
+108260556					failed
+108260198					failed
+108260323					failed
+108260584					failed
+108260542					failed
+108260299					failed
+108260534					failed
+108260346	SpaceX|xAI|Elon Musk	Technology	positive	M&A	ok
+108260423					failed
+108260366					failed
+108260344					failed
+108260368					failed
+108260260	Bureau of Labor Statistics	Other	neutral	macro	ok
+108260021					failed
+108260017					failed
+108260002					failed
+108258784					failed
+108259939					failed
+108259936					failed
+108259934					failed
+108259929					failed
+108259074					failed
+108259915					failed
+108259914					failed
+108260065					failed
+108260070	Nintendo	Technology	positive	products	ok
+108259970					failed
+108260480					failed
+108260010					failed
+108259961					failed
+108258734					failed
+108259953					failed
+108259946					failed
+108259508					failed

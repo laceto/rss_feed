@@ -1,0 +1,60 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108268222		Finance	negative	markets	ok
+108268611					failed
+108268531					failed
+108268687					failed
+108268599					failed
+108268625	Katie Stockton	Finance	positive	markets	ok
+108268232					failed
+108268612	Peter Mandelson|Andrew Mountbatten-Windsor|King Charles III	Policy	neutral	other	ok
+108268535					failed
+108268306					failed
+108268557					failed
+108267858					failed
+108268628	Domino's	Consumer	positive	earnings	ok
+108268419					failed
+108267811	Harvard University|Trump administration	Policy	neutral	regulation	ok
+108268548	Nvidia|Salesforce|Snowflake|Jay Woods	Technology	neutral	earnings	ok
+108268428					failed
+108266721					failed
+108268203	New York City|Northeastern U.S.	Other	neutral	macro	ok
+108268454					failed
+108268610					failed
+108266937					failed
+108268455					failed
+108268394					failed
+108268395					failed
+108260149					failed
+108268339	Novo Nordisk|Eli Lilly	Healthcare	negative	products	ok
+108268347					failed
+108268240					failed
+108268352					failed
+108268409					failed
+108268385					failed
+108267355					failed
+108268341	IQM	Technology	positive	M&A	ok
+108268551					failed
+108267716					failed
+108268317					failed
+108268360					failed
+108267747					failed
+108268332					failed
+108268298					failed
+108268284	OpenAI	Technology	neutral	other	ok
+108268329	Donald Trump	Finance	neutral	markets	ok
+108268255					failed
+108268265					failed
+108268307					failed
+108268219					failed
+108268214	U.S.|CNBC	Policy	neutral	macro	ok
+108268161					failed
+108268246	U.S. importers|Supreme Court	Policy	negative	regulation	ok
+108268225					failed
+108268227					failed
+108268220					failed
+108268200					failed
+108268087					failed
+108268008					failed
+108268084	Microsoft|Xbox|Phil Spencer|Asha Sharma|Instacart	Technology	neutral	appointments	ok
+108267829					failed
+108267201					failed

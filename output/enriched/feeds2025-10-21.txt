@@ -1,0 +1,49 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108214681					failed
+108214717					failed
+108210833					failed
+108214932					failed
+108214852					failed
+108214754					failed
+108214718					failed
+108214407					failed
+108214817					failed
+108214823					failed
+108213900					failed
+108214725					failed
+108214753					failed
+108214767					failed
+108214857					failed
+108214786					failed
+108214843					failed
+108214720					failed
+108213584					failed
+108214784					failed
+108208840					failed
+108214733					failed
+108214092					failed
+108214688					failed
+108214309					failed
+108214600					failed
+108214682					failed
+108214287					failed
+108214349					failed
+108214554					failed
+108214645	Novo Nordisk	Healthcare	negative	appointments	ok
+108214672					failed
+108214535					failed
+108214110	Coca-Cola	Consumer	positive	earnings	ok
+108213485					failed
+108214614					failed
+108214465	Japan|Sanae Takaichi	Policy	positive	appointments	ok
+108214462					failed
+108214481					failed
+108214272					failed
+108213953					failed
+108214605					failed
+108214646					failed
+108214678					failed
+108214119					failed
+108214392					failed
+108214362					failed
+108214476					failed

@@ -1,0 +1,49 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108251842					failed
+108251814					failed
+108252261					failed
+108252275					failed
+108252420					failed
+108252459					failed
+108252495					failed
+108252324					failed
+108252256					failed
+108251957					failed
+108251551					failed
+108252296					failed
+108252306	Venezuela|Trump administration	Policy	neutral	regulation	ok
+108252427					failed
+108252463					failed
+108252531					failed
+108251956					failed
+108252221					failed
+108251195					failed
+108252438					failed
+108251875					failed
+108252292					failed
+108251958					failed
+108252265					failed
+108251967	Airbnb|Meta	Technology	positive	appointments	ok
+108250563					failed
+108252300	Tony Zhang	Technology	negative	markets	ok
+108251863	Supreme Court|President Trump	Policy	positive	regulation	ok
+108251992					failed
+108252546					failed
+108252145					failed
+108250479		Energy	positive	markets	ok
+108252493					failed
+108251583					failed
+108251847					failed
+108252126					failed
+108252167					failed
+108252100					failed
+108250290					failed
+108252102					failed
+108252032					failed
+108251869	Supreme Court|Trump	Policy	neutral	regulation	ok
+108252049					failed
+108252026					failed
+108252024					failed
+108251966					failed
+108251403					failed
+108251802					failed

@@ -1,0 +1,47 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108181616	Trump	Policy	neutral	regulation	ok
+108181624	JPMorgan Chase|Bank of America|Donald Trump	Finance	negative	other	ok
+108181325		Finance	negative	markets	ok
+108181877	Hassett|Warsh|Trump	Policy	neutral	markets	ok
+108181795	Pfizer|Palantir|Coinbase|Staar Surgical	Healthcare	neutral	markets	ok
+108181854	Disney	Consumer	positive	earnings	ok
+108181785	Goldman Sachs	Technology	negative	macro	ok
+108181112	OpenAI|Meta|Mistral|DeepSeek	Technology	positive	products	ok
+108181806	Nvidia	Technology	neutral	regulation	ok
+108181758	Coinbase	Finance	negative	markets	ok
+108181200	Yum Brands	Consumer	positive	appointments	ok
+108180598	Palo Alto Networks|Nikesh Arora	Technology	neutral	markets	ok
+108181589	Donald Trump|Treasury	Policy	neutral	appointments	ok
+108181809	Wall Street|Todd Gordon	Finance	neutral	markets	ok
+108181600	Russia|Putin|Trump	Energy	negative	macro	ok
+108181040	TIFIN|Dr. Vinay Nair	Finance	positive	products	ok
+108181754	New York Fed	Finance	neutral	macro	ok
+108181819	Elon Musk|Trump administration	Policy	negative	regulation	ok
+108181704	Roku	Technology	positive	products	ok
+108181653	NASA|China|Russia	Policy	neutral	other	ok
+108181698	Rupert Murdoch|Donald Trump|Wall Street Journal|Jeffrey Epstein	Policy	neutral	other	ok
+108181732	Axon Enterprise	Technology	positive	earnings	ok
+108181615	Palantir	Technology	positive	earnings	ok
+108181571	Caterpillar|Eaton|Donald Trump	Industrial	negative	earnings	ok
+108181671	X|eMed	Healthcare	positive	appointments	ok
+108181629	Fox	Consumer	positive	products	ok
+108181488	Switzerland	Policy	negative	regulation	ok
+108181240		Other	negative	macro	ok
+108181541	Russia|U.S.|India|New Delhi|The Kremlin	Policy	neutral	macro	ok
+108181423	India|EU|U.S.|Russia|New Delhi|Trump	Policy	neutral	macro	ok
+108181053		Finance	neutral	regulation	ok
+108181457		Policy	neutral	regulation	ok
+108181575	Tesla|BYD	Consumer	negative	markets	ok
+108181501	TSMC|Apple|Nvidia	Technology	negative	regulation	ok
+108179664	BP	Energy	positive	earnings	ok
+108180996	Saudi Aramco	Energy	negative	earnings	ok
+108181280	Palantir	Technology	positive	earnings	ok
+108181484	Indonesia	Other	positive	macro	ok
+108181424		Policy	neutral	markets	ok
+108181435	Trump	Policy	neutral	macro	ok
+108181440	Intel|Fitch	Finance	negative	regulation	ok
+108181308		Finance	negative	earnings	ok
+108181307	Alaska Airlines	Other	positive	products	ok
+108181291	Yum Brands|Pizza Hut|KFC	Consumer	negative	earnings	ok
+108181215	Pfizer	Healthcare	positive	earnings	ok
+108181529	Obama administration|Pam Bondi|Jeffrey Epstein	Policy	neutral	regulation	ok

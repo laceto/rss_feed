@@ -1,0 +1,46 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108207565					failed
+108207411					failed
+108207648					failed
+108207203					failed
+108207508					failed
+108207622	Bank of America	Finance	positive	markets	ok
+108207531					failed
+108207554					failed
+108207646					failed
+108204565					failed
+108207190					failed
+108207108					failed
+108207432					failed
+108204043					failed
+108207158					failed
+108207220					failed
+108207297					failed
+108202820		Consumer	neutral	products	ok
+108207239					failed
+108207507					failed
+108206446					failed
+108207388	Amazon	Technology	neutral	macro	ok
+108207505	Anduril|Palantir|Army	Technology	negative	regulation	ok
+108207195					failed
+108207530	Asahi	Consumer	negative	other	ok
+108207372					failed
+108207102					failed
+108207238	OpenAI	Technology	positive	products	ok
+108207339					failed
+108207577					failed
+108207477					failed
+108207338					failed
+108206142					failed
+108206866					failed
+108207333					failed
+108207041	Selwood	Energy	negative	markets	ok
+108206821					failed
+108205599					failed
+108206800					failed
+108207331					failed
+108207284					failed
+108203091					failed
+108205473					failed
+108207461					failed
+108207212					failed

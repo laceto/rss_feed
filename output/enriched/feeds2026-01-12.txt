@@ -1,0 +1,63 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108251199					failed
+108251082					failed
+108251185					failed
+108251341					failed
+108251198					failed
+108251321					failed
+108250918					failed
+108251059					failed
+108250266					failed
+108250619					failed
+108250256					failed
+108251036					failed
+108251083					failed
+108251294					failed
+108251117					failed
+108250969					failed
+108251240	United States|Cuba|Miguel Díaz-Canel	Policy	neutral	macro	ok
+108251131					failed
+108251325					failed
+108251202					failed
+108248874					failed
+108247475					failed
+108250997					failed
+108251049					failed
+108250502					failed
+108250994					failed
+108250753	Jersey Mike's|Peter Cancro	Consumer	positive	markets	ok
+108251105					failed
+108250530					failed
+108251154					failed
+108251170					failed
+108250977		Finance	positive	markets	ok
+108250363					failed
+108246291					failed
+108251209	Josh Brown|Sean Russo	Other	positive	markets	ok
+108249904					failed
+108250957					failed
+108250925	Iran|Trump	Policy	neutral	macro	ok
+108250954					failed
+108249320					failed
+108250935					failed
+108250306		Policy	negative	macro	ok
+108250968					failed
+108250945	Elon Musk|Grok|Malaysia|Indonesia	Technology	negative	regulation	ok
+108250929					failed
+108250919					failed
+108250915					failed
+108250912					failed
+108250880					failed
+108250632					failed
+108249531					failed
+108250661					failed
+108250886					failed
+108250653					failed
+108250315					failed
+108250586	Micron|SK Hynix|Samsung Electronics	Technology	positive	markets	ok
+108250756	Amazon|Walmart	Consumer	neutral	products	ok
+108250805					failed
+108250611					failed
+108250509					failed
+108250659					failed
+108250922					failed

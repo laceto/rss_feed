@@ -1,0 +1,55 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108183594		Policy	positive	macro	ok
+108183595	Intel|Donald Trump	Technology	neutral	regulation	ok
+108183732	White House	Other	negative	macro	ok
+108183637	Tesla	Technology	positive	regulation	ok
+108183599	Gilead Sciences|Monster Beverage|Trade Desk|MP Materials|Sweetgreen	Healthcare	neutral	markets	ok
+108183218		Finance	neutral	macro	ok
+108183636	The Trade Desk|Amazon	Technology	negative	markets	ok
+108183715	Ripple|SEC|CNBC Crypto World|ether|President Trump|Selini Capital|Jordi Alexander	Finance	positive	markets	ok
+108182702	Apple	Technology	neutral	macro	ok
+108183603	Bed Bath & Beyond	Consumer	positive	products	ok
+108183579		Finance	neutral	regulation	ok
+108182608	Guardian Bikes	Consumer	neutral	other	ok
+108183363	Donald Trump	Technology	positive	markets	ok
+108183515	OpenAI	Technology	positive	products	ok
+108183506	Moscow|White House	Policy	negative	macro	ok
+108183361	Israel|Hamas|Benjamin Netanyahu	Other	neutral	other	ok
+108183711	Martin Marietta|Vulcan Materials	Industrial	positive	markets	ok
+108183535	Sweetgreen	Consumer	negative	earnings	ok
+108181298		Finance	neutral	markets	ok
+108183299	Tesla|Apple	Technology	negative	appointments	ok
+108182577		Policy	positive	macro	ok
+108183513	MP Materials	Energy	positive	earnings	ok
+108181643	Dodge|Stellantis	Consumer	positive	products	ok
+108183612	U.S. Attorney’s Office for the Northern District of New York|New York AG's office|Letitia James|Trump	Policy	neutral	regulation	ok
+108183062	Crocs	Consumer	negative	markets	ok
+108181982	OpenStore|Jack Archer	Consumer	negative	markets	ok
+108183514		Finance	positive	markets	ok
+108182889	Bitcoin	Finance	neutral	macro	ok
+108183138	a major exchange-traded fund provider	Finance	positive	products	ok
+108183569	U.S. Customs and Border Protection	Other	positive	markets	ok
+108183474	Big Tech	Technology	positive	markets	ok
+108183461	Bank of England|Revolut|Andrew Bailey	Finance	neutral	regulation	ok
+108183525	OpenAI|Microsoft|Elon Musk	Technology	neutral	other	ok
+108183375		Other	neutral	markets	ok
+108183393	U.S.|Russia|Ukraine	Policy	negative	markets	ok
+108182315	Allianz	Finance	negative	macro	ok
+108183563	England Lionesses|Jess Carter	Other	negative	regulation	ok
+108182242	South Korea|U.S.|China	Technology	neutral	macro	ok
+108182783	UK government|Keir Starmer	Policy	neutral	macro	ok
+108183444	CNBC|Ritika Gupta	Other	negative	macro	ok
+108182377	Private equity firms	Finance	negative	markets	ok
+108183394		Other	positive	markets	ok
+108182145	Singapore	Policy	positive	macro	ok
+108183038	Bank of England|Andrew Bailey	Finance	neutral	macro	ok
+108183385		Policy	neutral	markets	ok
+108182097	Japan	Other	neutral	markets	ok
+108183339	SoftBank Group	Finance	positive	earnings	ok
+108183366	SMIC|Trump	Technology	neutral	regulation	ok
+108183368	U.S.	Finance	positive	markets	ok
+108183342	Israel|Gaza|U.S.|Trump|Netanyahu	Policy	neutral	macro	ok
+108183313	Instagram	Technology	negative	products	ok
+108182531	Pinterest	Technology	negative	earnings	ok
+108181268	Federal Reserve|Council of Economic Advisors	Finance	neutral	appointments	ok
+108183189	AppLovin|Apple|Epic	Technology	positive	earnings	ok

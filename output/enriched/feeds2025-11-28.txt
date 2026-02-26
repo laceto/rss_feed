@@ -1,0 +1,36 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108232015					failed
+108233097					failed
+108233239					failed
+108231892					failed
+108232454					failed
+108232759					failed
+108233513					failed
+108233598					failed
+108233318					failed
+108231265					failed
+108233156					failed
+108233442					failed
+108233271					failed
+108232539					failed
+108233414					failed
+108233325					failed
+108232626					failed
+108231072					failed
+108231262					failed
+108233083					failed
+108218223					failed
+108229963					failed
+108232482					failed
+108233264					failed
+108233163					failed
+108233253					failed
+108233425					failed
+108232468					failed
+108233294					failed
+108233445	BTIG	Finance	positive	markets	ok
+108232939					failed
+108232314					failed
+108233251					failed
+108233246					failed
+108233147	Tokyo|India	Other	neutral	macro	ok

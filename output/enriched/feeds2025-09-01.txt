@@ -1,0 +1,50 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108192134					failed
+108192836	Trump|FDA|Health and Human Services|Robert F. Kennedy Jr.	Healthcare	neutral	regulation	ok
+108192826	Putin|Modi|Xi|China|SCO	Other	neutral	macro	ok
+108192820					failed
+108192846					failed
+108192459					failed
+108192831					failed
+108192802					failed
+108191927					failed
+108192704	Donald Trump	Policy	neutral	regulation	ok
+108192844					failed
+108192505	CNBC	Consumer	neutral	macro	ok
+108192781					failed
+108192005					failed
+108192817	Novo Nordisk	Healthcare	positive	products	ok
+108192728					failed
+108192413					failed
+108192806					failed
+108192198	OpenAI|Microsoft	Technology	neutral	markets	ok
+108192795					failed
+108192726	Rudy Giuliani	Other	neutral	other	ok
+108191437					failed
+108192768	UK|Norway	Other	positive	markets	ok
+108192741	BYD|Tesla	Consumer	negative	earnings	ok
+108192122	Federal Reserve	Finance	neutral	macro	ok
+108192598					failed
+108192721	Donald Trump	Policy	negative	regulation	ok
+108192734					failed
+108192720	Congress|GOP|Democrats	Policy	neutral	macro	ok
+108192324	Spain	Other	positive	markets	ok
+108192739	Thailand|Prime Minister Paetongtarn Shinawatra	Policy	negative	macro	ok
+108188940					failed
+108191731					failed
+108192823					failed
+108192332		Other	neutral	macro	ok
+108192736					failed
+108191905					failed
+108188959		Technology	positive	products	ok
+108192192					failed
+108192733					failed
+108192779					failed
+108192712					failed
+108192358					failed
+108192724	Canada|U.S.|President Donald Trump	Policy	negative	macro	ok
+108192711	Chicago	Policy	neutral	regulation	ok
+108192710					failed
+108192707					failed
+108189344					failed
+108192593	Meta|Senate|Josh Hawley|Reuters	Technology	negative	regulation	ok

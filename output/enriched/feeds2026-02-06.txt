@@ -1,0 +1,47 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108262265					failed
+108262641					failed
+108262558					failed
+108262483					failed
+108262548					failed
+108262469					failed
+108262363					failed
+108262473					failed
+108261905	U.S. automakers|Chinese manufacturers	Consumer	negative	markets	ok
+108262155					failed
+108262148					failed
+108262642					failed
+108261372					failed
+108262435	Stellantis	Consumer	negative	markets	ok
+108262410					failed
+108262288					failed
+108257085	U.S. Customs|Supreme Court|President Trump	Policy	neutral	regulation	ok
+108262535					failed
+108262211					failed
+108261545	Chase	Finance	positive	products	ok
+108261031					failed
+108262178					failed
+108262234					failed
+108262294					failed
+108262383	Hims & Hers|Novo Nordisk	Healthcare	negative	regulation	ok
+108261756					failed
+108262175					failed
+108262305					failed
+108262353					failed
+108262669					failed
+108262358					failed
+108262360		Finance	positive	markets	ok
+108261773					failed
+108262286					failed
+108262345					failed
+108262306	Silver	Finance	negative	markets	ok
+108261685					failed
+108262346					failed
+108262315	India's central bank|U.S.|EU|Reuters	Policy	neutral	macro	ok
+108261737	Panama Canal|Hong Kong-backed firm	Other	neutral	regulation	ok
+108262280					failed
+108261739					failed
+108261712					failed
+108262067	Reddit	Technology	positive	earnings	ok
+108262124		Policy	neutral	other	ok
+108261797					failed

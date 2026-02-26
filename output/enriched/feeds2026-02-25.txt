@@ -1,0 +1,53 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108269634					failed
+108269976					failed
+108270018	Amazon|Google|Meta|Microsoft|xAI|Oracle|OpenAI|White House	Technology	neutral	regulation	ok
+108269271					failed
+108269934					failed
+108269964					failed
+108269913					failed
+108269970					failed
+108269924					failed
+108269397					failed
+108257150					failed
+108269710					failed
+108269982					failed
+108269861					failed
+108269336	Lowe's	Consumer	positive	earnings	ok
+108268581					failed
+108269853					failed
+108269415					failed
+108268062					failed
+108270006	Netflix|Warner Bros.|Paramount|Skydance|DOJ	Other	neutral	regulation	ok
+108269297					failed
+108269973					failed
+108269104					failed
+108269866					failed
+108269837	Axon|Rick Smith	Technology	positive	markets	ok
+108269283					failed
+108269292					failed
+108268670					failed
+108267990					failed
+108269721	U.S.|Iran|Trump	Policy	negative	macro	ok
+108269749					failed
+108268561					failed
+108268487					failed
+108269119					failed
+108264301					failed
+108269761					failed
+108269111					failed
+108268452					failed
+108269070					failed
+108268852					failed
+108269683	Donald Trump|Beijing	Policy	neutral	macro	ok
+108269036					failed
+108269480					failed
+108268972					failed
+108269062	Nvidia|Microsoft|Wayve|Eclipse|Balderton|SoftBank Vision Fund 2	Technology	positive	markets	ok
+108267524					failed
+108269384					failed
+108269296					failed
+108269357					failed
+108269362	Lucid	Consumer	negative	earnings	ok
+108269470					failed
+108268894					failed

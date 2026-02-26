@@ -1,0 +1,54 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108265024					failed
+108264981					failed
+108265034					failed
+108265180	Congress|DHS|CNBC|Emily Wilkins	Policy	negative	regulation	ok
+108264934					failed
+108264998					failed
+108265004					failed
+108265116					failed
+108265064					failed
+108264739					failed
+108264261					failed
+108264984					failed
+108265031	Josh Brown|Sean	Other	positive	markets	ok
+108265008					failed
+108265074					failed
+108265085					failed
+108265038					failed
+108263987					failed
+108264914					failed
+108263283					failed
+108264696	Waymo	Technology	positive	products	ok
+108263061					failed
+108264575					failed
+108264366	Alphabet|Google	Technology	negative	markets	ok
+108264937					failed
+108264602					failed
+108263339		Healthcare	negative	macro	ok
+108264863	Russia|Trump	Policy	neutral	regulation	ok
+108264690					failed
+108264590					failed
+108264838					failed
+108264858					failed
+108264866					failed
+108264851					failed
+108264817					failed
+108264837					failed
+108264849					failed
+108264818					failed
+108264829					failed
+108264898	Sanofi|Paul Hudson|Belén Garijo|Merck KGaA	Healthcare	negative	appointments	ok
+108264309					failed
+108264819					failed
+108263156					failed
+108263638					failed
+108264781	Nikkei 225|U.S. payrolls data|Federal Reserve|Wall Street	Other	positive	markets	ok
+108264593					failed
+108264570					failed
+108264664	xAI|SpaceX|Elon Musk	Technology	neutral	other	ok
+108264603					failed
+108264595					failed
+108264587					failed
+108264597					failed
+108264480	Dow|Democrats|Jeffrey Epstein|DOJ|Trump	Other	neutral	other	ok

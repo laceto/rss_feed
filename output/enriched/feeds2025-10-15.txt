@@ -1,0 +1,57 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108212361	Trump administration|China|Treasury Secretary Scott Bessent	Policy	negative	regulation	ok
+108212578					failed
+108212605					failed
+108212091					failed
+108212575					failed
+108212467	Dow Theorists	Industrial	negative	markets	ok
+108211929					failed
+108212381					failed
+108212423					failed
+108212592					failed
+108211789					failed
+108211803					failed
+108212518					failed
+108212532					failed
+108212452	Bunge|Trump administration	Consumer	positive	markets	ok
+108212424					failed
+108212508					failed
+108211389					failed
+108212405					failed
+108211857					failed
+108201505					failed
+108212385					failed
+108212325					failed
+108212511					failed
+108211959	Moody's Analytics|Justin Begley	Finance	negative	macro	ok
+108212092					failed
+108212094					failed
+108209384					failed
+108212404					failed
+108212342	Bessent|U.S.|China	Policy	neutral	macro	ok
+108212202					failed
+108212426	Federal Reserve|Miran|U.S.|China	Policy	negative	macro	ok
+108212194	France's CAC	Other	positive	markets	ok
+108211637					failed
+108212239					failed
+108212255					failed
+108212150					failed
+108212232					failed
+108212201					failed
+108212220	Pony.ai|WeRide	Technology	positive	regulation	ok
+108209806					failed
+108212200					failed
+108211059	ASML	Technology	neutral	markets	ok
+108212182					failed
+108209754					failed
+108212173	OpenAI|Sam Altman	Technology	positive	products	ok
+108212301					failed
+108212088					failed
+108211980					failed
+108212095					failed
+108212154					failed
+108210969					failed
+108212144					failed
+108211554					failed
+108208814					failed
+108211638					failed

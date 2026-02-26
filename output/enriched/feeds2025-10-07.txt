@@ -1,0 +1,48 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108207695					failed
+108208807					failed
+108208472					failed
+108208781					failed
+108208432					failed
+108208938					failed
+108208967					failed
+108208874					failed
+108208859					failed
+108208826	OpenAI|Motion Picture Association	Technology	negative	regulation	ok
+108208734		Finance	positive	markets	ok
+108208888					failed
+108208696					failed
+108208893					failed
+108206373					failed
+108208799					failed
+108208706		Other	positive	markets	ok
+108208651	Trilogy Metals|U.S.|White House	Energy	positive	markets	ok
+108208825					failed
+108208303					failed
+108208714		Other	negative	macro	ok
+108208723					failed
+108208852					failed
+108208662	Intercontinental Exchange|Polymarket	Finance	positive	markets	ok
+108208206					failed
+108205869					failed
+108208758					failed
+108208764	Federal Reserve|Donald Trump	Finance	positive	markets	ok
+108208797	Ray Dalio	Finance	positive	macro	ok
+108208398					failed
+108208677					failed
+108208652					failed
+108207986					failed
+108208113					failed
+108208583					failed
+108208656	Hamas|Israel|Trump	Policy	negative	macro	ok
+108208710					failed
+108208553					failed
+108207378					failed
+108208602					failed
+108208577					failed
+108208586	U.S. Department of Transportation|Sean Duffy	Policy	negative	macro	ok
+108206985					failed
+108208688					failed
+108204126					failed
+108208405					failed
+108208615	Kering|Sebastien Lecornu	Consumer	neutral	markets	ok

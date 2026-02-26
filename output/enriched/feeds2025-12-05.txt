@@ -1,0 +1,46 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108237271					failed
+108237330					failed
+108237206					failed
+108237266					failed
+108237290					failed
+108236712					failed
+108237443					failed
+108237386	Citi	Finance	positive	markets	ok
+108237466					failed
+108237385	Salesforce	Technology	positive	earnings	ok
+108234814					failed
+108237318					failed
+108237351					failed
+108237024					failed
+108237336					failed
+108237011					failed
+108237259					failed
+108235932					failed
+108237392					failed
+108236027		Finance	positive	macro	ok
+108237242					failed
+108236897					failed
+108237186					failed
+108237304	Meta|USA Today|People|CNN|Fox News	Technology	positive	products	ok
+108235956	Russia|India|U.S.|Rosneft|Lukoil	Energy	neutral	macro	ok
+108236959	Apple	Technology	neutral	appointments	ok
+108212463					failed
+108236982					failed
+108237199					failed
+108237160	Russia|Ukraine|Vladimir Putin|Kyiv	Policy	negative	macro	ok
+108237139					failed
+108237185					failed
+108234960					failed
+108237163					failed
+108237114					failed
+108237138					failed
+108237150					failed
+108237119					failed
+108237065					failed
+108237073					failed
+108237070					failed
+108237115					failed
+108236949	SoFi	Finance	negative	markets	ok
+108237023					failed
+108236718					failed

@@ -1,0 +1,47 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108189061					failed
+108189125					failed
+108189195					failed
+108189181					failed
+108189182	Southwest Airlines|Lockheed Martin	Industrial	negative	earnings	ok
+108188639					failed
+108188039	Trump|drugmakers	Healthcare	neutral	regulation	ok
+108189100					failed
+108189069					failed
+108188202					failed
+108188022					failed
+108187221					failed
+108189056					failed
+108188998					failed
+108188645					failed
+108189254	Mastercard|David Keller	Finance	positive	markets	ok
+108188624					failed
+108189105					failed
+108188725		Policy	negative	regulation	ok
+108186017	CNBC Select	Finance	neutral	other	ok
+108188922	U.S.|European Union	Policy	neutral	regulation	ok
+108188562	Disney|ESPN	Consumer	positive	products	ok
+108188934					failed
+108188881	Meta Platforms	Technology	negative	other	ok
+108188790					failed
+108188946					failed
+108188966	European pharma	Healthcare	neutral	markets	ok
+108188281					failed
+108188935		Policy	negative	regulation	ok
+108188499					failed
+108187848	Friedrich Merz	Policy	neutral	other	ok
+108188313					failed
+108188332					failed
+108188242					failed
+108188513	Federal Reserve|Goldman|S&P 500	Finance	neutral	markets	ok
+108188360					failed
+108187783					failed
+108188897	Apple|Amazon|Alphabet	Technology	neutral	markets	ok
+108188858		Industrial	negative	macro	ok
+108188834					failed
+108188791					failed
+108188846					failed
+108188845					failed
+108189168					failed
+108188170		Finance	negative	macro	ok
+108188701	Donald Trump|Justice Department|Epstein	Policy	neutral	regulation	ok

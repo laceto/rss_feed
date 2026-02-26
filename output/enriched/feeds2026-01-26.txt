@@ -1,0 +1,54 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108257023					failed
+108257090					failed
+108257083		Other	neutral	macro	ok
+108257111					failed
+108256961					failed
+108256408		Finance	positive	markets	ok
+108256577	Microsoft	Technology	positive	products	ok
+108257024					failed
+108256887					failed
+108257063					failed
+108256721					failed
+108256723					failed
+108256760					failed
+108256964					failed
+108256938					failed
+108256998					failed
+108255102					failed
+108257026					failed
+108256519					failed
+108256850					failed
+108253585					failed
+108256276					failed
+108257045					failed
+108256364					failed
+108256611					failed
+108256839					failed
+108256774					failed
+108256821					failed
+108256870					failed
+108256889					failed
+108256271					failed
+108256353					failed
+108255423	China	Policy	neutral	macro	ok
+108255608					failed
+108252241	Nvidia	Technology	positive	markets	ok
+108256855	Elon Musk|X|European Commission|Grok	Technology	negative	regulation	ok
+108256775					failed
+108256894					failed
+108256800					failed
+108256811					failed
+108256829					failed
+108256722					failed
+108256816					failed
+108256773					failed
+108257002	Costco	Consumer	positive	macro	ok
+108255184					failed
+108256692					failed
+108256685					failed
+108256097					failed
+108256623					failed
+108256253					failed
+108256159	U.S. airlines	Other	negative	macro	ok
+108256179	Czech-based defense firm Czechoslovak Group	Industrial	positive	markets	ok

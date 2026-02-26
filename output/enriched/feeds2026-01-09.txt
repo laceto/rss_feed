@@ -1,0 +1,48 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108250526					failed
+108250561					failed
+108250015					failed
+108250659					failed
+108250541					failed
+108250589					failed
+108243514					failed
+108250524					failed
+108250499					failed
+108249424					failed
+108250119					failed
+108250417					failed
+108250605					failed
+108250457					failed
+108250492					failed
+108250606					failed
+108250391					failed
+108250366					failed
+108250080					failed
+108248127					failed
+108249142					failed
+108250470					failed
+108250193					failed
+108249344					failed
+108250113					failed
+108248204					failed
+108250365					failed
+108250354					failed
+108249812					failed
+108250345	Sainsbury's	Consumer	positive	markets	ok
+108249805					failed
+108249206					failed
+108249886					failed
+108250352					failed
+108250289					failed
+108250347					failed
+108250346					failed
+108249746					failed
+108250294					failed
+108250307					failed
+108250202					failed
+108250232	Intel|Trump|Lip-Bu Tan	Technology	positive	markets	ok
+108250148					failed
+108250182					failed
+108250160					failed
+108250103	Donald Trump	Policy	neutral	regulation	ok
+108250047					failed

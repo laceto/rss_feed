@@ -1,0 +1,54 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108267342					failed
+108267441					failed
+108267326					failed
+108267192					failed
+108267305					failed
+108267387					failed
+108267415	Klarna|Blue Owl|Deere|Avis Budget|Wayfair	Consumer	neutral	markets	ok
+108267382					failed
+108267343					failed
+108263852					failed
+108267175	OpenAI|Anthropic	Technology	neutral	other	ok
+108266947					failed
+108267102	Apple|West Virginia	Technology	negative	regulation	ok
+108267388					failed
+108267310	Figma	Technology	positive	earnings	ok
+108266274					failed
+108267156					failed
+108267230					failed
+108267295					failed
+108266343					failed
+108267451					failed
+108266798					failed
+108267287	Trump administration|colleges	Policy	negative	regulation	ok
+108267300					failed
+108267094					failed
+108267233					failed
+108267079					failed
+108267205					failed
+108267089					failed
+108266825					failed
+108267391					failed
+108267153					failed
+108267179					failed
+108267321	Airbus	Industrial	positive	markets	ok
+108267186					failed
+108267132					failed
+108266226					failed
+108267133					failed
+108266633					failed
+108267158					failed
+108267123					failed
+108267148					failed
+108267088	Yoon Suk Yeol|Seoul Central District Court	Other	negative	regulation	ok
+108266792					failed
+108267337					failed
+108267066	Trump family|Eric Trump|Donald Trump Jr.|CNBC	Finance	neutral	macro	ok
+108266995					failed
+108266582					failed
+108266810					failed
+108266974					failed
+108266933					failed
+108266927					failed
+108267116					failed

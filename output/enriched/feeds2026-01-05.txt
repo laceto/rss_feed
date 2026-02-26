@@ -1,0 +1,56 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108247877					failed
+108247932					failed
+108248222					failed
+108248151					failed
+108247891					failed
+108248110					failed
+108248238					failed
+108248208					failed
+108248090					failed
+108247682					failed
+108247521					failed
+108248085					failed
+108247986					failed
+108247555					failed
+108247648	Chick-fil-A	Consumer	positive	products	ok
+108247911	Novo Nordisk	Healthcare	positive	products	ok
+108248106					failed
+108248184					failed
+108247584					failed
+108247630	CES 2026|Wall Street	Technology	positive	products	ok
+108246433					failed
+108247882					failed
+108248070					failed
+108248103					failed
+108248081					failed
+108247902					failed
+108248067					failed
+108247961					failed
+108248182		Finance	positive	markets	ok
+108247958					failed
+108247951					failed
+108247893					failed
+108247871					failed
+108247934	Venezuela	Other	neutral	markets	ok
+108247935					failed
+108247985					failed
+108247928					failed
+108247980					failed
+108247651					failed
+108247896					failed
+108247950					failed
+108247884					failed
+108247872					failed
+108247867					failed
+108247846					failed
+108247807					failed
+108247781					failed
+108247770					failed
+108247786					failed
+108247785					failed
+108247681					failed
+108247626					failed
+108247754	Emcore	Technology	negative	regulation	ok
+108247074					failed
+108247894					failed

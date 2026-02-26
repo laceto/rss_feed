@@ -1,0 +1,59 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108180659	Trump|BLS	Policy	negative	macro	ok
+108180653	Tesla	Technology	negative	regulation	ok
+108180626	Russia|Medvedev|U.S.|Trump	Policy	neutral	macro	ok
+108180211	Canada|Brazil|Switzerland|Trump	Policy	negative	macro	ok
+108180620	BlackRock|Federal Reserve	Finance	neutral	macro	ok
+108180422	Goldman Sachs|Aon	Finance	positive	markets	ok
+108179901	Google	Technology	negative	regulation	ok
+108180571	Jeffrey Epstein|Ghislaine Maxwell|Donald Trump|Justice Department	Policy	negative	regulation	ok
+108180679	CNBC Crypto World|President Trump|Coinbase|Leah Wald|SOL Strategies	Technology	negative	markets	ok
+108180349		Other	negative	macro	ok
+108180584	Federal	Finance	negative	macro	ok
+108169647		Technology	neutral	other	ok
+108179074		Policy	positive	regulation	ok
+108180107	Amazon|Amazon Web Services|Andy Jassy	Technology	negative	earnings	ok
+108180438	Federal Reserve|Jerome Powell	Policy	negative	macro	ok
+108180409	Palantir|Army	Technology	positive	products	ok
+108180445	Figma	Technology	positive	markets	ok
+108180591	Carter Worth|S&P 500 ETF	Finance	negative	markets	ok
+108180352	Federal Reserve	Policy	negative	macro	ok
+108180417	OpenAI|Anthropic	Technology	positive	products	ok
+108170329	Federal Student Loans	Finance	neutral	other	ok
+108175050	President Trump	Consumer	negative	macro	ok
+108180157	Bridgewater	Finance	neutral	markets	ok
+108180462	Nintendo|Switch|President Donald Trump	Technology	negative	products	ok
+108179955		Finance	negative	macro	ok
+108180516	Ford|NHTSA	Consumer	negative	regulation	ok
+108179231	Southwest	Consumer	neutral	products	ok
+108180346	Joby|L3Harris	Other	positive	products	ok
+108177181		Finance	positive	markets	ok
+108180272	Switzerland|U.S.	Policy	negative	macro	ok
+108179943		Finance	negative	markets	ok
+108180363	Figma	Technology	positive	markets	ok
+108180286	pharma firms	Healthcare	negative	regulation	ok
+108176194		Consumer	negative	macro	ok
+108179590		Policy	neutral	macro	ok
+108180122	stablecoins	Finance	positive	markets	ok
+108180136	Chevron|Hess	Energy	neutral	earnings	ok
+108179814	Nintendo	Consumer	positive	products	ok
+108179744		Policy	neutral	macro	ok
+108179588	RBC Capital Markets	Finance	negative	regulation	ok
+108180118	Donald Trump|Japan|South Korea|India	Policy	negative	markets	ok
+108179702		Other	neutral	other	ok
+108180172	Reuters|U.S. President Donald Trump	Energy	negative	macro	ok
+108178815	TikTok|Chinese companies	Technology	positive	products	ok
+108178713	Apple|Tim Cook	Technology	positive	earnings	ok
+108175840	Amazon	Technology	negative	earnings	ok
+108178111	Reddit	Technology	positive	earnings	ok
+108180661	Disney|Cisco|Goldman Sachs|McDonald's|Google|Ford|Comcast	Other	neutral	other	ok
+108180475		Healthcare	neutral	macro	ok
+108178669	Trunk Tools	Technology	positive	products	ok
+108179977		Other	neutral	markets	ok
+108180086	Moderna	Healthcare	neutral	earnings	ok
+108180251	Trump	Policy	negative	markets	ok
+108180018	Tesla	Technology	negative	regulation	ok
+108180109	Apple	Technology	positive	products	ok
+108179917	Figma	Technology	positive	markets	ok
+108180161		Policy	negative	regulation	ok
+108180141	White House	Policy	neutral	regulation	ok

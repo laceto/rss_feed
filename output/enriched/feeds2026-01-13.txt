@@ -1,0 +1,42 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108251665					failed
+108251511					failed
+108251773					failed
+108251317					failed
+108251767					failed
+108251440					failed
+108251677					failed
+108250914					failed
+108251619					failed
+108251133					failed
+108251701					failed
+108251567					failed
+108251717					failed
+108251406					failed
+108251526					failed
+108251779					failed
+108251659					failed
+108251770	JPMorgan	Finance	neutral	earnings	ok
+108251324					failed
+108251805					failed
+108251182		Finance	neutral	regulation	ok
+108251416					failed
+108250112					failed
+108251193					failed
+108251291					failed
+108251560					failed
+108250881					failed
+108250154					failed
+108251621					failed
+108251553					failed
+108250923					failed
+108250364					failed
+108251485					failed
+108251530					failed
+108249863					failed
+108251441					failed
+108251499	Venezuela|Nicolás Maduro	Other	positive	markets	ok
+108251478					failed
+108251484	Microsoft|President Trump	Technology	positive	products	ok
+108251508					failed
+108250416					failed

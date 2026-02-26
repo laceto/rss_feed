@@ -1,0 +1,41 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108231946					failed
+108232548					failed
+108231916					failed
+108232585					failed
+108231904					failed
+108232442					failed
+108232279					failed
+108232478					failed
+108232121					failed
+108232387					failed
+108232617					failed
+108231958					failed
+108230058					failed
+108232602	XLV ETF	Healthcare	neutral	markets	ok
+108231920					failed
+108230883		Consumer	negative	markets	ok
+108231706					failed
+108232021					failed
+108230995					failed
+108232087					failed
+108228356		Finance	neutral	other	ok
+108228703					failed
+108231912					failed
+108231877					failed
+108231532					failed
+108232388					failed
+108232045	HP Inc	Technology	negative	regulation	ok
+108231902					failed
+108231879					failed
+108231663					failed
+108232137					failed
+108232198					failed
+108232161					failed
+108231735					failed
+108228860					failed
+108232111	Federal Reserve	Finance	positive	markets	ok
+108232113		Consumer	neutral	macro	ok
+108232129					failed
+108232158					failed
+108232189					failed

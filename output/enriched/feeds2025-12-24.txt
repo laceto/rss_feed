@@ -1,0 +1,29 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108244270					failed
+108242598					failed
+108245646					failed
+108241807					failed
+108245610					failed
+108245504					failed
+108245285					failed
+108245505					failed
+108245373	Trump|Supreme Court	Policy	negative	regulation	ok
+108241672					failed
+108245579					failed
+108245316					failed
+108245424	Motive|Alphabet	Technology	positive	products	ok
+108245533					failed
+108245308					failed
+108243588					failed
+108243707					failed
+108245469					failed
+108245241					failed
+108244225					failed
+108245179					failed
+108245501					failed
+108245376					failed
+108244546					failed
+108245481					failed
+108239589					failed
+108245453					failed
+108245498					failed

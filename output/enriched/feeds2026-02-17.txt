@@ -1,0 +1,35 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108266285	Amazon	Technology	negative	earnings	ok
+108265563	Ford|Tesla	Consumer	positive	products	ok
+108266215					failed
+108266423					failed
+108266092					failed
+108266333	Anthropic	Technology	positive	products	ok
+108266378					failed
+108264113					failed
+108266314					failed
+108266370	Palantir	Technology	positive	markets	ok
+108266064					failed
+107134327					failed
+108265572					failed
+108266219					failed
+108266373					failed
+108266188					failed
+108266280					failed
+108266292					failed
+108266222					failed
+108266096					failed
+108266298					failed
+108266259					failed
+108266144	Hecla Mining|Endeavor Silver|First Majestic Silver	Energy	negative	markets	ok
+108264077					failed
+108265104					failed
+108266297					failed
+108266043					failed
+108266151	India|Australia|social media firms	Policy	neutral	regulation	ok
+108266130					failed
+108266083					failed
+108266111	Alibaba Group	Technology	positive	products	ok
+108266131		Finance	neutral	markets	ok
+108266117					failed
+108266113					failed

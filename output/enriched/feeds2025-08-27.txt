@@ -1,0 +1,53 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108190993	Google	Technology	neutral	other	ok
+108190888	Nvidia	Technology	neutral	earnings	ok
+108191288					failed
+108190806					failed
+108191286					failed
+108191228	Intel|Wolfe Research	Technology	neutral	markets	ok
+108191422					failed
+108191240	Cracker Barrel|President Trump	Consumer	positive	products	ok
+108191361					failed
+108191463		Policy	negative	regulation	ok
+108188579	Trump	Finance	neutral	regulation	ok
+108191227	Federal Reserve|Lisa Cook|Donald Trump	Policy	negative	regulation	ok
+108191331					failed
+108191453	Nvidia	Technology	positive	earnings	ok
+108191015					failed
+108191420					failed
+108191241					failed
+108191289					failed
+108191159	Trump|Federal Reserve	Finance	neutral	markets	ok
+108191244					failed
+108184807					failed
+108190301					failed
+108191352					failed
+108191267					failed
+108190373					failed
+108191131					failed
+108191270					failed
+108191308					failed
+108191164	Canada Goose|Bain Capital|CNBC	Consumer	positive	M&A	ok
+108191211					failed
+108191128					failed
+108190649	Canada Goose|Bain Capital	Consumer	neutral	M&A	ok
+108191149					failed
+108188456	Office for Budget Responsibility|UK	Policy	neutral	regulation	ok
+108188334					failed
+108185862					failed
+108188507					failed
+108191125					failed
+108189993					failed
+108191076					failed
+108191089					failed
+108191094		Consumer	neutral	macro	ok
+108191058					failed
+108191108					failed
+108191106					failed
+108189784		Consumer	neutral	macro	ok
+108190737					failed
+108191034					failed
+108191080					failed
+108190850					failed
+108190984					failed
+108190815					failed

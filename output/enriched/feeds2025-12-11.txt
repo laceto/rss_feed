@@ -1,0 +1,48 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108240621					failed
+108240066					failed
+108240446					failed
+108240556	Disney|OpenAI|Mickey Mouse|Ariel|Iron Man	Technology	positive	products	ok
+108240699					failed
+108240673					failed
+108240654					failed
+108240692					failed
+108239893					failed
+108240116					failed
+108240648					failed
+108239332					failed
+108240655					failed
+108238527					failed
+108240442					failed
+108240499					failed
+108240492					failed
+108240630					failed
+108240637					failed
+108240521					failed
+108240407					failed
+108236942					failed
+108240569					failed
+108240264					failed
+108239976					failed
+108240063					failed
+108239945					failed
+108240449					failed
+108239827					failed
+108240421					failed
+108240427					failed
+108240391					failed
+108239603					failed
+108240434					failed
+108240428					failed
+108240405					failed
+108238910					failed
+108239974					failed
+108240413	Federal Reserve	Finance	neutral	macro	ok
+108238726	Oracle|Meta|Nvidia|CoreWeave	Technology	negative	earnings	ok
+108240322	Federal Reserve	Finance	negative	markets	ok
+108240241					failed
+108239980					failed
+108240299					failed
+108240268					failed
+108240046					failed
+108239948					failed

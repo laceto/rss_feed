@@ -1,0 +1,58 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108187127					failed
+108184742					failed
+108186967					failed
+108186927		Finance	neutral	markets	ok
+108187257					failed
+108187162					failed
+108187116					failed
+108187153					failed
+108187041					failed
+108185592					failed
+108186745					failed
+108186921					failed
+108187525					failed
+108187228					failed
+108186994					failed
+108187320					failed
+108187110	Versant|MSNBC|Comcast|NBCUniversal	Other	neutral	other	ok
+108187169					failed
+108187167					failed
+108185598					failed
+108182541					failed
+108187030					failed
+108186956					failed
+108187100	UBS|CVS	Healthcare	positive	markets	ok
+108186957	Rhodium Group	Other	neutral	macro	ok
+108187090					failed
+108186996	Peter Navarro|India|Russian	Policy	negative	macro	ok
+108185893					failed
+108186924					failed
+108187117		Finance	positive	macro	ok
+108186992					failed
+108186980					failed
+108187031	FTSE 100	Finance	neutral	markets	ok
+108183564					failed
+108181419					failed
+108185774					failed
+108187069					failed
+108185753					failed
+108186949	Pop Mart|Labubus|Beijing brands|Chinese coffee chains|New York|Chinese video games|Chinese makeup|c-beauty	Consumer	positive	markets	ok
+108185749					failed
+108182129					failed
+108186939					failed
+108186984					failed
+108186911					failed
+108186993	Qantas	Other	negative	regulation	ok
+108185198					failed
+108186917					failed
+108186914					failed
+108186912	Zelenskyy|Trump|Putin	Other	neutral	other	ok
+108186696					failed
+108184359					failed
+108186908	Washington, D.C.|Trump administration|Metropolitan Police Department	Policy	neutral	regulation	ok
+108186904					failed
+108186896					failed
+108186672	FBI|Kash Patel|Jim Stewartson	Policy	positive	other	ok
+108186489					failed
+108187022	Europe|United States|Ukraine	Policy	neutral	macro	ok

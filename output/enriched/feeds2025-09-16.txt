@@ -1,0 +1,48 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108199010	S&P 500|Federal Reserve	Finance	negative	markets	ok
+108199222					failed
+108199421					failed
+108199400					failed
+108199098	OpenAI|xAI|Mike Liberatore|Altman|Musk	Technology	neutral	appointments	ok
+108199401	Waymo|Alphabet	Technology	positive	regulation	ok
+108199412					failed
+108198899					failed
+108199399					failed
+108199377					failed
+108198934	Robert Redford|Sundance	Other	neutral	other	ok
+108199289					failed
+108197187					failed
+108199336					failed
+108199023					failed
+108199221	Bessent|Pulte|Treasury	Policy	neutral	other	ok
+108199326					failed
+108199404	Warner Bros. Discovery	Technology	positive	products	ok
+108198895					failed
+108199193	Scott Bessent|CNBC	Policy	positive	macro	ok
+108199006					failed
+108199209					failed
+108199106					failed
+108199018					failed
+108197759		Healthcare	positive	other	ok
+108199181					failed
+108199013					failed
+108199263					failed
+108199107					failed
+108198635	UK|Trump|Keir Starmer	Policy	neutral	macro	ok
+108199104					failed
+108195853					failed
+108198676	Trump|UK|global pharma firms	Healthcare	negative	regulation	ok
+108199132	Novo Nordisk	Healthcare	positive	products	ok
+108199150					failed
+108192871					failed
+108198671	Federal Reserve|Lisa Cook|FOMC	Policy	neutral	regulation	ok
+108198767					failed
+108199088					failed
+108199068					failed
+108199082					failed
+108199073					failed
+108199303					failed
+108198770					failed
+108198937					failed
+108199084					failed
+108198276					failed

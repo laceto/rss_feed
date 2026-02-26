@@ -1,0 +1,47 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108209324					failed
+108209370					failed
+108209491					failed
+108209487	Meme ETF|Nasdaq Composite	Finance	neutral	markets	ok
+108209504					failed
+108209379					failed
+108208383	AMD|OpenAI|Nvidia|Intel	Technology	positive	markets	ok
+108209080					failed
+108209472					failed
+108209526					failed
+108209289					failed
+108208244					failed
+108209322					failed
+108209464					failed
+108209239					failed
+108209323					failed
+108209465					failed
+108209282					failed
+108209338	Gold|top advisor	Finance	positive	markets	ok
+108209461					failed
+108208813					failed
+108206576					failed
+108209438					failed
+108209182					failed
+108209261					failed
+108208390		Consumer	negative	macro	ok
+108208922	Amazon|One Medical|Amazon Pharmacy	Healthcare	positive	products	ok
+108209228					failed
+108209152					failed
+108209258					failed
+108209304	Exxon Mobil|Iraq	Energy	positive	M&A	ok
+108209257					failed
+108209159					failed
+108209162					failed
+108209156					failed
+108208084					failed
+108209173					failed
+108208643					failed
+108208789					failed
+108209106					failed
+108209126					failed
+108209169					failed
+108208727		Policy	negative	macro	ok
+108208568					failed
+108208859	Orlando Bravo	Technology	negative	macro	ok
+108208472					failed

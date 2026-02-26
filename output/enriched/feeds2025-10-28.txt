@@ -1,0 +1,54 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108217527					failed
+108217816					failed
+108217926					failed
+108218042					failed
+108217435					failed
+108217895					failed
+108217396		Policy	negative	other	ok
+108217366	San Francisco	Other	positive	markets	ok
+108217819					failed
+108216800					failed
+108217540					failed
+108216940					failed
+108217944					failed
+108217765					failed
+108217769	CleanSpark|Microsoft	Technology	positive	products	ok
+108216516					failed
+108217303					failed
+108217634					failed
+108217999					failed
+108217274					failed
+108217804					failed
+108217656					failed
+108217225					failed
+108217402					failed
+108217826					failed
+108217685					failed
+108217470					failed
+108217717					failed
+108217892					failed
+108217622					failed
+108217832					failed
+108217326					failed
+108216910					failed
+108217147					failed
+108217608					failed
+108217458					failed
+108217219					failed
+108217617					failed
+108217612					failed
+108216983					failed
+108217587					failed
+108217558					failed
+108217437					failed
+108217542					failed
+108217528					failed
+108217036					failed
+108217543					failed
+108217365					failed
+108217526					failed
+108214855					failed
+108217535					failed
+108217009	Bank of Korea|Reuters	Other	positive	macro	ok
+108217595					failed

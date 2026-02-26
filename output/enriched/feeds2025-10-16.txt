@@ -1,0 +1,50 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108213112					failed
+108213040					failed
+108213126					failed
+108213183					failed
+108213120					failed
+108213156	Vanguard	Finance	positive	markets	ok
+108212896	Citadel Securities	Finance	positive	markets	ok
+108213127	Oracle|Meta	Technology	positive	markets	ok
+108212992	U.S.|China|Donald Trump|Xi Jinping	Policy	negative	regulation	ok
+108213081					failed
+108212987					failed
+108212642					failed
+108213032					failed
+108213091					failed
+108213047					failed
+108213041	Genentech	Healthcare	positive	products	ok
+108212951					failed
+108212912					failed
+108212818	Nestle	Consumer	positive	markets	ok
+108211411		Finance	neutral	macro	ok
+108212959					failed
+108212927					failed
+108212932					failed
+108212041					failed
+108212688					failed
+108212990					failed
+108212765					failed
+108212523					failed
+108212799					failed
+108212844					failed
+108212841					failed
+108212189					failed
+108212264					failed
+108212834					failed
+108211159					failed
+108212802					failed
+108212482					failed
+108212298	UK	Policy	negative	macro	ok
+108212813					failed
+108212803	U.S. banks|major technology companies	Finance	positive	markets	ok
+108212791	Hong Kong’s largest telco companies	Policy	negative	regulation	ok
+108211276					failed
+108212756					failed
+108212751					failed
+108212700					failed
+108212655					failed
+108212690					failed
+108211968	United Airlines	Other	positive	earnings	ok
+108212466					failed

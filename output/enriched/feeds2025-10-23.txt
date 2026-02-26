@@ -1,0 +1,56 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108215897					failed
+108216030					failed
+108216130					failed
+108215388		Finance	positive	markets	ok
+108216041					failed
+108215950					failed
+108215908					failed
+108216072					failed
+108216126					failed
+108215857	Ford Motor	Consumer	neutral	earnings	ok
+108216113					failed
+108215374					failed
+108216068					failed
+108215999					failed
+108216106					failed
+108215940					failed
+108215340					failed
+108215960					failed
+108215932					failed
+108215920					failed
+108216004					failed
+108215862	American Airlines|Delta|Alaska|Oneworld	Other	negative	appointments	ok
+108214755					failed
+108216080					failed
+108215702					failed
+108216019					failed
+108213736					failed
+108215627					failed
+108216009					failed
+108215814					failed
+108215830					failed
+108214668					failed
+108215806					failed
+108215285					failed
+108215180					failed
+108215794	Volvo Cars	Consumer	positive	earnings	ok
+108214495					failed
+108215741					failed
+108215760	Russia|Vladimir Putin|Donald Trump	Policy	negative	macro	ok
+108215807					failed
+108215795					failed
+108215801					failed
+108214834	American Airlines	Consumer	positive	earnings	ok
+108215731		Policy	neutral	regulation	ok
+108214939					failed
+108215783					failed
+108215150					failed
+108215724					failed
+108215513					failed
+108215474		Other	negative	macro	ok
+108215700					failed
+108215613					failed
+108213958					failed
+108215488					failed
+108215706					failed

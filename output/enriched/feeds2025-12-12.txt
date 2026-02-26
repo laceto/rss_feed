@@ -1,0 +1,47 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108241144					failed
+108241277					failed
+108236715					failed
+108241319	Trump|preservation group|White House	Policy	negative	regulation	ok
+108240826					failed
+108241375					failed
+108240742	Disney|Zootopia 2	Consumer	positive	products	ok
+108241298					failed
+108241215					failed
+108241192					failed
+108240784					failed
+108235996					failed
+108241213					failed
+108241355					failed
+108240073					failed
+108241163					failed
+108240200					failed
+108240895					failed
+108240678					failed
+108239195					failed
+108238469					failed
+108240653					failed
+108241244					failed
+108240832					failed
+108237260					failed
+108240971					failed
+108241153		Other	neutral	macro	ok
+108241081					failed
+108241086	Oracle|Broadcom	Technology	negative	markets	ok
+108241088					failed
+108240426	India	Other	neutral	macro	ok
+108241059					failed
+108240448					failed
+108241067					failed
+108241049					failed
+108241011					failed
+108240987	Reddit	Policy	neutral	regulation	ok
+108240975					failed
+108240966					failed
+108241013					failed
+108238526	SpaceX|Elon Musk|Jared Isaacman|NASA|Donald Trump	Policy	neutral	appointments	ok
+108240446					failed
+108240894					failed
+108240865					failed
+108240873					failed
+108239893					failed

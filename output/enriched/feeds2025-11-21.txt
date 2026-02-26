@@ -1,0 +1,112 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108229921					failed
+108229355					failed
+108226475					failed
+108229998					failed
+108229432					failed
+108230016					failed
+108229865					failed
+108229287					failed
+108229901					failed
+108230001	Federal Aviation Administration	Other	positive	other	ok
+108229270					failed
+108229382					failed
+108222620					failed
+108229892					failed
+108033997	Eli Lilly	Healthcare	positive	markets	ok
+108229756					failed
+108229731	Federal Reserve	Finance	positive	macro	ok
+108224420					failed
+108229383					failed
+108229920					failed
+108221964					failed
+108228808	Nvidia|Google|Amazon|Meta|Microsoft|OpenAI	Technology	neutral	products	ok
+108229910					failed
+108229381					failed
+108229466					failed
+108229133					failed
+108229627	SoftBank|Nvidia	Technology	negative	markets	ok
+108228770					failed
+108229136					failed
+108229149					failed
+108229758					failed
+108229860	Federal Reserve|New York Fed	Finance	neutral	macro	ok
+108228940	Boaz Weinstein	Finance	positive	markets	ok
+108227160					failed
+108228926					failed
+108229757					failed
+108229715					failed
+108229590		Other	positive	macro	ok
+108229669					failed
+108229578					failed
+108229618					failed
+108228917					failed
+108228911	Nvidia	Technology	positive	earnings	ok
+108228395					failed
+108229314					failed
+108226580					failed
+108228017	Alibaba	Technology	positive	markets	ok
+108229606					failed
+108229071					failed
+108228019					failed
+108228727					failed
+108224266					failed
+108230017					failed
+108229220					failed
+108227778					failed
+108229229					failed
+108229120					failed
+108229090					failed
+108228890					failed
+108228782	Nvidia|Jensen Huang	Technology	positive	earnings	ok
+108229042					failed
+108227402					failed
+108228921					failed
+108228838					failed
+108228779					failed
+108228762	Nvidia|Jensen Huang	Technology	positive	earnings	ok
+108228754					failed
+108228448					failed
+108225688					failed
+108228532					failed
+108228180		Other	neutral	macro	ok
+108228479	Federal Reserve|Powell|Bessent	Finance	negative	macro	ok
+108228266					failed
+108228528	Federal Reserve|Federal Open Market Committee	Finance	neutral	macro	ok
+108228829					failed
+108228760					failed
+108228031					failed
+108226560					failed
+108227305					failed
+108227261					failed
+108227863					failed
+108227094					failed
+108227184					failed
+108226890					failed
+108227151					failed
+108226636					failed
+108226625					failed
+108222156					failed
+108226566					failed
+108226562					failed
+108226558	China|Japan	Other	neutral	markets	ok
+108226157					failed
+108225123	India|U.S.|Modi|New Delhi|Bihar	Policy	positive	macro	ok
+108225883					failed
+108225849					failed
+108228991					failed
+108228039					failed
+108228893					failed
+108228337					failed
+108227682					failed
+108227914	Britain’s Reeves|Ian King	Policy	neutral	macro	ok
+108227276					failed
+108227688					failed
+108227298					failed
+108226733					failed
+108225265					failed
+108226120					failed
+108225985	Chinese|U.S.	Consumer	positive	markets	ok
+108226008					failed
+108225978					failed
+108225250					failed

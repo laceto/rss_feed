@@ -1,0 +1,57 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108258924					failed
+108258897					failed
+108258965					failed
+108259082	American Airlines	Other	positive	markets	ok
+108259018					failed
+108259008					failed
+108258877					failed
+108259052					failed
+108257886					failed
+108258913					failed
+108258781					failed
+108258654					failed
+108258954					failed
+108258938	JPMorgan	Finance	positive	markets	ok
+108258995					failed
+108258892	ICE|CBP|Federal agents|President Donald Trump|Tom Homan	Policy	neutral	regulation	ok
+108257853					failed
+108259047	First Brands	Finance	negative	regulation	ok
+108258634					failed
+108257685					failed
+108257618					failed
+108258797					failed
+108258828	Reuters|Trump|Iran	Energy	positive	macro	ok
+108258352					failed
+108258571					failed
+108258553	Starbucks	Consumer	positive	products	ok
+108258662					failed
+108258195					failed
+108258333					failed
+108258457	Microsoft|Meta Platforms|Tesla	Technology	negative	markets	ok
+108258774					failed
+108258766					failed
+108258049					failed
+108256932					failed
+108258783					failed
+108258849	ASML|Barclays	Technology	positive	markets	ok
+108258780	Roche|Sanofi	Healthcare	neutral	earnings	ok
+108258249					failed
+108258702					failed
+108258174					failed
+108258763					failed
+108258263					failed
+108258753					failed
+108258714					failed
+108258679					failed
+108258593					failed
+108258620					failed
+108258615	Tesla|xAI|Elon Musk	Technology	positive	earnings	ok
+108258592					failed
+108256360					failed
+108258428					failed
+108258306					failed
+108257735					failed
+108257759					failed
+108258703					failed
+108258222					failed

@@ -1,0 +1,52 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108182977					failed
+108186540					failed
+108185926	Trump|Putin|White House	Policy	neutral	macro	ok
+108186529	Federal Reserve|Goolsbee	Policy	neutral	macro	ok
+108186693					failed
+108186636					failed
+108186289					failed
+108186698	DraftKings	Consumer	positive	markets	ok
+108186531	Intel|Samsung|TSMC	Technology	neutral	regulation	ok
+108186137					failed
+108185211	International Court of Justice	Policy	neutral	regulation	ok
+108186729					failed
+108186466					failed
+108186532					failed
+108186678					failed
+108186551					failed
+108186428					failed
+108185423		Other	positive	earnings	ok
+108186008					failed
+108180494					failed
+108177861	Gallagher	Finance	positive	other	ok
+108185537					failed
+108186477					failed
+108185520	Palantir Technologies|Peter Thiel|Alex Karp	Technology	positive	products	ok
+108186616					failed
+108184893					failed
+108185335					failed
+108186716					failed
+108186490					failed
+108186429	Iraq	Energy	negative	macro	ok
+108186420	Trump|Putin|Russian media|Kyiv	Policy	neutral	macro	ok
+108186352					failed
+108186370					failed
+108185701					failed
+108185890					failed
+108186412					failed
+108185250	Friedrich Merz|Donald Trump	Policy	neutral	macro	ok
+108186333					failed
+108185951					failed
+108186329					failed
+108185722	Japan	Other	positive	macro	ok
+108186313					failed
+108186371					failed
+108186236					failed
+108186489		Policy	positive	macro	ok
+108186303	Chicago Fed|Goolsbee|NBC News	Policy	neutral	macro	ok
+108186270					failed
+108186244	Intel|UnitedHealth|Appaloosa|David Tepper	Finance	positive	markets	ok
+108186246					failed
+108186179					failed
+108184669					failed

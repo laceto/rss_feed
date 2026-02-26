@@ -1,0 +1,56 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108220543		Consumer	neutral	earnings	ok
+108220675					failed
+108220610					failed
+108220728					failed
+108220627					failed
+108220573					failed
+108220633					failed
+108220577					failed
+108220621					failed
+108218099					failed
+108220476					failed
+108220585					failed
+108220630					failed
+108220353					failed
+108220525					failed
+108220559					failed
+108219581					failed
+108220673					failed
+108220049					failed
+108219433					failed
+108220515	Beyond Meat	Consumer	negative	earnings	ok
+108220520					failed
+108220493					failed
+108220430					failed
+108220463					failed
+108220350					failed
+108220321					failed
+108220322					failed
+108220420					failed
+108220081					failed
+108220383	United States|China|India|Trump	Policy	negative	macro	ok
+108219242	Carles Reina	Technology	negative	markets	ok
+108219396					failed
+108220416					failed
+108220211					failed
+108219846					failed
+108220370					failed
+108220360					failed
+108220405					failed
+108220362					failed
+108216702		Healthcare	neutral	products	ok
+108220358					failed
+108220398					failed
+108220330					failed
+108220352					failed
+108216997					failed
+108220359	China|Kospi	Other	neutral	macro	ok
+108220344					failed
+108220349					failed
+108219985					failed
+108220332					failed
+108220329					failed
+108220112					failed
+108220275	Tesla|Elon Musk	Technology	positive	products	ok
+108220156	Trump	Other	neutral	other	ok

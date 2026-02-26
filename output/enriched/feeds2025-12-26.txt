@@ -1,0 +1,25 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108245799					failed
+108243720					failed
+108244493					failed
+108245769					failed
+108245919		Finance	positive	markets	ok
+108245767					failed
+108245872					failed
+108245454					failed
+108245699					failed
+108240111					failed
+108245675		Other	positive	macro	ok
+108245889					failed
+108245858					failed
+108245772	Volodymyr Zelenskyy|Trump	Policy	neutral	other	ok
+108245789					failed
+108245814		Finance	positive	markets	ok
+108245174					failed
+108245743					failed
+108242650					failed
+108243246					failed
+108238997					failed
+108245742					failed
+108243716					failed
+108245741					failed

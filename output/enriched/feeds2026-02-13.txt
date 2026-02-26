@@ -1,0 +1,51 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108265540					failed
+108265521					failed
+108265643					failed
+108265650					failed
+108265474	DP World|Sultan Ahmed bin Sulayem	Other	negative	appointments	ok
+108265724					failed
+108265617					failed
+108265568	Roku	Technology	positive	earnings	ok
+108265557					failed
+108255173	National Basketball Association|CNBC	Other	neutral	markets	ok
+108265324	Amazon|Ring|Flock	Technology	negative	regulation	ok
+108263547					failed
+108265522					failed
+108265169					failed
+108265669					failed
+108265492					failed
+108265673	SpaceX|NASA|Elon Musk	Technology	neutral	products	ok
+108265437					failed
+108264070					failed
+108261384					failed
+108265342					failed
+108264058					failed
+108265101					failed
+108265448					failed
+108265167	Department of Homeland Security|Democrats|Trump White House|Senate	Policy	negative	regulation	ok
+108265339					failed
+108262064					failed
+108265048					failed
+108257993					failed
+108264890					failed
+108265443					failed
+108264872					failed
+108261285					failed
+108265487		Consumer	neutral	macro	ok
+108265359	China	Finance	neutral	markets	ok
+108265407					failed
+108265337					failed
+108265403		Finance	negative	markets	ok
+108265396					failed
+108255513	BTS	Consumer	positive	markets	ok
+108265386					failed
+108265338					failed
+108265323					failed
+108265335					failed
+108265318					failed
+108265151					failed
+108265237	Rivian	Consumer	positive	earnings	ok
+108265076					failed
+108265166					failed
+108263986	Sri Lanka	Policy	neutral	other	ok

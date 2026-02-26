@@ -1,0 +1,46 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108221198		Other	negative	macro	ok
+108221171					failed
+108221243	Senate|Republican	Policy	negative	macro	ok
+108221128					failed
+108220811					failed
+108221119					failed
+108221258					failed
+108221213					failed
+108221193					failed
+108219478					failed
+108219462					failed
+108221029					failed
+108221179		Finance	negative	markets	ok
+108219483	Mamdani|Cuomo|Sliwa|Adams|Trump|Zohran Mamdani|Andrew Cuomo	Policy	neutral	other	ok
+108221175					failed
+108221093					failed
+108221079					failed
+108221087					failed
+108221111					failed
+108220639					failed
+108221149	Goldman Sachs	Finance	negative	markets	ok
+108221135					failed
+108220891	Yum Brands|Pizza Hut	Consumer	neutral	M&A	ok
+108220930					failed
+108220735					failed
+108219590					failed
+108220052					failed
+108221018					failed
+108220667					failed
+108220530					failed
+108220994					failed
+108221054					failed
+108220044					failed
+108220935					failed
+108220978					failed
+108220920					failed
+108220448	BP	Energy	positive	earnings	ok
+108219825	Nintendo	Technology	positive	products	ok
+108220913					failed
+108220377					failed
+108220937					failed
+108220896	South Korea|Kospi	Other	negative	markets	ok
+108220638					failed
+108220897					failed
+108218583					failed

@@ -1,0 +1,55 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108190343	Berkshire Hathaway|BNSF Railway|CSX|Warren Buffett|CNBC	Industrial	positive	markets	ok
+108189768					failed
+108190312					failed
+108190195					failed
+108190364	Chinese tech stock	Technology	positive	markets	ok
+108190318					failed
+108190208	Donald Trump|Kim Jong-un|South Korea	Policy	positive	macro	ok
+108190062					failed
+108187363	Nvidia	Technology	positive	markets	ok
+108190334					failed
+108190217					failed
+108190203	Kevin O'Leary|Kobe Bryant|Michael Jordan	Other	positive	markets	ok
+108189998					failed
+108190263					failed
+108185353					failed
+108190211	Goldman	Finance	positive	markets	ok
+108190105					failed
+108188900					failed
+108156136					failed
+108187249		Finance	positive	products	ok
+108190214					failed
+108189080		Finance	neutral	products	ok
+108189838					failed
+108189528	American Eagle|Swatch|Sanex	Consumer	negative	other	ok
+108188800	Eric Thompson	Policy	neutral	regulation	ok
+108190236					failed
+108190082					failed
+108189988					failed
+108190067					failed
+108190257		Finance	positive	markets	ok
+108189519					failed
+108184800					failed
+108190287	Francois Bayrou	Policy	neutral	regulation	ok
+108184017					failed
+108185801		Other	positive	macro	ok
+108189973					failed
+108189851					failed
+108189656					failed
+108189992	Nio|ASMPT	Technology	positive	markets	ok
+108190055	Federal Reserve|U.S. stocks|Treasury	Finance	positive	macro	ok
+108189614					failed
+108189991					failed
+108190032	Dongfeng Motor Group|Dongfeng Motor	Consumer	positive	M&A	ok
+108190015					failed
+108190004	Flyr	Consumer	positive	products	ok
+108190178					failed
+108189972	Putin|Zelenskyy|Lavrov|Donald Trump	Policy	neutral	macro	ok
+108187584	SpaceX|NASA|Department of Defense	Technology	positive	markets	ok
+108189441	Eli Lilly|Novo Nordisk	Healthcare	positive	products	ok
+108189960	Justice Department|Congress|House Oversight Committee	Policy	neutral	regulation	ok
+108189959	Kilmar Abrego Garcia|U.S. government|Uganda|El Salvador|CECOT prison|Nashville Tennessee	Policy	neutral	regulation	ok
+108138747					failed
+108189852					failed
+108189788					failed

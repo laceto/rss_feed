@@ -1,0 +1,54 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108259461	Federal Reserve|Kevin Warsh|Donald Trump	Policy	neutral	appointments	ok
+108259542					failed
+108259048					failed
+108259400					failed
+108259473					failed
+108259084		Finance	positive	markets	ok
+108259731					failed
+108259680	Google|Department of Justice	Technology	negative	regulation	ok
+108259628	Jeffrey Epstein|DOJ|Blanche|President Trump|Todd Blanche	Policy	neutral	regulation	ok
+108259332					failed
+108255984		Other	neutral	macro	ok
+108259083					failed
+108259630	Federal Reserve|Trump	Finance	neutral	macro	ok
+108237566	Federal Reserve|Jerome Powell|Kevin Warsh|President Trump	Finance	neutral	appointments	ok
+108258983					failed
+108259595					failed
+108259569					failed
+108259647					failed
+108256988		Finance	neutral	products	ok
+108259512					failed
+108259520					failed
+108259462					failed
+108258891					failed
+108259659					failed
+108257094					failed
+108259409					failed
+108259202					failed
+108259373					failed
+108258845					failed
+108258062					failed
+108259564					failed
+108259318					failed
+108257886					failed
+108259306					failed
+108259319					failed
+108259300					failed
+108259347					failed
+108258698					failed
+108258982	LightPath Technologies|Canaccord Genuity|Russia|China	Technology	positive	markets	ok
+108259366					failed
+108259285					failed
+108259291					failed
+108259292					failed
+108259328					failed
+108259612					failed
+108258998					failed
+108259507					failed
+108259313					failed
+108259185					failed
+108259049					failed
+108259113					failed
+108259043					failed
+108259368					failed

@@ -1,0 +1,55 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108255699					failed
+108255875					failed
+108255748					failed
+108255028					failed
+108255815					failed
+108255764					failed
+108255686					failed
+108255552					failed
+108255837					failed
+108255204					failed
+108255530					failed
+108255145	Jamie Dimon|Trump	Policy	negative	regulation	ok
+108255165		Consumer	neutral	products	ok
+108255724					failed
+108255782					failed
+108253101					failed
+108255696	Procter & Gamble|China	Consumer	neutral	products	ok
+108255470					failed
+108255778					failed
+108255154					failed
+108255761					failed
+108254244					failed
+108255678					failed
+108255640					failed
+108255034					failed
+108255605	OpenAI	Technology	neutral	macro	ok
+108255675					failed
+108255653					failed
+108255622					failed
+108255525	California|Trump administration	Policy	negative	other	ok
+108255514					failed
+108255208					failed
+108255518		Policy	neutral	other	ok
+108255571					failed
+108255496					failed
+108255522	JP Morgan	Finance	positive	markets	ok
+108254890					failed
+108254710					failed
+108254915					failed
+108255481					failed
+108254770					failed
+108255025					failed
+108255006					failed
+108254095					failed
+108255474					failed
+108254699					failed
+108254931	South Korea	Other	negative	macro	ok
+108255776	BlackRock|Trump	Policy	positive	markets	ok
+108255051					failed
+108255153					failed
+108255284					failed
+108255164					failed
+108255220					failed
+108255417					failed

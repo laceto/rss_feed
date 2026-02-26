@@ -1,0 +1,57 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108193701		Other	negative	macro	ok
+108193674	Intel|Trump administration	Technology	negative	regulation	ok
+108193826					failed
+108193870					failed
+108190519					failed
+108193865					failed
+108193839					failed
+108193797					failed
+108193792	Newsmax|Fox News	Other	negative	regulation	ok
+108193349	Alphabet	Technology	negative	markets	ok
+108193338	Costco	Consumer	positive	markets	ok
+108193775	Jeffrey Epstein|Ghislaine Maxwell|Donald Trump	Policy	neutral	regulation	ok
+108193771					failed
+108193736	Novo Nordisk|OpenAI	Healthcare	positive	products	ok
+108193685					failed
+108193728					failed
+108193050					failed
+108193650					failed
+108193741	Donald Trump	Policy	neutral	regulation	ok
+107314763					failed
+108193561	Macy's	Consumer	positive	earnings	ok
+108193590					failed
+108193684					failed
+108193717					failed
+108193554		Finance	neutral	markets	ok
+108193100					failed
+108193642	Boeing	Other	negative	regulation	ok
+108193518					failed
+108193235	China|Xi Jinping|Trump|Beijing|Vladimir Putin|Kim Jong Un	Policy	neutral	macro	ok
+108193543					failed
+108193588	DeepL|OpenAI|Microsoft|Anthropic	Technology	positive	products	ok
+108191298					failed
+108192962	China|Putin|Kim Jong Un|Xi Jinping	Other	neutral	other	ok
+108193529					failed
+108193004					failed
+108192777					failed
+108193520					failed
+108192940					failed
+108193505					failed
+108192738					failed
+108192866					failed
+108192842					failed
+108192794	InterNations	Other	neutral	macro	ok
+108192876					failed
+108193415					failed
+108193413					failed
+108174642					failed
+108193082					failed
+108193381					failed
+108193457					failed
+108175286					failed
+108193356					failed
+108193330					failed
+108193224					failed
+108193094					failed
+108192917					failed

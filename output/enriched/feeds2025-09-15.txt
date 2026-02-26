@@ -1,0 +1,56 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108198716					failed
+108198722					failed
+108198898	CoreWeave|Nvidia	Technology	positive	markets	ok
+108198748	Tesla|Elon Musk	Technology	positive	markets	ok
+108198871					failed
+108198889					failed
+108194998					failed
+108198726					failed
+108198506					failed
+108198519					failed
+108198282	Federal Reserve	Finance	positive	macro	ok
+108197643					failed
+108198811					failed
+108198807					failed
+108198650					failed
+108198806					failed
+108198580					failed
+108198963					failed
+108198462	Panama Canal	Other	neutral	macro	ok
+108196468		Finance	positive	macro	ok
+108198649					failed
+108198769					failed
+108198477		Finance	positive	markets	ok
+108198496					failed
+108198513	The Pitt|The Studio	Other	positive	other	ok
+108198271					failed
+108191394		Finance	neutral	other	ok
+108198280	LinkedIn	Other	positive	other	ok
+108198636					failed
+108197620					failed
+108197910					failed
+108197354	Klarna	Finance	positive	markets	ok
+108196714					failed
+108198595	U.S.|Britain|U.K.|Keir Starmer	Policy	positive	other	ok
+108198565	U.S.|China|TikTok	Other	positive	markets	ok
+108198535	TikTok|Treasury Secretary Scott Bessent	Technology	neutral	macro	ok
+108198610					failed
+108198536	China	Other	negative	macro	ok
+108198500	U.S. Treasury|U.S. Trade Representative|Chinese Vice Premier He Lifeng|China's top trade negotiator Li Chenggang	Policy	neutral	macro	ok
+108198600	Donald Trump	Policy	neutral	regulation	ok
+108198531					failed
+108197943					failed
+108197924					failed
+108195925					failed
+108197947		Technology	positive	products	ok
+108198532					failed
+108198482	Russia|NATO|Ukraine|President Donald Trump	Policy	neutral	macro	ok
+108198516					failed
+108195055					failed
+108198497					failed
+108198358					failed
+108198166					failed
+108198229					failed
+108198310					failed
+108198357					failed

@@ -1,0 +1,52 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108249485					failed
+108249489					failed
+108249483					failed
+108248859					failed
+108249284					failed
+108249409					failed
+108249415					failed
+108249343					failed
+108249311					failed
+108249438					failed
+108248925					failed
+108248394					failed
+108249375					failed
+108249309					failed
+108249262					failed
+108248357	Alaska Airlines|Boeing	Industrial	positive	products	ok
+108249317					failed
+108248870					failed
+108248811	American Airlines	Consumer	neutral	other	ok
+108248257					failed
+108249040					failed
+108249246					failed
+108249358					failed
+108249007					failed
+108249282					failed
+108248899		Consumer	neutral	other	ok
+108249067					failed
+108249121					failed
+108249454					failed
+108248016					failed
+108239727					failed
+108248001					failed
+108249150					failed
+108248951					failed
+108248619	Eurostat	Other	neutral	macro	ok
+108249091					failed
+108247263					failed
+108249151					failed
+108249109					failed
+108248585					failed
+108247948	AmCham China	Policy	positive	macro	ok
+108249143					failed
+108248815					failed
+108249152					failed
+108249116	Meta|Manus	Technology	neutral	regulation	ok
+108248884					failed
+108248985					failed
+108248964					failed
+108248995					failed
+108248919					failed
+108249083					failed

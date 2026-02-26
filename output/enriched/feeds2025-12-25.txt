@@ -1,0 +1,20 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108245377	Palantir	Technology	positive	markets	ok
+108245704					failed
+108245699					failed
+108220718					failed
+108240453					failed
+108240215					failed
+108245730					failed
+108245718	Powerball	Other	positive	markets	ok
+108245727					failed
+108245015					failed
+108245609					failed
+108243063					failed
+108245714					failed
+108245720					failed
+108245723		Other	negative	other	ok
+108245735					failed
+108245717					failed
+108245711					failed
+108245709	North Korea|Kim Jong Un|KCNA	Other	neutral	other	ok

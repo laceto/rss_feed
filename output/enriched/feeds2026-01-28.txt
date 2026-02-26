@@ -1,0 +1,55 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108258175					failed
+108257730					failed
+108258164					failed
+108258306					failed
+108258199					failed
+108258317					failed
+108258069	Amazon	Technology	negative	markets	ok
+108258268					failed
+108258260					failed
+108257706					failed
+108257652	Federal Reserve	Finance	neutral	macro	ok
+108258243					failed
+108257334					failed
+108258343					failed
+108258115					failed
+108257759					failed
+108257735					failed
+108255999					failed
+108258225					failed
+108258400	GE Vernova	Energy	positive	markets	ok
+108258350					failed
+108257835		Finance	positive	markets	ok
+108258211					failed
+108258183					failed
+108258059					failed
+108258214	Trump	Policy	neutral	other	ok
+108257619					failed
+108258134					failed
+108257399					failed
+108258109					failed
+108258025					failed
+108258047					failed
+108258113					failed
+108258054	Denmark|Greenland|Jens-Frederik Nielsen	Policy	neutral	macro	ok
+108257383					failed
+108258037					failed
+108258028					failed
+108257561					failed
+108258053	SK Hynix	Technology	positive	products	ok
+108255428					failed
+108258336					failed
+108258369					failed
+108257916					failed
+108257877		Finance	negative	macro	ok
+108257308					failed
+108257929					failed
+108257837					failed
+108257635					failed
+108257789					failed
+108257738					failed
+108257682					failed
+108257476					failed
+108257955					failed
+108257533	Keir Starmer|British businesses|China|Beijing	Policy	neutral	macro	ok

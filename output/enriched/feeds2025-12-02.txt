@@ -1,0 +1,45 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108235193					failed
+108235375	USDA|Trump administration	Policy	negative	regulation	ok
+108235107		Other	negative	macro	ok
+108235160	Trump|Hegseth|Jeffrey Epstein	Policy	neutral	macro	ok
+108235123					failed
+108235304					failed
+108235145					failed
+108235263					failed
+108234521	Amazon|Amazon Web Services	Technology	positive	products	ok
+108234507	Donald Trump	Policy	positive	macro	ok
+108235022					failed
+108235154					failed
+108235211					failed
+108235117					failed
+108234896					failed
+108234833	Costco|Trump admin	Policy	negative	regulation	ok
+108235164	Mistral|OpenAI|Google|HSBC	Technology	positive	products	ok
+108235297	Ford|Donald Trump	Consumer	negative	markets	ok
+108235130					failed
+108234558	Zafran Security	Technology	positive	other	ok
+108232474					failed
+108235146					failed
+108231893					failed
+108234962					failed
+108234963					failed
+108234924					failed
+108234807					failed
+108234746					failed
+108234560					failed
+108234686					failed
+108234936					failed
+108234263					failed
+108235006					failed
+108234647	Michael Dell|Susan Dell|Dell Technologies|Trump accounts|Brad Gerstner|CNBC	Finance	positive	other	ok
+108233288					failed
+108234972					failed
+108233060					failed
+108234874					failed
+108233046					failed
+108234906					failed
+108234834					failed
+108234853					failed
+108234857					failed
+108234907					failed

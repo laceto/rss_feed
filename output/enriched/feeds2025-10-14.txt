@@ -1,0 +1,54 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108211839					failed
+108211842	JPMorgan	Finance	neutral	macro	ok
+108211757					failed
+108211477		Finance	positive	markets	ok
+108211920	Meta|Department of Justice|U.S. ICE	Policy	negative	regulation	ok
+108211938					failed
+108211982					failed
+108210052	OpenAI|Apple|Microsoft	Technology	positive	products	ok
+108211734	Trump administration|Susan Collins|Lisa Murkowski	Policy	neutral	regulation	ok
+108211878					failed
+108211406					failed
+108211744					failed
+108211925	D'Angelo	Consumer	negative	other	ok
+108211799					failed
+108211747					failed
+108211853					failed
+108208265					failed
+108211830					failed
+108211885					failed
+108211696					failed
+108211723					failed
+108207555					failed
+108211194		Other	neutral	other	ok
+108211732					failed
+108211535					failed
+108211352					failed
+108211636					failed
+108211717					failed
+108211483	Salesforce|OpenAI|ChatGPT	Technology	positive	products	ok
+108211609					failed
+108211593					failed
+108211718					failed
+108211588					failed
+108211199					failed
+108211540	Oracle|AMD|Nvidia	Technology	positive	products	ok
+108211045					failed
+108207990					failed
+108211788					failed
+108211643					failed
+108211587	Hanwha Ocean	Policy	negative	regulation	ok
+108211554					failed
+108211599					failed
+108211600	Reuters	Policy	neutral	macro	ok
+108211595					failed
+108211539					failed
+108211840					failed
+108211435					failed
+108211626					failed
+108210339	Tata Group|Justech|Apple	Technology	positive	M&A	ok
+108211548					failed
+108211360					failed
+108211449	NASA|JPL|Caltech	Other	neutral	other	ok
+108211018					failed

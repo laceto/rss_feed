@@ -1,0 +1,51 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108184719	Federal Reserve|Jerome Powell|Trump	Finance	negative	macro	ok
+108184809	Perplexity|Google	Technology	positive	M&A	ok
+108184364		Finance	neutral	macro	ok
+108184897	Nvidia|AMD|White House|Department of Commerce	Technology	neutral	regulation	ok
+108184772	Tesla|Apple|Elon Musk|Sam Altman	Technology	negative	other	ok
+108184425	S&P 500|Federal Reserve	Finance	positive	macro	ok
+108184150	S&P 500	Finance	neutral	markets	ok
+108184735	Nvidia|AMD	Technology	negative	regulation	ok
+108184913	Pfizer	Healthcare	negative	regulation	ok
+108184828		Policy	neutral	macro	ok
+108183545	The Princeton Review	Other	positive	other	ok
+108184796	Boeing|Airbus	Industrial	negative	markets	ok
+108184832	Las Vegas Sphere	Other	positive	products	ok
+108184845		Finance	negative	markets	ok
+108184827	BlackRock|Rick Rieder|Federal Reserve	Finance	positive	macro	ok
+108184838		Other	positive	products	ok
+108184526	Apple|OpenAI|ChatGPT|Elon Musk	Technology	negative	regulation	ok
+108180148	E.l.f.	Consumer	positive	products	ok
+108184757	AST SpaceMobile|SpaceX	Technology	positive	products	ok
+108177893		Finance	neutral	products	ok
+108184698	Goldman	Energy	positive	markets	ok
+108184611	Circle	Finance	positive	earnings	ok
+108184835	Terraform Labs	Finance	negative	regulation	ok
+108184609	Spirit Airlines	Consumer	negative	regulation	ok
+108184487	Tesla|New York City|Queens	Technology	neutral	regulation	ok
+108184593	Uber Freight|Waabi	Technology	positive	products	ok
+108184674	Anthropic|OpenAI	Technology	neutral	products	ok
+108184324		Finance	positive	markets	ok
+108184677	Donald Trump	Finance	positive	markets	ok
+108184594	Logitech|DWS Group|Shell|UniCredit|Saint-Gobain|Givaudan|Ahold Delhaize|Schaeffler	Other	neutral	M&A	ok
+108184141	Bank of America	Other	positive	markets	ok
+108184598	Vladimir Putin|Donald Trump|EU foreign policy chief	Policy	neutral	macro	ok
+108184512	U.S.|China	Policy	neutral	macro	ok
+108184248	UK government|tech giants	Policy	negative	regulation	ok
+108184556	Ukraine|Trump|Putin|U.S. President Donald Trump|President Vladimir Putin	Policy	negative	macro	ok
+108184011	Spain|Trump|Madrid|Washington	Policy	neutral	macro	ok
+108183350	Resorts World Sentosa|Gambling Regulatory Authority|Singapore	Other	neutral	regulation	ok
+108184523	India	Consumer	neutral	macro	ok
+108184566	Nvidia|Donald Trump	Technology	neutral	regulation	ok
+108184511	Australia	Policy	negative	macro	ok
+108184464	Intel	Technology	positive	other	ok
+108184489	Japan|U.S.|China|Australian markets	Other	positive	markets	ok
+108184497	E.J. Antoni|Bureau of Labor Statistics|President Trump|Erika McEntarfer	Policy	positive	appointments	ok
+108184517	Trump|China	Policy	negative	macro	ok
+108184285	Bureau of Labor Statistics	Policy	negative	macro	ok
+108184837					failed
+108184697		Finance	positive	macro	ok
+108182647	LinkedIn|Thomas Snyder|Japanese publisher	Technology	positive	products	ok
+108184630					failed
+108184361					failed

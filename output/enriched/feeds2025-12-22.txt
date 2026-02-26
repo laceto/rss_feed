@@ -1,0 +1,53 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108244720	Coastal Virginia Offshore Wind|Dominion|Interior Department|Pentagon|Doug Burgum|Trump	Energy	negative	regulation	ok
+108244209					failed
+108244756					failed
+108244755	Schumer|DOJ|President Donald Trump	Policy	neutral	regulation	ok
+108244511					failed
+108244847					failed
+108244837					failed
+108244666					failed
+108244625					failed
+108225558					failed
+108242432					failed
+108244787					failed
+108244708					failed
+108244679					failed
+108244573					failed
+108244555	CBS	Other	neutral	other	ok
+108244681					failed
+108244633					failed
+108244627					failed
+108244365	Build-A-Bear Workshop	Consumer	positive	markets	ok
+108239959					failed
+108244703					failed
+108243180					failed
+108244773					failed
+108243024					failed
+108244652					failed
+108244500					failed
+108244520					failed
+108244565					failed
+108243446					failed
+108244093	UK|Wall Street|FTSE 100	Finance	positive	markets	ok
+108227313					failed
+108244000					failed
+108244574					failed
+108244524					failed
+108242518					failed
+108242949		Other	neutral	other	ok
+108244575					failed
+108239037					failed
+108244577					failed
+108244559					failed
+108243577					failed
+108243055					failed
+108243444	Major tech companies	Technology	negative	markets	ok
+108244523	People's Bank of China	Finance	neutral	macro	ok
+108244505					failed
+108239816					failed
+108244491					failed
+108244427					failed
+108244298					failed
+108244046					failed
+108243090		Finance	neutral	markets	ok

@@ -1,0 +1,43 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108188099	Donald Trump	Policy	negative	regulation	ok
+108188112					failed
+108188127					failed
+108187977					failed
+108188146					failed
+108188038					failed
+108184964	Silicon Valley|tech giants	Technology	negative	regulation	ok
+108187562					failed
+108188063					failed
+108188132	Paramount Skydance|Duffer Brothers	Other	neutral	other	ok
+108182007					failed
+108187269					failed
+108188152					failed
+108187933					failed
+108187969					failed
+108187819					failed
+108187175	OpenAI	Technology	positive	products	ok
+108188088					failed
+108187209					failed
+108188087					failed
+108187989	Robinhood	Other	positive	products	ok
+108187900					failed
+108187954					failed
+108187157					failed
+108187915					failed
+108186921					failed
+108187173	Microsoft|Amazon|Alphabet|Meta	Technology	neutral	markets	ok
+108187854	Apple|U.S. government|U.K.	Technology	positive	regulation	ok
+108182395	Best Buy	Consumer	positive	products	ok
+108187805					failed
+108187870					failed
+108183457		Consumer	positive	other	ok
+108182799		Consumer	positive	markets	ok
+108173211					failed
+108187789					failed
+108187807					failed
+108186427					failed
+108187832					failed
+108187803					failed
+108187780					failed
+108187596	SpaceX|Starlink|Elon Musk	Technology	neutral	products	ok
+108187772	SoftBank|Intel|U.S. Federal Reserve|Jerome Powell	Finance	negative	markets	ok

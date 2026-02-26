@@ -1,0 +1,54 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108210108					failed
+108209305					failed
+108210060					failed
+108209646					failed
+108199200					failed
+108209538	Progressive|Charles Schwab	Finance	positive	earnings	ok
+108209917					failed
+108209994	Delta	Consumer	positive	markets	ok
+108209345		Finance	neutral	regulation	ok
+108210103					failed
+108209011					failed
+108209814					failed
+108209950					failed
+108209715					failed
+108209571					failed
+108210035					failed
+108209903		Finance	positive	markets	ok
+108209948					failed
+108209843					failed
+108208788	AT&T	Technology	neutral	regulation	ok
+108208976	Education Department	Policy	neutral	regulation	ok
+108209454					failed
+108209775					failed
+108208805	PepsiCo	Consumer	positive	earnings	ok
+108209832					failed
+108209610					failed
+108209730					failed
+108209186	Russia|European Union	Policy	neutral	macro	ok
+108210120					failed
+108209961	OpenAI|CAA	Technology	negative	regulation	ok
+108209772					failed
+108209844					failed
+108209555					failed
+108209904					failed
+108209825					failed
+108209787					failed
+108208590					failed
+108209782					failed
+108209140					failed
+108209773					failed
+108208715					failed
+108209119					failed
+108209713					failed
+108209737					failed
+108209473					failed
+108209977					failed
+108209838					failed
+108207078					failed
+108209535					failed
+108209588	AMD|OpenAI|Nvidia	Technology	positive	markets	ok
+108209576					failed
+108209761					failed
+108209740	Hang Seng Bank|HSBC	Finance	positive	M&A	ok

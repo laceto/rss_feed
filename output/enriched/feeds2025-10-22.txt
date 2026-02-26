@@ -1,0 +1,48 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108214973					failed
+108215289					failed
+108215464					failed
+108215058					failed
+108215328	Donald Trump|Democrats|John Thune	Policy	neutral	macro	ok
+108215336					failed
+108215406					failed
+108215337					failed
+108215376					failed
+108215389					failed
+108214506					failed
+108215123					failed
+108215473					failed
+108215217					failed
+108215106					failed
+108215446					failed
+108215267					failed
+108214275					failed
+108214286					failed
+108213205					failed
+108212028					failed
+108215385					failed
+108215309					failed
+108215250					failed
+108215261					failed
+108214820					failed
+108215258					failed
+108215266					failed
+108215149					failed
+108215137					failed
+108215224	Volkswagen|Nexperia	Consumer	negative	regulation	ok
+108215165					failed
+108215117	L'Oreal	Consumer	negative	markets	ok
+108215084					failed
+108215005					failed
+108214698					failed
+108214540					failed
+108215081					failed
+108215179					failed
+108213912					failed
+108214525					failed
+108215127					failed
+108214541					failed
+108215060					failed
+108215074		Policy	negative	other	ok
+108214994					failed
+108214781					failed

@@ -1,0 +1,63 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108219352					failed
+108218686					failed
+108218765					failed
+108218719					failed
+108219520					failed
+108219276					failed
+108219495					failed
+108218750					failed
+108219356					failed
+108219247	Donald Trump|Xi	Policy	neutral	macro	ok
+108216706					failed
+108219438					failed
+108219370					failed
+108218854					failed
+108219359					failed
+108219351					failed
+108219282					failed
+108219360					failed
+108218972					failed
+108216817					failed
+108219293	Roblox	Technology	negative	markets	ok
+108219342	Palantir	Technology	negative	other	ok
+108218576					failed
+108219343					failed
+108218550					failed
+108219220					failed
+108218588					failed
+108219300					failed
+108219182					failed
+108217900					failed
+108218365		Finance	negative	markets	ok
+108217836					failed
+108219187					failed
+108219145	Trump|Beijing|China	Policy	neutral	macro	ok
+108218775					failed
+108219229					failed
+108218418					failed
+108219175					failed
+108219099					failed
+108219176					failed
+108219068					failed
+108219076					failed
+108219201					failed
+108219092					failed
+108219174					failed
+108219119					failed
+108219080					failed
+108216978					failed
+108218349					failed
+108219007					failed
+108219005					failed
+108219124					failed
+108219032					failed
+108218985					failed
+108218993					failed
+108218516					failed
+108218548					failed
+108217450					failed
+108218813					failed
+108218584					failed
+108219089	Hanwha Ocean|Samsung Heavy Industries	Industrial	positive	markets	ok
+108217805					failed

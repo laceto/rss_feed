@@ -1,0 +1,41 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108213154					failed
+108213713					failed
+108213598	Vladimir Putin|Donald Trump|Kremlin	Policy	neutral	macro	ok
+108213672	banks|non-depository financial institutions|NDFIs	Finance	negative	markets	ok
+108209878					failed
+108213697					failed
+108213171					failed
+108213594					failed
+108213605					failed
+108213516					failed
+108213482					failed
+108211906					failed
+108213568					failed
+108213288					failed
+108213506					failed
+108213503					failed
+108212512					failed
+108213481		Policy	neutral	other	ok
+108213241					failed
+108212939					failed
+108209983					failed
+108213480					failed
+108213528					failed
+108212835					failed
+108213054	ETF|financial experts	Finance	negative	markets	ok
+108213463		Finance	positive	markets	ok
+108213225					failed
+108213519					failed
+108212913					failed
+108212832		Energy	neutral	markets	ok
+108211025					failed
+108213396					failed
+108213374	European markets|bank stocks	Finance	negative	markets	ok
+108213483					failed
+108212833					failed
+108213662					failed
+108213176					failed
+108213101					failed
+108213200					failed
+108213324					failed

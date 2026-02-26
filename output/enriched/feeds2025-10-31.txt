@@ -1,0 +1,48 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108220145					failed
+108218097					failed
+108218552					failed
+108219384					failed
+108220054					failed
+108219551					failed
+108219724					failed
+108219532	largest cloud and internet companies	Technology	positive	markets	ok
+108220003					failed
+108219786					failed
+108218599					failed
+108219958					failed
+108220127					failed
+108218978					failed
+108219773					failed
+108220037	Exxon	Energy	neutral	products	ok
+108219981					failed
+108219601					failed
+108219983					failed
+108218021					failed
+108219623					failed
+108217855		Other	negative	other	ok
+108218892					failed
+108220009					failed
+108219876					failed
+108220048					failed
+108219707					failed
+108219726					failed
+108219827					failed
+108218380	Russia	Policy	neutral	other	ok
+108219262					failed
+108219823					failed
+108219762	Chinese government|Xi Jinping	Policy	neutral	macro	ok
+108220039					failed
+108219790					failed
+108219814					failed
+108219741					failed
+108219810					failed
+108219731					failed
+108219650					failed
+108219592					failed
+108219732					failed
+108218145					failed
+108219621					failed
+108219719	Apple	Technology	neutral	other	ok
+108219553					failed
+108218686					failed

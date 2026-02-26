@@ -1,0 +1,60 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108184351	Donald Trump	Policy	neutral	regulation	ok
+108183979	Nvidia|AMD|Trump	Technology	positive	markets	ok
+108183902		Finance	neutral	macro	ok
+108184081	Washington, DC|Trump|National Guard	Policy	neutral	regulation	ok
+108183794	Tom Kozlik	Finance	negative	markets	ok
+108184208	ESPN|Fox	Consumer	positive	products	ok
+108184313	Microsoft|GitHub|Cursor	Technology	negative	appointments	ok
+108184263	Nvidia	Technology	negative	products	ok
+108184175	California|Gavin Newsom|Trump|Texas GOP|House of Representatives|Texas GOP lawmakers	Policy	neutral	regulation	ok
+108181691		Finance	neutral	products	ok
+108183558	Stitch Fix|Matt Baer	Consumer	positive	markets	ok
+108184154	Trump	Policy	positive	markets	ok
+108184278	Bullish|Peter Thiel	Finance	positive	markets	ok
+108184296	U.S. Steel	Energy	negative	other	ok
+108184190	Ford	Consumer	positive	products	ok
+108183046	U.S. automakers|President Trump	Policy	neutral	regulation	ok
+108184067	Stifel	Finance	negative	macro	ok
+108184101	C3 AI|Siebel	Technology	negative	earnings	ok
+108183901	Paramount|UFC|ESPN	Other	positive	M&A	ok
+108182510		Finance	neutral	other	ok
+108184155		Policy	neutral	regulation	ok
+108184135	Amazon|SpaceX	Technology	positive	products	ok
+108184092	Sequoia Capital|Michael Moritz|Intel|Lip-Bu Tan|Donald Trump	Technology	positive	regulation	ok
+108184078	CATL	Energy	positive	markets	ok
+108183228	Claire's	Consumer	negative	regulation	ok
+108184111	AMC Entertainment	Consumer	positive	earnings	ok
+108184021	AOL	Technology	negative	products	ok
+108183627		Technology	neutral	other	ok
+108182656		Technology	positive	markets	ok
+108183953	Moscow|Putin	Other	positive	macro	ok
+108184325	U.S. Customs and Border Protection|Switzerland	Policy	positive	regulation	ok
+108183971	Orsted|CNBC	Energy	negative	markets	ok
+108180947		Consumer	positive	products	ok
+108179568	Lucy Rout	Consumer	neutral	other	ok
+108184001	Ørsted	Energy	negative	markets	ok
+108166897	SoftBank|Masayoshi Son	Technology	positive	products	ok
+108183961	Tesla|Elon Musk	Energy	negative	regulation	ok
+108181035		Consumer	positive	products	ok
+108183900	Nvidia|Chinese	Technology	negative	regulation	ok
+108183918	U.S.|China	Policy	neutral	macro	ok
+108183680	AI	Technology	positive	markets	ok
+108183929	NVIDIA	Technology	positive	markets	ok
+108183920	SoftBank|PayPay|Reuters	Finance	neutral	markets	ok
+108183527		Finance	neutral	markets	ok
+108183857		Technology	neutral	other	ok
+108183908	Benjamin Netanyahu	Other	neutral	other	ok
+108183893		Technology	positive	products	ok
+108183910	Ukraine|Donald Trump|Vladimir Putin	Policy	neutral	macro	ok
+108183260	Chevron|AT&T	Finance	positive	markets	ok
+108183912	Nvidia|AMD|U.S. government|President Donald Trump	Technology	negative	regulation	ok
+108183894	Texas Gov. Abbott	Policy	negative	regulation	ok
+108183897		Policy	neutral	other	ok
+108183895	JB Pritzker|Greg Abbott|Trump	Policy	negative	regulation	ok
+108183875	Donald Trump	Policy	neutral	other	ok
+108183874	Venmo|Cash App	Finance	positive	markets	ok
+108182283	Runwise	Other	neutral	products	ok
+108183257	Starbucks|Smoothie King|Chick-fil-A|Panda Express	Consumer	positive	products	ok
+108183816	Apple|White House|Microsoft|Nvidia|Google|Amazon	Technology	positive	markets	ok
+108183923	U.S.|China|Beijing|Trump	Policy	neutral	macro	ok

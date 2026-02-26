@@ -1,0 +1,59 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108194344					failed
+108194347					failed
+108193708		Consumer	neutral	macro	ok
+108194416	White House|Federal Reserve	Policy	neutral	appointments	ok
+108193841	S&P 500	Finance	positive	markets	ok
+108194421					failed
+108194451	Donald Trump	Policy	neutral	regulation	ok
+108194060	Meta|Apple|Microsoft|OpenAI|Mark Zuckerberg|Tim Cook|Bill Gates|Sam Altman	Technology	neutral	other	ok
+108194503					failed
+108194440					failed
+108191384	Cowboys|CNBC	Other	positive	markets	ok
+108194412					failed
+108194212	Broadcom	Technology	positive	earnings	ok
+108194181		Other	negative	macro	ok
+108194203					failed
+108194449					failed
+108194450					failed
+108194352					failed
+108194376	Amazon|Anthropic|OpenAI|Barclays	Technology	positive	markets	ok
+108194238					failed
+108189299	Chase	Finance	neutral	products	ok
+108194277					failed
+108193892					failed
+108194263	Orsted|United States District Court for the District of Columbia|Trump administration	Energy	negative	regulation	ok
+108194240	Figma	Technology	negative	earnings	ok
+108194209					failed
+108194265	Giorgio Armani	Consumer	negative	other	ok
+108193921					failed
+108194247					failed
+108194150	Norwegian wealth fund|Caterpillar|White House	Other	negative	regulation	ok
+108193507					failed
+108193519					failed
+108194083		Finance	negative	markets	ok
+108193613					failed
+108194400					failed
+108193257					failed
+108194084					failed
+108194047	Big Tech|Digital India	Technology	positive	macro	ok
+108193565	Huawei	Technology	positive	products	ok
+108194110					failed
+108194012					failed
+108194108					failed
+108192722					failed
+108194037	Nasdaq	Finance	negative	regulation	ok
+108194080					failed
+108194043					failed
+108194016					failed
+108194065					failed
+108194256					failed
+108193920					failed
+108193874	JetBlue|Amazon|Project Kuiper|SpaceX|Starlink	Technology	positive	products	ok
+108193215	Peter Thiel	Technology	positive	markets	ok
+108194174	Supreme Court|NBC News|Chief Justice John Roberts	Policy	neutral	regulation	ok
+108193673					failed
+108193952	Harvard University|Trump administration	Policy	negative	regulation	ok
+108193256					failed
+108193748					failed
+108194078					failed

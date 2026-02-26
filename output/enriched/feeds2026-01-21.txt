@@ -1,0 +1,61 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108254918					failed
+108254882					failed
+108254654	Federal Reserve|Supreme Court|Jerome Powell|Lisa Cook	Policy	neutral	appointments	ok
+108254550					failed
+108254878					failed
+108255116					failed
+108255139					failed
+108254966					failed
+108254512					failed
+108255046					failed
+108254922		Policy	neutral	other	ok
+108254924					failed
+108255011					failed
+108254942					failed
+108254980					failed
+108254985					failed
+108254879	Amazon|One Medical	Healthcare	positive	products	ok
+108254827					failed
+108255007					failed
+108252345					failed
+108254749					failed
+108254818					failed
+108254783	OpenAI|Anthropic	Technology	neutral	markets	ok
+108254973					failed
+108254112					failed
+108254698	Greenland	Finance	positive	markets	ok
+108254670					failed
+108254819					failed
+108254842					failed
+108254957					failed
+108254498					failed
+108254782					failed
+108254580					failed
+108254750					failed
+108254695					failed
+108254771					failed
+108254738	Scott Bessent|U.S.|Denmark|Greenland|U.S. Treasury|Denmark	Policy	neutral	macro	ok
+108254795					failed
+108254697	Trump	Other	neutral	markets	ok
+108254748		Finance	neutral	markets	ok
+108254114					failed
+108254777					failed
+108254714	U.S.|UK|Rachel Reeves|CNBC	Policy	positive	macro	ok
+108254142					failed
+108253961					failed
+108254347	Edinburgh Worldwide|Saba Capital|EWIT|Boaz Weinstein	Finance	negative	markets	ok
+108252117		Finance	positive	markets	ok
+108253391	Chinese tech giants	Technology	neutral	products	ok
+108253394					failed
+108253793					failed
+108254612					failed
+108254375					failed
+108254653					failed
+108254572					failed
+108253220					failed
+108254419					failed
+108254006					failed
+108254682					failed
+108254652					failed
+108253989	UK|U.S.|Britain|Trump|Keir Starmer	Policy	neutral	macro	ok

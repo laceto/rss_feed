@@ -1,0 +1,45 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108255689		Finance	negative	macro	ok
+108256452	CFPB|Sen. Warren|Trump administration	Policy	negative	regulation	ok
+108255781					failed
+108256482					failed
+108255901					failed
+108256471					failed
+108256257					failed
+108255774					failed
+108255972					failed
+108256159	U.S. airlines	Other	negative	macro	ok
+108255963					failed
+108255916					failed
+108256345					failed
+108256087					failed
+108255677					failed
+108256009					failed
+108255710					failed
+108254517					failed
+108253688					failed
+108253037					failed
+108255849		Policy	neutral	macro	ok
+108255674					failed
+108256157					failed
+108254442		Finance	neutral	macro	ok
+108256179					failed
+108255550	Donald Trump|World Economic Forum|Davos	Policy	negative	other	ok
+108254474					failed
+108256092					failed
+108255453					failed
+108256328					failed
+108256128					failed
+108256142	Iran|U.S. President Donald Trump	Energy	negative	macro	ok
+108255332					failed
+108256115					failed
+108254168					failed
+108256116					failed
+108255510					failed
+108256076					failed
+108255993					failed
+108249766					failed
+108255438		Policy	neutral	macro	ok
+108255973	Tesla|Elon Musk	Technology	neutral	products	ok
+108255813					failed
+108255865					failed

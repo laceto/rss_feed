@@ -1,0 +1,47 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108193069					failed
+108190429	Salesforce	Technology	negative	products	ok
+108193108					failed
+108193182	Amazon	Consumer	neutral	products	ok
+108193279	OpenAI|Statsig	Technology	positive	M&A	ok
+108193152					failed
+108193071	Tesla|Elon Musk	Technology	positive	products	ok
+108193089					failed
+108193094	Federal Reserve|Lisa Cook|Trump	Policy	positive	regulation	ok
+108191462					failed
+108193120					failed
+108193133					failed
+108193077					failed
+108193210					failed
+108193066					failed
+108191577					failed
+108193111		Finance	positive	markets	ok
+108189244	Home Depot	Consumer	positive	markets	ok
+108193024					failed
+108192449	McDonald's	Consumer	positive	products	ok
+108193036					failed
+108192998					failed
+108192511					failed
+108192660	Colliers	Other	positive	markets	ok
+108192638	Apollo|Marc Rowan	Finance	neutral	markets	ok
+108192960					failed
+108192371					failed
+108192963		Finance	negative	macro	ok
+108192941					failed
+108192852	Donald Trump	Policy	negative	markets	ok
+108192855					failed
+108192868					failed
+108192964					failed
+108192966	Russia|U.S.	Energy	positive	markets	ok
+108192829					failed
+108192780	BYD|Nio|Leapmotor|Xpeng	Consumer	positive	products	ok
+108192870	Beijing	Policy	neutral	macro	ok
+108192830		Consumer	negative	macro	ok
+108192781					failed
+108192191		Consumer	positive	products	ok
+108192865					failed
+108192873					failed
+108192846					failed
+108193098					failed
+108192553	Microsoft|U.S. government|General Services Administration	Technology	positive	products	ok
+108192625	Kraft Heinz|Warren Buffett|Berkshire Hathaway|3G Capital	Consumer	neutral	M&A	ok
