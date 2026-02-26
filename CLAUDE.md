@@ -22,10 +22,11 @@ Outputs `output/feeds{YYYY-MM-DD}.txt` (tab-separated). R deps in `DESCRIPTION` 
 ```bash
 venv\Scripts\activate   # Windows
 
-python create_batch_files_v2.py    # submit sector batch to OpenAI Batch API
+python create_batch_files_v2.py        # submit sector batch to OpenAI Batch API
 python retrieve_batch_file_results.py  # collect completed batch results
-python read_sector_results.py      # flatten results → data/sector_summary.tsv
-python visualize_sentiment.py      # generate charts → data/charts/
+python read_sector_results.py          # flatten results → data/sector_summary.tsv
+python visualize_sentiment.py          # generate charts → data/charts/
+python query_sector.py                 # not a CLI script — import as a module (see below)
 
 python trader_assistant.py         # trading signal extractor (LangChain)
 python create_batch_files.py       # MA/RSI batch analysis (tickers)
@@ -71,21 +72,46 @@ GitHub Actions — collect-sector-results (triggered by daily-pipeline completio
 ```
 
 ### Sector Analysis Schema
-`SectorAnalysis` (Pydantic, defined in `create_batch_files_v2.py`) is the single source of truth:
+`SectorAnalysis` (Pydantic, in `create_batch_files_v2.py`) is the LLM output model. `SectorName` in `constants.py` is the single source of truth for the taxonomy:
 
 | Field | Type |
 |---|---|
 | `entities` | `list[str]` — named companies/orgs |
-| `sector` | `Literal[19 values]` — fixed taxonomy (Commercial Services … Utilities) |
+| `sector` | `SectorName` — 19-value Literal imported from `constants.py` |
 | `sentiment` | `Literal["positive", "neutral", "negative"]` |
 | `news_category` | `Literal["earnings","M&A","regulation","macro","appointments","products","markets","other"]` |
 | `extraction_status` | `Literal["ok", "partial"]` |
 
 `MultiSectorAnalysis` wraps `list[SectorAnalysis]` (1–8 sectors per day).
 
+### Querying Sector Data from External Flows
+`query_sector.py` exposes two functions for downstream consumers (dashboards, agents, other scripts):
+
+```python
+from query_sector import get_snapshot, get_time_series, list_sectors
+
+# Current read — single latest entry
+snap = get_snapshot("Technology Services")
+# → {last_date, latest_sentiment, sentiment_score, entities, news_category, data_age_days}
+
+# Trend over a rolling window
+ts = get_time_series("Finance", lookback_days=60, include_articles=True)
+# → {mean_sentiment_score, trend_direction, trend_delta,
+#    top_entities, category_breakdown, time_series, articles}
+
+# Discover valid names
+list_sectors()   # sorted list of 19 valid sector names
+```
+
+- Both functions raise `ValueError` (bad name) or `LookupError` (valid name, no data yet)
+- `trend_direction`: `"improving"` / `"deteriorating"` / `"stable"` based on first-half vs second-half mean of the window (threshold ±0.20)
+- `include_articles=True` joins back to `output/feeds{date}.txt` for raw article headlines
+
 ### Key Files
 | File | Purpose |
 |---|---|
+| `constants.py` | **Single source of truth**: `SectorName` Literal, `SECTOR_TAXONOMY` list, `SENTIMENT_SCORE`, file paths |
+| `query_sector.py` | `get_snapshot()` + `get_time_series()` — sector lookup for external flows |
 | `create_batch_files_v2.py` | Reads raw feeds, submits daily sector batch to OpenAI |
 | `retrieve_batch_file_results.py` | Collects completed batch; routes to `data/sector_results/` |
 | `read_sector_results.py` | Flattens all JSON results → `data/sector_summary.tsv` |

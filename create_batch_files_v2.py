@@ -25,15 +25,19 @@ from pydantic.json_schema import model_json_schema
 from typing import Literal
 from openai import OpenAI
 
+from constants import (
+    SectorName,
+    RAW_FEED_DIR,
+    SECTOR_RESULTS_DIR as RESULTS_DIR,
+    BATCH_FILE,
+    PENDING_BATCH_FILE,
+)
+
 load_dotenv()
 client = OpenAI()
 
 # ── Constants ──────────────────────────────────────────────────────────────────
 
-RAW_FEED_DIR = Path("output")
-RESULTS_DIR = Path("data") / "sector_results"
-BATCH_FILE = Path("data") / "batch_tasks_sector.jsonl"
-PENDING_BATCH_FILE = Path("data") / "pending_sector_batch.txt"
 MAX_CHARS = 60_000  # ~15k tokens safety cap per date chunk
 
 
@@ -46,27 +50,7 @@ class SectorAnalysis(BaseModel):
         default_factory=list,
         description="Named companies, organizations, or notable figures mentioned.",
     )
-    sector: Literal[
-        "Commercial Services",
-        "Communications",
-        "Consumer Durables",
-        "Consumer Non-Durables",
-        "Consumer Services",
-        "Distribution Services",
-        "Electronic Technology",
-        "Energy Minerals",
-        "Finance",
-        "Health Services",
-        "Health Technology",
-        "Industrial Services",
-        "Non-Energy Minerals",
-        "Process Industries",
-        "Producer Manufacturing",
-        "Retail Trade",
-        "Technology Services",
-        "Transportation",
-        "Utilities",
-    ] = Field(..., description="Sector name from the fixed taxonomy.")
+    sector: SectorName = Field(..., description="Sector name from the fixed taxonomy.")
     sentiment: Literal["positive", "negative", "neutral"] = Field(
         ..., description="Overall market sentiment for this sector."
     )
