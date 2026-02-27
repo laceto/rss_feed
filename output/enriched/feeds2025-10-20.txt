@@ -1,0 +1,117 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108213904	Apple	Technology	positive	markets	ok
+108214244	U.S.|Australia|Anthony Albanese|Donald Trump	Policy	positive	other	ok
+108213953	Amazon|Snapchat|Disney+|Reddit|Canva	Technology	negative	other	ok
+108214074	White House	Policy	neutral	macro	ok
+108214268	Trivariate Research|Adam Parker	Finance	neutral	markets	ok
+108213940	Vladimir Putin|Zelenskyy	Policy	negative	macro	ok
+108214284	Tesla	Finance	neutral	macro	ok
+108213959	Amazon Web Services|Delta Air Lines|United Airlines	Technology	negative	other	ok
+108214163	Apple|Cleveland-Cliffs|Oracle|KLA|Tempus AI	Technology	neutral	markets	ok
+108214127	Cleveland-Cliffs|Trump administration	Industrial	positive	markets	ok
+108213486		Other	neutral	macro	ok
+108212439	Gildan	Consumer	positive	products	ok
+108214067	Anthropic	Healthcare	positive	products	ok
+108214056	SpaceX	Policy	negative	regulation	ok
+108214105	Hong Kong Airport	Other	negative	other	ok
+108214149	Tesla|GM	Technology	positive	earnings	ok
+108213221	U.S. auto industry	Consumer	neutral	markets	ok
+108213024		Consumer	neutral	markets	ok
+108213599	Invesco|John Burrello	Finance	positive	markets	ok
+108214051		Other	positive	markets	ok
+108212437	LendingTree	Finance	neutral	macro	ok
+108214186		Consumer	negative	macro	ok
+108213945	Kering|L'Oreal|Creed	Consumer	positive	M&A	ok
+108213810	Zions Bancorporation	Finance	negative	markets	ok
+108214053	Jana Partners|Cooper Companies|WSJ	Healthcare	positive	markets	ok
+108208767		Technology	positive	products	ok
+108214086	Apple|Loop Capital	Technology	positive	products	ok
+108213901	Apple|OpenAI|X|xAI|Elon Musk	Technology	neutral	regulation	ok
+108213379	China	Other	negative	macro	ok
+108214048	Thyssenkrupp|TKMS	Other	positive	markets	ok
+108213397	UK|Rachel Reeves	Finance	negative	macro	ok
+108213932	European markets|defense stocks	Other	positive	markets	ok
+108212189		Other	positive	products	ok
+108212760					failed
+108211593	BlackRock	Finance	positive	markets	ok
+108212264	International Monetary Fund	Finance	positive	macro	ok
+108209800		Finance	neutral	markets	ok
+108213519	Rachel Reeves	Policy	neutral	macro	ok
+108213857	Britain|U.S.	Policy	negative	regulation	ok
+108208596					failed
+108213675					failed
+108213927	Japan Innovation Party|Ishin|Sanae Takaichi	Policy	positive	appointments	ok
+108213404					failed
+108212832					failed
+108213615	Anthropic|OpenAI|U.S. government|David Sacks	Technology	neutral	regulation	ok
+108213686					failed
+108213892					failed
+108214104					failed
+108213790					failed
+108212746					failed
+108213552	Boeing|FAA	Industrial	positive	regulation	ok
+108213623					failed
+108213662					failed
+108213598					failed
+108213171					failed
+108213516					failed
+108213482					failed
+108213483	Moody's|Marc Pinto|CNBC	Finance	positive	macro	ok
+108213506					failed
+108212835					failed
+108213241					failed
+108213176					failed
+108213225					failed
+108213101	EssilorLuxottica|Meta	Consumer	positive	products	ok
+108213200					failed
+108213120					failed
+108213183	Democrats	Policy	negative	regulation	ok
+108213126	U.S. government	Policy	neutral	macro	ok
+108213127	Oracle|Meta	Technology	positive	markets	ok
+108211864		Other	neutral	macro	ok
+108213324					failed
+108212813	Nio|Singapore's GIC	Technology	negative	regulation	ok
+108211276	UPI	Finance	neutral	macro	ok
+108212765					failed
+108212791	Hong Kong’s largest telco companies	Policy	negative	regulation	ok
+108212756	India|Russia|Moscow|Ukraine	Policy	negative	macro	ok
+108212751					failed
+108212220					failed
+108212232					failed
+108209806					failed
+108209754					failed
+108212154					failed
+108210969					failed
+108212144	U.S.|China	Other	positive	markets	ok
+108211626					failed
+108211599					failed
+108211554					failed
+108211587	Hanwha Ocean	Policy	negative	regulation	ok
+108210339	Tata Group|Justech|Apple	Technology	positive	M&A	ok
+108211018					failed
+108211539					failed
+108210722					failed
+108211060					failed
+108211003					failed
+108210995	Beijing|Washington	Policy	neutral	macro	ok
+108210929					failed
+108209450					failed
+108213528	ICG|CVC|Partners Group	Finance	negative	markets	ok
+108212913					failed
+108212844					failed
+108212482	Meta	Technology	negative	markets	ok
+108212818					failed
+108212298					failed
+108211159					failed
+108208814					failed
+108212255	Nscale|Microsoft	Technology	positive	markets	ok
+108212202	France	Policy	positive	markets	ok
+108211638					failed
+108212182					failed
+108211059					failed
+108211199					failed
+108211021	Nexperia|Dutch government	Technology	negative	regulation	ok
+108210381	Big Oil	Energy	negative	markets	ok
+108210441	Europe|Washington D.C.	Policy	neutral	macro	ok
+108210432					failed
+108210424					failed

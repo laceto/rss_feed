@@ -1,0 +1,50 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108205624		Policy	negative	regulation	ok
+108205805	Federal Reserve	Policy	negative	macro	ok
+108205725	Trump|Pfizer	Healthcare	positive	regulation	ok
+108205164		Finance	neutral	macro	ok
+108205730	Oil companies|President Donald Trump	Energy	negative	markets	ok
+108205800	Warren Buffett|Berkshire Hathaway|JPMorgan	Finance	positive	markets	ok
+108205638	Nike	Consumer	neutral	earnings	ok
+108205486	OpenAI	Technology	neutral	products	ok
+108205766	Ford	Consumer	negative	markets	ok
+108205787	Nvidia	Technology	positive	markets	ok
+108205617	Trump administration|lawmakers	Policy	negative	regulation	ok
+108205165	Arianna Huffington	Other	negative	other	ok
+108205750	Amazon	Technology	positive	products	ok
+108203312	JPMorgan Chase	Finance	positive	products	ok
+108205837	food delivery giant	Consumer	positive	markets	ok
+108205801	Schneider|Nvidia	Energy	positive	products	ok
+108205643	CoreWeave|Meta	Technology	positive	M&A	ok
+108205215	Jim Cramer|Warren Buffett	Finance	neutral	markets	ok
+108205670	Versant|WNBA	Other	positive	products	ok
+108205188	Amazon Prime Video|FanDuel	Technology	neutral	products	ok
+108202082		Finance	positive	products	ok
+108205450	Amazon|Ring	Technology	positive	products	ok
+108205690	Spotify	Technology	neutral	appointments	ok
+108205704	Walmart|Jim Cramer|CNBC	Consumer	neutral	other	ok
+108205680	Firefly Aerospace	Other	negative	markets	ok
+108205651	Federal Reserve	Finance	neutral	macro	ok
+108205353	Cerebras|Meta	Technology	positive	products	ok
+108205105	Hertz	Consumer	positive	products	ok
+108204742		Other	neutral	macro	ok
+108205489	UK|Starmer|Labour Party	Policy	neutral	macro	ok
+108205487	Pandora	Other	positive	markets	ok
+108204866		Finance	negative	markets	ok
+108205319	DeepSeek	Technology	neutral	products	ok
+108205461	Chinese manufacturers	Industrial	neutral	macro	ok
+108205363	Vance|Trump	Policy	neutral	regulation	ok
+108205495	UBS|Credit Suisse	Finance	negative	regulation	ok
+108204830	Reserve Bank of Australia	Policy	neutral	macro	ok
+108205471					failed
+108204967	Zijin Gold|Zijin Mining|Hong Kong	Other	positive	markets	ok
+108205462	Trump	Other	negative	regulation	ok
+108205457	Federal Reserve	Policy	negative	macro	ok
+108205395	YouTube|Donald Trump	Technology	neutral	regulation	ok
+108205739		Policy	neutral	regulation	ok
+108205370	SEC	Finance	positive	regulation	ok
+108205691		Consumer	negative	macro	ok
+108205283	Amazon|Andy Jassy	Technology	positive	products	ok
+108205106		Policy	neutral	macro	ok
+108205442	China	Other	neutral	macro	ok
+108205488	Keir Starmer|Labour Party	Policy	neutral	other	ok

@@ -1,0 +1,72 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108202253	Nvidia|OpenAI|Trump	Technology	positive	regulation	ok
+108202139	Baird	Other	negative	regulation	ok
+108202145	Federal Reserve|Stephen Miran	Finance	negative	macro	ok
+108202257	Orsted|Revolution Wind|Interior Department	Energy	positive	regulation	ok
+108202315	Pfizer|Metsera	Healthcare	positive	M&A	ok
+108202206	ABC|Jimmy Kimmel|ACLU	Other	neutral	other	ok
+108201390		Finance	neutral	other	ok
+108202326	CNBC Crypto World|BitGo|Ondo Finance|Nathan Allman	Finance	neutral	markets	ok
+108202224	Nike|Skims	Consumer	positive	products	ok
+108202156	Apple	Technology	positive	products	ok
+108202195		Policy	negative	regulation	ok
+108202226	Nobel Prize|AI	Technology	neutral	regulation	ok
+108202084	Michelob Ultra|Modelo Especial|Bud Light|Anheuser-Busch	Consumer	positive	markets	ok
+108202276	Tom Kozlik	Finance	negative	markets	ok
+108202215	Spirit Airlines	Consumer	negative	other	ok
+108202003		Finance	positive	markets	ok
+108201688	The Washington Post	Healthcare	neutral	regulation	ok
+108202106	U.S. Steel|Intel|Donald Trump	Policy	neutral	regulation	ok
+108201943	Oracle	Technology	positive	appointments	ok
+108202080	Better Home & Finance|Opendoor|EMJ Capital	Finance	positive	markets	ok
+108186078	Amex|Chase	Finance	positive	products	ok
+108202120	Nvidia|Macy's	Consumer	positive	markets	ok
+108201902	Pfizer|Metsera	Healthcare	positive	M&A	ok
+108202205	Mohegan Sun|United Nations	Other	negative	regulation	ok
+108201168	Saudi Arabia|Pakistan|India	Energy	neutral	macro	ok
+108201321		Other	negative	macro	ok
+108201620	U.S. Steel	Industrial	positive	regulation	ok
+108200719	Autonomic	Healthcare	positive	products	ok
+108200028		Other	positive	macro	ok
+108201853	Trump	Policy	negative	regulation	ok
+108202210	Nvidia|OpenAI	Technology	positive	products	ok
+108201798	Trump administration	Policy	negative	regulation	ok
+108201686	Nvidia|OpenAI|Federal Reserve	Technology	positive	markets	ok
+108200650	Kering	Consumer	positive	markets	ok
+108201839	Porsche	Other	negative	markets	ok
+108201029	Nvidia	Technology	positive	markets	ok
+108189541	Lucy Guo	Other	positive	other	ok
+108201134	Allianz	Finance	negative	regulation	ok
+108200431	Rachael De Foe	Other	positive	earnings	ok
+108201627	Berkshire Hathaway|BYD|Chinese EV maker	Finance	negative	markets	ok
+108201209		Finance	positive	markets	ok
+108201838	Adani Power	Energy	positive	markets	ok
+108201822	Luxshare|OpenAI	Technology	positive	products	ok
+108201797	People's Bank of China	Finance	neutral	macro	ok
+108200428	Alibaba	Technology	positive	products	ok
+108201837	Federal Reserve	Finance	negative	macro	ok
+108201681	Murdochs|Larry Ellison|Michael Dell	Technology	neutral	M&A	ok
+108201787	South Korea|U.S.|President Lee Jae Myung|Reuters	Policy	negative	macro	ok
+108200928	Meta|CNBC	Technology	positive	products	ok
+108201672	UK|Canada|Australia	Policy	neutral	macro	ok
+108201655	White House|TikTok|China	Technology	positive	regulation	ok
+108201664	U.S. House|China	Policy	neutral	macro	ok
+108202283	White House|FBI|Tom Homan	Policy	neutral	regulation	ok
+108202081	Federal Reserve|Stephen Miran|Economic Club of New York	Policy	neutral	macro	ok
+108202009		Consumer	negative	other	ok
+108202069	St. Louis Fed	Finance	neutral	macro	ok
+108201678	Schumer|Trump|Democrats|Senate	Policy	neutral	macro	ok
+108201680		Finance	positive	other	ok
+108201667	Attorney General Pam Bondi	Policy	neutral	appointments	ok
+108201654		Policy	negative	regulation	ok
+108201629	Jimmy Kimmel|White House	Policy	neutral	other	ok
+108201604	Disney|Kimmel	Other	negative	other	ok
+108201454	Microsoft	Technology	negative	products	ok
+108201360	StubHub	Finance	negative	markets	ok
+108201252		Healthcare	neutral	regulation	ok
+108201352	The New York Times|Judge Steven Merryday|Donald Trump	Other	neutral	regulation	ok
+108201796	Trump|Emmer Capital Partners	Technology	negative	regulation	ok
+108201624	Trump	Policy	negative	regulation	ok
+108201027		Consumer	positive	other	ok
+108201661	Brussels Airport	Other	negative	other	ok
+108201113	CNBC	Other	positive	macro	ok

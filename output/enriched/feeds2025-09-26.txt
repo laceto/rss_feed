@@ -1,0 +1,54 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108204590	Sinclair|ABC|Jimmy Kimmel Live	Other	neutral	other	ok
+108204650	Electronic Arts	Technology	positive	M&A	ok
+108204493	Howard Rubin	Finance	negative	other	ok
+108204433	U.S. government	Policy	neutral	macro	ok
+108204496	Bank of America	Finance	negative	macro	ok
+108204457		Finance	neutral	macro	ok
+108204076	Dow Jones Industrial Average	Finance	positive	markets	ok
+108204295	CDC	Policy	negative	regulation	ok
+108204632	CNBC Crypto World|Federal Reserve|Franklin Templeton Investment Solutions	Finance	negative	macro	ok
+108204230	OpenAI	Technology	positive	products	ok
+108204441	Trump	Finance	positive	products	ok
+108200700	Zohran Mamdani	Policy	positive	other	ok
+108203571	Nvidia|OpenAI	Technology	positive	markets	ok
+108204539	Bank of America|Michael Hartnett	Finance	positive	markets	ok
+108203266	Claire's|Ames Watson	Consumer	positive	M&A	ok
+108204520	Boeing|Paccar|Intel|Mirion Tech	Industrial	neutral	markets	ok
+108204340	Accenture|Julie Sweet	Technology	negative	other	ok
+108203903	Trump administration	Policy	neutral	regulation	ok
+108204437	Meta	Policy	neutral	other	ok
+108204464	Boeing|FAA	Industrial	positive	regulation	ok
+108204507	Costco	Consumer	neutral	earnings	ok
+108196034		Technology	positive	products	ok
+108204250		Healthcare	negative	regulation	ok
+108204537		Finance	positive	markets	ok
+108204401	Federal Reserve	Finance	neutral	macro	ok
+108204477	Chinese stocks	Finance	positive	markets	ok
+108204398	Paccar|Peterbilt|Kenworth|Trump	Industrial	positive	markets	ok
+108204235	James Comey|Donald Trump	Policy	negative	regulation	ok
+108203493	Google	Technology	neutral	other	ok
+108204359		Policy	negative	regulation	ok
+108204427	U.S.|India’s pharmaceutical companies	Healthcare	negative	markets	ok
+108203701	Barclays|C.S. Venkatakrishnan	Finance	negative	regulation	ok
+108204310	TikTok|Donald Trump|Beijing	Technology	positive	regulation	ok
+108203666	BP	Energy	positive	markets	ok
+108204361	Momenta|BMW|Mercedes-Benz	Technology	positive	products	ok
+108203914	B Capital|Raj Ganguly	Technology	positive	markets	ok
+108204327	Xiaomi	Technology	neutral	products	ok
+108203654	Pop Mart|Labubu|ChoZan	Consumer	positive	markets	ok
+108202533	Arc'teryx	Consumer	negative	other	ok
+108203541	TikTok|Donald Trump|Vance	Technology	positive	regulation	ok
+108202185	B Capital|CNBC	Technology	positive	macro	ok
+108203802	Checkout.com	Finance	negative	markets	ok
+108204252	Trump	Policy	negative	regulation	ok
+108204256	Trump	Policy	negative	regulation	ok
+108202706	Costco	Consumer	positive	earnings	ok
+108203414	Oracle	Technology	negative	markets	ok
+108203955	Federal Reserve Bank of Dallas	Energy	negative	macro	ok
+108204128		Finance	neutral	markets	ok
+108204251	YouTube TV|NBCUniversal	Other	negative	regulation	ok
+108204112	NASA|NASA Marshall Space Flight Center	Other	neutral	appointments	ok
+108204178	Tesla|European Automobile Manufacturers' Association	Consumer	negative	markets	ok
+108204120	Federal Reserve	Policy	negative	regulation	ok
+108204238	Trump	Healthcare	negative	regulation	ok
