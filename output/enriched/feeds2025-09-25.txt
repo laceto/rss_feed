@@ -1,0 +1,54 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108203900	Amazon|FTC	Technology	negative	regulation	ok
+108204053	Oracle|Silver Lake|MGX|TikTok	Technology	neutral	markets	ok
+108203918		Policy	negative	other	ok
+108204023		Healthcare	negative	regulation	ok
+108204085	Hakeem Jeffries|Republicans	Policy	neutral	regulation	ok
+108202822	FundSeeder|Market Wizards	Finance	positive	markets	ok
+108203965	defense contractor	Industrial	positive	markets	ok
+108204056	FBI|Charlie Kirk	Other	neutral	other	ok
+108203947	Cox	Consumer	positive	macro	ok
+108203978	Mirion Technologies|Freeport-McMoRan|CarMax	Other	neutral	markets	ok
+108203858	New England Patriots	Other	neutral	M&A	ok
+108203815	Tom Brady|NFL|NBC|YouTube	Other	neutral	other	ok
+108203907	Microsoft	Technology	negative	regulation	ok
+108203995	Apple|Citadel|Ken Griffin|Donald Trump	Technology	negative	regulation	ok
+108203767		Other	positive	macro	ok
+108203861	Federal Reserve|Treasury|Supreme Court|Donald Trump|Lisa Cook	Policy	negative	regulation	ok
+108203476	Olipop	Consumer	positive	other	ok
+108203737	Starbucks	Consumer	negative	other	ok
+108203864	Ken Griffin|Federal Reserve|Trump	Policy	neutral	macro	ok
+108203836	Democrats	Policy	neutral	regulation	ok
+108197508	Squarespace|CNBC	Technology	positive	products	ok
+108203838	Oklo	Energy	negative	markets	ok
+108203837	Disney|Hulu	Consumer	neutral	markets	ok
+108203968	Jim Cramer	Finance	negative	markets	ok
+108203811	CarMax	Consumer	negative	earnings	ok
+108203370	Breeze Airways	Consumer	positive	products	ok
+108203961	Oracle	Technology	negative	markets	ok
+108203728	Trump|OMB	Policy	negative	regulation	ok
+108203755	Disney|Jimmy Kimmel	Policy	negative	regulation	ok
+108203671	European stocks|medtech firms	Healthcare	negative	markets	ok
+108203762	European banks|nine-bank consortium	Finance	positive	products	ok
+108203769	Nicolas Sarkozy	Other	negative	regulation	ok
+108203160	Indian stocks	Finance	positive	markets	ok
+108203715	SAP	Technology	neutral	regulation	ok
+108203402	Xiaomi	Consumer	neutral	products	ok
+108203691	Swiss central bank|U.S.	Policy	negative	macro	ok
+108203614		Policy	neutral	regulation	ok
+108203692	Nscale|Nvidia	Technology	positive	markets	ok
+108203175	UK	Policy	neutral	macro	ok
+108203676	H&M	Consumer	positive	earnings	ok
+108200648	Revolut|Light	Finance	positive	products	ok
+108203152	Roche	Healthcare	positive	products	ok
+108203600	The Times	Policy	neutral	other	ok
+108203605	Nikkei 225	Other	positive	markets	ok
+108203630	Chery Automobile	Consumer	positive	markets	ok
+108203551	Nvidia|OpenAI	Technology	positive	M&A	ok
+108203664	U.S. tech shares	Technology	negative	markets	ok
+108203819		Finance	neutral	macro	ok
+108203443	Databricks|OpenAI	Technology	positive	products	ok
+108202724					failed
+108203482	H-1B visa	Policy	neutral	regulation	ok
+108203301	NFL	Other	neutral	other	ok
+108203526	FBI|James Comey|MSNBC	Other	neutral	regulation	ok

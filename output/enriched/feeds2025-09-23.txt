@@ -1,0 +1,46 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108202871		Finance	negative	macro	ok
+108202785	Nexstar Media Group|ABC|Jimmy Kimmel Live!|Sinclair	Other	neutral	other	ok
+108202901	Disney	Consumer	neutral	products	ok
+108202851	Eli Lilly	Healthcare	positive	products	ok
+108202917		Other	negative	other	ok
+108202739	Nvidia|OpenAI	Technology	negative	other	ok
+108202125	Nvidia|Powell	Finance	negative	markets	ok
+108202743	Donald Trump|Democrats|Sen. Chuck Schumer|Rep. Hakeem Jeffries	Policy	negative	macro	ok
+108202351		Finance	negative	markets	ok
+108202862	YouTube	Technology	positive	regulation	ok
+108202753	United Nations|President Donald Trump	Policy	negative	macro	ok
+108202083		Finance	positive	macro	ok
+108202821	Nvidia	Technology	positive	markets	ok
+108202726		Other	negative	macro	ok
+108202571	OpenAI|Nvidia|President Trump	Technology	positive	M&A	ok
+108202718	Amazon	Consumer	negative	other	ok
+108202323	Amazon|FTC	Consumer	negative	regulation	ok
+108202705	Donald Trump	Policy	positive	macro	ok
+108202770	Boeing	Industrial	positive	markets	ok
+108202694	Morgan Stanley|E-Trade	Finance	positive	products	ok
+108202642	Secret Service	Other	neutral	other	ok
+108202588	Nvidia|OpenAI|TSMC|SK Hynix	Technology	positive	markets	ok
+108202377					failed
+108202658	European Union|WHO|Trump|paracetamol	Healthcare	neutral	regulation	ok
+108201958	Aescape|Tom Brady	Healthcare	positive	products	ok
+108202650	BYD|Nvidia	Technology	neutral	products	ok
+108201200	India	Technology	positive	macro	ok
+108202613	Randstad	Policy	positive	macro	ok
+108201577	Sweden	Finance	positive	markets	ok
+108201883	British Fashion Council	Consumer	neutral	macro	ok
+108202568	OECD	Other	positive	macro	ok
+108202589	Orsted|U.S. court|Trump|Revolution Wind	Energy	positive	regulation	ok
+108202553	U.S.|China|Trump|Xi|David Perdue	Policy	neutral	macro	ok
+108201799	Singapore	Other	neutral	macro	ok
+108202485	Taiwan	Other	positive	markets	ok
+108202569	Nvidia|OpenAI	Technology	positive	markets	ok
+108201849	Infosys|Tech Mahindra|Wipro|HCL Technologies|Tata Consultancy Services	Technology	negative	regulation	ok
+108202786		Policy	neutral	macro	ok
+108202800	Federal Reserve|Jerome Powell|Greater Providence Chamber of Commerce	Policy	neutral	macro	ok
+108202677	Federal Reserve|CNBC	Policy	neutral	macro	ok
+108202398	Donald Trump|Chuck Schumer|Democratic leaders	Policy	neutral	macro	ok
+108202164		Healthcare	negative	regulation	ok
+108202296	ABC|Disney|Jimmy Kimmel|Charlie Kirk	Other	negative	other	ok
+108202587	Federal Reserve|Jerome Powell	Finance	neutral	macro	ok
+108202590		Policy	negative	regulation	ok

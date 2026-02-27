@@ -1,0 +1,116 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108200902	Walmart|CNBC	Consumer	negative	markets	ok
+108200985	Pattern|Amazon	Consumer	positive	markets	ok
+108201409	Federal Reserve|White House	Policy	neutral	appointments	ok
+108201405	Federal Communications Commission|Jimmy Kimmel|Ted Cruz|Brendan Carr	Policy	negative	regulation	ok
+108201426	Disney|ABC|Jimmy Kimmel|Federal Communications Commission|Brendan Carr	Policy	negative	regulation	ok
+108200972	Federal Reserve	Finance	positive	markets	ok
+108201364	UPS|Carter Worth	Other	positive	markets	ok
+108201392	xAI|Elon Musk	Technology	positive	markets	ok
+108201222	Trump|Xi Jinping|White House|TikTok	Technology	neutral	regulation	ok
+108201357	Brighthouse Financial|Lennar|Apple|FedEx	Other	neutral	markets	ok
+108200990	Jimmy Kimmel|Charlie Kirk|ABC|Stephen Colbert|Donald Trump	Other	negative	other	ok
+108201365	Coinbase|Kevin Durant	Finance	positive	other	ok
+108201288	Jefferies|DeSanctis	Finance	positive	markets	ok
+108201352	The New York Times|Trump	Other	neutral	regulation	ok
+108200949		Energy	positive	macro	ok
+108201179	Federal Reserve|Stephen Miran|CNBC	Policy	neutral	macro	ok
+108201185	SEC|Chair Atkins	Policy	neutral	regulation	ok
+108201289	Senate|Democrats|House GOP|Republicans	Policy	neutral	regulation	ok
+108201415	Big Tech|Trump|Xi	Technology	positive	markets	ok
+108199486		Consumer	positive	markets	ok
+108200870	Treasury|IRS|Trump	Policy	neutral	regulation	ok
+108200286	Social Security	Policy	neutral	macro	ok
+108201294	Federal Reserve|CNBC	Policy	neutral	macro	ok
+108201272					failed
+108201225	Apple|Tim Cook|Donald Trump	Technology	neutral	products	ok
+108200944	Advisory Committee on Immunization Practices	Healthcare	neutral	regulation	ok
+108200277	Nvidia	Technology	positive	markets	ok
+108200147	Panama Canal	Energy	positive	markets	ok
+108201203	Federal Reserve|Neel Kashkari|CNBC	Finance	neutral	macro	ok
+108201124	Federal Reserve	Finance	neutral	macro	ok
+108201188	Blackstone	Finance	neutral	markets	ok
+108201087		Finance	negative	markets	ok
+108200588		Policy	neutral	macro	ok
+108201086	Apple	Technology	positive	products	ok
+108198079	Boston Partners|Christopher Hart|German defense prime	Finance	positive	markets	ok
+108198646	CNBC|Statista	Finance	neutral	markets	ok
+108199660	Nscale|Nvidia|Jensen Huang	Technology	positive	markets	ok
+108200462	DBS Group|Tan Su Shan	Finance	neutral	markets	ok
+108200521	Germany	Other	negative	macro	ok
+108188937	ByteDance	Technology	positive	markets	ok
+108200470	Federal Reserve	Policy	neutral	macro	ok
+108200494	Nvidia|Beijing	Technology	negative	regulation	ok
+108199745	Donald Trump	Other	neutral	other	ok
+108201084	Nvidia	Technology	positive	markets	ok
+108200619	Donald Trump|Russia|Ukraine	Policy	neutral	macro	ok
+108200904	Jimmy Kimmel|President Donald Trump	Policy	negative	regulation	ok
+108200453	Bank of Japan	Policy	neutral	macro	ok
+108201033	Nikkei 225|Bank of Japan (BOJ)	Finance	negative	macro	ok
+108200440	Huawei|Nvidia	Technology	neutral	products	ok
+108199105	European Chamber of Commerce in China	Policy	negative	regulation	ok
+108200399	Indian stocks|IPOs	Finance	neutral	markets	ok
+108200778	Nvidia|Intel	Technology	positive	products	ok
+108199531	Notion|Google|Microsoft	Technology	positive	products	ok
+108200567	Intel|Nvidia	Technology	positive	markets	ok
+108200867	Federal Reserve	Finance	neutral	macro	ok
+108200920	Nvidia|Enfabrica	Technology	positive	M&A	ok
+108199305	Federal Reserve|Lisa Cook|Donald Trump	Policy	negative	regulation	ok
+108200614	Microsoft|OpenAI	Technology	positive	products	ok
+108200691	ABC|Jimmy Kimmel|Charlie Kirk|President Trump	Policy	neutral	regulation	ok
+108200596	Federal Reserve|White House|Stephen Miran	Policy	positive	macro	ok
+108200262	Darden Restaurants	Consumer	negative	earnings	ok
+108200307	RFK Jr.	Healthcare	negative	regulation	ok
+108200426	Hyundai	Consumer	neutral	earnings	ok
+108200412	Spirit	Consumer	negative	markets	ok
+108200062	Meta|Mark Zuckerberg	Technology	positive	products	ok
+108200375	ABC|Jimmy Kimmel|Charlie Kirk|Tyler Robinson|Donald Trump	Other	negative	other	ok
+108200292	Federal Reserve	Policy	neutral	macro	ok
+108198994	Federal Reserve	Finance	negative	macro	ok
+108200099	Federal Reserve|Stephen Miran	Finance	neutral	macro	ok
+108200085	Federal Reserve|Federal Open Market Committee	Policy	neutral	macro	ok
+108201069	Ray Dalio	Finance	positive	macro	ok
+108199769		Other	neutral	macro	ok
+108200379	Bank of Japan	Policy	neutral	macro	ok
+108199807	Nvidia|Jensen Huang	Technology	negative	regulation	ok
+108197911	Yiwu merchants	Other	negative	macro	ok
+108199667	Japan	Other	neutral	macro	ok
+108199655	Federal Reserve	Policy	neutral	macro	ok
+108199104	Hyundai|U.S. President Donald Trump	Policy	negative	regulation	ok
+108199106	The New York Times|Trump	Other	negative	other	ok
+108199088		Finance	neutral	macro	ok
+108192871	People's Bank of China	Finance	neutral	macro	ok
+108198535	TikTok|Treasury Secretary Scott Bessent	Technology	neutral	macro	ok
+108198536	China	Other	negative	macro	ok
+108198531	South Korea|U.S.|Chinese	Policy	positive	macro	ok
+108197923	India's Reserve Bank	Finance	neutral	macro	ok
+108197950	Russia	Policy	neutral	macro	ok
+108197925	SK Hynix|Nvidia	Technology	positive	products	ok
+108197253		Finance	negative	regulation	ok
+108197872	SK Hynix	Technology	positive	markets	ok
+108197326	Russia|Poland|NATO|Moscow|Western officials|Trump	Policy	negative	macro	ok
+108195848	Indian middle class|EV giants	Consumer	neutral	products	ok
+108197248	Nikkei 225|SoftBank	Other	positive	markets	ok
+108200563	Deliveroo|Will Shu|DoorDash	Consumer	neutral	appointments	ok
+108199155	Donald Trump	Policy	neutral	macro	ok
+108199150	Google|Rachel Reeves|Trump	Technology	positive	macro	ok
+108198676	Pfizer|AstraZeneca|GlaxoSmithKline|Johnson & Johnson|Novartis|Roche	Healthcare	negative	regulation	ok
+108198635	UK|Trump|Keir Starmer	Policy	neutral	macro	ok
+108198595	U.S.|Britain|Trump|Keir Starmer	Policy	positive	other	ok
+108197620		Finance	positive	markets	ok
+108197943	U.S.|Donald Trump|U.K.	Policy	neutral	macro	ok
+108198035	Swatch|Donald Trump	Consumer	negative	regulation	ok
+108197972	Nvidia|OpenAI	Technology	positive	markets	ok
+108197373	Venture Capital|CNBC	Other	positive	markets	ok
+108197962	Microsoft|European Commission	Technology	neutral	regulation	ok
+108197944	Vestas	Energy	neutral	markets	ok
+108197355	Klarna|ASML	Technology	positive	markets	ok
+108197337	U.S. government|Peter Mandelson|Epstein	Policy	negative	other	ok
+108197303	Italgas	Energy	neutral	macro	ok
+108196015	China|Russia|North Korea	Policy	negative	macro	ok
+108195415	Klarna	Finance	positive	markets	ok
+108196639	Poland|Russia|Ukraine|NATO|Putin	Policy	neutral	macro	ok
+108196030	European Union	Policy	neutral	regulation	ok
+108196615	Novo Nordisk	Healthcare	negative	other	ok
+108195926	Russia|EU|U.S.|CNBC	Policy	neutral	macro	ok
+108195945	U.S. Energy Secretary Chris Wright	Energy	negative	macro	ok

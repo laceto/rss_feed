@@ -1,0 +1,46 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108203314		Other	positive	macro	ok
+108203379		Finance	positive	regulation	ok
+108203258	ICE|DHS|Kristi Noem	Policy	negative	other	ok
+108203490	Nexstar|Jimmy Kimmel Live|ABC	Other	neutral	other	ok
+108203337	Honda Motor|Acura	Consumer	negative	products	ok
+108203322		Finance	neutral	markets	ok
+108203478	Bitcoin|Sam Bankman-Fried|Morgan Stanley|Stellar Development Foundation	Finance	positive	markets	ok
+108203210	Lithium Americas|Trump administration	Energy	positive	regulation	ok
+108203022	Microsoft|Anthropic AI|OpenAI	Technology	positive	products	ok
+108202716	NFL|Roger Goodell|Disney|Comcast|NBCUniversal|Paramount|Amazon|Fox	Other	neutral	regulation	ok
+108203006	ABC|Jimmy Kimmel|Charlie Kirk	Other	neutral	other	ok
+108203444	Curtis Sliwa|President Trump|Eric Adams|Zohran Mamdani|Andrew Cuomo	Policy	neutral	other	ok
+108203390	Frank Cappelleri	Energy	positive	markets	ok
+108202968	Rolex|Apple|Nvidia|Warren	Policy	neutral	regulation	ok
+108203264		Consumer	negative	macro	ok
+108203077	OpenAI|Oracle|Nvidia|SoftBank	Technology	neutral	products	ok
+108203419	American Airlines|U.S. government|Federal Aviation Administration|FAA|families of victims	Policy	negative	regulation	ok
+108203401	UnitedHealthcare	Healthcare	negative	other	ok
+108200213		Other	negative	macro	ok
+108172132	American Express|Bank of America	Finance	neutral	products	ok
+108203373	UniQure	Healthcare	positive	products	ok
+108203240	Ford	Consumer	neutral	products	ok
+108201320	ZenBusiness	Technology	positive	products	ok
+108203068	Alphabet	Technology	positive	markets	ok
+108202916		Healthcare	neutral	regulation	ok
+108203246	OpenAI|Nvidia	Technology	negative	macro	ok
+108201361	Moynat|Omega|Jimmy Choo	Consumer	positive	products	ok
+108202358		Finance	positive	products	ok
+108202612	Xiaomi|Samsung	Technology	positive	products	ok
+108203143	Trump|Ukraine|Russia|U.S. President Donald Trump|Ukrainian President Volodymyr Zelenskyy	Other	positive	markets	ok
+108202730	Europe-based asset managers|U.S.|American assets	Finance	negative	macro	ok
+108202837	Nvidia|Oracle	Technology	negative	markets	ok
+108203114	Alibaba|Eddie Wu	Technology	positive	markets	ok
+108203336	Ukrainian|Russian petrochemical complex	Energy	negative	other	ok
+108202146	Nikkei 225|Topix	Finance	positive	markets	ok
+108201800	TikTok|U.S.|China	Policy	neutral	macro	ok
+108202982	Ukraine|Russia|Ukrainian President Volodymyr Zelenskyy	Policy	neutral	macro	ok
+108203121	OpenAI	Technology	negative	products	ok
+108202645	Britain|UK|startups	Other	neutral	macro	ok
+108203012	Tether	Finance	positive	markets	ok
+108203079	Federal Reserve|Jerome Powell	Finance	negative	markets	ok
+108203103	Meta	Technology	positive	products	ok
+108203016		Finance	neutral	macro	ok
+108202892	Micron	Technology	positive	earnings	ok
+108202587	Federal Reserve|Jerome Powell	Finance	neutral	macro	ok

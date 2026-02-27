@@ -1,0 +1,61 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108205143	Labor Department	Policy	neutral	macro	ok
+108205179	Donald Trump	Policy	neutral	macro	ok
+108205052	JPMorgan Chase|Charlie Javice|Frank	Finance	negative	regulation	ok
+108205238	Donald Trump|Hamas|Israel	Policy	neutral	other	ok
+108204810	Nvidia|Electronic Arts	Technology	positive	markets	ok
+108205217		Finance	neutral	markets	ok
+108205085	Etsy|OpenAI|ChatGPT	Technology	positive	products	ok
+108205041	Anthropic	Technology	positive	products	ok
+108204980	Electronic Arts|PIF|Silver Lake|Affinity Partners	Technology	positive	M&A	ok
+108205114	Zohran Mamdani|Eric Adams|Andrew Cuomo	Policy	neutral	other	ok
+108204599	Hertz|Amazon	Consumer	negative	other	ok
+108204574	PepsiCo|Taco Bell|Swig	Consumer	positive	products	ok
+108205044		Policy	neutral	regulation	ok
+108204333	Cleveland Federal Reserve|Beth Hammack|CNBC	Policy	negative	macro	ok
+108205010	Comcast	Other	neutral	appointments	ok
+108205059	Cisco|Dell	Technology	positive	markets	ok
+108204790	CMS	Healthcare	negative	macro	ok
+108204640		Policy	neutral	macro	ok
+108204564		Policy	neutral	macro	ok
+108205071		Finance	positive	other	ok
+108203391	New American Funding|CrossCountry Mortgage	Finance	positive	products	ok
+108202782	Coach	Consumer	positive	products	ok
+108202396	nudify	Technology	positive	other	ok
+108203766	MP Materials|Pentagon	Policy	positive	regulation	ok
+108204901	Oregon|Trump administration|National Guard	Policy	negative	regulation	ok
+108202853		Finance	negative	other	ok
+108205030	Newmont Corporation	Other	neutral	appointments	ok
+108204925	Cuba|Bahamas|Bermuda|Hurricane Humberto|Tropical Storm Imelda	Other	neutral	macro	ok
+108204945	GSK|Emma Walmsley|Luke Miels	Healthcare	neutral	appointments	ok
+108203820	France's state investment bank	Policy	neutral	macro	ok
+108204891	UK government|Reeves	Policy	neutral	macro	ok
+108205086		Finance	neutral	markets	ok
+108204654	Intel	Technology	negative	markets	ok
+108203385		Other	neutral	other	ok
+108204415	Asana	Technology	neutral	other	ok
+108204902					failed
+108204309	Elon Musk|Microsoft|Satya Nadella	Technology	neutral	other	ok
+108204855	AstraZeneca|GSK	Healthcare	positive	markets	ok
+108204863	Spain	Other	positive	macro	ok
+108203655	CSI 300	Finance	positive	markets	ok
+108202865	Trump|Middle East	Policy	neutral	regulation	ok
+108204824	National Bureau of Statistics	Industrial	positive	macro	ok
+108204821	Sony Financial Group	Finance	positive	markets	ok
+108204860		Finance	positive	markets	ok
+108192864	Bank of Korea	Policy	negative	macro	ok
+108204804	NBC News|White House|Congress	Policy	negative	regulation	ok
+108205001	EA|Goldman Sachs	Finance	positive	M&A	ok
+108204799	TikTok|ByteDance|JD Vance	Technology	positive	regulation	ok
+108204801	Eric Adams|Donald Trump|Curtis Sliwa	Policy	neutral	other	ok
+108204796	Donald Trump	Policy	neutral	macro	ok
+108202939	CNBC	Technology	neutral	regulation	ok
+108204794	Trump|White House	Policy	neutral	macro	ok
+108204500		Finance	negative	macro	ok
+108190971	Honeywell	Technology	positive	products	ok
+108204658	Elon Musk|Peter Thiel|Steve Bannon	Other	neutral	regulation	ok
+108204716		Healthcare	neutral	other	ok
+108204677	Spirit Airlines|Amazon	Consumer	neutral	markets	ok
+108204616	Trump|Congressional Democrats	Policy	negative	macro	ok
+108204493	Howard Rubin|Playboy	Finance	negative	other	ok
+108204825	Global Citizen Solutions	Other	positive	macro	ok

@@ -1,0 +1,112 @@
+guid	entities	sector	sentiment	news_category	extraction_status
+108270918					failed
+108270904	UBS	Finance	negative	markets	ok
+108271115					failed
+108271070					failed
+108270950		Finance	neutral	macro	ok
+108271096					failed
+108271049					failed
+108270964	Dell	Technology	positive	earnings	ok
+108271029	Bank stocks|Netflix|Duolingo|AES|Sunrun	Finance	neutral	markets	ok
+108271010					failed
+108269846		Policy	neutral	macro	ok
+108270932	IRS	Finance	neutral	regulation	ok
+108270939					failed
+108270537					failed
+108270442		Finance	positive	markets	ok
+108270757					failed
+108269079					failed
+108271023					failed
+108270774	Anthropic|Defense Department	Technology	negative	regulation	ok
+108271099					failed
+108270420					failed
+108266959					failed
+108270659					failed
+108270935					failed
+108270941	Block|Amazon|CrowdStrike	Technology	negative	markets	ok
+108270733	U.S.|Iran	Policy	neutral	macro	ok
+108270574					failed
+108270828					failed
+108270917					failed
+108270522	CoreWeave	Technology	negative	earnings	ok
+108270444					failed
+108270810					failed
+108270744					failed
+108270838					failed
+108269800					failed
+108270195					failed
+108264301					failed
+108270078	DoorDash	Consumer	positive	earnings	ok
+108270806	UK Parliament|Keir Starmer|Labour Party	Policy	negative	other	ok
+108270754					failed
+108270638					failed
+108270802	Pakistan|Afghanistan|Taliban	Policy	negative	macro	ok
+108270783					failed
+108270718					failed
+108270267					failed
+108270725					failed
+108269223					failed
+108269810					failed
+108270698					failed
+108270287					failed
+108270233					failed
+108268905					failed
+108270648	Netflix|WBD|White House|Donald Trump|Susan Rice	Policy	negative	regulation	ok
+108270403					failed
+108270445					failed
+108270389					failed
+108269386					failed
+108270183					failed
+108270042	Meta	Technology	neutral	regulation	ok
+108270257					failed
+108270111					failed
+108269971					failed
+108270064					failed
+108269934		Other	negative	macro	ok
+108269913					failed
+108269397					failed
+108269924					failed
+108269970					failed
+108270226					failed
+108270192					failed
+108269721					failed
+108268852					failed
+108269070	United States|China|Chile|Latin America	Policy	neutral	macro	ok
+108268972	U.S. Supreme Court|India|Russia	Policy	neutral	regulation	ok
+108269480	Iran|United States|Donald Trump	Policy	neutral	macro	ok
+108269470					failed
+108268894		Policy	neutral	macro	ok
+108268909	Anthropic|OpenAI|Chinese AI firms	Technology	negative	regulation	ok
+108266068					failed
+108268848					failed
+108267640					failed
+108268846		Finance	neutral	macro	ok
+108268255					failed
+108268219					failed
+108267201					failed
+108267719	Iran|Donald Trump	Energy	neutral	macro	ok
+108267648					failed
+108267636					failed
+108267104					failed
+108267233	U.S.|International Energy Agency	Energy	negative	regulation	ok
+108267133					failed
+108266265					failed
+108270876					failed
+108270268					failed
+108269761					failed
+108268487					failed
+108269119					failed
+108268561					failed
+108268979	Novo Nordisk	Healthcare	negative	markets	ok
+108268958					failed
+108266266					failed
+108264296					failed
+108268409	Donald Trump	Policy	negative	macro	ok
+108268347					failed
+108268385					failed
+108268341	IQM	Technology	positive	M&A	ok
+108268339					failed
+108267747	Hyperscalers	Technology	negative	markets	ok
+108267939					failed
+108267230					failed
+108267205	Blue Owl	Finance	negative	markets	ok
