@@ -1,0 +1,19 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "deps"
+    labels:
+      - "dependencies"
+    # Only watch the packages we care about breaking
+    allow:
+      - dependency-name: "langchain-anthropic"
+      - dependency-name: "langchain-core"
+      - dependency-name: "langchain-openai"
+      - dependency-name: "openai"
+      - dependency-name: "anthropic"
+      - dependency-name: "google-genai"
+      - dependency-name: "aioboto3"

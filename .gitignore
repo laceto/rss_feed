@@ -1,6 +1,21 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-.env
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
 venv/
+.venv/
+
+# Secrets
+.env
+*.env
+
+# R / RStudio session state
+.Rproj.user/
+.RData
+.Rhistory
+
+# OS
+.DS_Store
+Thumbs.db
