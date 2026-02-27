@@ -68,3 +68,11 @@ SECTOR_SUMMARY_FILE = Path("data") / "sector_summary.tsv"
 PENDING_BATCH_FILE  = Path("data") / "pending_sector_batch.txt"
 BATCH_FILE          = Path("data") / "batch_tasks_sector.jsonl"
 CHARTS_DIR          = Path("data") / "charts"
+
+# ── Bulk export settings ─────────────────────────────────────────────────────
+# Rolling window used by export_time_series.py and the export_* functions.
+# Change here to update all callers at once.
+
+EXPORT_LOOKBACK_DAYS: int = 90
+SECTOR_PIVOT_FILE       = Path("data") / "sector_sentiment_pivot.tsv"
+ENTITY_TS_FILE          = Path("data") / "entity_sentiment_ts.tsv"

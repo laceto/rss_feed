@@ -67,7 +67,10 @@ import warnings
 
 import pandas as pd
 
-from constants import SECTOR_TAXONOMY, SENTIMENT_SCORE, SECTOR_SUMMARY_FILE, RAW_FEED_DIR
+from constants import (
+    SECTOR_TAXONOMY, SENTIMENT_SCORE, SECTOR_SUMMARY_FILE, RAW_FEED_DIR,
+    EXPORT_LOOKBACK_DAYS, SECTOR_PIVOT_FILE,
+)
 
 # ── Trend thresholds ─────────────────────────────────────────────────────────────
 
@@ -293,3 +296,81 @@ def get_time_series(
         result["articles"] = _load_articles_for_dates(dates)
 
     return result
+
+
+# ── Bulk export API ───────────────────────────────────────────────────────────
+
+def get_all_sectors_pivot(
+    lookback_days: int | None = None,
+    freq: str = "D",
+) -> pd.DataFrame:
+    """Wide date × sector pivot of mean daily sentiment scores.
+
+    Columns are all 19 sectors (alphabetically sorted). NaN = no data for that
+    sector on that date. Use freq="W" or freq="M" to aggregate to weekly/monthly.
+
+    Args:
+        lookback_days: Calendar days to look back from today.
+                       None → full history (all dates in TSV).
+        freq:          Resampling frequency: "D" daily (default), "W" weekly,
+                       "M" monthly. Passed to pd.DatetimeIndex.asfreq().
+
+    Returns:
+        pd.DataFrame indexed by date with one column per sector.
+        Empty DataFrame if sector_summary.tsv is missing.
+
+    Invariant: columns are always alphabetically sorted — same order as list_sectors().
+    """
+    df = _load_summary()
+    if df.empty:
+        return pd.DataFrame()
+
+    if lookback_days is not None:
+        cutoff = pd.Timestamp(date.today() - timedelta(days=lookback_days))
+        df = df[df["date"] >= cutoff]
+
+    if df.empty:
+        return pd.DataFrame()
+
+    pivot = (
+        df.groupby(["date", "sector"])["sentiment_score"]
+        .mean()
+        .unstack("sector")
+        .sort_index()
+        .asfreq(freq)
+    )
+    # Sort columns alphabetically so the output order is deterministic
+    return pivot[sorted(pivot.columns)]
+
+
+def export_sector_pivot(
+    output_path: "Path | str | None" = None,
+    lookback_days: int | None = EXPORT_LOOKBACK_DAYS,
+    freq: str = "D",
+) -> Path:
+    """Write the date × sector pivot to a TSV file and return its path.
+
+    Defaults to SECTOR_PIVOT_FILE (data/sector_sentiment_pivot.tsv) and a
+    rolling 90-day window (EXPORT_LOOKBACK_DAYS). Override either via arguments.
+
+    Args:
+        output_path:  Destination path. Defaults to constants.SECTOR_PIVOT_FILE.
+        lookback_days: Window in calendar days. None → full history.
+        freq:          Resampling frequency (see get_all_sectors_pivot).
+
+    Returns:
+        Path to the written file.
+
+    Raises:
+        RuntimeError: If the pivot is empty (TSV missing or no data in window).
+    """
+    out = Path(output_path) if output_path is not None else SECTOR_PIVOT_FILE
+    pivot = get_all_sectors_pivot(lookback_days=lookback_days, freq=freq)
+    if pivot.empty:
+        raise RuntimeError(
+            "Sector pivot is empty — sector_summary.tsv is missing or "
+            f"contains no data in the last {lookback_days} days."
+        )
+    out.parent.mkdir(parents=True, exist_ok=True)
+    pivot.to_csv(out, sep="\t")
+    return out

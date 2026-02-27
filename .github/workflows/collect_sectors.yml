@@ -82,11 +82,17 @@ jobs:
         if: steps.check.outputs.pending == 'true'
         run: python visualize_sentiment.py
 
+      - name: Export sentiment time series
+        if: steps.check.outputs.pending == 'true'
+        run: python export_time_series.py
+
       - name: Commit sector results
         if: steps.check.outputs.pending == 'true'
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add data/sector_results/ data/sector_summary.tsv data/charts/ data/pending_sector_batch.txt
+          git add data/sector_results/ data/sector_summary.tsv data/charts/ \
+                  data/pending_sector_batch.txt \
+                  data/sector_sentiment_pivot.tsv data/entity_sentiment_ts.tsv
           git commit -m "sector analysis results" || echo "No changes to commit"
           git push origin || echo "Nothing to push"
