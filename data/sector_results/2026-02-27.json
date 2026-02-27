@@ -1,0 +1,85 @@
+{
+  "date": "2026-02-27",
+  "batch_id": "batch_69a20a0e5ba4819083ca972484ed32a7",
+  "sectors": [
+    {
+      "entities": [
+        "WBD",
+        "Paramount",
+        "Netflix"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "negative",
+      "news_category": "M&A",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "UBS"
+      ],
+      "sector": "Finance",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Nvidia",
+        "Apple",
+        "Google",
+        "Amazon",
+        "OpenAI",
+        "Meta"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Dell"
+      ],
+      "sector": "Producer Manufacturing",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "CoreWeave"
+      ],
+      "sector": "Producer Manufacturing",
+      "sentiment": "negative",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Nintendo"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Yotta Data Services"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "OpenAI"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    }
+  ]
+}
