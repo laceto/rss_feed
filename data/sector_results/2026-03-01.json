@@ -1,0 +1,45 @@
+{
+  "date": "2026-03-01",
+  "batch_id": "batch_69a5e62866188190a60d178a2340d4e1",
+  "sectors": [
+    {
+      "entities": [
+        "UBS",
+        "Chinese companies"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Oil",
+        "U.S.",
+        "Iran",
+        "Iranian"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Iran",
+        "Khamenei",
+        "Ayatollah Ruhollah Khomeini",
+        "Tehran",
+        "Russia",
+        "China",
+        "U.S.",
+        "Israel",
+        "Donald Trump"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    }
+  ]
+}
