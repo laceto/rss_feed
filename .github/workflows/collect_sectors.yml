@@ -53,8 +53,7 @@ jobs:
 
           for i in $(seq 1 $MAX_ATTEMPTS); do
             echo "=== Attempt $i / $MAX_ATTEMPTS ==="
-            python retrieve_batch_file_results.py
-            rc=$?
+            python retrieve_batch_file_results.py; rc=$?
 
             if [ $rc -eq 0 ]; then
               echo "Collection succeeded on attempt $i."
