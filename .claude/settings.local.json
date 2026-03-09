@@ -9,7 +9,9 @@
       "Bash(tar:*)",
       "Bash(dir C:\\\\Users\\\\l_ace\\\\Desktop\\\\projects\\\\rss_feed:*)",
       "Bash(gh run:*)",
-      "Bash(gh workflow:*)"
+      "Bash(gh workflow:*)",
+      "Bash(venv/Scripts/pip install:*)",
+      "Bash(venv/Scripts/python:*)"
     ]
   },
   "outputStyle": "Cognitive Debt–Aware Engineering"

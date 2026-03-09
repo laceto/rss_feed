@@ -543,7 +543,7 @@ id	date	title	link	guid
 541	2025-08-11	Trump warns homeless people to leave Washington, DC, ‘immediately’	https://www.cnbc.com/2025/08/10/trump-crime-washington-dc-border-.html	108183897
 542	2025-08-10	Illinois Gov. JB Pritzker blasts Texas Gov. Greg Abbott and Trump over GOP redistricting efforts	https://www.cnbc.com/2025/08/10/trump-pritzker-abbott-redistricting.html	108183895
 543	2025-08-11	Trump to speak at White House on violent crime in DC amid federal crackdown	https://www.cnbc.com/2025/08/09/trump-to-speak-at-white-house-on-violent-crime-in-dc.html	108183875
-544	nan	Cash's decline gives buskers the blues, but apps keep the green flowing	https://www.cnbc.com/2025/08/09/cashs-decline-gives-buskers-the-blues-but-apps-keep-the-green-flowing.html	108183874
+544		Cash's decline gives buskers the blues, but apps keep the green flowing	https://www.cnbc.com/2025/08/09/cashs-decline-gives-buskers-the-blues-but-apps-keep-the-green-flowing.html	108183874
 545	2025-08-09	How one real estate startup is taking on record heat this summer	https://www.cnbc.com/2025/08/09/real-estate-startup-runwise-cre-heating-cooling.html	108182283
 546	2025-08-09	From Starbucks to Smoothie King, restaurants seek to cash in on consumers' protein frenzy	https://www.cnbc.com/2025/08/09/restaurants-starbucks-smoothie-king-first-watch-protein.html	108183257
 547	2025-08-09	Apple has its best week since July 2020 after White House visit 	https://www.cnbc.com/2025/08/08/apple-has-best-week-since-july-2020-after-tim-cooks-white-house-visit.html	108183816
@@ -1081,7 +1081,7 @@ id	date	title	link	guid
 1079	2025-08-26	Polymarket secures investment from Trump Jr-backed 1789 Capital	https://www.cnbc.com/2025/08/26/polymarket-secures-investment-from-trump-jr-backed-1789-capital.html	108190883
 1080	2025-08-26	Trump's DOT threatens to withhold funds from states that don't enforce English requirements for truck drivers	https://www.cnbc.com/2025/08/26/trumps-dot-threatens-to-withhold-funds-from-states-that-dont-enforce-english-requirements-for-truck-drivers.html	108190879
 1081	2025-08-26	Josh Brown says if Apple announced a deal with Perplexity AI, the shares would hit a record that very day	https://www.cnbc.com/2025/08/26/josh-brown-says-if-apple-announced-a-deal-with-perplexity-ai-the-shares-would-hit-a-record-that-very-day.html	108190876
-1082	nan	"Cracker Barrel stock jumps after Trump calls logo outrage a 'great opportunity\""	President Donald Trump's criticism came a day after Cracker Barrel told customers the company could have better handled its controversial logo rebranding."""	https://www.cnbc.com/2025/08/26/trump-cracker-barrel-rebranding-logo.html	108190815
+1082		"Cracker Barrel stock jumps after Trump calls logo outrage a 'great opportunity\""	President Donald Trump's criticism came a day after Cracker Barrel told customers the company could have better handled its controversial logo rebranding."""	https://www.cnbc.com/2025/08/26/trump-cracker-barrel-rebranding-logo.html	108190815
 1083	2025-08-26	Tennis legend Billie Jean King sees progress, opportunity in women's sports and leveling the playing field	https://www.cnbc.com/2025/08/26/tennis-billie-jean-womens-sports.html	108190282
 1084	2025-08-26	Apple's next big product launch, plus another good sign for Street dealmaking 	https://www.cnbc.com/2025/08/26/apples-next-product-launch-plus-another-good-sign-for-deals-on-street.html	108190920
 1085	2025-08-25	How much does a funeral cost in 2025?	https://www.cnbc.com/select/how-much-does-funeral-cost/	108186514
@@ -4465,7 +4465,7 @@ id	date	title	link	guid
 4463	2025-12-02	Tesla CEO Elon Musk defends H-1B visas, says tariffs distort markets 	https://www.cnbc.com/2025/12/02/tesla-ceo-elon-musk-bats-for-h-1b-visa-says-tariffs-distort-markets-.html	108234924
 4464	2025-12-01	Apple names former Microsoft, Google exec to succeed retiring AI chief	https://www.cnbc.com/2025/12/01/apple-ai.html	108234807
 4465	2025-12-01	Meta's Instagram orders employees back to the office 5 days a week	https://www.cnbc.com/2025/12/01/meta-instagram-rto-return-to-office.html	108234746
-4466	nan	Trump October MRI results were 'perfectly normal,' White House doctor says	https://www.cnbc.com/2025/12/01/trump-mri-results-white-house-walter-reed.html	108234560
+4466		Trump October MRI results were 'perfectly normal,' White House doctor says	https://www.cnbc.com/2025/12/01/trump-mri-results-white-house-walter-reed.html	108234560
 4467	2025-12-02	Stocks rebound as bitcoin bounces, tech shares gain: Live updates	https://www.cnbc.com/2025/12/01/stock-market-today-live-updates.html	108234686
 4468	2025-12-02	Bayer shares pop 12% after Trump administration backs curbing of Roundup lawsuits; European stocks close higher	https://www.cnbc.com/2025/12/02/european-markets-on-decpoint2-2025-stoxx-600-dax-cac-ftse-.html	108234936
 4469	2025-12-02	Strategist reveals an 'asymmetric AI' trade: 'A lot of upside without much downside' 	https://www.cnbc.com/2025/12/02/the-ai-trade-with-a-lot-of-upside-not-much-downside-strategist-.html	108234263
@@ -7713,3 +7713,56 @@ id	date	title	link	guid
 7711	2026-03-06	Microsoft says Anthropic’s products remain available to customers after Pentagon blacklist	https://www.cnbc.com/2026/03/05/microsoft-says-anthropics-products-can-remain-available-to-customers-after-security-risk-designation.html	108274575
 7712	2026-03-05	House rejects war powers resolution to rein in Trump on Iran	https://www.cnbc.com/2026/03/05/house-iran-rejects-war-powers-resolution-trump.html	108274473
 7713	2026-03-06	Noem firing doesn't break DHS funding impasse, Democrats say	https://www.cnbc.com/2026/03/05/noem-firing-doesnt-break-dhs-funding-impasse-democrats-say.html	108274452
+7714	2026-03-09	Oil tankers transiting Strait of Hormuz 'must be very careful,' Iran Foreign Ministry warns	https://www.cnbc.com/2026/03/09/iran-war-oil-tankers-strait-of-hormuz.html	108275520
+7715	2026-03-09	Trump tells CBS that Iran 'war is very complete'	https://www.cnbc.com/2026/03/09/trump-iran-war-end.html	108275649
+7716	2026-03-09	S&P 500 rebounds into the green, oil declines as Trump says Iran war could be over soon: Live updates	https://www.cnbc.com/2026/03/08/stock-market-today-live-updates.html	108275159
+7717	2026-03-09	There's another energy market that may get hit harder than oil by Strait of Hormuz closure	https://www.cnbc.com/2026/03/09/theres-another-energy-market-that-may-get-hit-harder-than-oil-by-strait-of-hormuz-closure.html	108275485
+7718	2026-03-09	U.S. oil closes slightly higher near $95 per barrel after spiking as high as $119 earlier in session	https://www.cnbc.com/2026/03/08/crude-oil-prices-today-iran-war.html	108275158
+7719	2026-03-09	Commodities are having a standout 2026, and this ETF has momentum on its side	https://www.cnbc.com/2026/03/09/commodities-are-having-a-standout-2026-and-this-etf-has-momentum-on-its-side.html	108275536
+7720	2026-03-09	Fears of 1970s-style stagflation arise with oil spike to $100. How big a threat is it?	https://www.cnbc.com/2026/03/09/fears-of-1970s-style-stagflation-arise-with-oil-spike-to-100-how-big-a-threat-is-it.html	108275514
+7721	2026-03-09	FBI eyes Arizona Senate audit of 2020 Maricopa County election results, Republican says	https://www.cnbc.com/2026/03/09/trump-arizona-election-grand-jury-maricopa-fbi.html	108275627
+7722	2026-03-09	Anthropic sues Trump administration over Pentagon blacklist	https://www.cnbc.com/2026/03/09/anthropic-trump-claude-ai-supply-chain-risk.html	108275486
+7723	2026-03-09	OpenAI to buy cybersecurity startup Promptfoo to better safeguard AI agents	https://www.cnbc.com/2026/03/09/open-ai-cybersecurity-promptfoo-ai-agents.html	108275582
+7724	2026-03-09	The U.S.-Iran war is the biggest oil supply disruption in history	https://www.cnbc.com/2026/03/09/the-us-iran-war-is-the-biggest-oil-supply-disruption-in-history.html	108275343
+7725	2026-03-09	Seventh U.S. service member killed in Iran war ID'd as Sgt. Benjamin Pennington	https://www.cnbc.com/2026/03/09/iran-war-us-service-deaths-army-sgt-benjamin-pennington.html	108275429
+7726	2026-03-09	The $100 oil playbook: How pro investors are investing around this energy shock	https://www.cnbc.com/2026/03/09/the-100-oil-playbook-how-pro-investors-are-investing-around-this-energy-shock.html	108275456
+7727	2026-03-09	Congressional Democrats demand reversal of Russian oil sales into India as energy prices soar	https://www.cnbc.com/2026/03/09/bessent-russian-oil-sales-india.html	108275165
+7728	2026-03-09	When will the selling stop? Jay Woods and other traders are watching this key S&P 500 level	https://www.cnbc.com/2026/03/09/when-will-the-selling-stop-jay-woods-and-others-are-watching-this-key-sp-500-level.html	108275364
+7729	2026-03-09	Trump bought Netflix and Warner Bros bonds at height of bidding war with Paramount	https://www.cnbc.com/2026/03/09/trump-netflix-wbd-bonds-bidding-war-paramount.html	108275604
+7730	2026-03-09	K-shaped economy puts pressure on women, as lower pay and higher costs reduce spending	https://www.cnbc.com/2026/03/09/k-shaped-economy-women.html	108275331
+7731	2026-03-09	GOP Whip Tom Emmer predicts oil prices will drop after Iran war	https://www.cnbc.com/2026/03/09/iran-war-oil-prices-congress.html	108275346
+7732	2026-03-09	Ticketmaster parent Live Nation reaches settlement with Department of Justice over antitrust concerns	https://www.cnbc.com/2026/03/09/ticketmaster-parent-live-nation-doj-antitrust-settlement.html	108275394
+7733	2026-03-09	One year after Trump’s sovereignty threats, Canadians keep ‘elbows up’	https://www.cnbc.com/2026/03/07/canada-boycott-trump-travel-alcohol-economy.html	108274584
+7734	2026-03-09	Hims & Hers shares surge after Novo Nordisk drops patent infringement case over compounded weight loss drugs	https://www.cnbc.com/2026/03/09/novo-nordisk-ends-legal-proceedings-hims-hers-compounded-weight-loss-drugs.html	108275345
+7735	2026-03-09	Money tight? These platforms can put extra cash in your pocket	https://www.cnbc.com/select/money-tight-these-platforms-can-put-extra-cash-in-your-pocket/	108272811
+7736	2026-03-09	Familiar winners dot Monday's stock leaderboard. Here's what the market is signaling	https://www.cnbc.com/2026/03/09/familiar-winners-dot-mondays-stock-leaderboard-heres-what-the-market-is-signaling.html	108275594
+7737	2026-03-09	Recession odds jump on Kalshi after oil tops $100	https://www.cnbc.com/2026/03/09/recession-odds-kalshi-oil.html	108275337
+7738	2026-03-09	Amazon's Zoox expands robotaxi testing to Phoenix and Dallas	https://www.cnbc.com/2026/03/09/amazon-zoox-robotaxi-testing-phoenix-dallas.html	108274966
+7739	2026-03-09	Microsoft adds higher-priced Office tier with Copilot as it tries to juice sales with AI	https://www.cnbc.com/2026/03/09/microsoft-office-365-e7-copilot-ai.html	108274909
+7740	2026-03-09	Prediction markets face questions on Iran war bets, from regime change to nuclear detonation	https://www.cnbc.com/2026/03/09/prediction-markets-wagers-bets-iran-war-kalshi-polymarket.html	108275216
+7741	2026-03-09	‘Sky is the limit’: Analysts warn oil prices could surge further	https://www.cnbc.com/2026/03/09/oil-prices-iran-war-middle-east-us-israel-strait-of-hormuz.html	108275250
+7742	2026-03-09	These retailers will be hit the most by the coming surge in gasoline prices 	https://www.cnbc.com/2026/03/09/these-retailers-will-be-hit-the-most-by-the-coming-surge-in-gasoline-prices-.html	108275432
+7743	2026-03-09	TSA staff shortages lead to hourslong security lines for travelers at some airports	https://www.cnbc.com/2026/03/08/tsa-airport-security-line-delays-in-government-shutdown.html	108275179
+7744	2026-03-09	The Iran war has put the brakes on the next Bank of England rate cut	https://www.cnbc.com/2026/03/09/iran-war-bank-of-england-march-april-rate-cut-inflation-interest-rates.html	108275268
+7745	2026-03-09	U.S. orders staff to leave Saudi Arabia as war spreads; Iran rules out immediate ceasefire	https://www.cnbc.com/2026/03/09/iran-war-updates-oil-brent-wti-crude-110-gulf-gcc-uae-iraq-saudi-arabia-kurds.html	108275175
+7746	2026-03-08	Iran names Ayatollah Khamenei's son, Mojtaba, as new supreme leader: Media reports	https://www.cnbc.com/2026/03/08/iranian-projectiles-continue-to-strike-gulf-countries-infrastructure.html	108275140
+7747	2026-03-09	Turkey says second Iranian ballistic missile shot down by NATO defences in airspace	https://www.cnbc.com/2026/03/09/turkey-says-second-iranian-ballistic-missile-shot-down-by-nato.html	108275309
+7748	2026-03-09	Iran's strategic oil island thrust into the spotlight as Middle East conflict escalates	https://www.cnbc.com/2026/03/09/iran-war-us-israel-conflict-oil-prices-kharg-island.html	108275226
+7749	2026-03-09	Why China can withstand oil's surge past $100 more easily than other countries 	https://www.cnbc.com/2026/03/09/china-oil-shock-iran-war-hormuz-energy-transition.html	108272542
+7750	2026-03-09	Nvidia backs AI data center startup Nscale as it hits $14.6 billion valuation	https://www.cnbc.com/2026/03/09/nscale-ai-data-center-nvidia-raise.html	108275248
+7751	2026-03-09	Oil shock prompts South Korea to impose fuel price cap for the first time in 30 years	https://www.cnbc.com/2026/03/09/south-korea-fuel-price-cap-oil-price-surging.html	108275195
+7752	2026-03-09	10-year Treasury yield is little changed as traders weigh inflation and recession risks	https://www.cnbc.com/2026/03/09/us-treasury-yields-investors-monitor-iran-war-and-soaring-oil-price.html	108275260
+7753	2026-03-08	Oil price surge could boost these Chinese stocks, Goldman says 	https://www.cnbc.com/2026/03/08/oil-price-surge-could-boost-these-chinese-stocks-goldman-says-.html	108274718
+7754	2026-03-09	European markets close lower as oil price surges amid Middle East turmoil 	https://www.cnbc.com/2026/03/09/european-markets-stoxx-600-ftse-cac-dax-iran-latest.html	108275218
+7755	2026-03-09	CNBC Daily Open: Oil storms past $100 for first time since 2022	https://www.cnbc.com/2026/03/09/cnbc-daily-open-oil-storms-past-100-for-first-time-since-2022.html	108275233
+7756	2026-03-07	Will Iran war fallout end the bull market? When investors really need to worry	https://www.cnbc.com/2026/03/07/will-iran-war-fallout-end-the-bull-market-when-investors-need-to-worry.html	108274905
+7757	2026-03-08	China says 'thorough preparations' needed as Trump-Xi meeting hangs in the balance amid Iran war	https://www.cnbc.com/2026/03/08/china-says-thorough-preparations-needed-ahead-of-trump-xi-meeting.html	108275138
+7758	2026-03-08	Trump vows legislative blockade until SAVE America voter-ID bill is passed	https://www.cnbc.com/2026/03/08/trump-save-america-act-voter-id.html	108275155
+7759	2026-03-08	Energy prices will fall when U.S. destroys Iran's ability to attack tankers in Strait of Hormuz: Wright	https://www.cnbc.com/2026/03/08/iran-war-energy-prices-wright.html	108275150
+7760	2026-03-07	Iran war could make affordability bigger issue in 2026 elections	https://www.cnbc.com/2026/03/07/iran-war-affordability-midterm.html	108273784
+7761	2026-03-07	How China is challenging the U.S. to become the next great space power 	https://www.cnbc.com/2026/03/07/china-us-space-race-rockets.html	108274331
+7762	2026-03-06	Trump vows executive order to 'fix' college sports NIL payments 'mess'	https://www.cnbc.com/2026/03/06/trump-college-football-sports-congress.html	108275038
+7763	2026-03-07	Trump says defense CEOs agree to quadruple production of 'Exquisite Class' weaponry	https://www.cnbc.com/2026/03/06/iran-war-trump-defense-companies-pete-hegseth.html	108275013
+7764	2026-03-06	Investors brace for what's next as U.S.-Iran war stretches into second week	https://www.cnbc.com/2026/03/06/stock-market-next-week-outlook-for-march-9-13-2026.html	108274302
+7765	2026-03-09	China consumer inflation hits three-year high as producer deflation eases 	https://www.cnbc.com/2026/03/09/china-february-inflation-cpi-producer-prices-stimulus-economy-ppi-factory-consumer.html	108275170
+7766	2026-03-09	Asia markets moderate losses after reported Saudi oil release slightly ease prices	https://www.cnbc.com/2026/03/09/nikkei-225-hang-seng-index-kospi-crude-wti-brent-oil-futures-iran-war-gulf-hormuz.html	108275168
