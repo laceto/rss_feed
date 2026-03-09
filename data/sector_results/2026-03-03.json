@@ -1,0 +1,70 @@
+{
+  "date": "2026-03-03",
+  "batch_id": "batch_69af216d0cc88190942cb4672fb43a8c",
+  "sectors": [
+    {
+      "entities": [
+        "Novartis"
+      ],
+      "sector": "Health Services",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Mick Mulvaney"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "U.S. Fed"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Target"
+      ],
+      "sector": "Retail Trade",
+      "sentiment": "neutral",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "South Korea defense stocks",
+        "Hanwha Aerospace"
+      ],
+      "sector": "Industrial Services",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Luxury stocks"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Qualcomm"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    }
+  ]
+}

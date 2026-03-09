@@ -1,0 +1,83 @@
+{
+  "date": "2026-03-06",
+  "batch_id": "batch_69af216d0cc88190942cb4672fb43a8c",
+  "sectors": [
+    {
+      "entities": [
+        "Brent crude oil"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Federal Reserve",
+        "Miran",
+        "Daly"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Google",
+        "Microsoft",
+        "Anthropic"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Marvell"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Vast Space"
+      ],
+      "sector": "Commercial Services",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "U.S. Navy"
+      ],
+      "sector": "Transportation",
+      "sentiment": "neutral",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Samsung"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Europe",
+        "energy-intensive sectors"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    }
+  ]
+}

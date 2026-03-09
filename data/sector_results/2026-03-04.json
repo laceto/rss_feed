@@ -1,0 +1,84 @@
+{
+  "date": "2026-03-04",
+  "batch_id": "batch_69af216d0cc88190942cb4672fb43a8c",
+  "sectors": [
+    {
+      "entities": [
+        "Nvidia",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Apple"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Broadcom",
+        "Morgan Stanley",
+        "UBS",
+        "JPMorgan"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Trump",
+        "Kevin Warsh"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "appointments",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Coinbase"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Microsoft"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Anthropic"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "negative",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Xiaomi"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "date": "2026-03-07",
+  "batch_id": "batch_69af216d0cc88190942cb4672fb43a8c",
+  "sectors": [
+    {
+      "entities": [
+        "Bank of America"
+      ],
+      "sector": "Finance",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Iran"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "China",
+        "U.S."
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "BAE Systems",
+        "Lockheed Martin",
+        "Northrop Grumman",
+        "RTX Corp.",
+        "Boeing",
+        "Honeywell Aerospace",
+        "L3Harris Missile Solutions"
+      ],
+      "sector": "Producer Manufacturing",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    }
+  ]
+}

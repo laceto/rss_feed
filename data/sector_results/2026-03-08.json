@@ -1,0 +1,17 @@
+{
+  "date": "2026-03-08",
+  "batch_id": "batch_69af216d0cc88190942cb4672fb43a8c",
+  "sectors": [
+    {
+      "entities": [
+        "Oil price surge",
+        "China's three oil giants",
+        "Brent prices"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}

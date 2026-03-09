@@ -1,0 +1,89 @@
+{
+  "date": "2026-03-09",
+  "batch_id": "batch_69af216d0cc88190942cb4672fb43a8c",
+  "sectors": [
+    {
+      "entities": [
+        "Iran Foreign Ministry",
+        "U.S.",
+        "Israel",
+        "Gulf Arab oil producers",
+        "Rapidan Energy"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "S&P 500",
+        "Dow",
+        "Trump"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Commodities ETF"
+      ],
+      "sector": "Process Industries",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "FBI",
+        "Maricopa County"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "OpenAI",
+        "Promptfoo",
+        "Sam Altman"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "U.S.-Iran war",
+        "Rapidan Energy"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "GOP Whip Tom Emmer"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Nvidia",
+        "Nscale"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    }
+  ]
+}

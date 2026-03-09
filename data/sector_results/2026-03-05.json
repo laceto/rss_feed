@@ -1,0 +1,46 @@
+{
+  "date": "2026-03-05",
+  "batch_id": "batch_69af216d0cc88190942cb4672fb43a8c",
+  "sectors": [
+    {
+      "entities": [
+        "Oil"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Anthropic",
+        "DOD",
+        "Pentagon"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Cloud stocks",
+        "WCLD"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Broadcom",
+        "Hock Tan"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    }
+  ]
+}
