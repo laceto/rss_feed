@@ -7,7 +7,9 @@
       "Bash(Rscript -e \"devtools::load_all\\(\\); rmarkdown::render\\(''vignettes/projection-templates.Rmd'', output_dir = ''vignettes''\\)\")",
       "Bash(Rscript -e \"devtools::test\\(filter = ''registry|projection_factory''\\)\")",
       "Bash(tar:*)",
-      "Bash(dir C:\\\\Users\\\\l_ace\\\\Desktop\\\\projects\\\\rss_feed:*)"
+      "Bash(dir C:\\\\Users\\\\l_ace\\\\Desktop\\\\projects\\\\rss_feed:*)",
+      "Bash(gh run:*)",
+      "Bash(gh workflow:*)"
     ]
   },
   "outputStyle": "Cognitive Debt–Aware Engineering"
