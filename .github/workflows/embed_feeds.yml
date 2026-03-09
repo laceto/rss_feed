@@ -1,0 +1,48 @@
+name: embed-feeds
+
+on:
+  # Run automatically once collect-sector-results finishes
+  workflow_run:
+    workflows: ["collect-sector-results"]
+    types: [completed]
+
+  # Allow manual trigger (e.g. to build the store for the first time)
+  workflow_dispatch:
+
+jobs:
+  embed:
+    runs-on: ubuntu-latest
+    # Only proceed if the upstream workflow succeeded, or if triggered manually
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Python dependencies
+        run: |
+          pip install openai python-dotenv pandas numpy \
+                      langchain-core langchain-community langchain-openai faiss-cpu
+          pip install kitai-0.1.0-py3-none-any.whl
+
+      - name: Embed new feed articles
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        # embed_feeds.py exits 0 with a log message when there is nothing new.
+        # poll_until_complete inside the script blocks synchronously — typical
+        # feed volumes (50-200 articles/day) complete in 1-5 minutes.
+        run: python embed_feeds.py
+
+      - name: Commit vectorstore and registry
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add data/vectorstore/feeds_registry.tsv \
+                  data/vectorstore/feeds/index.faiss \
+                  data/vectorstore/feeds/index.pkl
+          git diff --staged --quiet || git commit -m "embed feeds"
+          git push origin || echo "Nothing to push"

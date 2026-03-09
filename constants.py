@@ -76,3 +76,10 @@ CHARTS_DIR          = Path("data") / "charts"
 EXPORT_LOOKBACK_DAYS: int = 90
 SECTOR_PIVOT_FILE       = Path("data") / "sector_sentiment_pivot.tsv"
 ENTITY_TS_FILE          = Path("data") / "entity_sentiment_ts.tsv"
+
+# ── Feed vectorstore ─────────────────────────────────────────────────────────
+# FAISS index and registry produced by embed_feeds.py.
+# Change VECTORSTORE_DIR here to move the store; embed_feeds.py picks it up.
+
+VECTORSTORE_DIR     = Path("data") / "vectorstore" / "feeds"
+FEEDS_REGISTRY_FILE = Path("data") / "vectorstore" / "feeds_registry.tsv"
