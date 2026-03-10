@@ -1,0 +1,85 @@
+{
+  "date": "2026-03-10",
+  "batch_id": "batch_69b07266176481908279d31d09aa6e68",
+  "sectors": [
+    {
+      "entities": [
+        "International Energy Agency"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Nvidia",
+        "Mira Murati",
+        "Thinking Machines Lab"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Amazon",
+        "Perplexity"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "negative",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Google",
+        "Anthropic"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Stellantis",
+        "Toyota",
+        "Bosch"
+      ],
+      "sector": "Producer Manufacturing",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Volkswagen"
+      ],
+      "sector": "Producer Manufacturing",
+      "sentiment": "negative",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Oracle",
+        "OpenAI"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Saudi Aramco"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    }
+  ]
+}
