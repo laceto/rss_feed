@@ -31,12 +31,14 @@ python export_time_series.py           # bulk TSV exports → data/sector_sentim
 python embed_feeds.py                  # embed feed articles → data/vectorstore/feeds/ (init + incremental)
 python query_sector.py                 # not a CLI script — import as a module (see below)
 
+python hybrid_rag.py               # CLI hybrid RAG query (BM25 + semantic + query translation)
+streamlit run chatbot_rag.py       # Streamlit RAG chatbot (streaming, sidebar controls)
+
 python trader_assistant.py         # trading signal extractor (LangChain)
 python create_batch_files.py       # MA/RSI batch analysis (tickers)
-streamlit run chatbot6.py          # RAG chatbot (requires pre-built vectorstore)
 ```
 
-Python deps: `openai pydantic python-dotenv pandas matplotlib seaborn`. API keys in `.env` (gitignored):
+Python deps: `openai pydantic python-dotenv pandas matplotlib seaborn streamlit langchain langchain-community langchain-openai rank-bm25`. API keys in `.env` (gitignored):
 ```
 OPENAI_API_KEY=sk-...
 ```
@@ -184,12 +186,10 @@ anthropic <- subset(ets, entity == "Anthropic")
 | `retrieve_batch_file_results.py` | Collects completed batch; routes to `data/sector_results/` |
 | `read_sector_results.py` | Flattens all JSON results → `data/sector_summary.tsv` |
 | `visualize_sentiment.py` | Three sentiment charts from `sector_summary.tsv` |
-| `utils.py` | Shared helpers: `get_file_paths`, `df_to_docs`, `excel_to_docs` |
-| `trader_assistant.py` | News → trading signal LangChain chain |
-| `create_batch_files.py` | MA/RSI ticker analysis via OpenAI Batch API |
-| `chatbot6.py` | Streamlit RAG chatbot with LangGraph + hybrid FAISS/BM25 retrieval |
+| `hybrid_rag.py` | CLI hybrid RAG: load FAISS + BM25 + query translation + LLM answer |
+| `chatbot_rag.py` | Streamlit chatbot wrapping `hybrid_rag.py`; streaming answers, sidebar controls |
 | `download.R` | RSS scraper, called by GitHub Actions |
-| `old/` | Archived/experimental versions — not used in production |
+| `old/` | Archived/experimental versions — not used in production (includes `chatbot6.py`, `trader_assistant.py`, `utils.py`, `create_batch_files.py`) |
 
 ### Strict Schema Note
 `create_batch_files_v2.py` uses `_make_openai_strict()` to convert the Pydantic schema to OpenAI strict JSON schema format (adds `additionalProperties: false` + `required[]` recursively). This replaces the former private SDK call `openai.lib._pydantic.to_strict_json_schema`.
@@ -204,7 +204,7 @@ FAISS vectorstore of all feed articles, built once and updated daily by CI.
 
 | Path | Description |
 |---|---|
-| `data/vectorstore/feeds/index.faiss` | FAISS flat-L2 index (3072-dim, `text-embedding-3-large`) |
+| `data/vectorstore/feeds/index.faiss` | FAISS flat-L2 index (1536-dim, `text-embedding-3-small`) |
 | `data/vectorstore/feeds/index.pkl` | LangChain InMemoryDocstore + `index_to_docstore_id` map |
 | `data/vectorstore/feeds_registry.tsv` | Ground truth: one row per embedded article (`id, date, title, link, guid`) |
 
@@ -218,16 +218,17 @@ FAISS vectorstore of all feed articles, built once and updated daily by CI.
   from langchain_community.vectorstores import FAISS
   from langchain_openai import OpenAIEmbeddings
   from constants import VECTORSTORE_DIR
-  store = FAISS.load_local(str(VECTORSTORE_DIR), OpenAIEmbeddings(model="text-embedding-3-large", dimensions=3072), allow_dangerous_deserialization=True)
+  store = FAISS.load_local(str(VECTORSTORE_DIR), OpenAIEmbeddings(model="text-embedding-3-small", dimensions=1536), allow_dangerous_deserialization=True)
   results = store.similarity_search("Fed rate decision", k=5)
   ```
+  Or use `hybrid_rag.py` / `chatbot_rag.py` which handle this automatically via `_OpenAIEmbeddings`.
 
 ### Required Directories
 - `output/` — daily feed files written by `download.R`
 - `data/sector_results/` — created at runtime by collection script
 - `data/charts/` — created at runtime by visualization script
 - `data/` — must exist for `create_batch_files.py` (holds `batch_tasks_tickers.jsonl`, `book.txt`)
-- `vectorstore/book/` — pre-built FAISS index for `chatbot6.py` (not regenerated at runtime)
+- `data/vectorstore/feeds/` — pre-built FAISS index used by `hybrid_rag.py` and `chatbot_rag.py`; built/updated by `embed_feeds.py`
 
 ### CI/CD
 | Workflow | Trigger | What it does |
