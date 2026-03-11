@@ -11,7 +11,8 @@
       "Bash(gh run:*)",
       "Bash(gh workflow:*)",
       "Bash(venv/Scripts/pip install:*)",
-      "Bash(venv/Scripts/python:*)"
+      "Bash(venv/Scripts/python:*)",
+      "Bash(git add:*)"
     ]
   },
   "outputStyle": "Cognitive Debt–Aware Engineering"
