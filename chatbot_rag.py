@@ -9,30 +9,30 @@ Architecture
 ------------
                         Streamlit UI
                               |
-                    ┌─────────┴─────────┐
-                    │                   │
+                    +---------+---------+
+                    |                   |
               sidebar controls      chat area
            (strategy, k, weights)  (messages + source docs)
-                    │
-              ┌─────┴──────────────────────────────────┐
-              │  @st.cache_resource (loaded once)       │
-              │  FAISS vectorstore + corpus docs +      │
-              │  OpenAI client + ChatOpenAI model       │
-              └─────┬──────────────────────────────────┘
-                    │
+                    |
+              +-----+----------------------------------------------+
+              |  @st.cache_resource (loaded once)                   |
+              |  FAISS vectorstore + corpus docs +                  |
+              |  OpenAI client + ChatOpenAI model                   |
+              +-----+----------------------------------------------+
+                    |
               build_hybrid_retriever(k_bm25, k_semantic, weights)
               (cheap rebuild on sidebar change)
-                    │
+                    |
               per-query flow (on each st.chat_input submit)
-                    │
-              translate_query(strategy) → list[str]
-                    │
-              retrieve_for_queries(hybrid) → deduplicated docs
-                    │
-              reorder_docs() → LongContextReorder
-                    │
-              answer_query(openai_client) → str
-                    │
+                    |
+              [spinner] translate_query(strategy) -> list[str]
+                    |
+              [spinner] retrieve_for_queries(hybrid) -> deduplicated docs
+                    |
+              [spinner] reorder_docs() -> LongContextReorder
+                    |
+              [stream] _stream_answer(openai_client) -> Generator[str]
+                    |
               append to st.session_state.messages
 
 Session state
@@ -50,9 +50,19 @@ Session state
 Caching invariants
 ------------------
 - _load_base_resources() is cached on (folder, index_name, embedding_model,
-  embed_dimensions) — never invalidated at runtime; a page reload rebuilds.
-- build_hybrid_retriever() is NOT cached separately; it is rebuilt whenever
-  the sidebar params change (BM25 over ~8 k docs takes < 0.5 s).
+  embed_dimensions, api_key) — api_key is an explicit param so key rotation
+  correctly invalidates the cache.
+- The hybrid retriever is NOT cached; it is rebuilt every render cycle using
+  the live sidebar values (BM25 over ~8k docs takes < 0.5 s).
+
+Streaming invariants
+--------------------
+- Steps 1-3 (translation, retrieval, reorder) run inside st.spinner because
+  they produce no incremental output.
+- Step 4 (LLM answer) uses st.write_stream() which renders tokens as they
+  arrive and returns the full concatenated string for session state.
+- _stream_answer() uses stream=True on the OpenAI chat completions API and
+  yields only non-None delta content, skipping role/finish chunks.
 
 Debugging
 ---------
@@ -67,9 +77,11 @@ Run:
 import logging
 import os
 from pathlib import Path
+from typing import Generator
 
 import streamlit as st
 from dotenv import load_dotenv
+from langchain_core.documents import Document
 from langchain_openai import ChatOpenAI
 from openai import OpenAI as _OpenAIClient
 
@@ -83,7 +95,6 @@ from hybrid_rag import (
     K_SEMANTIC,
     WEIGHTS_SPARSE,
     _OpenAIEmbeddings,
-    answer_query,
     extract_docs,
     load_vectorstore,
     retrieve_for_queries,
@@ -103,7 +114,7 @@ from constants import VECTORSTORE_DIR
 
 logging.basicConfig(
     level=os.environ.get("LOG_LEVEL", "INFO"),
-    format="%(asctime)s [%(levelname)s] %(name)s — %(message)s",
+    format="%(asctime)s [%(levelname)s] %(name)s - %(message)s",
 )
 logger = logging.getLogger(__name__)
 
@@ -132,30 +143,122 @@ if not _api_key:
     st.stop()
 
 # ---------------------------------------------------------------------------
+# Streaming answer generator
+# ---------------------------------------------------------------------------
+
+def _stream_answer(
+    query: str,
+    context_docs: list[Document],
+    client: _OpenAIClient,
+) -> Generator[str, None, None]:
+    """Stream an LLM answer token-by-token.
+
+    Uses the same prompt template as hybrid_rag.answer_query so behaviour
+    is identical — only the delivery mechanism differs (streaming vs blocking).
+
+    Args:
+        query: The original user question.
+        context_docs: Reordered context documents from the RAG pipeline.
+        client: Shared OpenAI client (from cached resources).
+
+    Yields:
+        Non-empty string tokens as they arrive from the API.
+
+    Failure modes:
+        - OpenAI API errors propagate as exceptions; Streamlit will surface them.
+        - Empty context_docs yields an answer that says so (LLM instruction).
+    """
+    context = "\n\n".join(doc.page_content for doc in context_docs)
+    prompt = (
+        "Use the following news excerpts to answer the question.\n"
+        "If the context does not contain enough information, say so.\n\n"
+        f"Context:\n{context}\n\n"
+        f"Question: {query}"
+    )
+    stream = client.chat.completions.create(
+        model=CHAT_MODEL,
+        temperature=0,
+        messages=[{"role": "user", "content": prompt}],
+        stream=True,
+    )
+    for chunk in stream:
+        delta = chunk.choices[0].delta.content
+        if delta:
+            yield delta
+
+
+# ---------------------------------------------------------------------------
+# UI helper — source document expander (avoids duplication between
+# history replay and new-message rendering)
+# ---------------------------------------------------------------------------
+
+def _render_sources(sources: list[dict]) -> None:
+    """Render a collapsible expander listing source documents.
+
+    Args:
+        sources: List of dicts with keys title, date, link, snippet.
+                 No-op when empty.
+    """
+    if not sources:
+        return
+    with st.expander(f"Source documents ({len(sources)})"):
+        for i, src in enumerate(sources, 1):
+            st.markdown(
+                f"**[{i}]** {src['title']}  \n"
+                f"*{src['date']}*"
+                + (f" · [{src['link']}]({src['link']})" if src["link"] else "")
+            )
+            st.caption(src["snippet"])
+            if i < len(sources):
+                st.divider()
+
+
+# ---------------------------------------------------------------------------
+# UI helper — augmented query expander
+# ---------------------------------------------------------------------------
+
+def _render_queries(queries: list[str]) -> None:
+    """Render a collapsible expander listing augmented queries.
+
+    Only shown when len(queries) > 1 (i.e. translation was applied).
+
+    Args:
+        queries: Flat list; queries[0] is always the original user query.
+    """
+    if not queries or len(queries) <= 1:
+        return
+    with st.expander(f"Augmented queries ({len(queries)} total)"):
+        for i, q in enumerate(queries):
+            tag = " *(original)*" if i == 0 else ""
+            st.markdown(f"**{i}.** {q}{tag}")
+
+
+# ---------------------------------------------------------------------------
 # Cached base resources — loaded once per Streamlit server process
 # ---------------------------------------------------------------------------
 
-@st.cache_resource(show_spinner="Loading vectorstore …")
+@st.cache_resource(show_spinner="Loading vectorstore ...")
 def _load_base_resources(
     folder: Path,
     index_name: str,
     embedding_model: str,
     embed_dimensions: int,
+    api_key: str,
 ) -> tuple:
     """Load FAISS store, extract corpus docs, and create shared API clients.
 
-    Cached forever within the Streamlit process — only rebuilt on server
-    restart or cache clear.
+    api_key is an explicit parameter (not a closure) so that key rotation
+    correctly invalidates the cache.
 
     Returns:
         (vectorstore, corpus_docs, openai_client, chat_model)
     """
-    openai_client = _OpenAIClient(api_key=_api_key)
+    openai_client = _OpenAIClient(api_key=api_key)
     embeddings = _OpenAIEmbeddings(model=embedding_model, client=openai_client)
     vs = load_vectorstore(folder, index_name, embeddings)
     corpus = extract_docs(vs)
     logger.info("Corpus loaded: %d documents.", len(corpus))
-    chat_model = ChatOpenAI(model=CHAT_MODEL, temperature=0, api_key=_api_key)
+    chat_model = ChatOpenAI(model=CHAT_MODEL, temperature=0, api_key=api_key)
     return vs, corpus, openai_client, chat_model
 
 
@@ -178,10 +281,10 @@ with st.sidebar:
         options=["expand", "decompose", "step_back", "none"],
         index=0,
         help=(
-            "expand     — paraphrase variants (best for synonym/phrasing coverage)\n"
-            "decompose  — sub-questions (best for multi-part queries)\n"
-            "step_back  — abstract questions (best for foundational context)\n"
-            "none       — single query, no translation"
+            "expand     - paraphrase variants (best for synonym/phrasing coverage)\n"
+            "decompose  - sub-questions (best for multi-part queries)\n"
+            "step_back  - abstract questions (best for foundational context)\n"
+            "none       - single query, no translation"
         ),
     )
 
@@ -220,12 +323,12 @@ with st.sidebar:
 # ---------------------------------------------------------------------------
 
 vs, corpus, openai_client, chat_model = _load_base_resources(
-    VECTORSTORE_DIR, FAISS_INDEX_NAME, EMBEDDING_MODEL, EMBED_DIMENSIONS
+    VECTORSTORE_DIR, FAISS_INDEX_NAME, EMBEDDING_MODEL, EMBED_DIMENSIONS, _api_key
 )
 
 # Rebuild hybrid retriever with current sidebar params (fast, < 0.5 s).
-# build_hybrid_retriever() uses module-level constants, so we call the
-# kitai primitives directly to honour the live sidebar values instead.
+# build_hybrid_retriever() in hybrid_rag uses module-level constants, so we
+# call the kitai primitives directly to honour the live sidebar values.
 _bm25_ret   = create_BM25retriever_from_docs(docs=corpus, k=k_bm25)
 _vector_ret = create_retriever(vs=vs, search_type="similarity", search_kwargs={"k": k_semantic})
 hybrid = create_hybrid_retriever(
@@ -248,35 +351,15 @@ st.caption(
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
         st.write(msg["content"])
-
         if msg["role"] == "assistant":
-            # Show augmented queries if translation was applied
-            queries = msg.get("queries")
-            if queries and len(queries) > 1:
-                with st.expander(f"Augmented queries ({len(queries)} total)"):
-                    for i, q in enumerate(queries):
-                        tag = " *(original)*" if i == 0 else ""
-                        st.markdown(f"**{i}.** {q}{tag}")
-
-            # Show source documents
-            sources = msg.get("sources")
-            if sources:
-                with st.expander(f"Source documents ({len(sources)})"):
-                    for i, src in enumerate(sources, 1):
-                        st.markdown(
-                            f"**[{i}]** {src['title']}  \n"
-                            f"*{src['date']}*"
-                            + (f" · [{src['link']}]({src['link']})" if src["link"] else "")
-                        )
-                        st.caption(src["snippet"])
-                        if i < len(sources):
-                            st.divider()
+            _render_queries(msg.get("queries") or [])
+            _render_sources(msg.get("sources") or [])
 
 # ---------------------------------------------------------------------------
 # Chat input handler
 # ---------------------------------------------------------------------------
 
-if prompt := st.chat_input("Ask a question about the news…"):
+if prompt := st.chat_input("Ask a question about the news..."):
     # --- Display user message ---
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
@@ -284,51 +367,32 @@ if prompt := st.chat_input("Ask a question about the news…"):
 
     # --- Generate assistant response ---
     with st.chat_message("assistant"):
-        with st.spinner("Retrieving and generating answer…"):
-            # 1. Query translation
+        # Steps 1-3: translation + retrieval + reorder (no incremental output)
+        with st.spinner("Retrieving context..."):
             queries = translate_query(chat_model, prompt, strategy=strategy)
-
-            # 2. Hybrid retrieval + dedup
-            merged = retrieve_for_queries(queries, hybrid)
-
-            # 3. LongContextReorder
+            merged  = retrieve_for_queries(queries, hybrid)
             ordered = reorder_docs(merged)
-            logger.info("Final context: %d documents.", len(ordered))
+            logger.info(
+                "Context ready: %d docs from %d quer%s.",
+                len(ordered), len(queries), "y" if len(queries) == 1 else "ies",
+            )
 
-            # 4. LLM answer
-            answer = answer_query(prompt, ordered, openai_client)
+        # Step 4: stream LLM answer token-by-token
+        answer = st.write_stream(_stream_answer(prompt, ordered, openai_client))
 
-        st.write(answer)
+        # Post-answer metadata expanders
+        _render_queries(queries)
 
-        # Augmented queries (if any)
-        if len(queries) > 1:
-            with st.expander(f"Augmented queries ({len(queries)} total)"):
-                for i, q in enumerate(queries):
-                    tag = " *(original)*" if i == 0 else ""
-                    st.markdown(f"**{i}.** {q}{tag}")
-
-        # Source documents
-        sources = []
-        for doc in ordered:
-            meta = doc.metadata
-            sources.append({
-                "title":   meta.get("title", "Untitled"),
-                "date":    meta.get("date", ""),
-                "link":    meta.get("link", ""),
+        sources = [
+            {
+                "title":   doc.metadata.get("title", "Untitled"),
+                "date":    doc.metadata.get("date", ""),
+                "link":    doc.metadata.get("link", ""),
                 "snippet": doc.page_content[:200].replace("\n", " "),
-            })
-
-        if sources:
-            with st.expander(f"Source documents ({len(sources)})"):
-                for i, src in enumerate(sources, 1):
-                    st.markdown(
-                        f"**[{i}]** {src['title']}  \n"
-                        f"*{src['date']}*"
-                        + (f" · [{src['link']}]({src['link']})" if src["link"] else "")
-                    )
-                    st.caption(src["snippet"])
-                    if i < len(sources):
-                        st.divider()
+            }
+            for doc in ordered
+        ]
+        _render_sources(sources)
 
     # Persist to session state
     st.session_state.messages.append({
