@@ -1,0 +1,84 @@
+{
+  "date": "2026-03-11",
+  "batch_id": "batch_69b1c4db0d28819081e3d634ce68a2ca",
+  "sectors": [
+    {
+      "entities": [
+        "Chubb",
+        "U.S. International Development Finance Corp."
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "M&A",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Iran",
+        "U.S.",
+        "Israel"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Dow Jones Industrial Average"
+      ],
+      "sector": "Consumer Services",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "oil companies"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Oracle",
+        "Nvidia",
+        "AMD",
+        "Cerebras"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Meta"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Rheinmetall"
+      ],
+      "sector": "Producer Manufacturing",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "U.S. Treasury"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    }
+  ]
+}
