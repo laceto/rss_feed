@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "rss-rag"
+version = "0.1.0"
+description = "Hybrid RAG pipeline over RSS feed news articles (BM25 + FAISS + query translation)"
+requires-python = ">=3.10"
+# Core deps needed by hybrid_rag.ask() — callers must have these installed.
+# The simplest approach: pip install -e . inside the rss_feed venv, then
+# point the other project at the same venv interpreter.
+dependencies = [
+    "openai",
+    "python-dotenv",
+    "langchain-core",
+    "langchain-community",
+    "langchain-openai",
+    "faiss-cpu",
+    "rank-bm25",
+    "kitai",
+]
+
+[tool.setuptools]
+# Expose the flat-layout modules that external callers need to import.
+# hybrid_rag  -> provides ask(), the public API
+# constants   -> re-exported constants (VECTORSTORE_DIR, SECTOR_TAXONOMY, …)
+py-modules = ["hybrid_rag", "constants"]

@@ -329,6 +329,144 @@ def answer_query(query: str, context_docs: list[Document], client: _OpenAIClient
     return response.choices[0].message.content
 
 
+# ---------------------------------------------------------------------------
+# Public API — ask()
+# ---------------------------------------------------------------------------
+# This is the intended entry point for external callers (other projects, agents,
+# scripts). Resources are loaded once on first call and cached for the lifetime
+# of the process, so the expensive FAISS + BM25 init cost (5–30 s) is paid only
+# once regardless of how many times ask() is called.
+#
+# Usage from another project:
+#   pip install -e /path/to/rss_feed          # once, in the caller's venv
+#   from hybrid_rag import ask
+#   result = ask("What happened to oil prices last week?")
+#   print(result["answer"])
+#
+# Or without installing (same machine, sys.path):
+#   import sys
+#   sys.path.insert(0, r"C:\Users\l_ace\Desktop\projects\rss_feed")
+#   from hybrid_rag import ask
+#   result = ask("What happened to oil prices last week?")
+
+_lazy: dict | None = None  # module-level resource cache
+
+
+def _get_resources() -> dict:
+    """Initialize and cache FAISS store, corpus, and API clients on first call.
+
+    Thread-safety note: CPython's GIL makes this safe for single-threaded
+    callers. Concurrent first-calls may each init independently — the last
+    write wins and the duplicate work is harmless.
+
+    Returns:
+        dict with keys: openai_client, chat_model, vs, corpus
+    """
+    global _lazy
+    if _lazy is not None:
+        return _lazy
+
+    load_dotenv()
+    api_key = os.environ.get("OPENAI_API_KEY")
+    if not api_key:
+        raise EnvironmentError(
+            "OPENAI_API_KEY not set. Add it to your .env file or environment."
+        )
+
+    logger.info("Initialising RAG resources (first call) ...")
+    openai_client    = _OpenAIClient(api_key=api_key)
+    embeddings_model = _OpenAIEmbeddings(model=EMBEDDING_MODEL, client=openai_client)
+    vs               = load_vectorstore(VECTORSTORE_DIR, FAISS_INDEX_NAME, embeddings_model)
+    corpus           = extract_docs(vs)
+    chat_model       = ChatOpenAI(model=CHAT_MODEL, temperature=0)
+    logger.info("RAG resources ready (%d documents).", len(corpus))
+
+    _lazy = {
+        "openai_client": openai_client,
+        "chat_model":    chat_model,
+        "vs":            vs,
+        "corpus":        corpus,
+    }
+    return _lazy
+
+
+def ask(
+    query: str,
+    strategy: str = QUERY_TRANSLATION_STRATEGY,
+    k_semantic: int = K_SEMANTIC,
+    k_bm25: int = K_BM25,
+    weights_sparse: float = WEIGHTS_SPARSE,
+) -> dict:
+    """Submit a query to the hybrid RAG pipeline and return a structured answer.
+
+    Primary entry point for external callers. Resources are loaded once and
+    cached — repeated calls within the same process pay no init cost.
+
+    Args:
+        query: Natural-language question to answer.
+        strategy: Query translation strategy — "expand" (default), "decompose",
+            "step_back", or "none". See module docstring for guidance.
+        k_semantic: Docs retrieved by FAISS per query (default: K_SEMANTIC = 6).
+        k_bm25: Docs retrieved by BM25 per query (default: K_BM25 = 6).
+        weights_sparse: BM25 blend weight; 0.0 = pure semantic, 1.0 = pure
+            keyword (default: WEIGHTS_SPARSE = 0.5).
+
+    Returns:
+        dict with three keys:
+            "answer"  : str        — LLM-generated answer string.
+            "sources" : list[dict] — retrieved documents after LongContextReorder,
+                                     each with keys: title, date, link, snippet, guid.
+            "queries" : list[str]  — augmented query pool; queries[0] is always
+                                     the original unmodified query.
+
+    Raises:
+        EnvironmentError: OPENAI_API_KEY not set.
+        FileNotFoundError: FAISS vectorstore files missing (run embed_feeds.py first).
+        ValueError: Unknown strategy value.
+
+    Example:
+        >>> from hybrid_rag import ask
+        >>> result = ask("What happened to oil prices after Maduro left?")
+        >>> print(result["answer"])
+        >>> for src in result["sources"]:
+        ...     print(src["title"], src["date"])
+    """
+    res = _get_resources()
+
+    # Rebuild hybrid retriever with caller-supplied params (< 0.5 s, in-memory only)
+    bm25_ret   = create_BM25retriever_from_docs(docs=res["corpus"], k=k_bm25)
+    vector_ret = create_retriever(
+        vs=res["vs"], search_type="similarity", search_kwargs={"k": k_semantic}
+    )
+    hybrid = create_hybrid_retriever(
+        sparse_retriever=bm25_ret,
+        semantic_retriever=vector_ret,
+        weights_sparse=weights_sparse,
+    )
+
+    queries = translate_query(res["chat_model"], query, strategy=strategy)
+    merged  = retrieve_for_queries(queries, hybrid)
+    ordered = reorder_docs(merged)
+    answer  = answer_query(query, ordered, res["openai_client"])
+
+    sources = [
+        {
+            "title":   doc.metadata.get("title", ""),
+            "date":    doc.metadata.get("date", ""),
+            "link":    doc.metadata.get("link", ""),
+            "snippet": doc.page_content[:200].replace("\n", " "),
+            "guid":    doc.metadata.get("guid", ""),
+        }
+        for doc in ordered
+    ]
+
+    logger.info(
+        "ask() -> %d source docs, %d quer%s, strategy=%r.",
+        len(sources), len(queries), "y" if len(queries) == 1 else "ies", strategy,
+    )
+    return {"answer": answer, "sources": sources, "queries": queries}
+
+
 def main() -> None:
     load_dotenv()
 
