@@ -27,7 +27,7 @@ jobs:
         run: |
           pip install openai python-dotenv pandas numpy \
                       langchain-core langchain-community langchain-openai faiss-cpu
-          pip install kitai-0.1.0-py3-none-any.whl
+          pip install git+https://github.com/laceto/kitai.git
 
       - name: Embed new feed articles
         env:
