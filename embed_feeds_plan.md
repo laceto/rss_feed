@@ -40,8 +40,8 @@ FEEDS_REGISTRY_FILE = Path("data") / "vectorstore" / "feeds_registry.tsv"
 ```python
 from constants import VECTORSTORE_DIR, FEEDS_REGISTRY_FILE
 
-EMBED_MODEL      = "text-embedding-3-large"   # DEFAULT_EMBEDDING_MODEL from kitai.batch
-EMBED_DIMENSIONS = 3072                        # DEFAULT_EMBEDDING_DIMENSIONS from kitai.batch
+EMBED_MODEL      = "text-embedding-3-small"   # DEFAULT_EMBEDDING_MODEL from kitai.batch
+EMBED_DIMENSIONS = 1536                        # DEFAULT_EMBEDDING_DIMENSIONS from kitai.batch
 RAW_FEED_DIR     = Path("output")             # same as create_batch_files_v2.py
 ```
 
