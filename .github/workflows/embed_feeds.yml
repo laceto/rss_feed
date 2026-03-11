@@ -45,4 +45,5 @@ jobs:
                   data/vectorstore/feeds/index.faiss \
                   data/vectorstore/feeds/index.pkl
           git diff --staged --quiet || git commit -m "embed feeds"
-          git push origin || echo "Nothing to push"
+          git pull --rebase origin main
+          git push origin main
