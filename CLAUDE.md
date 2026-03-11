@@ -186,8 +186,9 @@ anthropic <- subset(ets, entity == "Anthropic")
 | `retrieve_batch_file_results.py` | Collects completed batch; routes to `data/sector_results/` |
 | `read_sector_results.py` | Flattens all JSON results → `data/sector_summary.tsv` |
 | `visualize_sentiment.py` | Three sentiment charts from `sector_summary.tsv` |
-| `hybrid_rag.py` | CLI hybrid RAG: load FAISS + BM25 + query translation + LLM answer |
+| `hybrid_rag.py` | CLI hybrid RAG: load FAISS + BM25 + query translation + LLM answer; exposes `ask()` public API for external callers |
 | `chatbot_rag.py` | Streamlit chatbot wrapping `hybrid_rag.py`; streaming answers, sidebar controls |
+| `pyproject.toml` | Makes the project pip-installable (`pip install -e .`) so external scripts can `from hybrid_rag import ask` |
 | `download.R` | RSS scraper, called by GitHub Actions |
 | `old/` | Archived/experimental versions — not used in production (includes `chatbot6.py`, `trader_assistant.py`, `utils.py`, `create_batch_files.py`) |
 
@@ -222,6 +223,30 @@ FAISS vectorstore of all feed articles, built once and updated daily by CI.
   results = store.similarity_search("Fed rate decision", k=5)
   ```
   Or use `hybrid_rag.py` / `chatbot_rag.py` which handle this automatically via `_OpenAIEmbeddings`.
+
+### External Caller API (`ask()`)
+
+Other Python projects on the same machine can query the RAG pipeline without Streamlit:
+
+```python
+# Option A — editable install (clean, versioned)
+# pip install -e /path/to/rss_feed   (once, in the caller's venv)
+from hybrid_rag import ask
+
+result = ask("What happened to oil prices after Maduro left?")
+# result = {"answer": str, "sources": list[dict], "queries": list[str]}
+# sources keys: title, date, link, snippet, guid
+# queries[0] is always the original unmodified query
+
+# Option B — sys.path (no install needed)
+import sys
+sys.path.insert(0, r"C:\Users\l_ace\Desktop\projects\rss_feed")
+from hybrid_rag import ask
+result = ask("Fed rate decision", strategy="decompose", k_semantic=8)
+```
+
+`ask()` parameters: `query`, `strategy` ("expand"/"decompose"/"step_back"/"none"), `k_semantic`, `k_bm25`, `weights_sparse`.
+Resources (FAISS, BM25 corpus) are loaded once on first call and cached for the process lifetime.
 
 ### Required Directories
 - `output/` — daily feed files written by `download.R`

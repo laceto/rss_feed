@@ -256,7 +256,7 @@ Key decisions:
 
 **Commit the vectorstore.** The project already commits `data/sector_results/`, `data/charts/`, and TSVs. The FAISS files are the same kind of accumulated pipeline output.
 
-At 3072-dim float32, each article costs ~12 KB in the index. At ~100 articles/day × 200 trading days ≈ 20 000 articles ≈ 240 MB theoretical maximum. In practice the rolling window is bounded — old articles do not need to be kept indefinitely. Evaluate **git LFS** for `*.faiss` if the index exceeds 50 MB.
+At 1536-dim float32, each article costs ~6 KB in the index. At ~100 articles/day × 200 trading days ≈ 20 000 articles ≈ 120 MB theoretical maximum. In practice the rolling window is bounded — old articles do not need to be kept indefinitely. Evaluate **git LFS** for `*.faiss` if the index exceeds 50 MB.
 
 No `.gitignore` changes are needed — `data/` is not currently gitignored.
 
