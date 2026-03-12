@@ -1,0 +1,90 @@
+{
+  "date": "2026-03-12",
+  "batch_id": "batch_69b317400f888190b5b9f160be88aaf2",
+  "sectors": [
+    {
+      "entities": [
+        "Iran",
+        "Mojtaba Khamenei",
+        "U.S. Navy",
+        "Bessent",
+        "Iran War",
+        "U.S.",
+        "Israel",
+        "Dow",
+        "oil"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Brent oil",
+        "Iran"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "fertilizer stocks"
+      ],
+      "sector": "Non-Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "defense companies",
+        "Leonardo"
+      ],
+      "sector": "Industrial Services",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Rivian",
+        "EV"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "gold"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Microsoft",
+        "Rajesh Jha"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "neutral",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Google"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "other",
+      "extraction_status": "ok"
+    }
+  ]
+}
