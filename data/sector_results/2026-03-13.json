@@ -1,0 +1,87 @@
+{
+  "date": "2026-03-13",
+  "batch_id": "batch_69b4655566a48190aadd9ba5e9f75850",
+  "sectors": [
+    {
+      "entities": [
+        "U.S.",
+        "Fed Chair Jerome Powell"
+      ],
+      "sector": "Finance",
+      "sentiment": "negative",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Iran",
+        "U.S.",
+        "Israel"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Nvidia",
+        "AMD",
+        "Jensen Huang"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "SpaceX",
+        "Elon Musk",
+        "xAI"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "NFL",
+        "CBS"
+      ],
+      "sector": "Consumer Services",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Amazon"
+      ],
+      "sector": "Retail Trade",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "JPMorgan Chase"
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Tesla",
+        "BYD"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}

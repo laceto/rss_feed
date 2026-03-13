@@ -349,10 +349,10 @@ date	sector	entities	sentiment	news_category	extraction_status
 2025-09-23	Commercial Services	U.S. and global growth|OECD	positive	macro	ok
 2025-09-23	Producer Manufacturing	Boeing	positive	markets	ok
 2025-09-23	Retail Trade	Amazon	negative	regulation	ok
-2025-09-23	Consumer Non-Durables	Disney	neutral	products	ok
-2025-09-23	Health Services	Eli Lilly	positive	products	ok
 2025-09-23	Finance	Fed|Powell	negative	macro	ok
+2025-09-23	Health Services	Eli Lilly	positive	products	ok
 2025-09-23	Electronic Technology	Nvidia|OpenAI	positive	markets	ok
+2025-09-23	Consumer Non-Durables	Disney	neutral	products	ok
 2025-09-24	Consumer Durables	New home sales	positive	macro	ok
 2025-09-24	Finance	day trading	positive	regulation	ok
 2025-09-24	Transportation	ICE detainees	negative	other	ok
@@ -385,19 +385,18 @@ date	sector	entities	sentiment	news_category	extraction_status
 2025-09-29	Producer Manufacturing	GlobalFoundries	neutral	products	ok
 2025-09-29	Energy Minerals	China's industrial profits	positive	macro	ok
 2025-09-29	Finance	China’s stock market|CSI 300	positive	markets	ok
-2025-09-29	Finance	Cleveland Fed’s Hammack	negative	macro	ok
-2025-09-29	Finance	Sony Financial Group	positive	markets	ok
 2025-09-29	Transportation	Lufthansa	negative	other	ok
+2025-09-29	Finance	Sony Financial Group	positive	markets	ok
+2025-09-29	Finance	Cleveland Fed’s Hammack	negative	macro	ok
 2025-09-29	Health Services	European stocks|AstraZeneca|GSK	positive	markets	ok
-2025-09-30	Consumer Durables	Tesla	positive	products	partial
-2025-09-30	Distribution Services	European Union	neutral	macro	ok
 2025-09-30	Retail Trade	Amazon	positive	products	ok
+2025-09-30	Distribution Services	European Union	neutral	macro	ok
+2025-09-30	Consumer Durables	Tesla	positive	products	partial
 2025-09-30	Finance	JPMorgan Chase	positive	markets	ok
+2025-09-30	Electronic Technology	Nvidia	positive	markets	ok
 2025-09-30	Energy Minerals	Oil companies	negative	markets	ok
 2025-09-30	Health Services	Pfizer	positive	products	ok
 2025-09-30	Utilities	U.S. government	neutral	macro	ok
-2025-09-30	Electronic Technology	Nvidia	positive	markets	ok
-2025-10-01	Health Services	AstraZeneca	neutral	markets	ok
 2025-10-01	Finance	Federal Reserve|Lisa Cook	neutral	regulation	ok
 2025-10-01	Electronic Technology	Intel|AMD|Nvidia|Softbank	positive	products	ok
 2025-10-01	Technology Services	Microsoft	positive	products	ok
@@ -405,16 +404,17 @@ date	sector	entities	sentiment	news_category	extraction_status
 2025-10-01	Consumer Durables	Peloton	neutral	products	ok
 2025-10-01	Consumer Non-Durables	Ford|GM	positive	markets	ok
 2025-10-01	Finance	BlackRock	positive	markets	ok
+2025-10-01	Health Services	AstraZeneca	neutral	markets	ok
 2025-10-02	Consumer Durables	Tesla	positive	products	ok
+2025-10-02	Finance	Bitcoin|Robinhood	positive	markets	ok
 2025-10-02	Finance	FICO	positive	products	ok
 2025-10-02	Retail Trade	Best Buy	positive	markets	ok
-2025-10-02	Finance	Bitcoin|Robinhood	positive	markets	ok
+2025-10-02	Electronic Technology	Intel	positive	markets	ok
 2025-10-02	Distribution Services	Amazon	neutral	regulation	ok
 2025-10-02	Technology Services	Perplexity AI	positive	products	ok
-2025-10-02	Electronic Technology	Intel	positive	markets	ok
 2025-10-02	Consumer Non-Durables	Disney	negative	markets	ok
-2025-10-03	Retail Trade	Walmart|OnePay	positive	products	ok
 2025-10-03	Finance	Berkshire Hathaway	neutral	other	ok
+2025-10-03	Retail Trade	Walmart|OnePay	positive	products	ok
 2025-10-03	Transportation	Spirit Airlines	negative	regulation	ok
 2025-10-03	Consumer Durables	Tesla|GM	positive	products	ok
 2025-10-03	Finance	Goldman Sachs|David Solomon	negative	markets	ok
@@ -423,21 +423,21 @@ date	sector	entities	sentiment	news_category	extraction_status
 2025-10-03	Electronic Technology	Rigetti Computing|D-Wave|Nvidia	positive	markets	ok
 2025-10-05	Energy Minerals	OxyChem	positive	markets	ok
 2025-10-05	Distribution Services	Prologis|Amazon|Meta	positive	products	ok
-2025-10-06	Technology Services	Figma	positive	products	ok
 2025-10-06	Finance	Paul Tudor Jones	positive	markets	ok
 2025-10-06	Electronic Technology	OpenAI|ChatGPT|AMD|Nvidia|Cerebras|Anthropic	positive	products	ok
 2025-10-06	Finance	Bitcoin	positive	markets	ok
 2025-10-06	Consumer Durables	Nike	neutral	other	ok
 2025-10-06	Consumer Durables	Tesla	neutral	products	ok
 2025-10-06	Consumer Durables	Aston Martin	negative	products	ok
+2025-10-06	Technology Services	Figma	positive	products	ok
 2025-10-06	Finance	Fifth Third Bancorp|Comerica	neutral	M&A	ok
-2025-10-07	Electronic Technology	AMD	positive	products	ok
-2025-10-07	Finance	Ares Management	positive	markets	ok
-2025-10-07	Electronic Technology	Bitcoin|Crypto	neutral	markets	ok
 2025-10-07	Health Services	J&J	negative	regulation	ok
+2025-10-07	Finance	Ares Management	positive	markets	ok
+2025-10-07	Electronic Technology	AMD	positive	products	ok
 2025-10-07	Electronic Technology	Qualcomm|Arduino	positive	products	ok
-2025-10-07	Consumer Durables	Tesla	positive	products	ok
+2025-10-07	Electronic Technology	Bitcoin|Crypto	neutral	markets	ok
 2025-10-07	Technology Services	Oracle|Nvidia	negative	markets	ok
+2025-10-07	Consumer Durables	Tesla	positive	products	ok
 2025-10-07	Consumer Non-Durables	Jewelry companies|Gold	negative	products	ok
 2025-10-08	Electronic Technology	AMD|OpenAI|Nvidia	positive	products	ok
 2025-10-08	Finance	JPMorgan|Shake Shack|Southwest Airlines|Skyworks Solutions	negative	markets	ok
@@ -453,16 +453,16 @@ date	sector	entities	sentiment	news_category	extraction_status
 2025-10-09	Consumer Non-Durables	PepsiCo|Novo Nordisk	positive	earnings	ok
 2025-10-09	Electronic Technology	Google|OpenAI|Snowflake	positive	products	ok
 2025-10-09	Consumer Durables	Tesla|FSD	negative	regulation	ok
-2025-10-09	Finance	HSBC|Hang Seng Bank	positive	markets	ok
 2025-10-09	Energy Minerals	Orsted|wind power	negative	macro	ok
-2025-10-10	Electronic Technology	Qualcomm|Xiaomi	neutral	markets	ok
+2025-10-09	Finance	HSBC|Hang Seng Bank	positive	markets	ok
+2025-10-10	Retail Trade	Costco	positive	markets	ok
 2025-10-10	Electronic Technology	Apple|Prompt AI	positive	markets	ok
 2025-10-10	Consumer Durables	Ferrari	negative	markets	ok
-2025-10-10	Retail Trade	Costco	positive	markets	ok
+2025-10-10	Electronic Technology	Qualcomm|Xiaomi	neutral	markets	ok
 2025-10-10	Producer Manufacturing	Rocket Lab|CoreWeave	positive	markets	ok
-2025-10-10	Finance	Morgan Stanley	positive	markets	ok
 2025-10-10	Electronic Technology	Applied Digital|CoreWeave	positive	markets	ok
 2025-10-10	Health Services	Trump|AstraZeneca|Pfizer	positive	products	ok
+2025-10-10	Finance	Morgan Stanley	positive	markets	ok
 2025-10-11	Transportation	Qatar Air Force|USAF	neutral	other	ok
 2025-10-13	Technology Services	Oracle|Magouyrk|OpenAI	positive	markets	ok
 2025-10-13	Electronic Technology	JPMorgan|quantum computing	positive	markets	ok
@@ -470,16 +470,16 @@ date	sector	entities	sentiment	news_category	extraction_status
 2025-10-13	Electronic Technology	Broadcom|Nvidia|AMD|OpenAI	positive	products	ok
 2025-10-13	Consumer Non-Durables	Xiaomi	negative	products	ok
 2025-10-13	Consumer Durables	Tesla|Tata Capital	neutral	markets	partial
-2025-10-14	Electronic Technology	Google|Alphabet	positive	markets	ok
-2025-10-14	Health Services	Johnson & Johnson|J&J|DePuy Synthes	positive	products	ok
 2025-10-14	Producer Manufacturing	Boeing	positive	markets	ok
+2025-10-14	Electronic Technology	Google|Alphabet	positive	markets	ok
 2025-10-14	Technology Services	OpenAI	positive	products	ok
-2025-10-14	Finance	Fed|Jerome Powell	neutral	macro	ok
+2025-10-14	Health Services	Johnson & Johnson|J&J|DePuy Synthes	positive	products	ok
 2025-10-14	Communications	Meta	negative	regulation	ok
 2025-10-14	Finance	JPMorgan|Jamie Dimon	negative	markets	ok
+2025-10-14	Finance	Fed|Jerome Powell	neutral	macro	ok
 2025-10-14	Finance	CNBC Crypto World|BlackRock|Larry Fink|Richard Green	neutral	markets	ok
-2025-10-15	Energy Minerals	U.S. Army|nuclear stocks	positive	products	ok
 2025-10-15	Distribution Services	Walmart	positive	products	ok
+2025-10-15	Energy Minerals	U.S. Army|nuclear stocks	positive	products	ok
 2025-10-15	Finance	Ethereum|crypto	negative	markets	ok
 2025-10-15	Electronic Technology	Anthropic	positive	products	ok
 2025-10-15	Energy Minerals	Trump administration|China|Treasury Secretary Scott Bessent	negative	regulation	ok
@@ -495,33 +495,33 @@ date	sector	entities	sentiment	news_category	extraction_status
 2025-10-16	Electronic Technology	Cybersecurity firm F5	negative	products	ok
 2025-10-16	Consumer Non-Durables	Nestle	positive	products	ok
 2025-10-16	Electronic Technology	Apple	positive	products	ok
-2025-10-17	Consumer Non-Durables	Chinese robotaxi company Pony.ai|Stellantis	positive	products	ok
-2025-10-17	Finance	European markets|bank stocks	negative	markets	ok
-2025-10-17	Consumer Non-Durables	Tesla	neutral	products	ok
 2025-10-17	Electronic Technology	AI|Oracle	positive	products	ok
+2025-10-17	Consumer Non-Durables	Chinese robotaxi company Pony.ai|Stellantis	positive	products	ok
+2025-10-17	Consumer Non-Durables	Tesla	neutral	products	ok
+2025-10-17	Finance	European markets|bank stocks	negative	markets	ok
 2025-10-17	Non-Energy Minerals	gold	positive	markets	ok
 2025-10-17	Utilities	utilities|AI data center	neutral	products	ok
 2025-10-17	Finance	bank|regional banks|U.S. bank	negative	markets	ok
 2025-10-17	Consumer Non-Durables	Apple|F1	positive	products	ok
-2025-10-19	Consumer Durables	Netflix|Tesla	positive	earnings	ok
-2025-10-19	Electronic Technology	Anthropic|OpenAI|U.S. government	neutral	regulation	ok
-2025-10-19	Electronic Technology	China|U.S.|Beijing	neutral	macro	ok
 2025-10-19	Transportation	Gaza|Israeli military	negative	macro	ok
+2025-10-19	Consumer Durables	Netflix|Tesla	positive	earnings	ok
+2025-10-19	Electronic Technology	China|U.S.|Beijing	neutral	macro	ok
+2025-10-19	Electronic Technology	Anthropic|OpenAI|U.S. government	neutral	regulation	ok
 2025-10-19	Finance	Japanese family businesses|private equity	neutral	macro	ok
 2025-10-19	Technology Services	X|Apple|OpenAI|Fort Worth	neutral	other	ok
 2025-10-19	Technology Services	AI headshots|LinkedIn	positive	products	ok
 2025-10-19	Consumer Non-Durables	secondhand luxury|resale market	positive	markets	ok
+2025-10-20	Industrial Services	European defense stocks	positive	markets	ok
 2025-10-20	Electronic Technology	Apple|Loop Capital	positive	products	ok
 2025-10-20	Energy Minerals	U.S. and Australia|critical minerals|rare earths	positive	macro	ok
 2025-10-20	Technology Services	Amazon Web Services|Delta Air Lines|United Airlines	negative	other	ok
 2025-10-20	Producer Manufacturing	Cleveland-Cliffs|Lourenco Goncalves	positive	products	ok
 2025-10-20	Consumer Non-Durables	Kering|L'Oreal	neutral	M&A	ok
 2025-10-20	Producer Manufacturing	Thyssenkrupp|TKMS	positive	markets	ok
-2025-10-20	Industrial Services	European defense stocks	positive	markets	ok
-2025-10-21	Consumer Non-Durables	Coca-Cola|3M	positive	earnings	ok
-2025-10-21	Electronic Technology	Meta|Blue Owl Capital	positive	markets	ok
 2025-10-21	Producer Manufacturing	GM	positive	earnings	ok
 2025-10-21	Electronic Technology	Palantir	neutral	markets	ok
+2025-10-21	Electronic Technology	Meta|Blue Owl Capital	positive	markets	ok
+2025-10-21	Consumer Non-Durables	Coca-Cola|3M	positive	earnings	ok
 2025-10-21	Consumer Non-Durables	U.S. cattle ranchers|Trump	neutral	macro	ok
 2025-10-21	Consumer Non-Durables	Warner Bros. Discovery|Disney+|Apple TV|Netflix	positive	products	ok
 2025-10-21	Finance	Morgan Stanley	positive	earnings	ok
@@ -602,17 +602,17 @@ date	sector	entities	sentiment	news_category	extraction_status
 2025-11-01	Electronic Technology	Nexperia	negative	regulation	ok
 2025-11-01	Technology Services	Microsoft|Meta|Amazon|Alphabet	positive	products	ok
 2025-11-02	Communications	Trump|Xi Jinping	neutral	macro	ok
-2025-11-02	Energy Minerals	OPEC+	neutral	macro	ok
-2025-11-02	Health Services	weight loss drug market	neutral	markets	ok
 2025-11-02	Consumer Non-Durables	tariffs|holiday shoppers	negative	macro	ok
+2025-11-02	Health Services	weight loss drug market	neutral	markets	ok
+2025-11-02	Energy Minerals	OPEC+	neutral	macro	ok
 2025-11-02	Finance	VC|Carles Reina	neutral	other	ok
 2025-11-02	Finance	Warren Buffett|Berkshire	neutral	other	ok
 2025-11-02	Finance	NBC News poll	negative	macro	ok
 2025-11-02	Electronic Technology	AMD|Palantir	neutral	earnings	ok
-2025-11-03	Electronic Technology	China|Baidu|Waymo	neutral	macro	ok
+2025-11-03	Electronic Technology	Nvidia	positive	markets	ok
 2025-11-03	Consumer Non-Durables	Kimberly-Clark|Kenvue	positive	M&A	ok
 2025-11-03	Consumer Non-Durables	Ford|Hyundai|Kia	negative	markets	ok
-2025-11-03	Electronic Technology	Nvidia	positive	markets	ok
+2025-11-03	Electronic Technology	China|Baidu|Waymo	neutral	macro	ok
 2025-11-03	Transportation	Tesla	negative	regulation	ok
 2025-11-03	Electronic Technology	Microsoft|Nvidia|Lambda	positive	products	ok
 2025-11-03	Consumer Non-Durables	consumer companies|Warren Buffett|Apple	neutral	earnings	ok
@@ -624,9 +624,9 @@ date	sector	entities	sentiment	news_category	extraction_status
 2025-11-04	Electronic Technology	Amazon	positive	products	ok
 2025-11-04	Consumer Non-Durables	Ferrari	positive	earnings	ok
 2025-11-04	Consumer Non-Durables	Cava	negative	earnings	ok
-2025-11-05	Health Services	Taser|Axon	negative	earnings	ok
-2025-11-05	Health Technology	Pfizer|Novo Nordisk|Metsera	positive	markets	ok
 2025-11-05	Distribution Services	WBD|Paramount	neutral	markets	ok
+2025-11-05	Health Technology	Pfizer|Novo Nordisk|Metsera	positive	markets	ok
+2025-11-05	Health Services	Taser|Axon	negative	earnings	ok
 2025-11-05	Retail Trade	Amazon|Jassy	negative	products	ok
 2025-11-05	Finance	Bitcoin|Citigroup	neutral	markets	ok
 2025-11-05	Energy Minerals	Westinghouse	neutral	other	ok
@@ -640,87 +640,87 @@ date	sector	entities	sentiment	news_category	extraction_status
 2025-11-06	Communications	Meta	negative	markets	ok
 2025-11-06	Retail Trade	Target	negative	markets	ok
 2025-11-06	Electronic Technology	Google	positive	products	ok
-2025-11-07	Finance	Fed|interest rates	neutral	macro	ok
-2025-11-07	Consumer Non-Durables	UK's Rightmove	negative	markets	ok
 2025-11-07	Energy Minerals	India|China	neutral	macro	ok
 2025-11-07	Transportation	Qantas|Airbus	neutral	products	ok
+2025-11-07	Electronic Technology	Google|Tensor Processing Units	positive	products	ok
+2025-11-07	Consumer Non-Durables	UK's Rightmove	negative	markets	ok
+2025-11-07	Electronic Technology	Tesla|Elon Musk|SoftBank Group	positive	products	ok
 2025-11-07	Consumer Non-Durables	University of Michigan|Trump administration|FAA|Oracle|Cornell University|Big Tech|Block|Qantas|Comcast|SoftBank Group|Eli Lilly|Novo Nordisk	negative	macro	ok
 2025-11-07	Retail Trade	Walmart|Amazon	negative	products	ok
-2025-11-07	Electronic Technology	Tesla|Elon Musk|SoftBank Group	positive	products	ok
-2025-11-07	Electronic Technology	Google|Tensor Processing Units	positive	products	ok
+2025-11-07	Finance	Fed|interest rates	neutral	macro	ok
 2025-11-08	Health Services	Trump|Senate Republicans	neutral	macro	ok
-2025-11-10	Electronic Technology	Nvidia	positive	markets	ok
-2025-11-10	Consumer Durables	Kia	positive	products	ok
-2025-11-10	Consumer Durables	Tesla	neutral	products	ok
-2025-11-10	Consumer Durables	Disney	positive	products	ok
 2025-11-10	Utilities	U.S. government	neutral	macro	ok
+2025-11-10	Finance	Warren Buffett|Berkshire	positive	other	ok
 2025-11-10	Electronic Technology	Waymo	positive	products	ok
 2025-11-10	Finance	Ripple Labs	positive	markets	ok
-2025-11-10	Finance	Warren Buffett|Berkshire	positive	other	ok
-2025-11-11	Electronic Technology	Alphabet|hyperscalers	negative	markets	ok
-2025-11-11	Electronic Technology	Nvidia|SoftBank	negative	markets	ok
-2025-11-11	Electronic Technology	Apple	neutral	regulation	ok
+2025-11-10	Consumer Durables	Disney	positive	products	ok
+2025-11-10	Consumer Durables	Kia	positive	products	ok
+2025-11-10	Electronic Technology	Nvidia	positive	markets	ok
+2025-11-10	Consumer Durables	Tesla	neutral	products	ok
+2025-11-11	Electronic Technology	AMD	positive	earnings	ok
 2025-11-11	Electronic Technology	Sony	positive	earnings	ok
 2025-11-11	Consumer Durables	Tesla	negative	markets	ok
-2025-11-11	Electronic Technology	AMD	positive	earnings	ok
-2025-11-12	Health Services	Jeffrey Epstein|Trump|DOJ	negative	regulation	ok
-2025-11-12	Electronic Technology	Nvidia|Foxconn	positive	markets	ok
-2025-11-12	Utilities	SSE	positive	markets	ok
-2025-11-12	Producer Manufacturing	Toyota|U.S. battery plant	positive	products	ok
+2025-11-11	Electronic Technology	Nvidia|SoftBank	negative	markets	ok
+2025-11-11	Electronic Technology	Alphabet|hyperscalers	negative	markets	ok
+2025-11-11	Electronic Technology	Apple	neutral	regulation	ok
 2025-11-12	Finance	Dow|Wall Street	positive	markets	ok
+2025-11-12	Health Services	Jeffrey Epstein|Trump|DOJ	negative	regulation	ok
 2025-11-12	Electronic Technology	Anthropic|OpenAI|Nvidia|Broadcom|Oracle	positive	products	ok
 2025-11-12	Utilities	Skyrocketing electricity prices|PJM Interconnection	negative	macro	ok
-2025-11-13	Consumer Non-Durables	Congress|hemp industry	negative	regulation	ok
-2025-11-13	Consumer Services	Disney	negative	earnings	ok
+2025-11-12	Producer Manufacturing	Toyota|U.S. battery plant	positive	products	ok
+2025-11-12	Utilities	SSE	positive	markets	ok
+2025-11-12	Electronic Technology	Nvidia|Foxconn	positive	markets	ok
 2025-11-13	Finance	IRS	neutral	macro	ok
 2025-11-13	Electronic Technology	AI startup Cursor	positive	products	ok
-2025-11-13	Electronic Technology	Apple	negative	products	ok
-2025-11-13	Finance	Wall Street|Dow	negative	markets	ok
+2025-11-13	Consumer Services	Disney	negative	earnings	ok
+2025-11-13	Consumer Non-Durables	Congress|hemp industry	negative	regulation	ok
 2025-11-13	Consumer Non-Durables	housing market	negative	macro	ok
 2025-11-13	Producer Manufacturing	Boeing	positive	products	ok
+2025-11-13	Finance	Wall Street|Dow	negative	markets	ok
+2025-11-13	Electronic Technology	Apple	negative	products	ok
 2025-11-14	Energy Minerals	China|U.S.|Switzerland|U.K.|DeepL|Picsart	negative	macro	ok
 2025-11-14	Consumer Non-Durables	luxury stocks	positive	products	ok
 2025-11-14	Finance	UK government|Rachel Reeves	neutral	regulation	ok
 2025-11-14	Technology Services	AI companies|DeepL|Picsart	negative	markets	ok
 2025-11-16	Consumer Non-Durables	Luxury	positive	macro	ok
 2025-11-17	Electronic Technology	Chipmakers|analysts	negative	markets	ok
-2025-11-18	Electronic Technology	Rheinmetall	positive	markets	ok
-2025-11-18	Consumer Services	UK government	neutral	regulation	ok
 2025-11-18	Producer Manufacturing	Toyota Motor	positive	products	ok
 2025-11-18	Utilities	Japan	negative	macro	ok
 2025-11-18	Consumer Non-Durables	India	negative	macro	ok
-2025-11-19	Finance	Wall Street	negative	markets	ok
+2025-11-18	Consumer Services	UK government	neutral	regulation	ok
+2025-11-18	Electronic Technology	Rheinmetall	positive	markets	ok
 2025-11-19	Energy Minerals	Europe|China	neutral	macro	ok
 2025-11-19	Consumer Durables	Porsche	positive	products	ok
 2025-11-19	Energy Minerals	India|U.S.	positive	macro	ok
+2025-11-19	Finance	Wall Street	negative	markets	ok
 2025-11-19	Finance	global markets	neutral	macro	ok
-2025-11-19	Consumer Services	Major League Baseball|NBC|ESPN|Netflix	neutral	markets	ok
 2025-11-19	Electronic Technology	AI	neutral	products	ok
+2025-11-19	Finance	Trump|Powell|Bessent	neutral	other	ok
+2025-11-19	Consumer Services	Major League Baseball|NBC|ESPN|Netflix	neutral	markets	ok
 2025-11-19	Technology Services	Nvidia|xAI	positive	products	ok
 2025-11-19	Finance	Hong Kong IPO|China-invested private equity firms	positive	markets	ok
-2025-11-19	Finance	Trump|Powell|Bessent	neutral	other	ok
+2025-11-20	Finance	Bitcoin	negative	markets	ok
 2025-11-20	Retail Trade	Gap|Banana Republic|Old Navy|Athleta	positive	markets	ok
 2025-11-20	Energy Minerals	Trump|Interior	neutral	macro	ok
 2025-11-20	Consumer Durables	Mercedes-AMG Petronas F1|Toto Wolff|CrowdStrike|George Kurtz	neutral	other	ok
 2025-11-20	Retail Trade	Walmart|T.J. Maxx	positive	markets	ok
 2025-11-20	Electronic Technology	Nvidia	positive	earnings	ok
-2025-11-20	Finance	Bitcoin	negative	markets	ok
 2025-11-20	Electronic Technology	Baidu|Nvidia	positive	products	ok
 2025-11-20	Energy Minerals	Arctic|China	neutral	macro	ok
-2025-11-21	Energy Minerals	Oil|energy stocks	negative	markets	ok
-2025-11-21	Electronic Technology	Google|Amazon	neutral	products	ok
-2025-11-21	Retail Trade	Best Buy|Five Below	positive	markets	ok
 2025-11-21	Consumer Services	Paramount|Comcast|Netflix|Warner Bros. Discovery	neutral	markets	ok
-2025-11-21	Transportation	Dow	positive	markets	ok
-2025-11-21	Retail Trade	Amazon	negative	earnings	ok
-2025-11-21	Finance	Fed|John Williams|Jerome Powell|Philip Jefferson	positive	macro	ok
 2025-11-21	Electronic Technology	Nvidia	negative	earnings	ok
-2025-11-22	Finance	IRS|crypto	neutral	regulation	ok
+2025-11-21	Retail Trade	Best Buy|Five Below	positive	markets	ok
+2025-11-21	Transportation	Dow	positive	markets	ok
+2025-11-21	Finance	Fed|John Williams|Jerome Powell|Philip Jefferson	positive	macro	ok
+2025-11-21	Electronic Technology	Google|Amazon	neutral	products	ok
+2025-11-21	Retail Trade	Amazon	negative	earnings	ok
+2025-11-21	Energy Minerals	Oil|energy stocks	negative	markets	ok
 2025-11-22	Finance	S&P 500	negative	markets	ok
-2025-11-23	Transportation	airlines|airline executives	positive	markets	ok
-2025-11-23	Electronic Technology	Microsoft|IT buyers	neutral	products	ok
-2025-11-23	Consumer Non-Durables	Ms Jo Malone CBE|Estée Lauder	neutral	other	ok
+2025-11-22	Finance	IRS|crypto	neutral	regulation	ok
 2025-11-23	Finance	Treasury Secretary Scott Bessent|Trump's policies	positive	macro	ok
+2025-11-23	Consumer Non-Durables	Ms Jo Malone CBE|Estée Lauder	neutral	other	ok
+2025-11-23	Electronic Technology	Microsoft|IT buyers	neutral	products	ok
+2025-11-23	Transportation	airlines|airline executives	positive	markets	ok
 2025-11-24	Retail Trade	Amazon|Walmart|TJX Companies|Burlington	positive	markets	ok
 2025-11-24	Producer Manufacturing	U.S. Steel|Nippon	neutral	M&A	ok
 2025-11-24	Health Services	Novo Nordisk|Eli Lilly	negative	products	ok
@@ -729,18 +729,18 @@ date	sector	entities	sentiment	news_category	extraction_status
 2025-11-24	Electronic Technology	Meta	negative	regulation	ok
 2025-11-24	Electronic Technology	Alibaba	positive	markets	ok
 2025-11-24	Producer Manufacturing	Sandisk|Western Digital	neutral	markets	ok
-2025-11-25	Technology Services	Dell	negative	earnings	ok
 2025-11-25	Retail Trade	Abercrombie & Fitch|Hollister	positive	earnings	ok
 2025-11-25	Finance	Michael Burry	negative	other	ok
-2025-11-25	Electronic Technology	Nvidia|Google	positive	products	ok
+2025-11-25	Technology Services	Dell	negative	earnings	ok
 2025-11-25	Finance	Nuveen	positive	markets	ok
+2025-11-25	Electronic Technology	Nvidia|Google	positive	products	ok
 2025-11-25	Consumer Services	CNBC|NHL	neutral	markets	ok
-2025-11-26	Health Services	Medicare|AstraZeneca|Novo Nordisk	neutral	regulation	ok
 2025-11-26	Energy Minerals	Australia	neutral	macro	ok
 2025-11-26	Electronic Technology	Nvidia	negative	markets	ok
+2025-11-26	Health Services	Medicare|AstraZeneca|Novo Nordisk	neutral	regulation	ok
 2025-11-26	Retail Trade	Amazon	negative	other	ok
-2025-11-26	Technology Services	Workday	negative	earnings	ok
 2025-11-26	Technology Services	MIT	neutral	other	ok
+2025-11-26	Technology Services	Workday	negative	earnings	ok
 2025-11-26	Finance	Federal Reserve	neutral	macro	ok
 2025-11-26	Consumer Durables	Apple	positive	products	ok
 2025-11-27	Electronic Technology	Google|Alphabet	positive	products	ok
@@ -767,22 +767,22 @@ date	sector	entities	sentiment	news_category	extraction_status
 2025-12-01	Electronic Technology	Bitcoin|ether	negative	markets	ok
 2025-12-01	Finance	Federal Reserve|Donald Trump	neutral	macro	ok
 2025-12-01	Retail Trade	Shopify	neutral	other	ok
-2025-12-02	Electronic Technology	Marvell|Celestial AI	positive	M&A	ok
+2025-12-02	Consumer Durables	South Korea auto stocks	positive	markets	ok
 2025-12-02	Consumer Non-Durables	Tesla|Elon Musk	negative	products	ok
 2025-12-02	Finance	Bitcoin|cryptocurrency	neutral	markets	ok
 2025-12-02	Electronic Technology	OpenAI|Google|Anthropic	neutral	products	ok
 2025-12-02	Producer Manufacturing	Boeing	positive	earnings	ok
 2025-12-02	Electronic Technology	Nvidia|Luma AI	positive	products	ok
 2025-12-02	Electronic Technology	Samsung|Chinese brands	neutral	products	ok
-2025-12-02	Consumer Durables	South Korea auto stocks	positive	markets	ok
-2025-12-03	Electronic Technology	AI bubble|Michael Burry	negative	markets	ok
+2025-12-02	Electronic Technology	Marvell|Celestial AI	positive	M&A	ok
 2025-12-03	Electronic Technology	Verkada|CapitalG	positive	markets	ok
-2025-12-03	Electronic Technology	Micron	negative	markets	ok
+2025-12-03	Electronic Technology	AI bubble|Michael Burry	negative	markets	ok
 2025-12-03	Electronic Technology	Nvidia|Jensen Huang	positive	markets	ok
+2025-12-03	Electronic Technology	Micron	negative	markets	ok
+2025-12-03	Electronic Technology	AI data center boom	neutral	macro	ok
 2025-12-03	Electronic Technology	Microsoft|Azure Foundry	negative	products	ok
 2025-12-03	Utilities	energy analysts|electric bills	negative	macro	ok
 2025-12-03	Energy Minerals	U.S. Treasury|1962 Trade Act	neutral	macro	ok
-2025-12-03	Electronic Technology	AI data center boom	neutral	macro	ok
 2025-12-04	Distribution Services	WBD|Paramount|Comcast|Netflix	neutral	markets	ok
 2025-12-05	Finance	Binance|Changpeng Zhao	positive	other	ok
 2025-12-05	Electronic Technology	Cloudflare	neutral	markets	ok
@@ -799,21 +799,20 @@ date	sector	entities	sentiment	news_category	extraction_status
 2025-12-07	Electronic Technology	Chinese internet companies	positive	products	ok
 2025-12-08	Transportation	Waymo|Tesla	positive	markets	ok
 2025-12-08	Technology Services	IBM|Confluent	positive	markets	ok
-2025-12-08	Finance	Berkshire Hathaway	neutral	other	ok
 2025-12-08	Consumer Non-Durables	McDonald's	positive	products	ok
+2025-12-08	Finance	Berkshire Hathaway	neutral	other	ok
 2025-12-08	Finance	Trump|Alina Habba	neutral	other	ok
+2025-12-08	Electronic Technology	Apple|Srouji	neutral	macro	ok
 2025-12-08	Electronic Technology	Apple|Tim Cook	neutral	macro	ok
 2025-12-08	Distribution Services	WBD|Netflix|Paramount Skydance	neutral	markets	ok
-2025-12-08	Electronic Technology	Apple|Srouji	neutral	macro	ok
-2025-12-09	Producer Manufacturing	Boeing|Airbus	negative	markets	ok
+2025-12-09	Health Services	Pfizer|Merck	positive	products	ok
 2025-12-09	Electronic Technology	Nvidia|Trump administration	positive	products	ok
 2025-12-09	Electronic Technology	Bitcoin|cryptocurrency	negative	markets	ok
-2025-12-09	Health Services	Pfizer|Merck	positive	products	ok
+2025-12-09	Producer Manufacturing	Boeing|Airbus	negative	markets	ok
 2025-12-09	Finance	Vietnam stock market	positive	markets	ok
 2025-12-09	Consumer Non-Durables	China|U.S. soybeans	positive	macro	ok
 2025-12-09	Finance	Student Loan Administration	negative	regulation	ok
 2025-12-09	Finance	S&P 500|Dow|JPMorgan	neutral	markets	ok
-2025-12-10	Utilities	European Union	neutral	regulation	ok
 2025-12-10	Finance	Federal Reserve	positive	macro	ok
 2025-12-10	Transportation	Boeing	neutral	other	ok
 2025-12-10	Transportation	Southwest	positive	products	ok
@@ -821,57 +820,58 @@ date	sector	entities	sentiment	news_category	extraction_status
 2025-12-10	Electronic Technology	Nvidia|Google	positive	products	ok
 2025-12-10	Electronic Technology	Starcloud	positive	products	ok
 2025-12-10	Finance	U.S. Federal Reserve	positive	macro	ok
-2025-12-11	Transportation	UK|Germany	positive	markets	ok
+2025-12-10	Utilities	European Union	neutral	regulation	ok
 2025-12-11	Energy Minerals	U.S.|Venezuela|Iran	negative	macro	ok
+2025-12-11	Transportation	UK|Germany	positive	markets	ok
 2025-12-11	Electronic Technology	Nvidia|SK Hynix	positive	markets	ok
 2025-12-11	Electronic Technology	Broadcom|ASICs|top analysts	positive	earnings	ok
-2025-12-11	Technology Services	Oracle|Nvidia|AMD|CoreWeave|Meta	negative	markets	ok
-2025-12-11	Consumer Durables	Rivian|AI tech|robotaxi	positive	products	ok
 2025-12-11	Finance	Fed|policymakers	neutral	macro	ok
+2025-12-11	Consumer Durables	Rivian|AI tech|robotaxi	positive	products	ok
 2025-12-11	Consumer Non-Durables	Disney|OpenAI|Sora AI	positive	products	ok
-2025-12-12	Finance	Coinbase|Kalshi	positive	products	ok
-2025-12-12	Consumer Durables	Disney	positive	products	ok
-2025-12-12	Finance	S&P 500|Nasdaq	neutral	markets	ok
-2025-12-12	Consumer Durables	McDonald's	positive	products	ok
-2025-12-12	Technology Services	Texas|data centers	positive	macro	ok
-2025-12-12	Electronic Technology	Broadcom|Oracle|Nvidia	negative	markets	ok
+2025-12-11	Technology Services	Oracle|Nvidia|AMD|CoreWeave|Meta	negative	markets	ok
 2025-12-12	Consumer Non-Durables	Marijuana	positive	products	ok
+2025-12-12	Electronic Technology	Broadcom|Oracle|Nvidia	negative	markets	ok
+2025-12-12	Technology Services	Texas|data centers	positive	macro	ok
 2025-12-12	Consumer Services	White House|East Wing	negative	regulation	ok
+2025-12-12	Finance	S&P 500|Nasdaq	neutral	markets	ok
+2025-12-12	Consumer Durables	Disney	positive	products	ok
+2025-12-12	Finance	Coinbase|Kalshi	positive	products	ok
+2025-12-12	Consumer Durables	McDonald's	positive	products	ok
 2025-12-13	Finance	Goldman Sachs Asset Management	positive	products	ok
 2025-12-13	Finance	Federal Trade Commission	negative	regulation	ok
 2025-12-14	Technology Services	ServiceNow|Armis	positive	M&A	ok
-2025-12-15	Finance	PayPal	positive	products	ok
 2025-12-15	Finance	Baron Capital|SpaceX	positive	markets	ok
-2025-12-15	Finance	BofA's Savita Subramanian	neutral	markets	ok
+2025-12-15	Finance	PayPal	positive	products	ok
 2025-12-15	Producer Manufacturing	U.S. government	neutral	macro	ok
+2025-12-15	Finance	BofA's Savita Subramanian	neutral	markets	ok
 2025-12-15	Transportation	SpaceX	positive	markets	ok
 2025-12-15	Electronic Technology	Amazon Web Services|Apple|Google Public Sector|Dell Technologies|Microsoft|Nvidia|OpenAI	neutral	products	ok
 2025-12-15	Distribution Services	Zillow|Google	negative	markets	ok
 2025-12-15	Health Services	Danaher	positive	markets	ok
-2025-12-16	Technology Services	AI permit process reform|Big Tech	positive	regulation	ok
-2025-12-16	Transportation	Southwest Airlines|Circle Internet Group|Halliburton	neutral	markets	ok
-2025-12-16	Electronic Technology	Micron	neutral	earnings	ok
 2025-12-16	Transportation	Waymo|Zoox|Tesla	positive	products	ok
+2025-12-16	Technology Services	AI permit process reform|Big Tech	positive	regulation	ok
+2025-12-16	Electronic Technology	Micron	neutral	earnings	ok
+2025-12-16	Transportation	Southwest Airlines|Circle Internet Group|Halliburton	neutral	markets	ok
 2025-12-16	Energy Minerals	U.S. crude oil	negative	markets	ok
 2025-12-16	Health Services	Obamacare subsidies	neutral	macro	ok
 2025-12-16	Health Services	Reclassification to a Schedule III drug|pharmaceutical companies	positive	products	ok
 2025-12-16	Electronic Technology	Nasdaq	neutral	markets	ok
+2025-12-17	Technology Services	Oracle|Blue Owl Capital	negative	markets	ok
 2025-12-17	Health Services	Obamacare|Congress	neutral	macro	ok
 2025-12-17	Communications	FCC|Brendan Carr	neutral	regulation	ok
 2025-12-17	Communications	YouTube|Academy of Motion Picture Arts and Sciences|Google	positive	products	ok
 2025-12-17	Finance	Stocks|Nasdaq|Oracle	negative	markets	ok
 2025-12-17	Finance	FBI|Dan Bongino	neutral	other	ok
 2025-12-17	Finance	Michael Burry|U.S. households	negative	macro	ok
-2025-12-17	Technology Services	Oracle|Blue Owl Capital	negative	markets	ok
 2025-12-17	Health Services	Medline	positive	markets	ok
+2025-12-18	Consumer Non-Durables	Nike	neutral	earnings	ok
 2025-12-18	Energy Minerals	China|U.S.	negative	macro	ok
 2025-12-18	Energy Minerals	Copper	positive	markets	ok
 2025-12-18	Energy Minerals	BP	positive	earnings	ok
-2025-12-18	Energy Minerals	BP|Murray Auchincloss|Steve Sedgwick|Woodside's Meg O'Neill	neutral	appointments	ok
-2025-12-18	Consumer Non-Durables	Darden Restaurants	positive	earnings	ok
 2025-12-18	Consumer Non-Durables	S&P 500|Micron|General Mills	positive	markets	ok
 2025-12-18	Consumer Non-Durables	Chipotle	positive	products	ok
-2025-12-18	Consumer Non-Durables	Nike	neutral	earnings	ok
+2025-12-18	Consumer Non-Durables	Darden Restaurants	positive	earnings	ok
+2025-12-18	Energy Minerals	BP|Murray Auchincloss|Steve Sedgwick|Woodside's Meg O'Neill	neutral	appointments	ok
 2025-12-19	Technology Services	Oracle|TikTok	positive	markets	ok
 2025-12-19	Electronic Technology	Palo Alto Networks|Google Cloud	positive	products	ok
 2025-12-19	Health Services	UnitedHealth Group	neutral	macro	ok
@@ -881,50 +881,50 @@ date	sector	entities	sentiment	news_category	extraction_status
 2025-12-19	Electronic Technology	Nvidia	neutral	markets	ok
 2025-12-19	Utilities	Japan's Bank of Japan	neutral	macro	ok
 2025-12-20	Retail Trade	Link Asset Management|George Hongchoy	positive	markets	ok
-2025-12-21	Health Services	DOJ|Trump photo	neutral	other	ok
-2025-12-21	Finance	cryptocurrency|digital assets	neutral	macro	ok
-2025-12-21	Technology Services	AI|tech companies	negative	macro	ok
 2025-12-21	Consumer Non-Durables	Small business|tax prep tools	positive	products	ok
-2025-12-21	Finance	UK stocks|FTSE 100	positive	markets	ok
 2025-12-21	Consumer Durables	Disney|Avatar: Fire and Ash	negative	markets	ok
+2025-12-21	Finance	UK stocks|FTSE 100	positive	markets	ok
 2025-12-21	Consumer Non-Durables	cocoa markets|candy makers	neutral	macro	ok
-2025-12-22	Consumer Non-Durables	Jim Beam	negative	macro	ok
+2025-12-21	Technology Services	AI|tech companies	negative	macro	ok
+2025-12-21	Finance	cryptocurrency|digital assets	neutral	macro	ok
+2025-12-21	Health Services	DOJ|Trump photo	neutral	other	ok
 2025-12-22	Transportation	Waymo|Tesla	neutral	markets	ok
 2025-12-22	Electronic Technology	Baidu	positive	markets	ok
+2025-12-22	Consumer Non-Durables	Jim Beam	negative	macro	ok
 2025-12-22	Consumer Non-Durables	Mercedes-Benz	negative	regulation	ok
 2025-12-22	Consumer Durables	Tesla	positive	markets	ok
 2025-12-22	Electronic Technology	Alphabet|Intersect	positive	products	ok
 2025-12-22	Energy Minerals	Dominion	negative	macro	ok
 2025-12-22	Consumer Durables	Lego|F1	positive	products	ok
-2025-12-23	Energy Minerals	Gold|Silver	positive	markets	ok
-2025-12-23	Finance	U.S. Federal Reserve|Hassett	negative	macro	ok
-2025-12-23	Finance	Citadel	positive	markets	ok
-2025-12-23	Consumer Durables	Tesla	positive	products	ok
-2025-12-23	Transportation	Southwest Airlines	positive	markets	ok
-2025-12-23	Retail Trade	Tanger	positive	markets	ok
 2025-12-23	Finance	Barclays	positive	markets	ok
 2025-12-23	Health Services	Novo Nordisk|Wegovy	positive	products	ok
-2025-12-24	Transportation	Waymo	neutral	other	ok
-2025-12-24	Health Services	Sanofi|Dynavax Technologies	positive	M&A	ok
+2025-12-23	Retail Trade	Tanger	positive	markets	ok
+2025-12-23	Energy Minerals	Gold|Silver	positive	markets	ok
+2025-12-23	Consumer Durables	Tesla	positive	products	ok
+2025-12-23	Finance	Citadel	positive	markets	ok
+2025-12-23	Finance	U.S. Federal Reserve|Hassett	negative	macro	ok
+2025-12-23	Transportation	Southwest Airlines	positive	markets	ok
 2025-12-24	Energy Minerals	BP|Castrol	neutral	markets	ok
 2025-12-24	Electronic Technology	Nvidia|data center stocks	positive	markets	ok
 2025-12-24	Retail Trade	Amazon|AI shopping bots	neutral	products	ok
-2025-12-25	Health Services	China's population policy	negative	macro	ok
-2025-12-25	Electronic Technology	Nvidia|Groq	positive	products	ok
-2025-12-25	Producer Manufacturing	Hanwha's Philly Shipyard	neutral	other	ok
+2025-12-24	Health Services	Sanofi|Dynavax Technologies	positive	M&A	ok
+2025-12-24	Transportation	Waymo	neutral	other	ok
 2025-12-25	Consumer Durables	Foxtron|Yulon	neutral	products	ok
+2025-12-25	Producer Manufacturing	Hanwha's Philly Shipyard	neutral	other	ok
+2025-12-25	Health Services	China's population policy	negative	macro	ok
 2025-12-25	Retail Trade	discount retailer	positive	markets	ok
-2025-12-25	Technology Services	Palantir	negative	markets	ok
-2025-12-25	Consumer Non-Durables	Tariffs|leather	negative	macro	ok
 2025-12-25	Finance	Berkshire Hathaway|Warren Buffett	negative	markets	ok
+2025-12-25	Consumer Non-Durables	Tariffs|leather	negative	macro	ok
+2025-12-25	Electronic Technology	Nvidia|Groq	positive	products	ok
+2025-12-25	Technology Services	Palantir	negative	markets	ok
 2025-12-25	Electronic Technology	AI infrastructure firms|Big Tech	positive	markets	ok
-2025-12-26	Transportation	Airlines	negative	markets	ok
-2025-12-26	Technology Services	Oracle|Clay Magouyrk|Mike Sicilia|Nvidia|OpenAI	negative	markets	ok
-2025-12-26	Health Services	Johnson & Johnson	negative	markets	ok
+2025-12-26	Electronic Technology	China|Hangzhou|Alibaba	positive	markets	ok
+2025-12-26	Transportation	U.S. military|Islamic State	neutral	markets	ok
 2025-12-26	Electronic Technology	Nvidia|Groq	positive	markets	ok
 2025-12-26	Energy Minerals	Virginia offshore wind developer|Dominion Energy	negative	regulation	ok
-2025-12-26	Transportation	U.S. military|Islamic State	neutral	markets	ok
-2025-12-26	Electronic Technology	China|Hangzhou|Alibaba	positive	markets	ok
+2025-12-26	Technology Services	Oracle|Clay Magouyrk|Mike Sicilia|Nvidia|OpenAI	negative	markets	ok
+2025-12-26	Transportation	Airlines	negative	markets	ok
+2025-12-26	Health Services	Johnson & Johnson	negative	markets	ok
 2025-12-27	Energy Minerals	Europe|fund managers	neutral	macro	ok
 2025-12-27	Energy Minerals	CNBC New Energy Finance Forum|Abu Dhabi Finance Week|business leaders|investors	positive	products	ok
 2025-12-27	Technology Services	UK|tech giants	positive	macro	ok
@@ -936,14 +936,13 @@ date	sector	entities	sentiment	news_category	extraction_status
 2025-12-28	Consumer Services	restaurants|menu item|value	positive	products	ok
 2025-12-28	Consumer Non-Durables	investment opportunities|stocks	positive	markets	ok
 2025-12-28	Distribution Services	Amazon|drone delivery|Italy	negative	regulation	ok
-2025-12-29	Retail Trade	Coupang	negative	other	ok
+2025-12-29	Electronic Technology	Chinese AI chatbots	negative	regulation	ok
 2025-12-29	Electronic Technology	Nvidia|Groq|Intel	positive	M&A	ok
 2025-12-29	Consumer Durables	Lululemon|Chip Wilson	neutral	other	ok
-2025-12-29	Electronic Technology	Chinese AI chatbots	negative	regulation	ok
+2025-12-29	Retail Trade	Coupang	negative	other	ok
 2025-12-29	Producer Manufacturing	General Motors|Tesla|Ford	positive	markets	ok
 2025-12-29	Energy Minerals	Silver	negative	macro	ok
 2025-12-29	Technology Services	Softbank|DigitalBridge	positive	M&A	ok
-2025-12-30	Utilities	Octopus Energy|Kraken	positive	markets	ok
 2025-12-30	Finance	Federal Reserve	neutral	macro	ok
 2025-12-30	Consumer Non-Durables	housing market	positive	macro	ok
 2025-12-30	Electronic Technology	SoftBank|OpenAI	positive	markets	ok
@@ -951,6 +950,7 @@ date	sector	entities	sentiment	news_category	extraction_status
 2025-12-30	Energy Minerals	U.S. sanctions Iranian, Venezuelan groups	negative	regulation	ok
 2025-12-30	Electronic Technology	Meta|Manus	positive	M&A	ok
 2025-12-30	Energy Minerals	copper	positive	markets	ok
+2025-12-30	Utilities	Octopus Energy|Kraken	positive	markets	ok
 2025-12-31	Finance	European banks	positive	markets	ok
 2025-12-31	Consumer Services	European markets|defense stocks	positive	markets	ok
 2025-12-31	Transportation	Space and defense|satellite stocks	positive	markets	ok
@@ -961,88 +961,88 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-01-01	Health Services	Novo Nordisk|Eli Lilly	positive	products	ok
 2026-01-01	Retail Trade	Saks Group|Saks Fifth Avenue	negative	markets	ok
 2026-01-01	Electronic Technology	TSMC	neutral	markets	ok
-2026-01-02	Finance	Citadel	positive	markets	ok
-2026-01-02	Industrial Services	Douglas Dynamics	positive	products	ok
 2026-01-02	Finance	Bitcoin|crypto theft	negative	other	ok
 2026-01-02	Electronic Technology	Chip stocks|artificial intelligence	positive	markets	ok
-2026-01-02	Finance	Berkshire Hathaway|Warren Buffett|Greg Abel	neutral	appointments	ok
 2026-01-02	Transportation	SpaceX	positive	markets	ok
-2026-01-02	Consumer Non-Durables	BYD|Tesla	positive	markets	ok
+2026-01-02	Finance	Berkshire Hathaway|Warren Buffett|Greg Abel	neutral	appointments	ok
 2026-01-02	Consumer Non-Durables	Tesla	positive	markets	ok
-2026-01-03	Transportation	U.S. airlines	negative	markets	ok
+2026-01-02	Industrial Services	Douglas Dynamics	positive	products	ok
+2026-01-02	Finance	Citadel	positive	markets	ok
+2026-01-02	Consumer Non-Durables	BYD|Tesla	positive	markets	ok
 2026-01-03	Technology Services	Chinese-controlled firm|Emcore	negative	regulation	ok
+2026-01-03	Transportation	U.S. airlines	negative	markets	ok
 2026-01-03	Electronic Technology	Anthropic|Amodei|Daniela Amodei|Dario Amodei	positive	products	ok
 2026-01-03	Energy Minerals	U.S. oil companies|Venezuela|Nicolas Maduro|Donald Trump	negative	macro	ok
-2026-01-05	Energy Minerals	Chevron|Exxon|SLB	positive	markets	ok
-2026-01-05	Electronic Technology	Nvidia|Foxconn	positive	markets	ok
-2026-01-05	Electronic Technology	Starlink|SpaceX	positive	products	ok
-2026-01-05	Consumer Non-Durables	GM|Stellantis|Lucid	positive	markets	ok
-2026-01-05	Consumer Non-Durables	Comcast|NBCUniversal	neutral	markets	ok
+2026-01-05	Transportation	U.S. military	neutral	other	ok
 2026-01-05	Electronic Technology	Meta|Yann Lecun	negative	regulation	ok
 2026-01-05	Energy Minerals	Venezuela|Nicolas Maduro	neutral	macro	ok
-2026-01-05	Transportation	U.S. military	neutral	other	ok
+2026-01-05	Consumer Non-Durables	Comcast|NBCUniversal	neutral	markets	ok
+2026-01-05	Energy Minerals	Chevron|Exxon|SLB	positive	markets	ok
+2026-01-05	Electronic Technology	Starlink|SpaceX	positive	products	ok
+2026-01-05	Electronic Technology	Nvidia|Foxconn	positive	markets	ok
+2026-01-05	Consumer Non-Durables	GM|Stellantis|Lucid	positive	markets	ok
 2026-01-06	Electronic Technology	Elon Musk|xAI|Nvidia|Cisco|Fidelity	positive	markets	ok
-2026-01-06	Finance	Morgan Stanley	positive	markets	ok
-2026-01-06	Finance	Vista Equity Partners	neutral	other	ok
-2026-01-06	Consumer Durables	Hyundai Motor Group	neutral	products	ok
 2026-01-06	Technology Services	AMD|Lisa Su	positive	macro	ok
-2026-01-06	Electronic Technology	Meta|Mark Zuckerberg	neutral	products	ok
 2026-01-06	Electronic Technology	Memory chip giants|Micron|SK Hynix|Samsung	positive	markets	ok
+2026-01-06	Electronic Technology	Meta|Mark Zuckerberg	neutral	products	ok
 2026-01-06	Electronic Technology	Nvidia|Jensen Huang	positive	products	ok
+2026-01-06	Consumer Durables	Hyundai Motor Group	neutral	products	ok
+2026-01-06	Finance	Vista Equity Partners	neutral	other	ok
+2026-01-06	Finance	Morgan Stanley	positive	markets	ok
+2026-01-07	Finance	Venezuela stock exchange|Teucrium Venezuela Exposure ETF	positive	markets	ok
 2026-01-07	Finance	Goldman Sachs|call options	positive	markets	ok
 2026-01-07	Consumer Non-Durables	India economy	positive	macro	ok
 2026-01-07	Finance	JPMorgan|proxy advisors	positive	regulation	ok
-2026-01-07	Finance	Venezuela stock exchange|Teucrium Venezuela Exposure ETF	positive	markets	ok
 2026-01-07	Producer Manufacturing	Alaska Airlines|Boeing	positive	markets	ok
 2026-01-07	Electronic Technology	Sandisk	positive	markets	ok
 2026-01-07	Energy Minerals	U.S. government|Venezuela|Nicolas Maduro	positive	macro	ok
 2026-01-07	Electronic Technology	Tesla|Nvidia	neutral	products	ok
-2026-01-08	Producer Manufacturing	GM|EV|China	negative	markets	ok
-2026-01-08	Consumer Durables	Ford|EV	positive	products	ok
-2026-01-08	Electronic Technology	Meta|Manus	neutral	regulation	ok
-2026-01-08	Electronic Technology	Intel|Trump	positive	markets	ok
-2026-01-08	Transportation	Defense stocks|Trump	positive	markets	ok
-2026-01-08	Energy Minerals	Trump|Greenland|Danish officials	neutral	macro	ok
 2026-01-08	Energy Minerals	U.S. military|Venezuela|Nicolas Maduro	negative	macro	ok
+2026-01-08	Energy Minerals	Trump|Greenland|Danish officials	neutral	macro	ok
+2026-01-08	Transportation	Defense stocks|Trump	positive	markets	ok
 2026-01-08	Electronic Technology	Google|Gemini AI|Gmail	positive	products	ok
+2026-01-08	Electronic Technology	Meta|Manus	neutral	regulation	ok
+2026-01-08	Consumer Durables	Ford|EV	positive	products	ok
+2026-01-08	Electronic Technology	Intel|Trump	positive	markets	ok
+2026-01-08	Producer Manufacturing	GM|EV|China	negative	markets	ok
+2026-01-09	Retail Trade	Amazon	positive	products	ok
 2026-01-09	Producer Manufacturing	Rolls-Royce	positive	markets	ok
-2026-01-09	Finance	Fannie Mae|Freddie Mac	positive	macro	ok
-2026-01-09	Finance	Goldman Sachs	positive	markets	ok
-2026-01-09	Electronic Technology	Intel	positive	markets	ok
-2026-01-09	Utilities	Meta	positive	products	ok
 2026-01-09	Energy Minerals	Venezuela	positive	macro	ok
 2026-01-09	Energy Minerals	China	neutral	macro	ok
-2026-01-09	Retail Trade	Amazon	positive	products	ok
+2026-01-09	Electronic Technology	Intel	positive	markets	ok
+2026-01-09	Finance	Goldman Sachs	positive	markets	ok
+2026-01-09	Finance	Fannie Mae|Freddie Mac	positive	macro	ok
+2026-01-09	Utilities	Meta	positive	products	ok
+2026-01-10	Energy Minerals	Venezuela|Trump	neutral	macro	ok
 2026-01-10	Health Technology	Novo Nordisk|Eli Lilly	positive	products	ok
 2026-01-10	Electronic Technology	Micron|SK Hynix|Samsung Electronics	positive	markets	ok
-2026-01-10	Energy Minerals	Venezuela|Trump	neutral	macro	ok
-2026-01-11	Retail Trade	Walmart|Google's Gemini|OpenAI|ChatGPT	positive	products	ok
-2026-01-11	Producer Manufacturing	Boeing	positive	markets	ok
 2026-01-11	Producer Manufacturing	GM	positive	markets	ok
-2026-01-12	Retail Trade	Jersey Mike's|Walmart|Aldi	positive	markets	ok
-2026-01-12	Consumer Non-Durables	China|India|Japan	neutral	macro	ok
-2026-01-12	Energy Minerals	Iran|U.S.|OPEC	negative	macro	ok
+2026-01-11	Producer Manufacturing	Boeing	positive	markets	ok
+2026-01-11	Retail Trade	Walmart|Google's Gemini|OpenAI|ChatGPT	positive	products	ok
 2026-01-12	Electronic Technology	Grok|Elon Musk|Malaysia|Indonesia	negative	regulation	ok
-2026-01-12	Finance	JPMorgan|Citigroup|Palantir|Meta|Exxon	neutral	markets	ok
-2026-01-12	Electronic Technology	Apple|Google|Gemini|Siri	positive	products	ok
 2026-01-12	Finance	Federal Reserve|Jerome Powell|Bernanke|Yellen|Greenspan	neutral	macro	ok
+2026-01-12	Electronic Technology	Apple|Google|Gemini|Siri	positive	products	ok
+2026-01-12	Finance	JPMorgan|Citigroup|Palantir|Meta|Exxon	neutral	markets	ok
 2026-01-12	Consumer Non-Durables	Greenland|Denmark	neutral	other	partial
-2026-01-13	Commercial Services	Data Center REIT|Real estate	positive	markets	ok
-2026-01-13	Consumer Non-Durables	Consumer Staples	neutral	macro	ok
-2026-01-13	Finance	Warren Buffett|Berkshire	neutral	other	ok
-2026-01-13	Energy Minerals	Oil|Trump	positive	macro	ok
-2026-01-13	Finance	S&P 500|JPMorgan|Wall Street	negative	markets	ok
+2026-01-12	Energy Minerals	Iran|U.S.|OPEC	negative	macro	ok
+2026-01-12	Consumer Non-Durables	China|India|Japan	neutral	macro	ok
+2026-01-12	Retail Trade	Jersey Mike's|Walmart|Aldi	positive	markets	ok
 2026-01-13	Finance	Fed|Powell	negative	regulation	ok
 2026-01-13	Finance	Morgan Stanley|Earnings	positive	earnings	ok
+2026-01-13	Finance	S&P 500|JPMorgan|Wall Street	negative	markets	ok
 2026-01-13	Producer Manufacturing	Boeing|Airbus	positive	markets	ok
+2026-01-13	Finance	Warren Buffett|Berkshire	neutral	other	ok
+2026-01-13	Consumer Non-Durables	Consumer Staples	neutral	macro	ok
+2026-01-13	Energy Minerals	Oil|Trump	positive	macro	ok
+2026-01-13	Commercial Services	Data Center REIT|Real estate	positive	markets	ok
+2026-01-14	Electronic Technology	Meta|Reality Labs	negative	products	ok
+2026-01-14	Producer Manufacturing	Stellantis	neutral	earnings	ok
 2026-01-14	Technology Services	Oracle	negative	markets	ok
 2026-01-14	Finance	Bank of America|Wells Fargo	positive	earnings	ok
-2026-01-14	Producer Manufacturing	Stellantis	neutral	earnings	ok
-2026-01-14	Electronic Technology	Meta|Reality Labs	negative	products	ok
 2026-01-14	Non-Energy Minerals	Gold|silver	positive	markets	ok
+2026-01-14	Electronic Technology	Tesla|Waymo	neutral	products	ok
 2026-01-14	Electronic Technology	Google|Apple	neutral	products	ok
 2026-01-14	Energy Minerals	energy sector|XLE	positive	macro	ok
-2026-01-14	Electronic Technology	Tesla|Waymo	neutral	products	ok
 2026-01-15	Consumer Durables	Spotify	neutral	products	ok
 2026-01-15	Producer Manufacturing	3M	neutral	earnings	ok
 2026-01-15	Transportation	Dow	positive	markets	ok
@@ -1057,31 +1057,31 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-01-16	Energy Minerals	Offshore Wind|Virginia Offshore Wind	positive	products	ok
 2026-01-16	Finance	S&P 500|Semiconductor|bank stocks	positive	markets	ok
 2026-01-16	Electronic Technology	OpenAI	neutral	products	ok
-2026-01-16	Electronic Technology	Micron|AI	positive	products	ok
 2026-01-16	Consumer Non-Durables	Novo Nordisk|Eli Lilly	positive	products	ok
-2026-01-17	Finance	Brazilian stocks|Venezuela	neutral	macro	ok
+2026-01-16	Electronic Technology	Micron|AI	positive	products	ok
 2026-01-17	Electronic Technology	Elon Musk|xAI|EPA	negative	regulation	ok
+2026-01-17	Finance	Brazilian stocks|Venezuela	neutral	macro	ok
 2026-01-17	Consumer Non-Durables	Disney	positive	markets	ok
 2026-01-18	Finance	Trump administration|JPMorgan Chase|Supreme Court|Khanna|Berkshire|Greenland|South Korean noodle companies|Airwallex	neutral	markets	ok
 2026-01-18	Health Services	health CEOs	positive	markets	ok
-2026-01-19	Energy Minerals	gold|silver	positive	markets	ok
-2026-01-19	Consumer Non-Durables	Valentino	neutral	other	ok
-2026-01-19	Consumer Durables	Stellantis|Jeep	negative	earnings	ok
-2026-01-19	Consumer Durables	auto makers|European	negative	markets	ok
-2026-01-19	Electronic Technology	OpenAI|Sarah Friar	positive	products	ok
-2026-01-19	Distribution Services	European countries|Greenland	negative	macro	ok
 2026-01-19	Finance	Federal Reserve|Jerome Powell	neutral	macro	ok
+2026-01-19	Distribution Services	European countries|Greenland	negative	macro	ok
+2026-01-19	Electronic Technology	OpenAI|Sarah Friar	positive	products	ok
 2026-01-19	Electronic Technology	UBS|quantum computing	positive	markets	ok
-2026-01-20	Finance	U.S. Treasury|Treasury	negative	markets	ok
-2026-01-20	Finance	U.S. Treasury|AkademikerPension	negative	macro	ok
-2026-01-20	Finance	U.S. dollar|Treasury	negative	macro	ok
-2026-01-20	Finance	U.S. Treasurys|government bonds	negative	markets	ok
+2026-01-19	Consumer Durables	Stellantis|Jeep	negative	earnings	ok
+2026-01-19	Consumer Non-Durables	Valentino	neutral	other	ok
+2026-01-19	Consumer Durables	auto makers|European	negative	markets	ok
+2026-01-19	Energy Minerals	gold|silver	positive	markets	ok
 2026-01-20	Finance	U.S. Treasury|Treasury yields	negative	markets	ok
+2026-01-20	Finance	U.S. Treasury|Treasury	negative	markets	ok
 2026-01-20	Finance	U.S. Treasury|Treasury yields	negative	markets	ok
 2026-01-20	Finance	U.S. Treasury|Treasury prices	negative	markets	ok
-2026-01-21	Electronic Technology	Broadcom	positive	markets	ok
-2026-01-21	Energy Minerals	Gold	positive	markets	ok
+2026-01-20	Finance	U.S. dollar|Treasury	negative	macro	ok
+2026-01-20	Finance	U.S. Treasury|AkademikerPension	negative	macro	ok
+2026-01-20	Finance	U.S. Treasurys|government bonds	negative	markets	ok
 2026-01-21	Non-Energy Minerals	China|Reliance Industries	negative	macro	ok
+2026-01-21	Energy Minerals	Gold	positive	markets	ok
+2026-01-21	Electronic Technology	Broadcom	positive	markets	ok
 2026-01-21	Consumer Non-Durables	Netflix	positive	products	ok
 2026-01-21	Energy Minerals	Greenland|Denmark	neutral	macro	ok
 2026-01-21	Technology Services	Intel|Nvidia	positive	products	ok
@@ -1096,9 +1096,9 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-01-22	Electronic Technology	Google DeepMind	neutral	products	ok
 2026-01-22	Electronic Technology	Intel	negative	earnings	ok
 2026-01-23	Finance	Binance|Changpeng Zhao	neutral	other	ok
-2026-01-23	Electronic Technology	Intel	negative	earnings	ok
-2026-01-23	Finance	Nasdaq|S&P 500|Dow	neutral	markets	ok
 2026-01-23	Energy Minerals	Iran	neutral	macro	ok
+2026-01-23	Finance	Nasdaq|S&P 500|Dow	neutral	markets	ok
+2026-01-23	Electronic Technology	Intel	negative	earnings	ok
 2026-01-23	Energy Minerals	Greenland|U.S. Geological Survey	neutral	macro	ok
 2026-01-23	Finance	Sen. Warren|CFPB	negative	regulation	ok
 2026-01-23	Finance	Wall Street	negative	macro	ok
@@ -1106,25 +1106,25 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-01-24	Distribution Services	Trump|Canada|China	negative	macro	ok
 2026-01-24	Electronic Technology	Meta|Reality Labs	negative	products	ok
 2026-01-24	Electronic Technology	Nvidia|Persis Drell|Jensen Huang	neutral	markets	ok
-2026-01-25	Technology Services	Apple|Caterpillar	positive	earnings	ok
 2026-01-25	Consumer Durables	Auto executives|Automakers	neutral	macro	ok
+2026-01-25	Technology Services	Apple|Caterpillar	positive	earnings	ok
 2026-01-26	Electronic Technology	Booz Allen|Charles Edward Littlejohn|Amazon|Jeff Bezos|Tesla|Michael Burry|Zoom|Anthropic|Microsoft|Nvidia|Apple|Enphase|Allied Gold|CoreWeave|Synthesia|Costco|Meta|Microsoft|Apple	neutral	markets	ok
-2026-01-27	Distribution Services	Congress	neutral	regulation	ok
 2026-01-27	Non-Energy Minerals	Silver|Gold	neutral	markets	ok
-2026-01-27	Electronic Technology	Redwire|Lockheed Martin|Blue Origin	positive	markets	ok
-2026-01-27	Consumer Non-Durables	Starbucks	positive	products	ok
 2026-01-27	Finance	Fed	neutral	macro	ok
-2026-01-27	Utilities	U.S. government	neutral	macro	ok
 2026-01-27	Consumer Non-Durables	Homebuyers	negative	macro	ok
+2026-01-27	Utilities	U.S. government	neutral	macro	ok
 2026-01-27	Health Services	Humana|UnitedHealth	negative	products	ok
-2026-01-28	Electronic Technology	Meta	neutral	earnings	ok
+2026-01-27	Consumer Non-Durables	Starbucks	positive	products	ok
+2026-01-27	Electronic Technology	Redwire|Lockheed Martin|Blue Origin	positive	markets	ok
+2026-01-27	Distribution Services	Congress	neutral	regulation	ok
 2026-01-28	Energy Minerals	Energy Department	neutral	macro	ok
-2026-01-28	Electronic Technology	Microsoft|OpenAI	neutral	earnings	ok
 2026-01-28	Non-Energy Minerals	Chip stocks|Nvidia|ASML|SK Hynix	positive	markets	ok
+2026-01-28	Electronic Technology	Microsoft|OpenAI	neutral	earnings	ok
+2026-01-28	Electronic Technology	Meta	neutral	earnings	ok
 2026-01-28	Finance	Treasury|Scott Bessent	neutral	macro	ok
+2026-01-28	Consumer Non-Durables	Tesla|Elon Musk	positive	products	ok
 2026-01-28	Consumer Services	S&P 500|tech companies	neutral	markets	ok
 2026-01-28	Finance	Federal Reserve	neutral	macro	ok
-2026-01-28	Consumer Non-Durables	Tesla|Elon Musk	positive	products	ok
 2026-01-29	Technology Services	ServiceNow	negative	markets	ok
 2026-01-29	Electronic Technology	Microsoft|Meta|Apple|Waymo|NHTSA|Tesla|Elon Musk|JPMorgan|Gold|JPMorgan|Nvidia|ASML|Toyota|Deutsche Bank|SK Hynix|Samsung|Carvana|Southwest Airlines|Google DeepMind|Canaccord Genuity|LightPath Technologies|UnitedHealthcare|xAI	negative	markets	ok
 2026-01-30	Communications	China|Beijing	neutral	macro	ok
@@ -1163,57 +1163,57 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-02-04	Electronic Technology	Alphabet|Google|Apple	positive	earnings	ok
 2026-02-04	Electronic Technology	Nvidia|AI startup|ElevenLabs	positive	markets	ok
 2026-02-04	Energy Minerals	Chevron|Syrian waters	neutral	other	ok
-2026-02-05	Energy Minerals	Shell	negative	earnings	ok
-2026-02-05	Consumer Non-Durables	Estée Lauder|Hims & Hers|Wegovy	negative	earnings	ok
 2026-02-05	Consumer Durables	Peloton	negative	earnings	ok
+2026-02-05	Consumer Non-Durables	Estée Lauder|Hims & Hers|Wegovy	negative	earnings	ok
+2026-02-05	Energy Minerals	Shell	negative	earnings	ok
 2026-02-05	Electronic Technology	Amazon|Qualcomm|Broadcom|Alphabet|Google|Meta	neutral	earnings	ok
-2026-02-05	Communications	UAE|Trump	neutral	regulation	ok
-2026-02-05	Finance	Fed|Warsh	neutral	regulation	ok
 2026-02-05	Energy Minerals	Bitcoin	negative	macro	ok
+2026-02-05	Finance	Fed|Warsh	neutral	regulation	ok
 2026-02-05	Finance	Dow|Nasdaq|Wall Street|S&P 500	negative	markets	ok
-2026-02-06	Utilities	U.S. Congress|Trump|Supreme Court	neutral	regulation	partial
-2026-02-06	Consumer Durables	U.S. automakers|Chinese manufacturers	neutral	macro	ok
-2026-02-06	Consumer Durables	Tesla	positive	markets	ok
-2026-02-06	Finance	Goldman Sachs|Anthropic	neutral	products	ok
-2026-02-06	Electronic Technology	Amazon|Microsoft|Oracle|Meta|Alphabet	negative	markets	ok
-2026-02-06	Energy Minerals	Bitcoin|cryptocurrency	negative	macro	ok
+2026-02-05	Communications	UAE|Trump	neutral	regulation	ok
 2026-02-06	Electronic Technology	Nvidia|Jensen Huang|Meta|Amazon|Google|Microsoft	positive	earnings	ok
+2026-02-06	Energy Minerals	Bitcoin|cryptocurrency	negative	macro	ok
+2026-02-06	Electronic Technology	Amazon|Microsoft|Oracle|Meta|Alphabet	negative	markets	ok
 2026-02-06	Producer Manufacturing	Stellantis	negative	earnings	ok
+2026-02-06	Consumer Durables	Tesla	positive	markets	ok
+2026-02-06	Consumer Durables	U.S. automakers|Chinese manufacturers	neutral	macro	ok
+2026-02-06	Utilities	U.S. Congress|Trump|Supreme Court	neutral	regulation	partial
+2026-02-06	Finance	Goldman Sachs|Anthropic	neutral	products	ok
 2026-02-07	Technology Services	accounting software	neutral	products	ok
 2026-02-08	Finance	Keir Starmer|McSweeney|Peter Mandelson	negative	regulation	ok
 2026-02-08	Consumer Non-Durables	Luckin Coffee|Starbucks	positive	products	ok
-2026-02-09	Retail Trade	Kroger	positive	markets	ok
 2026-02-09	Communications	Hong Kong media baron Jimmy Lai	negative	regulation	ok
-2026-02-09	Transportation	American Airlines|Delta Air Lines|United Airlines	neutral	markets	ok
+2026-02-09	Retail Trade	Kroger	positive	markets	ok
 2026-02-09	Communications	Meta	negative	regulation	ok
+2026-02-09	Transportation	American Airlines|Delta Air Lines|United Airlines	neutral	markets	ok
 2026-02-09	Electronic Technology	S&P 500|tech	positive	markets	ok
 2026-02-09	Technology Services	Databricks	positive	markets	ok
 2026-02-09	Health Services	Novo Nordisk|Hims & Hers	positive	regulation	ok
 2026-02-09	Electronic Technology	Oracle	positive	markets	ok
-2026-02-10	Consumer Services	Spotify	positive	earnings	ok
-2026-02-10	Consumer Non-Durables	Coca-Cola	negative	markets	ok
-2026-02-10	Producer Manufacturing	Ford	neutral	earnings	ok
 2026-02-10	Energy Minerals	BP	negative	markets	ok
+2026-02-10	Consumer Services	Spotify	positive	earnings	ok
+2026-02-10	Producer Manufacturing	Ford	neutral	earnings	ok
+2026-02-10	Consumer Non-Durables	Coca-Cola	negative	markets	ok
 2026-02-10	Electronic Technology	Alphabet	positive	markets	ok
 2026-02-10	Consumer Non-Durables	Estee Lauder|Walmart	negative	regulation	ok
 2026-02-10	Finance	LPL	negative	markets	ok
 2026-02-10	Industrial Services	Rockwell Automation	positive	earnings	ok
+2026-02-11	Technology Services	Cloudflare	positive	products	ok
 2026-02-11	Finance	U.S. government|Supreme Court	positive	macro	ok
 2026-02-11	Communications	Meta|Bill Ackman	positive	markets	ok
 2026-02-11	Finance	David Einhorn|Federal Reserve	positive	macro	ok
 2026-02-11	Electronic Technology	software companies|Orlando Bravo	negative	markets	ok
 2026-02-11	Consumer Non-Durables	McDonald's	positive	earnings	ok
 2026-02-11	Non-Energy Minerals	Goldman|uranium|rare earths	positive	products	ok
-2026-02-11	Technology Services	Cloudflare	positive	products	ok
 2026-02-11	Consumer Non-Durables	Heineken	negative	products	ok
-2026-02-12	Producer Manufacturing	SpaceX	positive	products	ok
 2026-02-12	Electronic Technology	AI startups	positive	markets	ok
-2026-02-12	Consumer Non-Durables	agribusiness stocks	positive	markets	ok
+2026-02-12	Producer Manufacturing	SpaceX	positive	products	ok
 2026-02-12	Electronic Technology	Anthropic	positive	products	ok
+2026-02-12	Consumer Non-Durables	agribusiness stocks	positive	markets	ok
+2026-02-12	Utilities	electricity prices	positive	macro	ok
 2026-02-12	Energy Minerals	EPA|climate change	negative	regulation	ok
 2026-02-12	Consumer Durables	realtors	negative	macro	ok
 2026-02-12	Commercial Services	CBRE|Jones Lang LaSalle	negative	markets	ok
-2026-02-12	Utilities	electricity prices	positive	macro	ok
 2026-02-13	Industrial Services	Industrial	negative	markets	ok
 2026-02-13	Health Services	Health	positive	earnings	ok
 2026-02-13	Retail Trade	Retail	negative	markets	ok
@@ -1246,35 +1246,35 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-02-17	Energy Minerals	Iran|U.S.	neutral	macro	ok
 2026-02-17	Consumer Non-Durables	Ford|Tesla	positive	products	ok
 2026-02-17	Finance	S&P 500	neutral	markets	ok
-2026-02-18	Consumer Durables	Cruise stock	positive	markets	ok
-2026-02-18	Health Technology	Moderna	neutral	products	ok
 2026-02-18	Energy Minerals	Oil|Vance|Iran	negative	macro	ok
+2026-02-18	Health Technology	Moderna	neutral	products	ok
+2026-02-18	Consumer Durables	Cruise stock	positive	markets	ok
 2026-02-18	Finance	Goldman Sachs|David Solomon	positive	markets	ok
+2026-02-18	Electronic Technology	Anthropic|Pentagon|OpenAI|Google|xAI	neutral	products	ok
 2026-02-18	Finance	New York Fed	negative	regulation	ok
 2026-02-18	Communications	Meta|Mark Zuckerberg	neutral	products	ok
 2026-02-18	Finance	Federal Reserve	neutral	macro	ok
-2026-02-18	Electronic Technology	Anthropic|Pentagon|OpenAI|Google|xAI	neutral	products	ok
 2026-02-19	Retail Trade	Amazon|Walmart	positive	markets	ok
 2026-02-19	Energy Minerals	Trump|Iran	negative	macro	ok
 2026-02-19	Retail Trade	Walmart	neutral	earnings	ok
 2026-02-19	Electronic Technology	AI summit|OpenAI|Anthropic	neutral	products	ok
 2026-02-19	Consumer Non-Durables	Nestle	positive	earnings	ok
-2026-02-20	Retail Trade	Amazon|Etsy	positive	markets	ok
 2026-02-20	Transportation	South Korea's Kospi	positive	markets	ok
 2026-02-20	Energy Minerals	oil	negative	macro	ok
 2026-02-20	Electronic Technology	Google	neutral	other	ok
+2026-02-20	Producer Manufacturing	Tesla	negative	markets	ok
+2026-02-20	Electronic Technology	software stocks|RingCentral|Five9	positive	earnings	ok
+2026-02-20	Retail Trade	Amazon|Etsy	positive	markets	ok
 2026-02-20	Finance	U.S. Supreme Court|Trump|Brett Kavanaugh	negative	regulation	ok
 2026-02-20	Retail Trade	Home Depot|Nike|Target	positive	markets	ok
-2026-02-20	Electronic Technology	software stocks|RingCentral|Five9	positive	earnings	ok
-2026-02-20	Producer Manufacturing	Tesla	negative	markets	ok
 2026-02-21	Energy Minerals	Trump|Trump Administration	negative	macro	ok
 2026-02-22	Distribution Services	India|Washington	neutral	macro	ok
-2026-02-23	Technology Services	Amazon	positive	products	ok
-2026-02-23	Electronic Technology	Google|Aalyria	positive	markets	ok
 2026-02-23	Producer Manufacturing	Tesla	negative	regulation	ok
-2026-02-23	Electronic Technology	Cybersecurity stocks|IBM	negative	markets	ok
-2026-02-23	Health Technology	Eli Lilly|Novo Nordisk	negative	products	ok
+2026-02-23	Electronic Technology	Google|Aalyria	positive	markets	ok
 2026-02-23	Health Services	Gilead Sciences|Arcellx	positive	M&A	ok
+2026-02-23	Electronic Technology	Cybersecurity stocks|IBM	negative	markets	ok
+2026-02-23	Technology Services	Amazon	positive	products	ok
+2026-02-23	Health Technology	Eli Lilly|Novo Nordisk	negative	products	ok
 2026-02-24	Communications	Microsoft|SpaceX|Starlink	positive	products	ok
 2026-02-24	Electronic Technology	Meta|AMD|Nvidia	neutral	products	ok
 2026-02-24	Electronic Technology	Cato Networks|Shlomo Kramer	positive	products	ok
@@ -1289,14 +1289,14 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-02-25	Technology Services	Nvidia|Oracle	positive	markets	ok
 2026-02-25	Electronic Technology	Nvidia|Vera Rubin	positive	products	ok
 2026-02-25	Electronic Technology	Axon	positive	products	ok
-2026-02-26	Consumer Services	Wyndham	neutral	markets	ok
-2026-02-26	Producer Manufacturing	Rolls-Royce	positive	earnings	ok
-2026-02-26	Electronic Technology	C3 AI	negative	earnings	ok
 2026-02-26	Utilities	Engie	positive	markets	ok
+2026-02-26	Producer Manufacturing	Rolls-Royce	positive	earnings	ok
+2026-02-26	Consumer Services	Wyndham	neutral	markets	ok
+2026-02-26	Electronic Technology	C3 AI	negative	earnings	ok
+2026-02-26	Electronic Technology	Google	positive	products	ok
 2026-02-26	Electronic Technology	CoreWeave|Meta|OpenAI	positive	earnings	ok
 2026-02-26	Retail Trade	Block	positive	earnings	ok
 2026-02-26	Electronic Technology	Nvidia	positive	earnings	ok
-2026-02-26	Electronic Technology	Google	positive	products	ok
 2026-02-27	Technology Services	OpenAI	neutral	products	ok
 2026-02-27	Consumer Durables	Nintendo	positive	products	ok
 2026-02-27	Producer Manufacturing	CoreWeave	negative	earnings	ok
@@ -1315,71 +1315,79 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-03-02	Finance	Citadel	positive	markets	ok
 2026-03-02	Finance	Berkshire Hathaway	negative	earnings	ok
 2026-03-02	Electronic Technology	Apple	positive	products	ok
+2026-03-02	Electronic Technology	Starlink|SpaceX|Deutsche Telekom	neutral	products	ok
 2026-03-02	Energy Minerals	QatarEnergy	negative	macro	ok
 2026-03-02	Energy Minerals	Oil|WTI crude oil|Brent Crude	positive	markets	ok
 2026-03-02	Energy Minerals	Energy	positive	macro	ok
-2026-03-02	Electronic Technology	Starlink|SpaceX|Deutsche Telekom	neutral	products	ok
-2026-03-03	Electronic Technology	Qualcomm	positive	products	ok
-2026-03-03	Health Services	Novartis	positive	products	ok
-2026-03-03	Finance	Mick Mulvaney	neutral	other	ok
-2026-03-03	Finance	U.S. Fed	neutral	macro	ok
-2026-03-03	Retail Trade	Target	neutral	earnings	ok
-2026-03-03	Industrial Services	South Korea defense stocks|Hanwha Aerospace	positive	markets	ok
 2026-03-03	Consumer Durables	Luxury stocks	negative	markets	ok
-2026-03-04	Electronic Technology	Anthropic	negative	regulation	ok
-2026-03-04	Technology Services	Microsoft	positive	earnings	ok
-2026-03-04	Finance	Coinbase	neutral	products	ok
-2026-03-04	Electronic Technology	Xiaomi	neutral	products	ok
-2026-03-04	Electronic Technology	Broadcom|Morgan Stanley|UBS|JPMorgan	positive	earnings	ok
-2026-03-04	Consumer Non-Durables	Apple	positive	products	ok
+2026-03-03	Industrial Services	South Korea defense stocks|Hanwha Aerospace	positive	markets	ok
+2026-03-03	Retail Trade	Target	neutral	earnings	ok
+2026-03-03	Electronic Technology	Qualcomm	positive	products	ok
+2026-03-03	Finance	Mick Mulvaney	neutral	other	ok
+2026-03-03	Health Services	Novartis	positive	products	ok
+2026-03-03	Finance	U.S. Fed	neutral	macro	ok
 2026-03-04	Technology Services	Nvidia|OpenAI|Anthropic	neutral	products	ok
+2026-03-04	Consumer Non-Durables	Apple	positive	products	ok
+2026-03-04	Electronic Technology	Broadcom|Morgan Stanley|UBS|JPMorgan	positive	earnings	ok
 2026-03-04	Finance	Trump|Kevin Warsh	neutral	appointments	ok
+2026-03-04	Finance	Coinbase	neutral	products	ok
+2026-03-04	Technology Services	Microsoft	positive	earnings	ok
+2026-03-04	Electronic Technology	Anthropic	negative	regulation	ok
+2026-03-04	Electronic Technology	Xiaomi	neutral	products	ok
 2026-03-05	Electronic Technology	Cloud stocks|WCLD	positive	markets	ok
 2026-03-05	Electronic Technology	Broadcom|Hock Tan	positive	earnings	ok
-2026-03-05	Energy Minerals	Oil	positive	macro	ok
 2026-03-05	Electronic Technology	Anthropic|DOD|Pentagon	neutral	regulation	ok
-2026-03-06	Energy Minerals	Brent crude oil	positive	markets	ok
-2026-03-06	Finance	Federal Reserve|Miran|Daly	neutral	macro	ok
-2026-03-06	Technology Services	Google|Microsoft|Anthropic	neutral	products	ok
-2026-03-06	Electronic Technology	Marvell	positive	earnings	ok
-2026-03-06	Commercial Services	Vast Space	neutral	markets	ok
-2026-03-06	Transportation	U.S. Navy	neutral	other	ok
+2026-03-05	Energy Minerals	Oil	positive	macro	ok
 2026-03-06	Electronic Technology	Samsung	neutral	products	ok
+2026-03-06	Transportation	U.S. Navy	neutral	other	ok
+2026-03-06	Commercial Services	Vast Space	neutral	markets	ok
 2026-03-06	Energy Minerals	Europe|energy-intensive sectors	negative	macro	ok
-2026-03-07	Electronic Technology	China|U.S.	neutral	macro	ok
-2026-03-07	Producer Manufacturing	BAE Systems|Lockheed Martin|Northrop Grumman|RTX Corp.|Boeing|Honeywell Aerospace|L3Harris Missile Solutions	positive	products	ok
+2026-03-06	Technology Services	Google|Microsoft|Anthropic	neutral	products	ok
+2026-03-06	Finance	Federal Reserve|Miran|Daly	neutral	macro	ok
+2026-03-06	Energy Minerals	Brent crude oil	positive	markets	ok
+2026-03-06	Electronic Technology	Marvell	positive	earnings	ok
 2026-03-07	Finance	Bank of America	negative	macro	ok
 2026-03-07	Energy Minerals	Iran	negative	macro	ok
+2026-03-07	Electronic Technology	China|U.S.	neutral	macro	ok
+2026-03-07	Producer Manufacturing	BAE Systems|Lockheed Martin|Northrop Grumman|RTX Corp.|Boeing|Honeywell Aerospace|L3Harris Missile Solutions	positive	products	ok
 2026-03-08	Energy Minerals	Oil price surge|China's three oil giants|Brent prices	positive	markets	ok
-2026-03-09	Energy Minerals	Iran Foreign Ministry|U.S.|Israel|Gulf Arab oil producers|Rapidan Energy	negative	macro	ok
-2026-03-09	Finance	S&P 500|Dow|Trump	neutral	markets	ok
-2026-03-09	Process Industries	Commodities ETF	positive	products	ok
-2026-03-09	Finance	FBI|Maricopa County	neutral	other	ok
-2026-03-09	Electronic Technology	OpenAI|Promptfoo|Sam Altman	positive	products	ok
 2026-03-09	Energy Minerals	U.S.-Iran war|Rapidan Energy	negative	macro	ok
-2026-03-09	Energy Minerals	GOP Whip Tom Emmer	positive	macro	ok
 2026-03-09	Electronic Technology	Nvidia|Nscale	positive	products	ok
-2026-03-10	Producer Manufacturing	Volkswagen	negative	products	ok
-2026-03-10	Energy Minerals	Saudi Aramco	positive	macro	ok
-2026-03-10	Technology Services	Oracle|OpenAI	neutral	products	ok
-2026-03-10	Producer Manufacturing	Stellantis|Toyota|Bosch	neutral	products	ok
+2026-03-09	Energy Minerals	GOP Whip Tom Emmer	positive	macro	ok
+2026-03-09	Electronic Technology	OpenAI|Promptfoo|Sam Altman	positive	products	ok
+2026-03-09	Process Industries	Commodities ETF	positive	products	ok
+2026-03-09	Finance	S&P 500|Dow|Trump	neutral	markets	ok
+2026-03-09	Energy Minerals	Iran Foreign Ministry|U.S.|Israel|Gulf Arab oil producers|Rapidan Energy	negative	macro	ok
+2026-03-09	Finance	FBI|Maricopa County	neutral	other	ok
 2026-03-10	Energy Minerals	International Energy Agency	neutral	macro	ok
-2026-03-10	Technology Services	Amazon|Perplexity	negative	products	ok
 2026-03-10	Electronic Technology	Nvidia|Mira Murati|Thinking Machines Lab	positive	products	ok
+2026-03-10	Technology Services	Amazon|Perplexity	negative	products	ok
 2026-03-10	Electronic Technology	Google|Anthropic	positive	products	ok
-2026-03-11	Finance	U.S. Treasury	neutral	macro	ok
-2026-03-11	Electronic Technology	Meta	positive	products	ok
+2026-03-10	Producer Manufacturing	Stellantis|Toyota|Bosch	neutral	products	ok
+2026-03-10	Producer Manufacturing	Volkswagen	negative	products	ok
+2026-03-10	Technology Services	Oracle|OpenAI	neutral	products	ok
+2026-03-10	Energy Minerals	Saudi Aramco	positive	macro	ok
 2026-03-11	Electronic Technology	Oracle|Nvidia|AMD|Cerebras	positive	products	ok
+2026-03-11	Electronic Technology	Meta	positive	products	ok
+2026-03-11	Energy Minerals	oil companies	negative	macro	ok
 2026-03-11	Producer Manufacturing	Rheinmetall	positive	products	ok
-2026-03-11	Consumer Services	Dow Jones Industrial Average	negative	markets	ok
 2026-03-11	Energy Minerals	Iran|U.S.|Israel	negative	macro	ok
 2026-03-11	Finance	Chubb|U.S. International Development Finance Corp.	positive	M&A	ok
-2026-03-11	Energy Minerals	oil companies	negative	macro	ok
-2026-03-12	Technology Services	Microsoft|Rajesh Jha	neutral	other	ok
-2026-03-12	Energy Minerals	Iran|Mojtaba Khamenei|U.S. Navy|Bessent|Iran War|U.S.|Israel|Dow|oil	negative	macro	ok
-2026-03-12	Energy Minerals	Brent oil|Iran	positive	markets	ok
-2026-03-12	Non-Energy Minerals	fertilizer stocks	positive	markets	ok
-2026-03-12	Industrial Services	defense companies|Leonardo	positive	markets	ok
+2026-03-11	Consumer Services	Dow Jones Industrial Average	negative	markets	ok
+2026-03-11	Finance	U.S. Treasury	neutral	macro	ok
 2026-03-12	Consumer Durables	Rivian|EV	positive	products	ok
 2026-03-12	Consumer Non-Durables	gold	neutral	markets	ok
+2026-03-12	Industrial Services	defense companies|Leonardo	positive	markets	ok
+2026-03-12	Technology Services	Microsoft|Rajesh Jha	neutral	other	ok
+2026-03-12	Energy Minerals	Brent oil|Iran	positive	markets	ok
+2026-03-12	Energy Minerals	Iran|Mojtaba Khamenei|U.S. Navy|Bessent|Iran War|U.S.|Israel|Dow|oil	negative	macro	ok
+2026-03-12	Non-Energy Minerals	fertilizer stocks	positive	markets	ok
 2026-03-12	Electronic Technology	Google	neutral	other	ok
+2026-03-13	Consumer Services	NFL|CBS	neutral	markets	ok
+2026-03-13	Retail Trade	Amazon	positive	products	ok
+2026-03-13	Electronic Technology	SpaceX|Elon Musk|xAI	neutral	products	ok
+2026-03-13	Finance	JPMorgan Chase	positive	markets	ok
+2026-03-13	Energy Minerals	Iran|U.S.|Israel	negative	macro	ok
+2026-03-13	Finance	U.S.|Fed Chair Jerome Powell	negative	regulation	ok
+2026-03-13	Electronic Technology	Nvidia|AMD|Jensen Huang	positive	products	ok
+2026-03-13	Consumer Durables	Tesla|BYD	positive	markets	ok
