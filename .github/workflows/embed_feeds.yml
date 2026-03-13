@@ -14,6 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     # Only proceed if the upstream workflow succeeded, or if triggered manually
     if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       - uses: actions/checkout@v4
