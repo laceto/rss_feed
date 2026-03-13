@@ -87,6 +87,10 @@ jobs:
         if: steps.check.outputs.pending == 'true'
         run: python export_time_series.py
 
+      - name: Build sector SQLite database
+        if: steps.check.outputs.pending == 'true'
+        run: python build_sector_db.py
+
       - name: Commit sector results
         if: steps.check.outputs.pending == 'true'
         run: |
@@ -94,6 +98,7 @@ jobs:
           git config --local user.name "GitHub Actions"
           git add data/sector_results/ data/sector_summary.tsv data/charts/ \
                   data/pending_sector_batch.txt \
-                  data/sector_sentiment_pivot.tsv data/entity_sentiment_ts.tsv
+                  data/sector_sentiment_pivot.tsv data/entity_sentiment_ts.tsv \
+                  data/sector_results.db
           git commit -m "sector analysis results" || echo "No changes to commit"
           git push origin || echo "Nothing to push"
