@@ -76,6 +76,7 @@ CHARTS_DIR          = Path("data") / "charts"
 EXPORT_LOOKBACK_DAYS: int = 90
 SECTOR_PIVOT_FILE       = Path("data") / "sector_sentiment_pivot.tsv"
 ENTITY_TS_FILE          = Path("data") / "entity_sentiment_ts.tsv"
+SECTOR_DB_FILE          = Path("data") / "sector_results.db"
 
 # ── Feed vectorstore ─────────────────────────────────────────────────────────
 # FAISS index and registry produced by embed_feeds.py.
