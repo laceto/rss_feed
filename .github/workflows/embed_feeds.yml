@@ -26,7 +26,7 @@ jobs:
       - name: Install Python dependencies
         run: |
           pip install openai python-dotenv pandas numpy \
-                      langchain-core langchain-community langchain-openai faiss-cpu
+                      "langchain-core==0.3.83" "langchain-community==0.3.31" "langchain-openai==0.3.35" faiss-cpu
           pip install git+https://github.com/laceto/kitai.git
 
       - name: Embed new feed articles
