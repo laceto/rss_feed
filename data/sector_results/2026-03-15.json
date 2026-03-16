@@ -1,0 +1,48 @@
+{
+  "date": "2026-03-15",
+  "batch_id": "batch_69b85f54ce048190835211532b6a7a04",
+  "sectors": [
+    {
+      "entities": [
+        "Goldman Sachs",
+        "Wells Fargo"
+      ],
+      "sector": "Finance",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Senate Democrats",
+        "Republicans"
+      ],
+      "sector": "Non-Energy Minerals",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Bill Ackman",
+        "Piper Sandler"
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Trump",
+        "UN Ambassador Waltz",
+        "Iran",
+        "Israel"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    }
+  ]
+}
