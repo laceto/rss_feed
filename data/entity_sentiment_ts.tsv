@@ -1,18 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2025-12-16	AI permit process reform	Technology Services	positive	1	regulation
-2025-12-16	Big Tech	Technology Services	positive	1	regulation
-2025-12-16	Circle Internet Group	Transportation	neutral	0	markets
-2025-12-16	Halliburton	Transportation	neutral	0	markets
-2025-12-16	Micron	Electronic Technology	neutral	0	earnings
-2025-12-16	Nasdaq	Electronic Technology	neutral	0	markets
-2025-12-16	Obamacare subsidies	Health Services	neutral	0	macro
-2025-12-16	Reclassification to a Schedule III drug	Health Services	positive	1	products
-2025-12-16	Southwest Airlines	Transportation	neutral	0	markets
-2025-12-16	Tesla	Transportation	positive	1	products
-2025-12-16	U.S. crude oil	Energy Minerals	negative	-1	markets
-2025-12-16	Waymo	Transportation	positive	1	products
-2025-12-16	Zoox	Transportation	positive	1	products
-2025-12-16	pharmaceutical companies	Health Services	positive	1	products
 2025-12-17	Academy of Motion Picture Arts and Sciences	Communications	positive	1	products
 2025-12-17	Blue Owl Capital	Technology Services	negative	-1	markets
 2025-12-17	Brendan Carr	Communications	neutral	0	regulation
@@ -805,8 +791,8 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-02-19	Nestle	Consumer Non-Durables	positive	1	earnings
 2026-02-19	OpenAI	Electronic Technology	neutral	0	products
 2026-02-19	Trump	Energy Minerals	negative	-1	macro
-2026-02-19	Walmart	Retail Trade	positive	1	markets
 2026-02-19	Walmart	Retail Trade	neutral	0	earnings
+2026-02-19	Walmart	Retail Trade	positive	1	markets
 2026-02-20	Amazon	Retail Trade	positive	1	markets
 2026-02-20	Brett Kavanaugh	Finance	negative	-1	regulation
 2026-02-20	Etsy	Retail Trade	positive	1	markets
@@ -935,8 +921,8 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-03-03	South Korea defense stocks	Industrial Services	positive	1	markets
 2026-03-03	Target	Retail Trade	neutral	0	earnings
 2026-03-03	U.S. Fed	Finance	neutral	0	macro
-2026-03-04	Anthropic	Technology Services	neutral	0	products
 2026-03-04	Anthropic	Electronic Technology	negative	-1	regulation
+2026-03-04	Anthropic	Technology Services	neutral	0	products
 2026-03-04	Apple	Consumer Non-Durables	positive	1	products
 2026-03-04	Broadcom	Electronic Technology	positive	1	earnings
 2026-03-04	Coinbase	Finance	neutral	0	products
@@ -1094,3 +1080,21 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-03-16	Apple	Consumer Non-Durables	positive	1	products
 2026-03-16	Meta	Technology Services	positive	1	products
 2026-03-16	Nvidia	Electronic Technology	positive	1	products
+2026-03-17	Bank of America	Finance	positive	1	markets
+2026-03-17	Elon Musk	Technology Services	neutral	0	regulation
+2026-03-17	Federal Reserve	Finance	neutral	0	macro
+2026-03-17	GM	Producer Manufacturing	positive	1	products
+2026-03-17	Gas field	Energy Minerals	negative	-1	macro
+2026-03-17	Honda	Consumer Non-Durables	neutral	0	products
+2026-03-17	Iran	Energy Minerals	negative	-1	macro
+2026-03-17	Kalshi	Finance	negative	-1	regulation
+2026-03-17	LG Energy Solution	Producer Manufacturing	positive	1	products
+2026-03-17	Michigan	Producer Manufacturing	positive	1	products
+2026-03-17	Nissan	Consumer Non-Durables	neutral	0	products
+2026-03-17	Orlando Bravo	Technology Services	neutral	0	appointments
+2026-03-17	SEC	Technology Services	neutral	0	regulation
+2026-03-17	Strait of Hormuz	Energy Minerals	negative	-1	macro
+2026-03-17	Tesla	Producer Manufacturing	positive	1	products
+2026-03-17	Toyota	Consumer Non-Durables	neutral	0	products
+2026-03-17	Twitter	Technology Services	neutral	0	regulation
+2026-03-17	UAE energy infrastructure	Energy Minerals	negative	-1	macro
