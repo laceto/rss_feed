@@ -1,0 +1,50 @@
+{
+  "date": "2026-03-14",
+  "batch_id": "batch_69b85f54ce048190835211532b6a7a04",
+  "sectors": [
+    {
+      "entities": [
+        "Trump",
+        "U.S. soldiers",
+        "Iran war",
+        "Trump\u2019s PAC"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Fertitta",
+        "Caesars",
+        "Carl Icahn"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "neutral",
+      "news_category": "M&A",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "FCC",
+        "Brendan Carr",
+        "Trump"
+      ],
+      "sector": "Communications",
+      "sentiment": "negative",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Amazon",
+        "Suras Nayak"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "positive",
+      "news_category": "other",
+      "extraction_status": "ok"
+    }
+  ]
+}

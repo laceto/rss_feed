@@ -1,0 +1,93 @@
+{
+  "date": "2026-03-18",
+  "batch_id": "batch_69bb00febf8481908de2df2304ec27df",
+  "sectors": [
+    {
+      "entities": [
+        "Federal Reserve",
+        "Powell",
+        "Warsh"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Iran war",
+        "U.S. military",
+        "Israel"
+      ],
+      "sector": "Transportation",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "oil industry",
+        "Vice President Vance"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Bitcoin",
+        "SEC",
+        "CFTC",
+        "Mesh"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "JPMorgan Chase",
+        "Dwyane Wade",
+        "Tom Brady"
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Amazon",
+        "US Postal Service"
+      ],
+      "sector": "Distribution Services",
+      "sentiment": "neutral",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Meta",
+        "Instagram",
+        "TikTok",
+        "YouTube"
+      ],
+      "sector": "Communications",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Aluminum",
+        "Iran conflict"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    }
+  ]
+}

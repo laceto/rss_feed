@@ -1,0 +1,47 @@
+{
+  "date": "2026-03-22",
+  "batch_id": "batch_69c1983adb7c8190ae9b3c692f64f284",
+  "sectors": [
+    {
+      "entities": [
+        "Netflix",
+        "Culinary Class Wars"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Saudi Aramco",
+        "Iran"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "China"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "positive",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "ICE",
+        "DHS",
+        "TSA",
+        "Elon Musk"
+      ],
+      "sector": "Transportation",
+      "sentiment": "neutral",
+      "news_category": "other",
+      "extraction_status": "ok"
+    }
+  ]
+}
