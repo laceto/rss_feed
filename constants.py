@@ -84,3 +84,27 @@ SECTOR_DB_FILE          = Path("data") / "sector_results.db"
 
 VECTORSTORE_DIR     = Path("data") / "vectorstore" / "feeds"
 FEEDS_REGISTRY_FILE = Path("data") / "vectorstore" / "feeds_registry.tsv"
+
+# ── Topic clustering ──────────────────────────────────────────────────────────
+# Parameters for cluster_topics.py. Change here to update all callers.
+#
+# CLUSTER_WINDOW_DAYS    — rolling window of articles fed to each clustering run.
+#                          Empirically tuned: 45d yields ~1,700 articles and 19
+#                          coherent clusters with ~60% noise (expected for news).
+# CLUSTER_MIN_SIZE       — HDBSCAN min_cluster_size. Below 10, cluster count
+#                          explodes (50+); above 20, too few clusters form.
+# CLUSTER_MIN_SAMPLES    — HDBSCAN min_samples. Controls cluster conservatism.
+# CLUSTER_MAX_NOISE_RATIO — abort threshold. 60-70% noise is normal for news
+#                           data; abort only on truly degenerate runs (>90%).
+# CLUSTER_MIN_CLUSTERS   — abort threshold for too-few-clusters runs.
+
+CLUSTER_WINDOW_DAYS:     int   = 45
+CLUSTER_MIN_SIZE:        int   = 10
+CLUSTER_MIN_SAMPLES:     int   = 3
+CLUSTER_MAX_NOISE_RATIO: float = 0.90
+CLUSTER_MIN_CLUSTERS:    int   = 3
+
+TOPIC_CENTROIDS_FILE = Path("data") / "topic_centroids.json"
+TOPIC_LABELS_FILE    = Path("data") / "topic_labels.json"
+TOPIC_TRENDS_FILE    = Path("data") / "topic_trends.tsv"
+TOPIC_CLUSTERS_DIR   = Path("data") / "topic_clusters"

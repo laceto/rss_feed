@@ -27,7 +27,12 @@ jobs:
           cache: 'pip'
 
       - name: Install Python dependencies
-        run: pip install openai pydantic python-dotenv pandas matplotlib seaborn
+        run: |
+          pip install openai pydantic python-dotenv pandas matplotlib seaborn
+          pip install hdbscan scikit-learn \
+                      "langchain-core==0.3.83" "langchain-community==0.3.31" \
+                      "langchain-openai==0.3.35" faiss-cpu
+          pip install git+https://github.com/laceto/kitai.git
 
       - name: Check if a batch is pending
         id: check
@@ -91,6 +96,14 @@ jobs:
         if: steps.check.outputs.pending == 'true'
         run: python build_sector_db.py
 
+      - name: Cluster topics
+        if: steps.check.outputs.pending == 'true'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        # Exit code 2 = ClusteringAborted (degenerate run) — treated as warning,
+        # not a pipeline failure. The commit step will simply have no new topic files.
+        run: python cluster_topics.py || [ $? -eq 2 ] && echo "Clustering aborted (degenerate run — skipping topic output)" || exit 1
+
       - name: Commit sector results
         if: steps.check.outputs.pending == 'true'
         run: |
@@ -99,6 +112,8 @@ jobs:
           git add data/sector_results/ data/sector_summary.tsv data/charts/ \
                   data/pending_sector_batch.txt \
                   data/sector_sentiment_pivot.tsv data/entity_sentiment_ts.tsv \
-                  data/sector_results.db
+                  data/sector_results.db \
+                  data/topic_trends.tsv data/topic_centroids.json \
+                  data/topic_labels.json data/topic_clusters/
           git commit -m "sector analysis results" || echo "No changes to commit"
           git push origin || echo "Nothing to push"

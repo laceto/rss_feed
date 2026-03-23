@@ -25,4 +25,4 @@ dependencies = [
 # Expose the flat-layout modules that external callers need to import.
 # hybrid_rag  -> provides ask(), the public API
 # constants   -> re-exported constants (VECTORSTORE_DIR, SECTOR_TAXONOMY, …)
-py-modules = ["hybrid_rag", "constants"]
+py-modules = ["hybrid_rag", "constants", "cluster_topics"]
