@@ -1,0 +1,85 @@
+{
+  "date": "2026-03-23",
+  "batch_id": "batch_69c1983adb7c8190ae9b3c692f64f284",
+  "sectors": [
+    {
+      "entities": [
+        "Iran",
+        "U.S. President Donald Trump"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Chevron",
+        "oil"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "BlackRock",
+        "Larry Fink"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Hybe",
+        "BTS"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Toyota"
+      ],
+      "sector": "Producer Manufacturing",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Danone",
+        "Huel"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Apple",
+        "Eli Lilly"
+      ],
+      "sector": "Health Services",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "synopsys",
+        "Elliott"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}

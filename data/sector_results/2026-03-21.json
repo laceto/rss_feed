@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-21",
+  "batch_id": "batch_69c1983adb7c8190ae9b3c692f64f284",
+  "sectors": [
+    {
+      "entities": [
+        "Nissan"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    }
+  ]
+}
