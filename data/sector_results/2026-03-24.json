@@ -1,0 +1,83 @@
+{
+  "date": "2026-03-24",
+  "batch_id": "batch_69c2eb520408819093db76927d0034ad",
+  "sectors": [
+    {
+      "entities": [
+        "Jamie Dimon",
+        "JPMorgan Chase"
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Kuwait Petroleum Corporation"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "TotalEnergies",
+        "Patrick Pouyann\u00e9"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Goldman"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Google",
+        "DeepMind"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Arm",
+        "Meta"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Micron"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "negative",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Anthropic",
+        "Claude"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    }
+  ]
+}
