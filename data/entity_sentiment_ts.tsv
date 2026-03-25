@@ -1,24 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2025-12-23	Barclays	Finance	positive	1	markets
-2025-12-23	Citadel	Finance	positive	1	markets
-2025-12-23	Gold	Energy Minerals	positive	1	markets
-2025-12-23	Hassett	Finance	negative	-1	macro
-2025-12-23	Novo Nordisk	Health Services	positive	1	products
-2025-12-23	Silver	Energy Minerals	positive	1	markets
-2025-12-23	Southwest Airlines	Transportation	positive	1	markets
-2025-12-23	Tanger	Retail Trade	positive	1	markets
-2025-12-23	Tesla	Consumer Durables	positive	1	products
-2025-12-23	U.S. Federal Reserve	Finance	negative	-1	macro
-2025-12-23	Wegovy	Health Services	positive	1	products
-2025-12-24	AI shopping bots	Retail Trade	neutral	0	products
-2025-12-24	Amazon	Retail Trade	neutral	0	products
-2025-12-24	BP	Energy Minerals	neutral	0	markets
-2025-12-24	Castrol	Energy Minerals	neutral	0	markets
-2025-12-24	Dynavax Technologies	Health Services	positive	1	M&A
-2025-12-24	Nvidia	Electronic Technology	positive	1	markets
-2025-12-24	Sanofi	Health Services	positive	1	M&A
-2025-12-24	Waymo	Transportation	neutral	0	other
-2025-12-24	data center stocks	Electronic Technology	positive	1	markets
 2025-12-25	AI infrastructure firms	Electronic Technology	positive	1	markets
 2025-12-25	Berkshire Hathaway	Finance	negative	-1	markets
 2025-12-25	Big Tech	Electronic Technology	positive	1	markets
@@ -43,8 +23,8 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2025-12-26	Islamic State	Transportation	neutral	0	markets
 2025-12-26	Johnson & Johnson	Health Services	negative	-1	markets
 2025-12-26	Mike Sicilia	Technology Services	negative	-1	markets
-2025-12-26	Nvidia	Electronic Technology	positive	1	markets
 2025-12-26	Nvidia	Technology Services	negative	-1	markets
+2025-12-26	Nvidia	Electronic Technology	positive	1	markets
 2025-12-26	OpenAI	Technology Services	negative	-1	markets
 2025-12-26	Oracle	Technology Services	negative	-1	markets
 2025-12-26	U.S. military	Transportation	neutral	0	markets
@@ -200,8 +180,8 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-01-08	China	Producer Manufacturing	negative	-1	markets
 2026-01-08	Danish officials	Energy Minerals	neutral	0	macro
 2026-01-08	Defense stocks	Transportation	positive	1	markets
-2026-01-08	EV	Consumer Durables	positive	1	products
 2026-01-08	EV	Producer Manufacturing	negative	-1	markets
+2026-01-08	EV	Consumer Durables	positive	1	products
 2026-01-08	Ford	Consumer Durables	positive	1	products
 2026-01-08	GM	Producer Manufacturing	negative	-1	markets
 2026-01-08	Gemini AI	Electronic Technology	positive	1	products
@@ -212,9 +192,9 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-01-08	Manus	Electronic Technology	neutral	0	regulation
 2026-01-08	Meta	Electronic Technology	neutral	0	regulation
 2026-01-08	Nicolas Maduro	Energy Minerals	negative	-1	macro
-2026-01-08	Trump	Energy Minerals	neutral	0	macro
-2026-01-08	Trump	Transportation	positive	1	markets
 2026-01-08	Trump	Electronic Technology	positive	1	markets
+2026-01-08	Trump	Transportation	positive	1	markets
+2026-01-08	Trump	Energy Minerals	neutral	0	macro
 2026-01-08	U.S. military	Energy Minerals	negative	-1	macro
 2026-01-08	Venezuela	Energy Minerals	negative	-1	macro
 2026-01-09	Amazon	Retail Trade	positive	1	products
@@ -360,16 +340,16 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-01-19	quantum computing	Electronic Technology	positive	1	markets
 2026-01-19	silver	Energy Minerals	positive	1	markets
 2026-01-20	AkademikerPension	Finance	negative	-1	macro
-2026-01-20	Treasury	Finance	negative	-1	macro
 2026-01-20	Treasury	Finance	negative	-1	markets
+2026-01-20	Treasury	Finance	negative	-1	macro
 2026-01-20	Treasury prices	Finance	negative	-1	markets
 2026-01-20	Treasury yields	Finance	negative	-1	markets
 2026-01-20	Treasury yields	Finance	negative	-1	markets
 2026-01-20	U.S. Treasury	Finance	negative	-1	markets
+2026-01-20	U.S. Treasury	Finance	negative	-1	markets
+2026-01-20	U.S. Treasury	Finance	negative	-1	markets
+2026-01-20	U.S. Treasury	Finance	negative	-1	markets
 2026-01-20	U.S. Treasury	Finance	negative	-1	macro
-2026-01-20	U.S. Treasury	Finance	negative	-1	markets
-2026-01-20	U.S. Treasury	Finance	negative	-1	markets
-2026-01-20	U.S. Treasury	Finance	negative	-1	markets
 2026-01-20	U.S. Treasurys	Finance	negative	-1	markets
 2026-01-20	U.S. dollar	Finance	negative	-1	macro
 2026-01-20	government bonds	Finance	negative	-1	markets
@@ -491,8 +471,8 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-01-29	xAI	Electronic Technology	negative	-1	markets
 2026-01-30	AmEx	Finance	positive	1	products
 2026-01-30	American Express	Finance	positive	1	products
-2026-01-30	Apple	Electronic Technology	negative	-1	markets
 2026-01-30	Apple	Electronic Technology	positive	1	products
+2026-01-30	Apple	Electronic Technology	negative	-1	markets
 2026-01-30	Apple Inc.	Electronic Technology	negative	-1	markets
 2026-01-30	Beijing	Communications	neutral	0	macro
 2026-01-30	Chevron	Energy Minerals	positive	1	markets
@@ -577,18 +557,18 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-02-05	Warsh	Finance	neutral	0	regulation
 2026-02-05	Wegovy	Consumer Non-Durables	negative	-1	earnings
 2026-02-06	Alphabet	Electronic Technology	negative	-1	markets
-2026-02-06	Amazon	Electronic Technology	negative	-1	markets
 2026-02-06	Amazon	Electronic Technology	positive	1	earnings
+2026-02-06	Amazon	Electronic Technology	negative	-1	markets
 2026-02-06	Anthropic	Finance	neutral	0	products
 2026-02-06	Bitcoin	Energy Minerals	negative	-1	macro
 2026-02-06	Chinese manufacturers	Consumer Durables	neutral	0	macro
 2026-02-06	Goldman Sachs	Finance	neutral	0	products
 2026-02-06	Google	Electronic Technology	positive	1	earnings
 2026-02-06	Jensen Huang	Electronic Technology	positive	1	earnings
-2026-02-06	Meta	Electronic Technology	negative	-1	markets
 2026-02-06	Meta	Electronic Technology	positive	1	earnings
-2026-02-06	Microsoft	Electronic Technology	negative	-1	markets
+2026-02-06	Meta	Electronic Technology	negative	-1	markets
 2026-02-06	Microsoft	Electronic Technology	positive	1	earnings
+2026-02-06	Microsoft	Electronic Technology	negative	-1	markets
 2026-02-06	Nvidia	Electronic Technology	positive	1	earnings
 2026-02-06	Oracle	Electronic Technology	negative	-1	markets
 2026-02-06	Stellantis	Producer Manufacturing	negative	-1	earnings
@@ -722,8 +702,8 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-02-19	Nestle	Consumer Non-Durables	positive	1	earnings
 2026-02-19	OpenAI	Electronic Technology	neutral	0	products
 2026-02-19	Trump	Energy Minerals	negative	-1	macro
-2026-02-19	Walmart	Retail Trade	positive	1	markets
 2026-02-19	Walmart	Retail Trade	neutral	0	earnings
+2026-02-19	Walmart	Retail Trade	positive	1	markets
 2026-02-20	Amazon	Retail Trade	positive	1	markets
 2026-02-20	Brett Kavanaugh	Finance	negative	-1	regulation
 2026-02-20	Etsy	Retail Trade	positive	1	markets
@@ -773,12 +753,12 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-02-25	Meta	Electronic Technology	neutral	0	regulation
 2026-02-25	Microsoft	Electronic Technology	neutral	0	regulation
 2026-02-25	Microsoft Japan	Electronic Technology	negative	-1	regulation
-2026-02-25	Nvidia	Electronic Technology	positive	1	products
 2026-02-25	Nvidia	Technology Services	positive	1	markets
+2026-02-25	Nvidia	Electronic Technology	positive	1	products
 2026-02-25	OpenAI	Technology Services	positive	1	markets
 2026-02-25	OpenAI	Electronic Technology	neutral	0	regulation
-2026-02-25	Oracle	Technology Services	positive	1	markets
 2026-02-25	Oracle	Electronic Technology	neutral	0	regulation
+2026-02-25	Oracle	Technology Services	positive	1	markets
 2026-02-25	Samsung	Consumer Durables	neutral	0	products
 2026-02-25	Thrive Capital	Technology Services	positive	1	markets
 2026-02-25	Vera Rubin	Electronic Technology	positive	1	products
@@ -852,8 +832,8 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-03-03	South Korea defense stocks	Industrial Services	positive	1	markets
 2026-03-03	Target	Retail Trade	neutral	0	earnings
 2026-03-03	U.S. Fed	Finance	neutral	0	macro
-2026-03-04	Anthropic	Electronic Technology	negative	-1	regulation
 2026-03-04	Anthropic	Technology Services	neutral	0	products
+2026-03-04	Anthropic	Electronic Technology	negative	-1	regulation
 2026-03-04	Apple	Consumer Non-Durables	positive	1	products
 2026-03-04	Broadcom	Electronic Technology	positive	1	earnings
 2026-03-04	Coinbase	Finance	neutral	0	products
@@ -954,8 +934,8 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-03-12	Dow	Energy Minerals	negative	-1	macro
 2026-03-12	EV	Consumer Durables	positive	1	products
 2026-03-12	Google	Electronic Technology	neutral	0	other
-2026-03-12	Iran	Energy Minerals	positive	1	markets
 2026-03-12	Iran	Energy Minerals	negative	-1	macro
+2026-03-12	Iran	Energy Minerals	positive	1	markets
 2026-03-12	Iran War	Energy Minerals	negative	-1	macro
 2026-03-12	Israel	Energy Minerals	negative	-1	macro
 2026-03-12	Leonardo	Industrial Services	positive	1	markets
@@ -994,8 +974,8 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-03-14	Fertitta	Consumer Non-Durables	neutral	0	M&A
 2026-03-14	Iran war	Finance	neutral	0	other
 2026-03-14	Suras Nayak	Technology Services	positive	1	other
-2026-03-14	Trump	Finance	neutral	0	other
 2026-03-14	Trump	Communications	negative	-1	regulation
+2026-03-14	Trump	Finance	neutral	0	other
 2026-03-14	Trump’s PAC	Finance	neutral	0	other
 2026-03-14	U.S. soldiers	Finance	neutral	0	other
 2026-03-15	Bill Ackman	Finance	positive	1	products
@@ -1104,3 +1084,32 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-03-23	U.S. President Donald Trump	Energy Minerals	negative	-1	macro
 2026-03-23	oil	Energy Minerals	neutral	0	products
 2026-03-23	synopsys	Electronic Technology	positive	1	markets
+2026-03-24	Anthropic	Electronic Technology	positive	1	products
+2026-03-24	Arm	Electronic Technology	positive	1	products
+2026-03-24	Claude	Electronic Technology	positive	1	products
+2026-03-24	DeepMind	Electronic Technology	positive	1	products
+2026-03-24	Goldman	Energy Minerals	neutral	0	macro
+2026-03-24	Google	Electronic Technology	positive	1	products
+2026-03-24	JPMorgan Chase	Finance	positive	1	macro
+2026-03-24	Jamie Dimon	Finance	positive	1	macro
+2026-03-24	Kuwait Petroleum Corporation	Energy Minerals	negative	-1	macro
+2026-03-24	Meta	Electronic Technology	positive	1	products
+2026-03-24	Micron	Electronic Technology	negative	-1	earnings
+2026-03-24	Patrick Pouyanné	Energy Minerals	positive	1	macro
+2026-03-24	TotalEnergies	Energy Minerals	positive	1	macro
+2026-03-25	AST SpaceMobile	Electronic Technology	positive	1	markets
+2026-03-25	Arm	Electronic Technology	positive	1	products
+2026-03-25	Donald Trump	Energy Minerals	negative	-1	macro
+2026-03-25	Firefly Aerospace	Electronic Technology	positive	1	markets
+2026-03-25	Gold	Non-Energy Minerals	neutral	0	markets
+2026-03-25	Iran	Energy Minerals	negative	-1	macro
+2026-03-25	Meta	Communications	neutral	0	other
+2026-03-25	Meta	Communications	negative	-1	regulation
+2026-03-25	Rocket Lab	Electronic Technology	positive	1	markets
+2026-03-25	Shell	Energy Minerals	negative	-1	markets
+2026-03-25	SpaceX	Electronic Technology	positive	1	markets
+2026-03-25	U.S.	Energy Minerals	negative	-1	macro
+2026-03-25	Wael Sawan	Energy Minerals	negative	-1	markets
+2026-03-25	White House	Communications	neutral	0	macro
+2026-03-25	Xi Jinping	Communications	neutral	0	macro
+2026-03-25	YouTube	Communications	negative	-1	regulation

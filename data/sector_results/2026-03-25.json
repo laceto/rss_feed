@@ -1,0 +1,86 @@
+{
+  "date": "2026-03-25",
+  "batch_id": "batch_69c43ad3aae481908287ddea1d6760a6",
+  "sectors": [
+    {
+      "entities": [
+        "Iran",
+        "U.S.",
+        "Donald Trump"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Meta",
+        "YouTube"
+      ],
+      "sector": "Communications",
+      "sentiment": "negative",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "White House",
+        "Xi Jinping"
+      ],
+      "sector": "Communications",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "SpaceX",
+        "AST SpaceMobile",
+        "Rocket Lab",
+        "Firefly Aerospace"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Meta"
+      ],
+      "sector": "Communications",
+      "sentiment": "neutral",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Shell",
+        "Wael Sawan"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Arm"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Gold"
+      ],
+      "sector": "Non-Energy Minerals",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}
