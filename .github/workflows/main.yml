@@ -26,7 +26,13 @@ jobs:
         cache: 'pip'
 
     - name: Install Python dependencies
-      run: pip install openai pydantic python-dotenv pandas
+      run: pip install openai pydantic python-dotenv pandas datasets huggingface_hub
+
+    - name: Push new feeds to Hugging Face
+      env:
+        HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        HUGGINGFACE_REPO: ${{ secrets.HUGGINGFACE_REPO }}
+      run: python push_new_feeds_to_hf.py
 
     - name: Submit sector batch
       env:
