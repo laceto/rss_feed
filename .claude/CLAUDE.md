@@ -14,6 +14,8 @@ A hybrid R + Python pipeline for financial news analysis:
 6. **Python (daily briefing)**: `daily_briefing.py` surfaces spiking topics, queries the RAG for narrative summaries, and cross-checks against sector sentiment
 7. **Python (briefing batch)**: `create_batch_briefings.py` + `retrieve_batch_briefings.py` generate RAG briefings for all historical dates via OpenAI Batch API (async, 50% cheaper)
 8. **Python (backfill + labeling)**: `backfill.py` orchestrates historical cluster + briefing runs; `label_topics.py` labels existing unlabeled topic_ids without re-clustering
+9. **Python (HF feeds push)**: `push_new_feeds_to_hf.py` appends daily scraped articles to `lacetohf/feeds` on Hugging Face Datasets; `push_feeds_to_hf.py` is the one-time cold-start
+10. **Python (HF analysis push)**: `push_new_analysis_to_hf.py` appends new rows to `lacetohf/sector-analysis`, `lacetohf/topic-trends`, and `lacetohf/entity-sentiment`; `push_analysis_to_hf.py` is the cold-start
 
 ## Running the Scripts
 
@@ -57,13 +59,23 @@ python backfill.py                          # cluster + brief Sep 2025 → today
 python backfill.py --phase1-only            # cluster only (no API cost)
 python backfill.py --phase2-only --no-rag   # briefings without RAG (instant)
 
+python push_feeds_to_hf.py             # cold-start: push all feeds → lacetohf/feeds
+python push_feeds_to_hf.py --dry-run   # show row count only
+python push_new_feeds_to_hf.py         # daily incremental: append today's new articles
+
+python push_analysis_to_hf.py          # cold-start: push sector/topic/entity → 3 HF datasets
+python push_analysis_to_hf.py --dry-run
+python push_new_analysis_to_hf.py      # daily incremental: append new analysis rows
+
 python trader_assistant.py         # trading signal extractor (LangChain)
 python create_batch_files.py       # MA/RSI batch analysis (tickers)
 ```
 
-Python deps: `openai pydantic python-dotenv pandas matplotlib seaborn streamlit langchain langchain-community langchain-openai rank-bm25 hdbscan scikit-learn`. API keys in `.env` (gitignored):
+Python deps: `openai pydantic python-dotenv pandas matplotlib seaborn streamlit langchain langchain-community langchain-openai rank-bm25 hdbscan scikit-learn datasets huggingface_hub`. API keys in `.env` (gitignored):
 ```
 OPENAI_API_KEY=sk-...
+HF_TOKEN=hf_...
+HUGGINGFACE_REPO=your-username/feeds
 ```
 
 ## Architecture
@@ -74,8 +86,13 @@ GitHub Actions — daily-pipeline (weekdays 19:00 UTC)
   → download.R
   → output/feeds{date}.txt
 
+  → push_new_feeds_to_hf.py
+      reads:  output/feeds{date}.txt  (today's file only)
+      dedup:  guid — skips articles already in remote dataset
+      writes: lacetohf/feeds  (appends new rows; idempotent)
+
   → create_batch_files_v2.py
-      reads:  output/feeds*.txt  (top-level only — never output/enriched/)
+      reads:  lacetohf/feeds  (HF Dataset — authoritative source after HF push step)
       skips:  dates with existing data/sector_results/{date}.json
       writes: data/pending_sector_batch.txt  (batch job ID)
       writes: data/batch_tasks_sector.jsonl
@@ -120,6 +137,14 @@ GitHub Actions — collect-sector-results (triggered by daily-pipeline completio
               data/topic_clusters/{date}.json  (article → topic_id mapping)
       labels: new clusters via gpt-4o-mini (cached; 0-3 calls/day in steady state)
       aborts: with exit 2 on degenerate runs (noise_ratio > 0.90 or < 3 clusters)
+
+  → push_new_analysis_to_hf.py
+      reads:  data/sector_summary.tsv, data/topic_trends.tsv, data/entity_sentiment_ts.tsv
+      dedup:  date+sector / date+topic_id / date+entity+sector (composite keys)
+      writes: lacetohf/sector-analysis   (new date×sector rows)
+              lacetohf/topic-trends      (new date×topic rows)
+              lacetohf/entity-sentiment  (new date×entity×sector rows)
+      idempotent: re-running same date is always safe
 ```
 
 ### Daily Briefing Batch Pipeline
@@ -320,6 +345,10 @@ Path constant: `SECTOR_DB_FILE` in `constants.py`.
 | `retrieve_batch_briefings.py` | Polls batch (exit 0/1/2), downloads results, assembles briefing JSONs with sector cross-check → `data/briefings/{date}.json` |
 | `label_topics.py` | Labels all unlabeled topic_ids in topic_trends.tsv from existing topic_clusters/{date}.json files; use after `backfill.py --phase1-only` |
 | `backfill.py` | Two-phase historical back-fill: Phase 1 = cluster_topics per date (no API), Phase 2 = daily_briefing per date; idempotent (skips already-done dates) |
+| `push_feeds_to_hf.py` | Cold-start: push all `output/feeds*.txt` → `lacetohf/feeds`; run once |
+| `push_new_feeds_to_hf.py` | Daily incremental: append today's new articles to `lacetohf/feeds`; dedup on `guid`; called by `daily-pipeline` |
+| `push_analysis_to_hf.py` | Cold-start: create + push all three analysis datasets to HF; run once |
+| `push_new_analysis_to_hf.py` | Daily incremental: append new rows to `lacetohf/sector-analysis`, `lacetohf/topic-trends`, `lacetohf/entity-sentiment`; composite-key dedup; called by `collect-sector-results` |
 | `download.R` | RSS scraper, called by GitHub Actions |
 | `old/` | Archived/experimental versions — not used in production (includes `chatbot6.py`, `trader_assistant.py`, `utils.py`, `create_batch_files.py`) |
 
@@ -470,7 +499,7 @@ Resources (FAISS, BM25 corpus) are loaded once on first call and cached for the 
 ### CI/CD
 | Workflow | Trigger | What it does |
 |---|---|---|
-| `daily-pipeline` | cron `0 19 * * 1-5` + manual | download.R → create_batch_files_v2.py → commit |
-| `collect-sector-results` | on `daily-pipeline` completion + manual | retrieve → flatten → charts → **export TSVs** → **build SQLite db** → **cluster topics** → commit |
+| `daily-pipeline` | cron `0 19 * * 1-5` + manual | download.R → **push feeds to HF** → create_batch_files_v2.py → commit |
+| `collect-sector-results` | on `daily-pipeline` completion + manual | retrieve → flatten → charts → **export TSVs** → **build SQLite db** → **cluster topics** → **push analysis to HF** → commit |
 | `embed-feeds` | on `collect-sector-results` completion + manual | embed new feed articles → update FAISS store + registry → commit |
 | `daily-briefing` | on `embed-feeds` completion + cron `0 13 * * 1-5` + manual | daily_briefing.py --save → commit briefing JSON |
