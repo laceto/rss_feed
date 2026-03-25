@@ -106,6 +106,38 @@ class TestExtractWindowVectors:
         assert len(meta) == 30
         assert all(pd.to_datetime(meta["date"]).dt.date >= ref - timedelta(days=30))
 
+    def test_excludes_future_articles(self, monkeypatch):
+        """Articles dated after target_date are excluded (back-fill correctness)."""
+        from cluster_topics import extract_window_vectors
+
+        ref = date(2025, 10, 1)
+        # 20 articles inside window, 20 articles in the future (after ref)
+        dates_in     = [ref - timedelta(days=i) for i in range(20)]
+        dates_future = [ref + timedelta(days=i + 1) for i in range(20)]
+        all_dates    = dates_in + dates_future
+
+        registry = pd.DataFrame({
+            "id":    list(range(40)),
+            "date":  pd.to_datetime(all_dates),
+            "title": [f"Art {i}" for i in range(40)],
+            "link":  [""] * 40,
+            "guid":  [f"g{i}" for i in range(40)],
+        })
+        vectors_all = _make_vectors(40, dim=1536)
+
+        mock_store = MagicMock()
+        mock_store.index.ntotal = 40
+        mock_store.index.reconstruct.side_effect = lambda i: vectors_all[i]
+
+        monkeypatch.setattr("cluster_topics._load_store",    lambda: mock_store)
+        monkeypatch.setattr("cluster_topics._load_registry", lambda: registry)
+
+        vectors, meta = extract_window_vectors(ref, window_days=45)
+
+        assert len(meta) == 20, f"Expected 20 articles (no future), got {len(meta)}"
+        assert all(pd.to_datetime(meta["date"]).dt.date <= ref), \
+            "Future articles leaked into window"
+
     def test_row_counts_match(self, monkeypatch):
         """vectors.shape[0] == len(meta) — always."""
         from cluster_topics import extract_window_vectors
@@ -219,6 +251,32 @@ class TestRunHdbscan:
 
         with pytest.raises(ClusteringAborted):
             run_hdbscan(X, min_cluster_size=100, min_samples=50)
+
+    def test_cluster_selection_method_leaf_accepted(self):
+        """run_hdbscan accepts cluster_selection_method='leaf' and returns valid output."""
+        from cluster_topics import run_hdbscan
+
+        rng = np.random.default_rng(42)
+        centers = rng.standard_normal((5, 50)).astype(np.float32) * 10
+        X = np.vstack([
+            centers[i] + rng.standard_normal((30, 50)).astype(np.float32) * 0.1
+            for i in range(5)
+        ]).astype(np.float32)
+
+        labels, noise_ratio = run_hdbscan(
+            X, min_cluster_size=5, min_samples=2,
+            cluster_selection_method="leaf",
+        )
+        assert len(labels) == len(X)
+        assert 0.0 <= noise_ratio <= 1.0
+
+    def test_cluster_selection_method_default_is_leaf(self):
+        """Default cluster_selection_method is 'leaf' (not HDBSCAN's 'eom' default)."""
+        from cluster_topics import run_hdbscan
+        import inspect
+
+        sig = inspect.signature(run_hdbscan)
+        assert sig.parameters["cluster_selection_method"].default == "leaf"
 
 
 # ---------------------------------------------------------------------------

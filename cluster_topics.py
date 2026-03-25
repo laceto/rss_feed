@@ -43,6 +43,7 @@ from constants import (
     CLUSTER_MIN_CLUSTERS,
     CLUSTER_MIN_SAMPLES,
     CLUSTER_MIN_SIZE,
+    CLUSTER_SELECTION_METHOD,
     CLUSTER_WINDOW_DAYS,
     FEEDS_REGISTRY_FILE,
     TOPIC_CENTROIDS_FILE,
@@ -132,7 +133,7 @@ def extract_window_vectors(
     registry = _load_registry()
 
     cutoff = target_date - timedelta(days=window_days)
-    mask = registry["date"].dt.date >= cutoff
+    mask = (registry["date"].dt.date >= cutoff) & (registry["date"].dt.date <= target_date)
     sub = registry[mask].reset_index(drop=True)
 
     ids = sub["id"].astype(int).tolist()
@@ -168,15 +169,20 @@ def run_hdbscan(
     min_samples: int = CLUSTER_MIN_SAMPLES,
     max_noise_ratio: float = CLUSTER_MAX_NOISE_RATIO,
     min_clusters: int = CLUSTER_MIN_CLUSTERS,
+    cluster_selection_method: str = CLUSTER_SELECTION_METHOD,
 ) -> tuple[np.ndarray, float]:
     """Cluster reduced vectors with HDBSCAN.
 
     Args:
-        X:               Reduced vectors, shape (n, d).
-        min_cluster_size: HDBSCAN min_cluster_size.
-        min_samples:      HDBSCAN min_samples.
-        max_noise_ratio:  Abort if (n_noise / n) > this value.
-        min_clusters:     Abort if n_clusters < this value.
+        X:                       Reduced vectors, shape (n, d).
+        min_cluster_size:        HDBSCAN min_cluster_size.
+        min_samples:             HDBSCAN min_samples.
+        max_noise_ratio:         Abort if (n_noise / n) > this value.
+        min_clusters:            Abort if n_clusters < this value.
+        cluster_selection_method: HDBSCAN cluster_selection_method.
+                                  'leaf' finds finer-grained clusters (~19 on
+                                  this corpus); 'eom' (HDBSCAN default) tends
+                                  to over-merge to ~3.
 
     Returns:
         (labels, noise_ratio) where labels[i] is the integer cluster ID
@@ -190,6 +196,7 @@ def run_hdbscan(
         min_cluster_size=min_cluster_size,
         min_samples=min_samples,
         metric="euclidean",
+        cluster_selection_method=cluster_selection_method,
     )
     labels = clusterer.fit_predict(X)
 
