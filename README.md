@@ -88,7 +88,8 @@ python daily_briefing.py --date 2026-03-25  # specific date
 ### Visualizations
 ```bash
 python visualize_sentiment.py   # sector sentiment charts
-python visualize_topics.py      # topic heatmap + frequency chart + lifespan timeline
+python visualize_topics.py              # six charts: spike heatmap, frequency, timeline, sentiment heatmap, momentum, signal scatter
+python visualize_topics.py --animate    # + animated GIF (topic_signal_scatter_animated.gif)
 ```
 
 ## Data Files

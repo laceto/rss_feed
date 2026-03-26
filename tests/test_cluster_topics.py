@@ -525,7 +525,7 @@ class TestAppendTrends:
         append_trends(date(2026, 3, 1), self._make_rows(date(2026, 3, 1)), path)
 
         df = pd.read_csv(path, sep="\t")
-        assert list(df.columns) == ["date", "topic_id", "topic_label", "article_count"]
+        assert list(df.columns) == ["date", "topic_id", "topic_label", "article_count", "sentiment_score"]
         assert len(df) == 2
 
     def test_appends_without_duplicate_header(self, tmp_path):
@@ -673,3 +673,213 @@ class TestGetEmergingTopics:
             assert "topic_id" in r
             assert "label" in r
             assert "spike_ratio" in r
+
+    def test_result_includes_sentiment_score(self):
+        """Each result dict includes sentiment_score (float or None)."""
+        from cluster_topics import get_emerging_topics
+
+        trends = self._make_trends_df()
+        # Add sentiment_score column (as would be present after the new pipeline)
+        trends["sentiment_score"] = 0.25
+        results = get_emerging_topics(date(2026, 3, 10), trends)
+
+        for r in results:
+            assert "sentiment_score" in r
+
+    def test_result_sentiment_score_none_when_column_absent(self):
+        """sentiment_score is None when column is missing (backward compat)."""
+        from cluster_topics import get_emerging_topics
+
+        trends = self._make_trends_df()  # no sentiment_score column
+        results = get_emerging_topics(date(2026, 3, 10), trends)
+
+        for r in results:
+            assert r.get("sentiment_score") is None
+
+
+# ---------------------------------------------------------------------------
+# A7 — compute_topic_sentiment
+# ---------------------------------------------------------------------------
+
+class TestComputeTopicSentiment:
+    def _make_cluster_file(self, tmp_path: "Path", cluster_date: str) -> "Path":
+        """Write a minimal topic_clusters JSON with two topics."""
+        articles = [
+            # topic A: 4 articles across two dates
+            {"id": 0, "guid": "g0", "date": "2026-01-05T00:00:00.000",
+             "title": "Article 0", "cluster_id": 0, "topic_id": "tid-A"},
+            {"id": 1, "guid": "g1", "date": "2026-01-05T00:00:00.000",
+             "title": "Article 1", "cluster_id": 0, "topic_id": "tid-A"},
+            {"id": 2, "guid": "g2", "date": "2026-01-06T00:00:00.000",
+             "title": "Article 2", "cluster_id": 0, "topic_id": "tid-A"},
+            {"id": 3, "guid": "g3", "date": "2026-01-06T00:00:00.000",
+             "title": "Article 3", "cluster_id": 0, "topic_id": "tid-A"},
+            # topic B: 2 articles on a different date
+            {"id": 4, "guid": "g4", "date": "2026-01-10T00:00:00.000",
+             "title": "Article 4", "cluster_id": 1, "topic_id": "tid-B"},
+            {"id": 5, "guid": "g5", "date": "2026-01-10T00:00:00.000",
+             "title": "Article 5", "cluster_id": 1, "topic_id": "tid-B"},
+            # noise article: no topic
+            {"id": 6, "guid": "g6", "date": "2026-01-05T00:00:00.000",
+             "title": "Noise", "cluster_id": -1, "topic_id": None},
+        ]
+        path = tmp_path / f"{cluster_date}.json"
+        path.write_text(json.dumps(articles), encoding="utf-8")
+        return tmp_path
+
+    def _make_sector_summary(self, tmp_path: "Path") -> "Path":
+        """Write a minimal sector_summary TSV covering the cluster dates."""
+        rows = [
+            # 2026-01-05: mixed (mean = 0.0)
+            {"date": "2026-01-05", "sector": "Finance",      "sentiment": "positive"},
+            {"date": "2026-01-05", "sector": "Technology",   "sentiment": "negative"},
+            # 2026-01-06: positive (mean = 0.5)
+            {"date": "2026-01-06", "sector": "Finance",      "sentiment": "positive"},
+            {"date": "2026-01-06", "sector": "Technology",   "sentiment": "neutral"},
+            # 2026-01-10: strongly positive (mean = 1.0)
+            {"date": "2026-01-10", "sector": "Finance",      "sentiment": "positive"},
+            {"date": "2026-01-10", "sector": "Technology",   "sentiment": "positive"},
+        ]
+        df = pd.DataFrame(rows)
+        path = tmp_path / "sector_summary.tsv"
+        df.to_csv(path, sep="\t", index=False)
+        return path
+
+    def test_returns_dict_keyed_by_topic_id(self, tmp_path):
+        """compute_topic_sentiment returns {topic_id: float} for clustered topics."""
+        from cluster_topics import compute_topic_sentiment
+
+        clusters_dir = self._make_cluster_file(tmp_path, "2026-01-15")
+        sector_path  = self._make_sector_summary(tmp_path)
+
+        result = compute_topic_sentiment("2026-01-15", sector_path, clusters_dir)
+
+        assert isinstance(result, dict)
+        assert "tid-A" in result
+        assert "tid-B" in result
+        assert None not in result  # noise articles excluded
+
+    def test_scores_are_floats_in_range(self, tmp_path):
+        """Each score is a float in [-1, +1]."""
+        from cluster_topics import compute_topic_sentiment
+
+        clusters_dir = self._make_cluster_file(tmp_path, "2026-01-15")
+        sector_path  = self._make_sector_summary(tmp_path)
+
+        result = compute_topic_sentiment("2026-01-15", sector_path, clusters_dir)
+
+        for tid, score in result.items():
+            assert isinstance(score, float), f"{tid}: expected float, got {type(score)}"
+            assert -1.0 <= score <= 1.0, f"{tid}: score {score} out of range"
+
+    def test_different_topics_get_different_scores(self, tmp_path):
+        """Topics drawing from different date ranges get distinct scores."""
+        from cluster_topics import compute_topic_sentiment
+
+        clusters_dir = self._make_cluster_file(tmp_path, "2026-01-15")
+        sector_path  = self._make_sector_summary(tmp_path)
+
+        result = compute_topic_sentiment("2026-01-15", sector_path, clusters_dir)
+
+        # tid-A draws from 2026-01-05 (mean=0.0) and 2026-01-06 (mean=0.5) → ~0.25
+        # tid-B draws from 2026-01-10 (mean=1.0)
+        assert result["tid-A"] != result["tid-B"]
+        assert result["tid-B"] > result["tid-A"]  # tid-B from more positive dates
+
+    def test_topic_a_score_is_correct(self, tmp_path):
+        """tid-A: 2 articles on 2026-01-05 (day_score=0.0) + 2 on 2026-01-06 (day_score=0.5)
+           → mean = (0.0 + 0.0 + 0.5 + 0.5) / 4 = 0.25"""
+        from cluster_topics import compute_topic_sentiment
+
+        clusters_dir = self._make_cluster_file(tmp_path, "2026-01-15")
+        sector_path  = self._make_sector_summary(tmp_path)
+
+        result = compute_topic_sentiment("2026-01-15", sector_path, clusters_dir)
+
+        assert result["tid-A"] == pytest.approx(0.25, abs=1e-6)
+
+    def test_topic_b_score_is_correct(self, tmp_path):
+        """tid-B: 2 articles on 2026-01-10 (day_score=1.0) → mean = 1.0"""
+        from cluster_topics import compute_topic_sentiment
+
+        clusters_dir = self._make_cluster_file(tmp_path, "2026-01-15")
+        sector_path  = self._make_sector_summary(tmp_path)
+
+        result = compute_topic_sentiment("2026-01-15", sector_path, clusters_dir)
+
+        assert result["tid-B"] == pytest.approx(1.0, abs=1e-6)
+
+    def test_returns_empty_when_cluster_file_absent(self, tmp_path):
+        """Returns {} when the cluster JSON for the date does not exist."""
+        from cluster_topics import compute_topic_sentiment
+
+        sector_path = self._make_sector_summary(tmp_path)
+        result = compute_topic_sentiment("2099-01-01", sector_path, tmp_path)
+
+        assert result == {}
+
+    def test_articles_with_no_sector_data_excluded_from_mean(self, tmp_path):
+        """Articles on dates with no sector data do not contaminate the mean."""
+        from cluster_topics import compute_topic_sentiment
+
+        # Add one article on a date with no sector data
+        articles = [
+            {"id": 0, "guid": "g0", "date": "2026-01-10T00:00:00.000",
+             "title": "A", "cluster_id": 0, "topic_id": "tid-C"},  # score = 1.0
+            {"id": 1, "guid": "g1", "date": "2099-12-31T00:00:00.000",
+             "title": "B", "cluster_id": 0, "topic_id": "tid-C"},  # no sector data
+        ]
+        cluster_path = tmp_path / "2026-01-15.json"
+        cluster_path.write_text(json.dumps(articles), encoding="utf-8")
+        sector_path = self._make_sector_summary(tmp_path)
+
+        result = compute_topic_sentiment("2026-01-15", sector_path, tmp_path)
+
+        # Only the article with sector data contributes → score = 1.0
+        assert result["tid-C"] == pytest.approx(1.0, abs=1e-6)
+
+
+# ---------------------------------------------------------------------------
+# A5 (schema update) — append_trends with sentiment_score
+# ---------------------------------------------------------------------------
+
+class TestAppendTrendsSentiment:
+    def _make_rows_with_sentiment(self, dt: date) -> list[dict]:
+        return [
+            {"date": str(dt), "topic_id": "t001", "topic_label": "Iran oil",
+             "article_count": 12, "sentiment_score": 0.25},
+            {"date": str(dt), "topic_id": "t002", "topic_label": "Fed pause",
+             "article_count": 8, "sentiment_score": -0.10},
+        ]
+
+    def test_sentiment_score_written_to_tsv(self, tmp_path):
+        """sentiment_score column is present after append_trends."""
+        from cluster_topics import append_trends
+
+        path = tmp_path / "trends.tsv"
+        append_trends(date(2026, 3, 1), self._make_rows_with_sentiment(date(2026, 3, 1)), path)
+
+        df = pd.read_csv(path, sep="\t")
+        assert "sentiment_score" in df.columns
+        assert df.loc[df["topic_id"] == "t001", "sentiment_score"].iloc[0] == pytest.approx(0.25)
+
+    def test_backward_compat_old_rows_get_nan(self, tmp_path):
+        """Existing rows without sentiment_score get NaN after concat with new rows."""
+        from cluster_topics import append_trends
+        import numpy as np
+
+        path = tmp_path / "trends.tsv"
+        # Write an old-style row (no sentiment_score)
+        old_df = pd.DataFrame([
+            {"date": "2026-02-28", "topic_id": "t000",
+             "topic_label": "Old topic", "article_count": 5},
+        ])
+        old_df.to_csv(path, sep="\t", index=False)
+
+        # Append new row with sentiment_score
+        append_trends(date(2026, 3, 1), self._make_rows_with_sentiment(date(2026, 3, 1)), path)
+
+        df = pd.read_csv(path, sep="\t")
+        assert "sentiment_score" in df.columns
+        old_score = df.loc[df["topic_id"] == "t000", "sentiment_score"].iloc[0]
+        assert pd.isna(old_score)
