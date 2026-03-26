@@ -51,9 +51,9 @@ python daily_briefing.py --no-rag --save    # fast briefing (no API), save to da
 python label_topics.py             # label all unlabeled topic_ids via OpenAI Batch API
 python label_topics.py --dry-run   # show counts only
 
-python visualize_topics.py              # topic heatmap + frequency chart (top 15, last 90 days)
+python visualize_topics.py              # heatmap + frequency chart + timeline (top 15, last 200 days)
 python visualize_topics.py --top 20     # top 20 topics
-python visualize_topics.py --days 60    # last 60 days only
+python visualize_topics.py --days 90    # last 90 days only
 
 python create_batch_briefings.py             # submit RAG briefing batch to OpenAI Batch API
 python create_batch_briefings.py --dry-run   # show counts, no submission
@@ -348,7 +348,7 @@ Path constant: `SECTOR_DB_FILE` in `constants.py`.
 | `create_batch_briefings.py` | Runs FAISS+BM25 retrieval locally for each spike, builds OpenAI Batch API JSONL, submits batch, saves ID + spike metadata sidecar |
 | `retrieve_batch_briefings.py` | Polls batch (exit 0/1/2), downloads results, assembles briefing JSONs with sector cross-check → `data/briefings/{date}.json` |
 | `label_topics.py` | Labels all unlabeled topic_ids via OpenAI Batch API (kitai.batch); submits one job for all unlabeled topics, polls until done, updates topic_labels.json + topic_trends.tsv; use after `backfill.py --phase1-only` |
-| `visualize_topics.py` | CLI — two charts from `data/topic_trends.tsv`: `topic_spike_heatmap.png` (dates × topics, cell = article_count) + `topic_frequency_ts.png` (line chart per topic); `--top N` (default 15), `--days N` (default 90) |
+| `visualize_topics.py` | CLI — three charts from `data/topic_trends.tsv`: `topic_spike_heatmap.png` (dates × topics heatmap, LogNorm scale) + `topic_frequency_ts.png` (symlog line chart with end-of-line labels) + `topic_timeline.png` (Gantt: first → last appearance per topic); `--top N` (default 15), `--days N` (default 200) |
 | `backfill.py` | Two-phase historical back-fill: Phase 1 = cluster_topics per date (no API), Phase 2 = daily_briefing per date; idempotent (skips already-done dates) |
 | `push_feeds_to_hf.py` | Cold-start: push all `output/feeds*.txt` → `lacetohf/feeds`; run once |
 | `push_new_feeds_to_hf.py` | Daily incremental: append today's new articles to `lacetohf/feeds`; dedup on `guid`; called by `daily-pipeline` |
