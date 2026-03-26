@@ -81,20 +81,20 @@ def read_spike_metadata() -> dict:
 def check_status(client: OpenAI, batch_id: str) -> None:
     """Check batch status; exit 2 if still in progress, exit 1 if terminal failure."""
     status = check_batch_job(client, batch_id)
-    counts = status["counts"]
+    counts = status.get("request_counts", {})
 
     print(
         f"Batch {batch_id} -> status: {status['status']} | "
-        f"total: {counts['total']} | "
-        f"completed: {counts['completed']} | "
-        f"failed: {counts['failed']}"
+        f"completed: {counts.get('completed', '?')} | "
+        f"failed: {counts.get('failed', '?')}"
     )
 
-    if not status["is_terminal"]:
+    _TERMINAL = {"completed", "failed", "expired", "cancelled"}
+    if status["status"] not in _TERMINAL:
         print("Batch is still in progress. Re-run this script once it completes.")
         sys.exit(2)  # exit 2 = not ready; retry is safe
 
-    if not status["is_complete"]:
+    if status["status"] != "completed":
         print(
             f"[error] Batch ended with status '{status['status']}'. "
             "No results to collect. Check the OpenAI dashboard for details."

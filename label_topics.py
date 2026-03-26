@@ -186,21 +186,19 @@ def label_topics(dry_run: bool = False) -> None:
         else:
             print(f"\nSubmitting {len(tasks)} tasks to OpenAI Batch API ...")
             client = OpenAI()
-            job_id = submit_batch_job(
-                client,
-                tasks,
-                endpoint="/v1/chat/completions",
-                metadata={"description": f"label_topics_{len(tasks)}_topics"},
-            )
+            job_id = submit_batch_job(client, tasks)
             print(f"Batch job submitted: {job_id}")
             print("Waiting for completion (polls every 30s) ...")
 
-            completed = poll_until_complete(client, [job_id], poll_interval=30.0)
-            if not completed:
-                print("ERROR: batch job failed. Check OpenAI dashboard.")
+            statuses = poll_until_complete(client, [job_id], poll_interval_seconds=30)
+            if statuses[job_id]["status"] != "completed":
+                print(
+                    f"ERROR: batch job ended with status '{statuses[job_id]['status']}'. "
+                    "Check OpenAI dashboard."
+                )
                 sys.exit(1)
 
-            results = download_batch_results(client, completed[0])
+            results = download_batch_results(client, job_id)
             new_labels, n_errors = _parse_results(results)
 
             cache.update(new_labels)

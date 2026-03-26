@@ -307,12 +307,7 @@ def main() -> None:
     # ── Submit via kitai.batch ────────────────────────────────────────────────
     client   = res["openai_client"]
     print("Submitting batch to OpenAI...")
-    batch_id = submit_batch_job(
-        client,
-        tasks,
-        endpoint="/v1/chat/completions",
-        metadata={"description": f"daily_briefings_{len(tasks)}_tasks"},
-    )
+    batch_id = submit_batch_job(client, tasks)
     print(f"Batch submitted: {batch_id}")
 
     # ── Persist sentinel files ────────────────────────────────────────────────
