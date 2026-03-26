@@ -1,0 +1,212 @@
+{
+  "date": "2025-12-23",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "cfd47f02-a084-497c-8723-57e24fc0401a",
+      "label": "ACA Subsidies and Government Funding",
+      "spike_ratio": 1.506,
+      "article_count": 25,
+      "rag_answer": "The expiration of enhanced ACA subsidies has raised concerns about significant tax bills for many individuals, as highlighted by financial experts. Efforts to extend these subsidies have faced political hurdles, with bipartisan negotiations ongoing in the Senate, while some states are stepping in to provide their own support. The potential lapse in these subsidies could lead to substantial financial losses for health providers, estimated at $32 billion, further complicating the ongoing government funding discussions. Overall, the situation underscores the critical intersection of health policy and government funding, with implications for both consumers and the healthcare market.",
+      "rag_sources": [
+        {
+          "title": "ACA subsidy cliff may mean 'astronomical tax bills' for many, CFP says",
+          "date": "2026-01-06",
+          "link": "https://www.cnbc.com/2026/01/06/aca-subsidy-cliff-tax-bills.html",
+          "snippet": "2026-01-06: ACA subsidy cliff may mean 'astronomical tax bills' for many, CFP says: Enhanced premium subsidies for health insurance bought on the ACA marketplace have expired and the so-called subsidy",
+          "guid": "108248259"
+        },
+        {
+          "title": "Why affordability is the 'beating heart' of the ACA enhanced subsidy debate, health policy experts say",
+          "date": "2025-12-12",
+          "link": "https://www.cnbc.com/2025/12/12/aca-enhanced-subsidies-democrats-republicans-health-care-plan.html",
+          "snippet": "2025-12-12: Why affordability is the 'beating heart' of the ACA enhanced subsidy debate, health policy experts say: Health plans proposed by Senate Democrats and Republicans failed on Thursday, making",
+          "guid": "108240832"
+        },
+        {
+          "title": "Health providers could lose $32 billion if ACA credits at center of shutdown fight expire",
+          "date": "2025-09-25",
+          "link": "https://www.cnbc.com/2025/09/25/health-aca-obamacare-federal-government-shutdown.html",
+          "snippet": "2025-09-25: Health providers could lose $32 billion if ACA credits at center of shutdown fight expire: Democrats demand that any stopgap funding measure to keep the federal government open include an ",
+          "guid": "108204023"
+        },
+        {
+          "title": "As federal ACA subsidies lapse, blue states offer their own",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/2026/01/23/aca-subsidies-state-premium-tax-credits.html",
+          "snippet": "2026-01-23: As federal ACA subsidies lapse, blue states offer their own: A handful of states have moved to soften the blow of lapsed federal subsidies for health insurance premiums.",
+          "guid": "108254517"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "eb3759f8-da95-45ed-96d5-50c26505f9fa",
+      "label": "UK Autumn Budget 2025 Insights",
+      "spike_ratio": 1.141,
+      "article_count": 21,
+      "rag_answer": "The UK Autumn Budget 2025, unveiled by Finance Minister Rachel Reeves, included tax hikes following an accidental leak of policy measures. This budget comes at a critical time as the UK economy showed minimal growth in the third quarter, raising concerns about fiscal stability. Market watchers are analyzing how Reeves' policy mix will impact various assets, from stocks to property, indicating potential shifts in capital investment in the UK. The budget's implications are seen as pivotal for both the economy and the political landscape, particularly for Prime Minister Keir Starmer.",
+      "rag_sources": [
+        {
+          "title": "Autumn Budget 2025: UK finance minister unveils tax hikes after accidental leak of policy measures",
+          "date": "2025-11-26",
+          "link": "https://www.cnbc.com/2025/11/26/autumn-budget-2025-follow-chancellor-rachel-reeves-announcements-live.html",
+          "snippet": "2025-11-26: Autumn Budget 2025: UK finance minister unveils tax hikes after accidental leak of policy measures: This was CNBC's live blog on the 2025 Autumn Budget unveiled by Finance Minister Rachel ",
+          "guid": "108231532"
+        },
+        {
+          "title": "UK government borrowing costs seesaw as official economic forecasts released early",
+          "date": "2025-11-26",
+          "link": "https://www.cnbc.com/2025/11/26/uk-government-borrowing-costs-fall-as-obr-forecasts-released-early.html",
+          "snippet": "2025-11-26: UK government borrowing costs seesaw as official economic forecasts released early: The Autumn Budget is due to be announced shortly.",
+          "guid": "108231663"
+        },
+        {
+          "title": "UK has weeks to solve fiscal puzzle as it sets date for Autumn Budget",
+          "date": "2025-09-03",
+          "link": "https://www.cnbc.com/2025/09/03/uk-to-deliver-budget-on-nov-26.html",
+          "snippet": "2025-09-03: UK has weeks to solve fiscal puzzle as it sets date for Autumn Budget: The U.K. government has named the date of its forthcoming Autumn Budget amid heightened pressure on Chancellor Rachel",
+          "guid": "108193520"
+        },
+        {
+          "title": "From stocks to property, here\u2019s what the Autumn Budget means for UK assets",
+          "date": "2025-11-27",
+          "link": "https://www.cnbc.com/2025/11/27/autumn-budget-what-rachel-reeves-tax-hikes-mean-for-uk-assets.html",
+          "snippet": "2025-11-27: From stocks to property, here\u2019s what the Autumn Budget means for UK assets: Money market watchers spoke to CNBC about how Rachel Reeves\u2019 policy mix will shape capital invested in the U.K.",
+          "guid": "108233047"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "409ca803-01f1-4349-8222-0e0c6aee0ccc",
+      "label": "Ukraine peace talks and Trump",
+      "spike_ratio": 1.101,
+      "article_count": 24,
+      "rag_answer": "Recent developments in Ukraine peace talks indicate a complex and evolving situation involving U.S. President Donald Trump and Ukrainian President Volodymyr Zelenskyy. Trump has oscillated in his support for Ukraine, initially promising security guarantees but later suggesting a division of Ukraine with Russia. Despite these tensions, Ukraine reportedly agreed to a U.S.-brokered peace proposal, and Trump expressed optimism that a peace deal is \"very close.\" The market implications could include increased volatility in defense and energy sectors, as well as potential shifts in investor sentiment depending on the outcomes of these negotiations and their impact on regional stability.",
+      "rag_sources": [
+        {
+          "title": "Ukraine desperate to keep Trump on its side in peace talks, while saving its sovereignty",
+          "date": "2025-11-24",
+          "link": "https://www.cnbc.com/2025/11/24/ukraine-desperate-to-keep-trump-sweet-while-saving-its-sovereignty.html",
+          "snippet": "2025-11-24: Ukraine desperate to keep Trump on its side in peace talks, while saving its sovereignty: Talks between U.S. and Ukrainian officials were held this weekend after it emerged that Russia and",
+          "guid": "108230764"
+        },
+        {
+          "title": "Watch live: Trump and Zelenskyy meet with European leaders ",
+          "date": "2025-08-18",
+          "link": "https://www.cnbc.com/2025/08/18/trump-zelenskyy-ukraine-putin-live-updates.html",
+          "snippet": "2025-08-18: Watch live: Trump and Zelenskyy meet with European leaders: Trump and Ukraine's Volodymyr Zelenskyy are meeting with European leaders and NATO allies in an unprecedented effort to reach a ",
+          "guid": "108187127"
+        },
+        {
+          "title": "Ukraine\u2019s Zelenskyy says Kyiv \u2018geared up for clear and honest work\u2019 as U.S. pushes for progress on peace plan",
+          "date": "2025-11-21",
+          "link": "https://www.cnbc.com/2025/11/21/ukraine-peace-plan-zelenskyy-to-speak-with-trump-on-deal-to-end-war.html",
+          "snippet": "2025-11-21: Ukraine\u2019s Zelenskyy says Kyiv \u2018geared up for clear and honest work\u2019 as U.S. pushes for progress on peace plan: Ukrainian President Volodymyr Zelenskyy said he expects to speak with U.S. co",
+          "guid": "108229758"
+        },
+        {
+          "title": "Trump says \u2018a lot closer\u2019 to Ukraine peace deal after Zelenskyy meeting, though thorny issues remain",
+          "date": "2025-12-28",
+          "link": "https://www.cnbc.com/2025/12/28/trump-zelenskyy-ukraine.html",
+          "snippet": "2025-12-28: Trump says \u2018a lot closer\u2019 to Ukraine peace deal after Zelenskyy meeting, though thorny issues remain: Ukrainian President Volodymyr Zelenskyy\u00a0was scheduled to arrive at Mar-a-Lago in Presi",
+          "guid": "108246060"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "46b51275-0575-4a64-87e7-d4d1864f1669",
+      "label": "Warner Bros. Discovery takeover bids",
+      "spike_ratio": 1.056,
+      "article_count": 15,
+      "rag_answer": "Warner Bros. Discovery (WBD) has opened itself up for a sale, prompting multiple bids from major players including Paramount, Comcast, and Netflix. Paramount Skydance has emerged as a strong contender, reportedly making a higher bid that WBD's board is currently evaluating against Netflix's offer. The situation has led to significant fluctuations in WBD's stock price, with shares jumping 10% following the announcement of its openness to a sale. As the bidding war unfolds, shareholders are weighing the merits of accepting Paramount's offer, which could have substantial implications for the competitive landscape in the media and entertainment sector.",
+      "rag_sources": [
+        {
+          "title": "Paramount, Comcast, Netflix submit bids for Warner Bros. Discovery ",
+          "date": "2025-11-21",
+          "link": "https://www.cnbc.com/2025/11/21/warner-bros-discovery-wbd-bids-paramount-comcast-netflix.html",
+          "snippet": "2025-11-21: Paramount, Comcast, Netflix submit bids for Warner Bros. Discovery: Warner Bros. Discovery recently expanded its strategic review of its business, saying it's open for a sale. First round ",
+          "guid": "108229432"
+        },
+        {
+          "title": "Warner Bros. Discovery says it's open to a sale; shares jump 10%",
+          "date": "2025-10-21",
+          "link": "https://www.cnbc.com/2025/10/21/wbd-sale-warner-bros-media.html",
+          "snippet": "2025-10-21: Warner Bros. Discovery says it's open to a sale; shares jump 10%: WBD had planned to split into two separate entities and is not abandoning those plans.",
+          "guid": "108214672"
+        },
+        {
+          "title": "Paramount Skydance is preparing a bid for Warner Bros. Discovery, sources say",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/warner-bros-discovery-paramount-skydance-bid.html",
+          "snippet": "2025-09-11: Paramount Skydance is preparing a bid for Warner Bros. Discovery, sources say: The Wall Street Journal reported the recently merged Paramount Skydance was preparing a takeover bid for the ",
+          "guid": "108197645"
+        },
+        {
+          "title": "Warner Bros. Discovery says Paramount made higher bid, board will weigh offer against Netflix deal",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/warner-bros-discovery-paramount-higher-bid-netflix.html",
+          "snippet": "2026-02-24: Warner Bros. Discovery says Paramount made higher bid, board will weigh offer against Netflix deal: If WBD deems the new Paramount offer superior, Netflix will have four days to improve it",
+          "guid": "108269071"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "5027ac75-1fa6-4561-bafa-14e0763d1caf",
+      "label": "Nvidia AI Chips Sales to China",
+      "spike_ratio": 0.955,
+      "article_count": 14,
+      "rag_answer": "Nvidia has faced significant challenges in selling its AI chips to China, despite receiving U.S. government approval to do so. Initially, the company aimed to begin shipments of its H200 chips by mid-February 2026, but these plans have been stalled due to ongoing U.S. security reviews and concerns about local Chinese competitors potentially taking over the market. The uncertainty surrounding these sales has raised questions about Nvidia's market share in China, as the company grapples with both regulatory hurdles and the competitive landscape. Overall, while Nvidia has made strides towards resuming sales, the situation remains precarious and could impact its future revenue from the Chinese market.",
+      "rag_sources": [
+        {
+          "title": "Nvidia still hasn't sold its U.S.-approved China AI chips \u2014 and it\u2019s worried local AI rivals could take over",
+          "date": "2026-02-26",
+          "link": "https://www.cnbc.com/2026/02/26/nvidia-china-chip-sales-export-controls-ai-competition.html",
+          "snippet": "2026-02-26: Nvidia still hasn't sold its U.S.-approved China AI chips \u2014 and it\u2019s worried local AI rivals could take over: The U.S. chipmaker has yet to confirm shipments to China despite Washington ea",
+          "guid": "108270233"
+        },
+        {
+          "title": "Nvidia says it's evaluating a 'variety of products' after report of new AI chip for China",
+          "date": "2025-08-19",
+          "link": "https://www.cnbc.com/2025/08/19/nvidia-ai-china-chip.html",
+          "snippet": "2025-08-19: Nvidia says it's evaluating a 'variety of products' after report of new AI chip for China: Nvidia last week struck a deal with the U.S. government to resume selling products in China, in e",
+          "guid": "108187933"
+        },
+        {
+          "title": "Nvidia aims to begin H200 chip shipments to China by mid-February, sources say",
+          "date": "2025-12-22",
+          "link": "https://www.cnbc.com/2025/12/22/nvidia-aims-to-begin-h200-chip-shipments-to-china-by-mid-february-.html",
+          "snippet": "2025-12-22: Nvidia aims to begin H200 chip shipments to China by mid-February, sources say: Nvidia plans to start shipping its second-most powerful AI chips to China in mid-February, three people fami",
+          "guid": "108244633"
+        },
+        {
+          "title": "Trump's blessing of Nvidia AI chip sales to China gets a chilly reception from GOP",
+          "date": "2025-12-09",
+          "link": "https://www.cnbc.com/2025/12/09/trump-nvidia-china-ai-chips-gop-congress.html",
+          "snippet": "2025-12-09: Trump's blessing of Nvidia AI chip sales to China gets a chilly reception from GOP: Trump said Chinese President Xi Jinping \\responded positively\\\" to the proposal to let Nvidia sell H200 ",
+          "guid": "108239138"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

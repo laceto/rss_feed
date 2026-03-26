@@ -1,0 +1,204 @@
+{
+  "date": "2026-03-09",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "0009838e-5b99-4f23-b3c0-d85cafc96a09",
+      "label": "U.S.-Iran Tensions and Oil Prices",
+      "spike_ratio": 1.473,
+      "article_count": 71,
+      "rag_answer": "U.S.-Iran tensions have escalated significantly, leading to volatile oil prices. Following reports of military strikes and the collapse of nuclear talks, oil prices surged, with U.S. crude topping $80 per barrel as fears of supply disruptions grew. The ongoing conflict has caused fluctuations in the market, with oil prices jumping 4% and then pulling back as negotiations resumed. Overall, the situation has created a climate of uncertainty, impacting consumer costs and highlighting risks in global fuel supplies.",
+      "rag_sources": [
+        {
+          "title": "Oil pulls back as U.S.\u2013Iran talks set to resume: Here\u2019s where negotiations stand",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/23/iran-us-talks-oil-falls-nuclear-negotiations.html",
+          "snippet": "2026-02-23: Oil pulls back as U.S.\u2013Iran talks set to resume: Here\u2019s where negotiations stand: Tensions have remained on high alert throughout the Middle East for weeks after U.S. President Donald Trum",
+          "guid": "108268317"
+        },
+        {
+          "title": "Oil jumps 4% after Vance says Iran ignored key U.S. demands, military strikes on the table",
+          "date": "2026-02-18",
+          "link": "https://www.cnbc.com/2026/02/18/oil-prices-today-iran-trump-nuclear-talks.html",
+          "snippet": "2026-02-18: Oil jumps 4% after Vance says Iran ignored key U.S. demands, military strikes on the table: Oil traders are worried that war between the U.S. and Iran could lead to a major disruption of c",
+          "guid": "108266679"
+        },
+        {
+          "title": "Here's how the U.S.-Iran war is already hitting consumers' pocketbooks",
+          "date": "2026-03-06",
+          "link": "https://www.cnbc.com/2026/03/06/us-iran-war-gas-mortgage-markets.html",
+          "snippet": "2026-03-06: Here's how the U.S.-Iran war is already hitting consumers' pocketbooks: The U.S.-Israeli strikes on Iran over the weekend gave way to a week with topsy-turvy markets, spiking mortgage rate",
+          "guid": "108274411"
+        },
+        {
+          "title": "Oil prices steady as traders monitor Iran tensions, U.S. economic data",
+          "date": "2026-02-10",
+          "link": "https://www.cnbc.com/2026/02/10/oil-drifts-lower-as-traders-weigh-supply-risks-amid-usiran-tensions.html",
+          "snippet": "2026-02-10: Oil prices steady as traders monitor Iran tensions, U.S. economic data: Oil prices eased slightly on Tuesday after U.S. guidance for vessels transiting the Strait of Hormuz kept attention ",
+          "guid": "108263647"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "ee1ad4d1-8648-438c-b36e-c7ec3a2fa38c",
+      "label": "Trump tariffs Supreme Court ruling",
+      "spike_ratio": 1.295,
+      "article_count": 29,
+      "rag_answer": "The U.S. Supreme Court has struck down significant portions of President Trump's tariffs, a ruling that could potentially require the U.S. to refund up to $175 billion. This decision has been described as a major setback for Trump, whose economic policies heavily relied on these tariffs. While U.S. trading partners have welcomed the ruling, businesses are left to navigate uncertain market conditions as they adjust to the implications of the decision. The ruling has also sparked concerns about the future of trade deals and the overall economic landscape.",
+      "rag_sources": [
+        {
+          "title": "Supreme Court Trump tariffs ruling could put U.S. on hook for $175 billion in refunds, estimate says",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/supreme-court-trump-tariffs-us-refunds.html",
+          "snippet": "2026-02-20: Supreme Court Trump tariffs ruling could put U.S. on hook for $175 billion in refunds, estimate says: Supreme Court Justice Brett Kavanaugh, in his dissent, warned that \\the refund process",
+          "guid": "108267896"
+        },
+        {
+          "title": "Watch: Trump speaks after Supreme Court strikes down tariffs ",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/trump-supreme-court-tariffs-white-house.html",
+          "snippet": "2026-02-20: Watch: Trump speaks after Supreme Court strikes down tariffs: The Supreme Court ruling is a major blow to Trump, whose economic and foreign policies leaned on his asserted power to unilate",
+          "guid": "108267984"
+        },
+        {
+          "title": "President Trump's tariffs fueled U.S. Customs bond market boom. Now billions hang on Supreme Court ruling",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/supreme-court-trump-tariffs-case-decision-refunds-customs-bonds.html",
+          "snippet": "2026-02-06: President Trump's tariffs fueled U.S. Customs bond market boom. Now billions hang on Supreme Court ruling: Companies are anxious for Supreme Court ruling on Trump tariffs, but in addition ",
+          "guid": "108257085"
+        },
+        {
+          "title": "Trump insists trade deals safe after Supreme Court ruling upends tariff authority, but partners aren\u2019t so sure",
+          "date": "2026-02-26",
+          "link": "https://www.cnbc.com/2026/02/26/trump-state-of-the-union-supreme-court-tariffs-trade-deals-ieepa-section-301-232-122.html",
+          "snippet": "2026-02-26: Trump insists trade deals safe after Supreme Court ruling upends tariff authority, but partners aren\u2019t so sure: The Supreme Court decision to strike down Trump's tariffs has thrown fresh c",
+          "guid": "108268905"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "68090fdc-fa74-4ac8-b641-8919461e64cd",
+      "label": "Gold and Silver Market Volatility",
+      "spike_ratio": 1.105,
+      "article_count": 19,
+      "rag_answer": "The gold and silver markets have experienced significant volatility recently, with sharp price fluctuations driven by various factors, including inflation fears and oscillating oil prices. After a record run, both metals faced a notable sell-off, with silver's volatility exceeding 100% and prices dropping dramatically at times, such as a 30% decline for silver and a 10% drop for gold in late January. Speculation, particularly from Chinese investors, has also contributed to the erratic trading patterns. Overall, the market remains uncertain, with concerns over future price stability and investor sentiment heavily influenced by macroeconomic conditions.",
+      "rag_sources": [
+        {
+          "title": "Gold and silver extend rebound but concerns over volatility linger",
+          "date": "2026-02-04",
+          "link": "https://www.cnbc.com/2026/02/04/gold-and-silver-extend-rebound-but-concerns-over-volatility-linger.html",
+          "snippet": "2026-02-04: Gold and silver extend rebound but concerns over volatility linger: Gold and silver climb with further gains seen determined by rate expectations",
+          "guid": "108261162"
+        },
+        {
+          "title": "Gold and silver extend losses as oscillating oil prices spark market volatility  ",
+          "date": "2026-03-20",
+          "link": "https://www.cnbc.com/2026/03/20/gold-silver-price-metal-market-oil-brent-wti-futures-iran-war-inflation.html",
+          "snippet": "2026-03-20: Gold and silver extend losses as oscillating oil prices spark market volatility: The metals saw bumpy trade on Friday morning, after joining a broad sell-off the previous day.",
+          "guid": "108280754"
+        },
+        {
+          "title": "Gold and silver stumble after record run. Is now the time to enter the market?",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/gold-and-silver-rally-has-taken-a-breather-have-finally-fallen-is-now-the-time-to-enter-the-market.html",
+          "snippet": "2026-01-30: Gold and silver stumble after record run. Is now the time to enter the market?: Gold and silver prices fell sharply on Friday, snapping a powerful rally that had carried both metals to rec",
+          "guid": "108259319"
+        },
+        {
+          "title": "Silver's volatility has exceeded 100%. Where exactly is the bottom?",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/silver-price-volatility-investors-search-bottom-meme-stock-commodity-gamestop-buy-sell.html",
+          "snippet": "2026-02-06: Silver's volatility has exceeded 100%. Where exactly is the bottom?: Silver's dizzying plunge last week and erratic trading this week have left investors wondering: Where and when is the b",
+          "guid": "108262306"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "b1c25903-7305-4a83-9c9d-297e8686ac06",
+      "label": "DHS funding and shutdown crisis",
+      "spike_ratio": 1.1,
+      "article_count": 22,
+      "rag_answer": "The Department of Homeland Security (DHS) is currently experiencing a shutdown due to a deadlock in funding negotiations between Congressional Democrats and President Trump. The impasse has led to significant disruptions, including long airport security lines, and the situation has worsened with the firing of Homeland Security Secretary Kristi Noem. Despite various counteroffers from Democrats and the White House, a resolution remains elusive, raising concerns about the potential for prolonged government dysfunction. The ongoing crisis could negatively impact market sentiment, particularly in sectors reliant on government operations and stability.",
+      "rag_sources": [
+        {
+          "title": "Democrats send Trump DHS funding counteroffer as agency shutdown grinds on",
+          "date": "2026-02-17",
+          "link": "https://www.cnbc.com/2026/02/17/dhs-shutdown-democrats-trump-counteroffer-funding-homeland.html",
+          "snippet": "2026-02-17: Democrats send Trump DHS funding counteroffer as agency shutdown grinds on: Congressional Democrats and the White House remain deadlocked in negotiations to reopen the Department of Homela",
+          "guid": "108266280"
+        },
+        {
+          "title": "Senate Democrats send DHS counteroffer to Trump as shutdown drags on",
+          "date": "2026-03-17",
+          "link": "https://www.cnbc.com/2026/03/17/dhs-shutdown-trump-homeland-security-senate-democrats-counteroffer.html",
+          "snippet": "2026-03-17: Senate Democrats send DHS counteroffer to Trump as shutdown drags on: The Department of Homeland Security shutdown has caused pileups in airport security lines across the country.",
+          "guid": "108278971"
+        },
+        {
+          "title": "The government is barreling toward a partial shutdown over DHS funding. Here's what to expect",
+          "date": "2026-01-27",
+          "link": "https://www.cnbc.com/2026/01/27/us-government-shutdown-over-dhs-funding.html",
+          "snippet": "2026-01-27: The government is barreling toward a partial shutdown over DHS funding. Here's what to expect: The U.S. government may partially shutdown on Saturday months after a record 43-day closure i",
+          "guid": "108257539"
+        },
+        {
+          "title": "Democrats lay out demands in prickly DHS funding fight",
+          "date": "2026-02-04",
+          "link": "https://www.cnbc.com/2026/02/04/democrats-demands-dhs-funding-fight.html",
+          "snippet": "2026-02-04: Democrats lay out demands in prickly DHS funding fight: Funding for the Department of Homeland Security still needs to be worked out after President Trump signed a law that reopened most o",
+          "guid": "108261373"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "23b9dbe0-7df1-406e-9626-e282b435d431",
+      "label": "Bitcoin price volatility analysis",
+      "spike_ratio": 1.061,
+      "article_count": 14,
+      "rag_answer": "Bitcoin has experienced significant price volatility in recent months, with notable fluctuations influenced by external factors such as U.S.-China trade tensions and broader market conditions. In October 2025, Bitcoin slipped to $113,000 amid these uncertainties, while by November, it threatened to break below the critical $80,000 support level, indicating a continued downward trend. Analysts have suggested that Bitcoin's historical price cycle may be breaking, raising concerns about potential further declines, with predictions of prices possibly dropping to between $40,000 and $60,000. This volatility presents both risks and opportunities for traders, as market conditions remain uncertain and could lead to significant price movements.",
+      "rag_sources": [
+        {
+          "title": "Bitcoin slips to $113,000 amid U.S.-China trade uncertainty: CNBC Crypto World",
+          "date": "2025-10-14",
+          "link": "https://www.cnbc.com/video/2025/10/14/bitcoin-slips-to-113000-amid-us-china-trade-uncertainty-cnbc-crypto-world.html",
+          "snippet": "2025-10-14: Bitcoin slips to $113,000 amid U.S.-China trade uncertainty: CNBC Crypto World: On today's episode of CNBC Crypto World, bitcoin and ether as trade tensions between the U.S. and China esca",
+          "guid": "108211982"
+        },
+        {
+          "title": "Stock market swings got you reeling? Answer these 6 questions before making a trade",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/stock-market-swings-got-you-reeling-answering-6-questions-will-help.html",
+          "snippet": "2025-11-28: Stock market swings got you reeling? Answer these 6 questions before making a trade: Frustrating as volatility can be, it also tends to present opportunities.",
+          "guid": "108232626"
+        },
+        {
+          "title": "A major historical bitcoin cycle that dictates its price might be breaking",
+          "date": "2025-08-08",
+          "link": "https://www.cnbc.com/2025/08/08/bitcoin-btc-price-cycle-might-be-breaking.html",
+          "snippet": "2025-08-08: A major historical bitcoin cycle that dictates its price might be breaking: Bitcoin's four-year price cycle, which has often had a predictable pattern, has shown signs of breaking or even ",
+          "guid": "108182889"
+        },
+        {
+          "title": "A technical look at Wall Street's 'fear gauge' and how to hedge against potential volatility",
+          "date": "2025-08-05",
+          "link": "https://www.cnbc.com/2025/08/05/a-technical-look-at-wall-streets-fear-gauge-and-how-to-hedge-against-potential-volatility.html",
+          "snippet": "2025-08-05: A technical look at Wall Street's 'fear gauge' and how to hedge against potential volatility: There are plenty of overhanging uncertainties that could derail this rally, says chart analyst",
+          "guid": "108181809"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

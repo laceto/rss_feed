@@ -1,0 +1,212 @@
+{
+  "date": "2026-03-17",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "5a598585-4aae-4389-91d8-c8e8c6593f83",
+      "label": "Midday Stock Movements",
+      "spike_ratio": 1.689,
+      "article_count": 38,
+      "rag_answer": "Midday stock movements have shown significant volatility, with various companies consistently making notable moves in the market. Recent reports highlight stocks like Newmont, Apple, and Sandisk experiencing substantial midday fluctuations, indicating active trading and investor interest. This trend suggests a dynamic market environment where investors are reacting to earnings reports, economic indicators, and broader market sentiments. The ongoing fluctuations may present both opportunities and risks for traders, as they navigate the impacts of economic conditions and corporate performance on stock prices.",
+      "rag_sources": [
+        {
+          "title": "Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/stocks-making-the-biggest-moves-midday-nem-aapl-sndk-deck.html",
+          "snippet": "2026-01-30: Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more: These are the stocks posting the largest moves midday.",
+          "guid": "108259667"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more",
+          "date": "2025-10-15",
+          "link": "https://www.cnbc.com/2025/10/15/stocks-making-the-biggest-moves-midday-bac-ms-bg-pgr.html",
+          "snippet": "2025-10-15: Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108212417"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more",
+          "date": "2025-09-18",
+          "link": "https://www.cnbc.com/2025/09/18/stocks-making-the-biggest-moves-midday-intc-nvo-blsh-all.html",
+          "snippet": "2025-09-18: Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more: These are the stocks posting the largest moves midday.",
+          "guid": "108200831"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: UnitedHealth, Applied Materials, Sandisk and more",
+          "date": "2025-08-15",
+          "link": "https://www.cnbc.com/2025/08/15/stocks-making-big-moves-midday-unh-amat-sndk-csco-evlv-flo-.html",
+          "snippet": "2025-08-15: Stocks making the biggest moves midday: UnitedHealth, Applied Materials, Sandisk and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108186615"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "2e955eac-a74a-4c42-be9f-b871d12feb52",
+      "label": "Market Trends and Stock Movements",
+      "spike_ratio": 1.356,
+      "article_count": 20,
+      "rag_answer": "The stock market has experienced significant volatility, with benchmarks reaching record highs due to easing inflation, strong corporate earnings, and expectations of U.S. rate cuts. However, recent sentiment has reversed, indicating potential concerns about an economic slowdown, as suggested by Stifel's warning of a possible stagflation environment. Despite these fluctuations, certain stocks continue to make notable midday moves, reflecting ongoing investor interest and activity. Overall, while opportunities may arise from the volatility, caution is warranted as market conditions shift.",
+      "rag_sources": [
+        {
+          "title": "Stock market swings got you reeling? Answer these 6 questions before making a trade",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/stock-market-swings-got-you-reeling-answering-6-questions-will-help.html",
+          "snippet": "2025-11-28: Stock market swings got you reeling? Answer these 6 questions before making a trade: Frustrating as volatility can be, it also tends to present opportunities.",
+          "guid": "108232626"
+        },
+        {
+          "title": "Stock benchmarks are scaling record highs: 'Animal spirits are soaring' ",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/stock-benchmarks-are-scaling-record-highs-animal-spirits-are-soaring-.html",
+          "snippet": "2025-09-11: Stock benchmarks are scaling record highs: 'Animal spirits are soaring': Easing inflation pressures,\u00a0resilient corporate earnings and expectations for U.S. rate cuts have boosted investor ",
+          "guid": "108197275"
+        },
+        {
+          "title": "Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward",
+          "date": "2025-12-26",
+          "link": "https://www.cnbc.com/2025/12/26/market-sentiment-has-made-a-huge-reversal-heres-why-and-what-it-means-going-forward.html",
+          "snippet": "2025-12-26: Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward: Something unusual happened in the past few weeks.",
+          "guid": "108245814"
+        },
+        {
+          "title": "Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel",
+          "date": "2025-08-11",
+          "link": "https://www.cnbc.com/2025/08/11/stock-market-party-to-be-ruined-by-sudden-economic-slowdown-says-stifel.html",
+          "snippet": "2025-08-11: Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel: The market could be in for a stagflation environment, the firm said.",
+          "guid": "108184067"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "28ef7e58-6eec-468d-9e07-36e059f3bd97",
+      "label": "AI Investment and Valuation Trends",
+      "spike_ratio": 1.176,
+      "article_count": 25,
+      "rag_answer": "AI investment is currently experiencing significant volatility, with growing concerns about a potential tech bubble as valuations for AI stocks come under scrutiny. Prominent investors, such as Orlando Bravo and Ray Dalio, have suggested that certain software stocks may deserve valuation cuts due to the inflated expectations surrounding AI. Fund managers are cautious, indicating that while AI spending continues to rise, they are wary of stretched valuations and are closely monitoring market positioning. Despite these concerns, there are still opportunities in the AI supply chain, particularly among lesser-known companies that support the sector's growth.",
+      "rag_sources": [
+        {
+          "title": "AI valuation fears grip global investors as tech bubble concerns grow",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/ai-valuation-fears-grip-investors-as-tech-bubble-concerns-heighten.html",
+          "snippet": "2025-11-07: AI valuation fears grip global investors as tech bubble concerns grow: The recent slide among AI stocks has once again put fears of a tech bubble at the forefront of investors' minds.",
+          "guid": "108222913"
+        },
+        {
+          "title": "Orlando Bravo says some software names hit by AI deserve a valuation cut",
+          "date": "2026-03-17",
+          "link": "https://www.cnbc.com/2026/03/17/orlando-bravo-software-ai-valuation-cut.html",
+          "snippet": "2026-03-17: Orlando Bravo says some software names hit by AI deserve a valuation cut: The Thoma Bravo co-founder said that some of the software stocks getting hit by the AI wave deserve a lower valuat",
+          "guid": "108279068"
+        },
+        {
+          "title": "Fund managers reveal their bubble recipes and what to watch for as AI stocks soar",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/30/fund-managers-reveal-their-bubble-recipes-and-what-to-watch-for-as-ai-stocks-soar.html",
+          "snippet": "2025-10-29: Fund managers reveal their bubble recipes and what to watch for as AI stocks soar: \\Fundamentals and valuations can only be ignored for so long,\\\" one portfolio manager told CNBC.\"",
+          "guid": "108217900"
+        },
+        {
+          "title": "How fund managers are investing for the fourth quarter as AI bubble talk swirls",
+          "date": "2025-10-12",
+          "link": "https://www.cnbc.com/2025/10/13/how-fund-managers-are-investing-for-the-fourth-quarter-as-ai-bubble-talk-swirls.html",
+          "snippet": "2025-10-12: How fund managers are investing for the fourth quarter as AI bubble talk swirls: \\We are, however, wary of positioning, and remain watchful of stretched valuations,\\\" one fund manager told",
+          "guid": "108209800"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "ee1ad4d1-8648-438c-b36e-c7ec3a2fa38c",
+      "label": "Trump tariffs Supreme Court ruling",
+      "spike_ratio": 1.148,
+      "article_count": 31,
+      "rag_answer": "The U.S. Supreme Court has struck down significant portions of President Trump's tariffs, a ruling that could potentially expose the U.S. government to $175 billion in refunds. This decision has been described as a major setback for Trump, whose economic policies heavily relied on these tariffs. While U.S. trading partners have welcomed the ruling, businesses are left to navigate uncertain market conditions as they adjust to the implications of the decision. The ruling has also sparked concerns about the future of trade deals and the overall economic landscape.",
+      "rag_sources": [
+        {
+          "title": "Supreme Court Trump tariffs ruling could put U.S. on hook for $175 billion in refunds, estimate says",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/supreme-court-trump-tariffs-us-refunds.html",
+          "snippet": "2026-02-20: Supreme Court Trump tariffs ruling could put U.S. on hook for $175 billion in refunds, estimate says: Supreme Court Justice Brett Kavanaugh, in his dissent, warned that \\the refund process",
+          "guid": "108267896"
+        },
+        {
+          "title": "Watch: Trump speaks after Supreme Court strikes down tariffs ",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/trump-supreme-court-tariffs-white-house.html",
+          "snippet": "2026-02-20: Watch: Trump speaks after Supreme Court strikes down tariffs: The Supreme Court ruling is a major blow to Trump, whose economic and foreign policies leaned on his asserted power to unilate",
+          "guid": "108267984"
+        },
+        {
+          "title": "President Trump's tariffs fueled U.S. Customs bond market boom. Now billions hang on Supreme Court ruling",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/supreme-court-trump-tariffs-case-decision-refunds-customs-bonds.html",
+          "snippet": "2026-02-06: President Trump's tariffs fueled U.S. Customs bond market boom. Now billions hang on Supreme Court ruling: Companies are anxious for Supreme Court ruling on Trump tariffs, but in addition ",
+          "guid": "108257085"
+        },
+        {
+          "title": "Trump insists trade deals safe after Supreme Court ruling upends tariff authority, but partners aren\u2019t so sure",
+          "date": "2026-02-26",
+          "link": "https://www.cnbc.com/2026/02/26/trump-state-of-the-union-supreme-court-tariffs-trade-deals-ieepa-section-301-232-122.html",
+          "snippet": "2026-02-26: Trump insists trade deals safe after Supreme Court ruling upends tariff authority, but partners aren\u2019t so sure: The Supreme Court decision to strike down Trump's tariffs has thrown fresh c",
+          "guid": "108268905"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "e91276fe-4a15-4206-9c39-1557b2405ea1",
+      "label": "Epstein Connections and Fallout",
+      "spike_ratio": 1.103,
+      "article_count": 32,
+      "rag_answer": "Recent developments surrounding Jeffrey Epstein's connections have led to significant fallout among high-profile individuals and organizations. New documents released by the DOJ reveal Epstein's extensive ties in Silicon Valley, implicating figures like Bill Gates and Elon Musk, while also prompting resignations, such as that of the World Economic Forum CEO Borge Brende. The ongoing scrutiny has resulted in public backlash against various prominent figures, including Donald Trump, who faces criticism for his past associations with Epstein. These revelations may impact investor sentiment and corporate reputations, particularly in sectors linked to the individuals involved, as the fallout continues to unfold.",
+      "rag_sources": [
+        {
+          "title": "Epstein's Silicon Valley connections went beyond Gates and Musk",
+          "date": "2026-02-09",
+          "link": "https://www.cnbc.com/2026/02/09/tech-leaders-epstein-records-silicon-valley-sergey-brin-thiel-sinofsky-reid-hoffman-musk-gates.html",
+          "snippet": "2026-02-09: Epstein's Silicon Valley connections went beyond Gates and Musk: The new Epstein files released by the DOJ show that the deceased financier was able to build relationships across Silicon V",
+          "guid": "108260807"
+        },
+        {
+          "title": "Epstein files fallout: The high-profile people burned by past dealings with a predator",
+          "date": "2026-02-16",
+          "link": "https://www.cnbc.com/2026/02/15/epstein-files-fallout-goldman-ruemmler-harvard-yale.html",
+          "snippet": "2026-02-16: Epstein files fallout: The high-profile people burned by past dealings with a predator: Jeffrey Epstein killed himself in a New York City federal jail in 2019. But more than six years late",
+          "guid": "108265580"
+        },
+        {
+          "title": "Epstein would 'name drop' Trump, Les Wexner says in deposition video",
+          "date": "2026-02-19",
+          "link": "https://www.cnbc.com/2026/02/19/epstein-trump-les-wexner-deposition.html",
+          "snippet": "2026-02-19: Epstein would 'name drop' Trump, Les Wexner says in deposition video: Democrats on the House Oversight Committee have expressed skepticism about Wexner's insistence that he had virtually n",
+          "guid": "108267572"
+        },
+        {
+          "title": "DOJ says names of two associates Epstein wired $100k and $250k to should stay secret",
+          "date": "2025-09-06",
+          "link": "https://www.cnbc.com/2025/09/06/epstein-doj-says-two-people-he-wired-thousands-to-should-stay-secret.html",
+          "snippet": "2025-09-06: DOJ says names of two associates Epstein wired $100k and $250k to should stay secret: The Justice Department request came after NBC News asked a federal judge to unseal the names of two pe",
+          "guid": "108195264"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

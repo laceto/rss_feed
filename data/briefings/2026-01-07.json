@@ -1,0 +1,212 @@
+{
+  "date": "2026-01-07",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "09db4a63-8ed3-4b74-8899-82541f39d50a",
+      "label": "Venezuela Oil Sales and Sanctions",
+      "spike_ratio": 1.688,
+      "article_count": 45,
+      "rag_answer": "Venezuela's oil sales have recently surged, surpassing $1 billion, with the U.S. securing prices approximately 30% higher than previous levels. This increase follows a total blockade of sanctioned oil tankers ordered by President Trump, which has led to a rebound in oil prices. However, the situation is complicated by ongoing U.S. sanctions against Venezuelan entities and questions regarding the legitimacy of the Venezuelan government that the U.S. is engaging with. The evolving dynamics suggest potential volatility in the oil market as geopolitical tensions and regulatory frameworks continue to shift.",
+      "rag_sources": [
+        {
+          "title": "Oil rebounds from lowest levels since 2021 after Trump orders Venezuela oil tanker blockade",
+          "date": "2025-12-17",
+          "link": "https://www.cnbc.com/2025/12/17/crude-oil-prices-today.html",
+          "snippet": "2025-12-17: Oil rebounds from lowest levels since 2021 after Trump orders Venezuela oil tanker blockade: President Donald Trump said he ordered a \\total and complete\\\" blockade of sanctioned oil tanke",
+          "guid": "108242869"
+        },
+        {
+          "title": "Venezuela oil sales top $1 billion, funds won\u2019t go to Qatar account anymore, Energy secretary says",
+          "date": "2026-02-13",
+          "link": "https://www.cnbc.com/2026/02/13/venezuela-oil-sales-qatar-chris-wright-trump.html",
+          "snippet": "2026-02-13: Venezuela oil sales top $1 billion, funds won\u2019t go to Qatar account anymore, Energy secretary says: Democrats in Congress have questioned the transparency and legality of depositing Venezu",
+          "guid": "108265521"
+        },
+        {
+          "title": "Venezuela oil fetching 30% higher price, U.S. energy chief says, after first sale worth $500 million",
+          "date": "2026-01-16",
+          "link": "https://www.cnbc.com/2026/01/16/venezuela-oil-takeover-us-shipment-trump-.html",
+          "snippet": "2026-01-16: Venezuela oil fetching 30% higher price, U.S. energy chief says, after first sale worth $500 million: America is securing prices about 30% higher for Venezuelan crude than those obtained b",
+          "guid": "108253358"
+        },
+        {
+          "title": "Trump's Venezuela oil sales deal raises questions about which government U.S. will recognize",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/trump-venezuela-oil-revenue-qatar.html",
+          "snippet": "2026-02-11: Trump's Venezuela oil sales deal raises questions about which government U.S. will recognize: The U.S. is cooperating with a regime in Venezuela it does not recognize, and it's unclear wha",
+          "guid": "108263354"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "3d3acae2-25d0-4e59-83b0-0118da72d824",
+      "label": "AI-related tech stock decline",
+      "spike_ratio": 1.325,
+      "article_count": 22,
+      "rag_answer": "AI-related tech stocks have been experiencing significant declines, driven by rising concerns over their valuations and disappointing earnings reports, particularly from major players like Nvidia and Oracle. This has led to broader market sell-offs, with indices such as the Dow and S&P 500 reflecting these pressures. Despite some attempts at recovery, investor sentiment remains cautious, as evidenced by continued sell-offs and strategic shifts towards portfolio diversifiers. The ongoing volatility suggests that the AI sector may be facing a challenging period ahead, impacting overall market stability.",
+      "rag_sources": [
+        {
+          "title": "Dow slides 300 points as AI stocks resume their decline, Nasdaq falls 1%: Live updates",
+          "date": "2025-11-06",
+          "link": "https://www.cnbc.com/2025/11/05/stock-market-today-live-updates.html",
+          "snippet": "2025-11-06: Dow slides 300 points as AI stocks resume their decline, Nasdaq falls 1%: Live updates: Companies that have benefited from the artificial intelligence trade came under pressure yet again a",
+          "guid": "108222099"
+        },
+        {
+          "title": "S&P 500 gives up gain as AI-related stocks come under pressure again: Live updates",
+          "date": "2025-12-15",
+          "link": "https://www.cnbc.com/2025/12/14/stock-market-today-live-updates.html",
+          "snippet": "2025-12-15: S&P 500 gives up gain as AI-related stocks come under pressure again: Live updates: Key stocks in the artificial intelligence trade continued to face pressure.",
+          "guid": "108241593"
+        },
+        {
+          "title": "Stocks drop on rising fears about AI stock valuations, Palantir leads decline: Live updates",
+          "date": "2025-11-04",
+          "link": "https://www.cnbc.com/2025/11/03/stock-market-today-live-updates.html",
+          "snippet": "2025-11-04: Stocks drop on rising fears about AI stock valuations, Palantir leads decline: Live updates: Stocks fell, pressured by declines in artificial intelligence-related names like Palantir as in",
+          "guid": "108220811"
+        },
+        {
+          "title": "CNBC Daily Open: Days of declines won't keep AI trade down",
+          "date": "2025-11-11",
+          "link": "https://www.cnbc.com/2025/11/11/cnbc-daily-open-days-of-declines-wont-keep-ai-trade-down.html",
+          "snippet": "2025-11-11: CNBC Daily Open: Days of declines won't keep AI trade down: Investors piled back into artificial intelligence names on Monday stateside. \\AI-related stocks should drive equity markets,\\\" a",
+          "guid": "108224037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "5a598585-4aae-4389-91d8-c8e8c6593f83",
+      "label": "Midday Stock Movements",
+      "spike_ratio": 1.065,
+      "article_count": 23,
+      "rag_answer": "Midday stock movements have shown significant volatility, with various companies consistently making notable moves in the market. Recent reports highlight stocks like Newmont, Apple, and Sandisk experiencing substantial midday fluctuations, indicating active trading and investor interest. This trend suggests a dynamic market environment where investors are reacting to earnings reports, economic indicators, and broader market sentiments. The ongoing fluctuations may present both opportunities and risks for traders, as they navigate the impacts of economic conditions and corporate performance on stock prices.",
+      "rag_sources": [
+        {
+          "title": "Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/stocks-making-the-biggest-moves-midday-nem-aapl-sndk-deck.html",
+          "snippet": "2026-01-30: Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more: These are the stocks posting the largest moves midday.",
+          "guid": "108259667"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more",
+          "date": "2025-10-15",
+          "link": "https://www.cnbc.com/2025/10/15/stocks-making-the-biggest-moves-midday-bac-ms-bg-pgr.html",
+          "snippet": "2025-10-15: Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108212417"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more",
+          "date": "2025-09-18",
+          "link": "https://www.cnbc.com/2025/09/18/stocks-making-the-biggest-moves-midday-intc-nvo-blsh-all.html",
+          "snippet": "2025-09-18: Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more: These are the stocks posting the largest moves midday.",
+          "guid": "108200831"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: UnitedHealth, Applied Materials, Sandisk and more",
+          "date": "2025-08-15",
+          "link": "https://www.cnbc.com/2025/08/15/stocks-making-big-moves-midday-unh-amat-sndk-csco-evlv-flo-.html",
+          "snippet": "2025-08-15: Stocks making the biggest moves midday: UnitedHealth, Applied Materials, Sandisk and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108186615"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "0b33da45-501c-4267-990c-fc52c823783a",
+      "label": "Obesity Drug Market Developments",
+      "spike_ratio": 1.026,
+      "article_count": 16,
+      "rag_answer": "The obesity drug market is experiencing significant growth and transformation, driven by increased access through Medicare coverage and new product launches. Notably, Novo Nordisk's CEO highlighted a potential 15 million patient opportunity due to this coverage, while Eli Lilly has introduced a new pill aimed at maintaining weight loss. Additionally, Pfizer is diversifying its pipeline with a substantial deal to develop a Chinese obesity drug. As competition intensifies, questions about insurance coverage, drug pricing, and the emergence of copycat drugs remain critical factors influencing the market's future.",
+      "rag_sources": [
+        {
+          "title": "What obesity drugmakers see next in the market: More pills, easier access and drug combinations",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/2026/01/23/weight-loss-glp-1-drugs-next-steps-for-eli-lilly-novo-nordisk-pfizer.html",
+          "snippet": "2026-01-23: What obesity drugmakers see next in the market: More pills, easier access and drug combinations: CNBC spoke to executives from Eli Lilly, Novo Nordisk, Pfizer and other drugmakers at the a",
+          "guid": "108255916"
+        },
+        {
+          "title": "Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next",
+          "date": "2025-11-02",
+          "link": "https://www.cnbc.com/2025/11/02/whats-next-for-the-weight-loss-drug-market-pills-rivals-insurance.html",
+          "snippet": "2025-11-02: Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next: Competition is heating up, but questions remain about insurance coverage, drug pricing, copycat drugs a",
+          "guid": "108216702"
+        },
+        {
+          "title": "Millions more Americans could access obesity drugs after Trump's deals with Eli Lilly, Novo Nordisk",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/trump-deals-with-lilly-novo-nordisk-could-broaden-obesity-drug-access.html",
+          "snippet": "2025-11-07: Millions more Americans could access obesity drugs after Trump's deals with Eli Lilly, Novo Nordisk: Medicare will start covering obesity drugs for the first time, which could open access ",
+          "guid": "108223164"
+        },
+        {
+          "title": "Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill\u00a0",
+          "date": "2025-12-09",
+          "link": "https://www.cnbc.com/2025/12/09/pfizer-deal-yaopharma-obesity-pill.html",
+          "snippet": "2025-12-09: Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill: The deal will help Pfizer beef up and diversify its obesity drug pipeline following its $10 billi",
+          "guid": "108239106"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "b879033c-a02f-4e06-8138-b59f74de9402",
+      "label": "Global Inflation Trends and Responses",
+      "spike_ratio": 1.026,
+      "article_count": 16,
+      "rag_answer": "Global inflation trends are showing significant divergence, with some regions experiencing rising consumer prices while others face deflationary pressures. For instance, China reported a near two-year high in consumer inflation despite deeper producer deflation, indicating complex economic dynamics. Meanwhile, the U.S. Federal Reserve is grappling with inflation concerns, as highlighted by Fed officials expressing worries about the current economic climate and the potential for stagflation due to rising oil prices. These developments suggest that investors should remain cautious, as inflationary pressures could impact monetary policy and market stability moving forward.",
+      "rag_sources": [
+        {
+          "title": "'Reflation is back' says Deutsche Bank as global central banks diverge from Fed",
+          "date": "2025-12-11",
+          "link": "https://www.cnbc.com/2025/12/11/reflation-is-back-says-deutsche-bank-as-central-banks-diverge-from-fed.html",
+          "snippet": "2025-12-11: 'Reflation is back' says Deutsche Bank as global central banks diverge from Fed: Global central banks are diverging, following The Fed's decision to cut rates and Swiss' choice to hold ste",
+          "guid": "108240421"
+        },
+        {
+          "title": "Fears of 1970s-style stagflation arise with oil spike to $100. How big a threat is it?",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/fears-of-1970s-style-stagflation-arise-with-oil-spike-to-100-how-big-a-threat-is-it.html",
+          "snippet": "2026-03-09: Fears of 1970s-style stagflation arise with oil spike to $100. How big a threat is it?: High inflation and slow growth present a double threat, as measures like interest rate cuts and gove",
+          "guid": "108275514"
+        },
+        {
+          "title": "Fed's Goolsbee says he's worried about inflation in 'fraught but intense' climate",
+          "date": "2026-03-23",
+          "link": "https://www.cnbc.com/2026/03/23/feds-goolsbee-says-hes-worried-about-inflation-in-fraught-but-intense-climate.html",
+          "snippet": "2026-03-23: Fed's Goolsbee says he's worried about inflation in 'fraught but intense' climate: In a CNBC interview, the central banker said policymaking is difficult in the current environment.",
+          "guid": "108281480"
+        },
+        {
+          "title": "China consumer inflation hits near two-year high despite deeper-than-expected producer deflation",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/10/chinas-cpi-ppi-deflation-november-consumer-prices.html",
+          "snippet": "2025-12-10: China consumer inflation hits near two-year high despite deeper-than-expected producer deflation: Economists warned that deflationary pressure on the world's second largest economy will pe",
+          "guid": "108239450"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

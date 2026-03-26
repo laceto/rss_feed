@@ -1,0 +1,220 @@
+{
+  "date": "2025-10-10",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "a06911e6-2a73-4129-b09c-0f88c521d5fa",
+      "label": "Federal Tax Changes and Impacts",
+      "spike_ratio": 1.6,
+      "article_count": 18,
+      "rag_answer": "The IRS has announced new federal tax changes for 2026, including higher income tax brackets and standard deductions, which may affect what families owe and the refunds they receive. Additionally, there are proposed regulations regarding Trump's \"no tax on tips\" deduction, which could impact workers' tax liabilities. These changes come amid broader economic adjustments, including potential Federal Reserve rate cuts aimed at alleviating high borrowing costs for households. Overall, the evolving tax landscape and monetary policy are expected to have significant implications for families and the market as they navigate these financial shifts.",
+      "rag_sources": [
+        {
+          "title": "How new federal tax changes for 2026 may affect families",
+          "date": "2025-10-10",
+          "link": "https://www.cnbc.com/2025/10/10/irs-2026-tax-changes-child-tax-credit-family-refunds.html",
+          "snippet": "2025-10-10: How new federal tax changes for 2026 may affect families: The IRS has announced new federal tax changes for 2026  that may affect what families may owe and the refunds they may receive.",
+          "guid": "108210169"
+        },
+        {
+          "title": "Five key takeaways from the Supreme Court's landmark decision against Trump's tariffs",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/21/supreme-courts-trump-tariff-decision-five-takeaways.html",
+          "snippet": "2026-02-23: Five key takeaways from the Supreme Court's landmark decision against Trump's tariffs: What's far less certain is the longer-reaching impacts as the economy and markets again adjust to a c",
+          "guid": "108268087"
+        },
+        {
+          "title": "Treasury, IRS release key details about Trump\u2019s \u2018no tax on tips\u2019 deduction ",
+          "date": "2025-09-19",
+          "link": "https://www.cnbc.com/2025/09/19/treasury-details-trumps-no-tax-on-tips.html",
+          "snippet": "2025-09-19: Treasury, IRS release key details about Trump\u2019s \u2018no tax on tips\u2019 deduction: The Treasury has issued proposed regulations with more details about Trump\u2019s \u201cno tax on tips\u201d deduction. Here ar",
+          "guid": "108200870"
+        },
+        {
+          "title": "Tariffs face an uncertain future after Supreme Court hearing. Here are the potential market impacts",
+          "date": "2025-11-05",
+          "link": "https://www.cnbc.com/2025/11/05/tariffs-face-an-uncertain-future-after-supreme-court-hearing-here-are-the-potential-market-impacts.html",
+          "snippet": "2025-11-05: Tariffs face an uncertain future after Supreme Court hearing. Here are the potential market impacts: Wall Street is bracing for the fallout, with sweeping impacts expected but to an unknow",
+          "guid": "108221795"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.25,
+          "mean_sentiment_score": 0.118,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "5ade5af5-55ea-434a-8fe1-802b06f1fef3",
+      "label": "Stock Market Investment Insights",
+      "spike_ratio": 1.552,
+      "article_count": 26,
+      "rag_answer": "Recent developments in the stock market indicate a mix of volatility and cautious optimism among investors. The ongoing turmoil related to the Iran war has led to significant market fluctuations, prompting experts to advise those nearing retirement to reassess their investment strategies. Hedge fund manager Dan Niles emphasizes the importance of diversification and a balanced approach during this market turnaround. Additionally, concerns about a potential AI market bubble and economic slowdowns are influencing investor sentiment, with some strategists suggesting that current volatility may present opportunities for selective buying.",
+      "rag_sources": [
+        {
+          "title": "What hedge fund manager Dan Niles is doing during this market turnaround",
+          "date": "2026-03-23",
+          "link": "https://www.cnbc.com/2026/03/23/what-hedge-fund-manager-dan-niles-is-doing-during-this-market-turnaround.html",
+          "snippet": "2026-03-23: What hedge fund manager Dan Niles is doing during this market turnaround: \\You want to have a mix between asset-heavy names [and] be well diversified,\\\" the founder of Niles Investment Man",
+          "guid": "108281679"
+        },
+        {
+          "title": "What the Iran war market turmoil means for those nearing retirement",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/iran-war-market-volatility-retirement.html",
+          "snippet": "2026-03-05: What the Iran war market turmoil means for those nearing retirement: Market shakiness may not concern long-term investors, but it could be a useful wake-up call for those on the precipice ",
+          "guid": "108272020"
+        },
+        {
+          "title": "Ray Dalio says a risky AI market bubble is forming, but may not pop until the Fed tightens",
+          "date": "2025-10-28",
+          "link": "https://www.cnbc.com/2025/10/28/ray-dalio-bubble-ai-federal-reserve.html",
+          "snippet": "2025-10-28: Ray Dalio says a risky AI market bubble is forming, but may not pop until the Fed tightens: Dalio talked with CNBC's Sara Eisen in an exclusive interview from the Future Investment Institu",
+          "guid": "108217816"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "7414a4dc-4f2f-4f00-aaab-b1ec476cbab7",
+      "label": "AI Chip Market Developments",
+      "spike_ratio": 1.536,
+      "article_count": 59,
+      "rag_answer": "The AI chip market is experiencing significant developments, driven by robust demand and competition among major players like Nvidia, AMD, and Broadcom. Nvidia is set to unveil new processors specialized for agentic AI at its upcoming GTC conference, highlighting the shift towards advanced CPU designs. Additionally, companies like Meta are rolling out in-house AI chips to support their data center expansions, indicating a trend towards self-sufficiency in chip production. However, the rapid growth in AI infrastructure is also leading to shortages of essential components, which could impact gadget prices and overall market stability.",
+      "rag_sources": [
+        {
+          "title": "What the Iran war market turmoil means for those nearing retirement",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/iran-war-market-volatility-retirement.html",
+          "snippet": "2026-03-05: What the Iran war market turmoil means for those nearing retirement: Market shakiness may not concern long-term investors, but it could be a useful wake-up call for those on the precipice ",
+          "guid": "108272020"
+        },
+        {
+          "title": "Chip stocks including Nvidia are holding up despite market volatility, according to the charts",
+          "date": "2026-03-10",
+          "link": "https://www.cnbc.com/2026/03/10/chip-stocks-including-nvidia-are-holding-up-despite-market-volatility-according-to-the-charts.html",
+          "snippet": "2026-03-10: Chip stocks including Nvidia are holding up despite market volatility, according to the charts: Todd Gordon takes a look at the technicals in Nvidia and other chipmakers.",
+          "guid": "108276190"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Market concentration around AI darlings persists. It's making investors worried",
+          "date": "2025-08-16",
+          "link": "https://www.cnbc.com/2025/08/16/market-concentration-around-ai-darlings-persists-its-making-investors-worried.html",
+          "snippet": "2025-08-16: Market concentration around AI darlings persists. It's making investors worried: Investors worry that a stock market priced for perfection is vulnerable to some sort of setback.",
+          "guid": "108186696"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "a21f7800-1019-4647-adfd-df0863c955d0",
+      "label": "Fed rate cuts and outlook",
+      "spike_ratio": 1.32,
+      "article_count": 99,
+      "rag_answer": "The Federal Reserve is currently navigating a cautious approach to interest rate cuts, with Governor Waller emphasizing the need for conservatism in light of recent developments. While there is speculation about potential cuts, including a forecast by economist Mark Zandi suggesting three cuts in the first half of 2026, the market remains uncertain, with traders considering modest easing. Recent meetings have resulted in quarter-point cuts, but the outlook for further reductions is mixed, as Fed officials express divided opinions on the pace and necessity of future cuts. Overall, the market is closely monitoring these developments, as they could significantly impact borrowing costs and economic growth.",
+      "rag_sources": [
+        {
+          "title": "Fed Governor Waller urges caution for now, says rate cuts possible later in the year",
+          "date": "2026-03-20",
+          "link": "https://www.cnbc.com/2026/03/20/fed-gov-waller-urges-caution-for-now-cuts-possible-later-in-the-year.html",
+          "snippet": "2026-03-20: Fed Governor Waller urges caution for now, says rate cuts possible later in the year: Waller said in a CNBC interview that recent developments require a more conservative approach.",
+          "guid": "108280836"
+        },
+        {
+          "title": "Economist Mark Zandi sees the Fed surprising with three rate cuts in first half of 2026 ",
+          "date": "2025-12-31",
+          "link": "https://www.cnbc.com/2025/12/31/economist-mark-zandi-sees-the-fed-surprising-with-three-rate-cuts-in-first-half-of-2026-.html",
+          "snippet": "2025-12-31: Economist Mark Zandi sees the Fed surprising with three rate cuts in first half of 2026: Markets and Fed officials themselves see only modest easing in the year ahead.",
+          "guid": "108247075"
+        },
+        {
+          "title": "Traders see a chance the Fed cuts by a half point",
+          "date": "2025-09-08",
+          "link": "https://www.cnbc.com/2025/09/08/traders-see-a-chance-the-fed-cuts-by-a-half-point.html",
+          "snippet": "2025-09-08: Traders see a chance the Fed cuts by a half point: Traders are leaving open the option that the Federal Reserve next week could cut its key interest rate by half a percentage point.",
+          "guid": "108195631"
+        },
+        {
+          "title": "Powell hints at potential interest rate cuts. What that means for homeowners hoping to refinance",
+          "date": "2025-08-22",
+          "link": "https://www.cnbc.com/2025/08/22/fed-rate-cuts-mortgage-refinance.html",
+          "snippet": "2025-08-22: Powell hints at potential interest rate cuts. What that means for homeowners hoping to refinance: Fed Chair Jerome Powell hinted at potential interest rate cuts on Friday. If the slash mat",
+          "guid": "108189671"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.25,
+          "mean_sentiment_score": 0.118,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "efc45022-a04e-4a18-8e57-b284b55bb483",
+      "label": "Government Shutdown Negotiations",
+      "spike_ratio": 1.272,
+      "article_count": 43,
+      "rag_answer": "The government shutdown has become a prolonged issue, with Congress struggling to reach an agreement on funding measures, leading to significant uncertainty in the markets. As of November 10, 2025, reports indicate that a potential deal may be nearing, which has resulted in a rally in global equities. However, the shutdown has already caused disruptions, including the cancellation of key jobs reports and concerns over federal workers being furloughed or working without pay. Market analysts are closely monitoring the situation, as the implications of the shutdown could differ from past occurrences, potentially affecting investor confidence and economic stability.",
+      "rag_sources": [
+        {
+          "title": "Shutdown means another missed jobs report Friday. Here's what it probably would have shown",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/shutdown-means-missed-jobs-report-friday-what-it-probably-would-have-shown.html",
+          "snippet": "2025-11-07: Shutdown means another missed jobs report Friday. Here's what it probably would have shown: Jobs Friday won't be happening again this week as the record-long government shutdown has result",
+          "guid": "108222570"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        },
+        {
+          "title": "Goldman's David Solomon surprised by \u2018benign\u2019 market reaction to Iran war ",
+          "date": "2026-03-04",
+          "link": "https://www.cnbc.com/2026/03/04/goldman-david-solomon-iran-war-market-reaction-stocks.html",
+          "snippet": "2026-03-04: Goldman's David Solomon surprised by \u2018benign\u2019 market reaction to Iran war: \\I think it's going to take a couple of weeks for markets to really digest the implications of what's happened,\\\"",
+          "guid": "108273273"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "date": "2025-10-20",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "61d75c0e-f3f6-4310-98e6-337f075d7ea5",
+      "label": "OpenAI and AI Content Controversies",
+      "spike_ratio": 3.429,
+      "article_count": 40,
+      "rag_answer": "OpenAI is facing increasing pressure and scrutiny regarding its AI technologies, particularly as competitors like Google and Anthropic gain ground. CEO Sam Altman has addressed various moral and ethical controversies surrounding the company's AI chatbot, indicating a proactive approach to these challenges. The company's aggressive expansion and partnerships, including significant investments and collaborations, highlight its central role in the AI market, but also raise concerns about potential market corrections and the sustainability of its growth. Overall, OpenAI's developments reflect a complex landscape where innovation is met with ethical considerations and competitive pressures.",
+      "rag_sources": [
+        {
+          "title": "Watch CNBC's full interview with OpenAI CEO Sam Altman from the India AI Summit",
+          "date": "2026-02-19",
+          "link": "https://www.cnbc.com/video/2026/02/19/openai-sam-altman-india-ai-summit-full-interview.html",
+          "snippet": "2026-02-19: Watch CNBC's full interview with OpenAI CEO Sam Altman from the India AI Summit: OpenAI CEO Sam Altman discusses AI infrastructure, OpenAI's business model, competition from China and thou",
+          "guid": "108267179"
+        },
+        {
+          "title": "OpenAI's dominance is unlike anything Silicon Valley has ever seen",
+          "date": "2025-10-11",
+          "link": "https://www.cnbc.com/2025/10/11/open-ai-silicon-valley-tech-startup.html",
+          "snippet": "2025-10-11: OpenAI's dominance is unlike anything Silicon Valley has ever seen: OpenAI's position at the heart of the AI boom, and its expansion up and down the stack, is putting the company in compet",
+          "guid": "108209603"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Anthropic is giving Claude to the U.S. government for $1 as AI companies try to win key agencies",
+          "date": "2025-08-12",
+          "link": "https://www.cnbc.com/2025/08/12/anthropic-claude-government-ai.html",
+          "snippet": "2025-08-12: Anthropic is giving Claude to the U.S. government for $1 as AI companies try to win key agencies: Earlier this month, Anthropic's competitor OpenAI made a similar announcement.",
+          "guid": "108184674"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "85dc10ce-8d59-4f95-ac59-8869f2905632",
+      "label": "Federal Reserve leadership changes",
+      "spike_ratio": 1.346,
+      "article_count": 14,
+      "rag_answer": "The search for the next Federal Reserve chair is ongoing, with Treasury Secretary Bessent meeting with various candidates, including BlackRock's Rieder and others, as the current chair, Jerome Powell, faces potential removal by President Trump. The leadership changes at the Fed are significant as they could influence monetary policy direction, particularly in light of recent interest rate decisions and economic conditions. Market reactions have been sensitive to these developments, with traders speculating on interest rate cuts and the implications for economic growth. Overall, the uncertainty surrounding Fed leadership is contributing to market volatility as investors assess the potential impact on monetary policy.",
+      "rag_sources": [
+        {
+          "title": "Here are the five key takeaways from Wednesday's Fed rate decision",
+          "date": "2026-01-28",
+          "link": "https://www.cnbc.com/2026/01/28/here-are-the-five-key-takeaways-from-wednesdays-fed-rate-decision.html",
+          "snippet": "2026-01-28: Here are the five key takeaways from Wednesday's Fed rate decision: The Federal Reserve wrapped up a two-day policy meeting Wednesday, delivering pretty much what the market expected.",
+          "guid": "108258592"
+        },
+        {
+          "title": "Here are five key takeaways from the Fed's big interest rate decision",
+          "date": "2025-09-18",
+          "link": "https://www.cnbc.com/2025/09/17/here-are-five-key-takeaways-from-the-feds-big-interest-rate-decision.html",
+          "snippet": "2025-09-18: Here are five key takeaways from the Fed's big interest rate decision: The Federal Reserve on Wednesday delivered on a widely anticipated quarter percentage point interest rate cut.",
+          "guid": "108200292"
+        },
+        {
+          "title": "One Fed official may have saved market from another rout. Why John Williams' remarks matter so much",
+          "date": "2025-11-21",
+          "link": "https://www.cnbc.com/2025/11/21/one-fed-official-may-have-saved-market-from-another-rout-why-john-williams-remarks-matter-so-much.html",
+          "snippet": "2025-11-21: One Fed official may have saved market from another rout. Why John Williams' remarks matter so much: With his position comes membership in the Fed's leadership troika, a group that also in",
+          "guid": "108229921"
+        },
+        {
+          "title": "Here are the five key takeaways from this week's Fed meeting",
+          "date": "2026-03-19",
+          "link": "https://www.cnbc.com/2026/03/18/here-are-the-five-key-takeaways-from-this-weeks-fed-meeting.html",
+          "snippet": "2026-03-19: Here are the five key takeaways from this week's Fed meeting: While no one expected the Fed to cut \u2014 much less hike \u2014 at this meeting, the market always looks for clues about what's next.",
+          "guid": "108279927"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.25,
+          "mean_sentiment_score": 0.118,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "b82b4dcb-bba3-45f0-9230-df48cf06e1cc",
+      "label": "Trump-Xi TikTok Deal Talks",
+      "spike_ratio": 1.169,
+      "article_count": 18,
+      "rag_answer": "The Trump-Xi TikTok deal talks have seen significant developments, with President Trump approving a proposed deal to keep TikTok operational in the U.S. amid ongoing negotiations with China. A \"framework\" deal was reached, and both leaders are expected to finalize the agreement, which has been a focal point in U.S.-China trade relations. The discussions have overshadowed broader trade talks, indicating the high stakes involved, as the deal could impact market perceptions and investor confidence in both countries. Additionally, the involvement of new investors and the potential for a partnership with notable figures like the Murdochs suggests a strategic shift in how TikTok will operate in the U.S. market.",
+      "rag_sources": [
+        {
+          "title": "TikTok deal to include new investors with ByteDance; Oracle to keep cloud agreement, sources say",
+          "date": "2025-09-16",
+          "link": "https://www.cnbc.com/2025/09/16/tiktok-bytedance-oracle-china.html",
+          "snippet": "2025-09-16: TikTok deal to include new investors with ByteDance; Oracle to keep cloud agreement, sources say: Deal talks have dragged, with President\u00a0Donald Trump\u00a0extending the deadline three times\u00a0si",
+          "guid": "108199289"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "China says it\u2019s willing to work with U.S. on TikTok \u2014 but offers few details",
+          "date": "2025-10-30",
+          "link": "https://www.cnbc.com/2025/10/30/china-says-its-willing-to-work-with-us-on-tiktok.html",
+          "snippet": "2025-10-30: China says it\u2019s willing to work with U.S. on TikTok \u2014 but offers few details: Beijing indicated it would work with the U.S. on addressing the future of TikTok in the country.",
+          "guid": "108219176"
+        },
+        {
+          "title": "CNBC's The China Connection newsletter: Five things Beijing wants from a Trump-Xi meeting",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/china-connection-newsletter-what-beijing-wants-trump-xi-meeting-south-korea-apec-summit-gyeongju.html",
+          "snippet": "2025-10-29: CNBC's The China Connection newsletter: Five things Beijing wants from a Trump-Xi meeting: What China asks of the U.S. this week can reveal the extent to which Beijing has assessed the tra",
+          "guid": "108215757"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "8160bd2c-ae41-4729-8acd-1373f9dcee8f",
+      "label": "European stock market fluctuations",
+      "spike_ratio": 1.167,
+      "article_count": 14,
+      "rag_answer": "European stock markets have experienced significant fluctuations due to a combination of geopolitical tensions and economic data. Recent developments include a mixed performance influenced by ongoing concerns over the Iran war and the impact of U.S. tariffs, which have led to volatility and uncertainty among investors. While some days have seen gains as markets digest corporate earnings and geopolitical events, other days have resulted in declines, particularly in response to rising oil prices and banking sector concerns. Overall, the market remains sensitive to both international relations and economic indicators, creating a challenging environment for investors.",
+      "rag_sources": [
+        {
+          "title": "Greenland is another headline that stocks can get past, investors say. What to do next",
+          "date": "2026-01-21",
+          "link": "https://www.cnbc.com/2026/01/21/greenland-is-another-headline-that-stocks-can-get-past-investors-say-what-to-do-next.html",
+          "snippet": "2026-01-21: Greenland is another headline that stocks can get past, investors say. What to do next: The overwhelming consensus on the Street is that the stock market can look past escalating tensions ",
+          "guid": "108254498"
+        },
+        {
+          "title": "5 things to know before the stock market opens Friday",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/5-things-to-know-before-the-stock-market-opens-friday-august-1.html",
+          "snippet": "2025-08-01: 5 things to know before the stock market opens Friday: Here are five key things investors need to know to start the trading day.",
+          "guid": "108179977"
+        },
+        {
+          "title": "Why the world's top-performing stock market in 2025 is seeing historic volatility",
+          "date": "2026-03-06",
+          "link": "https://www.cnbc.com/2026/03/06/kospi-south-koreas-stock-market-volatility.html",
+          "snippet": "2026-03-06: Why the world's top-performing stock market in 2025 is seeing historic volatility: South Korea's stock market has swung wildly in recent days, underscoring how the world's best-performing ",
+          "guid": "108274047"
+        },
+        {
+          "title": "The Club's top 10 things to watch in the stock market Friday",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/the-clubs-top-10-things-to-watch-in-the-stock-market-friday.html",
+          "snippet": "2025-11-07: The Club's top 10 things to watch in the stock market Friday: The stock market is trending lower this morning as the government shutdown and ongoing scrutiny of AI-related names continue t",
+          "guid": "108222984"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "6cfbafc7-cfd5-4a00-ad72-313a521c3ad7",
+      "label": "French Political Crisis",
+      "spike_ratio": 1.133,
+      "article_count": 17,
+      "rag_answer": "France is currently experiencing a deepening political crisis marked by the resignation of Prime Minister S\u00e9bastien Lecornu after just 27 days in office, which has sparked fresh chaos in the government. President Macron faces the challenge of selecting a new prime minister or potentially calling for new parliamentary elections, all while navigating significant political and economic uncertainty. The crisis has led to a decline in the French stock market, with analysts warning of further instability and potential impacts on the country's creditworthiness as major ratings agencies prepare to reassess France's financial outlook. Overall, the ongoing turmoil is contributing to a sense of desynchronized growth in Europe, with domestic-facing French stocks expected to suffer.",
+      "rag_sources": [
+        {
+          "title": "France's political crisis deepens as another PM is axed: Here's what happens next",
+          "date": "2025-09-09",
+          "link": "https://www.cnbc.com/2025/09/09/what-happens-next-in-france-after-another-pm-is-ousted.html",
+          "snippet": "2025-09-09: France's political crisis deepens as another PM is axed: Here's what happens next: CNBC takes a look at what could happen next in France after the ousting of yet another prime minister.",
+          "guid": "108195888"
+        },
+        {
+          "title": "France is plunged further into political crisis. Here\u2019s what could happen next",
+          "date": "2025-10-07",
+          "link": "https://www.cnbc.com/2025/10/07/what-happens-next-in-france-after-lecornus-resignation.html",
+          "snippet": "2025-10-07: France is plunged further into political crisis. Here\u2019s what could happen next: Macron now has to choose a new PM, opt for new parliamentary elections or resign.",
+          "guid": "108207986"
+        },
+        {
+          "title": "'Our country is in danger': French PM takes confidence vote gamble over budget woes",
+          "date": "2025-08-26",
+          "link": "https://www.cnbc.com/2025/08/26/french-pm-takes-confidence-vote-gamble-over-budget-woes.html",
+          "snippet": "2025-08-26: 'Our country is in danger': French PM takes confidence vote gamble over budget woes: France's CAC 40 index plunged 2% on Tuesday as analysts assessed the potential for a fresh period of po",
+          "guid": "108190608"
+        },
+        {
+          "title": "France\u2019s economy faces a key risk beyond its political turmoil",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/frances-economy-faces-a-key-risk-beyond-its-political-turmoil.html",
+          "snippet": "2025-09-11: France\u2019s economy faces a key risk beyond its political turmoil: The \\Big Three\\\" ratings agencies will update their verdicts on the country's creditworthiness starting Friday, amid huge po",
+          "guid": "108192787"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

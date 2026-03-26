@@ -1,0 +1,212 @@
+{
+  "date": "2025-11-04",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "3d3acae2-25d0-4e59-83b0-0118da72d824",
+      "label": "AI-related tech stock decline",
+      "spike_ratio": 2.011,
+      "article_count": 35,
+      "rag_answer": "AI-related tech stocks have been experiencing significant declines, driven by rising concerns over their valuations and disappointing earnings reports from key players like Nvidia and Oracle. The S&P 500 and Dow have both seen losses as investors react to the pressure on these stocks, with notable declines in companies such as Palantir and SoftBank. Despite some attempts at recovery, the overall sentiment remains cautious, indicating that the AI trade may be facing a challenging period ahead. This ongoing volatility suggests potential implications for broader market stability, as tech stocks are often seen as a bellwether for market performance.",
+      "rag_sources": [
+        {
+          "title": "Dow slides 300 points as AI stocks resume their decline, Nasdaq falls 1%: Live updates",
+          "date": "2025-11-06",
+          "link": "https://www.cnbc.com/2025/11/05/stock-market-today-live-updates.html",
+          "snippet": "2025-11-06: Dow slides 300 points as AI stocks resume their decline, Nasdaq falls 1%: Live updates: Companies that have benefited from the artificial intelligence trade came under pressure yet again a",
+          "guid": "108222099"
+        },
+        {
+          "title": "S&P 500 gives up gain as AI-related stocks come under pressure again: Live updates",
+          "date": "2025-12-15",
+          "link": "https://www.cnbc.com/2025/12/14/stock-market-today-live-updates.html",
+          "snippet": "2025-12-15: S&P 500 gives up gain as AI-related stocks come under pressure again: Live updates: Key stocks in the artificial intelligence trade continued to face pressure.",
+          "guid": "108241593"
+        },
+        {
+          "title": "Stocks drop on rising fears about AI stock valuations, Palantir leads decline: Live updates",
+          "date": "2025-11-04",
+          "link": "https://www.cnbc.com/2025/11/03/stock-market-today-live-updates.html",
+          "snippet": "2025-11-04: Stocks drop on rising fears about AI stock valuations, Palantir leads decline: Live updates: Stocks fell, pressured by declines in artificial intelligence-related names like Palantir as in",
+          "guid": "108220811"
+        },
+        {
+          "title": "CNBC Daily Open: Days of declines won't keep AI trade down",
+          "date": "2025-11-11",
+          "link": "https://www.cnbc.com/2025/11/11/cnbc-daily-open-days-of-declines-wont-keep-ai-trade-down.html",
+          "snippet": "2025-11-11: CNBC Daily Open: Days of declines won't keep AI trade down: Investors piled back into artificial intelligence names on Monday stateside. \\AI-related stocks should drive equity markets,\\\" a",
+          "guid": "108224037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "baa12f40-6fae-4a48-b674-488ec8fbeac8",
+      "label": "Trump's Trade War Developments",
+      "spike_ratio": 1.509,
+      "article_count": 32,
+      "rag_answer": "Trump's trade war has escalated with the implementation of extensive tariffs on numerous U.S. trading partners, including Canada, Brazil, and Switzerland, leading to significant market disruptions and reshaping international trade relationships. The introduction of a 40% tariff on goods transshipped to avoid duties has further intensified tensions. Analysts have noted that the trade war is negatively impacting American families and industries, prompting the announcement of a $12 billion aid package for farmers affected by these policies. Despite a reduction in the trade deficit to its smallest level since 2009, the overall market sentiment remains cautious, with companies like Trade Desk experiencing significant stock declines due to tariff concerns and competitive pressures.",
+      "rag_sources": [
+        {
+          "title": "Live Updates: Trump tariffs slam Canada, Brazil and Switzerland ",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/trumps-tariffs-rekindle-global-trade-tensions.html",
+          "snippet": "2025-08-01: Live Updates: Trump tariffs slam Canada, Brazil and Switzerland: Trump's extensive new tariff regime on dozens of U.S. partners are launching new trade wars and sending shock waves through",
+          "guid": "108180211"
+        },
+        {
+          "title": "How countries are reacting to Trump's latest tariff announcements as deadline looms",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/how-asian-countries-are-reacting-to-trumps-latest-tariffs-announcement-as-deadline-looms.html",
+          "snippet": "2025-08-01: How countries are reacting to Trump's latest tariff announcements as deadline looms: The White House also announced a 40% tariff rate for all goods transshipped to avoid the applicable dut",
+          "guid": "108180161"
+        },
+        {
+          "title": "Another late-night Trump trade twist \u2014 just hours before the world hit go",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/another-late-night-trump-trade-twist-hours-before-the-world-hit-go.html",
+          "snippet": "2025-08-01: Another late-night Trump trade twist \u2014 just hours before the world hit go: Trump\u2019s late-night tariff moves have become a hallmark, catching markets off guard, reshaping deals, and forcing ",
+          "guid": "108180251"
+        },
+        {
+          "title": "Trump 'losing' trade war with China going in to Xi meeting, Senate Democrats say in report",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/trump-trade-china-warren-democrats-inflation-xi.html",
+          "snippet": "2025-10-29: Trump 'losing' trade war with China going in to Xi meeting, Senate Democrats say in report: \\Trump needs to change course on his trade war with China now and stop hurting American families",
+          "guid": "108218477"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "da95e706-3c52-40b4-b5f6-666c0720727e",
+      "label": "European stock market trends",
+      "spike_ratio": 1.105,
+      "article_count": 14,
+      "rag_answer": "European stock markets have shown a generally positive trend, with several instances of closing higher and reaching record highs throughout 2025 and early 2026. Notably, European stocks extended gains following record highs on Wall Street and have been buoyed by strong corporate earnings, such as those from Nvidia, which alleviated concerns over an AI bubble. However, there are fluctuations, as seen in December 2025 when markets closed soft ahead of a Federal Reserve meeting, and defense stocks faced losses amid hopes for a ceasefire in Ukraine. Overall, while there are positive developments, market sentiment remains sensitive to global events and economic indicators.",
+      "rag_sources": [
+        {
+          "title": "European stocks extend gains after Wall Street\u2019s record highs",
+          "date": "2025-08-13",
+          "link": "https://www.cnbc.com/2025/08/13/europe-markets-live-ftse-100-dax-renk-earnings-european-stocks.html",
+          "snippet": "2025-08-13: European stocks extend gains after Wall Street\u2019s record highs: Join CNBC for live updates on what's making European markets move.",
+          "guid": "108185108"
+        },
+        {
+          "title": "European stocks close soft as global investors look ahead to Fed meeting",
+          "date": "2025-12-05",
+          "link": "https://www.cnbc.com/2025/12/05/stoxx-600-ftse-100-on-dec-5-fed-meeting-ukraine-deal-in-focus.html",
+          "snippet": "2025-12-05: European stocks close soft as global investors look ahead to Fed meeting: Europe-listed shares were broadly higher on Friday but straddled the flatline at close.",
+          "guid": "108237119"
+        },
+        {
+          "title": "European stocks end positive after touching fresh record high",
+          "date": "2025-10-03",
+          "link": "https://www.cnbc.com/2025/10/03/europe-markets-oct-3-ftse-100-stoxx-600-tech-stocks.html",
+          "snippet": "2025-10-03: European stocks end positive after touching fresh record high: European stocks closed higher on Friday, building on momentum that has seen regional indexes hit new record highs this week.",
+          "guid": "108207333"
+        },
+        {
+          "title": "European markets finish higher as traders track Middle East turmoil",
+          "date": "2026-03-04",
+          "link": "https://www.cnbc.com/2026/03/04/european-markets-stoxx-600-ftse-dax-oil-prices-middle-east-latest.html",
+          "snippet": "2026-03-04: European markets finish higher as traders track Middle East turmoil: European stocks closed higher on Wednesday as markets continue to track developments in the Middle East.",
+          "guid": "108272722"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "63e7bf23-b3e8-4620-91c5-d03dab82245b",
+      "label": "H-1B Visa Policy Changes",
+      "spike_ratio": 1.094,
+      "article_count": 21,
+      "rag_answer": "The Trump administration has implemented significant changes to the H-1B visa policy, notably introducing a $100,000 fee for each visa, which has caused chaos among companies, particularly in the tech sector. This fee aims to encourage the hiring of domestic workers but has raised concerns among startups and established firms alike about the potential financial burden and its impact on talent acquisition. Additionally, new regulations involving social media checks and wage protection rules are further complicating the application process for H-1B visa holders. Overall, these changes are likely to disrupt the labor market, particularly in technology, and may shift the competitive landscape for global talent, potentially benefiting regions like the Middle East.",
+      "rag_sources": [
+        {
+          "title": "Here's everything Trump is changing with H-1B visas",
+          "date": "2025-09-22",
+          "link": "https://www.cnbc.com/2025/09/22/everything-trump-is-changing-with-h1b-visas.html",
+          "snippet": "2025-09-22: Here's everything Trump is changing with H-1B visas: President Donald Trump raised the fee for an H-1B visa to $100,000 on Friday, leaving companies scrambling to respond.",
+          "guid": "108202195"
+        },
+        {
+          "title": "H-1B visa applicants face more disruptions amid social media checks and wage protection rules",
+          "date": "2025-12-23",
+          "link": "https://www.cnbc.com/2025/12/23/h-1b-visa-applicants-face-more-disruptions-amid-social-media-checks.html",
+          "snippet": "2025-12-23: H-1B visa applicants face more disruptions amid social media checks and wage protection rules: The U.S. administration has lined up a slew of actions to restrict the use of H-1B visas by b",
+          "guid": "108245067"
+        },
+        {
+          "title": "Trump's H-1B visa fee sparks chaos and confusion among Chinese talents in the U.S.",
+          "date": "2025-09-22",
+          "link": "https://www.cnbc.com/2025/09/22/trumps-h-1b-visa-fee-sparks-chaos-and-confusion-among-chinese-talents-in-the-us.html",
+          "snippet": "2025-09-22: Trump's H-1B visa fee sparks chaos and confusion among Chinese talents in the U.S.: The visa fee change marked the Trump administration's most aggressive step yet to curb immigration, part",
+          "guid": "108201798"
+        },
+        {
+          "title": "These are the U.S. states with the most \u2014 and the least \u2014 H-1B visa applications and renewals",
+          "date": "2025-09-20",
+          "link": "https://www.cnbc.com/2025/09/20/h-1b-visa-applications-renewals-by-state.html",
+          "snippet": "2025-09-20: These are the U.S. states with the most \u2014 and the least \u2014 H-1B visa applications and renewals: The Trump administration plans to impose a $100,000 charge for H-1B worker visas in a move th",
+          "guid": "108201654"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "6cfbafc7-cfd5-4a00-ad72-313a521c3ad7",
+      "label": "French Political Crisis",
+      "spike_ratio": 1.078,
+      "article_count": 11,
+      "rag_answer": "France is currently experiencing a significant political crisis marked by the resignation of Prime Minister Sebastien Lecornu after just 27 days in office, leading to uncertainty about the future leadership. President Macron faces pressure to either appoint a new Prime Minister, call for new parliamentary elections, or resign, as his allies, including former Prime Minister Gabriel Attal, have begun to openly criticize him. This turmoil has resulted in a decline in the CAC 40 index and has led strategists to advise avoiding investments in banks and telecommunications, indicating a broader concern about the stability of domestic-facing stocks in France. Overall, the political instability is contributing to a climate of uncertainty in European markets.",
+      "rag_sources": [
+        {
+          "title": "France is plunged further into political crisis. Here\u2019s what could happen next",
+          "date": "2025-10-07",
+          "link": "https://www.cnbc.com/2025/10/07/what-happens-next-in-france-after-lecornus-resignation.html",
+          "snippet": "2025-10-07: France is plunged further into political crisis. Here\u2019s what could happen next: Macron now has to choose a new PM, opt for new parliamentary elections or resign.",
+          "guid": "108207986"
+        },
+        {
+          "title": "France's crisis takes an unexpected turn as Macron's allies defy him",
+          "date": "2025-10-08",
+          "link": "https://www.cnbc.com/2025/10/08/frances-crisis-takes-an-unexpected-turn-as-macrons-allies-defy-him.html",
+          "snippet": "2025-10-08: France's crisis takes an unexpected turn as Macron's allies defy him: The most notable criticism has come from former Prime Minister Gabriel Attal, once Macron's prot\u00e9g\u00e9.",
+          "guid": "108209228"
+        },
+        {
+          "title": "France's political crisis deepens as another PM is axed: Here's what happens next",
+          "date": "2025-09-09",
+          "link": "https://www.cnbc.com/2025/09/09/what-happens-next-in-france-after-another-pm-is-ousted.html",
+          "snippet": "2025-09-09: France's political crisis deepens as another PM is axed: Here's what happens next: CNBC takes a look at what could happen next in France after the ousting of yet another prime minister.",
+          "guid": "108195888"
+        },
+        {
+          "title": "French PM resigns after 27 days sparking fresh political chaos",
+          "date": "2025-10-06",
+          "link": "https://www.cnbc.com/2025/10/06/frances-new-pm-resigns-as-political-chaos-continues.html",
+          "snippet": "2025-10-06: French PM resigns after 27 days sparking fresh political chaos: France's new Prime Minister Sebastien Lecornu has resigned just weeks after his appointment to the role, plunging the countr",
+          "guid": "108207973"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

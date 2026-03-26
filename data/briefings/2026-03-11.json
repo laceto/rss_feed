@@ -1,0 +1,220 @@
+{
+  "date": "2026-03-11",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "28ef7e58-6eec-468d-9e07-36e059f3bd97",
+      "label": "AI Investment and Valuation Trends",
+      "spike_ratio": 1.528,
+      "article_count": 22,
+      "rag_answer": "AI investment is currently experiencing significant volatility, with growing concerns about a potential tech bubble as valuations for AI stocks come under scrutiny. Prominent investors, such as Orlando Bravo and Ray Dalio, have suggested that certain software stocks may deserve valuation cuts due to the inflated expectations surrounding AI. Fund managers are cautious, indicating that while AI spending continues to rise, they are wary of stretched valuations and are closely monitoring market positioning. Despite these concerns, there are still opportunities in the AI supply chain, particularly among lesser-known companies that support the sector.",
+      "rag_sources": [
+        {
+          "title": "AI valuation fears grip global investors as tech bubble concerns grow",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/ai-valuation-fears-grip-investors-as-tech-bubble-concerns-heighten.html",
+          "snippet": "2025-11-07: AI valuation fears grip global investors as tech bubble concerns grow: The recent slide among AI stocks has once again put fears of a tech bubble at the forefront of investors' minds.",
+          "guid": "108222913"
+        },
+        {
+          "title": "Orlando Bravo says some software names hit by AI deserve a valuation cut",
+          "date": "2026-03-17",
+          "link": "https://www.cnbc.com/2026/03/17/orlando-bravo-software-ai-valuation-cut.html",
+          "snippet": "2026-03-17: Orlando Bravo says some software names hit by AI deserve a valuation cut: The Thoma Bravo co-founder said that some of the software stocks getting hit by the AI wave deserve a lower valuat",
+          "guid": "108279068"
+        },
+        {
+          "title": "Fund managers reveal their bubble recipes and what to watch for as AI stocks soar",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/30/fund-managers-reveal-their-bubble-recipes-and-what-to-watch-for-as-ai-stocks-soar.html",
+          "snippet": "2025-10-29: Fund managers reveal their bubble recipes and what to watch for as AI stocks soar: \\Fundamentals and valuations can only be ignored for so long,\\\" one portfolio manager told CNBC.\"",
+          "guid": "108217900"
+        },
+        {
+          "title": "How fund managers are investing for the fourth quarter as AI bubble talk swirls",
+          "date": "2025-10-12",
+          "link": "https://www.cnbc.com/2025/10/13/how-fund-managers-are-investing-for-the-fourth-quarter-as-ai-bubble-talk-swirls.html",
+          "snippet": "2025-10-12: How fund managers are investing for the fourth quarter as AI bubble talk swirls: \\We are, however, wary of positioning, and remain watchful of stretched valuations,\\\" one fund manager told",
+          "guid": "108209800"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "37bac5c5-f756-48e8-a4f0-f5458902018d",
+      "label": "AI Disruption Fears in Markets",
+      "spike_ratio": 1.429,
+      "article_count": 56,
+      "rag_answer": "AI disruption fears are significantly impacting various sectors, particularly software and cybersecurity stocks, leading to a notable sell-off as investors grapple with concerns over a potential tech bubble. The release of new AI tools has intensified worries about the viability of the software-as-a-service (SaaS) business model, prompting discussions about an \"existential\" crisis in the software industry. Analysts warn that the rapid transformation driven by AI could also trigger broader market shocks, including potential disruptions in credit markets. Overall, these developments indicate a growing anxiety among investors about the sustainability of AI valuations and the broader implications for the tech sector.",
+      "rag_sources": [
+        {
+          "title": "AI valuation fears grip global investors as tech bubble concerns grow",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/ai-valuation-fears-grip-investors-as-tech-bubble-concerns-heighten.html",
+          "snippet": "2025-11-07: AI valuation fears grip global investors as tech bubble concerns grow: The recent slide among AI stocks has once again put fears of a tech bubble at the forefront of investors' minds.",
+          "guid": "108222913"
+        },
+        {
+          "title": "AI fears pummel software stocks: Is it 'illogical' panic or a SaaS apocalypse?",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/ai-anthropic-tools-saas-software-stocks-selloff.html",
+          "snippet": "2026-02-06: AI fears pummel software stocks: Is it 'illogical' panic or a SaaS apocalypse?: The software space is facing serious market concerns this week, after the release of new AI tools from AI tr",
+          "guid": "108261773"
+        },
+        {
+          "title": "Cybersecurity stock selling deepens on AI threat concerns. Why we're not bailing",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/23/cybersecurity-stock-selling-deepens-on-ai-threat-concerns-why-were-not-bailing.html",
+          "snippet": "2026-02-23: Cybersecurity stock selling deepens on AI threat concerns. Why we're not bailing: AI disruption fears spark sell-off in cyber, but the market is overlooking the sector's fundamentals",
+          "guid": "108268610"
+        },
+        {
+          "title": "Global software stocks extend losses amid fears over AI-led disruption",
+          "date": "2026-02-04",
+          "link": "https://www.cnbc.com/2026/02/04/software-stocks-plunge-us-ai-disruption.html",
+          "snippet": "2026-02-04: Global software stocks extend losses amid fears over AI-led disruption: Wall Street's fears around artificial intelligence-driven disruption affecting software companies made their way to ",
+          "guid": "108261128"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "0009838e-5b99-4f23-b3c0-d85cafc96a09",
+      "label": "U.S.-Iran Tensions and Oil Prices",
+      "spike_ratio": 1.419,
+      "article_count": 88,
+      "rag_answer": "U.S.-Iran tensions have escalated significantly, leading to volatile oil prices. Following reports of military strikes and the collapse of nuclear talks, oil prices surged, with U.S. crude oil reaching over $80 per barrel as fears of supply disruptions grew. The ongoing conflict has created a ripple effect in global markets, causing fluctuations in consumer costs and highlighting concentration risks in emerging markets. As negotiations resume, traders remain cautious, closely monitoring developments that could further impact oil supply and prices.",
+      "rag_sources": [
+        {
+          "title": "Oil pulls back as U.S.\u2013Iran talks set to resume: Here\u2019s where negotiations stand",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/23/iran-us-talks-oil-falls-nuclear-negotiations.html",
+          "snippet": "2026-02-23: Oil pulls back as U.S.\u2013Iran talks set to resume: Here\u2019s where negotiations stand: Tensions have remained on high alert throughout the Middle East for weeks after U.S. President Donald Trum",
+          "guid": "108268317"
+        },
+        {
+          "title": "Oil jumps 4% after Vance says Iran ignored key U.S. demands, military strikes on the table",
+          "date": "2026-02-18",
+          "link": "https://www.cnbc.com/2026/02/18/oil-prices-today-iran-trump-nuclear-talks.html",
+          "snippet": "2026-02-18: Oil jumps 4% after Vance says Iran ignored key U.S. demands, military strikes on the table: Oil traders are worried that war between the U.S. and Iran could lead to a major disruption of c",
+          "guid": "108266679"
+        },
+        {
+          "title": "Here's how the U.S.-Iran war is already hitting consumers' pocketbooks",
+          "date": "2026-03-06",
+          "link": "https://www.cnbc.com/2026/03/06/us-iran-war-gas-mortgage-markets.html",
+          "snippet": "2026-03-06: Here's how the U.S.-Iran war is already hitting consumers' pocketbooks: The U.S.-Israeli strikes on Iran over the weekend gave way to a week with topsy-turvy markets, spiking mortgage rate",
+          "guid": "108274411"
+        },
+        {
+          "title": "Oil prices steady as traders monitor Iran tensions, U.S. economic data",
+          "date": "2026-02-10",
+          "link": "https://www.cnbc.com/2026/02/10/oil-drifts-lower-as-traders-weigh-supply-risks-amid-usiran-tensions.html",
+          "snippet": "2026-02-10: Oil prices steady as traders monitor Iran tensions, U.S. economic data: Oil prices eased slightly on Tuesday after U.S. guidance for vessels transiting the Strait of Hormuz kept attention ",
+          "guid": "108263647"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "ee1ad4d1-8648-438c-b36e-c7ec3a2fa38c",
+      "label": "Trump tariffs Supreme Court ruling",
+      "spike_ratio": 1.115,
+      "article_count": 29,
+      "rag_answer": "The U.S. Supreme Court has struck down significant portions of President Trump's tariffs, a ruling that could potentially lead to $175 billion in refunds for affected companies. This decision has been described as a major setback for Trump, whose economic policies heavily relied on these tariffs. While U.S. trading partners have welcomed the ruling, businesses are now faced with uncertainty as they navigate the implications of this legal change. The ruling is expected to have far-reaching effects on the economy and markets as they adjust to the new landscape.",
+      "rag_sources": [
+        {
+          "title": "Supreme Court Trump tariffs ruling could put U.S. on hook for $175 billion in refunds, estimate says",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/supreme-court-trump-tariffs-us-refunds.html",
+          "snippet": "2026-02-20: Supreme Court Trump tariffs ruling could put U.S. on hook for $175 billion in refunds, estimate says: Supreme Court Justice Brett Kavanaugh, in his dissent, warned that \\the refund process",
+          "guid": "108267896"
+        },
+        {
+          "title": "Watch: Trump speaks after Supreme Court strikes down tariffs ",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/trump-supreme-court-tariffs-white-house.html",
+          "snippet": "2026-02-20: Watch: Trump speaks after Supreme Court strikes down tariffs: The Supreme Court ruling is a major blow to Trump, whose economic and foreign policies leaned on his asserted power to unilate",
+          "guid": "108267984"
+        },
+        {
+          "title": "President Trump's tariffs fueled U.S. Customs bond market boom. Now billions hang on Supreme Court ruling",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/supreme-court-trump-tariffs-case-decision-refunds-customs-bonds.html",
+          "snippet": "2026-02-06: President Trump's tariffs fueled U.S. Customs bond market boom. Now billions hang on Supreme Court ruling: Companies are anxious for Supreme Court ruling on Trump tariffs, but in addition ",
+          "guid": "108257085"
+        },
+        {
+          "title": "Trump insists trade deals safe after Supreme Court ruling upends tariff authority, but partners aren\u2019t so sure",
+          "date": "2026-02-26",
+          "link": "https://www.cnbc.com/2026/02/26/trump-state-of-the-union-supreme-court-tariffs-trade-deals-ieepa-section-301-232-122.html",
+          "snippet": "2026-02-26: Trump insists trade deals safe after Supreme Court ruling upends tariff authority, but partners aren\u2019t so sure: The Supreme Court decision to strike down Trump's tariffs has thrown fresh c",
+          "guid": "108268905"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "2e955eac-a74a-4c42-be9f-b871d12feb52",
+      "label": "Market Trends and Stock Movements",
+      "spike_ratio": 1.098,
+      "article_count": 18,
+      "rag_answer": "The stock market has experienced significant volatility, with benchmarks reaching record highs due to easing inflation, strong corporate earnings, and expectations of U.S. rate cuts. However, recent sentiment has reversed, indicating potential concerns about an economic slowdown, which could lead to a stagflation environment. Despite this, certain stocks continue to show resilience and make notable midday moves, suggesting that opportunities may still exist for investors. Overall, the market is navigating a complex landscape of optimism and caution, requiring careful consideration before trading.",
+      "rag_sources": [
+        {
+          "title": "Stock market swings got you reeling? Answer these 6 questions before making a trade",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/stock-market-swings-got-you-reeling-answering-6-questions-will-help.html",
+          "snippet": "2025-11-28: Stock market swings got you reeling? Answer these 6 questions before making a trade: Frustrating as volatility can be, it also tends to present opportunities.",
+          "guid": "108232626"
+        },
+        {
+          "title": "Stock benchmarks are scaling record highs: 'Animal spirits are soaring' ",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/stock-benchmarks-are-scaling-record-highs-animal-spirits-are-soaring-.html",
+          "snippet": "2025-09-11: Stock benchmarks are scaling record highs: 'Animal spirits are soaring': Easing inflation pressures,\u00a0resilient corporate earnings and expectations for U.S. rate cuts have boosted investor ",
+          "guid": "108197275"
+        },
+        {
+          "title": "Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward",
+          "date": "2025-12-26",
+          "link": "https://www.cnbc.com/2025/12/26/market-sentiment-has-made-a-huge-reversal-heres-why-and-what-it-means-going-forward.html",
+          "snippet": "2025-12-26: Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward: Something unusual happened in the past few weeks.",
+          "guid": "108245814"
+        },
+        {
+          "title": "Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel",
+          "date": "2025-08-11",
+          "link": "https://www.cnbc.com/2025/08/11/stock-market-party-to-be-ruined-by-sudden-economic-slowdown-says-stifel.html",
+          "snippet": "2025-08-11: Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel: The market could be in for a stagflation environment, the firm said.",
+          "guid": "108184067"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "date": "2026-01-06",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "2e955eac-a74a-4c42-be9f-b871d12feb52",
+      "label": "Market Trends and Stock Movements",
+      "spike_ratio": 1.533,
+      "article_count": 23,
+      "rag_answer": "The stock market has experienced significant volatility, with benchmarks reaching record highs due to easing inflation, strong corporate earnings, and expectations of U.S. rate cuts. However, recent sentiment has reversed, indicating potential concerns about an economic slowdown, as suggested by Stifel's warning of a possible stagflation environment. Despite this, certain sectors, particularly AI and retail favorites, have shown resilience, pushing stocks to new highs. Investors are advised to carefully assess market conditions before making trades, as opportunities may arise amidst the fluctuations.",
+      "rag_sources": [
+        {
+          "title": "Stock market swings got you reeling? Answer these 6 questions before making a trade",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/stock-market-swings-got-you-reeling-answering-6-questions-will-help.html",
+          "snippet": "2025-11-28: Stock market swings got you reeling? Answer these 6 questions before making a trade: Frustrating as volatility can be, it also tends to present opportunities.",
+          "guid": "108232626"
+        },
+        {
+          "title": "Stock benchmarks are scaling record highs: 'Animal spirits are soaring' ",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/stock-benchmarks-are-scaling-record-highs-animal-spirits-are-soaring-.html",
+          "snippet": "2025-09-11: Stock benchmarks are scaling record highs: 'Animal spirits are soaring': Easing inflation pressures,\u00a0resilient corporate earnings and expectations for U.S. rate cuts have boosted investor ",
+          "guid": "108197275"
+        },
+        {
+          "title": "Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward",
+          "date": "2025-12-26",
+          "link": "https://www.cnbc.com/2025/12/26/market-sentiment-has-made-a-huge-reversal-heres-why-and-what-it-means-going-forward.html",
+          "snippet": "2025-12-26: Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward: Something unusual happened in the past few weeks.",
+          "guid": "108245814"
+        },
+        {
+          "title": "Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel",
+          "date": "2025-08-11",
+          "link": "https://www.cnbc.com/2025/08/11/stock-market-party-to-be-ruined-by-sudden-economic-slowdown-says-stifel.html",
+          "snippet": "2025-08-11: Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel: The market could be in for a stagflation environment, the firm said.",
+          "guid": "108184067"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "a458a52d-f90b-4caa-ab7b-69b8d65e353a",
+      "label": "Housing market challenges 2026",
+      "spike_ratio": 1.271,
+      "article_count": 15,
+      "rag_answer": "In 2026, the housing market is facing significant challenges, including rising mortgage rates and ongoing affordability issues. A housing affordability package is advancing in Congress, aimed at reducing regulations for homebuilders and incentivizing local governments, but an investor ban on buying homes has stalled this legislation. Despite some optimism from real estate agents about a market balance, home prices and mortgage rates are expected to remain elevated, which could hinder recovery and exacerbate affordability concerns. Overall, these factors suggest a continued struggle for the housing market amid economic headwinds.",
+      "rag_sources": [
+        {
+          "title": "Housing to remain weakest part of economy, falling 8% in the second half, Goldman says",
+          "date": "2025-08-04",
+          "link": "https://www.cnbc.com/2025/08/04/housing-to-remain-weakest-part-of-economy-in-the-2nd-half-goldman-says.html",
+          "snippet": "2025-08-04: Housing to remain weakest part of economy, falling 8% in the second half, Goldman says: The Wall Street investment bank named immigration and affordability challenges as two obstacles stan",
+          "guid": "108181055"
+        },
+        {
+          "title": "Novo Nordisk faces a defining year in the obesity drug market. It\u2019s off to a dramatic start  ",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/novo-nordisk-faces-defining-year-in-the-obesity-drug-market.html",
+          "snippet": "2026-02-11: Novo Nordisk faces a defining year in the obesity drug market. It\u2019s off to a dramatic start: The Danish drugmaker kicked off 2026 with its explosive obesity pill launch, but recent challen",
+          "guid": "108264597"
+        },
+        {
+          "title": "The spring housing market is on, but mortgage rates just shot higher. Here's what to know.",
+          "date": "2026-03-20",
+          "link": "https://www.cnbc.com/2026/03/20/spring-housing-market-mortgage-rates.html",
+          "snippet": "2026-03-20: The spring housing market is on, but mortgage rates just shot higher. Here's what to know.: This spring's housing market is on, but economic headwinds are pushing back most of the advantag",
+          "guid": "108280855"
+        },
+        {
+          "title": "Housing affordability package set to advance in Congress amid home-cost concerns",
+          "date": "2026-02-10",
+          "link": "https://www.cnbc.com/2026/02/09/housing-affordability-prices-congress.html",
+          "snippet": "2026-02-10: Housing affordability package set to advance in Congress amid home-cost concerns: Wide-ranging legislation would reduce regulations for homebuilders while giving local governments incentiv",
+          "guid": "108262990"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "5a598585-4aae-4389-91d8-c8e8c6593f83",
+      "label": "Midday Stock Movements",
+      "spike_ratio": 1.085,
+      "article_count": 23,
+      "rag_answer": "Midday stock movements have shown significant volatility, with various companies consistently making notable moves in the market. Recent reports highlight stocks like Newmont, Apple, and Sandisk experiencing substantial midday fluctuations, indicating active trading and investor interest. This pattern suggests a dynamic market environment where specific sectors or companies may be responding to broader economic indicators or company-specific news. Overall, these midday movements reflect ongoing investor sentiment and could signal potential opportunities or risks in the market.",
+      "rag_sources": [
+        {
+          "title": "Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/stocks-making-the-biggest-moves-midday-nem-aapl-sndk-deck.html",
+          "snippet": "2026-01-30: Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more: These are the stocks posting the largest moves midday.",
+          "guid": "108259667"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more",
+          "date": "2025-10-15",
+          "link": "https://www.cnbc.com/2025/10/15/stocks-making-the-biggest-moves-midday-bac-ms-bg-pgr.html",
+          "snippet": "2025-10-15: Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108212417"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more",
+          "date": "2025-09-18",
+          "link": "https://www.cnbc.com/2025/09/18/stocks-making-the-biggest-moves-midday-intc-nvo-blsh-all.html",
+          "snippet": "2025-09-18: Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more: These are the stocks posting the largest moves midday.",
+          "guid": "108200831"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: UnitedHealth, Applied Materials, Sandisk and more",
+          "date": "2025-08-15",
+          "link": "https://www.cnbc.com/2025/08/15/stocks-making-big-moves-midday-unh-amat-sndk-csco-evlv-flo-.html",
+          "snippet": "2025-08-15: Stocks making the biggest moves midday: UnitedHealth, Applied Materials, Sandisk and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108186615"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "6f4d5659-f892-4496-beca-d13f8fdabac6",
+      "label": "Precious Metals Market Trends",
+      "spike_ratio": 1.048,
+      "article_count": 13,
+      "rag_answer": "The precious metals market has experienced significant volatility, with gold and silver reaching fresh highs multiple times in late December 2025 and early January 2026, driven by various geopolitical factors and market sentiment shifts. However, this upward trend faced challenges, including a notable selloff and subsequent rebounds, as well as margin increases imposed by the CME, which led to price declines at the end of December 2025. Analysts are questioning the sustainability of these record highs, suggesting potential instability in the market. Overall, while the precious metals have shown resilience and strong annual gains, the market dynamics indicate a complex environment influenced by external factors and investor sentiment.",
+      "rag_sources": [
+        {
+          "title": "Silver rebounds 7% from worst day in 4 years as metal's roller-coaster end to a big year continues",
+          "date": "2025-12-30",
+          "link": "https://www.cnbc.com/2025/12/30/silver-price-soars-capping-stellar-year-precious-metals.html",
+          "snippet": "2025-12-30: Silver rebounds 7% from worst day in 4 years as metal's roller-coaster end to a big year continues: The precious metal rally continued Tuesday as gold and silver recovered from Monday's se",
+          "guid": "108246534"
+        },
+        {
+          "title": "Gold and silver reach fresh highs for second day running \u2014 and could keep climbing",
+          "date": "2025-12-23",
+          "link": "https://www.cnbc.com/2025/12/23/gold-and-silver-reach-fresh-highs-for-second-day-running.html",
+          "snippet": "2025-12-23: Gold and silver reach fresh highs for second day running \u2014 and could keep climbing: David Neuhauser, CIO at Livermore Partners, told CNBC's \\Access Middle East\\\" that gold has more room to",
+          "guid": "108245152"
+        },
+        {
+          "title": "Gold and silver rebound, pulling global mining stocks and precious metal ETFs higher",
+          "date": "2026-02-03",
+          "link": "https://www.cnbc.com/2026/02/03/gold-and-silver-rebound-after-historic-wipeout-as-analysts-say-thematic-drivers-stay-intact-.html",
+          "snippet": "2026-02-03: Gold and silver rebound, pulling global mining stocks and precious metal ETFs higher: Gold and silver prices rebounded after suffering a historic selloff, with analysts suggesting that the",
+          "guid": "108260508"
+        },
+        {
+          "title": "Gold, silver prices fall after CME raises precious metals margins \u2014 again",
+          "date": "2025-12-31",
+          "link": "https://www.cnbc.com/2025/12/31/gold-and-silver-prices-fall-after-cme-raises-precious-metals-margins.html",
+          "snippet": "2025-12-31: Gold, silver prices fall after CME raises precious metals margins \u2014 again: The moves come at the end of a blockbuster year of annual gains for the precious metals.",
+          "guid": "108247001"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "409ca803-01f1-4349-8222-0e0c6aee0ccc",
+      "label": "Ukraine peace talks and Trump",
+      "spike_ratio": 1.037,
+      "article_count": 28,
+      "rag_answer": "Recent developments in Ukraine peace talks indicate a complex and evolving situation involving U.S. President Donald Trump and Ukrainian President Volodymyr Zelenskyy. Trump has oscillated in his support for Ukraine, initially promising security guarantees but later suggesting a division of Ukraine with Russia. Despite these tensions, reports suggest Ukraine has agreed to a U.S.-brokered peace proposal, with Trump claiming that a peace deal is \"very close.\" The market implications could include increased volatility in defense and energy sectors, as well as potential shifts in investor sentiment depending on the outcomes of these negotiations and their impact on regional stability.",
+      "rag_sources": [
+        {
+          "title": "Ukraine desperate to keep Trump on its side in peace talks, while saving its sovereignty",
+          "date": "2025-11-24",
+          "link": "https://www.cnbc.com/2025/11/24/ukraine-desperate-to-keep-trump-sweet-while-saving-its-sovereignty.html",
+          "snippet": "2025-11-24: Ukraine desperate to keep Trump on its side in peace talks, while saving its sovereignty: Talks between U.S. and Ukrainian officials were held this weekend after it emerged that Russia and",
+          "guid": "108230764"
+        },
+        {
+          "title": "Watch live: Trump and Zelenskyy meet with European leaders ",
+          "date": "2025-08-18",
+          "link": "https://www.cnbc.com/2025/08/18/trump-zelenskyy-ukraine-putin-live-updates.html",
+          "snippet": "2025-08-18: Watch live: Trump and Zelenskyy meet with European leaders: Trump and Ukraine's Volodymyr Zelenskyy are meeting with European leaders and NATO allies in an unprecedented effort to reach a ",
+          "guid": "108187127"
+        },
+        {
+          "title": "Ukraine\u2019s Zelenskyy says Kyiv \u2018geared up for clear and honest work\u2019 as U.S. pushes for progress on peace plan",
+          "date": "2025-11-21",
+          "link": "https://www.cnbc.com/2025/11/21/ukraine-peace-plan-zelenskyy-to-speak-with-trump-on-deal-to-end-war.html",
+          "snippet": "2025-11-21: Ukraine\u2019s Zelenskyy says Kyiv \u2018geared up for clear and honest work\u2019 as U.S. pushes for progress on peace plan: Ukrainian President Volodymyr Zelenskyy said he expects to speak with U.S. co",
+          "guid": "108229758"
+        },
+        {
+          "title": "Trump says \u2018a lot closer\u2019 to Ukraine peace deal after Zelenskyy meeting, though thorny issues remain",
+          "date": "2025-12-28",
+          "link": "https://www.cnbc.com/2025/12/28/trump-zelenskyy-ukraine.html",
+          "snippet": "2025-12-28: Trump says \u2018a lot closer\u2019 to Ukraine peace deal after Zelenskyy meeting, though thorny issues remain: Ukrainian President Volodymyr Zelenskyy\u00a0was scheduled to arrive at Mar-a-Lago in Presi",
+          "guid": "108246060"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

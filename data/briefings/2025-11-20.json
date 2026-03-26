@@ -1,0 +1,212 @@
+{
+  "date": "2025-11-20",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "d97cc01c-d127-4ef1-93ea-09d558cd6a60",
+      "label": "Tech Stock Volatility",
+      "spike_ratio": 1.513,
+      "article_count": 36,
+      "rag_answer": "Tech stocks have been experiencing significant volatility, leading to notable sell-offs, particularly as tensions over geopolitical issues, such as those related to Greenland, have escalated. In January 2026, tech stocks led declines on Wall Street, indicating a risk-off sentiment among investors. Additionally, the market is witnessing a shift in focus, with discussions around a potential rotation from growth and technology stocks into value and defensive sectors. This volatility is compounded by external factors, including trade rhetoric and economic uncertainties, which could impact investor confidence and market stability.",
+      "rag_sources": [
+        {
+          "title": "Stock market swings got you reeling? Answer these 6 questions before making a trade",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/stock-market-swings-got-you-reeling-answering-6-questions-will-help.html",
+          "snippet": "2025-11-28: Stock market swings got you reeling? Answer these 6 questions before making a trade: Frustrating as volatility can be, it also tends to present opportunities.",
+          "guid": "108232626"
+        },
+        {
+          "title": "Big Tech is poaching energy talent to fuel its AI ambitions",
+          "date": "2026-01-14",
+          "link": "https://www.cnbc.com/2026/01/14/big-tech-google-microsoft-energy-hiring-ai.html",
+          "snippet": "2026-01-14: Big Tech is poaching energy talent to fuel its AI ambitions: Hires of energy-related talent by Big Tech was 30% higher in 2025 than pre-AI levels.",
+          "guid": "108250479"
+        },
+        {
+          "title": "Tech giants commit billions to Indian AI as New Delhi pushes for superpower status",
+          "date": "2026-02-21",
+          "link": "https://www.cnbc.com/2026/02/21/india-ai-summit-tech-giants-billion-dollar-investments.html",
+          "snippet": "2026-02-21: Tech giants commit billions to Indian AI as New Delhi pushes for superpower status: Tech and world leaders flocked to New Delhi for the India AI Impact Summit",
+          "guid": "108267201"
+        },
+        {
+          "title": "Tech stocks lead Wall Street sell-off as tensions over Greenland escalate",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/tech-stocks-lead-wall-street-sell-off-as-tensions-over-greenland-escalate.html",
+          "snippet": "2026-01-20: Tech stocks lead Wall Street sell-off as tensions over Greenland escalate: Tech stocks led declines Tuesday as renewed trade rhetoric tied to Greenland fueled a risk-off move across U.S. m",
+          "guid": "108254143"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "c127eb26-2c6e-40a3-ad59-ffc4c86ae198",
+      "label": "Robotaxi Developments in China and Beyond",
+      "spike_ratio": 1.071,
+      "article_count": 12,
+      "rag_answer": "Robotaxi developments are rapidly advancing in China and globally, with significant milestones achieved in 2025. Shanghai has allowed fully autonomous taxis to charge fares, while Chinese EV maker Xpeng is entering the market with its own robotaxis and AI technology. Baidu reported that its weekly robotaxi rides reached 250,000, matching Alphabet's Waymo, indicating a competitive landscape. As companies like Waymo and Tesla expand their services internationally, the robotaxi industry is approaching a tipping point, suggesting strong growth potential and increased competition in the autonomous vehicle market.",
+      "rag_sources": [
+        {
+          "title": "Robotaxis are becoming a reality. Who\u2019s poised to win in China and beyond",
+          "date": "2025-08-04",
+          "link": "https://www.cnbc.com/2025/08/03/robotaxis-are-becoming-a-reality-whos-poised-to-win-in-china-and-beyond.html",
+          "snippet": "2025-08-04: Robotaxis are becoming a reality. Who\u2019s poised to win in China and beyond: Shanghai in late July became the latest region in China to allow fully autonomous taxis to charge fares in parts ",
+          "guid": "108180117"
+        },
+        {
+          "title": "Chinese EV maker Xpeng to launch robotaxis, humanoid robots with self-developed AI chips",
+          "date": "2025-11-05",
+          "link": "https://www.cnbc.com/2025/11/05/china-xpeng-to-launch-robotaxis-humanoid-robots-with-own-ai-chips.html",
+          "snippet": "2025-11-05: Chinese EV maker Xpeng to launch robotaxis, humanoid robots with self-developed AI chips: Chinese electric car company Xpeng is following in Tesla's footsteps by moving into robotaxis and ",
+          "guid": "108221540"
+        },
+        {
+          "title": "\u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises",
+          "date": "2025-11-20",
+          "link": "https://www.cnbc.com/2025/11/20/global-robotaxi-race-heats-up-between-us-and-chinese-rivals.html",
+          "snippet": "2025-11-20: \u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises: Global tech executives in recent weeks have proclaimed the robotaxi industry is finally nea",
+          "guid": "108226580"
+        },
+        {
+          "title": "Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/waymo-amazon-zoox-tesla-robotaxi-expansion.html",
+          "snippet": "2025-12-16: Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line: Robotaxis grew rapidly in 2025 with Waymo expanding fastest, Zoox debuting public rides and Tesla ",
+          "guid": "108236372"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "cf0758b1-cf0a-48ed-9bd3-2c43cf2d9bcb",
+      "label": "2026 Tax and Benefit Changes",
+      "spike_ratio": 1.045,
+      "article_count": 14,
+      "rag_answer": "In 2026, Social Security beneficiaries will see a 2.8% increase in their benefits, providing some financial relief for retirees. Additionally, the IRS has announced higher federal income tax brackets and standard deductions, which could lead to slightly larger paychecks for many taxpayers. A new $6,000 senior deduction is also being introduced, offering significant tax savings for older couples. These changes may influence consumer spending, particularly in sectors like auto sales, as higher tax refunds could encourage purchases.",
+      "rag_sources": [
+        {
+          "title": "Social Security beneficiaries will soon receive 2026 benefit notices. Here are the changes to watch for next year",
+          "date": "2025-11-21",
+          "link": "https://www.cnbc.com/2025/11/21/social-security-2026-benefit-amounts-will-be-affected-by-these-changes.html",
+          "snippet": "2025-11-21: Social Security beneficiaries will soon receive 2026 benefit notices. Here are the changes to watch for next year: In 2026, retirees who rely on Social Security will see a 2.8% benefit boo",
+          "guid": "108229382"
+        },
+        {
+          "title": "2026 tax brackets could mean a slightly bigger paycheck \u2014 what to expect",
+          "date": "2026-01-05",
+          "link": "https://www.cnbc.com/2026/01/05/2026-tax-brackets-federal-irs.html",
+          "snippet": "2026-01-05: 2026 tax brackets could mean a slightly bigger paycheck \u2014 what to expect: Federal income tax bracket changes for 2026 could mean your take-home pay is slightly higher in the New Year. Here",
+          "guid": "108247521"
+        },
+        {
+          "title": "How new federal tax changes for 2026 may affect families",
+          "date": "2025-10-10",
+          "link": "https://www.cnbc.com/2025/10/10/irs-2026-tax-changes-child-tax-credit-family-refunds.html",
+          "snippet": "2025-10-10: How new federal tax changes for 2026 may affect families: The IRS has announced new federal tax changes for 2026  that may affect what families may owe and the refunds they may receive.",
+          "guid": "108210169"
+        },
+        {
+          "title": "New $6,000 senior deduction offers an \u2018incredible, valuable opportunity,\u2019 CPA says: How to make the most of it",
+          "date": "2026-01-18",
+          "link": "https://www.cnbc.com/2026/01/18/big-beautiful-bill-senior-deduction.html",
+          "snippet": "2026-01-18: New $6,000 senior deduction offers an \u2018incredible, valuable opportunity,\u2019 CPA says: How to make the most of it: The \\big beautiful\\\" tax law lets older American couples potentially take up",
+          "guid": "108251955"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "61d75c0e-f3f6-4310-98e6-337f075d7ea5",
+      "label": "OpenAI and AI Content Controversies",
+      "spike_ratio": 1.042,
+      "article_count": 15,
+      "rag_answer": "OpenAI is currently facing significant controversies related to its AI products and advertising strategies. CEO Sam Altman has criticized competing ads from Anthropic as \"clearly dishonest,\" highlighting the competitive tensions in the AI sector. Additionally, top Hollywood agencies have condemned OpenAI's video generation app, Sora, as exploitative, raising concerns about the impact of AI on creative industries. These controversies could affect OpenAI's market position and public perception, potentially influencing investor confidence and the broader AI market dynamics.",
+      "rag_sources": [
+        {
+          "title": "Altman lashes out at 'clearly dishonest' Anthropic ads as AI spat heats up",
+          "date": "2026-02-05",
+          "link": "https://www.cnbc.com/2026/02/05/super-bowl-ai-ad-altman-anthropic-open-ai.html",
+          "snippet": "2026-02-05: Altman lashes out at 'clearly dishonest' Anthropic ads as AI spat heats up: OpenAI recently announced plans to begin\u00a0testing ads\u00a0with some ChatGPT users.",
+          "guid": "108261888"
+        },
+        {
+          "title": "Op-ed: The fuel for the AI boom driving the markets is advertising. It is also an existential risk. ",
+          "date": "2025-11-05",
+          "link": "https://www.cnbc.com/2025/11/05/op-ed-the-fuel-for-the-ai-boom-driving-the-markets-is-advertising-it-is-also-an-existential-risk-.html",
+          "snippet": "2025-11-05: Op-ed: The fuel for the AI boom driving the markets is advertising. It is also an existential risk.: Joe Marchese, Executive Chairman at Human Ventures, describes a key conundrum facing Op",
+          "guid": "108221347"
+        },
+        {
+          "title": "Top Hollywood agencies slam OpenAI's Sora as 'exploitation' and a risk to clients",
+          "date": "2025-10-09",
+          "link": "https://www.cnbc.com/2025/10/09/caa-open-ai-sora-copyright-talent-agency.html",
+          "snippet": "2025-10-09: Top Hollywood agencies slam OpenAI's Sora as 'exploitation' and a risk to clients: Talent agency CAA slams OpenAI's AI video generation app Sora for posing \\significant risk\\\" to its clien",
+          "guid": "108209961"
+        },
+        {
+          "title": "OpenAI's dominance is unlike anything Silicon Valley has ever seen",
+          "date": "2025-10-11",
+          "link": "https://www.cnbc.com/2025/10/11/open-ai-silicon-valley-tech-startup.html",
+          "snippet": "2025-10-11: OpenAI's dominance is unlike anything Silicon Valley has ever seen: OpenAI's position at the heart of the AI boom, and its expansion up and down the stack, is putting the company in compet",
+          "guid": "108209603"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "6cfbafc7-cfd5-4a00-ad72-313a521c3ad7",
+      "label": "French Political Crisis",
+      "spike_ratio": 1.038,
+      "article_count": 11,
+      "rag_answer": "France is currently experiencing a significant political crisis marked by the resignation of Prime Minister Sebastien Lecornu after just 27 days in office, leading to uncertainty about the future leadership. President Macron faces pressure to either appoint a new Prime Minister, call for new parliamentary elections, or resign, as his allies, including former Prime Minister Gabriel Attal, have begun to openly criticize him. This turmoil has resulted in a decline in the CAC 40 index and has led strategists to advise avoiding investments in banks and telecommunications, indicating a broader concern about the stability of domestic-facing stocks in France. Overall, the political instability is contributing to a climate of uncertainty in European markets.",
+      "rag_sources": [
+        {
+          "title": "France is plunged further into political crisis. Here\u2019s what could happen next",
+          "date": "2025-10-07",
+          "link": "https://www.cnbc.com/2025/10/07/what-happens-next-in-france-after-lecornus-resignation.html",
+          "snippet": "2025-10-07: France is plunged further into political crisis. Here\u2019s what could happen next: Macron now has to choose a new PM, opt for new parliamentary elections or resign.",
+          "guid": "108207986"
+        },
+        {
+          "title": "France's crisis takes an unexpected turn as Macron's allies defy him",
+          "date": "2025-10-08",
+          "link": "https://www.cnbc.com/2025/10/08/frances-crisis-takes-an-unexpected-turn-as-macrons-allies-defy-him.html",
+          "snippet": "2025-10-08: France's crisis takes an unexpected turn as Macron's allies defy him: The most notable criticism has come from former Prime Minister Gabriel Attal, once Macron's prot\u00e9g\u00e9.",
+          "guid": "108209228"
+        },
+        {
+          "title": "France's political crisis deepens as another PM is axed: Here's what happens next",
+          "date": "2025-09-09",
+          "link": "https://www.cnbc.com/2025/09/09/what-happens-next-in-france-after-another-pm-is-ousted.html",
+          "snippet": "2025-09-09: France's political crisis deepens as another PM is axed: Here's what happens next: CNBC takes a look at what could happen next in France after the ousting of yet another prime minister.",
+          "guid": "108195888"
+        },
+        {
+          "title": "French PM resigns after 27 days sparking fresh political chaos",
+          "date": "2025-10-06",
+          "link": "https://www.cnbc.com/2025/10/06/frances-new-pm-resigns-as-political-chaos-continues.html",
+          "snippet": "2025-10-06: French PM resigns after 27 days sparking fresh political chaos: France's new Prime Minister Sebastien Lecornu has resigned just weeks after his appointment to the role, plunging the countr",
+          "guid": "108207973"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

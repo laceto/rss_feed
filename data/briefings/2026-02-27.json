@@ -1,0 +1,212 @@
+{
+  "date": "2026-02-27",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "a650670a-96ee-4967-8367-2e1e733e7054",
+      "label": "Interest Rates and Treasury Yields",
+      "spike_ratio": 1.524,
+      "article_count": 25,
+      "rag_answer": "Interest rates and Treasury yields have been fluctuating in response to various economic indicators and Federal Reserve signals. In late December 2025, the 10-year Treasury yield dipped as investors assessed the interest rate outlook for 2026, following strong GDP data. Earlier in the year, yields had surged above 4% after comments from Fed Chair Powell indicated uncertainty about future rate cuts. Overall, the market is reacting to economic data and Fed communications, leading to a cautious approach among investors as they seek alternatives amid changing yield dynamics.",
+      "rag_sources": [
+        {
+          "title": "10-year Treasury yield dips as investors assess interest rate outlook for 2026",
+          "date": "2025-12-29",
+          "link": "https://www.cnbc.com/2025/12/29/10-year-treasury-yield-in-focus-as-investors-assess-rate-outlook.html",
+          "snippet": "2025-12-29: 10-year Treasury yield dips as investors assess interest rate outlook for 2026: The moves come as traders digest the latest economic data and assess the Federal Reserve's monetary rate pat",
+          "guid": "108246099"
+        },
+        {
+          "title": "Treasury yields are stable as traders try to gauge impact of Trump's fight for Fed control",
+          "date": "2025-08-27",
+          "link": "https://www.cnbc.com/2025/08/27/us-treasury-yields-investors-look-ahead-to-key-inflation-data.html",
+          "snippet": "2025-08-27: Treasury yields are stable as traders try to gauge impact of Trump's fight for Fed control: Long-term U.S. Treasury yields backed off early highs Wednesday as traders tried to assess the e",
+          "guid": "108191159"
+        },
+        {
+          "title": "What the 10-year Treasury yield's chart tells us about where stocks are heading ",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/what-the-10-years-chart-tells-us-about-where-stocks-are-heading-.html",
+          "snippet": "2026-02-11: What the 10-year Treasury yield's chart tells us about where stocks are heading: If rates move\u00a0considerably higher after the strong run in equities, the pairing could create a bearish scen",
+          "guid": "108264558"
+        },
+        {
+          "title": "30-year Treasury yield touches 5% briefly, then retreats on weak jobs data",
+          "date": "2025-09-03",
+          "link": "https://www.cnbc.com/2025/09/03/us-treasury-yields-little-changed-as-markets-await-jobs-data.html",
+          "snippet": "2025-09-03: 30-year Treasury yield touches 5% briefly, then retreats on weak jobs data: U.S. Treasurys were little changed on Wednesday, but long-dated bonds hovered just below the 5% mark.",
+          "guid": "108193554"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "37bac5c5-f756-48e8-a4f0-f5458902018d",
+      "label": "AI Disruption Fears in Markets",
+      "spike_ratio": 1.297,
+      "article_count": 69,
+      "rag_answer": "AI disruption fears are significantly impacting various sectors, particularly software and cybersecurity stocks, leading to a notable sell-off as investors grapple with concerns over a potential tech bubble. The release of new AI tools has intensified worries about the viability of the software-as-a-service (SaaS) business model, prompting analysts to question whether the market is experiencing an 'illogical' panic or a genuine crisis. UBS analysts have warned that this AI transformation could trigger a 'shock to the system' in credit markets, indicating broader economic implications. Overall, the market is currently characterized by volatility and uncertainty as it braces for ongoing AI-related developments.",
+      "rag_sources": [
+        {
+          "title": "AI valuation fears grip global investors as tech bubble concerns grow",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/ai-valuation-fears-grip-investors-as-tech-bubble-concerns-heighten.html",
+          "snippet": "2025-11-07: AI valuation fears grip global investors as tech bubble concerns grow: The recent slide among AI stocks has once again put fears of a tech bubble at the forefront of investors' minds.",
+          "guid": "108222913"
+        },
+        {
+          "title": "AI fears pummel software stocks: Is it 'illogical' panic or a SaaS apocalypse?",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/ai-anthropic-tools-saas-software-stocks-selloff.html",
+          "snippet": "2026-02-06: AI fears pummel software stocks: Is it 'illogical' panic or a SaaS apocalypse?: The software space is facing serious market concerns this week, after the release of new AI tools from AI tr",
+          "guid": "108261773"
+        },
+        {
+          "title": "Cybersecurity stock selling deepens on AI threat concerns. Why we're not bailing",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/23/cybersecurity-stock-selling-deepens-on-ai-threat-concerns-why-were-not-bailing.html",
+          "snippet": "2026-02-23: Cybersecurity stock selling deepens on AI threat concerns. Why we're not bailing: AI disruption fears spark sell-off in cyber, but the market is overlooking the sector's fundamentals",
+          "guid": "108268610"
+        },
+        {
+          "title": "Global software stocks extend losses amid fears over AI-led disruption",
+          "date": "2026-02-04",
+          "link": "https://www.cnbc.com/2026/02/04/software-stocks-plunge-us-ai-disruption.html",
+          "snippet": "2026-02-04: Global software stocks extend losses amid fears over AI-led disruption: Wall Street's fears around artificial intelligence-driven disruption affecting software companies made their way to ",
+          "guid": "108261128"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "489a5509-0307-4ffc-9a07-7f34dc809001",
+      "label": "Warner Bros. Discovery Acquisition Battle",
+      "spike_ratio": 1.273,
+      "article_count": 14,
+      "rag_answer": "The acquisition battle for Warner Bros. Discovery (WBD) has intensified, with Paramount, Comcast, and Netflix submitting bids as WBD explores a potential sale. Paramount has emerged as a strong contender, making a higher bid that has prompted Netflix to withdraw from the bidding process after deeming Paramount's offer superior. This competitive landscape has led to significant market reactions, including a 10% jump in WBD's shares when the company announced its openness to a sale. The situation indicates a potential shift in the streaming and media landscape, as major players vie for control of WBD's valuable assets.",
+      "rag_sources": [
+        {
+          "title": "Paramount, Comcast, Netflix submit bids for Warner Bros. Discovery ",
+          "date": "2025-11-21",
+          "link": "https://www.cnbc.com/2025/11/21/warner-bros-discovery-wbd-bids-paramount-comcast-netflix.html",
+          "snippet": "2025-11-21: Paramount, Comcast, Netflix submit bids for Warner Bros. Discovery: Warner Bros. Discovery recently expanded its strategic review of its business, saying it's open for a sale. First round ",
+          "guid": "108229432"
+        },
+        {
+          "title": "Warner Bros. Discovery to debut HBO Max in 14 Asia Pacific markets next month",
+          "date": "2025-09-16",
+          "link": "https://www.cnbc.com/2025/09/16/warner-bros-discovery-to-debut-hbo-max-in-14-asia-pacific-markets.html",
+          "snippet": "2025-09-16: Warner Bros. Discovery to debut HBO Max in 14 Asia Pacific markets next month: Warner Bros. Discovery is set to launch its HBO Max streaming service in 14 new markets across the Asia Pacif",
+          "guid": "108199404"
+        },
+        {
+          "title": "CNBC Daily Open: Netflix bows out from Warner Bros. Discovery bidding war",
+          "date": "2026-02-27",
+          "link": "https://www.cnbc.com/2026/02/27/cnbc-daily-open-netflix-bows-out-from-warner-bros-discovery-bidding-war.html",
+          "snippet": "2026-02-27: CNBC Daily Open: Netflix bows out from Warner Bros. Discovery bidding war: Netflix on Thursday stateside said it declined to raise a counteroffer for Warner Bros. Discovery's studio and st",
+          "guid": "108270725"
+        },
+        {
+          "title": "Warner Bros. Discovery says Paramount made higher bid, board will weigh offer against Netflix deal",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/warner-bros-discovery-paramount-higher-bid-netflix.html",
+          "snippet": "2026-02-24: Warner Bros. Discovery says Paramount made higher bid, board will weigh offer against Netflix deal: If WBD deems the new Paramount offer superior, Netflix will have four days to improve it",
+          "guid": "108269071"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "20dc2216-5ed2-4f06-b49a-5e8994526cb3",
+      "label": "Tax Refunds and Relief",
+      "spike_ratio": 1.211,
+      "article_count": 23,
+      "rag_answer": "Tax refunds for the 2026 season are projected to be higher on average, with an increase of 10.2% based on early filing data, although some taxpayers may receive smaller refunds than expected due to less significant changes than initially anticipated. The White House indicated that refunds could be $1,000 higher on average, which may encourage consumer spending, particularly in the auto industry, as many Americans might use their refunds to purchase vehicles. Additionally, the IRS is addressing past errors related to pandemic-era penalty tax relief, which could further impact taxpayer refunds. Overall, these developments suggest a mixed outlook for consumer spending and economic activity as tax season unfolds.",
+      "rag_sources": [
+        {
+          "title": "Your tax refund could be smaller than expected this season. Here's why",
+          "date": "2026-03-20",
+          "link": "https://www.cnbc.com/2026/03/20/smaller-tax-refunds.html",
+          "snippet": "2026-03-20: Your tax refund could be smaller than expected this season. Here's why: Tax refunds are higher on average compared to last year, but the change has been smaller than some early projections",
+          "guid": "108280386"
+        },
+        {
+          "title": "Trump tariffs: Refunds to companies should go to workers as bonuses, raises, Greer says",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/trump-trade-jamieson-greer-tariff-refunds-workers-companies.html",
+          "snippet": "2026-03-13: Trump tariffs: Refunds to companies should go to workers as bonuses, raises, Greer says: The United States government could end up paying $165 billion of more in refunds for Trump's IEEPA ",
+          "guid": "108277871"
+        },
+        {
+          "title": "Tax season presents a boom-or-bust test for U.S. auto sales",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/us-auto-sales-tax-season-test.html",
+          "snippet": "2026-02-20: Tax season presents a boom-or-bust test for U.S. auto sales: Auto industry experts anticipate that some Americans could use higher tax returns to finally purchase a new or used vehicle.",
+          "guid": "108266104"
+        },
+        {
+          "title": "Tax savings from Trump's $40,000 SALT deduction limit could be highest in these states ",
+          "date": "2025-09-23",
+          "link": "https://www.cnbc.com/2025/09/23/trump-salt-deduction-limit.html",
+          "snippet": "2025-09-23: Tax savings from Trump's $40,000 SALT deduction limit could be highest in these states: Trump\u2019s \u2018big beautiful bill\u2019 increased the SALT deduction to $40,000 for 2025. Here's where taxpayer",
+          "guid": "108202083"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "e91276fe-4a15-4206-9c39-1557b2405ea1",
+      "label": "Epstein Connections and Fallout",
+      "spike_ratio": 1.115,
+      "article_count": 33,
+      "rag_answer": "Recent developments surrounding Jeffrey Epstein's connections have led to significant fallout among high-profile individuals and organizations. New documents released by the DOJ reveal Epstein's extensive ties in Silicon Valley, implicating figures like Bill Gates and Elon Musk, while also prompting resignations, such as that of the World Economic Forum CEO Borge Brende. The ongoing scrutiny has resulted in public backlash against prominent figures, including Donald Trump, who faces criticism for his past associations with Epstein. These revelations may impact investor sentiment and corporate reputations, particularly in sectors linked to the individuals involved, as the fallout continues to unfold.",
+      "rag_sources": [
+        {
+          "title": "Epstein's Silicon Valley connections went beyond Gates and Musk",
+          "date": "2026-02-09",
+          "link": "https://www.cnbc.com/2026/02/09/tech-leaders-epstein-records-silicon-valley-sergey-brin-thiel-sinofsky-reid-hoffman-musk-gates.html",
+          "snippet": "2026-02-09: Epstein's Silicon Valley connections went beyond Gates and Musk: The new Epstein files released by the DOJ show that the deceased financier was able to build relationships across Silicon V",
+          "guid": "108260807"
+        },
+        {
+          "title": "Epstein files fallout: The high-profile people burned by past dealings with a predator",
+          "date": "2026-02-16",
+          "link": "https://www.cnbc.com/2026/02/15/epstein-files-fallout-goldman-ruemmler-harvard-yale.html",
+          "snippet": "2026-02-16: Epstein files fallout: The high-profile people burned by past dealings with a predator: Jeffrey Epstein killed himself in a New York City federal jail in 2019. But more than six years late",
+          "guid": "108265580"
+        },
+        {
+          "title": "Epstein would 'name drop' Trump, Les Wexner says in deposition video",
+          "date": "2026-02-19",
+          "link": "https://www.cnbc.com/2026/02/19/epstein-trump-les-wexner-deposition.html",
+          "snippet": "2026-02-19: Epstein would 'name drop' Trump, Les Wexner says in deposition video: Democrats on the House Oversight Committee have expressed skepticism about Wexner's insistence that he had virtually n",
+          "guid": "108267572"
+        },
+        {
+          "title": "DOJ says names of two associates Epstein wired $100k and $250k to should stay secret",
+          "date": "2025-09-06",
+          "link": "https://www.cnbc.com/2025/09/06/epstein-doj-says-two-people-he-wired-thousands-to-should-stay-secret.html",
+          "snippet": "2025-09-06: DOJ says names of two associates Epstein wired $100k and $250k to should stay secret: The Justice Department request came after NBC News asked a federal judge to unseal the names of two pe",
+          "guid": "108195264"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

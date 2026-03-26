@@ -1,0 +1,204 @@
+{
+  "date": "2025-12-25",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "aebd0680-e36a-4928-ab12-dc535621c739",
+      "label": "Trump tax legislation and impacts",
+      "spike_ratio": 1.841,
+      "article_count": 29,
+      "rag_answer": "President Donald Trump's \"big beautiful bill\" has enacted significant tax breaks, with promises of larger tax refunds for many Americans in 2026. Key features include a $40,000 limit on the SALT deduction and a proposed \"no tax on tips\" deduction, which could benefit various states differently. As Trump continues to promote these tax changes, including potential new cuts announced during the State of the Union, the implications for consumer spending and overall economic growth could be substantial, particularly as taxpayers prepare for what Trump claims will be the \"largest tax refund season of all time.\" However, challenges remain in advancing further tax legislation through budget reconciliation, which may impact market expectations.",
+      "rag_sources": [
+        {
+          "title": "Trump touts 'big beautiful bill' tax breaks at Davos. Here's how they work",
+          "date": "2026-01-21",
+          "link": "https://www.cnbc.com/2026/01/21/trump-big-beautiful-bill-tax-breaks.html",
+          "snippet": "2026-01-21: Trump touts 'big beautiful bill' tax breaks at Davos. Here's how they work: In remarks on Wednesday at the World Economic Forum, President Donald Trump touted his signature \\big beautiful ",
+          "guid": "108255007"
+        },
+        {
+          "title": "States where residents could see the biggest tax benefit from Trump's 'big beautiful bill'",
+          "date": "2025-08-15",
+          "link": "https://www.cnbc.com/2025/08/15/trump-big-beautiful-bill-who-benefits.html",
+          "snippet": "2025-08-15: States where residents could see the biggest tax benefit from Trump's 'big beautiful bill': President Donald Trump's \\big beautiful bill\\\" enacted trillions in tax breaks. But residents in",
+          "guid": "108186137"
+        },
+        {
+          "title": "Treasury, IRS release key details about Trump\u2019s \u2018no tax on tips\u2019 deduction ",
+          "date": "2025-09-19",
+          "link": "https://www.cnbc.com/2025/09/19/treasury-details-trumps-no-tax-on-tips.html",
+          "snippet": "2025-09-19: Treasury, IRS release key details about Trump\u2019s \u2018no tax on tips\u2019 deduction: The Treasury has issued proposed regulations with more details about Trump\u2019s \u201cno tax on tips\u201d deduction. Here ar",
+          "guid": "108200870"
+        },
+        {
+          "title": "How Trump's 'big beautiful bill' could affect your Giving Tuesday tax break ",
+          "date": "2025-11-29",
+          "link": "https://www.cnbc.com/2025/11/29/trump-big-beautiful-bill-giving-tuesday-tax-break.html",
+          "snippet": "2025-11-29: How Trump's 'big beautiful bill' could affect your Giving Tuesday tax break: If you plan to donate money on Giving Tuesday, here's how President Donald Trump's \\big beautiful bill\\\" could ",
+          "guid": "108231910"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "46b51275-0575-4a64-87e7-d4d1864f1669",
+      "label": "Warner Bros. Discovery takeover bids",
+      "spike_ratio": 1.37,
+      "article_count": 20,
+      "rag_answer": "Warner Bros. Discovery (WBD) has opened itself up for a sale, prompting multiple bids from major players including Paramount, Comcast, and Netflix. Paramount Skydance has emerged as a strong contender, reportedly making a higher bid than Netflix, which has since opted out of the bidding war. The situation has led to a significant increase in WBD's share price and has raised questions among shareholders about the merits of accepting Paramount's offer. The ongoing bidding process reflects a competitive landscape in the media industry, with potential implications for WBD's strategic direction and market positioning.",
+      "rag_sources": [
+        {
+          "title": "Paramount, Comcast, Netflix submit bids for Warner Bros. Discovery ",
+          "date": "2025-11-21",
+          "link": "https://www.cnbc.com/2025/11/21/warner-bros-discovery-wbd-bids-paramount-comcast-netflix.html",
+          "snippet": "2025-11-21: Paramount, Comcast, Netflix submit bids for Warner Bros. Discovery: Warner Bros. Discovery recently expanded its strategic review of its business, saying it's open for a sale. First round ",
+          "guid": "108229432"
+        },
+        {
+          "title": "Warner Bros. Discovery says it's open to a sale; shares jump 10%",
+          "date": "2025-10-21",
+          "link": "https://www.cnbc.com/2025/10/21/wbd-sale-warner-bros-media.html",
+          "snippet": "2025-10-21: Warner Bros. Discovery says it's open to a sale; shares jump 10%: WBD had planned to split into two separate entities and is not abandoning those plans.",
+          "guid": "108214672"
+        },
+        {
+          "title": "Paramount Skydance is preparing a bid for Warner Bros. Discovery, sources say",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/warner-bros-discovery-paramount-skydance-bid.html",
+          "snippet": "2025-09-11: Paramount Skydance is preparing a bid for Warner Bros. Discovery, sources say: The Wall Street Journal reported the recently merged Paramount Skydance was preparing a takeover bid for the ",
+          "guid": "108197645"
+        },
+        {
+          "title": "Warner Bros. Discovery says Paramount made higher bid, board will weigh offer against Netflix deal",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/warner-bros-discovery-paramount-higher-bid-netflix.html",
+          "snippet": "2026-02-24: Warner Bros. Discovery says Paramount made higher bid, board will weigh offer against Netflix deal: If WBD deems the new Paramount offer superior, Netflix will have four days to improve it",
+          "guid": "108269071"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "cfd47f02-a084-497c-8723-57e24fc0401a",
+      "label": "ACA Subsidies and Government Funding",
+      "spike_ratio": 1.262,
+      "article_count": 26,
+      "rag_answer": "The expiration of enhanced ACA subsidies has raised concerns about significant tax bills for many individuals, as highlighted by financial experts. Efforts to extend these subsidies have faced political hurdles, with bipartisan negotiations ongoing in the Senate, while some states are stepping in to provide their own support. The potential lapse in these subsidies could lead to substantial financial losses for health providers, estimated at $32 billion, and has become a contentious issue in the context of government funding negotiations. The situation underscores the critical link between health policy and fiscal stability, with implications for both consumers and the healthcare market.",
+      "rag_sources": [
+        {
+          "title": "ACA subsidy cliff may mean 'astronomical tax bills' for many, CFP says",
+          "date": "2026-01-06",
+          "link": "https://www.cnbc.com/2026/01/06/aca-subsidy-cliff-tax-bills.html",
+          "snippet": "2026-01-06: ACA subsidy cliff may mean 'astronomical tax bills' for many, CFP says: Enhanced premium subsidies for health insurance bought on the ACA marketplace have expired and the so-called subsidy",
+          "guid": "108248259"
+        },
+        {
+          "title": "Why affordability is the 'beating heart' of the ACA enhanced subsidy debate, health policy experts say",
+          "date": "2025-12-12",
+          "link": "https://www.cnbc.com/2025/12/12/aca-enhanced-subsidies-democrats-republicans-health-care-plan.html",
+          "snippet": "2025-12-12: Why affordability is the 'beating heart' of the ACA enhanced subsidy debate, health policy experts say: Health plans proposed by Senate Democrats and Republicans failed on Thursday, making",
+          "guid": "108240832"
+        },
+        {
+          "title": "Health providers could lose $32 billion if ACA credits at center of shutdown fight expire",
+          "date": "2025-09-25",
+          "link": "https://www.cnbc.com/2025/09/25/health-aca-obamacare-federal-government-shutdown.html",
+          "snippet": "2025-09-25: Health providers could lose $32 billion if ACA credits at center of shutdown fight expire: Democrats demand that any stopgap funding measure to keep the federal government open include an ",
+          "guid": "108204023"
+        },
+        {
+          "title": "As federal ACA subsidies lapse, blue states offer their own",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/2026/01/23/aca-subsidies-state-premium-tax-credits.html",
+          "snippet": "2026-01-23: As federal ACA subsidies lapse, blue states offer their own: A handful of states have moved to soften the blow of lapsed federal subsidies for health insurance premiums.",
+          "guid": "108254517"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "2e955eac-a74a-4c42-be9f-b871d12feb52",
+      "label": "Market Trends and Stock Movements",
+      "spike_ratio": 1.122,
+      "article_count": 22,
+      "rag_answer": "The stock market has experienced significant volatility, with benchmarks reaching record highs due to easing inflation, strong corporate earnings, and expectations of U.S. rate cuts. However, recent sentiment has reversed, indicating potential concerns about an economic slowdown, as suggested by Stifel's warning of a stagflation environment. Despite these fluctuations, certain sectors, particularly AI and retail favorites, have shown resilience, driving stocks to new highs. Investors are advised to carefully assess market conditions before making trading decisions, as opportunities may arise amidst the uncertainty.",
+      "rag_sources": [
+        {
+          "title": "Stock market swings got you reeling? Answer these 6 questions before making a trade",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/stock-market-swings-got-you-reeling-answering-6-questions-will-help.html",
+          "snippet": "2025-11-28: Stock market swings got you reeling? Answer these 6 questions before making a trade: Frustrating as volatility can be, it also tends to present opportunities.",
+          "guid": "108232626"
+        },
+        {
+          "title": "Stock benchmarks are scaling record highs: 'Animal spirits are soaring' ",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/stock-benchmarks-are-scaling-record-highs-animal-spirits-are-soaring-.html",
+          "snippet": "2025-09-11: Stock benchmarks are scaling record highs: 'Animal spirits are soaring': Easing inflation pressures,\u00a0resilient corporate earnings and expectations for U.S. rate cuts have boosted investor ",
+          "guid": "108197275"
+        },
+        {
+          "title": "Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward",
+          "date": "2025-12-26",
+          "link": "https://www.cnbc.com/2025/12/26/market-sentiment-has-made-a-huge-reversal-heres-why-and-what-it-means-going-forward.html",
+          "snippet": "2025-12-26: Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward: Something unusual happened in the past few weeks.",
+          "guid": "108245814"
+        },
+        {
+          "title": "Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel",
+          "date": "2025-08-11",
+          "link": "https://www.cnbc.com/2025/08/11/stock-market-party-to-be-ruined-by-sudden-economic-slowdown-says-stifel.html",
+          "snippet": "2025-08-11: Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel: The market could be in for a stagflation environment, the firm said.",
+          "guid": "108184067"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "910ab898-24b7-41aa-91b0-205756b4915b",
+      "label": "Rare Earths and Trade Dynamics",
+      "spike_ratio": 1.059,
+      "article_count": 12,
+      "rag_answer": "Rare earths stocks have experienced significant volatility due to China's tightening control over global supplies, leading to sharp price surges and mixed performances among U.S. rare earth miners. The U.S. government has taken steps to bolster domestic production, as seen with the Commerce Department's equity stake in USA Rare Earth, which resulted in a 20% jump in its shares. However, ongoing U.S.-China trade tensions continue to create uncertainty in the market, impacting stock performance and investor sentiment. Overall, the race for critical minerals is intensifying, with U.S. companies striving to reduce reliance on Chinese supplies amidst geopolitical challenges.",
+      "rag_sources": [
+        {
+          "title": "Rare earths stocks surge after China tightens grip on global supplies",
+          "date": "2025-10-09",
+          "link": "https://www.cnbc.com/2025/10/09/china-tightens-rare-earths-grip-stocks-surge.html",
+          "snippet": "2025-10-09: Rare earths stocks surge after China tightens grip on global supplies: Rare earths stocks were jumping Thursday",
+          "guid": "108209917"
+        },
+        {
+          "title": "Democratic senators press Commerce Secretary Lutnick on conflict of interest concerns in USA Rare Earth deal",
+          "date": "2026-02-26",
+          "link": "https://www.cnbc.com/2026/02/26/warren-lutnick-usa-rare-earth-usar-critical-minerals.html",
+          "snippet": "2026-02-26: Democratic senators press Commerce Secretary Lutnick on conflict of interest concerns in USA Rare Earth deal: Sens. Elizabeth Warren, Chris Van Hollen and Ron Wyden are pressing Commerce S",
+          "guid": "108270090"
+        },
+        {
+          "title": "USA Rare Earth shares jump 20% as Commerce Department takes equity stake",
+          "date": "2026-01-26",
+          "link": "https://www.cnbc.com/2026/01/26/usa-rare-earth-shares-jump-20percent-as-commerce-department-takes-equity-stake.html",
+          "snippet": "2026-01-26: USA Rare Earth shares jump 20% as Commerce Department takes equity stake: The capital infusion will help USA Rare Earth advance its plan for a magnet manufacturing plant and a mine at a ra",
+          "guid": "108256887"
+        },
+        {
+          "title": "Trade Desk tanks almost 40% on CFO departure, tariff concerns and competition from Amazon",
+          "date": "2025-08-08",
+          "link": "https://www.cnbc.com/2025/08/08/trade-desk-tanks-cfo-departure-q2-results-amazon-competition.html",
+          "snippet": "2025-08-08: Trade Desk tanks almost 40% on CFO departure, tariff concerns and competition from Amazon: The Trade Desk beat on earnings and revenue, but the stock was headed for its worst day on record",
+          "guid": "108183636"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

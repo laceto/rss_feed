@@ -1,0 +1,204 @@
+{
+  "date": "2025-11-19",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "d97cc01c-d127-4ef1-93ea-09d558cd6a60",
+      "label": "Tech Stock Volatility",
+      "spike_ratio": 1.6,
+      "article_count": 34,
+      "rag_answer": "Tech stocks have been experiencing significant volatility, leading to notable sell-offs, particularly as tensions over geopolitical issues, such as those related to Greenland, have escalated. In January 2026, tech stocks led a decline on Wall Street, indicating a risk-off sentiment among investors. Additionally, the market is witnessing a rotation from growth and technology stocks into value and defensive areas, as analysts suggest that uncertainties could derail the current rally. This volatility is compounded by external factors, including trade rhetoric and economic concerns, which are causing fluctuations in stock prices and investor sentiment.",
+      "rag_sources": [
+        {
+          "title": "Stock market swings got you reeling? Answer these 6 questions before making a trade",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/stock-market-swings-got-you-reeling-answering-6-questions-will-help.html",
+          "snippet": "2025-11-28: Stock market swings got you reeling? Answer these 6 questions before making a trade: Frustrating as volatility can be, it also tends to present opportunities.",
+          "guid": "108232626"
+        },
+        {
+          "title": "Big Tech is poaching energy talent to fuel its AI ambitions",
+          "date": "2026-01-14",
+          "link": "https://www.cnbc.com/2026/01/14/big-tech-google-microsoft-energy-hiring-ai.html",
+          "snippet": "2026-01-14: Big Tech is poaching energy talent to fuel its AI ambitions: Hires of energy-related talent by Big Tech was 30% higher in 2025 than pre-AI levels.",
+          "guid": "108250479"
+        },
+        {
+          "title": "Tech giants commit billions to Indian AI as New Delhi pushes for superpower status",
+          "date": "2026-02-21",
+          "link": "https://www.cnbc.com/2026/02/21/india-ai-summit-tech-giants-billion-dollar-investments.html",
+          "snippet": "2026-02-21: Tech giants commit billions to Indian AI as New Delhi pushes for superpower status: Tech and world leaders flocked to New Delhi for the India AI Impact Summit",
+          "guid": "108267201"
+        },
+        {
+          "title": "Tech stocks lead Wall Street sell-off as tensions over Greenland escalate",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/tech-stocks-lead-wall-street-sell-off-as-tensions-over-greenland-escalate.html",
+          "snippet": "2026-01-20: Tech stocks lead Wall Street sell-off as tensions over Greenland escalate: Tech stocks led declines Tuesday as renewed trade rhetoric tied to Greenland fueled a risk-off move across U.S. m",
+          "guid": "108254143"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "a21f7800-1019-4647-adfd-df0863c955d0",
+      "label": "Fed rate cuts and outlook",
+      "spike_ratio": 1.199,
+      "article_count": 41,
+      "rag_answer": "Recent developments indicate a divided stance among Federal Reserve officials regarding interest rate cuts, with discussions suggesting two additional cuts by the end of 2025. Fed Chair Powell has indicated that conditions may warrant cuts, but uncertainty remains high. As of December 2025, the Fed is expected to implement its third consecutive rate cut, although there are concerns about inflation that could impact future decisions. Market expectations for further cuts in 2026 are diminishing, particularly as inflation fears rise, suggesting a cautious outlook moving forward.",
+      "rag_sources": [
+        {
+          "title": "Divided Fed officials saw another two interest rate cuts by the end of 2025, minutes show",
+          "date": "2025-10-08",
+          "link": "https://www.cnbc.com/2025/10/08/fed-minutes-september-2025.html",
+          "snippet": "2025-10-08: Divided Fed officials saw another two interest rate cuts by the end of 2025, minutes show: Officials were strongly inclined to lower rates, with the only dispute seeming to be over how man",
+          "guid": "108209324"
+        },
+        {
+          "title": "Powell indicates conditions 'may warrant' interest rate cuts as Fed proceeds 'carefully'",
+          "date": "2025-08-22",
+          "link": "https://www.cnbc.com/2025/08/22/powell-indicates-conditions-may-warrant-interest-rate-cuts-as-fed-proceeds-carefully.html",
+          "snippet": "2025-08-22: Powell indicates conditions 'may warrant' interest rate cuts as Fed proceeds 'carefully': Powell on Friday gave a tepid indication of possible cuts ahead as he noted a high level of uncert",
+          "guid": "108189532"
+        },
+        {
+          "title": "The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/09/the-fed-decision-is-expected-to-feature-a-rate-cut-and-a-lot-more-heres-what-to-expect.html",
+          "snippet": "2025-12-10: The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect: The central bank is poised to deliver its third straight interest rate cut Wednesday, while firing a ",
+          "guid": "108239042"
+        },
+        {
+          "title": "Fed's Goolsbee calls for a hold on cuts as current rate of inflation is 'not good enough'",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/feds-goolsbee-calls-for-a-hold-on-cuts-as-current-rate-of-inflation-is-not-good-enough.html",
+          "snippet": "2026-02-24: Fed's Goolsbee calls for a hold on cuts as current rate of inflation is 'not good enough': The Chicago Fed president said Tuesday that cuts aren't appropriate until there's more evidence t",
+          "guid": "108269037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "cf0758b1-cf0a-48ed-9bd3-2c43cf2d9bcb",
+      "label": "2026 Tax and Benefit Changes",
+      "spike_ratio": 1.057,
+      "article_count": 14,
+      "rag_answer": "In 2026, Social Security beneficiaries will see a 2.8% increase in their benefits, providing some financial relief for retirees. Additionally, the IRS has announced higher federal income tax brackets and standard deductions, which could lead to slightly larger paychecks for many taxpayers. A new $6,000 senior deduction is also being introduced, offering significant tax savings for older couples. These changes may influence consumer spending, particularly in sectors like auto sales, as higher tax refunds could encourage purchases.",
+      "rag_sources": [
+        {
+          "title": "Social Security beneficiaries will soon receive 2026 benefit notices. Here are the changes to watch for next year",
+          "date": "2025-11-21",
+          "link": "https://www.cnbc.com/2025/11/21/social-security-2026-benefit-amounts-will-be-affected-by-these-changes.html",
+          "snippet": "2025-11-21: Social Security beneficiaries will soon receive 2026 benefit notices. Here are the changes to watch for next year: In 2026, retirees who rely on Social Security will see a 2.8% benefit boo",
+          "guid": "108229382"
+        },
+        {
+          "title": "2026 tax brackets could mean a slightly bigger paycheck \u2014 what to expect",
+          "date": "2026-01-05",
+          "link": "https://www.cnbc.com/2026/01/05/2026-tax-brackets-federal-irs.html",
+          "snippet": "2026-01-05: 2026 tax brackets could mean a slightly bigger paycheck \u2014 what to expect: Federal income tax bracket changes for 2026 could mean your take-home pay is slightly higher in the New Year. Here",
+          "guid": "108247521"
+        },
+        {
+          "title": "How new federal tax changes for 2026 may affect families",
+          "date": "2025-10-10",
+          "link": "https://www.cnbc.com/2025/10/10/irs-2026-tax-changes-child-tax-credit-family-refunds.html",
+          "snippet": "2025-10-10: How new federal tax changes for 2026 may affect families: The IRS has announced new federal tax changes for 2026  that may affect what families may owe and the refunds they may receive.",
+          "guid": "108210169"
+        },
+        {
+          "title": "New $6,000 senior deduction offers an \u2018incredible, valuable opportunity,\u2019 CPA says: How to make the most of it",
+          "date": "2026-01-18",
+          "link": "https://www.cnbc.com/2026/01/18/big-beautiful-bill-senior-deduction.html",
+          "snippet": "2026-01-18: New $6,000 senior deduction offers an \u2018incredible, valuable opportunity,\u2019 CPA says: How to make the most of it: The \\big beautiful\\\" tax law lets older American couples potentially take up",
+          "guid": "108251955"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "cbc8e3a7-4226-48ab-86d7-fe0ceba213ba",
+      "label": "SNAP benefits and government shutdown",
+      "spike_ratio": 1.0,
+      "article_count": 12,
+      "rag_answer": "SNAP benefits are at risk due to a government shutdown, with funding potentially lapsing shortly. Despite past administrations continuing payments during shutdowns, the Trump administration has suggested halting SNAP benefits, contradicting a court ruling that mandates their continuation. Treasury Secretary Scott Bessent indicated that benefits could resume soon, but legal challenges persist as states have sued to ensure the program remains funded. The uncertainty surrounding SNAP could significantly impact consumers reliant on food assistance and retailers who depend on SNAP transactions.",
+      "rag_sources": [
+        {
+          "title": "How a lapse in SNAP benefits could affect consumers and retailers",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/snap-benefit-lapse-consumers-retailers-effects.html",
+          "snippet": "2025-10-29: How a lapse in SNAP benefits could affect consumers and retailers: Funding for the Supplemental Nutrition Assistance Program could lapse within days if the government shutdown persists.",
+          "guid": "108218123"
+        },
+        {
+          "title": "Trump suggests U.S. won't pay any SNAP benefits during shutdown, contradicting court filing",
+          "date": "2025-11-04",
+          "link": "https://www.cnbc.com/2025/11/04/snap-trump-food-shutdown.html",
+          "snippet": "2025-11-04: Trump suggests U.S. won't pay any SNAP benefits during shutdown, contradicting court filing: Prior presidential administrations have continued paying SNAP benefits during past shutdowns of",
+          "guid": "108221171"
+        },
+        {
+          "title": "Treasury Secretary Bessent says SNAP food benefits could restart by Wednesday",
+          "date": "2025-11-03",
+          "link": "https://www.cnbc.com/2025/11/02/bessent-trump-snap-food-stamps-shutdown.html",
+          "snippet": "2025-11-03: Treasury Secretary Bessent says SNAP food benefits could restart by Wednesday: SNAP food benefits could restart as early as Wednesday, Treasury Secretary Scott Bessent said Sunday.",
+          "guid": "108220349"
+        },
+        {
+          "title": "SNAP benefits: Trump admin seeks emergency block on order to pay food stamps in full",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/snap-trump-appeals-food-stamps.html",
+          "snippet": "2025-11-07: SNAP benefits: Trump admin seeks emergency block on order to pay food stamps in full: The Trump administration tried not to pay for any food stamps in November because of the government sh",
+          "guid": "108223037"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "6cd61682-e7f6-4c4e-be75-898f37d82368",
+      "label": "Gaza Conflict Ceasefire Developments",
+      "spike_ratio": 0.962,
+      "article_count": 10,
+      "rag_answer": "The Gaza conflict has seen significant developments regarding ceasefire agreements, particularly with the announcement on October 10, 2025, that a ceasefire is now in effect, ratified by the Israeli cabinet. This follows a series of military offensives and escalations, including Israel's planned assault on Gaza City and subsequent airstrikes that resulted in casualties. The involvement of former President Trump in brokering a peace plan has also been notable, with phases of hostages and prisoner exchanges being agreed upon. These developments may lead to increased stability in the region, potentially impacting markets related to defense, humanitarian aid, and regional investments, as investors often react to geopolitical stability.",
+      "rag_sources": [
+        {
+          "title": "Israel Defense Forces announce ceasefire agreement in Gaza is now in effect",
+          "date": "2025-10-10",
+          "link": "https://www.cnbc.com/2025/10/10/israel-approves-trump-peace-plan-paving-the-way-for-a-gaza-ceasefire.html",
+          "snippet": "2025-10-10: Israel Defense Forces announce ceasefire agreement in Gaza is now in effect: The Israeli cabinet ratified the agreement in the early hours of Friday morning.",
+          "guid": "108210424"
+        },
+        {
+          "title": "Netanyahu defends new military offensive in Gaza and says it will be wider than announced",
+          "date": "2025-08-10",
+          "link": "https://www.cnbc.com/2025/08/10/netanyahu-new-military-offensive-gaza.html",
+          "snippet": "2025-08-10: Netanyahu defends new military offensive in Gaza and says it will be wider than announced: Israeli Prime Minister Benjamin Netanyahu on Sunday defended a new military offensive in Gaza tha",
+          "guid": "108183908"
+        },
+        {
+          "title": "Israel enters first stage of planned assault on Gaza City",
+          "date": "2025-08-20",
+          "link": "https://www.cnbc.com/2025/08/20/israel-enters-first-stage-of-planned-assault-on-gaza-city.html",
+          "snippet": "2025-08-20: Israel enters first stage of planned assault on Gaza City: Israel\u00a0on Wednesday entered the first stages of its planned assault on Gaza City after approving a plan to take over\u00a0the city\u00a0tha",
+          "guid": "108188683"
+        },
+        {
+          "title": "Israel says it will retake Gaza City, escalating war with Hamas",
+          "date": "2025-08-08",
+          "link": "https://www.cnbc.com/2025/08/08/israel-says-it-will-retake-gaza-city-escalating-war-with-hamas.html",
+          "snippet": "2025-08-08: Israel says it will retake Gaza City, escalating war with Hamas: The Israeli military \u201cwill prepare for taking control of Gaza City while distributing humanitarian assistance to the civili",
+          "guid": "108183361"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

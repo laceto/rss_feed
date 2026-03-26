@@ -1,0 +1,212 @@
+{
+  "date": "2025-11-14",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "7414a4dc-4f2f-4f00-aaab-b1ec476cbab7",
+      "label": "AI Chip Market Developments",
+      "spike_ratio": 1.224,
+      "article_count": 47,
+      "rag_answer": "The AI chip market is experiencing significant growth, driven by increased demand and geopolitical factors. Companies like ASML are benefiting from record orders and optimistic guidance, while Chinese firms such as Baidu and Alibaba are ramping up their efforts to develop homegrown chips amid rising tensions. The approval of Nvidia's H200 chip for sale in China has further boosted investor confidence, contributing to a rally in chip stocks. However, there are concerns about market concentration around leading AI companies, which could pose risks if the market faces setbacks.",
+      "rag_sources": [
+        {
+          "title": "Chip giant ASML surges 7% as AI boom fuels record orders and upbeat 2026 guidance",
+          "date": "2026-01-28",
+          "link": "https://www.cnbc.com/2026/01/28/asml-q4-2025-earnings-report.html",
+          "snippet": "2026-01-28: Chip giant ASML surges 7% as AI boom fuels record orders and upbeat 2026 guidance: ASML is experiencing several tailwinds including an expectation of increased chipmaking capacity and cont",
+          "guid": "108257383"
+        },
+        {
+          "title": "Alibaba is developing a new AI chip \u2014 here's what we know so far",
+          "date": "2025-08-29",
+          "link": "https://www.cnbc.com/2025/08/29/alibaba-is-developing-a-new-ai-chip-heres-what-we-know-so-far.html",
+          "snippet": "2025-08-29: Alibaba is developing a new AI chip \u2014 here's what we know so far: Chinese technology firms have focused on developing homegrown chips over the last few years amid rising geopolitical tensi",
+          "guid": "108192425"
+        },
+        {
+          "title": "Chip stocks rally to start 2026 after third-straight winning year",
+          "date": "2026-01-02",
+          "link": "https://www.cnbc.com/2026/01/02/chipmakers-2026-ai-trade.html",
+          "snippet": "2026-01-02: Chip stocks rally to start 2026 after third-straight winning year: Investors piled into the winning artificial intelligence-adjacent sector following another big year of gains.",
+          "guid": "108247500"
+        },
+        {
+          "title": "Baidu is emerging as a major AI chip player in China to fill the Nvidia gap",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/baidu-is-major-ai-chip-player-in-china-to-fill-nvidia-gap.html",
+          "snippet": "2025-11-28: Baidu is emerging as a major AI chip player in China to fill the Nvidia gap: China's focus on pushing domestic chips could make Baidu's chip unit, Kunlunxin, a fast-growing business for th",
+          "guid": "108232314"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "0b33da45-501c-4267-990c-fc52c823783a",
+      "label": "Obesity Drug Market Developments",
+      "spike_ratio": 1.132,
+      "article_count": 24,
+      "rag_answer": "The obesity drug market is experiencing significant growth and transformation, driven by increased access through Medicare coverage and new product launches. Notably, Eli Lilly and Novo Nordisk are leading the charge with innovative obesity pills, while Pfizer is diversifying its pipeline with a substantial deal to develop a Chinese company's drug. The competitive landscape is intensifying, raising questions about insurance coverage and drug pricing. Overall, these developments suggest a promising future for obesity treatments, potentially reaching millions of new patients.",
+      "rag_sources": [
+        {
+          "title": "What obesity drugmakers see next in the market: More pills, easier access and drug combinations",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/2026/01/23/weight-loss-glp-1-drugs-next-steps-for-eli-lilly-novo-nordisk-pfizer.html",
+          "snippet": "2026-01-23: What obesity drugmakers see next in the market: More pills, easier access and drug combinations: CNBC spoke to executives from Eli Lilly, Novo Nordisk, Pfizer and other drugmakers at the a",
+          "guid": "108255916"
+        },
+        {
+          "title": "Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next",
+          "date": "2025-11-02",
+          "link": "https://www.cnbc.com/2025/11/02/whats-next-for-the-weight-loss-drug-market-pills-rivals-insurance.html",
+          "snippet": "2025-11-02: Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next: Competition is heating up, but questions remain about insurance coverage, drug pricing, copycat drugs a",
+          "guid": "108216702"
+        },
+        {
+          "title": "Millions more Americans could access obesity drugs after Trump's deals with Eli Lilly, Novo Nordisk",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/trump-deals-with-lilly-novo-nordisk-could-broaden-obesity-drug-access.html",
+          "snippet": "2025-11-07: Millions more Americans could access obesity drugs after Trump's deals with Eli Lilly, Novo Nordisk: Medicare will start covering obesity drugs for the first time, which could open access ",
+          "guid": "108223164"
+        },
+        {
+          "title": "Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill\u00a0",
+          "date": "2025-12-09",
+          "link": "https://www.cnbc.com/2025/12/09/pfizer-deal-yaopharma-obesity-pill.html",
+          "snippet": "2025-12-09: Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill: The deal will help Pfizer beef up and diversify its obesity drug pipeline following its $10 billi",
+          "guid": "108239106"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "0d20e23d-6795-477d-bb84-20b28b10b364",
+      "label": "Ukraine peace talks dynamics",
+      "spike_ratio": 1.118,
+      "article_count": 19,
+      "rag_answer": "Recent developments in the Ukraine peace talks indicate a cautious yet potentially significant shift. Ukraine has reportedly agreed to a U.S.-brokered peace proposal, with President Zelenskyy expressing readiness for constructive dialogue. However, Russia's response remains uncertain, as President Putin has issued threats while weighing the proposal. The dynamics suggest that while there is a glimmer of hope for resolution, market implications could be volatile, particularly if Russia's stance shifts dramatically or if tensions escalate further.",
+      "rag_sources": [
+        {
+          "title": "Ukraine reportedly agrees to U.S.-brokered peace proposal",
+          "date": "2025-11-25",
+          "link": "https://www.cnbc.com/2025/11/25/ukraine-russia-peace-trump-abu-dhabi.html",
+          "snippet": "2025-11-25: Ukraine reportedly agrees to U.S.-brokered peace proposal: Ukraine has reportedly agreed to a potential peace deal with Russia in what could be a massive step toward bringing the devastati",
+          "guid": "108231635"
+        },
+        {
+          "title": "All eyes on Russia as it weighs Ukraine peace plan with caution",
+          "date": "2025-11-26",
+          "link": "https://www.cnbc.com/2025/11/26/russia-responds-to-fledgling-ukraine-peace-plan.html",
+          "snippet": "2025-11-26: All eyes on Russia as it weighs Ukraine peace plan with caution: There's been little official comment from Moscow regarding a revised U.S.-brokered peace plan for Ukraine.",
+          "guid": "108232279"
+        },
+        {
+          "title": "Ukraine desperate to keep Trump on its side in peace talks, while saving its sovereignty",
+          "date": "2025-11-24",
+          "link": "https://www.cnbc.com/2025/11/24/ukraine-desperate-to-keep-trump-sweet-while-saving-its-sovereignty.html",
+          "snippet": "2025-11-24: Ukraine desperate to keep Trump on its side in peace talks, while saving its sovereignty: Talks between U.S. and Ukrainian officials were held this weekend after it emerged that Russia and",
+          "guid": "108230764"
+        },
+        {
+          "title": "Ukraine\u2019s Zelenskyy says Kyiv \u2018geared up for clear and honest work\u2019 as U.S. pushes for progress on peace plan",
+          "date": "2025-11-21",
+          "link": "https://www.cnbc.com/2025/11/21/ukraine-peace-plan-zelenskyy-to-speak-with-trump-on-deal-to-end-war.html",
+          "snippet": "2025-11-21: Ukraine\u2019s Zelenskyy says Kyiv \u2018geared up for clear and honest work\u2019 as U.S. pushes for progress on peace plan: Ukrainian President Volodymyr Zelenskyy said he expects to speak with U.S. co",
+          "guid": "108229758"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "6cfbafc7-cfd5-4a00-ad72-313a521c3ad7",
+      "label": "French Political Crisis",
+      "spike_ratio": 1.078,
+      "article_count": 11,
+      "rag_answer": "France is currently experiencing a significant political crisis marked by the resignation of Prime Minister Sebastien Lecornu after just 27 days in office, leading to further instability. President Macron faces pressure to appoint a new prime minister, call for new parliamentary elections, or potentially resign himself. This turmoil has prompted criticism from former allies, including ex-Prime Minister Gabriel Attal, and has resulted in a decline in the CAC 40 index, indicating negative market sentiment. Analysts suggest avoiding investments in banks and telecommunications within France, as the ongoing political chaos is expected to hinder economic growth and create a challenging environment for domestic-facing stocks.",
+      "rag_sources": [
+        {
+          "title": "France is plunged further into political crisis. Here\u2019s what could happen next",
+          "date": "2025-10-07",
+          "link": "https://www.cnbc.com/2025/10/07/what-happens-next-in-france-after-lecornus-resignation.html",
+          "snippet": "2025-10-07: France is plunged further into political crisis. Here\u2019s what could happen next: Macron now has to choose a new PM, opt for new parliamentary elections or resign.",
+          "guid": "108207986"
+        },
+        {
+          "title": "France's crisis takes an unexpected turn as Macron's allies defy him",
+          "date": "2025-10-08",
+          "link": "https://www.cnbc.com/2025/10/08/frances-crisis-takes-an-unexpected-turn-as-macrons-allies-defy-him.html",
+          "snippet": "2025-10-08: France's crisis takes an unexpected turn as Macron's allies defy him: The most notable criticism has come from former Prime Minister Gabriel Attal, once Macron's prot\u00e9g\u00e9.",
+          "guid": "108209228"
+        },
+        {
+          "title": "France's political crisis deepens as another PM is axed: Here's what happens next",
+          "date": "2025-09-09",
+          "link": "https://www.cnbc.com/2025/09/09/what-happens-next-in-france-after-another-pm-is-ousted.html",
+          "snippet": "2025-09-09: France's political crisis deepens as another PM is axed: Here's what happens next: CNBC takes a look at what could happen next in France after the ousting of yet another prime minister.",
+          "guid": "108195888"
+        },
+        {
+          "title": "French PM resigns after 27 days sparking fresh political chaos",
+          "date": "2025-10-06",
+          "link": "https://www.cnbc.com/2025/10/06/frances-new-pm-resigns-as-political-chaos-continues.html",
+          "snippet": "2025-10-06: French PM resigns after 27 days sparking fresh political chaos: France's new Prime Minister Sebastien Lecornu has resigned just weeks after his appointment to the role, plunging the countr",
+          "guid": "108207973"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "5a598585-4aae-4389-91d8-c8e8c6593f83",
+      "label": "Midday Stock Movements",
+      "spike_ratio": 1.043,
+      "article_count": 24,
+      "rag_answer": "Midday stock movements have shown significant volatility, with various companies consistently making notable moves in the market. Recent reports highlight stocks like Newmont, Apple, and Sandisk experiencing substantial midday fluctuations, indicating active trading and investor interest. This trend suggests a dynamic market environment where investors are reacting to earnings reports, economic indicators, and broader market sentiments. The ongoing fluctuations may present both opportunities and risks for traders, as they navigate the impacts of economic conditions and corporate performance on stock prices.",
+      "rag_sources": [
+        {
+          "title": "Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/stocks-making-the-biggest-moves-midday-nem-aapl-sndk-deck.html",
+          "snippet": "2026-01-30: Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more: These are the stocks posting the largest moves midday.",
+          "guid": "108259667"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more",
+          "date": "2025-10-15",
+          "link": "https://www.cnbc.com/2025/10/15/stocks-making-the-biggest-moves-midday-bac-ms-bg-pgr.html",
+          "snippet": "2025-10-15: Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108212417"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more",
+          "date": "2025-09-18",
+          "link": "https://www.cnbc.com/2025/09/18/stocks-making-the-biggest-moves-midday-intc-nvo-blsh-all.html",
+          "snippet": "2025-09-18: Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more: These are the stocks posting the largest moves midday.",
+          "guid": "108200831"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: UnitedHealth, Applied Materials, Sandisk and more",
+          "date": "2025-08-15",
+          "link": "https://www.cnbc.com/2025/08/15/stocks-making-big-moves-midday-unh-amat-sndk-csco-evlv-flo-.html",
+          "snippet": "2025-08-15: Stocks making the biggest moves midday: UnitedHealth, Applied Materials, Sandisk and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108186615"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

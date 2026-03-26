@@ -1,0 +1,212 @@
+{
+  "date": "2026-02-10",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "c28691e9-c7d4-4eea-8f85-75aed6a20c9f",
+      "label": "Credit Card Interest and Rewards",
+      "spike_ratio": 1.667,
+      "article_count": 20,
+      "rag_answer": "Recent developments indicate a growing concern over credit card interest rates and the value of rewards programs. President Trump proposed a 10% cap on credit card interest rates, which led to a decline in stock prices for major banks like Capital One, suggesting potential market volatility in the financial sector. Additionally, the landscape of credit card rewards is shifting, with mortgage rewards cards disappearing and consumers needing to adapt their strategies for maximizing benefits. As credit card debt remains high at $1.21 trillion, these changes could impact consumer spending and borrowing behaviors moving forward.",
+      "rag_sources": [
+        {
+          "title": "How often should you redeem your credit card rewards?",
+          "date": "2026-02-03",
+          "link": "https://www.cnbc.com/select/how-often-should-you-redeem-your-credit-card-rewards/",
+          "snippet": "2026-02-03: How often should you redeem your credit card rewards?: There are several different types of credit card rewards and each has its own redemption strategy.",
+          "guid": "108258959"
+        },
+        {
+          "title": "Not a credit card expert? This card earns serious rewards without the strategy",
+          "date": "2026-03-20",
+          "link": "https://www.cnbc.com/select/expert-credit-card-for-anyone-who-isnt-a-credit-card-expert/",
+          "snippet": "2026-03-20: Not a credit card expert? This card earns serious rewards without the strategy: If you love cash back but don't want to miss out on travel rewards, the Citi Double Cash is for you.",
+          "guid": "108279574"
+        },
+        {
+          "title": "Mortgage rewards credit cards are disappearing. Here's what to do next",
+          "date": "2025-12-22",
+          "link": "https://www.cnbc.com/select/mortgage-rewards-credit-cards-are-disappearing/",
+          "snippet": "2025-12-22: Mortgage rewards credit cards are disappearing. Here's what to do next: Housing may be one of your biggest expenses, but it's difficult to earn rewards on these payments. But you do (or at",
+          "guid": "108244703"
+        },
+        {
+          "title": "What does it mean for a credit card to devalue? How to protect your rewards",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/select/credit-card-devaluations-how-to-protect-rewards/",
+          "snippet": "2026-01-23: What does it mean for a credit card to devalue? How to protect your rewards: Over time, credit card devaluations can quietly chip away at the value you get from your card.",
+          "guid": "108253037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "0b33da45-501c-4267-990c-fc52c823783a",
+      "label": "Obesity Drug Market Developments",
+      "spike_ratio": 1.202,
+      "article_count": 25,
+      "rag_answer": "The obesity drug market is experiencing significant growth and transformation, driven by increased access through Medicare coverage and new product launches. Notably, Eli Lilly and Novo Nordisk are leading the charge, with Lilly's recent pill aimed at maintaining weight loss and Novo's explosive launch of a new obesity pill. Pfizer is also expanding its portfolio with a substantial deal to develop a Chinese company's obesity drug. As competition intensifies, questions about insurance coverage, drug pricing, and the emergence of copycat drugs remain critical factors influencing market dynamics.",
+      "rag_sources": [
+        {
+          "title": "What obesity drugmakers see next in the market: More pills, easier access and drug combinations",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/2026/01/23/weight-loss-glp-1-drugs-next-steps-for-eli-lilly-novo-nordisk-pfizer.html",
+          "snippet": "2026-01-23: What obesity drugmakers see next in the market: More pills, easier access and drug combinations: CNBC spoke to executives from Eli Lilly, Novo Nordisk, Pfizer and other drugmakers at the a",
+          "guid": "108255916"
+        },
+        {
+          "title": "Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next",
+          "date": "2025-11-02",
+          "link": "https://www.cnbc.com/2025/11/02/whats-next-for-the-weight-loss-drug-market-pills-rivals-insurance.html",
+          "snippet": "2025-11-02: Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next: Competition is heating up, but questions remain about insurance coverage, drug pricing, copycat drugs a",
+          "guid": "108216702"
+        },
+        {
+          "title": "Millions more Americans could access obesity drugs after Trump's deals with Eli Lilly, Novo Nordisk",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/trump-deals-with-lilly-novo-nordisk-could-broaden-obesity-drug-access.html",
+          "snippet": "2025-11-07: Millions more Americans could access obesity drugs after Trump's deals with Eli Lilly, Novo Nordisk: Medicare will start covering obesity drugs for the first time, which could open access ",
+          "guid": "108223164"
+        },
+        {
+          "title": "Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill\u00a0",
+          "date": "2025-12-09",
+          "link": "https://www.cnbc.com/2025/12/09/pfizer-deal-yaopharma-obesity-pill.html",
+          "snippet": "2025-12-09: Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill: The deal will help Pfizer beef up and diversify its obesity drug pipeline following its $10 billi",
+          "guid": "108239106"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "05ef0eab-e46c-47b6-82e0-f1636727cee8",
+      "label": "AI Competition and Collaborations",
+      "spike_ratio": 1.2,
+      "article_count": 24,
+      "rag_answer": "The AI landscape is increasingly competitive, with major players like OpenAI, Anthropic, and emerging startups like Cursor and Cohere vying for dominance. OpenAI continues to solidify its position, while Anthropic faces challenges in its dealings with the Pentagon over AI deployment in defense. Chinese tech giants are also entering the fray, focusing on developing advanced AI models for super apps. This competitive environment is driving innovation and collaboration, as seen in partnerships like that between OpenAI and AMD, but it also raises concerns about regulatory scrutiny and market sustainability.",
+      "rag_sources": [
+        {
+          "title": "Cursor announces major update to AI agents as coding tool battle heats up",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/cursor-announces-major-update-as-ai-coding-agent-battle-heats-up.html",
+          "snippet": "2026-02-24: Cursor announces major update to AI agents as coding tool battle heats up: Cursor announced updates to its AI coding agents as the startup works to fend off competition from rivals",
+          "guid": "108269197"
+        },
+        {
+          "title": "Anthropic faces Friday deadline in Defense AI clash with Hegseth",
+          "date": "2026-02-25",
+          "link": "https://www.cnbc.com/2026/02/24/anthropic-ai-hegseth-spying-defense.html",
+          "snippet": "2026-02-25: Anthropic faces Friday deadline in Defense AI clash with Hegseth: Until this week, Anthropic was the only AI company cleared to deploy its models on classified networks. Elon Musk's xAI is",
+          "guid": "108269292"
+        },
+        {
+          "title": "OpenAI's dominance is unlike anything Silicon Valley has ever seen",
+          "date": "2025-10-11",
+          "link": "https://www.cnbc.com/2025/10/11/open-ai-silicon-valley-tech-startup.html",
+          "snippet": "2025-10-11: OpenAI's dominance is unlike anything Silicon Valley has ever seen: OpenAI's position at the heart of the AI boom, and its expansion up and down the stack, is putting the company in compet",
+          "guid": "108209603"
+        },
+        {
+          "title": "CNBC Daily Open: The AI industry's 'happy few'\u00a0",
+          "date": "2025-10-07",
+          "link": "https://www.cnbc.com/2025/10/07/cnbc-daily-open-the-ai-industrys-happy-few-openai-amd.html",
+          "snippet": "2025-10-07: CNBC Daily Open: The AI industry's 'happy few': The arrangement between OpenAI and AMD adds a new layer to the increasingly circular nature of AI's corporate economy.",
+          "guid": "108208577"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "0009838e-5b99-4f23-b3c0-d85cafc96a09",
+      "label": "U.S.-Iran Tensions and Oil Prices",
+      "spike_ratio": 1.18,
+      "article_count": 21,
+      "rag_answer": "U.S.-Iran tensions have escalated significantly, leading to volatile oil prices. Following reports of military strikes and the collapse of nuclear talks, oil prices surged, with U.S. crude oil topping $80 per barrel as the conflict disrupts global fuel supplies. Market reactions have been mixed, with oil prices initially jumping but later pulling back as negotiations resumed. The ongoing conflict is raising concerns about market concentration risks and its impact on consumers, as rising oil prices are already affecting pocketbooks.",
+      "rag_sources": [
+        {
+          "title": "Oil pulls back as U.S.\u2013Iran talks set to resume: Here\u2019s where negotiations stand",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/23/iran-us-talks-oil-falls-nuclear-negotiations.html",
+          "snippet": "2026-02-23: Oil pulls back as U.S.\u2013Iran talks set to resume: Here\u2019s where negotiations stand: Tensions have remained on high alert throughout the Middle East for weeks after U.S. President Donald Trum",
+          "guid": "108268317"
+        },
+        {
+          "title": "Oil jumps 4% after Vance says Iran ignored key U.S. demands, military strikes on the table",
+          "date": "2026-02-18",
+          "link": "https://www.cnbc.com/2026/02/18/oil-prices-today-iran-trump-nuclear-talks.html",
+          "snippet": "2026-02-18: Oil jumps 4% after Vance says Iran ignored key U.S. demands, military strikes on the table: Oil traders are worried that war between the U.S. and Iran could lead to a major disruption of c",
+          "guid": "108266679"
+        },
+        {
+          "title": "Here's how the U.S.-Iran war is already hitting consumers' pocketbooks",
+          "date": "2026-03-06",
+          "link": "https://www.cnbc.com/2026/03/06/us-iran-war-gas-mortgage-markets.html",
+          "snippet": "2026-03-06: Here's how the U.S.-Iran war is already hitting consumers' pocketbooks: The U.S.-Israeli strikes on Iran over the weekend gave way to a week with topsy-turvy markets, spiking mortgage rate",
+          "guid": "108274411"
+        },
+        {
+          "title": "Oil prices steady as traders monitor Iran tensions, U.S. economic data",
+          "date": "2026-02-10",
+          "link": "https://www.cnbc.com/2026/02/10/oil-drifts-lower-as-traders-weigh-supply-risks-amid-usiran-tensions.html",
+          "snippet": "2026-02-10: Oil prices steady as traders monitor Iran tensions, U.S. economic data: Oil prices eased slightly on Tuesday after U.S. guidance for vessels transiting the Strait of Hormuz kept attention ",
+          "guid": "108263647"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "86c68629-bcc3-4d3e-92f9-6b3e3a5097f9",
+      "label": "Robotaxi and EV Industry Updates",
+      "spike_ratio": 1.101,
+      "article_count": 19,
+      "rag_answer": "The robotaxi industry is experiencing significant momentum, with major players like Baidu, Nvidia, Waymo, and Tesla making strides in technology and market expansion. Companies such as Lucid and Rivian are also entering the robotaxi space, with Rivian announcing a substantial investment from Uber to deploy 50,000 robotaxis. Meanwhile, traditional automakers like GM and Ford are facing challenges, including financial setbacks and declining EV sales, as they adjust their strategies in response to changing market conditions. Overall, the rapid growth of the robotaxi sector suggests a transformative shift in urban mobility, but it also highlights the competitive pressures and financial hurdles within the broader EV market.",
+      "rag_sources": [
+        {
+          "title": "\u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises",
+          "date": "2025-11-20",
+          "link": "https://www.cnbc.com/2025/11/20/global-robotaxi-race-heats-up-between-us-and-chinese-rivals.html",
+          "snippet": "2025-11-20: \u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises: Global tech executives in recent weeks have proclaimed the robotaxi industry is finally nea",
+          "guid": "108226580"
+        },
+        {
+          "title": "EV maker Lucid reveals plans for robotaxi, positive free cash flow late this decade",
+          "date": "2026-03-12",
+          "link": "https://www.cnbc.com/2026/03/12/lucid-investor-day.html",
+          "snippet": "2026-03-12: EV maker Lucid reveals plans for robotaxi, positive free cash flow late this decade: The EV company is aiming to hit that target through market expansion into midsize vehicles, robotaxis a",
+          "guid": "108277205"
+        },
+        {
+          "title": "Rivian announces new AI tech, in-house chip and robotaxi ambitions",
+          "date": "2025-12-11",
+          "link": "https://www.cnbc.com/2025/12/11/rivian-autonomy-ai-day.html",
+          "snippet": "2025-12-11: Rivian announces new AI tech, in-house chip and robotaxi ambitions: The company has also developed AI models to power its Autonomy+ subscription, which it intends to roll out early next ye",
+          "guid": "108240446"
+        },
+        {
+          "title": "Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/waymo-amazon-zoox-tesla-robotaxi-expansion.html",
+          "snippet": "2025-12-16: Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line: Robotaxis grew rapidly in 2025 with Waymo expanding fastest, Zoox debuting public rides and Tesla ",
+          "guid": "108236372"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "date": "2026-03-24",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "f82fe760-6e0c-4aee-a143-a4e2df1c937d",
+      "label": "Student Loan Forgiveness Issues",
+      "spike_ratio": 1.331,
+      "article_count": 33,
+      "rag_answer": "Student loan borrowers seeking Public Service Loan Forgiveness are facing significant challenges, including a growing backlog of applications, which has reportedly reached over 800,000. The Trump administration is proposing changes that could limit eligibility for this popular program, further complicating access to relief for public servants. As a result, many borrowers are experiencing delays, with some waiting over a year for their applications to be processed. These developments could lead to increased financial strain on borrowers and may impact the broader market by affecting consumer spending and financial stability among those reliant on loan forgiveness.",
+      "rag_sources": [
+        {
+          "title": "Student loan borrowers face new challenges trying to get Public Service Loan Forgiveness",
+          "date": "2025-08-06",
+          "link": "https://www.cnbc.com/2025/08/06/student-loan-borrowers-and-changes-to-public-service-loan-forgiveness-pslf.html",
+          "snippet": "2025-08-06: Student loan borrowers face new challenges trying to get Public Service Loan Forgiveness: Borrowers pursuing Public Service Loan Forgiveness are hitting walls trying to access the relief, ",
+          "guid": "108181052"
+        },
+        {
+          "title": "Trump administration moves to 'prevent benefits' for some under popular student loan forgiveness program ",
+          "date": "2025-08-18",
+          "link": "https://www.cnbc.com/2025/08/18/trump-public-service-loan-forgiveness-pslf-eligibility.html",
+          "snippet": "2025-08-18: Trump administration moves to 'prevent benefits' for some under popular student loan forgiveness program: The Trump administration says that its proposed changes to Public Service Loan For",
+          "guid": "108187169"
+        },
+        {
+          "title": "Some student loan borrowers wait over a year in public servant debt forgiveness backlog",
+          "date": "2026-02-09",
+          "link": "https://www.cnbc.com/2026/02/09/pslf-public-service-loan-forgiveness-buyback-backlog.html",
+          "snippet": "2026-02-09: Some student loan borrowers wait over a year in public servant debt forgiveness backlog: More than 83,000 federal student loan borrowers are waiting for a Public Service Loan Forgiveness B",
+          "guid": "108254849"
+        },
+        {
+          "title": "Student loan borrowers in default could soon see reduced paychecks. What to know",
+          "date": "2025-08-22",
+          "link": "https://www.cnbc.com/2025/08/22/student-loan-borrowers-in-default-face-wage-garnishment.html",
+          "snippet": "2025-08-22: Student loan borrowers in default could soon see reduced paychecks. What to know: Student loan borrowers who've fallen behind on their payments could soon see the U.S. Department of Educat",
+          "guid": "108189629"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "fcfe2030-5a3d-4a72-9961-c84182027a5d",
+      "label": "Anthropic-Pentagon AI Dispute",
+      "spike_ratio": 1.25,
+      "article_count": 23,
+      "rag_answer": "The ongoing dispute between Anthropic and the Pentagon centers around the Defense Department's demands for greater access to AI tools for military applications. Anthropic, which secured a $200 million defense contract, is facing pressure to comply with these demands, but CEO Dario Amodei has stated that the Pentagon's threats do not alter their position. As the deadline for a policy change looms, Anthropic finds itself in a challenging situation, potentially impacting its operations and future contracts. This standoff highlights the broader struggle over control of military AI, which could have significant implications for the competitive landscape among AI companies and their relationships with government entities.",
+      "rag_sources": [
+        {
+          "title": "In Pentagon-Anthropic standoff, AI is real-time testing the balance of power in future of warfare",
+          "date": "2026-02-27",
+          "link": "https://www.cnbc.com/2026/02/27/defense-anthropic-ai-war-risks-hegseth-amodei.html",
+          "snippet": "2026-02-27: In Pentagon-Anthropic standoff, AI is real-time testing the balance of power in future of warfare: Pentagon's clash with Anthropic highlights growing fight over who controls military AI\u00a0. ",
+          "guid": "108270939"
+        },
+        {
+          "title": "Pentagon threatens to cut off Anthropic in AI safeguards dispute: Report",
+          "date": "2026-02-16",
+          "link": "https://www.cnbc.com/2026/02/16/pentagon-threatens-anthropic-ai-safeguards-dispute.html",
+          "snippet": "2026-02-16: Pentagon threatens to cut off Anthropic in AI safeguards dispute: Report: The Pentagon is pushing Anthropic, OpenAI, Google and xAI to let it use AI tools for weapons development, intellig",
+          "guid": "108266079"
+        },
+        {
+          "title": "Anthropic is clashing with the Pentagon over AI use. Here's what each side wants",
+          "date": "2026-02-18",
+          "link": "https://www.cnbc.com/2026/02/18/anthropic-pentagon-ai-defense-war-surveillance.html",
+          "snippet": "2026-02-18: Anthropic is clashing with the Pentagon over AI use. Here's what each side wants: Anthropic landed a $200 million Defense contract last year, as did AI rivals OpenAI, Google and xAI.",
+          "guid": "108266856"
+        },
+        {
+          "title": "Anthropic CEO Amodei says Pentagon's threats 'do not change our position' on AI",
+          "date": "2026-02-27",
+          "link": "https://www.cnbc.com/2026/02/26/anthropic-pentagon-ai-amodei.html",
+          "snippet": "2026-02-27: Anthropic CEO Amodei says Pentagon's threats 'do not change our position' on AI: Anthropic said its negotiations with the DOD are still ongoing.",
+          "guid": "108270698"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "86166b9b-763a-4509-80b0-49d83d54114b",
+      "label": "Tech stock earnings and AI growth",
+      "spike_ratio": 1.149,
+      "article_count": 18,
+      "rag_answer": "Tech stock earnings are experiencing volatility amid the ongoing AI boom, with some companies like Meta and Microsoft facing declines despite reporting strong revenue growth. Analysts suggest that while AI spending is driving stock market gains, it may be masking underlying weaknesses in the broader economy. The market is reacting to mixed signals, as heightened AI investments lead to skepticism about their long-term payoffs, particularly following disappointing earnings from key players like Nvidia. Overall, the AI sector remains a focal point for investors, but concerns about sustainability and growth targets are creating uncertainty in tech stock performance.",
+      "rag_sources": [
+        {
+          "title": "The stocks set to win as AI spend continues to soar: Analysts",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/the-stocks-set-to-win-from-soaring-ai-spend-according-to-analysts.html",
+          "snippet": "2025-11-07: The stocks set to win as AI spend continues to soar: Analysts: While Big Tech deals draw eyeballs, opportunities lie in those flying under the radar but supporting the AI supply chain.",
+          "guid": "108222221"
+        },
+        {
+          "title": "The AI boom is lifting the stock market, but it may be masking a weaker economy",
+          "date": "2025-10-14",
+          "link": "https://www.cnbc.com/2025/10/14/ai-infrastructure-boom-masks-potential-us-recession-analyst-warns.html",
+          "snippet": "2025-10-14: The AI boom is lifting the stock market, but it may be masking a weaker economy: AI spending is powering growth in GDP and profits but experts warn the rest of the U.S. economy may be weak",
+          "guid": "108208265"
+        },
+        {
+          "title": "CNBC Daily Open: Days of declines won't keep AI trade down",
+          "date": "2025-11-11",
+          "link": "https://www.cnbc.com/2025/11/11/cnbc-daily-open-days-of-declines-wont-keep-ai-trade-down.html",
+          "snippet": "2025-11-11: CNBC Daily Open: Days of declines won't keep AI trade down: Investors piled back into artificial intelligence names on Monday stateside. \\AI-related stocks should drive equity markets,\\\" a",
+          "guid": "108224037"
+        },
+        {
+          "title": "CNBC Daily Open: U.S. stocks' gains in October owe much to AI",
+          "date": "2025-11-03",
+          "link": "https://www.cnbc.com/2025/11/03/cnbc-daily-open-us-stocks-gains-in-october-owe-much-to-ai.html",
+          "snippet": "2025-11-03: CNBC Daily Open: U.S. stocks' gains in October owe much to AI: The AI trade looks, for now, less like the immediate sugar rush of a candy bar (and its subsequent crash), and more like a su",
+          "guid": "108220398"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "ee1ad4d1-8648-438c-b36e-c7ec3a2fa38c",
+      "label": "Trump tariffs Supreme Court ruling",
+      "spike_ratio": 1.096,
+      "article_count": 39,
+      "rag_answer": "The U.S. Supreme Court has struck down significant portions of President Trump's tariffs, a ruling that could potentially expose the U.S. government to $175 billion in refunds. This decision has been described as a major setback for Trump, whose economic policies heavily relied on these tariffs. While U.S. trading partners have welcomed the ruling, businesses are left to navigate uncertain market conditions as they adjust to the implications of the decision. The ruling has also sparked concerns about the future of trade deals and the overall economic landscape.",
+      "rag_sources": [
+        {
+          "title": "Supreme Court Trump tariffs ruling could put U.S. on hook for $175 billion in refunds, estimate says",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/supreme-court-trump-tariffs-us-refunds.html",
+          "snippet": "2026-02-20: Supreme Court Trump tariffs ruling could put U.S. on hook for $175 billion in refunds, estimate says: Supreme Court Justice Brett Kavanaugh, in his dissent, warned that \\the refund process",
+          "guid": "108267896"
+        },
+        {
+          "title": "Watch: Trump speaks after Supreme Court strikes down tariffs ",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/trump-supreme-court-tariffs-white-house.html",
+          "snippet": "2026-02-20: Watch: Trump speaks after Supreme Court strikes down tariffs: The Supreme Court ruling is a major blow to Trump, whose economic and foreign policies leaned on his asserted power to unilate",
+          "guid": "108267984"
+        },
+        {
+          "title": "President Trump's tariffs fueled U.S. Customs bond market boom. Now billions hang on Supreme Court ruling",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/supreme-court-trump-tariffs-case-decision-refunds-customs-bonds.html",
+          "snippet": "2026-02-06: President Trump's tariffs fueled U.S. Customs bond market boom. Now billions hang on Supreme Court ruling: Companies are anxious for Supreme Court ruling on Trump tariffs, but in addition ",
+          "guid": "108257085"
+        },
+        {
+          "title": "Trump insists trade deals safe after Supreme Court ruling upends tariff authority, but partners aren\u2019t so sure",
+          "date": "2026-02-26",
+          "link": "https://www.cnbc.com/2026/02/26/trump-state-of-the-union-supreme-court-tariffs-trade-deals-ieepa-section-301-232-122.html",
+          "snippet": "2026-02-26: Trump insists trade deals safe after Supreme Court ruling upends tariff authority, but partners aren\u2019t so sure: The Supreme Court decision to strike down Trump's tariffs has thrown fresh c",
+          "guid": "108268905"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "0b33da45-501c-4267-990c-fc52c823783a",
+      "label": "Obesity Drug Market Developments",
+      "spike_ratio": 1.074,
+      "article_count": 35,
+      "rag_answer": "The obesity drug market is experiencing significant growth and transformation, driven by increased access through Medicare coverage and new product launches. Notably, Eli Lilly and Novo Nordisk are leading the charge with innovative obesity pills, while Pfizer is diversifying its pipeline with a substantial deal to develop a Chinese company's drug. The competitive landscape is intensifying, raising questions about insurance coverage and drug pricing. Overall, these developments suggest a promising future for obesity treatments, potentially reaching millions of new patients.",
+      "rag_sources": [
+        {
+          "title": "What obesity drugmakers see next in the market: More pills, easier access and drug combinations",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/2026/01/23/weight-loss-glp-1-drugs-next-steps-for-eli-lilly-novo-nordisk-pfizer.html",
+          "snippet": "2026-01-23: What obesity drugmakers see next in the market: More pills, easier access and drug combinations: CNBC spoke to executives from Eli Lilly, Novo Nordisk, Pfizer and other drugmakers at the a",
+          "guid": "108255916"
+        },
+        {
+          "title": "Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next",
+          "date": "2025-11-02",
+          "link": "https://www.cnbc.com/2025/11/02/whats-next-for-the-weight-loss-drug-market-pills-rivals-insurance.html",
+          "snippet": "2025-11-02: Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next: Competition is heating up, but questions remain about insurance coverage, drug pricing, copycat drugs a",
+          "guid": "108216702"
+        },
+        {
+          "title": "Millions more Americans could access obesity drugs after Trump's deals with Eli Lilly, Novo Nordisk",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/trump-deals-with-lilly-novo-nordisk-could-broaden-obesity-drug-access.html",
+          "snippet": "2025-11-07: Millions more Americans could access obesity drugs after Trump's deals with Eli Lilly, Novo Nordisk: Medicare will start covering obesity drugs for the first time, which could open access ",
+          "guid": "108223164"
+        },
+        {
+          "title": "Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill\u00a0",
+          "date": "2025-12-09",
+          "link": "https://www.cnbc.com/2025/12/09/pfizer-deal-yaopharma-obesity-pill.html",
+          "snippet": "2025-12-09: Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill: The deal will help Pfizer beef up and diversify its obesity drug pipeline following its $10 billi",
+          "guid": "108239106"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

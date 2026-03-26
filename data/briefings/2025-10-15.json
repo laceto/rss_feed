@@ -1,0 +1,211 @@
+{
+  "date": "2025-10-15",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "abddb7fb-34ac-438d-9d14-c197f506a220",
+      "label": "Gold and Cryptocurrency Trends",
+      "spike_ratio": 2.029,
+      "article_count": 23,
+      "rag_answer": "Gold has been experiencing significant price fluctuations, recently hitting new highs around $4,000 an ounce, driven by political and financial uncertainties. However, it has also entered correction territory as global investors shift their focus away from concerns about China and the Federal Reserve, suggesting a potential consolidation period ahead. Meanwhile, cryptocurrency, particularly Bitcoin, is gaining traction as some investors rotate funds out of gold, indicating a growing interest in digital assets as an alternative safe haven. This shift reflects a broader trend of diversification in investment strategies, as market participants seek to balance risks across different asset classes.",
+      "rag_sources": [
+        {
+          "title": "Gold is getting knocked on Tuesday \u2013 it\u2019s still the hottest trade of the year ",
+          "date": "2025-10-21",
+          "link": "https://www.cnbc.com/2025/10/21/gold-is-getting-knocked-on-tuesday-its-still-the-hottest-trade-of-the-year-.html",
+          "snippet": "2025-10-21: Gold is getting knocked on Tuesday \u2013 it\u2019s still the hottest trade of the year: There's another corner of the market that Wall Street is enthusiastic about.",
+          "guid": "108210833"
+        },
+        {
+          "title": "Gold may experience a longer consolidation period before bull trend can restart, says Katie Stockton",
+          "date": "2025-10-27",
+          "link": "https://www.cnbc.com/2025/10/27/gold-may-experience-a-longer-consolidation-period-before-bull-trend-can-restart-says-katie-stockton.html",
+          "snippet": "2025-10-27: Gold may experience a longer consolidation period before bull trend can restart, says Katie Stockton: The chart analysts breaks down the charts on bullion and related stocks.",
+          "guid": "108217335"
+        },
+        {
+          "title": "Gold enters correction territory as global investors stop worrying as much about China tensions, Fed independence, AI bubble",
+          "date": "2025-10-28",
+          "link": "https://www.cnbc.com/2025/10/28/gold-enters-correction-territory-as-global-investors-stop-worrying-as-much-about-china-tensions-fed-independence-ai-bubble.html",
+          "snippet": "2025-10-28: Gold enters correction territory as global investors stop worrying as much about China tensions, Fed independence, AI bubble: The yellow metal's recent slide could continue over the near t",
+          "guid": "108217832"
+        },
+        {
+          "title": "Bitcoin is getting a shutdown boost. More money could rotate into the crypto and out of gold",
+          "date": "2025-10-01",
+          "link": "https://www.cnbc.com/2025/10/01/bitcoin-is-getting-a-shutdown-boost-more-money-could-rotate-into-the-crypto-and-out-of-gold.html",
+          "snippet": "2025-10-01: Bitcoin is getting a shutdown boost. More money could rotate into the crypto and out of gold: Frank Cappelleri looks at the ratio between bitcoin and gold.",
+          "guid": "108206577"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "4eb772eb-d02a-4921-8e56-755d08b0d18e",
+      "label": "Trump Tariffs and Inflation Impact",
+      "spike_ratio": 1.688,
+      "article_count": 26,
+      "rag_answer": "Trump's tariffs are increasingly impacting consumer prices, with a significant portion of the inflationary effects yet to be fully realized, according to various economic reports. Economists and market strategists anticipate that inflation will reaccelerate due to these tariffs, despite some officials, including members of the Federal Reserve, downplaying their immediate effects. The Supreme Court's upcoming decision on the tariffs adds uncertainty to their future, with potential market repercussions as investors brace for adjustments. Overall, the situation remains fluid, with ongoing debates about the tariffs' long-term economic implications.",
+      "rag_sources": [
+        {
+          "title": "Trump's tariffs are slowly finding their way into consumer prices",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/trumps-tariffs-are-slowly-finding-their-way-into-consumer-prices.html",
+          "snippet": "2025-09-11: Trump's tariffs are slowly finding their way into consumer prices: A key Bureau of Labor Statistics inflation report showed price increases for a variety of tariff-sensitive items.",
+          "guid": "108197570"
+        },
+        {
+          "title": "Trump tariffs are fueling inflation, congressional budget chief says",
+          "date": "2025-09-15",
+          "link": "https://www.cnbc.com/2025/09/15/trump-trade-inflation-tariffs-cbo.html",
+          "snippet": "2025-09-15: Trump tariffs are fueling inflation, congressional budget chief says: President Donald Trump's tariffs face an uncertain future as the Supreme Court is poised to hear the administration's ",
+          "guid": "108198722"
+        },
+        {
+          "title": "Ken Griffin says more tariff impact on inflation is still ahead, Fed should be independent",
+          "date": "2025-09-25",
+          "link": "https://www.cnbc.com/2025/09/25/ken-griffin-say-more-tariff-impact-on-inflation-is-still-ahead-fed-should-be-independent.html",
+          "snippet": "2025-09-25: Ken Griffin says more tariff impact on inflation is still ahead, Fed should be independent: Ken Griffin said only about half of the inflationary impact from Trump's wide-spreading levies o",
+          "guid": "108203864"
+        },
+        {
+          "title": "Five key takeaways from the Supreme Court's landmark decision against Trump's tariffs",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/21/supreme-courts-trump-tariff-decision-five-takeaways.html",
+          "snippet": "2026-02-23: Five key takeaways from the Supreme Court's landmark decision against Trump's tariffs: What's far less certain is the longer-reaching impacts as the economy and markets again adjust to a c",
+          "guid": "108268087"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.25,
+          "mean_sentiment_score": 0.118,
+          "data_age_days": null
+        },
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "efc45022-a04e-4a18-8e57-b284b55bb483",
+      "label": "Government Shutdown Negotiations",
+      "spike_ratio": 1.132,
+      "article_count": 48,
+      "rag_answer": "The government shutdown, which began on October 1, 2025, has become the second longest in U.S. history, with ongoing negotiations between Democrats and President Trump failing to yield a resolution. Senate funding measures have repeatedly failed, leading to concerns about potential layoffs of federal workers and uncertainty in commercial real estate and investor confidence. Market reactions have been mixed, with Wall Street questioning the potential risks of the shutdown compared to previous instances, and some analysts suggesting that the markets could experience volatility if the deadlock continues. As the shutdown drags on, the pressure is mounting on Congress and the administration to reach an agreement, particularly as critical deadlines approach.",
+      "rag_sources": [
+        {
+          "title": "How a U.S. government shutdown could impact global markets",
+          "date": "2025-10-01",
+          "link": "https://www.cnbc.com/2025/10/01/how-a-us-government-shutdown-could-impact-global-markets.html",
+          "snippet": "2025-10-01: How a U.S. government shutdown could impact global markets: Global investors are weighing how much of an impact the shutdown may have on markets.",
+          "guid": "108206219"
+        },
+        {
+          "title": "Government shutdowns usually have little economic impact. This time could be different",
+          "date": "2025-09-30",
+          "link": "https://www.cnbc.com/2025/09/29/government-shutdowns-usually-have-little-economic-impact-this-time-could-be-different.html",
+          "snippet": "2025-09-30: Government shutdowns usually have little economic impact. This time could be different: For all the political firestorms they generate, government shutdowns have been nonevents for both ma",
+          "guid": "108205106"
+        },
+        {
+          "title": "Government shutdown becomes 2nd longest in U.S. history",
+          "date": "2025-10-22",
+          "link": "https://www.cnbc.com/2025/10/22/government-shutdown-trump-democrats.html",
+          "snippet": "2025-10-22: Government shutdown becomes 2nd longest in U.S. history: Democrats want President Donald Trump to get involved in shutdown negotiations. Senate Majority Leader John Thune says, \\Open up th",
+          "guid": "108215328"
+        },
+        {
+          "title": "Schumer presses Trump to negotiate with Democrats as government shutdown deadline nears",
+          "date": "2025-09-21",
+          "link": "https://www.cnbc.com/2025/09/21/trump-schumer-government-shutdown-funding-.html",
+          "snippet": "2025-09-21: Schumer presses Trump to negotiate with Democrats as government shutdown deadline nears: The Senate last week rejected proposals to keep the government funded at least temporarily,  raisin",
+          "guid": "108201678"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "7f4dee2b-59fc-4643-847b-6cfc554750ee",
+      "label": "Charlie Kirk shooting incident",
+      "spike_ratio": 1.102,
+      "article_count": 13,
+      "rag_answer": "Charlie Kirk, a conservative activist and ally of President Donald Trump, was shot and killed during a political event at Utah Valley University on September 11, 2025. The investigation into his assassination has revealed that the shooter, Tyler Robinson, was identified shortly after the incident, and there are ongoing discussions about the motives behind the attack, including connections to political violence. In response to Kirk's death, there have been bipartisan calls to address political violence, and the Trump administration is seeking a $58 million security boost for government branches. The incident has also led to significant media fallout, including the suspension of Jimmy Kimmel's show due to comments made about the shooting.",
+      "rag_sources": [
+        {
+          "title": "Charlie Kirk shooting: Utah Gov. Spencer Cox shares new details",
+          "date": "2025-09-14",
+          "link": "https://www.cnbc.com/2025/09/14/charlie-kirk-shooting-utah-gov-cox-.html",
+          "snippet": "2025-09-14: Charlie Kirk shooting: Utah Gov. Spencer Cox shares new details: Investigators are still working to determine the motive for the killing of Charlie Kirk.",
+          "guid": "108198506"
+        },
+        {
+          "title": "Dallas ICE shooter searched 'Charlie Kirk Shot Video' before attack: FBI",
+          "date": "2025-09-25",
+          "link": "https://www.cnbc.com/2025/09/25/dallas-ice-shooter-charlie-kirk-fbi.html",
+          "snippet": "2025-09-25: Dallas ICE shooter searched 'Charlie Kirk Shot Video' before attack: FBI: ICE shooting gunman Joshua Jahn's search for video about Charlie Kirk, the recently assassinated conservative acti",
+          "guid": "108204056"
+        },
+        {
+          "title": "Charlie Kirk shooting: FBI shares person of interest photos, offers $100,000 reward",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/charlie-kirk-shooter-manhunt-trump.html",
+          "snippet": "2025-09-11: Charlie Kirk shooting: FBI shares person of interest photos, offers $100,000 reward: Kirk, a close ally of President Donald Trump, was killed by a gunman during a political event at Utah V",
+          "guid": "108197417"
+        },
+        {
+          "title": "Charlie Kirk shooter: Officials identify Tyler Robinson as suspect after arrest",
+          "date": "2025-09-12",
+          "link": "https://www.cnbc.com/2025/09/12/trump-charlie-kirk-shooter-suspect.html",
+          "snippet": "2025-09-12: Charlie Kirk shooter: Officials identify Tyler Robinson as suspect after arrest: Kirk, an ally of President Donald Trump, was shot during an event at Utah Valley University, kicking off a ",
+          "guid": "108198038"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "63e7bf23-b3e8-4620-91c5-d03dab82245b",
+      "label": "H-1B Visa Policy Changes",
+      "spike_ratio": 1.09,
+      "article_count": 17,
+      "rag_answer": "President Trump has imposed a significant $100,000 fee on H-1B visas, which has sparked widespread concern and confusion among businesses and skilled foreign workers, particularly from India and China. This policy aims to curb immigration and prioritize domestic hiring, but critics argue it could hinder innovation and lead to job offshoring, especially among Indian tech companies. The changes have already resulted in a slump in Indian tech stocks and have prompted startups to worry about their future hiring capabilities. Overall, the new fee structure is reshaping the job market and may lead global talent to reconsider their aspirations in the U.S.",
+      "rag_sources": [
+        {
+          "title": "Here's everything Trump is changing with H-1B visas",
+          "date": "2025-09-22",
+          "link": "https://www.cnbc.com/2025/09/22/everything-trump-is-changing-with-h1b-visas.html",
+          "snippet": "2025-09-22: Here's everything Trump is changing with H-1B visas: President Donald Trump raised the fee for an H-1B visa to $100,000 on Friday, leaving companies scrambling to respond.",
+          "guid": "108202195"
+        },
+        {
+          "title": "How Trump's $100,000 H-1B visa fee is already changing the job market search for skilled workers",
+          "date": "2025-10-15",
+          "link": "https://www.cnbc.com/2025/10/15/trump-h1b-visa-fee-startups-jobs-recruit-hire-workers.html",
+          "snippet": "2025-10-15: How Trump's $100,000 H-1B visa fee is already changing the job market search for skilled workers: President Trump's $100,000 fee for H-1B visas for skilled foreign workers poses risks to t",
+          "guid": "108212405"
+        },
+        {
+          "title": "H-1B visa applicants face more disruptions amid social media checks and wage protection rules",
+          "date": "2025-12-23",
+          "link": "https://www.cnbc.com/2025/12/23/h-1b-visa-applicants-face-more-disruptions-amid-social-media-checks.html",
+          "snippet": "2025-12-23: H-1B visa applicants face more disruptions amid social media checks and wage protection rules: The U.S. administration has lined up a slew of actions to restrict the use of H-1B visas by b",
+          "guid": "108245067"
+        },
+        {
+          "title": "Trump's H-1B visa fee sparks chaos and confusion among Chinese talents in the U.S.",
+          "date": "2025-09-22",
+          "link": "https://www.cnbc.com/2025/09/22/trumps-h-1b-visa-fee-sparks-chaos-and-confusion-among-chinese-talents-in-the-us.html",
+          "snippet": "2025-09-22: Trump's H-1B visa fee sparks chaos and confusion among Chinese talents in the U.S.: The visa fee change marked the Trump administration's most aggressive step yet to curb immigration, part",
+          "guid": "108201798"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

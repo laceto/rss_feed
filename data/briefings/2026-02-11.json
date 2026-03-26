@@ -1,0 +1,212 @@
+{
+  "date": "2026-02-11",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "20dc2216-5ed2-4f06-b49a-5e8994526cb3",
+      "label": "Tax Refunds and Relief",
+      "spike_ratio": 1.577,
+      "article_count": 28,
+      "rag_answer": "Tax refunds for the 2026 season are projected to be higher on average, with an increase of 10.2% based on early filing data, although some taxpayers may receive smaller refunds than expected due to less significant changes than initially anticipated. The White House indicated that refunds could be $1,000 higher on average, which may encourage consumer spending, particularly in the auto industry, as many Americans might use their refunds to purchase vehicles. Additionally, the IRS is addressing past errors related to pandemic-era penalty tax relief, which could further impact taxpayer refunds. Overall, these developments suggest a mixed outlook for consumer spending and economic activity as tax season unfolds.",
+      "rag_sources": [
+        {
+          "title": "Your tax refund could be smaller than expected this season. Here's why",
+          "date": "2026-03-20",
+          "link": "https://www.cnbc.com/2026/03/20/smaller-tax-refunds.html",
+          "snippet": "2026-03-20: Your tax refund could be smaller than expected this season. Here's why: Tax refunds are higher on average compared to last year, but the change has been smaller than some early projections",
+          "guid": "108280386"
+        },
+        {
+          "title": "Trump tariffs: Refunds to companies should go to workers as bonuses, raises, Greer says",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/trump-trade-jamieson-greer-tariff-refunds-workers-companies.html",
+          "snippet": "2026-03-13: Trump tariffs: Refunds to companies should go to workers as bonuses, raises, Greer says: The United States government could end up paying $165 billion of more in refunds for Trump's IEEPA ",
+          "guid": "108277871"
+        },
+        {
+          "title": "Tax season presents a boom-or-bust test for U.S. auto sales",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/us-auto-sales-tax-season-test.html",
+          "snippet": "2026-02-20: Tax season presents a boom-or-bust test for U.S. auto sales: Auto industry experts anticipate that some Americans could use higher tax returns to finally purchase a new or used vehicle.",
+          "guid": "108266104"
+        },
+        {
+          "title": "Tax savings from Trump's $40,000 SALT deduction limit could be highest in these states ",
+          "date": "2025-09-23",
+          "link": "https://www.cnbc.com/2025/09/23/trump-salt-deduction-limit.html",
+          "snippet": "2025-09-23: Tax savings from Trump's $40,000 SALT deduction limit could be highest in these states: Trump\u2019s \u2018big beautiful bill\u2019 increased the SALT deduction to $40,000 for 2025. Here's where taxpayer",
+          "guid": "108202083"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "c28691e9-c7d4-4eea-8f85-75aed6a20c9f",
+      "label": "Credit Card Interest and Rewards",
+      "spike_ratio": 1.397,
+      "article_count": 19,
+      "rag_answer": "Recent developments indicate a growing concern over credit card interest rates and the value of rewards programs. President Trump proposed a 10% cap on credit card interest rates, which led to a decline in bank stocks, including a 6% drop for Capital One, signaling potential market volatility in the financial sector. Additionally, the landscape of credit card rewards is shifting, with mortgage rewards cards disappearing and consumers needing to adapt their strategies for redeeming rewards effectively. This combination of interest rate caps and changes in rewards structures could impact consumer behavior and credit card issuer profitability moving forward.",
+      "rag_sources": [
+        {
+          "title": "How often should you redeem your credit card rewards?",
+          "date": "2026-02-03",
+          "link": "https://www.cnbc.com/select/how-often-should-you-redeem-your-credit-card-rewards/",
+          "snippet": "2026-02-03: How often should you redeem your credit card rewards?: There are several different types of credit card rewards and each has its own redemption strategy.",
+          "guid": "108258959"
+        },
+        {
+          "title": "Not a credit card expert? This card earns serious rewards without the strategy",
+          "date": "2026-03-20",
+          "link": "https://www.cnbc.com/select/expert-credit-card-for-anyone-who-isnt-a-credit-card-expert/",
+          "snippet": "2026-03-20: Not a credit card expert? This card earns serious rewards without the strategy: If you love cash back but don't want to miss out on travel rewards, the Citi Double Cash is for you.",
+          "guid": "108279574"
+        },
+        {
+          "title": "Mortgage rewards credit cards are disappearing. Here's what to do next",
+          "date": "2025-12-22",
+          "link": "https://www.cnbc.com/select/mortgage-rewards-credit-cards-are-disappearing/",
+          "snippet": "2025-12-22: Mortgage rewards credit cards are disappearing. Here's what to do next: Housing may be one of your biggest expenses, but it's difficult to earn rewards on these payments. But you do (or at",
+          "guid": "108244703"
+        },
+        {
+          "title": "What does it mean for a credit card to devalue? How to protect your rewards",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/select/credit-card-devaluations-how-to-protect-rewards/",
+          "snippet": "2026-01-23: What does it mean for a credit card to devalue? How to protect your rewards: Over time, credit card devaluations can quietly chip away at the value you get from your card.",
+          "guid": "108253037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "05ef0eab-e46c-47b6-82e0-f1636727cee8",
+      "label": "AI Competition and Collaborations",
+      "spike_ratio": 1.374,
+      "article_count": 25,
+      "rag_answer": "The AI landscape is increasingly competitive, with major players like OpenAI, Anthropic, and emerging startups like Cursor and Cohere vying for dominance. OpenAI continues to solidify its position, while Anthropic faces challenges in its dealings with the Pentagon over AI deployment in defense. Chinese tech giants are also entering the fray, focusing on developing advanced AI models for super apps. This intensifying competition suggests a rapidly evolving market where innovation and strategic partnerships will be crucial for success, potentially reshaping the corporate economy around AI technologies.",
+      "rag_sources": [
+        {
+          "title": "Cursor announces major update to AI agents as coding tool battle heats up",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/cursor-announces-major-update-as-ai-coding-agent-battle-heats-up.html",
+          "snippet": "2026-02-24: Cursor announces major update to AI agents as coding tool battle heats up: Cursor announced updates to its AI coding agents as the startup works to fend off competition from rivals",
+          "guid": "108269197"
+        },
+        {
+          "title": "Anthropic faces Friday deadline in Defense AI clash with Hegseth",
+          "date": "2026-02-25",
+          "link": "https://www.cnbc.com/2026/02/24/anthropic-ai-hegseth-spying-defense.html",
+          "snippet": "2026-02-25: Anthropic faces Friday deadline in Defense AI clash with Hegseth: Until this week, Anthropic was the only AI company cleared to deploy its models on classified networks. Elon Musk's xAI is",
+          "guid": "108269292"
+        },
+        {
+          "title": "OpenAI's dominance is unlike anything Silicon Valley has ever seen",
+          "date": "2025-10-11",
+          "link": "https://www.cnbc.com/2025/10/11/open-ai-silicon-valley-tech-startup.html",
+          "snippet": "2025-10-11: OpenAI's dominance is unlike anything Silicon Valley has ever seen: OpenAI's position at the heart of the AI boom, and its expansion up and down the stack, is putting the company in compet",
+          "guid": "108209603"
+        },
+        {
+          "title": "CNBC Daily Open: The AI industry's 'happy few'\u00a0",
+          "date": "2025-10-07",
+          "link": "https://www.cnbc.com/2025/10/07/cnbc-daily-open-the-ai-industrys-happy-few-openai-amd.html",
+          "snippet": "2025-10-07: CNBC Daily Open: The AI industry's 'happy few': The arrangement between OpenAI and AMD adds a new layer to the increasingly circular nature of AI's corporate economy.",
+          "guid": "108208577"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "86c68629-bcc3-4d3e-92f9-6b3e3a5097f9",
+      "label": "Robotaxi and EV Industry Updates",
+      "spike_ratio": 1.364,
+      "article_count": 24,
+      "rag_answer": "The robotaxi industry is experiencing significant momentum, with major players like Baidu, Nvidia, Waymo, and Tesla making strides in technology and market expansion. Companies such as Lucid and Rivian are also entering the robotaxi space, with Rivian announcing a substantial investment from Uber to deploy 50,000 robotaxis. Meanwhile, traditional automakers like GM and Ford are facing challenges, including financial setbacks and declining EV sales, as they adjust their strategies in response to changing market conditions. Overall, the rapid growth of the robotaxi sector suggests a transformative shift in urban mobility, but it also highlights the competitive pressures and financial hurdles within the broader EV market.",
+      "rag_sources": [
+        {
+          "title": "\u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises",
+          "date": "2025-11-20",
+          "link": "https://www.cnbc.com/2025/11/20/global-robotaxi-race-heats-up-between-us-and-chinese-rivals.html",
+          "snippet": "2025-11-20: \u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises: Global tech executives in recent weeks have proclaimed the robotaxi industry is finally nea",
+          "guid": "108226580"
+        },
+        {
+          "title": "EV maker Lucid reveals plans for robotaxi, positive free cash flow late this decade",
+          "date": "2026-03-12",
+          "link": "https://www.cnbc.com/2026/03/12/lucid-investor-day.html",
+          "snippet": "2026-03-12: EV maker Lucid reveals plans for robotaxi, positive free cash flow late this decade: The EV company is aiming to hit that target through market expansion into midsize vehicles, robotaxis a",
+          "guid": "108277205"
+        },
+        {
+          "title": "Rivian announces new AI tech, in-house chip and robotaxi ambitions",
+          "date": "2025-12-11",
+          "link": "https://www.cnbc.com/2025/12/11/rivian-autonomy-ai-day.html",
+          "snippet": "2025-12-11: Rivian announces new AI tech, in-house chip and robotaxi ambitions: The company has also developed AI models to power its Autonomy+ subscription, which it intends to roll out early next ye",
+          "guid": "108240446"
+        },
+        {
+          "title": "Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/waymo-amazon-zoox-tesla-robotaxi-expansion.html",
+          "snippet": "2025-12-16: Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line: Robotaxis grew rapidly in 2025 with Waymo expanding fastest, Zoox debuting public rides and Tesla ",
+          "guid": "108236372"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "0b33da45-501c-4267-990c-fc52c823783a",
+      "label": "Obesity Drug Market Developments",
+      "spike_ratio": 1.316,
+      "article_count": 30,
+      "rag_answer": "The obesity drug market is experiencing significant growth and transformation, driven by increased access through Medicare coverage and new product launches. Notably, Eli Lilly and Novo Nordisk are leading the charge with innovative obesity pills, while Pfizer is diversifying its pipeline with a substantial deal to develop a Chinese company's drug. The competitive landscape is intensifying, raising questions about insurance coverage and drug pricing. Overall, these developments suggest a promising future for obesity treatments, potentially reaching millions of new patients.",
+      "rag_sources": [
+        {
+          "title": "What obesity drugmakers see next in the market: More pills, easier access and drug combinations",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/2026/01/23/weight-loss-glp-1-drugs-next-steps-for-eli-lilly-novo-nordisk-pfizer.html",
+          "snippet": "2026-01-23: What obesity drugmakers see next in the market: More pills, easier access and drug combinations: CNBC spoke to executives from Eli Lilly, Novo Nordisk, Pfizer and other drugmakers at the a",
+          "guid": "108255916"
+        },
+        {
+          "title": "Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next",
+          "date": "2025-11-02",
+          "link": "https://www.cnbc.com/2025/11/02/whats-next-for-the-weight-loss-drug-market-pills-rivals-insurance.html",
+          "snippet": "2025-11-02: Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next: Competition is heating up, but questions remain about insurance coverage, drug pricing, copycat drugs a",
+          "guid": "108216702"
+        },
+        {
+          "title": "Millions more Americans could access obesity drugs after Trump's deals with Eli Lilly, Novo Nordisk",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/trump-deals-with-lilly-novo-nordisk-could-broaden-obesity-drug-access.html",
+          "snippet": "2025-11-07: Millions more Americans could access obesity drugs after Trump's deals with Eli Lilly, Novo Nordisk: Medicare will start covering obesity drugs for the first time, which could open access ",
+          "guid": "108223164"
+        },
+        {
+          "title": "Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill\u00a0",
+          "date": "2025-12-09",
+          "link": "https://www.cnbc.com/2025/12/09/pfizer-deal-yaopharma-obesity-pill.html",
+          "snippet": "2025-12-09: Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill: The deal will help Pfizer beef up and diversify its obesity drug pipeline following its $10 billi",
+          "guid": "108239106"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

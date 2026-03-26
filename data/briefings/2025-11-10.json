@@ -1,0 +1,220 @@
+{
+  "date": "2025-11-10",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "c2c41707-713a-492f-aeae-2a743a55e83b",
+      "label": "U.S. stocks and government shutdown",
+      "spike_ratio": 4.219,
+      "article_count": 54,
+      "rag_answer": "The U.S. government shutdown, which began on October 1, 2025, initially created uncertainty in the markets, leading to a surge in gold prices and mixed reactions in U.S. stock indexes. However, as negotiations progressed, optimism grew, resulting in a rally in global equities, particularly in Europe, as investors anticipated a resolution. By November 10, reports of a potential agreement to end the shutdown boosted European stocks, but the subsequent announcement of the shutdown's end on November 13 led to a decline in European markets, indicating a volatile response to the news. Overall, the shutdown's resolution brought clarity to investors, but the immediate market reaction was mixed, reflecting ongoing concerns about economic stability.",
+      "rag_sources": [
+        {
+          "title": "European markets lose earlier gains as U.S. shutdown ends",
+          "date": "2025-11-13",
+          "link": "https://www.cnbc.com/2025/11/13/european-markets-on-novpoint13-stoxx-600-ftse-dax-cac.html",
+          "snippet": "2025-11-13: European markets lose earlier gains as U.S. shutdown ends: European stocks closed lower on Thursday, paring earlier gains as the U.S. government shutdown came to an end.",
+          "guid": "108225223"
+        },
+        {
+          "title": "Investors eye market \u2018clarity\u2019 as stocks rally on shutdown agreement",
+          "date": "2025-11-10",
+          "link": "https://www.cnbc.com/2025/11/10/global-stocks-rally-on-hopes-the-us-shutdown-is-nearing-an-end.html",
+          "snippet": "2025-11-10: Investors eye market \u2018clarity\u2019 as stocks rally on shutdown agreement: Global equities traded higher on Monday morning amid reports that the protracted U.S. government shutdown may be neari",
+          "guid": "108223450"
+        },
+        {
+          "title": "How does the U.S. stock market typically react to a government shutdown?",
+          "date": "2025-09-26",
+          "link": "https://www.cnbc.com/2025/09/26/market-reaction-past-government-shutdow.html",
+          "snippet": "2025-09-26: How does the U.S. stock market typically react to a government shutdown?: The markets could be in for some action if the government shutdown next week, according to Bank of America.",
+          "guid": "108204496"
+        },
+        {
+          "title": "Europe stocks close higher; Swiss stocks rise on optimism over possible reduction in U.S. tariffs",
+          "date": "2025-11-11",
+          "link": "https://www.cnbc.com/2025/11/11/european-markets-on-novpoint11-stoxx-600-ftse-cac-dax.html",
+          "snippet": "2025-11-11: Europe stocks close higher; Swiss stocks rise on optimism over possible reduction in U.S. tariffs: European stocks maintained their positive momentum as an end to the U.S.\u00a0government shutd",
+          "guid": "108223581"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "3d3acae2-25d0-4e59-83b0-0118da72d824",
+      "label": "AI-related tech stock decline",
+      "spike_ratio": 1.542,
+      "article_count": 37,
+      "rag_answer": "AI-related tech stocks have been experiencing significant declines, driven by rising concerns over their valuations and disappointing earnings reports from key players like Nvidia and Oracle. The S&P 500 and Dow have both seen losses as investors react to the pressure on these stocks, with notable declines in companies such as Palantir and SoftBank. Despite some attempts at recovery, the overall sentiment remains cautious, indicating that the AI trade may be facing a challenging period ahead. This ongoing volatility suggests potential implications for broader market stability, as tech stocks are often seen as a bellwether for market performance.",
+      "rag_sources": [
+        {
+          "title": "Dow slides 300 points as AI stocks resume their decline, Nasdaq falls 1%: Live updates",
+          "date": "2025-11-06",
+          "link": "https://www.cnbc.com/2025/11/05/stock-market-today-live-updates.html",
+          "snippet": "2025-11-06: Dow slides 300 points as AI stocks resume their decline, Nasdaq falls 1%: Live updates: Companies that have benefited from the artificial intelligence trade came under pressure yet again a",
+          "guid": "108222099"
+        },
+        {
+          "title": "S&P 500 gives up gain as AI-related stocks come under pressure again: Live updates",
+          "date": "2025-12-15",
+          "link": "https://www.cnbc.com/2025/12/14/stock-market-today-live-updates.html",
+          "snippet": "2025-12-15: S&P 500 gives up gain as AI-related stocks come under pressure again: Live updates: Key stocks in the artificial intelligence trade continued to face pressure.",
+          "guid": "108241593"
+        },
+        {
+          "title": "Stocks drop on rising fears about AI stock valuations, Palantir leads decline: Live updates",
+          "date": "2025-11-04",
+          "link": "https://www.cnbc.com/2025/11/03/stock-market-today-live-updates.html",
+          "snippet": "2025-11-04: Stocks drop on rising fears about AI stock valuations, Palantir leads decline: Live updates: Stocks fell, pressured by declines in artificial intelligence-related names like Palantir as in",
+          "guid": "108220811"
+        },
+        {
+          "title": "CNBC Daily Open: Days of declines won't keep AI trade down",
+          "date": "2025-11-11",
+          "link": "https://www.cnbc.com/2025/11/11/cnbc-daily-open-days-of-declines-wont-keep-ai-trade-down.html",
+          "snippet": "2025-11-11: CNBC Daily Open: Days of declines won't keep AI trade down: Investors piled back into artificial intelligence names on Monday stateside. \\AI-related stocks should drive equity markets,\\\" a",
+          "guid": "108224037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "61d75c0e-f3f6-4310-98e6-337f075d7ea5",
+      "label": "OpenAI and AI Content Controversies",
+      "spike_ratio": 1.277,
+      "article_count": 24,
+      "rag_answer": "OpenAI is currently facing significant controversies related to its AI products and advertising strategies. CEO Sam Altman has publicly criticized competing company Anthropic for what he deems \"clearly dishonest\" advertising, highlighting the competitive tensions in the AI sector. Additionally, OpenAI's AI video generation app, Sora, has been labeled as \"exploitation\" by top Hollywood agencies, raising ethical concerns about the impact of AI on creative industries. These controversies could affect OpenAI's market position and public perception, as the company navigates the balance between innovation and ethical responsibility in a rapidly evolving landscape.",
+      "rag_sources": [
+        {
+          "title": "Altman lashes out at 'clearly dishonest' Anthropic ads as AI spat heats up",
+          "date": "2026-02-05",
+          "link": "https://www.cnbc.com/2026/02/05/super-bowl-ai-ad-altman-anthropic-open-ai.html",
+          "snippet": "2026-02-05: Altman lashes out at 'clearly dishonest' Anthropic ads as AI spat heats up: OpenAI recently announced plans to begin\u00a0testing ads\u00a0with some ChatGPT users.",
+          "guid": "108261888"
+        },
+        {
+          "title": "Op-ed: The fuel for the AI boom driving the markets is advertising. It is also an existential risk. ",
+          "date": "2025-11-05",
+          "link": "https://www.cnbc.com/2025/11/05/op-ed-the-fuel-for-the-ai-boom-driving-the-markets-is-advertising-it-is-also-an-existential-risk-.html",
+          "snippet": "2025-11-05: Op-ed: The fuel for the AI boom driving the markets is advertising. It is also an existential risk.: Joe Marchese, Executive Chairman at Human Ventures, describes a key conundrum facing Op",
+          "guid": "108221347"
+        },
+        {
+          "title": "Top Hollywood agencies slam OpenAI's Sora as 'exploitation' and a risk to clients",
+          "date": "2025-10-09",
+          "link": "https://www.cnbc.com/2025/10/09/caa-open-ai-sora-copyright-talent-agency.html",
+          "snippet": "2025-10-09: Top Hollywood agencies slam OpenAI's Sora as 'exploitation' and a risk to clients: Talent agency CAA slams OpenAI's AI video generation app Sora for posing \\significant risk\\\" to its clien",
+          "guid": "108209961"
+        },
+        {
+          "title": "OpenAI's dominance is unlike anything Silicon Valley has ever seen",
+          "date": "2025-10-11",
+          "link": "https://www.cnbc.com/2025/10/11/open-ai-silicon-valley-tech-startup.html",
+          "snippet": "2025-10-11: OpenAI's dominance is unlike anything Silicon Valley has ever seen: OpenAI's position at the heart of the AI boom, and its expansion up and down the stack, is putting the company in compet",
+          "guid": "108209603"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "4761f37d-27cd-4139-ae34-f7ba6d6fa059",
+      "label": "Epstein Files and Political Reactions",
+      "spike_ratio": 1.184,
+      "article_count": 27,
+      "rag_answer": "The ongoing release of Epstein files by the Department of Justice (DOJ) has sparked significant political backlash, with congressional Democrats and senators calling for investigations into the DOJ's handling of these documents. Recent releases have included heavily redacted materials, leading to accusations of insufficient transparency and compliance with the Epstein Files Transparency Act. The political discourse surrounding these files, particularly as it relates to former President Trump's administration, may influence investor sentiment and market stability, especially in sectors sensitive to political risk. As scrutiny intensifies, the potential for further legal and regulatory implications could impact market dynamics in the near term.",
+      "rag_sources": [
+        {
+          "title": "Epstein files: Senators seek probe of DOJ over release, redaction of sex offender's documents",
+          "date": "2026-03-11",
+          "link": "https://www.cnbc.com/2026/03/11/senators-epstein-files-investigation.html",
+          "snippet": "2026-03-11: Epstein files: Senators seek probe of DOJ over release, redaction of sex offender's documents: The Department of Justice has come under fire for its handling of documents related to disgra",
+          "guid": "108276332"
+        },
+        {
+          "title": "Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/epstein-doj-bondi-trump.html",
+          "snippet": "2026-03-05: Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports: The top lawyer for Goldman Sachs, Bill Gates, Leon Black and others are expected to testify soon a",
+          "guid": "108274237"
+        },
+        {
+          "title": "Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents",
+          "date": "2025-12-23",
+          "link": "https://www.cnbc.com/2025/12/23/epstein-files-doj-release-trump.html",
+          "snippet": "2025-12-23: Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents: The release comes amid intense scrutiny from congressional lawmakers and victims ove",
+          "guid": "108244822"
+        },
+        {
+          "title": "Epstein files released to Congress are mostly \u2018recycled\u2019 documents, Democrat says",
+          "date": "2025-08-23",
+          "link": "https://www.cnbc.com/2025/08/23/jeffrey-epstein-ghislaine-maxwell-trump-doj.html",
+          "snippet": "2025-08-23: Epstein files released to Congress are mostly \u2018recycled\u2019 documents, Democrat says: The Justice Department late Friday gave Congress the first trove of documents to comply with a subpoena b",
+          "guid": "108189960"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "958af333-52b6-4fb8-90ef-9e643e4c29c1",
+      "label": "Trump Administration Student Loan Policies",
+      "spike_ratio": 1.078,
+      "article_count": 11,
+      "rag_answer": "The Trump administration is implementing significant changes to student loan policies, particularly affecting the Public Service Loan Forgiveness program. They are moving to limit eligibility for this program, which has led to legal challenges from states and increased scrutiny on colleges with low student loan repayment rates. Additionally, the administration is tasking the Treasury Department with collecting on defaulted loans, indicating a stricter approach to loan management. These developments may lead to heightened financial pressure on borrowers and educational institutions, potentially impacting the overall student loan market and increasing default rates.",
+      "rag_sources": [
+        {
+          "title": "Trump administration to limit student loan forgiveness eligibility for some public servants",
+          "date": "2025-10-30",
+          "link": "https://www.cnbc.com/2025/10/30/public-service-loan-forgiveness-eligibility-trump.html",
+          "snippet": "2025-10-30: Trump administration to limit student loan forgiveness eligibility for some public servants: The Trump administration is moving closer to limiting eligibility for the Public Service Loan F",
+          "guid": "108219343"
+        },
+        {
+          "title": "Trump administration issues warning to hundreds of colleges with low student loan repayment rates",
+          "date": "2026-02-19",
+          "link": "https://www.cnbc.com/2026/02/19/trump-colleges-low-student-loan-repayment-rates.html",
+          "snippet": "2026-02-19: Trump administration issues warning to hundreds of colleges with low student loan repayment rates: Trump officials are turning up the pressure on colleges to ensure their students repay th",
+          "guid": "108267287"
+        },
+        {
+          "title": "Trump admin tasks Treasury Dept. with student loan collection. What borrowers need to know",
+          "date": "2026-03-20",
+          "link": "https://www.cnbc.com/2026/03/20/student-loan-collection-will-be-managed-by-treasury-department.html",
+          "snippet": "2026-03-20: Trump admin tasks Treasury Dept. with student loan collection. What borrowers need to know: Trump officials plan to task the Treasury Department with collecting on defaulted student loans ",
+          "guid": "108280551"
+        },
+        {
+          "title": "Trump administration to warn families about student debt risks amid record-high defaults",
+          "date": "2025-09-10",
+          "link": "https://www.cnbc.com/2025/09/10/trump-student-loan-risks.html",
+          "snippet": "2025-09-10: Trump administration to warn families about student debt risks amid record-high defaults: The Education Department may soon start sharing information with students on \\the benefits and ris",
+          "guid": "108196058"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

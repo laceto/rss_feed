@@ -1,0 +1,212 @@
+{
+  "date": "2026-02-13",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "6563a924-24a7-44a5-9c28-46dc7eadcfcd",
+      "label": "European stock market fluctuations",
+      "spike_ratio": 1.422,
+      "article_count": 16,
+      "rag_answer": "European stock markets have experienced notable fluctuations influenced by various geopolitical and economic factors. Recent developments include a rise in stocks following significant trade agreements, such as the EU's deal with India, and positive corporate earnings, particularly from Nvidia, which alleviated concerns over an AI bubble. However, volatility has also been evident, with sharp declines linked to escalating conflicts in the Middle East and fluctuating oil prices. Overall, while there are opportunities for gains, the market remains sensitive to global events and investor sentiment.",
+      "rag_sources": [
+        {
+          "title": "Stock market swings got you reeling? Answer these 6 questions before making a trade",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/stock-market-swings-got-you-reeling-answering-6-questions-will-help.html",
+          "snippet": "2025-11-28: Stock market swings got you reeling? Answer these 6 questions before making a trade: Frustrating as volatility can be, it also tends to present opportunities.",
+          "guid": "108232626"
+        },
+        {
+          "title": "European stocks end higher after EU's 'mother of all deals' with India; Dr Martens shares drop 11%",
+          "date": "2026-01-27",
+          "link": "https://www.cnbc.com/2026/01/27/european-markets-stoxx-600-ftse-cac-dax-earnings.html",
+          "snippet": "2026-01-27: European stocks end higher after EU's 'mother of all deals' with India; Dr Martens shares drop 11%: European stocks closed higher on Tuesday, as international trade and corporate earnings ",
+          "guid": "108257365"
+        },
+        {
+          "title": "European markets finish higher as traders track Middle East turmoil",
+          "date": "2026-03-04",
+          "link": "https://www.cnbc.com/2026/03/04/european-markets-stoxx-600-ftse-dax-oil-prices-middle-east-latest.html",
+          "snippet": "2026-03-04: European markets finish higher as traders track Middle East turmoil: European stocks closed higher on Wednesday as markets continue to track developments in the Middle East.",
+          "guid": "108272722"
+        },
+        {
+          "title": "European stocks close soft as global investors look ahead to Fed meeting",
+          "date": "2025-12-05",
+          "link": "https://www.cnbc.com/2025/12/05/stoxx-600-ftse-100-on-dec-5-fed-meeting-ukraine-deal-in-focus.html",
+          "snippet": "2025-12-05: European stocks close soft as global investors look ahead to Fed meeting: Europe-listed shares were broadly higher on Friday but straddled the flatline at close.",
+          "guid": "108237119"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "c28691e9-c7d4-4eea-8f85-75aed6a20c9f",
+      "label": "Credit Card Interest and Rewards",
+      "spike_ratio": 1.402,
+      "article_count": 23,
+      "rag_answer": "Recent developments indicate a growing concern over credit card interest rates and the value of rewards programs. President Trump proposed a 10% cap on credit card interest rates, which led to a decline in stock prices for major banks like Capital One, suggesting potential market volatility in the financial sector. Additionally, the landscape of credit card rewards is shifting, with mortgage rewards cards disappearing and consumers needing to adapt their strategies for maximizing benefits. As credit card debt remains high at $1.21 trillion, these changes could impact consumer spending and borrowing behaviors moving forward.",
+      "rag_sources": [
+        {
+          "title": "How often should you redeem your credit card rewards?",
+          "date": "2026-02-03",
+          "link": "https://www.cnbc.com/select/how-often-should-you-redeem-your-credit-card-rewards/",
+          "snippet": "2026-02-03: How often should you redeem your credit card rewards?: There are several different types of credit card rewards and each has its own redemption strategy.",
+          "guid": "108258959"
+        },
+        {
+          "title": "Not a credit card expert? This card earns serious rewards without the strategy",
+          "date": "2026-03-20",
+          "link": "https://www.cnbc.com/select/expert-credit-card-for-anyone-who-isnt-a-credit-card-expert/",
+          "snippet": "2026-03-20: Not a credit card expert? This card earns serious rewards without the strategy: If you love cash back but don't want to miss out on travel rewards, the Citi Double Cash is for you.",
+          "guid": "108279574"
+        },
+        {
+          "title": "Mortgage rewards credit cards are disappearing. Here's what to do next",
+          "date": "2025-12-22",
+          "link": "https://www.cnbc.com/select/mortgage-rewards-credit-cards-are-disappearing/",
+          "snippet": "2025-12-22: Mortgage rewards credit cards are disappearing. Here's what to do next: Housing may be one of your biggest expenses, but it's difficult to earn rewards on these payments. But you do (or at",
+          "guid": "108244703"
+        },
+        {
+          "title": "What does it mean for a credit card to devalue? How to protect your rewards",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/select/credit-card-devaluations-how-to-protect-rewards/",
+          "snippet": "2026-01-23: What does it mean for a credit card to devalue? How to protect your rewards: Over time, credit card devaluations can quietly chip away at the value you get from your card.",
+          "guid": "108253037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "fabfb587-f6db-4730-95e4-57d6fe094472",
+      "label": "Global Inflation Trends January 2026",
+      "spike_ratio": 1.346,
+      "article_count": 21,
+      "rag_answer": "In January 2026, global inflation trends showed mixed signals, with the U.S. consumer price index easing but remaining elevated for essential goods, indicating persistent inflationary pressures. Meanwhile, China's consumer inflation rose less than expected, highlighting ongoing challenges with producer price deflation. The overall economic environment is complicated by geopolitical tensions, such as the war in Iran, which could further impact inflation and market stability. These developments suggest that while some regions may see slight relief, inflation remains a significant concern, potentially influencing monetary policy and consumer confidence moving forward.",
+      "rag_sources": [
+        {
+          "title": "Here\u2019s the inflation breakdown for January 2026 \u2014 in one chart",
+          "date": "2026-02-13",
+          "link": "https://www.cnbc.com/2026/02/13/heres-the-inflation-breakdown-for-january-2026-in-one-chart.html",
+          "snippet": "2026-02-13: Here\u2019s the inflation breakdown for January 2026 \u2014 in one chart: The consumer price index eased in January but inflation was still elevated for many consumer necessities, economists said.",
+          "guid": "108265540"
+        },
+        {
+          "title": "Here's the inflation breakdown for February 2026 \u2014 in one chart",
+          "date": "2026-03-11",
+          "link": "https://www.cnbc.com/2026/03/11/cpi-inflation-february-2026-breakdown.html",
+          "snippet": "2026-03-11: Here's the inflation breakdown for February 2026 \u2014 in one chart: The consumer price index was rose 2.4% in February 2026, above policymakers' target, economists said. War in Iran complicat",
+          "guid": "108276188"
+        },
+        {
+          "title": "Here\u2019s the inflation breakdown for December 2025 \u2014 in one chart",
+          "date": "2026-01-13",
+          "link": "https://www.cnbc.com/2026/01/13/cpi-inflation-december-2025-breakdown.html",
+          "snippet": "2026-01-13: Here\u2019s the inflation breakdown for December 2025 \u2014 in one chart: The consumer price index was unchanged in December, and the inflation rate for some consumer staples like food and electric",
+          "guid": "108251665"
+        },
+        {
+          "title": "China inflation hits near three-year high in December as full-year CPI misses target",
+          "date": "2026-01-09",
+          "link": "https://www.cnbc.com/2026/01/09/china-december-inflation-cpi-ppi-prices-demand-weakness.html",
+          "snippet": "2026-01-09: China inflation hits near three-year high in December as full-year CPI misses target: China's consumer inflation accelerated in December to the fastest pace in more than two years, while f",
+          "guid": "108249746"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "86c68629-bcc3-4d3e-92f9-6b3e3a5097f9",
+      "label": "Robotaxi and EV Industry Updates",
+      "spike_ratio": 1.306,
+      "article_count": 29,
+      "rag_answer": "The robotaxi industry is experiencing significant momentum, with major players like Baidu, Nvidia, Waymo, and Tesla making strides in technology and market expansion. Companies such as Lucid and Rivian are also entering the robotaxi space, with Rivian announcing a substantial investment from Uber to deploy 50,000 robotaxis. Meanwhile, traditional automakers like GM and Ford are facing challenges, including financial setbacks and declining EV sales, as they adjust their strategies in response to changing market conditions. Overall, the rapid growth of the robotaxi sector suggests a transformative shift in urban mobility, but it also highlights the competitive pressures and financial risks within the broader EV market.",
+      "rag_sources": [
+        {
+          "title": "\u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises",
+          "date": "2025-11-20",
+          "link": "https://www.cnbc.com/2025/11/20/global-robotaxi-race-heats-up-between-us-and-chinese-rivals.html",
+          "snippet": "2025-11-20: \u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises: Global tech executives in recent weeks have proclaimed the robotaxi industry is finally nea",
+          "guid": "108226580"
+        },
+        {
+          "title": "EV maker Lucid reveals plans for robotaxi, positive free cash flow late this decade",
+          "date": "2026-03-12",
+          "link": "https://www.cnbc.com/2026/03/12/lucid-investor-day.html",
+          "snippet": "2026-03-12: EV maker Lucid reveals plans for robotaxi, positive free cash flow late this decade: The EV company is aiming to hit that target through market expansion into midsize vehicles, robotaxis a",
+          "guid": "108277205"
+        },
+        {
+          "title": "Rivian announces new AI tech, in-house chip and robotaxi ambitions",
+          "date": "2025-12-11",
+          "link": "https://www.cnbc.com/2025/12/11/rivian-autonomy-ai-day.html",
+          "snippet": "2025-12-11: Rivian announces new AI tech, in-house chip and robotaxi ambitions: The company has also developed AI models to power its Autonomy+ subscription, which it intends to roll out early next ye",
+          "guid": "108240446"
+        },
+        {
+          "title": "Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/waymo-amazon-zoox-tesla-robotaxi-expansion.html",
+          "snippet": "2025-12-16: Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line: Robotaxis grew rapidly in 2025 with Waymo expanding fastest, Zoox debuting public rides and Tesla ",
+          "guid": "108236372"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "b1c25903-7305-4a83-9c9d-297e8686ac06",
+      "label": "DHS funding and shutdown crisis",
+      "spike_ratio": 1.25,
+      "article_count": 15,
+      "rag_answer": "The Department of Homeland Security (DHS) is currently experiencing a shutdown due to a deadlock in funding negotiations between Congressional Democrats and President Trump. The impasse has led to significant disruptions, including long airport security lines, and the situation has worsened with the firing of Homeland Security Secretary Kristi Noem. Despite various counteroffers from Democrats and the White House, a resolution remains elusive, raising concerns about the potential for prolonged government instability. The ongoing crisis could negatively impact market sentiment, particularly in sectors reliant on government operations and services.",
+      "rag_sources": [
+        {
+          "title": "Democrats send Trump DHS funding counteroffer as agency shutdown grinds on",
+          "date": "2026-02-17",
+          "link": "https://www.cnbc.com/2026/02/17/dhs-shutdown-democrats-trump-counteroffer-funding-homeland.html",
+          "snippet": "2026-02-17: Democrats send Trump DHS funding counteroffer as agency shutdown grinds on: Congressional Democrats and the White House remain deadlocked in negotiations to reopen the Department of Homela",
+          "guid": "108266280"
+        },
+        {
+          "title": "Senate Democrats send DHS counteroffer to Trump as shutdown drags on",
+          "date": "2026-03-17",
+          "link": "https://www.cnbc.com/2026/03/17/dhs-shutdown-trump-homeland-security-senate-democrats-counteroffer.html",
+          "snippet": "2026-03-17: Senate Democrats send DHS counteroffer to Trump as shutdown drags on: The Department of Homeland Security shutdown has caused pileups in airport security lines across the country.",
+          "guid": "108278971"
+        },
+        {
+          "title": "The government is barreling toward a partial shutdown over DHS funding. Here's what to expect",
+          "date": "2026-01-27",
+          "link": "https://www.cnbc.com/2026/01/27/us-government-shutdown-over-dhs-funding.html",
+          "snippet": "2026-01-27: The government is barreling toward a partial shutdown over DHS funding. Here's what to expect: The U.S. government may partially shutdown on Saturday months after a record 43-day closure i",
+          "guid": "108257539"
+        },
+        {
+          "title": "Democrats lay out demands in prickly DHS funding fight",
+          "date": "2026-02-04",
+          "link": "https://www.cnbc.com/2026/02/04/democrats-demands-dhs-funding-fight.html",
+          "snippet": "2026-02-04: Democrats lay out demands in prickly DHS funding fight: Funding for the Department of Homeland Security still needs to be worked out after President Trump signed a law that reopened most o",
+          "guid": "108261373"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "date": "2025-12-09",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "46b51275-0575-4a64-87e7-d4d1864f1669",
+      "label": "Warner Bros. Discovery takeover bids",
+      "spike_ratio": 1.312,
+      "article_count": 14,
+      "rag_answer": "Warner Bros. Discovery (WBD) has opened itself up for a sale, prompting multiple bids from major players including Paramount, Comcast, and Netflix. Paramount Skydance has emerged as a strong contender, reportedly making a higher bid than Netflix, which has since opted out of the bidding war. The situation has led to a significant increase in WBD's share price and has sparked discussions among shareholders about the merits of accepting Paramount's offer. The ongoing bidding process reflects a competitive landscape in the media industry, with potential implications for WBD's strategic direction and market positioning.",
+      "rag_sources": [
+        {
+          "title": "Paramount, Comcast, Netflix submit bids for Warner Bros. Discovery ",
+          "date": "2025-11-21",
+          "link": "https://www.cnbc.com/2025/11/21/warner-bros-discovery-wbd-bids-paramount-comcast-netflix.html",
+          "snippet": "2025-11-21: Paramount, Comcast, Netflix submit bids for Warner Bros. Discovery: Warner Bros. Discovery recently expanded its strategic review of its business, saying it's open for a sale. First round ",
+          "guid": "108229432"
+        },
+        {
+          "title": "Warner Bros. Discovery says it's open to a sale; shares jump 10%",
+          "date": "2025-10-21",
+          "link": "https://www.cnbc.com/2025/10/21/wbd-sale-warner-bros-media.html",
+          "snippet": "2025-10-21: Warner Bros. Discovery says it's open to a sale; shares jump 10%: WBD had planned to split into two separate entities and is not abandoning those plans.",
+          "guid": "108214672"
+        },
+        {
+          "title": "Paramount Skydance is preparing a bid for Warner Bros. Discovery, sources say",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/warner-bros-discovery-paramount-skydance-bid.html",
+          "snippet": "2025-09-11: Paramount Skydance is preparing a bid for Warner Bros. Discovery, sources say: The Wall Street Journal reported the recently merged Paramount Skydance was preparing a takeover bid for the ",
+          "guid": "108197645"
+        },
+        {
+          "title": "Warner Bros. Discovery says Paramount made higher bid, board will weigh offer against Netflix deal",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/warner-bros-discovery-paramount-higher-bid-netflix.html",
+          "snippet": "2026-02-24: Warner Bros. Discovery says Paramount made higher bid, board will weigh offer against Netflix deal: If WBD deems the new Paramount offer superior, Netflix will have four days to improve it",
+          "guid": "108269071"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "5410a952-99ab-4f21-8573-561d1f0dcbd0",
+      "label": "Rare earths market dynamics",
+      "spike_ratio": 1.014,
+      "article_count": 14,
+      "rag_answer": "The rare earths market is experiencing significant volatility, driven by China's tight control over global supplies and ongoing U.S.-China trade tensions. Recent reports indicate a surge in rare earths stocks, particularly among U.S.-listed miners, as investors react to geopolitical developments and potential supply chain disruptions. However, caution is advised, as industry leaders, like MP Materials' CEO, warn that the sudden interest in the sector could lead to overexuberance among investors. Overall, the dynamics suggest a competitive race for critical minerals, with implications for both market valuations and strategic investments in the sector.",
+      "rag_sources": [
+        {
+          "title": "Rare earths stocks surge after China tightens grip on global supplies",
+          "date": "2025-10-09",
+          "link": "https://www.cnbc.com/2025/10/09/china-tightens-rare-earths-grip-stocks-surge.html",
+          "snippet": "2025-10-09: Rare earths stocks surge after China tightens grip on global supplies: Rare earths stocks were jumping Thursday",
+          "guid": "108209917"
+        },
+        {
+          "title": "A breakout in this rare earths stock is taking place, according to the charts",
+          "date": "2025-09-16",
+          "link": "https://www.cnbc.com/2025/09/16/a-breakout-in-this-rare-earths-stock-is-taking-place-according-to-the-charts.html",
+          "snippet": "2025-09-16: A breakout in this rare earths stock is taking place, according to the charts: Chart analyst Todd Gordon takes a look at a breakout in this rare earths stock.",
+          "guid": "108199412"
+        },
+        {
+          "title": "The global critical minerals race is heating up \u2014 and rare earths stocks are skyrocketing",
+          "date": "2025-11-03",
+          "link": "https://www.cnbc.com/2025/11/03/rare-earths-stocks-boom-as-the-global-critical-mineral-race-heats-up.html",
+          "snippet": "2025-11-03: The global critical minerals race is heating up \u2014 and rare earths stocks are skyrocketing: U.S.-listed rare earths miners have been on a tear this year, with some companies rallying more t",
+          "guid": "108219846"
+        },
+        {
+          "title": "China keeps tight grip on rare earths, costing at least one company 'millions of euros'",
+          "date": "2025-09-19",
+          "link": "https://www.cnbc.com/2025/09/17/china-rare-earths-curbs-hit-europe-businesses.html",
+          "snippet": "2025-09-19: China keeps tight grip on rare earths, costing at least one company 'millions of euros': The European Chamber of Commerce in China said that after a pickup in rare-earth export license app",
+          "guid": "108199105"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "cfd47f02-a084-497c-8723-57e24fc0401a",
+      "label": "ACA Subsidies and Government Funding",
+      "spike_ratio": 1.0,
+      "article_count": 12,
+      "rag_answer": "The expiration of enhanced ACA subsidies has raised concerns about significant tax bills for many individuals, as highlighted by financial experts. Efforts to extend these subsidies have faced political hurdles, with bipartisan negotiations ongoing in the Senate, while some states are stepping in to provide their own support. The potential lapse in these subsidies could lead to substantial financial losses for health providers, estimated at $32 billion, and has become a contentious issue in the context of government funding negotiations. The situation underscores the critical link between health policy and fiscal stability, with implications for both consumers and the healthcare market.",
+      "rag_sources": [
+        {
+          "title": "ACA subsidy cliff may mean 'astronomical tax bills' for many, CFP says",
+          "date": "2026-01-06",
+          "link": "https://www.cnbc.com/2026/01/06/aca-subsidy-cliff-tax-bills.html",
+          "snippet": "2026-01-06: ACA subsidy cliff may mean 'astronomical tax bills' for many, CFP says: Enhanced premium subsidies for health insurance bought on the ACA marketplace have expired and the so-called subsidy",
+          "guid": "108248259"
+        },
+        {
+          "title": "Why affordability is the 'beating heart' of the ACA enhanced subsidy debate, health policy experts say",
+          "date": "2025-12-12",
+          "link": "https://www.cnbc.com/2025/12/12/aca-enhanced-subsidies-democrats-republicans-health-care-plan.html",
+          "snippet": "2025-12-12: Why affordability is the 'beating heart' of the ACA enhanced subsidy debate, health policy experts say: Health plans proposed by Senate Democrats and Republicans failed on Thursday, making",
+          "guid": "108240832"
+        },
+        {
+          "title": "Health providers could lose $32 billion if ACA credits at center of shutdown fight expire",
+          "date": "2025-09-25",
+          "link": "https://www.cnbc.com/2025/09/25/health-aca-obamacare-federal-government-shutdown.html",
+          "snippet": "2025-09-25: Health providers could lose $32 billion if ACA credits at center of shutdown fight expire: Democrats demand that any stopgap funding measure to keep the federal government open include an ",
+          "guid": "108204023"
+        },
+        {
+          "title": "As federal ACA subsidies lapse, blue states offer their own",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/2026/01/23/aca-subsidies-state-premium-tax-credits.html",
+          "snippet": "2026-01-23: As federal ACA subsidies lapse, blue states offer their own: A handful of states have moved to soften the blow of lapsed federal subsidies for health insurance premiums.",
+          "guid": "108254517"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "5a598585-4aae-4389-91d8-c8e8c6593f83",
+      "label": "Midday Stock Movements",
+      "spike_ratio": 0.981,
+      "article_count": 21,
+      "rag_answer": "Midday stock movements have shown significant volatility, with various companies consistently making notable moves in the market. Recent reports highlight stocks like Newmont, Apple, and Sandisk experiencing substantial midday fluctuations, indicating active trading and investor interest. This trend suggests a dynamic market environment where investors are reacting to earnings reports, economic indicators, and broader market sentiments. The ongoing fluctuations may present both opportunities and risks for traders, as they navigate the impacts of economic conditions and corporate performance on stock prices.",
+      "rag_sources": [
+        {
+          "title": "Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/stocks-making-the-biggest-moves-midday-nem-aapl-sndk-deck.html",
+          "snippet": "2026-01-30: Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more: These are the stocks posting the largest moves midday.",
+          "guid": "108259667"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more",
+          "date": "2025-10-15",
+          "link": "https://www.cnbc.com/2025/10/15/stocks-making-the-biggest-moves-midday-bac-ms-bg-pgr.html",
+          "snippet": "2025-10-15: Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108212417"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more",
+          "date": "2025-09-18",
+          "link": "https://www.cnbc.com/2025/09/18/stocks-making-the-biggest-moves-midday-intc-nvo-blsh-all.html",
+          "snippet": "2025-09-18: Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more: These are the stocks posting the largest moves midday.",
+          "guid": "108200831"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: UnitedHealth, Applied Materials, Sandisk and more",
+          "date": "2025-08-15",
+          "link": "https://www.cnbc.com/2025/08/15/stocks-making-big-moves-midday-unh-amat-sndk-csco-evlv-flo-.html",
+          "snippet": "2025-08-15: Stocks making the biggest moves midday: UnitedHealth, Applied Materials, Sandisk and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108186615"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "baa12f40-6fae-4a48-b674-488ec8fbeac8",
+      "label": "Trump's Trade War Developments",
+      "spike_ratio": 0.968,
+      "article_count": 18,
+      "rag_answer": "Trump's trade war has escalated with the implementation of extensive new tariffs affecting Canada, Brazil, Switzerland, and other U.S. trading partners, leading to significant market disruptions and reshaping international trade relationships. A 40% tariff rate has been introduced for goods transshipped to circumvent existing tariffs, further complicating trade dynamics. Analysts have expressed concerns about the negative impact on American families and the agricultural sector, prompting Trump to announce a $12 billion aid package for farmers affected by these policies. Despite a reduction in the trade deficit to its smallest since 2009, the overall market sentiment remains cautious, with companies like Trade Desk experiencing significant stock declines due to tariff-related uncertainties.",
+      "rag_sources": [
+        {
+          "title": "Live Updates: Trump tariffs slam Canada, Brazil and Switzerland ",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/trumps-tariffs-rekindle-global-trade-tensions.html",
+          "snippet": "2025-08-01: Live Updates: Trump tariffs slam Canada, Brazil and Switzerland: Trump's extensive new tariff regime on dozens of U.S. partners are launching new trade wars and sending shock waves through",
+          "guid": "108180211"
+        },
+        {
+          "title": "How countries are reacting to Trump's latest tariff announcements as deadline looms",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/how-asian-countries-are-reacting-to-trumps-latest-tariffs-announcement-as-deadline-looms.html",
+          "snippet": "2025-08-01: How countries are reacting to Trump's latest tariff announcements as deadline looms: The White House also announced a 40% tariff rate for all goods transshipped to avoid the applicable dut",
+          "guid": "108180161"
+        },
+        {
+          "title": "Another late-night Trump trade twist \u2014 just hours before the world hit go",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/another-late-night-trump-trade-twist-hours-before-the-world-hit-go.html",
+          "snippet": "2025-08-01: Another late-night Trump trade twist \u2014 just hours before the world hit go: Trump\u2019s late-night tariff moves have become a hallmark, catching markets off guard, reshaping deals, and forcing ",
+          "guid": "108180251"
+        },
+        {
+          "title": "Trump 'losing' trade war with China going in to Xi meeting, Senate Democrats say in report",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/trump-trade-china-warren-democrats-inflation-xi.html",
+          "snippet": "2025-10-29: Trump 'losing' trade war with China going in to Xi meeting, Senate Democrats say in report: \\Trump needs to change course on his trade war with China now and stop hurting American families",
+          "guid": "108218477"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

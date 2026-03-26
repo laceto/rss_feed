@@ -1,0 +1,204 @@
+{
+  "date": "2026-01-30",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "925f0c8f-0fe3-48cb-9f3a-77dc3405d925",
+      "label": "Alex Pretti shooting controversy",
+      "spike_ratio": 1.429,
+      "article_count": 30,
+      "rag_answer": "The controversy surrounding the shooting of Alex Pretti has escalated, prompting a federal civil rights investigation by the DOJ. Following the incident, President Trump has called for an \"honorable and honest investigation,\" while the White House has attempted to ease tensions, stating that no American should lose their life. Major Minnesota CEOs have urged for immediate de-escalation, indicating potential economic concerns in the region. The situation has also influenced political dynamics, with Senate Republicans facing pressure regarding DHS funding amidst the unrest, raising the possibility of a government shutdown.",
+      "rag_sources": [
+        {
+          "title": "Trump says he wants 'very honorable and honest investigation' of Alex Pretti killing",
+          "date": "2026-01-27",
+          "link": "https://www.cnbc.com/2026/01/27/alex-pretti-trump-investigation-greg-bovino-homan-minnesota.html",
+          "snippet": "2026-01-27: Trump says he wants 'very honorable and honest investigation' of Alex Pretti killing: Trump and the White House has sought to lower tensions over the shooting deaths of Alex Pretti and Ren",
+          "guid": "108257711"
+        },
+        {
+          "title": "DOJ has opened a federal civil rights probe into the death of Alex Pretti, deputy AG says",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/doj-has-opened-a-federal-civil-rights-probe-into-the-death-of-alex-pretti-deputy-ag-says.html",
+          "snippet": "2026-01-30: DOJ has opened a federal civil rights probe into the death of Alex Pretti, deputy AG says: The Justice Department has opened a federal civil rights investigation into the shooting of Alex ",
+          "guid": "108259647"
+        },
+        {
+          "title": "FBI Director Kash Patel criticized for his actions and posts during Charlie Kirk shooting investigation",
+          "date": "2025-09-15",
+          "link": "https://www.cnbc.com/2025/09/15/kash-patel-fbi-charlie-kirk-investigation.html",
+          "snippet": "2025-09-15: FBI Director Kash Patel criticized for his actions and posts during Charlie Kirk shooting investigation: The FBI leader\u2019s decisions to dine at an exclusive restaurant hours after the assas",
+          "guid": "108198769"
+        },
+        {
+          "title": "NBA union to challenge suspension of Miami Heat's Terry Rozier pay after gambling arrest",
+          "date": "2025-10-30",
+          "link": "https://www.cnbc.com/2025/10/29/nba-gambling-billups-rozier-salaries-miami-portland.html",
+          "snippet": "2025-10-30: NBA union to challenge suspension of Miami Heat's Terry Rozier pay after gambling arrest: The indictments of Portland coach Chauncey Billups and Miami player Terry Rozier have rocked the N",
+          "guid": "108218813"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "0009838e-5b99-4f23-b3c0-d85cafc96a09",
+      "label": "U.S.-Iran Tensions and Oil Prices",
+      "spike_ratio": 1.232,
+      "article_count": 17,
+      "rag_answer": "U.S.-Iran tensions have escalated significantly, leading to volatile oil prices. Following reports of military strikes and the collapse of nuclear talks, oil prices surged, with U.S. crude oil reaching over $80 per barrel as fears of supply disruptions grew. The ongoing conflict has caused fluctuations in the market, with oil prices jumping by as much as 5% in response to developments. As the situation unfolds, traders are closely monitoring the geopolitical landscape, which is impacting consumer costs and creating risks in emerging markets.",
+      "rag_sources": [
+        {
+          "title": "Oil pulls back as U.S.\u2013Iran talks set to resume: Here\u2019s where negotiations stand",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/23/iran-us-talks-oil-falls-nuclear-negotiations.html",
+          "snippet": "2026-02-23: Oil pulls back as U.S.\u2013Iran talks set to resume: Here\u2019s where negotiations stand: Tensions have remained on high alert throughout the Middle East for weeks after U.S. President Donald Trum",
+          "guid": "108268317"
+        },
+        {
+          "title": "Oil jumps 4% after Vance says Iran ignored key U.S. demands, military strikes on the table",
+          "date": "2026-02-18",
+          "link": "https://www.cnbc.com/2026/02/18/oil-prices-today-iran-trump-nuclear-talks.html",
+          "snippet": "2026-02-18: Oil jumps 4% after Vance says Iran ignored key U.S. demands, military strikes on the table: Oil traders are worried that war between the U.S. and Iran could lead to a major disruption of c",
+          "guid": "108266679"
+        },
+        {
+          "title": "Here's how the U.S.-Iran war is already hitting consumers' pocketbooks",
+          "date": "2026-03-06",
+          "link": "https://www.cnbc.com/2026/03/06/us-iran-war-gas-mortgage-markets.html",
+          "snippet": "2026-03-06: Here's how the U.S.-Iran war is already hitting consumers' pocketbooks: The U.S.-Israeli strikes on Iran over the weekend gave way to a week with topsy-turvy markets, spiking mortgage rate",
+          "guid": "108274411"
+        },
+        {
+          "title": "Oil prices steady as traders monitor Iran tensions, U.S. economic data",
+          "date": "2026-02-10",
+          "link": "https://www.cnbc.com/2026/02/10/oil-drifts-lower-as-traders-weigh-supply-risks-amid-usiran-tensions.html",
+          "snippet": "2026-02-10: Oil prices steady as traders monitor Iran tensions, U.S. economic data: Oil prices eased slightly on Tuesday after U.S. guidance for vessels transiting the Strait of Hormuz kept attention ",
+          "guid": "108263647"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "98f2b667-e4df-4662-8af7-4b0e530dab68",
+      "label": "Housing Market Trends and Challenges",
+      "spike_ratio": 1.19,
+      "article_count": 25,
+      "rag_answer": "The housing market is facing significant challenges, with Goldman Sachs predicting an 8% decline in the second half of 2025 due to immigration and affordability issues. Despite a recent drop in mortgage rates, many potential homebuyers feel priced out, leading to a more than 8% drop in home sales in January 2026. However, there are signs of optimism as real estate agents report a balancing market, and a housing affordability package is advancing in Congress, aimed at reducing regulations for homebuilders and incentivizing local governments. Overall, while there are legislative efforts to improve affordability, elevated home prices and mortgage rates continue to hinder market recovery.",
+      "rag_sources": [
+        {
+          "title": "Housing to remain weakest part of economy, falling 8% in the second half, Goldman says",
+          "date": "2025-08-04",
+          "link": "https://www.cnbc.com/2025/08/04/housing-to-remain-weakest-part-of-economy-in-the-2nd-half-goldman-says.html",
+          "snippet": "2025-08-04: Housing to remain weakest part of economy, falling 8% in the second half, Goldman says: The Wall Street investment bank named immigration and affordability challenges as two obstacles stan",
+          "guid": "108181055"
+        },
+        {
+          "title": "Housing affordability package set to advance in Congress amid home-cost concerns",
+          "date": "2026-02-10",
+          "link": "https://www.cnbc.com/2026/02/09/housing-affordability-prices-congress.html",
+          "snippet": "2026-02-10: Housing affordability package set to advance in Congress amid home-cost concerns: Wide-ranging legislation would reduce regulations for homebuilders while giving local governments incentiv",
+          "guid": "108262990"
+        },
+        {
+          "title": "What to expect from the housing market in 2026\u2014and the 10 major cities where prices could fall the most",
+          "date": "2025-12-31",
+          "link": "https://www.cnbc.com/2025/12/31/housing-market-outlook-for-2026and-10-cities-where-prices-may-fall.html",
+          "snippet": "2025-12-31: What to expect from the housing market in 2026\u2014and the 10 major cities where prices could fall the most: Home prices and mortgage rates will remain elevated in 2026, but slower price growt",
+          "guid": "108246806"
+        },
+        {
+          "title": "Here's what's keeping homebuyers on the sidelines despite mortgage rates hitting a 10-month low ",
+          "date": "2025-08-20",
+          "link": "https://www.cnbc.com/2025/08/20/mortgage-rates-hit-a-10-month-low-why-home-buyers-are-on-the-sidelines.html",
+          "snippet": "2025-08-20: Here's what's keeping homebuyers on the sidelines despite mortgage rates hitting a 10-month low: A lot of would-be buyers feel priced out of the housing market. Lower mortgage rates might ",
+          "guid": "108188145"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "51354c92-f673-4c75-9399-c29544b9deef",
+      "label": "Investment strategies for 2026",
+      "spike_ratio": 1.19,
+      "article_count": 15,
+      "rag_answer": "As 2026 approaches, investors are focusing on long-term strategies, emphasizing discipline and diversification, particularly in light of tax-efficient investing to enhance portfolio returns. European banks are highlighted as strong diversification plays, reflecting their stellar performance in 2025. Additionally, investors are identifying specific stocks, such as Adobe, Citigroup, and TSMC, as potential high-return opportunities for the upcoming year. Overall, the market is gearing up for a strategic shift, with an emphasis on adapting to changing economic conditions and potential tariff impacts.",
+      "rag_sources": [
+        {
+          "title": "Check out the winning hedge fund strategies of 2025",
+          "date": "2025-12-19",
+          "link": "https://www.cnbc.com/2025/12/19/the-hedge-fund-strategies-bringing-the-biggest-gains-this-year.html",
+          "snippet": "2025-12-19: Check out the winning hedge fund strategies of 2025: As 2025 draws to a close, hedge funds' annual performances face close scrutiny among investors.",
+          "guid": "108243433"
+        },
+        {
+          "title": "3 tactics the ultra-wealthy are using to invest in 2026 that you can mimic with the right tools",
+          "date": "2025-12-31",
+          "link": "https://www.cnbc.com/select/how-ultra-wealthy-are-investing-in-2026-and-how-you-can-mimic/",
+          "snippet": "2025-12-31: 3 tactics the ultra-wealthy are using to invest in 2026 that you can mimic with the right tools: The rich invest for the long-run, using discipline and diversification \u2014 all things you can",
+          "guid": "108244946"
+        },
+        {
+          "title": "How tax-efficient investing could boost your portfolio returns in 2026 and beyond",
+          "date": "2026-01-12",
+          "link": "https://www.cnbc.com/2026/01/12/tax-efficient-investing.html",
+          "snippet": "2026-01-12: How tax-efficient investing could boost your portfolio returns in 2026 and beyond: Now is the time to consider how changes in tax law, along with tax-efficient investing strategies, can bo",
+          "guid": "108250256"
+        },
+        {
+          "title": "Europe\u2019s banks have had a stellar year. Now they face one big question in 2026",
+          "date": "2025-12-31",
+          "link": "https://www.cnbc.com/2025/12/31/the-big-question-facing-europes-banks-in-2026-following-strong-year.html",
+          "snippet": "2025-12-31: Europe\u2019s banks have had a stellar year. Now they face one big question in 2026: Investment strategists say European banks continue to be a strong diversification play for 2026.",
+          "guid": "108240474"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "2e955eac-a74a-4c42-be9f-b871d12feb52",
+      "label": "Market Trends and Stock Movements",
+      "spike_ratio": 1.133,
+      "article_count": 46,
+      "rag_answer": "The stock market has experienced significant volatility, with benchmarks reaching record highs due to easing inflation, strong corporate earnings, and expectations of U.S. rate cuts. However, recent sentiment has reversed, indicating potential concerns about an economic slowdown, as suggested by Stifel's warning of a stagflation environment. Despite this, certain sectors, particularly AI and retail favorites, have shown resilience, pushing stocks to new highs. Investors are advised to carefully assess market conditions before making trades, as opportunities may arise amidst the fluctuations.",
+      "rag_sources": [
+        {
+          "title": "Stock market swings got you reeling? Answer these 6 questions before making a trade",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/stock-market-swings-got-you-reeling-answering-6-questions-will-help.html",
+          "snippet": "2025-11-28: Stock market swings got you reeling? Answer these 6 questions before making a trade: Frustrating as volatility can be, it also tends to present opportunities.",
+          "guid": "108232626"
+        },
+        {
+          "title": "Stock benchmarks are scaling record highs: 'Animal spirits are soaring' ",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/stock-benchmarks-are-scaling-record-highs-animal-spirits-are-soaring-.html",
+          "snippet": "2025-09-11: Stock benchmarks are scaling record highs: 'Animal spirits are soaring': Easing inflation pressures,\u00a0resilient corporate earnings and expectations for U.S. rate cuts have boosted investor ",
+          "guid": "108197275"
+        },
+        {
+          "title": "Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward",
+          "date": "2025-12-26",
+          "link": "https://www.cnbc.com/2025/12/26/market-sentiment-has-made-a-huge-reversal-heres-why-and-what-it-means-going-forward.html",
+          "snippet": "2025-12-26: Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward: Something unusual happened in the past few weeks.",
+          "guid": "108245814"
+        },
+        {
+          "title": "Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel",
+          "date": "2025-08-11",
+          "link": "https://www.cnbc.com/2025/08/11/stock-market-party-to-be-ruined-by-sudden-economic-slowdown-says-stifel.html",
+          "snippet": "2025-08-11: Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel: The market could be in for a stagflation environment, the firm said.",
+          "guid": "108184067"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

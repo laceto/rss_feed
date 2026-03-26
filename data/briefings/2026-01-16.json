@@ -1,0 +1,212 @@
+{
+  "date": "2026-01-16",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "3d3acae2-25d0-4e59-83b0-0118da72d824",
+      "label": "AI-related tech stock decline",
+      "spike_ratio": 1.533,
+      "article_count": 23,
+      "rag_answer": "AI-related tech stocks have been experiencing significant declines, driven by rising concerns over their valuations and mixed earnings reports from key players like Nvidia and Oracle. The S&P 500 and Dow have both seen losses as investors react to the pressure on these stocks, with notable declines in companies such as Palantir and SoftBank. Despite some attempts to rebound, the overall sentiment remains cautious, indicating that the AI trade may be facing a challenging period ahead. This ongoing volatility suggests potential implications for broader market stability, as tech stocks are often seen as a bellwether for market performance.",
+      "rag_sources": [
+        {
+          "title": "Dow slides 300 points as AI stocks resume their decline, Nasdaq falls 1%: Live updates",
+          "date": "2025-11-06",
+          "link": "https://www.cnbc.com/2025/11/05/stock-market-today-live-updates.html",
+          "snippet": "2025-11-06: Dow slides 300 points as AI stocks resume their decline, Nasdaq falls 1%: Live updates: Companies that have benefited from the artificial intelligence trade came under pressure yet again a",
+          "guid": "108222099"
+        },
+        {
+          "title": "S&P 500 gives up gain as AI-related stocks come under pressure again: Live updates",
+          "date": "2025-12-15",
+          "link": "https://www.cnbc.com/2025/12/14/stock-market-today-live-updates.html",
+          "snippet": "2025-12-15: S&P 500 gives up gain as AI-related stocks come under pressure again: Live updates: Key stocks in the artificial intelligence trade continued to face pressure.",
+          "guid": "108241593"
+        },
+        {
+          "title": "Stocks drop on rising fears about AI stock valuations, Palantir leads decline: Live updates",
+          "date": "2025-11-04",
+          "link": "https://www.cnbc.com/2025/11/03/stock-market-today-live-updates.html",
+          "snippet": "2025-11-04: Stocks drop on rising fears about AI stock valuations, Palantir leads decline: Live updates: Stocks fell, pressured by declines in artificial intelligence-related names like Palantir as in",
+          "guid": "108220811"
+        },
+        {
+          "title": "CNBC Daily Open: Days of declines won't keep AI trade down",
+          "date": "2025-11-11",
+          "link": "https://www.cnbc.com/2025/11/11/cnbc-daily-open-days-of-declines-wont-keep-ai-trade-down.html",
+          "snippet": "2025-11-11: CNBC Daily Open: Days of declines won't keep AI trade down: Investors piled back into artificial intelligence names on Monday stateside. \\AI-related stocks should drive equity markets,\\\" a",
+          "guid": "108224037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "b94eb85b-b199-4311-9916-f97384805f94",
+      "label": "Student loan repayment issues",
+      "spike_ratio": 1.42,
+      "article_count": 25,
+      "rag_answer": "Student loan borrowers are facing significant challenges with repayment plans, largely due to a backlog from the Trump administration, which has left over 800,000 borrowers unable to access forgiveness and affordable repayment options. Recent reports indicate that many borrowers are struggling to navigate the Public Service Loan Forgiveness program and have encountered unexpected changes in their loan servicers. Additionally, a court filing revealed that over 300,000 requests for new repayment plans were denied, exacerbating the situation. These developments suggest a growing frustration among borrowers and could lead to increased scrutiny of the education system and potential policy changes aimed at improving repayment processes.",
+      "rag_sources": [
+        {
+          "title": "Student loan borrowers can't access repayment plans under Trump. What to know ",
+          "date": "2025-10-03",
+          "link": "https://www.cnbc.com/2025/10/03/student-loan-repayment-plan-backlog-under-trump.html",
+          "snippet": "2025-10-03: Student loan borrowers can't access repayment plans under Trump. What to know: Student loan borrowers who are trying to get into a new repayment plan face delays amid a Trump-era backlog o",
+          "guid": "108207108"
+        },
+        {
+          "title": "Over 800,000 student loan borrowers remain in backlog for forgiveness, affordable repayment plans",
+          "date": "2026-01-15",
+          "link": "https://www.cnbc.com/2026/01/15/student-loan-forgiveness-repayment-plan-backlog.html",
+          "snippet": "2026-01-15: Over 800,000 student loan borrowers remain in backlog for forgiveness, affordable repayment plans: More than 800,000 federal student loan holders remain stuck in a backlog of applications ",
+          "guid": "108252878"
+        },
+        {
+          "title": "Student loan borrowers face new challenges trying to get Public Service Loan Forgiveness",
+          "date": "2025-08-06",
+          "link": "https://www.cnbc.com/2025/08/06/student-loan-borrowers-and-changes-to-public-service-loan-forgiveness-pslf.html",
+          "snippet": "2025-08-06: Student loan borrowers face new challenges trying to get Public Service Loan Forgiveness: Borrowers pursuing Public Service Loan Forgiveness are hitting walls trying to access the relief, ",
+          "guid": "108181052"
+        },
+        {
+          "title": "Student loan borrowers have 'a limited time' to leave payment pause. Here are their options ",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/10/student-loan-options-save-forbearance.html",
+          "snippet": "2025-12-10: Student loan borrowers have 'a limited time' to leave payment pause. Here are their options: Under the terms of a proposed Education Department settlement, millions of student loan borrowe",
+          "guid": "108239362"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "08492936-46b7-490a-9566-b8596215d412",
+      "label": "Trump's Greenland Acquisition Controversy",
+      "spike_ratio": 1.27,
+      "article_count": 31,
+      "rag_answer": "President Donald Trump's ambitions to acquire Greenland have escalated, drawing significant geopolitical attention and concern. Following military actions in Venezuela, Trump has threatened a takeover of Greenland, prompting bewilderment among Greenlanders and defiance from their Prime Minister, who stated they would not be pressured by U.S. tariffs. The situation has also raised alarms in China and elicited strong reactions from European leaders, who deemed Trump's tariff threats as \"unacceptable.\" Market analysts suggest that if Trump's acquisition efforts proceed, it could lead to negative market reactions due to the symbolic and potential concrete fractures in international relations.",
+      "rag_sources": [
+        {
+          "title": "CNBC Daily Open: Trump's Greenland ambitions have global repercussions",
+          "date": "2026-01-09",
+          "link": "https://www.cnbc.com/2026/01/09/cnbc-daily-open-trumps-greenland-ambitions-have-global-repercussions.html",
+          "snippet": "2026-01-09: CNBC Daily Open: Trump's Greenland ambitions have global repercussions: U.S. President Donald Trump's ambitions around Greenland are rapidly gaining concrete form \u2014 that is, evolving from ",
+          "guid": "108250347"
+        },
+        {
+          "title": "Greenlanders 'bewildered' by Trump\u2019s 'devastating' takeover threats, business minister tells CNBC",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/trump-greenland-takeover-threats-tariffs-naaja-nathanielsen.html",
+          "snippet": "2026-01-20: Greenlanders 'bewildered' by Trump\u2019s 'devastating' takeover threats, business minister tells CNBC: Greenland has been thrust into the geopolitical spotlight by President Donald Trump's tak",
+          "guid": "108254262"
+        },
+        {
+          "title": "Trump wants Greenland. If it were for sale, it could cost trillions",
+          "date": "2026-01-08",
+          "link": "https://www.cnbc.com/2026/01/08/trump-greenland-cost-denmark.html",
+          "snippet": "2026-01-08: Trump wants Greenland. If it were for sale, it could cost trillions: Trump's rhetoric about Greenland has flared back up in the days since the U.S. military entered Venezuela and captured ",
+          "guid": "108249355"
+        },
+        {
+          "title": "Trump\u2019s Greenland gambit puts China on edge after Venezuela operation",
+          "date": "2026-01-08",
+          "link": "https://www.cnbc.com/2026/01/08/us-trump-china-greenland-denmark-arctic-tensions-trump-rare-earth-elements-minerals-mining.html",
+          "snippet": "2026-01-08: Trump\u2019s Greenland gambit puts China on edge after Venezuela operation: U.S. President Donald Trump's threat to take control of Greenland raised alarms in Beijing as nations vye for the vas",
+          "guid": "108249089"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "9ff8b711-a142-4bf0-a2ce-a868bcd756a8",
+      "label": "Robotaxi Developments and EV Market",
+      "spike_ratio": 1.214,
+      "article_count": 25,
+      "rag_answer": "The robotaxi industry is experiencing significant momentum, with major players like Lucid, Rivian, Waymo, and Tesla making substantial advancements. Lucid plans to expand into the robotaxi market and achieve positive free cash flow by the late 2020s, while Rivian is developing AI technology and has secured a $1.25 billion investment from Uber to launch 50,000 robotaxis. Additionally, Waymo is rapidly expanding its services, and Tesla has begun operating its robotaxi service in Texas. These developments indicate a competitive landscape in the EV market, with companies racing to innovate and capture market share in the burgeoning robotaxi sector.",
+      "rag_sources": [
+        {
+          "title": "EV maker Lucid reveals plans for robotaxi, positive free cash flow late this decade",
+          "date": "2026-03-12",
+          "link": "https://www.cnbc.com/2026/03/12/lucid-investor-day.html",
+          "snippet": "2026-03-12: EV maker Lucid reveals plans for robotaxi, positive free cash flow late this decade: The EV company is aiming to hit that target through market expansion into midsize vehicles, robotaxis a",
+          "guid": "108277205"
+        },
+        {
+          "title": "Rivian announces new AI tech, in-house chip and robotaxi ambitions",
+          "date": "2025-12-11",
+          "link": "https://www.cnbc.com/2025/12/11/rivian-autonomy-ai-day.html",
+          "snippet": "2025-12-11: Rivian announces new AI tech, in-house chip and robotaxi ambitions: The company has also developed AI models to power its Autonomy+ subscription, which it intends to roll out early next ye",
+          "guid": "108240446"
+        },
+        {
+          "title": "\u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises",
+          "date": "2025-11-20",
+          "link": "https://www.cnbc.com/2025/11/20/global-robotaxi-race-heats-up-between-us-and-chinese-rivals.html",
+          "snippet": "2025-11-20: \u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises: Global tech executives in recent weeks have proclaimed the robotaxi industry is finally nea",
+          "guid": "108226580"
+        },
+        {
+          "title": "Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/waymo-amazon-zoox-tesla-robotaxi-expansion.html",
+          "snippet": "2025-12-16: Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line: Robotaxis grew rapidly in 2025 with Waymo expanding fastest, Zoox debuting public rides and Tesla ",
+          "guid": "108236372"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "a458a52d-f90b-4caa-ab7b-69b8d65e353a",
+      "label": "Housing market challenges 2026",
+      "spike_ratio": 1.172,
+      "article_count": 15,
+      "rag_answer": "In 2026, the housing market is facing significant challenges, including rising mortgage rates and ongoing affordability issues. A housing affordability package is advancing in Congress, aimed at reducing regulations for homebuilders and incentivizing local governments, but an investor ban on buying homes has stalled this legislation. Despite some optimism from real estate agents about a market balance, home prices and mortgage rates are expected to remain elevated, which could hinder recovery and exacerbate affordability concerns. Overall, these factors suggest a continued struggle for the housing market amid economic headwinds.",
+      "rag_sources": [
+        {
+          "title": "Housing to remain weakest part of economy, falling 8% in the second half, Goldman says",
+          "date": "2025-08-04",
+          "link": "https://www.cnbc.com/2025/08/04/housing-to-remain-weakest-part-of-economy-in-the-2nd-half-goldman-says.html",
+          "snippet": "2025-08-04: Housing to remain weakest part of economy, falling 8% in the second half, Goldman says: The Wall Street investment bank named immigration and affordability challenges as two obstacles stan",
+          "guid": "108181055"
+        },
+        {
+          "title": "Novo Nordisk faces a defining year in the obesity drug market. It\u2019s off to a dramatic start  ",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/novo-nordisk-faces-defining-year-in-the-obesity-drug-market.html",
+          "snippet": "2026-02-11: Novo Nordisk faces a defining year in the obesity drug market. It\u2019s off to a dramatic start: The Danish drugmaker kicked off 2026 with its explosive obesity pill launch, but recent challen",
+          "guid": "108264597"
+        },
+        {
+          "title": "The spring housing market is on, but mortgage rates just shot higher. Here's what to know.",
+          "date": "2026-03-20",
+          "link": "https://www.cnbc.com/2026/03/20/spring-housing-market-mortgage-rates.html",
+          "snippet": "2026-03-20: The spring housing market is on, but mortgage rates just shot higher. Here's what to know.: This spring's housing market is on, but economic headwinds are pushing back most of the advantag",
+          "guid": "108280855"
+        },
+        {
+          "title": "Housing affordability package set to advance in Congress amid home-cost concerns",
+          "date": "2026-02-10",
+          "link": "https://www.cnbc.com/2026/02/09/housing-affordability-prices-congress.html",
+          "snippet": "2026-02-10: Housing affordability package set to advance in Congress amid home-cost concerns: Wide-ranging legislation would reduce regulations for homebuilders while giving local governments incentiv",
+          "guid": "108262990"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

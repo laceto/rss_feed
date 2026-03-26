@@ -1,0 +1,220 @@
+{
+  "date": "2025-10-30",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "3d3acae2-25d0-4e59-83b0-0118da72d824",
+      "label": "AI-related tech stock decline",
+      "spike_ratio": 1.301,
+      "article_count": 19,
+      "rag_answer": "AI-related tech stocks have been experiencing significant declines, driven by rising concerns over their valuations and disappointing earnings reports, particularly from major players like Nvidia and Oracle. This has led to broader market sell-offs, with indices such as the Dow and S&P 500 reflecting these pressures. Despite some attempts at recovery, investor sentiment remains cautious, as evidenced by continued sell-offs and strategic shifts towards portfolio diversifiers. The ongoing volatility suggests that the AI sector may be facing a challenging period ahead, impacting overall market stability.",
+      "rag_sources": [
+        {
+          "title": "Dow slides 300 points as AI stocks resume their decline, Nasdaq falls 1%: Live updates",
+          "date": "2025-11-06",
+          "link": "https://www.cnbc.com/2025/11/05/stock-market-today-live-updates.html",
+          "snippet": "2025-11-06: Dow slides 300 points as AI stocks resume their decline, Nasdaq falls 1%: Live updates: Companies that have benefited from the artificial intelligence trade came under pressure yet again a",
+          "guid": "108222099"
+        },
+        {
+          "title": "S&P 500 gives up gain as AI-related stocks come under pressure again: Live updates",
+          "date": "2025-12-15",
+          "link": "https://www.cnbc.com/2025/12/14/stock-market-today-live-updates.html",
+          "snippet": "2025-12-15: S&P 500 gives up gain as AI-related stocks come under pressure again: Live updates: Key stocks in the artificial intelligence trade continued to face pressure.",
+          "guid": "108241593"
+        },
+        {
+          "title": "Stocks drop on rising fears about AI stock valuations, Palantir leads decline: Live updates",
+          "date": "2025-11-04",
+          "link": "https://www.cnbc.com/2025/11/03/stock-market-today-live-updates.html",
+          "snippet": "2025-11-04: Stocks drop on rising fears about AI stock valuations, Palantir leads decline: Live updates: Stocks fell, pressured by declines in artificial intelligence-related names like Palantir as in",
+          "guid": "108220811"
+        },
+        {
+          "title": "CNBC Daily Open: Days of declines won't keep AI trade down",
+          "date": "2025-11-11",
+          "link": "https://www.cnbc.com/2025/11/11/cnbc-daily-open-days-of-declines-wont-keep-ai-trade-down.html",
+          "snippet": "2025-11-11: CNBC Daily Open: Days of declines won't keep AI trade down: Investors piled back into artificial intelligence names on Monday stateside. \\AI-related stocks should drive equity markets,\\\" a",
+          "guid": "108224037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "a21f7800-1019-4647-adfd-df0863c955d0",
+      "label": "Fed rate cuts and outlook",
+      "spike_ratio": 1.245,
+      "article_count": 62,
+      "rag_answer": "Recent developments indicate a divided stance among Federal Reserve officials regarding interest rate cuts, with discussions suggesting two additional cuts by the end of 2025. Fed Chair Powell has indicated that conditions may warrant cuts, but uncertainty remains high. As of December 2025, the Fed is expected to implement its third consecutive rate cut, although there are concerns about inflation that could impact future decisions. Market expectations for further cuts in 2026 are diminishing, particularly as inflation fears rise, suggesting a cautious outlook moving forward.",
+      "rag_sources": [
+        {
+          "title": "Divided Fed officials saw another two interest rate cuts by the end of 2025, minutes show",
+          "date": "2025-10-08",
+          "link": "https://www.cnbc.com/2025/10/08/fed-minutes-september-2025.html",
+          "snippet": "2025-10-08: Divided Fed officials saw another two interest rate cuts by the end of 2025, minutes show: Officials were strongly inclined to lower rates, with the only dispute seeming to be over how man",
+          "guid": "108209324"
+        },
+        {
+          "title": "Powell indicates conditions 'may warrant' interest rate cuts as Fed proceeds 'carefully'",
+          "date": "2025-08-22",
+          "link": "https://www.cnbc.com/2025/08/22/powell-indicates-conditions-may-warrant-interest-rate-cuts-as-fed-proceeds-carefully.html",
+          "snippet": "2025-08-22: Powell indicates conditions 'may warrant' interest rate cuts as Fed proceeds 'carefully': Powell on Friday gave a tepid indication of possible cuts ahead as he noted a high level of uncert",
+          "guid": "108189532"
+        },
+        {
+          "title": "The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/09/the-fed-decision-is-expected-to-feature-a-rate-cut-and-a-lot-more-heres-what-to-expect.html",
+          "snippet": "2025-12-10: The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect: The central bank is poised to deliver its third straight interest rate cut Wednesday, while firing a ",
+          "guid": "108239042"
+        },
+        {
+          "title": "Fed's Goolsbee calls for a hold on cuts as current rate of inflation is 'not good enough'",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/feds-goolsbee-calls-for-a-hold-on-cuts-as-current-rate-of-inflation-is-not-good-enough.html",
+          "snippet": "2026-02-24: Fed's Goolsbee calls for a hold on cuts as current rate of inflation is 'not good enough': The Chicago Fed president said Tuesday that cuts aren't appropriate until there's more evidence t",
+          "guid": "108269037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "abddb7fb-34ac-438d-9d14-c197f506a220",
+      "label": "Gold and Cryptocurrency Trends",
+      "spike_ratio": 1.197,
+      "article_count": 17,
+      "rag_answer": "Gold has experienced significant price increases, reaching new highs, with analysts suggesting it remains a strong safe-haven asset amid political and financial uncertainty. However, there are indications that some investors may rotate their investments from gold into cryptocurrencies like Bitcoin, especially as Bitcoin gains traction as a viable alternative. Despite gold's recent peaks, concerns about market volatility and potential consolidation periods could impact its future performance. Overall, while gold continues to attract attention as a safe investment, the cryptocurrency market is diversifying, reflecting a shift in investor sentiment.",
+      "rag_sources": [
+        {
+          "title": "Gold hits $4,000 but stocks still win over time, top advisor says: 'Gold glitters but earnings compound'",
+          "date": "2025-10-08",
+          "link": "https://www.cnbc.com/2025/10/08/gold-vs-sp500-returns.html",
+          "snippet": "2025-10-08: Gold hits $4,000 but stocks still win over time, top advisor says: 'Gold glitters but earnings compound': The price of gold is soaring amid the current state political and financial uncert",
+          "guid": "108209338"
+        },
+        {
+          "title": "Gold and silver reach fresh highs for second day running \u2014 and could keep climbing",
+          "date": "2025-12-23",
+          "link": "https://www.cnbc.com/2025/12/23/gold-and-silver-reach-fresh-highs-for-second-day-running.html",
+          "snippet": "2025-12-23: Gold and silver reach fresh highs for second day running \u2014 and could keep climbing: David Neuhauser, CIO at Livermore Partners, told CNBC's \\Access Middle East\\\" that gold has more room to",
+          "guid": "108245152"
+        },
+        {
+          "title": "Ed Yardeni says gold is the best safe-haven play and 'the new bitcoin'",
+          "date": "2025-10-15",
+          "link": "https://www.cnbc.com/2025/10/15/ed-yardeni-says-gold-is-the-best-safe-haven-play-and-is-the-new-bitcoin.html",
+          "snippet": "2025-10-15: Ed Yardeni says gold is the best safe-haven play and 'the new bitcoin': While both assets have posted strong returns this year, gold has been by far the leader.",
+          "guid": "108212385"
+        },
+        {
+          "title": "Bitcoin is getting a shutdown boost. More money could rotate into the crypto and out of gold",
+          "date": "2025-10-01",
+          "link": "https://www.cnbc.com/2025/10/01/bitcoin-is-getting-a-shutdown-boost-more-money-could-rotate-into-the-crypto-and-out-of-gold.html",
+          "snippet": "2025-10-01: Bitcoin is getting a shutdown boost. More money could rotate into the crypto and out of gold: Frank Cappelleri looks at the ratio between bitcoin and gold.",
+          "guid": "108206577"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "baa12f40-6fae-4a48-b674-488ec8fbeac8",
+      "label": "Trump's Trade War Developments",
+      "spike_ratio": 1.183,
+      "article_count": 22,
+      "rag_answer": "Trump's trade war has escalated with the implementation of extensive tariffs on numerous U.S. trading partners, including Canada, Brazil, and Switzerland, leading to significant market disruptions and reshaping international trade relationships. The introduction of a 40% tariff on goods transshipped to avoid duties has further complicated trade dynamics. Analysts have expressed concerns about the negative impact on American families and the agricultural sector, prompting Trump to announce a $12 billion aid package for affected farmers. Despite a reduction in the trade deficit to its smallest since 2009, the overall market sentiment remains cautious, with companies like Trade Desk experiencing significant stock declines due to tariff-related uncertainties.",
+      "rag_sources": [
+        {
+          "title": "Live Updates: Trump tariffs slam Canada, Brazil and Switzerland ",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/trumps-tariffs-rekindle-global-trade-tensions.html",
+          "snippet": "2025-08-01: Live Updates: Trump tariffs slam Canada, Brazil and Switzerland: Trump's extensive new tariff regime on dozens of U.S. partners are launching new trade wars and sending shock waves through",
+          "guid": "108180211"
+        },
+        {
+          "title": "How countries are reacting to Trump's latest tariff announcements as deadline looms",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/how-asian-countries-are-reacting-to-trumps-latest-tariffs-announcement-as-deadline-looms.html",
+          "snippet": "2025-08-01: How countries are reacting to Trump's latest tariff announcements as deadline looms: The White House also announced a 40% tariff rate for all goods transshipped to avoid the applicable dut",
+          "guid": "108180161"
+        },
+        {
+          "title": "Another late-night Trump trade twist \u2014 just hours before the world hit go",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/another-late-night-trump-trade-twist-hours-before-the-world-hit-go.html",
+          "snippet": "2025-08-01: Another late-night Trump trade twist \u2014 just hours before the world hit go: Trump\u2019s late-night tariff moves have become a hallmark, catching markets off guard, reshaping deals, and forcing ",
+          "guid": "108180251"
+        },
+        {
+          "title": "Trump 'losing' trade war with China going in to Xi meeting, Senate Democrats say in report",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/trump-trade-china-warren-democrats-inflation-xi.html",
+          "snippet": "2025-10-29: Trump 'losing' trade war with China going in to Xi meeting, Senate Democrats say in report: \\Trump needs to change course on his trade war with China now and stop hurting American families",
+          "guid": "108218477"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "b82b4dcb-bba3-45f0-9230-df48cf06e1cc",
+      "label": "Trump-Xi TikTok Deal Talks",
+      "spike_ratio": 1.076,
+      "article_count": 17,
+      "rag_answer": "The Trump-Xi TikTok deal talks have seen significant progress, with a framework agreement reportedly reached, although finalization is still pending. President Trump indicated that he has received approval from Beijing, while discussions have included potential involvement from notable investors like the Murdochs, Larry Ellison, and Michael Dell. The deal aims to keep TikTok operational in the U.S., which has implications for both U.S.-China relations and the tech market, as it could stabilize TikTok's presence and influence in the competitive social media landscape. However, the lack of immediate confirmation from China raises questions about the deal's finalization and its potential impact on market sentiment.",
+      "rag_sources": [
+        {
+          "title": "China stays conspicuously quiet after Trump\u2019s TikTok deal declaration ",
+          "date": "2025-09-26",
+          "link": "https://www.cnbc.com/2025/09/26/china-stays-conspicuously-quiet-after-trumps-tiktok-deal-declaration-.html",
+          "snippet": "2025-09-26: China stays conspicuously quiet after Trump\u2019s TikTok deal declaration: U.S. President Donald Trump says that he\u2019s received Beijing's nod on a deal that would see TikTok stay alive in the U",
+          "guid": "108204310"
+        },
+        {
+          "title": "Trump, Xi make progress on TikTok deal, but more work remains, White House says",
+          "date": "2025-09-19",
+          "link": "https://www.cnbc.com/2025/09/19/trump-xi-tiktok-call.html",
+          "snippet": "2025-09-19: Trump, Xi make progress on TikTok deal, but more work remains, White House says: President Donald Trump and Chinese leader Xi Jinping held a much-anticipated call aimed at finalizing a dea",
+          "guid": "108201222"
+        },
+        {
+          "title": "How to save on Prime Big Deal Days 2025, including a discounted Prime membership and a $150 gift card",
+          "date": "2025-10-06",
+          "link": "https://www.cnbc.com/select/how-to-save-on-prime-big-deal-days-2025/",
+          "snippet": "2025-10-06: How to save on Prime Big Deal Days 2025, including a discounted Prime membership and a $150 gift card: Prime Big Deal Days, Amazon's second big sale of the year, offers deep discounts to P",
+          "guid": "108207698"
+        },
+        {
+          "title": "Bessent: TikTok deal 'framework' reached with China, Trump and Xi will finalize it Friday",
+          "date": "2025-09-15",
+          "link": "https://www.cnbc.com/2025/09/15/trump-tiktok-china.html",
+          "snippet": "2025-09-15: Bessent: TikTok deal 'framework' reached with China, Trump and Xi will finalize it Friday: The U.S. and China have a 'framework' deal for social media platform TikTok in place, Treasury Se",
+          "guid": "108198726"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

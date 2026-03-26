@@ -1,0 +1,212 @@
+{
+  "date": "2025-11-05",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "baa12f40-6fae-4a48-b674-488ec8fbeac8",
+      "label": "Trump's Trade War Developments",
+      "spike_ratio": 1.261,
+      "article_count": 30,
+      "rag_answer": "Trump's trade war has escalated with the implementation of extensive new tariffs affecting Canada, Brazil, Switzerland, and other U.S. trading partners, leading to significant market disruptions and reshaping international trade relationships. A 40% tariff rate has been introduced for goods transshipped to circumvent existing tariffs, further complicating trade dynamics. Analysts have expressed concerns about the negative impact on American families and the agricultural sector, prompting Trump to announce a $12 billion aid package for farmers affected by these policies. Despite a reduction in the trade deficit to its smallest since 2009, the overall market sentiment remains cautious, with companies like Trade Desk experiencing significant stock declines due to tariff-related uncertainties.",
+      "rag_sources": [
+        {
+          "title": "Live Updates: Trump tariffs slam Canada, Brazil and Switzerland ",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/trumps-tariffs-rekindle-global-trade-tensions.html",
+          "snippet": "2025-08-01: Live Updates: Trump tariffs slam Canada, Brazil and Switzerland: Trump's extensive new tariff regime on dozens of U.S. partners are launching new trade wars and sending shock waves through",
+          "guid": "108180211"
+        },
+        {
+          "title": "How countries are reacting to Trump's latest tariff announcements as deadline looms",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/how-asian-countries-are-reacting-to-trumps-latest-tariffs-announcement-as-deadline-looms.html",
+          "snippet": "2025-08-01: How countries are reacting to Trump's latest tariff announcements as deadline looms: The White House also announced a 40% tariff rate for all goods transshipped to avoid the applicable dut",
+          "guid": "108180161"
+        },
+        {
+          "title": "Another late-night Trump trade twist \u2014 just hours before the world hit go",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/another-late-night-trump-trade-twist-hours-before-the-world-hit-go.html",
+          "snippet": "2025-08-01: Another late-night Trump trade twist \u2014 just hours before the world hit go: Trump\u2019s late-night tariff moves have become a hallmark, catching markets off guard, reshaping deals, and forcing ",
+          "guid": "108180251"
+        },
+        {
+          "title": "Trump 'losing' trade war with China going in to Xi meeting, Senate Democrats say in report",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/trump-trade-china-warren-democrats-inflation-xi.html",
+          "snippet": "2025-10-29: Trump 'losing' trade war with China going in to Xi meeting, Senate Democrats say in report: \\Trump needs to change course on his trade war with China now and stop hurting American families",
+          "guid": "108218477"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "da95e706-3c52-40b4-b5f6-666c0720727e",
+      "label": "European stock market trends",
+      "spike_ratio": 1.231,
+      "article_count": 16,
+      "rag_answer": "European stock markets have shown a generally positive trend, with several instances of closing higher and reaching record highs throughout 2025 and early 2026. Notably, European stocks extended gains following record highs on Wall Street and have been buoyed by strong corporate earnings, such as those from Nvidia, which alleviated concerns over an AI bubble. However, there are fluctuations, as seen in December 2025 when markets closed soft ahead of a Federal Reserve meeting, and defense stocks faced losses amid hopes for a ceasefire in Ukraine. Overall, while there are positive developments, market sentiment remains sensitive to global events and economic indicators.",
+      "rag_sources": [
+        {
+          "title": "European stocks extend gains after Wall Street\u2019s record highs",
+          "date": "2025-08-13",
+          "link": "https://www.cnbc.com/2025/08/13/europe-markets-live-ftse-100-dax-renk-earnings-european-stocks.html",
+          "snippet": "2025-08-13: European stocks extend gains after Wall Street\u2019s record highs: Join CNBC for live updates on what's making European markets move.",
+          "guid": "108185108"
+        },
+        {
+          "title": "European stocks close soft as global investors look ahead to Fed meeting",
+          "date": "2025-12-05",
+          "link": "https://www.cnbc.com/2025/12/05/stoxx-600-ftse-100-on-dec-5-fed-meeting-ukraine-deal-in-focus.html",
+          "snippet": "2025-12-05: European stocks close soft as global investors look ahead to Fed meeting: Europe-listed shares were broadly higher on Friday but straddled the flatline at close.",
+          "guid": "108237119"
+        },
+        {
+          "title": "European stocks end positive after touching fresh record high",
+          "date": "2025-10-03",
+          "link": "https://www.cnbc.com/2025/10/03/europe-markets-oct-3-ftse-100-stoxx-600-tech-stocks.html",
+          "snippet": "2025-10-03: European stocks end positive after touching fresh record high: European stocks closed higher on Friday, building on momentum that has seen regional indexes hit new record highs this week.",
+          "guid": "108207333"
+        },
+        {
+          "title": "European markets finish higher as traders track Middle East turmoil",
+          "date": "2026-03-04",
+          "link": "https://www.cnbc.com/2026/03/04/european-markets-stoxx-600-ftse-dax-oil-prices-middle-east-latest.html",
+          "snippet": "2026-03-04: European markets finish higher as traders track Middle East turmoil: European stocks closed higher on Wednesday as markets continue to track developments in the Middle East.",
+          "guid": "108272722"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "294820ee-bb7e-4bb1-a7dc-4aff0d4035af",
+      "label": "Obesity Drug Market Competition",
+      "spike_ratio": 1.143,
+      "article_count": 12,
+      "rag_answer": "The obesity drug market is experiencing intensified competition, particularly between major players Eli Lilly and Novo Nordisk, as they prepare for a showdown in the next phase of weight-loss medications. Smaller companies are also entering the fray, increasing pressure on these market leaders. Novo Nordisk has launched a new obesity pill and sees significant potential in Medicare coverage, which could expand its patient base. Overall, the landscape is shifting towards more diverse offerings, including pills and drug combinations, as companies aim to capture a larger share of the growing market.",
+      "rag_sources": [
+        {
+          "title": "Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next",
+          "date": "2025-11-02",
+          "link": "https://www.cnbc.com/2025/11/02/whats-next-for-the-weight-loss-drug-market-pills-rivals-insurance.html",
+          "snippet": "2025-11-02: Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next: Competition is heating up, but questions remain about insurance coverage, drug pricing, copycat drugs a",
+          "guid": "108216702"
+        },
+        {
+          "title": "Apple is challenging India's antitrust body over a potential $38 billion fine",
+          "date": "2025-11-27",
+          "link": "https://www.cnbc.com/2025/11/27/apple-challenges-indias-anti-trust-body-over-potential-38-billion-fine.html",
+          "snippet": "2025-11-27: Apple is challenging India's antitrust body over a potential $38 billion fine: Apple filed a lawsuit against the Competition Commission of India over how the body uses global turnover when",
+          "guid": "108232985"
+        },
+        {
+          "title": "Eli Lilly, Novo Nordisk prepare to face off in the next obesity drug battleground",
+          "date": "2025-09-12",
+          "link": "https://www.cnbc.com/2025/09/12/obesity-pills-from-eli-lilly-novo-nordisk-near-us-launch.html",
+          "snippet": "2025-09-12: Eli Lilly, Novo Nordisk prepare to face off in the next obesity drug battleground: Eli Lilly and Novo Nordisk are preparing to take their rivalry to the next frontier of weight-loss medica",
+          "guid": "108197892"
+        },
+        {
+          "title": "Danish weight loss drug maker outlines ambitious 2030 strategy, ramping up pressure on Novo, Lilly",
+          "date": "2025-12-11",
+          "link": "https://www.cnbc.com/2025/12/11/zealand-pharma-unveils-2030-plan-as-weight-loss-competition-heats-up.html",
+          "snippet": "2025-12-11: Danish weight loss drug maker outlines ambitious 2030 strategy, ramping up pressure on Novo, Lilly: Growing competition from smaller players is tightening the race for market leaders Novo ",
+          "guid": "108240449"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "0fc5570f-451a-4ca8-8f67-6c7362dcd5b5",
+      "label": "Media and Streaming Disputes",
+      "spike_ratio": 1.136,
+      "article_count": 15,
+      "rag_answer": "The media and streaming landscape is currently facing significant disputes, particularly highlighted by ongoing carriage negotiations between major players like YouTube TV and NBCUniversal, which could lead to network blackouts. Additionally, Disney and YouTube TV are experiencing a prolonged stalemate, marking the longest Disney carriage blackout to date, surpassing previous disputes. As streaming services continue to raise prices, the competitive pressure is mounting, prompting discussions about potential renegotiations of media deals, especially in light of NFL Commissioner Roger Goodell's comments on future media agreements. These developments indicate a volatile market environment where content availability and pricing strategies are critical factors influencing consumer choices and company valuations.",
+      "rag_sources": [
+        {
+          "title": "YouTube TV, NBCUniversal warn of impending carriage dispute that could lead to network blackout",
+          "date": "2025-09-26",
+          "link": "https://www.cnbc.com/2025/09/25/youtube-tv-nbcuniversal-impending-carriage-dispute.html",
+          "snippet": "2025-09-26: YouTube TV, NBCUniversal warn of impending carriage dispute that could lead to network blackout: YouTube TV and NBCUniversal may be heading toward a carriage dispute that could black out N",
+          "guid": "108204251"
+        },
+        {
+          "title": "CNBC Sport: Disney and YouTube TV stalemate drags on",
+          "date": "2025-11-13",
+          "link": "https://www.cnbc.com/2025/11/13/disney-youtube-tv-dispute.html",
+          "snippet": "2025-11-13: CNBC Sport: Disney and YouTube TV stalemate drags on: Disney and YouTube TV are in the longest Disney carriage blackout ever, topping 2024's DirecTV dispute, which lasted 13 days.",
+          "guid": "108225462"
+        },
+        {
+          "title": "It's not just Disney: As streaming services hike prices, it's a battle over who blinks first",
+          "date": "2025-09-25",
+          "link": "https://www.cnbc.com/2025/09/25/disney-hulu-netflix-streaming-services-price-hikes.html",
+          "snippet": "2025-09-25: It's not just Disney: As streaming services hike prices, it's a battle over who blinks first: Disney+/Hulu hiked prices this week, the most recent of many streaming service increases. Chur",
+          "guid": "108203837"
+        },
+        {
+          "title": "Blockbuster social media trial kicks off, with more to come this year",
+          "date": "2026-01-27",
+          "link": "https://www.cnbc.com/2026/01/27/blockbuster-social-media-trial-kicks-off-with-more-to-come-this-year.html",
+          "snippet": "2026-01-27: Blockbuster social media trial kicks off, with more to come this year: A landmark case against social media giants Meta, Alphabet's YouTube and TikTok is set to begin Tuesday in Los Angele",
+          "guid": "108257142"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "61d75c0e-f3f6-4310-98e6-337f075d7ea5",
+      "label": "OpenAI and AI Content Controversies",
+      "spike_ratio": 1.048,
+      "article_count": 22,
+      "rag_answer": "OpenAI is currently facing significant controversies related to its AI products and advertising strategies. CEO Sam Altman has publicly criticized competing company Anthropic for what he deems \"clearly dishonest\" advertising, highlighting the competitive tensions in the AI sector. Additionally, OpenAI's AI video generation app, Sora, has been condemned by top Hollywood agencies for posing risks to clients, indicating broader concerns about exploitation in the industry. These controversies could impact OpenAI's market position and public perception, as the company navigates ethical dilemmas while expanding its influence in the rapidly evolving AI landscape.",
+      "rag_sources": [
+        {
+          "title": "Altman lashes out at 'clearly dishonest' Anthropic ads as AI spat heats up",
+          "date": "2026-02-05",
+          "link": "https://www.cnbc.com/2026/02/05/super-bowl-ai-ad-altman-anthropic-open-ai.html",
+          "snippet": "2026-02-05: Altman lashes out at 'clearly dishonest' Anthropic ads as AI spat heats up: OpenAI recently announced plans to begin\u00a0testing ads\u00a0with some ChatGPT users.",
+          "guid": "108261888"
+        },
+        {
+          "title": "Op-ed: The fuel for the AI boom driving the markets is advertising. It is also an existential risk. ",
+          "date": "2025-11-05",
+          "link": "https://www.cnbc.com/2025/11/05/op-ed-the-fuel-for-the-ai-boom-driving-the-markets-is-advertising-it-is-also-an-existential-risk-.html",
+          "snippet": "2025-11-05: Op-ed: The fuel for the AI boom driving the markets is advertising. It is also an existential risk.: Joe Marchese, Executive Chairman at Human Ventures, describes a key conundrum facing Op",
+          "guid": "108221347"
+        },
+        {
+          "title": "Top Hollywood agencies slam OpenAI's Sora as 'exploitation' and a risk to clients",
+          "date": "2025-10-09",
+          "link": "https://www.cnbc.com/2025/10/09/caa-open-ai-sora-copyright-talent-agency.html",
+          "snippet": "2025-10-09: Top Hollywood agencies slam OpenAI's Sora as 'exploitation' and a risk to clients: Talent agency CAA slams OpenAI's AI video generation app Sora for posing \\significant risk\\\" to its clien",
+          "guid": "108209961"
+        },
+        {
+          "title": "OpenAI's dominance is unlike anything Silicon Valley has ever seen",
+          "date": "2025-10-11",
+          "link": "https://www.cnbc.com/2025/10/11/open-ai-silicon-valley-tech-startup.html",
+          "snippet": "2025-10-11: OpenAI's dominance is unlike anything Silicon Valley has ever seen: OpenAI's position at the heart of the AI boom, and its expansion up and down the stack, is putting the company in compet",
+          "guid": "108209603"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

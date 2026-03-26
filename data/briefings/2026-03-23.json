@@ -1,0 +1,220 @@
+{
+  "date": "2026-03-23",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "f82fe760-6e0c-4aee-a143-a4e2df1c937d",
+      "label": "Student Loan Forgiveness Issues",
+      "spike_ratio": 1.449,
+      "article_count": 31,
+      "rag_answer": "Student loan borrowers seeking Public Service Loan Forgiveness are facing significant challenges, including a growing backlog of applications, which has reportedly reached over 800,000. The Trump administration is proposing changes that could limit eligibility for this popular program, further complicating access to relief for public servants. As a result, many borrowers are experiencing delays, with some waiting over a year for their applications to be processed. These developments could lead to increased financial strain on borrowers and may impact the broader market by affecting consumer spending and financial stability among those reliant on loan forgiveness.",
+      "rag_sources": [
+        {
+          "title": "Student loan borrowers face new challenges trying to get Public Service Loan Forgiveness",
+          "date": "2025-08-06",
+          "link": "https://www.cnbc.com/2025/08/06/student-loan-borrowers-and-changes-to-public-service-loan-forgiveness-pslf.html",
+          "snippet": "2025-08-06: Student loan borrowers face new challenges trying to get Public Service Loan Forgiveness: Borrowers pursuing Public Service Loan Forgiveness are hitting walls trying to access the relief, ",
+          "guid": "108181052"
+        },
+        {
+          "title": "Trump administration moves to 'prevent benefits' for some under popular student loan forgiveness program ",
+          "date": "2025-08-18",
+          "link": "https://www.cnbc.com/2025/08/18/trump-public-service-loan-forgiveness-pslf-eligibility.html",
+          "snippet": "2025-08-18: Trump administration moves to 'prevent benefits' for some under popular student loan forgiveness program: The Trump administration says that its proposed changes to Public Service Loan For",
+          "guid": "108187169"
+        },
+        {
+          "title": "Some student loan borrowers wait over a year in public servant debt forgiveness backlog",
+          "date": "2026-02-09",
+          "link": "https://www.cnbc.com/2026/02/09/pslf-public-service-loan-forgiveness-buyback-backlog.html",
+          "snippet": "2026-02-09: Some student loan borrowers wait over a year in public servant debt forgiveness backlog: More than 83,000 federal student loan borrowers are waiting for a Public Service Loan Forgiveness B",
+          "guid": "108254849"
+        },
+        {
+          "title": "Student loan borrowers in default could soon see reduced paychecks. What to know",
+          "date": "2025-08-22",
+          "link": "https://www.cnbc.com/2025/08/22/student-loan-borrowers-in-default-face-wage-garnishment.html",
+          "snippet": "2025-08-22: Student loan borrowers in default could soon see reduced paychecks. What to know: Student loan borrowers who've fallen behind on their payments could soon see the U.S. Department of Educat",
+          "guid": "108189629"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "ee1ad4d1-8648-438c-b36e-c7ec3a2fa38c",
+      "label": "Trump tariffs Supreme Court ruling",
+      "spike_ratio": 1.438,
+      "article_count": 46,
+      "rag_answer": "The U.S. Supreme Court has struck down significant portions of President Trump's tariffs, a ruling that could potentially lead to $175 billion in refunds for affected companies. This decision has been described as a major setback for Trump, whose economic policies heavily relied on these tariffs. While U.S. trading partners have welcomed the ruling, businesses are now faced with uncertainty as they navigate the implications of this legal change. The ruling is expected to have far-reaching effects on the economy and markets as they adjust to the new landscape.",
+      "rag_sources": [
+        {
+          "title": "Supreme Court Trump tariffs ruling could put U.S. on hook for $175 billion in refunds, estimate says",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/supreme-court-trump-tariffs-us-refunds.html",
+          "snippet": "2026-02-20: Supreme Court Trump tariffs ruling could put U.S. on hook for $175 billion in refunds, estimate says: Supreme Court Justice Brett Kavanaugh, in his dissent, warned that \\the refund process",
+          "guid": "108267896"
+        },
+        {
+          "title": "Watch: Trump speaks after Supreme Court strikes down tariffs ",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/trump-supreme-court-tariffs-white-house.html",
+          "snippet": "2026-02-20: Watch: Trump speaks after Supreme Court strikes down tariffs: The Supreme Court ruling is a major blow to Trump, whose economic and foreign policies leaned on his asserted power to unilate",
+          "guid": "108267984"
+        },
+        {
+          "title": "President Trump's tariffs fueled U.S. Customs bond market boom. Now billions hang on Supreme Court ruling",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/supreme-court-trump-tariffs-case-decision-refunds-customs-bonds.html",
+          "snippet": "2026-02-06: President Trump's tariffs fueled U.S. Customs bond market boom. Now billions hang on Supreme Court ruling: Companies are anxious for Supreme Court ruling on Trump tariffs, but in addition ",
+          "guid": "108257085"
+        },
+        {
+          "title": "Trump insists trade deals safe after Supreme Court ruling upends tariff authority, but partners aren\u2019t so sure",
+          "date": "2026-02-26",
+          "link": "https://www.cnbc.com/2026/02/26/trump-state-of-the-union-supreme-court-tariffs-trade-deals-ieepa-section-301-232-122.html",
+          "snippet": "2026-02-26: Trump insists trade deals safe after Supreme Court ruling upends tariff authority, but partners aren\u2019t so sure: The Supreme Court decision to strike down Trump's tariffs has thrown fresh c",
+          "guid": "108268905"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "a650670a-96ee-4967-8367-2e1e733e7054",
+      "label": "Interest Rates and Treasury Yields",
+      "spike_ratio": 1.429,
+      "article_count": 32,
+      "rag_answer": "Interest rates and Treasury yields have been fluctuating in response to various economic indicators and Federal Reserve signals. In late December 2025, the 10-year Treasury yield dipped as investors assessed the interest rate outlook for 2026, following strong GDP data. Earlier in the year, yields had surged above 4% after comments from Fed Chair Powell indicated uncertainty about future rate cuts. Overall, the market is reacting to economic data and Fed communications, leading to a cautious approach among investors as they seek alternatives amid changing yield dynamics.",
+      "rag_sources": [
+        {
+          "title": "10-year Treasury yield dips as investors assess interest rate outlook for 2026",
+          "date": "2025-12-29",
+          "link": "https://www.cnbc.com/2025/12/29/10-year-treasury-yield-in-focus-as-investors-assess-rate-outlook.html",
+          "snippet": "2025-12-29: 10-year Treasury yield dips as investors assess interest rate outlook for 2026: The moves come as traders digest the latest economic data and assess the Federal Reserve's monetary rate pat",
+          "guid": "108246099"
+        },
+        {
+          "title": "Treasury yields are stable as traders try to gauge impact of Trump's fight for Fed control",
+          "date": "2025-08-27",
+          "link": "https://www.cnbc.com/2025/08/27/us-treasury-yields-investors-look-ahead-to-key-inflation-data.html",
+          "snippet": "2025-08-27: Treasury yields are stable as traders try to gauge impact of Trump's fight for Fed control: Long-term U.S. Treasury yields backed off early highs Wednesday as traders tried to assess the e",
+          "guid": "108191159"
+        },
+        {
+          "title": "What the 10-year Treasury yield's chart tells us about where stocks are heading ",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/what-the-10-years-chart-tells-us-about-where-stocks-are-heading-.html",
+          "snippet": "2026-02-11: What the 10-year Treasury yield's chart tells us about where stocks are heading: If rates move\u00a0considerably higher after the strong run in equities, the pairing could create a bearish scen",
+          "guid": "108264558"
+        },
+        {
+          "title": "30-year Treasury yield touches 5% briefly, then retreats on weak jobs data",
+          "date": "2025-09-03",
+          "link": "https://www.cnbc.com/2025/09/03/us-treasury-yields-little-changed-as-markets-await-jobs-data.html",
+          "snippet": "2025-09-03: 30-year Treasury yield touches 5% briefly, then retreats on weak jobs data: U.S. Treasurys were little changed on Wednesday, but long-dated bonds hovered just below the 5% mark.",
+          "guid": "108193554"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "0b33da45-501c-4267-990c-fc52c823783a",
+      "label": "Obesity Drug Market Developments",
+      "spike_ratio": 1.139,
+      "article_count": 36,
+      "rag_answer": "The obesity drug market is experiencing significant growth and transformation, driven by increased access and new product launches. Medicare's decision to cover obesity drugs is expected to open access to approximately 15 million patients, enhancing market potential for companies like Novo Nordisk and Eli Lilly. Additionally, Pfizer is diversifying its pipeline with a substantial deal to develop a Chinese obesity pill, indicating a competitive landscape. However, challenges remain regarding insurance coverage, drug pricing, and the emergence of copycat drugs, which could impact market dynamics.",
+      "rag_sources": [
+        {
+          "title": "What obesity drugmakers see next in the market: More pills, easier access and drug combinations",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/2026/01/23/weight-loss-glp-1-drugs-next-steps-for-eli-lilly-novo-nordisk-pfizer.html",
+          "snippet": "2026-01-23: What obesity drugmakers see next in the market: More pills, easier access and drug combinations: CNBC spoke to executives from Eli Lilly, Novo Nordisk, Pfizer and other drugmakers at the a",
+          "guid": "108255916"
+        },
+        {
+          "title": "Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next",
+          "date": "2025-11-02",
+          "link": "https://www.cnbc.com/2025/11/02/whats-next-for-the-weight-loss-drug-market-pills-rivals-insurance.html",
+          "snippet": "2025-11-02: Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next: Competition is heating up, but questions remain about insurance coverage, drug pricing, copycat drugs a",
+          "guid": "108216702"
+        },
+        {
+          "title": "Millions more Americans could access obesity drugs after Trump's deals with Eli Lilly, Novo Nordisk",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/trump-deals-with-lilly-novo-nordisk-could-broaden-obesity-drug-access.html",
+          "snippet": "2025-11-07: Millions more Americans could access obesity drugs after Trump's deals with Eli Lilly, Novo Nordisk: Medicare will start covering obesity drugs for the first time, which could open access ",
+          "guid": "108223164"
+        },
+        {
+          "title": "Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill\u00a0",
+          "date": "2025-12-09",
+          "link": "https://www.cnbc.com/2025/12/09/pfizer-deal-yaopharma-obesity-pill.html",
+          "snippet": "2025-12-09: Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill: The deal will help Pfizer beef up and diversify its obesity drug pipeline following its $10 billi",
+          "guid": "108239106"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "b1c25903-7305-4a83-9c9d-297e8686ac06",
+      "label": "DHS funding and shutdown crisis",
+      "spike_ratio": 1.134,
+      "article_count": 22,
+      "rag_answer": "The Department of Homeland Security (DHS) is currently experiencing a shutdown due to a deadlock in funding negotiations between Congressional Democrats and President Trump. The impasse has led to significant disruptions, including long airport security lines, and the situation has worsened with the firing of Homeland Security Secretary Kristi Noem. Despite various counteroffers from Democrats and the White House, a resolution remains elusive, raising concerns about the potential for prolonged government dysfunction. The ongoing crisis could negatively impact market sentiment, particularly in sectors reliant on government operations and stability.",
+      "rag_sources": [
+        {
+          "title": "Democrats send Trump DHS funding counteroffer as agency shutdown grinds on",
+          "date": "2026-02-17",
+          "link": "https://www.cnbc.com/2026/02/17/dhs-shutdown-democrats-trump-counteroffer-funding-homeland.html",
+          "snippet": "2026-02-17: Democrats send Trump DHS funding counteroffer as agency shutdown grinds on: Congressional Democrats and the White House remain deadlocked in negotiations to reopen the Department of Homela",
+          "guid": "108266280"
+        },
+        {
+          "title": "Senate Democrats send DHS counteroffer to Trump as shutdown drags on",
+          "date": "2026-03-17",
+          "link": "https://www.cnbc.com/2026/03/17/dhs-shutdown-trump-homeland-security-senate-democrats-counteroffer.html",
+          "snippet": "2026-03-17: Senate Democrats send DHS counteroffer to Trump as shutdown drags on: The Department of Homeland Security shutdown has caused pileups in airport security lines across the country.",
+          "guid": "108278971"
+        },
+        {
+          "title": "The government is barreling toward a partial shutdown over DHS funding. Here's what to expect",
+          "date": "2026-01-27",
+          "link": "https://www.cnbc.com/2026/01/27/us-government-shutdown-over-dhs-funding.html",
+          "snippet": "2026-01-27: The government is barreling toward a partial shutdown over DHS funding. Here's what to expect: The U.S. government may partially shutdown on Saturday months after a record 43-day closure i",
+          "guid": "108257539"
+        },
+        {
+          "title": "Democrats lay out demands in prickly DHS funding fight",
+          "date": "2026-02-04",
+          "link": "https://www.cnbc.com/2026/02/04/democrats-demands-dhs-funding-fight.html",
+          "snippet": "2026-02-04: Democrats lay out demands in prickly DHS funding fight: Funding for the Department of Homeland Security still needs to be worked out after President Trump signed a law that reopened most o",
+          "guid": "108261373"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

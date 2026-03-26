@@ -1,0 +1,212 @@
+{
+  "date": "2025-11-21",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "cf0758b1-cf0a-48ed-9bd3-2c43cf2d9bcb",
+      "label": "2026 Tax and Benefit Changes",
+      "spike_ratio": 1.471,
+      "article_count": 20,
+      "rag_answer": "In 2026, Social Security beneficiaries will see a 2.8% increase in their benefits, providing some financial relief for retirees. Additionally, the IRS has announced higher federal income tax brackets and standard deductions, which could result in slightly larger paychecks for many taxpayers. A new $6,000 senior deduction is also being introduced, offering significant tax savings for older couples. These changes may influence consumer spending, particularly in sectors like auto sales, as higher tax refunds could encourage purchases.",
+      "rag_sources": [
+        {
+          "title": "Social Security beneficiaries will soon receive 2026 benefit notices. Here are the changes to watch for next year",
+          "date": "2025-11-21",
+          "link": "https://www.cnbc.com/2025/11/21/social-security-2026-benefit-amounts-will-be-affected-by-these-changes.html",
+          "snippet": "2025-11-21: Social Security beneficiaries will soon receive 2026 benefit notices. Here are the changes to watch for next year: In 2026, retirees who rely on Social Security will see a 2.8% benefit boo",
+          "guid": "108229382"
+        },
+        {
+          "title": "2026 tax brackets could mean a slightly bigger paycheck \u2014 what to expect",
+          "date": "2026-01-05",
+          "link": "https://www.cnbc.com/2026/01/05/2026-tax-brackets-federal-irs.html",
+          "snippet": "2026-01-05: 2026 tax brackets could mean a slightly bigger paycheck \u2014 what to expect: Federal income tax bracket changes for 2026 could mean your take-home pay is slightly higher in the New Year. Here",
+          "guid": "108247521"
+        },
+        {
+          "title": "How new federal tax changes for 2026 may affect families",
+          "date": "2025-10-10",
+          "link": "https://www.cnbc.com/2025/10/10/irs-2026-tax-changes-child-tax-credit-family-refunds.html",
+          "snippet": "2025-10-10: How new federal tax changes for 2026 may affect families: The IRS has announced new federal tax changes for 2026  that may affect what families may owe and the refunds they may receive.",
+          "guid": "108210169"
+        },
+        {
+          "title": "New $6,000 senior deduction offers an \u2018incredible, valuable opportunity,\u2019 CPA says: How to make the most of it",
+          "date": "2026-01-18",
+          "link": "https://www.cnbc.com/2026/01/18/big-beautiful-bill-senior-deduction.html",
+          "snippet": "2026-01-18: New $6,000 senior deduction offers an \u2018incredible, valuable opportunity,\u2019 CPA says: How to make the most of it: The \\big beautiful\\\" tax law lets older American couples potentially take up",
+          "guid": "108251955"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "a21f7800-1019-4647-adfd-df0863c955d0",
+      "label": "Fed rate cuts and outlook",
+      "spike_ratio": 1.27,
+      "article_count": 47,
+      "rag_answer": "Recent developments indicate a divided stance among Federal Reserve officials regarding interest rate cuts, with discussions suggesting two additional cuts by the end of 2025. Fed Chair Powell has indicated that conditions may warrant cuts, but uncertainty remains high. As of December 2025, the Fed is expected to implement its third consecutive rate cut, although there are concerns about inflation that could impact future decisions. Market expectations for further cuts in 2026 are diminishing, particularly as inflation fears rise, suggesting a cautious outlook moving forward.",
+      "rag_sources": [
+        {
+          "title": "Divided Fed officials saw another two interest rate cuts by the end of 2025, minutes show",
+          "date": "2025-10-08",
+          "link": "https://www.cnbc.com/2025/10/08/fed-minutes-september-2025.html",
+          "snippet": "2025-10-08: Divided Fed officials saw another two interest rate cuts by the end of 2025, minutes show: Officials were strongly inclined to lower rates, with the only dispute seeming to be over how man",
+          "guid": "108209324"
+        },
+        {
+          "title": "Powell indicates conditions 'may warrant' interest rate cuts as Fed proceeds 'carefully'",
+          "date": "2025-08-22",
+          "link": "https://www.cnbc.com/2025/08/22/powell-indicates-conditions-may-warrant-interest-rate-cuts-as-fed-proceeds-carefully.html",
+          "snippet": "2025-08-22: Powell indicates conditions 'may warrant' interest rate cuts as Fed proceeds 'carefully': Powell on Friday gave a tepid indication of possible cuts ahead as he noted a high level of uncert",
+          "guid": "108189532"
+        },
+        {
+          "title": "The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/09/the-fed-decision-is-expected-to-feature-a-rate-cut-and-a-lot-more-heres-what-to-expect.html",
+          "snippet": "2025-12-10: The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect: The central bank is poised to deliver its third straight interest rate cut Wednesday, while firing a ",
+          "guid": "108239042"
+        },
+        {
+          "title": "Fed's Goolsbee calls for a hold on cuts as current rate of inflation is 'not good enough'",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/feds-goolsbee-calls-for-a-hold-on-cuts-as-current-rate-of-inflation-is-not-good-enough.html",
+          "snippet": "2026-02-24: Fed's Goolsbee calls for a hold on cuts as current rate of inflation is 'not good enough': The Chicago Fed president said Tuesday that cuts aren't appropriate until there's more evidence t",
+          "guid": "108269037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "c127eb26-2c6e-40a3-ad59-ffc4c86ae198",
+      "label": "Robotaxi Developments in China and Beyond",
+      "spike_ratio": 1.071,
+      "article_count": 12,
+      "rag_answer": "Robotaxi developments are rapidly advancing in China and globally, with significant milestones achieved in 2025. Shanghai has allowed fully autonomous taxis to charge fares, while Chinese EV maker Xpeng is entering the market with its own robotaxis and AI technology. Baidu reported that its weekly robotaxi rides reached 250,000, matching Alphabet's Waymo, indicating a competitive landscape. As companies like Waymo and Tesla expand their services internationally, the robotaxi industry is approaching a tipping point, suggesting strong growth potential and increased competition in the autonomous vehicle market.",
+      "rag_sources": [
+        {
+          "title": "Robotaxis are becoming a reality. Who\u2019s poised to win in China and beyond",
+          "date": "2025-08-04",
+          "link": "https://www.cnbc.com/2025/08/03/robotaxis-are-becoming-a-reality-whos-poised-to-win-in-china-and-beyond.html",
+          "snippet": "2025-08-04: Robotaxis are becoming a reality. Who\u2019s poised to win in China and beyond: Shanghai in late July became the latest region in China to allow fully autonomous taxis to charge fares in parts ",
+          "guid": "108180117"
+        },
+        {
+          "title": "Chinese EV maker Xpeng to launch robotaxis, humanoid robots with self-developed AI chips",
+          "date": "2025-11-05",
+          "link": "https://www.cnbc.com/2025/11/05/china-xpeng-to-launch-robotaxis-humanoid-robots-with-own-ai-chips.html",
+          "snippet": "2025-11-05: Chinese EV maker Xpeng to launch robotaxis, humanoid robots with self-developed AI chips: Chinese electric car company Xpeng is following in Tesla's footsteps by moving into robotaxis and ",
+          "guid": "108221540"
+        },
+        {
+          "title": "\u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises",
+          "date": "2025-11-20",
+          "link": "https://www.cnbc.com/2025/11/20/global-robotaxi-race-heats-up-between-us-and-chinese-rivals.html",
+          "snippet": "2025-11-20: \u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises: Global tech executives in recent weeks have proclaimed the robotaxi industry is finally nea",
+          "guid": "108226580"
+        },
+        {
+          "title": "Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/waymo-amazon-zoox-tesla-robotaxi-expansion.html",
+          "snippet": "2025-12-16: Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line: Robotaxis grew rapidly in 2025 with Waymo expanding fastest, Zoox debuting public rides and Tesla ",
+          "guid": "108236372"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "4761f37d-27cd-4139-ae34-f7ba6d6fa059",
+      "label": "Epstein Files and Political Reactions",
+      "spike_ratio": 1.056,
+      "article_count": 34,
+      "rag_answer": "The ongoing release of Epstein files by the Department of Justice (DOJ) has sparked significant political backlash, with congressional lawmakers, including Democrats, expressing dissatisfaction over the handling and redaction of these documents. Recent developments include calls for probes into the DOJ's actions and subpoenas for key figures, indicating heightened scrutiny and potential legal ramifications. The political discourse surrounding these files, particularly in relation to the Trump administration and the Epstein Files Transparency Act, may influence investor sentiment and market stability, as political risks are increasingly factored into investment decisions. Overall, the situation reflects a complex intersection of legal, political, and financial dynamics that could impact market behavior.",
+      "rag_sources": [
+        {
+          "title": "Epstein files: Senators seek probe of DOJ over release, redaction of sex offender's documents",
+          "date": "2026-03-11",
+          "link": "https://www.cnbc.com/2026/03/11/senators-epstein-files-investigation.html",
+          "snippet": "2026-03-11: Epstein files: Senators seek probe of DOJ over release, redaction of sex offender's documents: The Department of Justice has come under fire for its handling of documents related to disgra",
+          "guid": "108276332"
+        },
+        {
+          "title": "Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/epstein-doj-bondi-trump.html",
+          "snippet": "2026-03-05: Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports: The top lawyer for Goldman Sachs, Bill Gates, Leon Black and others are expected to testify soon a",
+          "guid": "108274237"
+        },
+        {
+          "title": "Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents",
+          "date": "2025-12-23",
+          "link": "https://www.cnbc.com/2025/12/23/epstein-files-doj-release-trump.html",
+          "snippet": "2025-12-23: Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents: The release comes amid intense scrutiny from congressional lawmakers and victims ove",
+          "guid": "108244822"
+        },
+        {
+          "title": "Epstein files released to Congress are mostly \u2018recycled\u2019 documents, Democrat says",
+          "date": "2025-08-23",
+          "link": "https://www.cnbc.com/2025/08/23/jeffrey-epstein-ghislaine-maxwell-trump-doj.html",
+          "snippet": "2025-08-23: Epstein files released to Congress are mostly \u2018recycled\u2019 documents, Democrat says: The Justice Department late Friday gave Congress the first trove of documents to comply with a subpoena b",
+          "guid": "108189960"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "5a598585-4aae-4389-91d8-c8e8c6593f83",
+      "label": "Midday Stock Movements",
+      "spike_ratio": 1.027,
+      "article_count": 23,
+      "rag_answer": "Midday stock movements have shown significant volatility, with various companies consistently making notable moves in the market. Recent reports highlight stocks like Newmont, Apple, and Sandisk experiencing substantial midday fluctuations, indicating active trading and investor interest. This trend suggests a dynamic market environment where investors are reacting to earnings reports, economic indicators, and broader market sentiments. The ongoing fluctuations may present both opportunities and risks for traders, as they navigate the impacts of economic conditions and corporate performance on stock prices.",
+      "rag_sources": [
+        {
+          "title": "Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/stocks-making-the-biggest-moves-midday-nem-aapl-sndk-deck.html",
+          "snippet": "2026-01-30: Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more: These are the stocks posting the largest moves midday.",
+          "guid": "108259667"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more",
+          "date": "2025-10-15",
+          "link": "https://www.cnbc.com/2025/10/15/stocks-making-the-biggest-moves-midday-bac-ms-bg-pgr.html",
+          "snippet": "2025-10-15: Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108212417"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more",
+          "date": "2025-09-18",
+          "link": "https://www.cnbc.com/2025/09/18/stocks-making-the-biggest-moves-midday-intc-nvo-blsh-all.html",
+          "snippet": "2025-09-18: Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more: These are the stocks posting the largest moves midday.",
+          "guid": "108200831"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: UnitedHealth, Applied Materials, Sandisk and more",
+          "date": "2025-08-15",
+          "link": "https://www.cnbc.com/2025/08/15/stocks-making-big-moves-midday-unh-amat-sndk-csco-evlv-flo-.html",
+          "snippet": "2025-08-15: Stocks making the biggest moves midday: UnitedHealth, Applied Materials, Sandisk and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108186615"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

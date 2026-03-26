@@ -1,0 +1,212 @@
+{
+  "date": "2026-02-12",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "37bac5c5-f756-48e8-a4f0-f5458902018d",
+      "label": "AI Disruption Fears in Markets",
+      "spike_ratio": 2.88,
+      "article_count": 48,
+      "rag_answer": "AI disruption fears are significantly impacting various sectors, particularly software and cybersecurity stocks, leading to a notable sell-off as investors grapple with concerns over a potential tech bubble. The market is witnessing a decline in global software stocks amid worries that AI advancements could disrupt traditional business models, with some analysts suggesting that this could lead to a broader shock in credit markets. Despite the panic, some investors believe the sell-off may be overblown, indicating a divide in market sentiment. Overall, the ongoing volatility suggests that AI-related developments will continue to shape trading strategies and market dynamics in the near future.",
+      "rag_sources": [
+        {
+          "title": "AI valuation fears grip global investors as tech bubble concerns grow",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/ai-valuation-fears-grip-investors-as-tech-bubble-concerns-heighten.html",
+          "snippet": "2025-11-07: AI valuation fears grip global investors as tech bubble concerns grow: The recent slide among AI stocks has once again put fears of a tech bubble at the forefront of investors' minds.",
+          "guid": "108222913"
+        },
+        {
+          "title": "AI fears pummel software stocks: Is it 'illogical' panic or a SaaS apocalypse?",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/ai-anthropic-tools-saas-software-stocks-selloff.html",
+          "snippet": "2026-02-06: AI fears pummel software stocks: Is it 'illogical' panic or a SaaS apocalypse?: The software space is facing serious market concerns this week, after the release of new AI tools from AI tr",
+          "guid": "108261773"
+        },
+        {
+          "title": "Cybersecurity stock selling deepens on AI threat concerns. Why we're not bailing",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/23/cybersecurity-stock-selling-deepens-on-ai-threat-concerns-why-were-not-bailing.html",
+          "snippet": "2026-02-23: Cybersecurity stock selling deepens on AI threat concerns. Why we're not bailing: AI disruption fears spark sell-off in cyber, but the market is overlooking the sector's fundamentals",
+          "guid": "108268610"
+        },
+        {
+          "title": "Global software stocks extend losses amid fears over AI-led disruption",
+          "date": "2026-02-04",
+          "link": "https://www.cnbc.com/2026/02/04/software-stocks-plunge-us-ai-disruption.html",
+          "snippet": "2026-02-04: Global software stocks extend losses amid fears over AI-led disruption: Wall Street's fears around artificial intelligence-driven disruption affecting software companies made their way to ",
+          "guid": "108261128"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "05ef0eab-e46c-47b6-82e0-f1636727cee8",
+      "label": "AI Competition and Collaborations",
+      "spike_ratio": 2.287,
+      "article_count": 43,
+      "rag_answer": "The AI landscape is increasingly competitive, with major players like OpenAI, Anthropic, and emerging startups like Cursor and Cohere vying for dominance. OpenAI continues to solidify its position, while Anthropic faces challenges in its dealings with the Pentagon over AI deployment in defense. Chinese tech giants are also entering the fray, focusing on developing advanced AI models for super apps. This competitive environment is driving innovation and collaboration, as seen in partnerships like that between OpenAI and AMD, but it also raises concerns about regulatory scrutiny and market sustainability.",
+      "rag_sources": [
+        {
+          "title": "Cursor announces major update to AI agents as coding tool battle heats up",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/cursor-announces-major-update-as-ai-coding-agent-battle-heats-up.html",
+          "snippet": "2026-02-24: Cursor announces major update to AI agents as coding tool battle heats up: Cursor announced updates to its AI coding agents as the startup works to fend off competition from rivals",
+          "guid": "108269197"
+        },
+        {
+          "title": "Anthropic faces Friday deadline in Defense AI clash with Hegseth",
+          "date": "2026-02-25",
+          "link": "https://www.cnbc.com/2026/02/24/anthropic-ai-hegseth-spying-defense.html",
+          "snippet": "2026-02-25: Anthropic faces Friday deadline in Defense AI clash with Hegseth: Until this week, Anthropic was the only AI company cleared to deploy its models on classified networks. Elon Musk's xAI is",
+          "guid": "108269292"
+        },
+        {
+          "title": "OpenAI's dominance is unlike anything Silicon Valley has ever seen",
+          "date": "2025-10-11",
+          "link": "https://www.cnbc.com/2025/10/11/open-ai-silicon-valley-tech-startup.html",
+          "snippet": "2025-10-11: OpenAI's dominance is unlike anything Silicon Valley has ever seen: OpenAI's position at the heart of the AI boom, and its expansion up and down the stack, is putting the company in compet",
+          "guid": "108209603"
+        },
+        {
+          "title": "CNBC Daily Open: The AI industry's 'happy few'\u00a0",
+          "date": "2025-10-07",
+          "link": "https://www.cnbc.com/2025/10/07/cnbc-daily-open-the-ai-industrys-happy-few-openai-amd.html",
+          "snippet": "2025-10-07: CNBC Daily Open: The AI industry's 'happy few': The arrangement between OpenAI and AMD adds a new layer to the increasingly circular nature of AI's corporate economy.",
+          "guid": "108208577"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "20dc2216-5ed2-4f06-b49a-5e8994526cb3",
+      "label": "Tax Refunds and Relief",
+      "spike_ratio": 1.515,
+      "article_count": 30,
+      "rag_answer": "Tax refunds for the 2026 season are projected to be higher on average, with an increase of 10.2% based on early filing data, although some taxpayers may receive smaller refunds than expected due to less significant changes than initially anticipated. The White House indicated that refunds could be $1,000 higher on average, which may encourage consumer spending, particularly in the auto industry, as many Americans might use their refunds to purchase vehicles. Additionally, the IRS is addressing past errors related to pandemic-era penalty tax relief, which could further impact taxpayer refunds. Overall, these developments suggest a mixed outlook for consumer spending and economic activity as tax season unfolds.",
+      "rag_sources": [
+        {
+          "title": "Your tax refund could be smaller than expected this season. Here's why",
+          "date": "2026-03-20",
+          "link": "https://www.cnbc.com/2026/03/20/smaller-tax-refunds.html",
+          "snippet": "2026-03-20: Your tax refund could be smaller than expected this season. Here's why: Tax refunds are higher on average compared to last year, but the change has been smaller than some early projections",
+          "guid": "108280386"
+        },
+        {
+          "title": "Trump tariffs: Refunds to companies should go to workers as bonuses, raises, Greer says",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/trump-trade-jamieson-greer-tariff-refunds-workers-companies.html",
+          "snippet": "2026-03-13: Trump tariffs: Refunds to companies should go to workers as bonuses, raises, Greer says: The United States government could end up paying $165 billion of more in refunds for Trump's IEEPA ",
+          "guid": "108277871"
+        },
+        {
+          "title": "Tax season presents a boom-or-bust test for U.S. auto sales",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/us-auto-sales-tax-season-test.html",
+          "snippet": "2026-02-20: Tax season presents a boom-or-bust test for U.S. auto sales: Auto industry experts anticipate that some Americans could use higher tax returns to finally purchase a new or used vehicle.",
+          "guid": "108266104"
+        },
+        {
+          "title": "Tax savings from Trump's $40,000 SALT deduction limit could be highest in these states ",
+          "date": "2025-09-23",
+          "link": "https://www.cnbc.com/2025/09/23/trump-salt-deduction-limit.html",
+          "snippet": "2025-09-23: Tax savings from Trump's $40,000 SALT deduction limit could be highest in these states: Trump\u2019s \u2018big beautiful bill\u2019 increased the SALT deduction to $40,000 for 2025. Here's where taxpayer",
+          "guid": "108202083"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "98f2b667-e4df-4662-8af7-4b0e530dab68",
+      "label": "Housing Market Trends and Challenges",
+      "spike_ratio": 1.506,
+      "article_count": 25,
+      "rag_answer": "The housing market is facing significant challenges, with Goldman Sachs predicting an 8% decline in the second half of 2025 due to immigration and affordability issues. Despite a recent drop in mortgage rates, many potential homebuyers feel priced out, leading to a stagnation in home sales, which fell over 8% in January 2026. In response to these challenges, a housing affordability package is advancing in Congress, aimed at reducing regulations for homebuilders and incentivizing local governments. However, as the spring housing market begins, rising mortgage rates and economic headwinds are likely to dampen any potential recovery.",
+      "rag_sources": [
+        {
+          "title": "Housing to remain weakest part of economy, falling 8% in the second half, Goldman says",
+          "date": "2025-08-04",
+          "link": "https://www.cnbc.com/2025/08/04/housing-to-remain-weakest-part-of-economy-in-the-2nd-half-goldman-says.html",
+          "snippet": "2025-08-04: Housing to remain weakest part of economy, falling 8% in the second half, Goldman says: The Wall Street investment bank named immigration and affordability challenges as two obstacles stan",
+          "guid": "108181055"
+        },
+        {
+          "title": "Housing affordability package set to advance in Congress amid home-cost concerns",
+          "date": "2026-02-10",
+          "link": "https://www.cnbc.com/2026/02/09/housing-affordability-prices-congress.html",
+          "snippet": "2026-02-10: Housing affordability package set to advance in Congress amid home-cost concerns: Wide-ranging legislation would reduce regulations for homebuilders while giving local governments incentiv",
+          "guid": "108262990"
+        },
+        {
+          "title": "What to expect from the housing market in 2026\u2014and the 10 major cities where prices could fall the most",
+          "date": "2025-12-31",
+          "link": "https://www.cnbc.com/2025/12/31/housing-market-outlook-for-2026and-10-cities-where-prices-may-fall.html",
+          "snippet": "2025-12-31: What to expect from the housing market in 2026\u2014and the 10 major cities where prices could fall the most: Home prices and mortgage rates will remain elevated in 2026, but slower price growt",
+          "guid": "108246806"
+        },
+        {
+          "title": "Here's what's keeping homebuyers on the sidelines despite mortgage rates hitting a 10-month low ",
+          "date": "2025-08-20",
+          "link": "https://www.cnbc.com/2025/08/20/mortgage-rates-hit-a-10-month-low-why-home-buyers-are-on-the-sidelines.html",
+          "snippet": "2025-08-20: Here's what's keeping homebuyers on the sidelines despite mortgage rates hitting a 10-month low: A lot of would-be buyers feel priced out of the housing market. Lower mortgage rates might ",
+          "guid": "108188145"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "86c68629-bcc3-4d3e-92f9-6b3e3a5097f9",
+      "label": "Robotaxi and EV Industry Updates",
+      "spike_ratio": 1.378,
+      "article_count": 27,
+      "rag_answer": "The robotaxi industry is experiencing significant momentum, with major players like Baidu, Nvidia, Waymo, and Tesla making strides in technology and market expansion. Companies such as Lucid and Rivian are also entering the robotaxi space, with Rivian announcing a substantial investment from Uber to deploy 50,000 robotaxis. Meanwhile, traditional automakers like GM and Ford are facing challenges, including financial setbacks and declining EV sales, as they adjust their strategies in response to changing market conditions. Overall, the rapid growth of the robotaxi sector suggests a transformative shift in urban mobility, despite the hurdles faced by some established EV manufacturers.",
+      "rag_sources": [
+        {
+          "title": "\u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises",
+          "date": "2025-11-20",
+          "link": "https://www.cnbc.com/2025/11/20/global-robotaxi-race-heats-up-between-us-and-chinese-rivals.html",
+          "snippet": "2025-11-20: \u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises: Global tech executives in recent weeks have proclaimed the robotaxi industry is finally nea",
+          "guid": "108226580"
+        },
+        {
+          "title": "EV maker Lucid reveals plans for robotaxi, positive free cash flow late this decade",
+          "date": "2026-03-12",
+          "link": "https://www.cnbc.com/2026/03/12/lucid-investor-day.html",
+          "snippet": "2026-03-12: EV maker Lucid reveals plans for robotaxi, positive free cash flow late this decade: The EV company is aiming to hit that target through market expansion into midsize vehicles, robotaxis a",
+          "guid": "108277205"
+        },
+        {
+          "title": "Rivian announces new AI tech, in-house chip and robotaxi ambitions",
+          "date": "2025-12-11",
+          "link": "https://www.cnbc.com/2025/12/11/rivian-autonomy-ai-day.html",
+          "snippet": "2025-12-11: Rivian announces new AI tech, in-house chip and robotaxi ambitions: The company has also developed AI models to power its Autonomy+ subscription, which it intends to roll out early next ye",
+          "guid": "108240446"
+        },
+        {
+          "title": "Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/waymo-amazon-zoox-tesla-robotaxi-expansion.html",
+          "snippet": "2025-12-16: Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line: Robotaxis grew rapidly in 2025 with Waymo expanding fastest, Zoox debuting public rides and Tesla ",
+          "guid": "108236372"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

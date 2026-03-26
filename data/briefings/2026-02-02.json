@@ -1,0 +1,204 @@
+{
+  "date": "2026-02-02",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "925f0c8f-0fe3-48cb-9f3a-77dc3405d925",
+      "label": "Alex Pretti shooting controversy",
+      "spike_ratio": 1.711,
+      "article_count": 39,
+      "rag_answer": "The controversy surrounding the shooting of Alex Pretti has escalated, prompting a federal civil rights investigation by the DOJ. Following the incident, President Trump has called for an \"honorable and honest investigation,\" while the White House has attempted to ease tensions, stating that no American lives should be lost. Major Minnesota CEOs have urged for immediate de-escalation, indicating potential economic concerns in the region. The situation has also influenced political dynamics, with Senate Republicans facing pressure regarding DHS funding, which could lead to a government shutdown, further impacting market stability.",
+      "rag_sources": [
+        {
+          "title": "Trump says he wants 'very honorable and honest investigation' of Alex Pretti killing",
+          "date": "2026-01-27",
+          "link": "https://www.cnbc.com/2026/01/27/alex-pretti-trump-investigation-greg-bovino-homan-minnesota.html",
+          "snippet": "2026-01-27: Trump says he wants 'very honorable and honest investigation' of Alex Pretti killing: Trump and the White House has sought to lower tensions over the shooting deaths of Alex Pretti and Ren",
+          "guid": "108257711"
+        },
+        {
+          "title": "DOJ has opened a federal civil rights probe into the death of Alex Pretti, deputy AG says",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/doj-has-opened-a-federal-civil-rights-probe-into-the-death-of-alex-pretti-deputy-ag-says.html",
+          "snippet": "2026-01-30: DOJ has opened a federal civil rights probe into the death of Alex Pretti, deputy AG says: The Justice Department has opened a federal civil rights investigation into the shooting of Alex ",
+          "guid": "108259647"
+        },
+        {
+          "title": "FBI Director Kash Patel criticized for his actions and posts during Charlie Kirk shooting investigation",
+          "date": "2025-09-15",
+          "link": "https://www.cnbc.com/2025/09/15/kash-patel-fbi-charlie-kirk-investigation.html",
+          "snippet": "2025-09-15: FBI Director Kash Patel criticized for his actions and posts during Charlie Kirk shooting investigation: The FBI leader\u2019s decisions to dine at an exclusive restaurant hours after the assas",
+          "guid": "108198769"
+        },
+        {
+          "title": "NBA union to challenge suspension of Miami Heat's Terry Rozier pay after gambling arrest",
+          "date": "2025-10-30",
+          "link": "https://www.cnbc.com/2025/10/29/nba-gambling-billups-rozier-salaries-miami-portland.html",
+          "snippet": "2025-10-30: NBA union to challenge suspension of Miami Heat's Terry Rozier pay after gambling arrest: The indictments of Portland coach Chauncey Billups and Miami player Terry Rozier have rocked the N",
+          "guid": "108218813"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "b94eb85b-b199-4311-9916-f97384805f94",
+      "label": "Student loan repayment issues",
+      "spike_ratio": 1.439,
+      "article_count": 19,
+      "rag_answer": "Student loan borrowers are facing significant challenges with repayment plans, largely due to a backlog from the Trump administration, which has left over 800,000 borrowers unable to access forgiveness and affordable repayment options. Recent reports indicate that many borrowers are struggling to navigate the Public Service Loan Forgiveness program and have encountered denials for new repayment plans, with over 300,000 requests rejected. Additionally, there are warnings issued to colleges with low student loan repayment rates, indicating increased scrutiny on educational institutions. These developments suggest a growing frustration among borrowers and potential implications for the education sector, as well as the broader economy, as unresolved student debt issues may hinder consumer spending and financial stability.",
+      "rag_sources": [
+        {
+          "title": "Student loan borrowers can't access repayment plans under Trump. What to know ",
+          "date": "2025-10-03",
+          "link": "https://www.cnbc.com/2025/10/03/student-loan-repayment-plan-backlog-under-trump.html",
+          "snippet": "2025-10-03: Student loan borrowers can't access repayment plans under Trump. What to know: Student loan borrowers who are trying to get into a new repayment plan face delays amid a Trump-era backlog o",
+          "guid": "108207108"
+        },
+        {
+          "title": "Over 800,000 student loan borrowers remain in backlog for forgiveness, affordable repayment plans",
+          "date": "2026-01-15",
+          "link": "https://www.cnbc.com/2026/01/15/student-loan-forgiveness-repayment-plan-backlog.html",
+          "snippet": "2026-01-15: Over 800,000 student loan borrowers remain in backlog for forgiveness, affordable repayment plans: More than 800,000 federal student loan holders remain stuck in a backlog of applications ",
+          "guid": "108252878"
+        },
+        {
+          "title": "Student loan borrowers face new challenges trying to get Public Service Loan Forgiveness",
+          "date": "2025-08-06",
+          "link": "https://www.cnbc.com/2025/08/06/student-loan-borrowers-and-changes-to-public-service-loan-forgiveness-pslf.html",
+          "snippet": "2025-08-06: Student loan borrowers face new challenges trying to get Public Service Loan Forgiveness: Borrowers pursuing Public Service Loan Forgiveness are hitting walls trying to access the relief, ",
+          "guid": "108181052"
+        },
+        {
+          "title": "Student loan borrowers have 'a limited time' to leave payment pause. Here are their options ",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/10/student-loan-options-save-forbearance.html",
+          "snippet": "2025-12-10: Student loan borrowers have 'a limited time' to leave payment pause. Here are their options: Under the terms of a proposed Education Department settlement, millions of student loan borrowe",
+          "guid": "108239362"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "08492936-46b7-490a-9566-b8596215d412",
+      "label": "Trump's Greenland Acquisition Controversy",
+      "spike_ratio": 1.135,
+      "article_count": 99,
+      "rag_answer": "President Donald Trump's ambitions to acquire Greenland have escalated, drawing significant geopolitical attention and concern. Following military actions in Venezuela, Trump has threatened a takeover of Greenland, which has bewildered Greenlanders and prompted a defiant response from their Prime Minister, who rejected any pressure from the U.S. Additionally, Trump has floated the idea of imposing tariffs to support his acquisition efforts, leading to backlash from European leaders. The situation has created uncertainty in the markets, with potential negative reactions anticipated if the acquisition moves forward, reflecting broader geopolitical tensions.",
+      "rag_sources": [
+        {
+          "title": "CNBC Daily Open: Trump's Greenland ambitions have global repercussions",
+          "date": "2026-01-09",
+          "link": "https://www.cnbc.com/2026/01/09/cnbc-daily-open-trumps-greenland-ambitions-have-global-repercussions.html",
+          "snippet": "2026-01-09: CNBC Daily Open: Trump's Greenland ambitions have global repercussions: U.S. President Donald Trump's ambitions around Greenland are rapidly gaining concrete form \u2014 that is, evolving from ",
+          "guid": "108250347"
+        },
+        {
+          "title": "Greenlanders 'bewildered' by Trump\u2019s 'devastating' takeover threats, business minister tells CNBC",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/trump-greenland-takeover-threats-tariffs-naaja-nathanielsen.html",
+          "snippet": "2026-01-20: Greenlanders 'bewildered' by Trump\u2019s 'devastating' takeover threats, business minister tells CNBC: Greenland has been thrust into the geopolitical spotlight by President Donald Trump's tak",
+          "guid": "108254262"
+        },
+        {
+          "title": "Trump wants Greenland. If it were for sale, it could cost trillions",
+          "date": "2026-01-08",
+          "link": "https://www.cnbc.com/2026/01/08/trump-greenland-cost-denmark.html",
+          "snippet": "2026-01-08: Trump wants Greenland. If it were for sale, it could cost trillions: Trump's rhetoric about Greenland has flared back up in the days since the U.S. military entered Venezuela and captured ",
+          "guid": "108249355"
+        },
+        {
+          "title": "Trump\u2019s Greenland gambit puts China on edge after Venezuela operation",
+          "date": "2026-01-08",
+          "link": "https://www.cnbc.com/2026/01/08/us-trump-china-greenland-denmark-arctic-tensions-trump-rare-earth-elements-minerals-mining.html",
+          "snippet": "2026-01-08: Trump\u2019s Greenland gambit puts China on edge after Venezuela operation: U.S. President Donald Trump's threat to take control of Greenland raised alarms in Beijing as nations vye for the vas",
+          "guid": "108249089"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "68090fdc-fa74-4ac8-b641-8919461e64cd",
+      "label": "Gold and Silver Market Volatility",
+      "spike_ratio": 1.119,
+      "article_count": 15,
+      "rag_answer": "The gold and silver markets have experienced significant volatility recently, with sharp price fluctuations driven by various factors, including inflation fears and oscillating oil prices. After a record run, both metals faced a notable sell-off, with silver's volatility exceeding 100% and prices dropping dramatically at times, such as a 30% decline linked to changes in Federal Reserve expectations. Market analysts are concerned about the ongoing volatility, which has left investors uncertain about the bottom for silver prices. Overall, the market implications suggest a cautious approach for investors as they navigate these unpredictable conditions.",
+      "rag_sources": [
+        {
+          "title": "Gold and silver extend rebound but concerns over volatility linger",
+          "date": "2026-02-04",
+          "link": "https://www.cnbc.com/2026/02/04/gold-and-silver-extend-rebound-but-concerns-over-volatility-linger.html",
+          "snippet": "2026-02-04: Gold and silver extend rebound but concerns over volatility linger: Gold and silver climb with further gains seen determined by rate expectations",
+          "guid": "108261162"
+        },
+        {
+          "title": "Gold and silver extend losses as oscillating oil prices spark market volatility  ",
+          "date": "2026-03-20",
+          "link": "https://www.cnbc.com/2026/03/20/gold-silver-price-metal-market-oil-brent-wti-futures-iran-war-inflation.html",
+          "snippet": "2026-03-20: Gold and silver extend losses as oscillating oil prices spark market volatility: The metals saw bumpy trade on Friday morning, after joining a broad sell-off the previous day.",
+          "guid": "108280754"
+        },
+        {
+          "title": "Gold and silver stumble after record run. Is now the time to enter the market?",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/gold-and-silver-rally-has-taken-a-breather-have-finally-fallen-is-now-the-time-to-enter-the-market.html",
+          "snippet": "2026-01-30: Gold and silver stumble after record run. Is now the time to enter the market?: Gold and silver prices fell sharply on Friday, snapping a powerful rally that had carried both metals to rec",
+          "guid": "108259319"
+        },
+        {
+          "title": "Silver's volatility has exceeded 100%. Where exactly is the bottom?",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/silver-price-volatility-investors-search-bottom-meme-stock-commodity-gamestop-buy-sell.html",
+          "snippet": "2026-02-06: Silver's volatility has exceeded 100%. Where exactly is the bottom?: Silver's dizzying plunge last week and erratic trading this week have left investors wondering: Where and when is the b",
+          "guid": "108262306"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "0009838e-5b99-4f23-b3c0-d85cafc96a09",
+      "label": "U.S.-Iran Tensions and Oil Prices",
+      "spike_ratio": 1.081,
+      "article_count": 16,
+      "rag_answer": "U.S.-Iran tensions have escalated significantly, leading to volatile oil prices. Following reports of military strikes and the collapse of nuclear talks, oil prices surged, with U.S. crude topping $80 per barrel as fears of supply disruptions grew. The ongoing conflict has caused fluctuations in the market, with oil prices jumping 4% and then pulling back as negotiations resumed. Overall, the situation has created a climate of uncertainty, impacting consumer costs and highlighting risks in global fuel supplies.",
+      "rag_sources": [
+        {
+          "title": "Oil pulls back as U.S.\u2013Iran talks set to resume: Here\u2019s where negotiations stand",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/23/iran-us-talks-oil-falls-nuclear-negotiations.html",
+          "snippet": "2026-02-23: Oil pulls back as U.S.\u2013Iran talks set to resume: Here\u2019s where negotiations stand: Tensions have remained on high alert throughout the Middle East for weeks after U.S. President Donald Trum",
+          "guid": "108268317"
+        },
+        {
+          "title": "Oil jumps 4% after Vance says Iran ignored key U.S. demands, military strikes on the table",
+          "date": "2026-02-18",
+          "link": "https://www.cnbc.com/2026/02/18/oil-prices-today-iran-trump-nuclear-talks.html",
+          "snippet": "2026-02-18: Oil jumps 4% after Vance says Iran ignored key U.S. demands, military strikes on the table: Oil traders are worried that war between the U.S. and Iran could lead to a major disruption of c",
+          "guid": "108266679"
+        },
+        {
+          "title": "Here's how the U.S.-Iran war is already hitting consumers' pocketbooks",
+          "date": "2026-03-06",
+          "link": "https://www.cnbc.com/2026/03/06/us-iran-war-gas-mortgage-markets.html",
+          "snippet": "2026-03-06: Here's how the U.S.-Iran war is already hitting consumers' pocketbooks: The U.S.-Israeli strikes on Iran over the weekend gave way to a week with topsy-turvy markets, spiking mortgage rate",
+          "guid": "108274411"
+        },
+        {
+          "title": "Oil prices steady as traders monitor Iran tensions, U.S. economic data",
+          "date": "2026-02-10",
+          "link": "https://www.cnbc.com/2026/02/10/oil-drifts-lower-as-traders-weigh-supply-risks-amid-usiran-tensions.html",
+          "snippet": "2026-02-10: Oil prices steady as traders monitor Iran tensions, U.S. economic data: Oil prices eased slightly on Tuesday after U.S. guidance for vessels transiting the Strait of Hormuz kept attention ",
+          "guid": "108263647"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

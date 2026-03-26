@@ -1,0 +1,204 @@
+{
+  "date": "2025-12-03",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "1aceb44f-7fc7-465c-a2a8-1f7c78edb4bf",
+      "label": "2026 Retirement and Benefits Updates",
+      "spike_ratio": 1.236,
+      "article_count": 17,
+      "rag_answer": "In 2026, significant updates to retirement and benefits are emerging, including higher 401(k) contribution limits announced by the IRS, which will allow savers to increase their retirement savings. Additionally, a bipartisan bill aims to enable older workers to use their 401(k) funds to purchase annuities, providing more options for secure retirement income. Social Security beneficiaries will also see a 2.8% cost-of-living adjustment, resulting in larger checks. These developments suggest a shift towards enhancing retirement security, but the recent trend of investors moving to cash and bonds indicates ongoing concerns about market volatility and the long-term sustainability of these strategies.",
+      "rag_sources": [
+        {
+          "title": "Older workers could use 401(k) money to buy annuities, under bipartisan bill",
+          "date": "2026-01-06",
+          "link": "https://www.cnbc.com/2026/01/06/401k-rollover-annuities.html",
+          "snippet": "2026-01-06: Older workers could use 401(k) money to buy annuities, under bipartisan bill: The Retirement Simplification and Clarity Act aims to give workers access to annuities outside of their 401(k)",
+          "guid": "108247713"
+        },
+        {
+          "title": "401(k) plans saw 'flight' to cash, bonds in September, analysis finds",
+          "date": "2025-10-13",
+          "link": "https://www.cnbc.com/2025/10/13/401k-investors-move-to-cash-bonds-in-september.html",
+          "snippet": "2025-10-13: 401(k) plans saw 'flight' to cash, bonds in September, analysis finds: Retirement plan investors seemed to flee to asset classes that felt safer \u2014 but may not be in the long run.",
+          "guid": "108210235"
+        },
+        {
+          "title": "Portugal is the No. 1 country to retire abroad: It's 'one of the most sought-after countries in Europe' for retirees, expert says",
+          "date": "2025-09-29",
+          "link": "https://www.cnbc.com/2025/09/29/global-citizen-solutions-portugal-best-country-retire-abroad.html",
+          "snippet": "2025-09-29: Portugal is the No. 1 country to retire abroad: It's 'one of the most sought-after countries in Europe' for retirees, expert says: The Global Citizen Solutions published its Global Retirem",
+          "guid": "108204825"
+        },
+        {
+          "title": "First 2026 Social Security payments bring a bigger check in January. What beneficiaries can expect",
+          "date": "2026-01-09",
+          "link": "https://www.cnbc.com/2026/01/09/january-social-security-checks-cola-increase.html",
+          "snippet": "2026-01-09: First 2026 Social Security payments bring a bigger check in January. What beneficiaries can expect: The first Social Security and Supplemental Security Income checks for 2026 will include ",
+          "guid": "108250113"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "9afb6034-4ccf-453f-8b6c-24caaaba46ad",
+      "label": "Global Inflation Trends and Data",
+      "spike_ratio": 1.19,
+      "article_count": 15,
+      "rag_answer": "Global inflation trends have shown mixed signals, with various reports indicating fluctuations in consumer price indices across different regions. For instance, Tokyo's inflation exceeded expectations, while the U.S. saw the CPI remain unchanged in December 2025, raising concerns about the reliability of government data. The Federal Reserve's gauge indicated inflation at 2.8% in November, moving further from its target, which has implications for monetary policy and market stability. Overall, these developments suggest ongoing uncertainty in inflation data, impacting investor sentiment and market performance.",
+      "rag_sources": [
+        {
+          "title": "This week's critical inflation report comes with a variety of doubts about the data",
+          "date": "2025-10-21",
+          "link": "https://www.cnbc.com/2025/10/21/this-weeks-critical-inflation-report-comes-with-doubts-about-the-data.html",
+          "snippet": "2025-10-21: This week's critical inflation report comes with a variety of doubts about the data: The September CPI report will command full attention from financial markets, even as some investors wil",
+          "guid": "108214681"
+        },
+        {
+          "title": "Asia-Pacific stocks trade mixed as Tokyo inflation runs hotter than expected",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/asia-markets-live.html",
+          "snippet": "2025-11-28: Asia-Pacific stocks trade mixed as Tokyo inflation runs hotter than expected: Traders in Asia will assess key economic data, including inflation data from Tokyo and India's GDP for its fis",
+          "guid": "108233147"
+        },
+        {
+          "title": "Here\u2019s the inflation breakdown for December 2025 \u2014 in one chart",
+          "date": "2026-01-13",
+          "link": "https://www.cnbc.com/2026/01/13/cpi-inflation-december-2025-breakdown.html",
+          "snippet": "2026-01-13: Here\u2019s the inflation breakdown for December 2025 \u2014 in one chart: The consumer price index was unchanged in December, and the inflation rate for some consumer staples like food and electric",
+          "guid": "108251665"
+        },
+        {
+          "title": "Wall Street is concerned about the reliability of government inflation data on the eve of CPI report",
+          "date": "2025-08-12",
+          "link": "https://www.cnbc.com/2025/08/11/wall-street-frets-about-reliability-of-government-data-on-eve-of-cpi.html",
+          "snippet": "2025-08-12: Wall Street is concerned about the reliability of government inflation data on the eve of CPI report: Beneath the Bureau of Labor Statistics' reports on consumer and producer prices will b",
+          "guid": "108184285"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "cbc8e3a7-4226-48ab-86d7-fe0ceba213ba",
+      "label": "SNAP benefits and government shutdown",
+      "spike_ratio": 1.129,
+      "article_count": 14,
+      "rag_answer": "SNAP benefits are at risk due to a government shutdown, with funding potentially lapsing shortly. Despite past administrations continuing payments during shutdowns, the Trump administration has suggested halting SNAP benefits, contradicting a court ruling that mandates their continuation. Treasury Secretary Scott Bessent indicated that benefits could resume soon, but legal challenges persist as states have sued to ensure the program remains funded. The uncertainty surrounding SNAP could significantly impact consumers reliant on food assistance and retailers who depend on SNAP transactions for sales.",
+      "rag_sources": [
+        {
+          "title": "How a lapse in SNAP benefits could affect consumers and retailers",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/snap-benefit-lapse-consumers-retailers-effects.html",
+          "snippet": "2025-10-29: How a lapse in SNAP benefits could affect consumers and retailers: Funding for the Supplemental Nutrition Assistance Program could lapse within days if the government shutdown persists.",
+          "guid": "108218123"
+        },
+        {
+          "title": "Trump suggests U.S. won't pay any SNAP benefits during shutdown, contradicting court filing",
+          "date": "2025-11-04",
+          "link": "https://www.cnbc.com/2025/11/04/snap-trump-food-shutdown.html",
+          "snippet": "2025-11-04: Trump suggests U.S. won't pay any SNAP benefits during shutdown, contradicting court filing: Prior presidential administrations have continued paying SNAP benefits during past shutdowns of",
+          "guid": "108221171"
+        },
+        {
+          "title": "Treasury Secretary Bessent says SNAP food benefits could restart by Wednesday",
+          "date": "2025-11-03",
+          "link": "https://www.cnbc.com/2025/11/02/bessent-trump-snap-food-stamps-shutdown.html",
+          "snippet": "2025-11-03: Treasury Secretary Bessent says SNAP food benefits could restart by Wednesday: SNAP food benefits could restart as early as Wednesday, Treasury Secretary Scott Bessent said Sunday.",
+          "guid": "108220349"
+        },
+        {
+          "title": "SNAP benefits: Trump admin seeks emergency block on order to pay food stamps in full",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/snap-trump-appeals-food-stamps.html",
+          "snippet": "2025-11-07: SNAP benefits: Trump admin seeks emergency block on order to pay food stamps in full: The Trump administration tried not to pay for any food stamps in November because of the government sh",
+          "guid": "108223037"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "3a88cffd-4f32-429e-a884-a4a363227274",
+      "label": "U.S. labor market trends",
+      "spike_ratio": 1.077,
+      "article_count": 14,
+      "rag_answer": "The U.S. labor market is showing signs of significant slowdown, with job growth dramatically decreasing in recent months. In August, only 54,000 jobs were added, and January saw a mere 22,000 increase in private payrolls, both figures falling short of expectations. This trend has raised concerns among Federal Reserve policymakers, leading to discussions about potential interest rate cuts to mitigate the impact of a weakening labor market. Overall, the labor market's deterioration is creating uncertainty in the economy, prompting traders and investors to brace for potential implications on inflation and market stability.",
+      "rag_sources": [
+        {
+          "title": "July jobs report expected to show a labor market slowing to a crawl",
+          "date": "2025-07-31",
+          "link": "https://www.cnbc.com/2025/07/31/july-jobs-report-expected-to-show-a-labor-market-slowing-to-a-crawl.html",
+          "snippet": "2025-07-31: July jobs report expected to show a labor market slowing to a crawl: Hiring is expected to show a sharp slowdown in July, even as Fed policymakers insist the labor market is in solid shape",
+          "guid": "108179842"
+        },
+        {
+          "title": "Labor market growth slows dramatically in August with U.S. adding just 54,000 jobs, ADP says",
+          "date": "2025-09-04",
+          "link": "https://www.cnbc.com/2025/09/04/adp-jpb-data-august-2025.html",
+          "snippet": "2025-09-04: Labor market growth slows dramatically in August with U.S. adding just 54,000 jobs, ADP says: U.S. private sector hiring rose less than expected in August, per the ADP.",
+          "guid": "108194181"
+        },
+        {
+          "title": "This week provided more evidence that a softening labor market is the economy's biggest threat",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/a-weakening-labor-market-has-become-the-economys-biggest-threat.html",
+          "snippet": "2026-02-06: This week provided more evidence that a softening labor market is the economy's biggest threat: Together, the data points buttress worries from some Federal Reserve policymakers that the c",
+          "guid": "108262682"
+        },
+        {
+          "title": "CNBC's UK Exchange newsletter: The U.K.\u2019s labor market conundrum \u2013 and where to look for clues",
+          "date": "2025-10-08",
+          "link": "https://www.cnbc.com/2025/10/08/cnbcs-uk-exchange-newsletter-the-uks-labor-market-conundrum.html",
+          "snippet": "2025-10-08: CNBC's UK Exchange newsletter: The U.K.\u2019s labor market conundrum \u2013 and where to look for clues: The U.K.'s labor market is a complex one, and economists are finding it harder to decipher w",
+          "guid": "108208789"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "0b33da45-501c-4267-990c-fc52c823783a",
+      "label": "Obesity Drug Market Developments",
+      "spike_ratio": 1.033,
+      "article_count": 25,
+      "rag_answer": "The obesity drug market is experiencing significant growth and transformation, driven by increased access through Medicare coverage and new product launches. Notably, Novo Nordisk's CEO highlighted a potential 15 million patient opportunity due to this coverage, while Eli Lilly has introduced a new pill aimed at maintaining weight loss. Additionally, Pfizer is diversifying its pipeline with a substantial deal to develop a Chinese obesity drug. As competition intensifies, questions about insurance coverage, drug pricing, and the emergence of copycat drugs remain critical factors influencing the market's future.",
+      "rag_sources": [
+        {
+          "title": "What obesity drugmakers see next in the market: More pills, easier access and drug combinations",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/2026/01/23/weight-loss-glp-1-drugs-next-steps-for-eli-lilly-novo-nordisk-pfizer.html",
+          "snippet": "2026-01-23: What obesity drugmakers see next in the market: More pills, easier access and drug combinations: CNBC spoke to executives from Eli Lilly, Novo Nordisk, Pfizer and other drugmakers at the a",
+          "guid": "108255916"
+        },
+        {
+          "title": "Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next",
+          "date": "2025-11-02",
+          "link": "https://www.cnbc.com/2025/11/02/whats-next-for-the-weight-loss-drug-market-pills-rivals-insurance.html",
+          "snippet": "2025-11-02: Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next: Competition is heating up, but questions remain about insurance coverage, drug pricing, copycat drugs a",
+          "guid": "108216702"
+        },
+        {
+          "title": "Millions more Americans could access obesity drugs after Trump's deals with Eli Lilly, Novo Nordisk",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/trump-deals-with-lilly-novo-nordisk-could-broaden-obesity-drug-access.html",
+          "snippet": "2025-11-07: Millions more Americans could access obesity drugs after Trump's deals with Eli Lilly, Novo Nordisk: Medicare will start covering obesity drugs for the first time, which could open access ",
+          "guid": "108223164"
+        },
+        {
+          "title": "Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill\u00a0",
+          "date": "2025-12-09",
+          "link": "https://www.cnbc.com/2025/12/09/pfizer-deal-yaopharma-obesity-pill.html",
+          "snippet": "2025-12-09: Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill: The deal will help Pfizer beef up and diversify its obesity drug pipeline following its $10 billi",
+          "guid": "108239106"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

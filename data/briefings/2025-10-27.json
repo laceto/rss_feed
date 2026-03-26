@@ -1,0 +1,212 @@
+{
+  "date": "2025-10-27",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "3d3acae2-25d0-4e59-83b0-0118da72d824",
+      "label": "AI-related tech stock decline",
+      "spike_ratio": 1.714,
+      "article_count": 18,
+      "rag_answer": "AI-related tech stocks are experiencing a significant decline, driven by growing concerns over their valuations and fears of a potential tech bubble. Recent reports indicate that heightened scrutiny and skepticism regarding the profitability of aggressive AI spending by major companies, such as Meta, have overshadowed otherwise strong earnings results. This decline has led to broader market implications, with investors increasingly cautious and the S&P 500 showing signs of pressure as AI stocks continue to struggle. Analysts suggest that these developments could signal a critical turning point for the tech sector, as fears of overextension in AI investments weigh heavily on market sentiment.",
+      "rag_sources": [
+        {
+          "title": "The Club's top 10 things to watch in the stock market Friday",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/the-clubs-top-10-things-to-watch-in-the-stock-market-friday.html",
+          "snippet": "2025-11-07: The Club's top 10 things to watch in the stock market Friday: The stock market is trending lower this morning as the government shutdown and ongoing scrutiny of AI-related names continue t",
+          "guid": "108222984"
+        },
+        {
+          "title": "It's tech's biggest earnings day. What top analysts are looking for in Microsoft, Meta and Alphabet results",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/what-analysts-are-looking-for-in-microsoft-meta-and-alphabet-earnings.html",
+          "snippet": "2025-10-29: It's tech's biggest earnings day. What top analysts are looking for in Microsoft, Meta and Alphabet results: Analysts are closely watching megacap tech earnings as the reports could be a c",
+          "guid": "108217878"
+        },
+        {
+          "title": "Greenland is another headline that stocks can get past, investors say. What to do next",
+          "date": "2026-01-21",
+          "link": "https://www.cnbc.com/2026/01/21/greenland-is-another-headline-that-stocks-can-get-past-investors-say-what-to-do-next.html",
+          "snippet": "2026-01-21: Greenland is another headline that stocks can get past, investors say. What to do next: The overwhelming consensus on the Street is that the stock market can look past escalating tensions ",
+          "guid": "108254498"
+        },
+        {
+          "title": "Dividend stocks are catching up to tech stocks on a key earnings metric at a critical time for the market",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/dividend-stocks-tech-earnings-growth-market.html",
+          "snippet": "2026-03-13: Dividend stocks are catching up to tech stocks on a key earnings metric at a critical time for the market: Dividend stocks are closing the earnings growth gap with tech stocks, a reason fo",
+          "guid": "108277207"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "4761f37d-27cd-4139-ae34-f7ba6d6fa059",
+      "label": "Epstein Files and Political Reactions",
+      "spike_ratio": 1.324,
+      "article_count": 49,
+      "rag_answer": "The release of Jeffrey Epstein files has been a contentious issue, with the Department of Justice (DOJ) facing criticism for its handling of the documents, including accusations of redaction and delays in compliance with the Epstein Files Transparency Act signed by President Trump. High-profile individuals, including executives from Goldman Sachs and Bill Gates, are expected to testify about their connections to Epstein, further intensifying political scrutiny. The ongoing fallout from these revelations has implications for the market, as investors are closely monitoring the political landscape and its potential impact on U.S. assets amid broader economic uncertainties. Overall, the situation reflects a complex interplay between legal accountability and market stability, with significant attention from both Congress and the public.",
+      "rag_sources": [
+        {
+          "title": "Jeffrey Epstein: Dems say DOJ breaking law with plan to release files over time",
+          "date": "2025-12-19",
+          "link": "https://www.cnbc.com/2025/12/19/jeffrey-epstein-files-doj-release-order-maxwell.html",
+          "snippet": "2025-12-19: Jeffrey Epstein: Dems say DOJ breaking law with plan to release files over time: President Donald Trump signed the Epstein Files Transparency Act in November.",
+          "guid": "108244015"
+        },
+        {
+          "title": "Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/epstein-doj-bondi-trump.html",
+          "snippet": "2026-03-05: Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports: The top lawyer for Goldman Sachs, Bill Gates, Leon Black and others are expected to testify soon a",
+          "guid": "108274237"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Political risk: How Trump 2.0 is affecting investment in U.S. assets",
+          "date": "2026-02-01",
+          "link": "https://www.cnbc.com/2026/02/01/political-risk-how-trump-2point0-is-affecting-investment-in-us-assets.html",
+          "snippet": "2026-02-01: Political risk: How Trump 2.0 is affecting investment in U.S. assets: Political risk: How Trump 2.0 is affecting investment in U.S. assets",
+          "guid": "108259074"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "abddb7fb-34ac-438d-9d14-c197f506a220",
+      "label": "Gold and Cryptocurrency Trends",
+      "spike_ratio": 1.25,
+      "article_count": 14,
+      "rag_answer": "Gold has been experiencing significant price fluctuations, recently hitting new highs around $4,000 an ounce, driven by market uncertainty and investor demand for safe-haven assets. However, it has also entered a correction phase as global investors shift their focus away from geopolitical tensions and inflation concerns. Meanwhile, cryptocurrency, particularly Bitcoin, is gaining traction as some investors rotate their funds out of gold, viewing it as a potential alternative investment. This trend suggests a growing interest in diversifying portfolios between traditional safe-haven assets like gold and emerging digital currencies, reflecting changing market dynamics and investor sentiment.",
+      "rag_sources": [
+        {
+          "title": "Gold is getting knocked on Tuesday \u2013 it\u2019s still the hottest trade of the year ",
+          "date": "2025-10-21",
+          "link": "https://www.cnbc.com/2025/10/21/gold-is-getting-knocked-on-tuesday-its-still-the-hottest-trade-of-the-year-.html",
+          "snippet": "2025-10-21: Gold is getting knocked on Tuesday \u2013 it\u2019s still the hottest trade of the year: There's another corner of the market that Wall Street is enthusiastic about.",
+          "guid": "108210833"
+        },
+        {
+          "title": "Gold may experience a longer consolidation period before bull trend can restart, says Katie Stockton",
+          "date": "2025-10-27",
+          "link": "https://www.cnbc.com/2025/10/27/gold-may-experience-a-longer-consolidation-period-before-bull-trend-can-restart-says-katie-stockton.html",
+          "snippet": "2025-10-27: Gold may experience a longer consolidation period before bull trend can restart, says Katie Stockton: The chart analysts breaks down the charts on bullion and related stocks.",
+          "guid": "108217335"
+        },
+        {
+          "title": "Gold enters correction territory as global investors stop worrying as much about China tensions, Fed independence, AI bubble",
+          "date": "2025-10-28",
+          "link": "https://www.cnbc.com/2025/10/28/gold-enters-correction-territory-as-global-investors-stop-worrying-as-much-about-china-tensions-fed-independence-ai-bubble.html",
+          "snippet": "2025-10-28: Gold enters correction territory as global investors stop worrying as much about China tensions, Fed independence, AI bubble: The yellow metal's recent slide could continue over the near t",
+          "guid": "108217832"
+        },
+        {
+          "title": "Bitcoin is getting a shutdown boost. More money could rotate into the crypto and out of gold",
+          "date": "2025-10-01",
+          "link": "https://www.cnbc.com/2025/10/01/bitcoin-is-getting-a-shutdown-boost-more-money-could-rotate-into-the-crypto-and-out-of-gold.html",
+          "snippet": "2025-10-01: Bitcoin is getting a shutdown boost. More money could rotate into the crypto and out of gold: Frank Cappelleri looks at the ratio between bitcoin and gold.",
+          "guid": "108206577"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "63e7bf23-b3e8-4620-91c5-d03dab82245b",
+      "label": "H-1B Visa Policy Changes",
+      "spike_ratio": 1.075,
+      "article_count": 20,
+      "rag_answer": "The Trump administration has imposed a significant $100,000 fee for H-1B worker visas, which has sent shockwaves through corporate America, particularly affecting startups and tech companies that rely heavily on foreign talent. This policy change is expected to deter skilled workers from countries like India and China, potentially reshaping the landscape of innovation and talent in the U.S. As a result, companies may offshore more employees and reconsider their hiring strategies, leading to broader implications for the job market and economic growth. The move has sparked concerns about its impact on the U.S. economy and the future of high-skilled immigration.",
+      "rag_sources": [
+        {
+          "title": "These are the U.S. states with the most \u2014 and the least \u2014 H-1B visa applications and renewals",
+          "date": "2025-09-20",
+          "link": "https://www.cnbc.com/2025/09/20/h-1b-visa-applications-renewals-by-state.html",
+          "snippet": "2025-09-20: These are the U.S. states with the most \u2014 and the least \u2014 H-1B visa applications and renewals: The Trump administration plans to impose a $100,000 charge for H-1B worker visas in a move th",
+          "guid": "108201654"
+        },
+        {
+          "title": "Startups and founders could be hardest hit by $100,000 H-1B visas",
+          "date": "2025-09-23",
+          "link": "https://www.cnbc.com/2025/09/23/startups-and-founders-could-be-hardest-hit-by-100000-h-1b-visas.html",
+          "snippet": "2025-09-23: Startups and founders could be hardest hit by $100,000 H-1B visas: Startups across the U.S. have been left worrying about the implications of potential hefty fees on H-1B visas.",
+          "guid": "108202590"
+        },
+        {
+          "title": "What the Visa, Mastercard legal settlement means for your rewards credit card",
+          "date": "2025-11-13",
+          "link": "https://www.cnbc.com/2025/11/13/visa-mastercard-legal-settlement-what-you-need-to-know.html",
+          "snippet": "2025-11-13: What the Visa, Mastercard legal settlement means for your rewards credit card: A Visa and MasterCard settlement with merchants announced earlier this week could bring changes to your exper",
+          "guid": "108224840"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "baa12f40-6fae-4a48-b674-488ec8fbeac8",
+      "label": "Trump's Trade War Developments",
+      "spike_ratio": 1.049,
+      "article_count": 17,
+      "rag_answer": "Trump's trade war developments have been marked by a series of tariff threats and legal battles that have significantly impacted global markets. Recent announcements of new tariffs have revived trade war jitters, leading to sell-offs in European and U.S. stocks. The Supreme Court's decision against Trump's tariffs has added uncertainty, prompting analysts to assess the longer-term implications for the economy. Overall, these developments have created a volatile market environment, with investors closely monitoring the situation for further changes.",
+      "rag_sources": [
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Yen near 160, a record Nikkei 225, higher yields: What experts expect after Sanae Takaichi's landslide victory",
+          "date": "2026-02-09",
+          "link": "https://www.cnbc.com/2026/02/09/japan-election-sanae-takaichi-markets-yen-bonds-nikkei-225-jgb-160-usd-ldp.html",
+          "snippet": "2026-02-09: Yen near 160, a record Nikkei 225, higher yields: What experts expect after Sanae Takaichi's landslide victory: Takaichi led the ruling Liberal Democratic Party to a supermajority in the L",
+          "guid": "108262985"
+        },
+        {
+          "title": "Goldman's David Solomon surprised by \u2018benign\u2019 market reaction to Iran war ",
+          "date": "2026-03-04",
+          "link": "https://www.cnbc.com/2026/03/04/goldman-david-solomon-iran-war-market-reaction-stocks.html",
+          "snippet": "2026-03-04: Goldman's David Solomon surprised by \u2018benign\u2019 market reaction to Iran war: \\I think it's going to take a couple of weeks for markets to really digest the implications of what's happened,\\\"",
+          "guid": "108273273"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "date": "2026-03-18",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "5a598585-4aae-4389-91d8-c8e8c6593f83",
+      "label": "Midday Stock Movements",
+      "spike_ratio": 1.448,
+      "article_count": 38,
+      "rag_answer": "Midday stock movements have shown significant volatility, with various companies consistently making notable moves in the market. Recent reports highlight stocks like Newmont, Apple, and Sandisk experiencing substantial midday fluctuations, indicating active trading and investor interest. This trend suggests a dynamic market environment where investors are reacting to earnings reports, economic indicators, and broader market sentiments. The ongoing fluctuations may present both opportunities and risks for traders, as they navigate the impacts of economic conditions and corporate performance on stock prices.",
+      "rag_sources": [
+        {
+          "title": "Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/stocks-making-the-biggest-moves-midday-nem-aapl-sndk-deck.html",
+          "snippet": "2026-01-30: Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more: These are the stocks posting the largest moves midday.",
+          "guid": "108259667"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more",
+          "date": "2025-10-15",
+          "link": "https://www.cnbc.com/2025/10/15/stocks-making-the-biggest-moves-midday-bac-ms-bg-pgr.html",
+          "snippet": "2025-10-15: Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108212417"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more",
+          "date": "2025-09-18",
+          "link": "https://www.cnbc.com/2025/09/18/stocks-making-the-biggest-moves-midday-intc-nvo-blsh-all.html",
+          "snippet": "2025-09-18: Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more: These are the stocks posting the largest moves midday.",
+          "guid": "108200831"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: UnitedHealth, Applied Materials, Sandisk and more",
+          "date": "2025-08-15",
+          "link": "https://www.cnbc.com/2025/08/15/stocks-making-big-moves-midday-unh-amat-sndk-csco-evlv-flo-.html",
+          "snippet": "2025-08-15: Stocks making the biggest moves midday: UnitedHealth, Applied Materials, Sandisk and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108186615"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "2e955eac-a74a-4c42-be9f-b871d12feb52",
+      "label": "Market Trends and Stock Movements",
+      "spike_ratio": 1.354,
+      "article_count": 22,
+      "rag_answer": "The stock market has experienced significant volatility, with benchmarks reaching record highs due to easing inflation, strong corporate earnings, and expectations of U.S. rate cuts. However, recent sentiment has reversed, indicating potential concerns about an economic slowdown, as suggested by Stifel's warning of a possible stagflation environment. Despite these fluctuations, certain sectors, particularly AI and retail favorites, have shown resilience, driving stocks to new highs. Investors are advised to carefully assess market conditions before making trading decisions, as opportunities may arise amidst the uncertainty.",
+      "rag_sources": [
+        {
+          "title": "Stock market swings got you reeling? Answer these 6 questions before making a trade",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/stock-market-swings-got-you-reeling-answering-6-questions-will-help.html",
+          "snippet": "2025-11-28: Stock market swings got you reeling? Answer these 6 questions before making a trade: Frustrating as volatility can be, it also tends to present opportunities.",
+          "guid": "108232626"
+        },
+        {
+          "title": "Stock benchmarks are scaling record highs: 'Animal spirits are soaring' ",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/stock-benchmarks-are-scaling-record-highs-animal-spirits-are-soaring-.html",
+          "snippet": "2025-09-11: Stock benchmarks are scaling record highs: 'Animal spirits are soaring': Easing inflation pressures,\u00a0resilient corporate earnings and expectations for U.S. rate cuts have boosted investor ",
+          "guid": "108197275"
+        },
+        {
+          "title": "Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward",
+          "date": "2025-12-26",
+          "link": "https://www.cnbc.com/2025/12/26/market-sentiment-has-made-a-huge-reversal-heres-why-and-what-it-means-going-forward.html",
+          "snippet": "2025-12-26: Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward: Something unusual happened in the past few weeks.",
+          "guid": "108245814"
+        },
+        {
+          "title": "Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel",
+          "date": "2025-08-11",
+          "link": "https://www.cnbc.com/2025/08/11/stock-market-party-to-be-ruined-by-sudden-economic-slowdown-says-stifel.html",
+          "snippet": "2025-08-11: Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel: The market could be in for a stagflation environment, the firm said.",
+          "guid": "108184067"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "ee1ad4d1-8648-438c-b36e-c7ec3a2fa38c",
+      "label": "Trump tariffs Supreme Court ruling",
+      "spike_ratio": 1.345,
+      "article_count": 38,
+      "rag_answer": "The U.S. Supreme Court has struck down significant portions of President Trump's tariffs, a ruling that could potentially lead to $175 billion in refunds for affected companies. This decision has been described as a major setback for Trump, whose economic policies heavily relied on these tariffs. While U.S. trading partners have welcomed the ruling, businesses are now faced with uncertainty as they navigate the implications of this legal change. The ruling is expected to have far-reaching effects on the economy and markets as they adjust to the new landscape.",
+      "rag_sources": [
+        {
+          "title": "Supreme Court Trump tariffs ruling could put U.S. on hook for $175 billion in refunds, estimate says",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/supreme-court-trump-tariffs-us-refunds.html",
+          "snippet": "2026-02-20: Supreme Court Trump tariffs ruling could put U.S. on hook for $175 billion in refunds, estimate says: Supreme Court Justice Brett Kavanaugh, in his dissent, warned that \\the refund process",
+          "guid": "108267896"
+        },
+        {
+          "title": "Watch: Trump speaks after Supreme Court strikes down tariffs ",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/trump-supreme-court-tariffs-white-house.html",
+          "snippet": "2026-02-20: Watch: Trump speaks after Supreme Court strikes down tariffs: The Supreme Court ruling is a major blow to Trump, whose economic and foreign policies leaned on his asserted power to unilate",
+          "guid": "108267984"
+        },
+        {
+          "title": "President Trump's tariffs fueled U.S. Customs bond market boom. Now billions hang on Supreme Court ruling",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/supreme-court-trump-tariffs-case-decision-refunds-customs-bonds.html",
+          "snippet": "2026-02-06: President Trump's tariffs fueled U.S. Customs bond market boom. Now billions hang on Supreme Court ruling: Companies are anxious for Supreme Court ruling on Trump tariffs, but in addition ",
+          "guid": "108257085"
+        },
+        {
+          "title": "Trump insists trade deals safe after Supreme Court ruling upends tariff authority, but partners aren\u2019t so sure",
+          "date": "2026-02-26",
+          "link": "https://www.cnbc.com/2026/02/26/trump-state-of-the-union-supreme-court-tariffs-trade-deals-ieepa-section-301-232-122.html",
+          "snippet": "2026-02-26: Trump insists trade deals safe after Supreme Court ruling upends tariff authority, but partners aren\u2019t so sure: The Supreme Court decision to strike down Trump's tariffs has thrown fresh c",
+          "guid": "108268905"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "21946eea-2f68-47a4-8581-de61a1725ca9",
+      "label": "Trump and Voter ID Legislation",
+      "spike_ratio": 1.212,
+      "article_count": 20,
+      "rag_answer": "President Donald Trump is actively advocating for a national voter ID requirement through the SAVE America Act, which has garnered support from Republican lawmakers. However, the legislation faces challenges, including skepticism from Senate Leader Thune regarding changes to the filibuster that could facilitate its passage. The House is set to vote on the bill, which proponents argue will secure elections, while critics claim it may disenfranchise millions. The ongoing debate and potential passage of this legislation could influence market sentiment, particularly in sectors related to election security and voter engagement, as well as impact the political landscape leading up to the next elections.",
+      "rag_sources": [
+        {
+          "title": "Trump fans flames of election access as Republican support grows for national voter ID mandate",
+          "date": "2026-02-18",
+          "link": "https://www.cnbc.com/2026/02/18/trump-elections-save-act-congress-voter-id.html",
+          "snippet": "2026-02-18: Trump fans flames of election access as Republican support grows for national voter ID mandate: President Donald Trump wants a national voter ID requirement, a mandate he wants to impose v",
+          "guid": "108266995"
+        },
+        {
+          "title": "Senate Leader Thune throws cold water on filibuster change in push for voter-ID bill",
+          "date": "2026-02-10",
+          "link": "https://www.cnbc.com/2026/02/10/senate-filibuster-thune-trump-save-act.html",
+          "snippet": "2026-02-10: Senate Leader Thune throws cold water on filibuster change in push for voter-ID bill: Voter ID legislation backed by President Donald Trump and his GOP allies faces an uphill climb in the ",
+          "guid": "108264124"
+        },
+        {
+          "title": "SAVE Act: House to vote on Trump-backed voter ID bill",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/trump-save-act-house-voter-id.html",
+          "snippet": "2026-02-11: SAVE Act: House to vote on Trump-backed voter ID bill: The SAVE America Act's GOP supporters say it would secure elections and prevent fraud. Democrats say it could disenfranchise millions",
+          "guid": "108264446"
+        },
+        {
+          "title": "Social Security changes on the table as House bills advance: New retirement age terms, more ID theft services",
+          "date": "2025-12-05",
+          "link": "https://www.cnbc.com/2025/12/05/congress-weighs-social-security-changes.html",
+          "snippet": "2025-12-05: Social Security changes on the table as House bills advance: New retirement age terms, more ID theft services: How the Social Security Administration describes retirement claiming ages and",
+          "guid": "108236897"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "fcfe2030-5a3d-4a72-9961-c84182027a5d",
+      "label": "Anthropic-Pentagon AI Dispute",
+      "spike_ratio": 1.086,
+      "article_count": 19,
+      "rag_answer": "The ongoing dispute between Anthropic and the Pentagon centers around the Defense Department's demands for AI tools to be used in military applications, with Anthropic facing pressure to comply. Despite receiving a $200 million defense contract, Anthropic's CEO has stated that the Pentagon's threats do not alter their position, indicating a stalemate in negotiations. The situation is critical, as Anthropic has a looming deadline to respond to the Pentagon's demands, which could significantly impact its operations and market position. This conflict highlights the broader struggle for control over military AI and may influence investor sentiment and competition among AI firms.",
+      "rag_sources": [
+        {
+          "title": "In Pentagon-Anthropic standoff, AI is real-time testing the balance of power in future of warfare",
+          "date": "2026-02-27",
+          "link": "https://www.cnbc.com/2026/02/27/defense-anthropic-ai-war-risks-hegseth-amodei.html",
+          "snippet": "2026-02-27: In Pentagon-Anthropic standoff, AI is real-time testing the balance of power in future of warfare: Pentagon's clash with Anthropic highlights growing fight over who controls military AI\u00a0. ",
+          "guid": "108270939"
+        },
+        {
+          "title": "Pentagon threatens to cut off Anthropic in AI safeguards dispute: Report",
+          "date": "2026-02-16",
+          "link": "https://www.cnbc.com/2026/02/16/pentagon-threatens-anthropic-ai-safeguards-dispute.html",
+          "snippet": "2026-02-16: Pentagon threatens to cut off Anthropic in AI safeguards dispute: Report: The Pentagon is pushing Anthropic, OpenAI, Google and xAI to let it use AI tools for weapons development, intellig",
+          "guid": "108266079"
+        },
+        {
+          "title": "Anthropic is clashing with the Pentagon over AI use. Here's what each side wants",
+          "date": "2026-02-18",
+          "link": "https://www.cnbc.com/2026/02/18/anthropic-pentagon-ai-defense-war-surveillance.html",
+          "snippet": "2026-02-18: Anthropic is clashing with the Pentagon over AI use. Here's what each side wants: Anthropic landed a $200 million Defense contract last year, as did AI rivals OpenAI, Google and xAI.",
+          "guid": "108266856"
+        },
+        {
+          "title": "Anthropic CEO Amodei says Pentagon's threats 'do not change our position' on AI",
+          "date": "2026-02-27",
+          "link": "https://www.cnbc.com/2026/02/26/anthropic-pentagon-ai-amodei.html",
+          "snippet": "2026-02-27: Anthropic CEO Amodei says Pentagon's threats 'do not change our position' on AI: Anthropic said its negotiations with the DOD are still ongoing.",
+          "guid": "108270698"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

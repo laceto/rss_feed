@@ -1,0 +1,220 @@
+{
+  "date": "2026-03-12",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "a650670a-96ee-4967-8367-2e1e733e7054",
+      "label": "Interest Rates and Treasury Yields",
+      "spike_ratio": 1.589,
+      "article_count": 34,
+      "rag_answer": "Interest rates and Treasury yields have been fluctuating in response to various economic indicators and Federal Reserve signals. In late December 2025, the 10-year Treasury yield dipped as investors assessed the interest rate outlook for 2026, following strong GDP data. Earlier in the year, yields had surged above 4% after comments from Fed Chair Powell indicated uncertainty about future rate cuts. Overall, the market is reacting to economic data and Fed communications, leading to a cautious approach among investors as they seek alternatives amid changing yield dynamics.",
+      "rag_sources": [
+        {
+          "title": "10-year Treasury yield dips as investors assess interest rate outlook for 2026",
+          "date": "2025-12-29",
+          "link": "https://www.cnbc.com/2025/12/29/10-year-treasury-yield-in-focus-as-investors-assess-rate-outlook.html",
+          "snippet": "2025-12-29: 10-year Treasury yield dips as investors assess interest rate outlook for 2026: The moves come as traders digest the latest economic data and assess the Federal Reserve's monetary rate pat",
+          "guid": "108246099"
+        },
+        {
+          "title": "Treasury yields are stable as traders try to gauge impact of Trump's fight for Fed control",
+          "date": "2025-08-27",
+          "link": "https://www.cnbc.com/2025/08/27/us-treasury-yields-investors-look-ahead-to-key-inflation-data.html",
+          "snippet": "2025-08-27: Treasury yields are stable as traders try to gauge impact of Trump's fight for Fed control: Long-term U.S. Treasury yields backed off early highs Wednesday as traders tried to assess the e",
+          "guid": "108191159"
+        },
+        {
+          "title": "What the 10-year Treasury yield's chart tells us about where stocks are heading ",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/what-the-10-years-chart-tells-us-about-where-stocks-are-heading-.html",
+          "snippet": "2026-02-11: What the 10-year Treasury yield's chart tells us about where stocks are heading: If rates move\u00a0considerably higher after the strong run in equities, the pairing could create a bearish scen",
+          "guid": "108264558"
+        },
+        {
+          "title": "30-year Treasury yield touches 5% briefly, then retreats on weak jobs data",
+          "date": "2025-09-03",
+          "link": "https://www.cnbc.com/2025/09/03/us-treasury-yields-little-changed-as-markets-await-jobs-data.html",
+          "snippet": "2025-09-03: 30-year Treasury yield touches 5% briefly, then retreats on weak jobs data: U.S. Treasurys were little changed on Wednesday, but long-dated bonds hovered just below the 5% mark.",
+          "guid": "108193554"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "b1c25903-7305-4a83-9c9d-297e8686ac06",
+      "label": "DHS funding and shutdown crisis",
+      "spike_ratio": 1.449,
+      "article_count": 31,
+      "rag_answer": "The Department of Homeland Security (DHS) is currently experiencing a shutdown due to a deadlock in funding negotiations between Congressional Democrats and President Trump. The impasse has led to significant disruptions, including long airport security lines, and the situation has worsened with the firing of Homeland Security Secretary Kristi Noem. Despite various counteroffers from Democrats and the White House, a resolution remains elusive, raising concerns about the potential for prolonged government dysfunction. The ongoing crisis could negatively impact market sentiment, particularly in sectors reliant on government operations and stability.",
+      "rag_sources": [
+        {
+          "title": "Democrats send Trump DHS funding counteroffer as agency shutdown grinds on",
+          "date": "2026-02-17",
+          "link": "https://www.cnbc.com/2026/02/17/dhs-shutdown-democrats-trump-counteroffer-funding-homeland.html",
+          "snippet": "2026-02-17: Democrats send Trump DHS funding counteroffer as agency shutdown grinds on: Congressional Democrats and the White House remain deadlocked in negotiations to reopen the Department of Homela",
+          "guid": "108266280"
+        },
+        {
+          "title": "Senate Democrats send DHS counteroffer to Trump as shutdown drags on",
+          "date": "2026-03-17",
+          "link": "https://www.cnbc.com/2026/03/17/dhs-shutdown-trump-homeland-security-senate-democrats-counteroffer.html",
+          "snippet": "2026-03-17: Senate Democrats send DHS counteroffer to Trump as shutdown drags on: The Department of Homeland Security shutdown has caused pileups in airport security lines across the country.",
+          "guid": "108278971"
+        },
+        {
+          "title": "The government is barreling toward a partial shutdown over DHS funding. Here's what to expect",
+          "date": "2026-01-27",
+          "link": "https://www.cnbc.com/2026/01/27/us-government-shutdown-over-dhs-funding.html",
+          "snippet": "2026-01-27: The government is barreling toward a partial shutdown over DHS funding. Here's what to expect: The U.S. government may partially shutdown on Saturday months after a record 43-day closure i",
+          "guid": "108257539"
+        },
+        {
+          "title": "Democrats lay out demands in prickly DHS funding fight",
+          "date": "2026-02-04",
+          "link": "https://www.cnbc.com/2026/02/04/democrats-demands-dhs-funding-fight.html",
+          "snippet": "2026-02-04: Democrats lay out demands in prickly DHS funding fight: Funding for the Department of Homeland Security still needs to be worked out after President Trump signed a law that reopened most o",
+          "guid": "108261373"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "28ef7e58-6eec-468d-9e07-36e059f3bd97",
+      "label": "AI Investment and Valuation Trends",
+      "spike_ratio": 1.312,
+      "article_count": 21,
+      "rag_answer": "AI investment is currently experiencing significant volatility, with growing concerns about a potential tech bubble as valuations for AI stocks come under scrutiny. Prominent investors, such as Orlando Bravo and Ray Dalio, have suggested that certain software stocks may deserve valuation cuts due to the inflated expectations surrounding AI. Fund managers are cautious, indicating that while AI spending continues to rise, they are wary of stretched valuations and are closely monitoring market positioning. Despite these concerns, analysts highlight opportunities in lesser-known companies supporting the AI supply chain, suggesting that the sector still holds potential for growth amidst the uncertainty.",
+      "rag_sources": [
+        {
+          "title": "AI valuation fears grip global investors as tech bubble concerns grow",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/ai-valuation-fears-grip-investors-as-tech-bubble-concerns-heighten.html",
+          "snippet": "2025-11-07: AI valuation fears grip global investors as tech bubble concerns grow: The recent slide among AI stocks has once again put fears of a tech bubble at the forefront of investors' minds.",
+          "guid": "108222913"
+        },
+        {
+          "title": "Orlando Bravo says some software names hit by AI deserve a valuation cut",
+          "date": "2026-03-17",
+          "link": "https://www.cnbc.com/2026/03/17/orlando-bravo-software-ai-valuation-cut.html",
+          "snippet": "2026-03-17: Orlando Bravo says some software names hit by AI deserve a valuation cut: The Thoma Bravo co-founder said that some of the software stocks getting hit by the AI wave deserve a lower valuat",
+          "guid": "108279068"
+        },
+        {
+          "title": "Fund managers reveal their bubble recipes and what to watch for as AI stocks soar",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/30/fund-managers-reveal-their-bubble-recipes-and-what-to-watch-for-as-ai-stocks-soar.html",
+          "snippet": "2025-10-29: Fund managers reveal their bubble recipes and what to watch for as AI stocks soar: \\Fundamentals and valuations can only be ignored for so long,\\\" one portfolio manager told CNBC.\"",
+          "guid": "108217900"
+        },
+        {
+          "title": "How fund managers are investing for the fourth quarter as AI bubble talk swirls",
+          "date": "2025-10-12",
+          "link": "https://www.cnbc.com/2025/10/13/how-fund-managers-are-investing-for-the-fourth-quarter-as-ai-bubble-talk-swirls.html",
+          "snippet": "2025-10-12: How fund managers are investing for the fourth quarter as AI bubble talk swirls: \\We are, however, wary of positioning, and remain watchful of stretched valuations,\\\" one fund manager told",
+          "guid": "108209800"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "37bac5c5-f756-48e8-a4f0-f5458902018d",
+      "label": "AI Disruption Fears in Markets",
+      "spike_ratio": 1.28,
+      "article_count": 54,
+      "rag_answer": "AI disruption fears are significantly impacting various sectors, particularly software and cybersecurity stocks, leading to a notable sell-off as investors grapple with concerns over a potential tech bubble. The release of new AI tools has intensified worries about the viability of the software-as-a-service (SaaS) business model, prompting discussions about an \"existential\" crisis in the software industry. Analysts warn that the rapid transformation driven by AI could also create shocks in credit markets, indicating broader economic implications. Overall, the market is experiencing heightened volatility and uncertainty as it navigates these AI-related challenges.",
+      "rag_sources": [
+        {
+          "title": "AI valuation fears grip global investors as tech bubble concerns grow",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/ai-valuation-fears-grip-investors-as-tech-bubble-concerns-heighten.html",
+          "snippet": "2025-11-07: AI valuation fears grip global investors as tech bubble concerns grow: The recent slide among AI stocks has once again put fears of a tech bubble at the forefront of investors' minds.",
+          "guid": "108222913"
+        },
+        {
+          "title": "AI fears pummel software stocks: Is it 'illogical' panic or a SaaS apocalypse?",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/ai-anthropic-tools-saas-software-stocks-selloff.html",
+          "snippet": "2026-02-06: AI fears pummel software stocks: Is it 'illogical' panic or a SaaS apocalypse?: The software space is facing serious market concerns this week, after the release of new AI tools from AI tr",
+          "guid": "108261773"
+        },
+        {
+          "title": "Cybersecurity stock selling deepens on AI threat concerns. Why we're not bailing",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/23/cybersecurity-stock-selling-deepens-on-ai-threat-concerns-why-were-not-bailing.html",
+          "snippet": "2026-02-23: Cybersecurity stock selling deepens on AI threat concerns. Why we're not bailing: AI disruption fears spark sell-off in cyber, but the market is overlooking the sector's fundamentals",
+          "guid": "108268610"
+        },
+        {
+          "title": "Global software stocks extend losses amid fears over AI-led disruption",
+          "date": "2026-02-04",
+          "link": "https://www.cnbc.com/2026/02/04/software-stocks-plunge-us-ai-disruption.html",
+          "snippet": "2026-02-04: Global software stocks extend losses amid fears over AI-led disruption: Wall Street's fears around artificial intelligence-driven disruption affecting software companies made their way to ",
+          "guid": "108261128"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "21946eea-2f68-47a4-8581-de61a1725ca9",
+      "label": "Trump and Voter ID Legislation",
+      "spike_ratio": 1.275,
+      "article_count": 17,
+      "rag_answer": "President Donald Trump is actively advocating for a national voter ID requirement through the SAVE America Act, which has garnered support from Republican lawmakers. However, the legislation faces challenges, including skepticism from Senate Leader Thune regarding changes to the filibuster that could facilitate its passage. The House is set to vote on the bill, which proponents argue will secure elections, while critics claim it may disenfranchise millions. The ongoing debate and potential passage of this legislation could influence market sentiment, particularly in sectors related to election security and voter engagement, as well as impact the political landscape leading up to the next elections.",
+      "rag_sources": [
+        {
+          "title": "Trump fans flames of election access as Republican support grows for national voter ID mandate",
+          "date": "2026-02-18",
+          "link": "https://www.cnbc.com/2026/02/18/trump-elections-save-act-congress-voter-id.html",
+          "snippet": "2026-02-18: Trump fans flames of election access as Republican support grows for national voter ID mandate: President Donald Trump wants a national voter ID requirement, a mandate he wants to impose v",
+          "guid": "108266995"
+        },
+        {
+          "title": "Senate Leader Thune throws cold water on filibuster change in push for voter-ID bill",
+          "date": "2026-02-10",
+          "link": "https://www.cnbc.com/2026/02/10/senate-filibuster-thune-trump-save-act.html",
+          "snippet": "2026-02-10: Senate Leader Thune throws cold water on filibuster change in push for voter-ID bill: Voter ID legislation backed by President Donald Trump and his GOP allies faces an uphill climb in the ",
+          "guid": "108264124"
+        },
+        {
+          "title": "SAVE Act: House to vote on Trump-backed voter ID bill",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/trump-save-act-house-voter-id.html",
+          "snippet": "2026-02-11: SAVE Act: House to vote on Trump-backed voter ID bill: The SAVE America Act's GOP supporters say it would secure elections and prevent fraud. Democrats say it could disenfranchise millions",
+          "guid": "108264446"
+        },
+        {
+          "title": "Social Security changes on the table as House bills advance: New retirement age terms, more ID theft services",
+          "date": "2025-12-05",
+          "link": "https://www.cnbc.com/2025/12/05/congress-weighs-social-security-changes.html",
+          "snippet": "2025-12-05: Social Security changes on the table as House bills advance: New retirement age terms, more ID theft services: How the Social Security Administration describes retirement claiming ages and",
+          "guid": "108236897"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

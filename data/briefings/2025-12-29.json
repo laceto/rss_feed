@@ -1,0 +1,212 @@
+{
+  "date": "2025-12-29",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "5027ac75-1fa6-4561-bafa-14e0763d1caf",
+      "label": "Nvidia AI Chips Sales to China",
+      "spike_ratio": 1.418,
+      "article_count": 19,
+      "rag_answer": "Nvidia has faced significant challenges in selling its AI chips to China, despite receiving U.S. government approval to do so. Initially, the company aimed to begin shipments of its H200 chips by mid-February 2026, but sales have been stalled due to ongoing U.S. security reviews and concerns about local Chinese competitors potentially taking over the market. The situation has created uncertainty for Nvidia, as it grapples with eroding market share in China and mixed reactions from U.S. political figures regarding its sales strategy. Overall, these developments highlight the complexities and risks associated with international tech sales amid geopolitical tensions.",
+      "rag_sources": [
+        {
+          "title": "Nvidia still hasn't sold its U.S.-approved China AI chips \u2014 and it\u2019s worried local AI rivals could take over",
+          "date": "2026-02-26",
+          "link": "https://www.cnbc.com/2026/02/26/nvidia-china-chip-sales-export-controls-ai-competition.html",
+          "snippet": "2026-02-26: Nvidia still hasn't sold its U.S.-approved China AI chips \u2014 and it\u2019s worried local AI rivals could take over: The U.S. chipmaker has yet to confirm shipments to China despite Washington ea",
+          "guid": "108270233"
+        },
+        {
+          "title": "Nvidia says it's evaluating a 'variety of products' after report of new AI chip for China",
+          "date": "2025-08-19",
+          "link": "https://www.cnbc.com/2025/08/19/nvidia-ai-china-chip.html",
+          "snippet": "2025-08-19: Nvidia says it's evaluating a 'variety of products' after report of new AI chip for China: Nvidia last week struck a deal with the U.S. government to resume selling products in China, in e",
+          "guid": "108187933"
+        },
+        {
+          "title": "Nvidia aims to begin H200 chip shipments to China by mid-February, sources say",
+          "date": "2025-12-22",
+          "link": "https://www.cnbc.com/2025/12/22/nvidia-aims-to-begin-h200-chip-shipments-to-china-by-mid-february-.html",
+          "snippet": "2025-12-22: Nvidia aims to begin H200 chip shipments to China by mid-February, sources say: Nvidia plans to start shipping its second-most powerful AI chips to China in mid-February, three people fami",
+          "guid": "108244633"
+        },
+        {
+          "title": "Trump's blessing of Nvidia AI chip sales to China gets a chilly reception from GOP",
+          "date": "2025-12-09",
+          "link": "https://www.cnbc.com/2025/12/09/trump-nvidia-china-ai-chips-gop-congress.html",
+          "snippet": "2025-12-09: Trump's blessing of Nvidia AI chip sales to China gets a chilly reception from GOP: Trump said Chinese President Xi Jinping \\responded positively\\\" to the proposal to let Nvidia sell H200 ",
+          "guid": "108239138"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "b879033c-a02f-4e06-8138-b59f74de9402",
+      "label": "Global Inflation Trends and Responses",
+      "spike_ratio": 1.386,
+      "article_count": 23,
+      "rag_answer": "Global inflation trends are showing significant divergence, with some regions experiencing rising consumer prices while others face deflationary pressures. For instance, China reported a near two-year high in consumer inflation despite deeper producer deflation, indicating complex economic dynamics. Meanwhile, the U.S. Federal Reserve is grappling with inflation concerns, as highlighted by Fed officials expressing worries about inflation in a challenging economic climate. These developments suggest that investors are increasingly cautious, with inflation becoming a central theme influencing market strategies and central bank policies worldwide.",
+      "rag_sources": [
+        {
+          "title": "'Reflation is back' says Deutsche Bank as global central banks diverge from Fed",
+          "date": "2025-12-11",
+          "link": "https://www.cnbc.com/2025/12/11/reflation-is-back-says-deutsche-bank-as-central-banks-diverge-from-fed.html",
+          "snippet": "2025-12-11: 'Reflation is back' says Deutsche Bank as global central banks diverge from Fed: Global central banks are diverging, following The Fed's decision to cut rates and Swiss' choice to hold ste",
+          "guid": "108240421"
+        },
+        {
+          "title": "Fears of 1970s-style stagflation arise with oil spike to $100. How big a threat is it?",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/fears-of-1970s-style-stagflation-arise-with-oil-spike-to-100-how-big-a-threat-is-it.html",
+          "snippet": "2026-03-09: Fears of 1970s-style stagflation arise with oil spike to $100. How big a threat is it?: High inflation and slow growth present a double threat, as measures like interest rate cuts and gove",
+          "guid": "108275514"
+        },
+        {
+          "title": "Fed's Goolsbee says he's worried about inflation in 'fraught but intense' climate",
+          "date": "2026-03-23",
+          "link": "https://www.cnbc.com/2026/03/23/feds-goolsbee-says-hes-worried-about-inflation-in-fraught-but-intense-climate.html",
+          "snippet": "2026-03-23: Fed's Goolsbee says he's worried about inflation in 'fraught but intense' climate: In a CNBC interview, the central banker said policymaking is difficult in the current environment.",
+          "guid": "108281480"
+        },
+        {
+          "title": "China consumer inflation hits near two-year high despite deeper-than-expected producer deflation",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/10/chinas-cpi-ppi-deflation-november-consumer-prices.html",
+          "snippet": "2025-12-10: China consumer inflation hits near two-year high despite deeper-than-expected producer deflation: Economists warned that deflationary pressure on the world's second largest economy will pe",
+          "guid": "108239450"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "2e955eac-a74a-4c42-be9f-b871d12feb52",
+      "label": "Market Trends and Stock Movements",
+      "spike_ratio": 1.223,
+      "article_count": 23,
+      "rag_answer": "The stock market has experienced significant volatility, with benchmarks reaching record highs in September 2025 due to easing inflation, strong corporate earnings, and expectations of U.S. rate cuts. However, by late December, market sentiment shifted dramatically, indicating a reversal in trends, possibly influenced by concerns over economic slowdowns and stagflation risks. Despite these fluctuations, certain stocks have shown resilience and made notable midday moves, suggesting ongoing opportunities for investors. Overall, the market remains dynamic, with both risks and potential rewards as conditions evolve.",
+      "rag_sources": [
+        {
+          "title": "Stock market swings got you reeling? Answer these 6 questions before making a trade",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/stock-market-swings-got-you-reeling-answering-6-questions-will-help.html",
+          "snippet": "2025-11-28: Stock market swings got you reeling? Answer these 6 questions before making a trade: Frustrating as volatility can be, it also tends to present opportunities.",
+          "guid": "108232626"
+        },
+        {
+          "title": "Stock benchmarks are scaling record highs: 'Animal spirits are soaring' ",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/stock-benchmarks-are-scaling-record-highs-animal-spirits-are-soaring-.html",
+          "snippet": "2025-09-11: Stock benchmarks are scaling record highs: 'Animal spirits are soaring': Easing inflation pressures,\u00a0resilient corporate earnings and expectations for U.S. rate cuts have boosted investor ",
+          "guid": "108197275"
+        },
+        {
+          "title": "Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward",
+          "date": "2025-12-26",
+          "link": "https://www.cnbc.com/2025/12/26/market-sentiment-has-made-a-huge-reversal-heres-why-and-what-it-means-going-forward.html",
+          "snippet": "2025-12-26: Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward: Something unusual happened in the past few weeks.",
+          "guid": "108245814"
+        },
+        {
+          "title": "Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel",
+          "date": "2025-08-11",
+          "link": "https://www.cnbc.com/2025/08/11/stock-market-party-to-be-ruined-by-sudden-economic-slowdown-says-stifel.html",
+          "snippet": "2025-08-11: Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel: The market could be in for a stagflation environment, the firm said.",
+          "guid": "108184067"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "b7db0f8b-15aa-44d6-82c0-a1a21405ab66",
+      "label": "Robotaxi Developments and Expansion",
+      "spike_ratio": 1.061,
+      "article_count": 13,
+      "rag_answer": "In 2025, the robotaxi industry experienced significant growth, with Waymo leading global expansion efforts and Zoox debuting public rides. Tesla also made strides, testing driverless robotaxis in Austin and securing permits for ride-hailing services in Texas. The competition intensified, as industry leaders like Baidu and Nvidia noted a tipping point in the market, indicating increasing momentum and interest in autonomous ride-hailing solutions. As companies like Rivian and Lucid enter the space with their own robotaxi ambitions, the market is poised for further innovation and expansion, potentially reshaping urban transportation dynamics.",
+      "rag_sources": [
+        {
+          "title": "Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/waymo-amazon-zoox-tesla-robotaxi-expansion.html",
+          "snippet": "2025-12-16: Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line: Robotaxis grew rapidly in 2025 with Waymo expanding fastest, Zoox debuting public rides and Tesla ",
+          "guid": "108236372"
+        },
+        {
+          "title": "Rivian announces new AI tech, in-house chip and robotaxi ambitions",
+          "date": "2025-12-11",
+          "link": "https://www.cnbc.com/2025/12/11/rivian-autonomy-ai-day.html",
+          "snippet": "2025-12-11: Rivian announces new AI tech, in-house chip and robotaxi ambitions: The company has also developed AI models to power its Autonomy+ subscription, which it intends to roll out early next ye",
+          "guid": "108240446"
+        },
+        {
+          "title": "\u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises",
+          "date": "2025-11-20",
+          "link": "https://www.cnbc.com/2025/11/20/global-robotaxi-race-heats-up-between-us-and-chinese-rivals.html",
+          "snippet": "2025-11-20: \u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises: Global tech executives in recent weeks have proclaimed the robotaxi industry is finally nea",
+          "guid": "108226580"
+        },
+        {
+          "title": "Amazon's Zoox expands robotaxi testing to Phoenix and Dallas",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/amazon-zoox-robotaxi-testing-phoenix-dallas.html",
+          "snippet": "2026-03-09: Amazon's Zoox expands robotaxi testing to Phoenix and Dallas: Zoox will start by deploying a fleet of retrofitted Toyota Highlander SUVs, before rolling out its toaster-shaped robotaxis fo",
+          "guid": "108274966"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "46b51275-0575-4a64-87e7-d4d1864f1669",
+      "label": "Warner Bros. Discovery takeover bids",
+      "spike_ratio": 0.938,
+      "article_count": 15,
+      "rag_answer": "Warner Bros. Discovery (WBD) has opened itself up for a sale, prompting multiple bids from major players including Paramount, Comcast, and Netflix. Paramount Skydance has emerged as a strong contender, reportedly making a higher bid that WBD's board is currently evaluating against Netflix's offer. The situation has led to significant fluctuations in WBD's stock price, with shares jumping 10% following the announcement of its openness to a sale. As the bidding war unfolds, shareholders are weighing the merits of accepting Paramount's offer, which could have substantial implications for the competitive landscape in the media and entertainment sector.",
+      "rag_sources": [
+        {
+          "title": "Paramount, Comcast, Netflix submit bids for Warner Bros. Discovery ",
+          "date": "2025-11-21",
+          "link": "https://www.cnbc.com/2025/11/21/warner-bros-discovery-wbd-bids-paramount-comcast-netflix.html",
+          "snippet": "2025-11-21: Paramount, Comcast, Netflix submit bids for Warner Bros. Discovery: Warner Bros. Discovery recently expanded its strategic review of its business, saying it's open for a sale. First round ",
+          "guid": "108229432"
+        },
+        {
+          "title": "Warner Bros. Discovery says it's open to a sale; shares jump 10%",
+          "date": "2025-10-21",
+          "link": "https://www.cnbc.com/2025/10/21/wbd-sale-warner-bros-media.html",
+          "snippet": "2025-10-21: Warner Bros. Discovery says it's open to a sale; shares jump 10%: WBD had planned to split into two separate entities and is not abandoning those plans.",
+          "guid": "108214672"
+        },
+        {
+          "title": "Paramount Skydance is preparing a bid for Warner Bros. Discovery, sources say",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/warner-bros-discovery-paramount-skydance-bid.html",
+          "snippet": "2025-09-11: Paramount Skydance is preparing a bid for Warner Bros. Discovery, sources say: The Wall Street Journal reported the recently merged Paramount Skydance was preparing a takeover bid for the ",
+          "guid": "108197645"
+        },
+        {
+          "title": "Warner Bros. Discovery says Paramount made higher bid, board will weigh offer against Netflix deal",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/warner-bros-discovery-paramount-higher-bid-netflix.html",
+          "snippet": "2026-02-24: Warner Bros. Discovery says Paramount made higher bid, board will weigh offer against Netflix deal: If WBD deems the new Paramount offer superior, Netflix will have four days to improve it",
+          "guid": "108269071"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

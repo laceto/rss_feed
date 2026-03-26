@@ -1,0 +1,235 @@
+{
+  "date": "2025-10-13",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "0d20e23d-6795-477d-bb84-20b28b10b364",
+      "label": "Ukraine peace talks dynamics",
+      "spike_ratio": 1.582,
+      "article_count": 25,
+      "rag_answer": "The dynamics of the Ukraine peace talks have seen significant developments, with U.S. officials reporting progress in negotiations between Ukraine and Russia. Notably, Russian President Vladimir Putin has indicated a willingness to engage in serious discussions regarding a U.S.-brokered peace plan, which Ukraine has reportedly agreed to. This optimism has led to fluctuations in European defense stocks and gas prices, as investors react to the potential for a resolution to the conflict. However, there remains caution, as the situation is fluid and the final agreement on security guarantees for Ukraine is still pending.",
+      "rag_sources": [
+        {
+          "title": "Ukraine peace talks progressing, Russia open to EU membership, U.S. officials say",
+          "date": "2025-12-15",
+          "link": "https://www.cnbc.com/2025/12/15/ukraine-peace-talks-russia-eu-us-trump.html",
+          "snippet": "2025-12-15: Ukraine peace talks progressing, Russia open to EU membership, U.S. officials say: The war in Ukraine began nearly four years ago, when Russia invaded at the direction of its leader, Vladi",
+          "guid": "108241899"
+        },
+        {
+          "title": "Ukraine peace talks shift to Moscow \u2014 the big unknown is whether Putin will play ball",
+          "date": "2025-12-01",
+          "link": "https://www.cnbc.com/2025/12/01/russia-under-pressure-as-ukraine-peace-talks-shift-to-moscow.html",
+          "snippet": "2025-12-01: Ukraine peace talks shift to Moscow \u2014 the big unknown is whether Putin will play ball: U.S. Special Envoy Steve Witkoff is travelling to Moscow on Monday and is due to meet Russian Preside",
+          "guid": "108234209"
+        },
+        {
+          "title": "European defense stocks and gas prices fall as U.S., Ukraine make progress on peace plan",
+          "date": "2025-11-24",
+          "link": "https://www.cnbc.com/2025/11/24/europe-defense-stocks-fall-as-us-ukraine-make-progress-on-peace-plan.html",
+          "snippet": "2025-11-24: European defense stocks and gas prices fall as U.S., Ukraine make progress on peace plan: The U.S. said Sunday that there had been progress in talks at the weekend but that no agreement wa",
+          "guid": "108230743"
+        },
+        {
+          "title": "All eyes on Russia as it weighs Ukraine peace plan with caution",
+          "date": "2025-11-26",
+          "link": "https://www.cnbc.com/2025/11/26/russia-responds-to-fledgling-ukraine-peace-plan.html",
+          "snippet": "2025-11-26: All eyes on Russia as it weighs Ukraine peace plan with caution: There's been little official comment from Moscow regarding a revised U.S.-brokered peace plan for Ukraine.",
+          "guid": "108232279"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "4eb772eb-d02a-4921-8e56-755d08b0d18e",
+      "label": "Trump Tariffs and Inflation Impact",
+      "spike_ratio": 1.25,
+      "article_count": 15,
+      "rag_answer": "Trump's tariffs are increasingly impacting consumer prices, with a Bureau of Labor Statistics report indicating price increases for tariff-sensitive items. Economists and market strategists predict that the inflationary effects of these tariffs are still unfolding, with only about half of the anticipated impact having been felt so far. The Supreme Court's upcoming decision on the tariffs adds uncertainty to their future, while investors are bracing for potential market volatility as they assess the implications of these policies. Overall, there is a consensus among economists that higher tariff-induced inflation is likely on the horizon, prompting concerns about its effects on the economy.",
+      "rag_sources": [
+        {
+          "title": "Trump's tariffs are slowly finding their way into consumer prices",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/trumps-tariffs-are-slowly-finding-their-way-into-consumer-prices.html",
+          "snippet": "2025-09-11: Trump's tariffs are slowly finding their way into consumer prices: A key Bureau of Labor Statistics inflation report showed price increases for a variety of tariff-sensitive items.",
+          "guid": "108197570"
+        },
+        {
+          "title": "Trump tariffs are fueling inflation, congressional budget chief says",
+          "date": "2025-09-15",
+          "link": "https://www.cnbc.com/2025/09/15/trump-trade-inflation-tariffs-cbo.html",
+          "snippet": "2025-09-15: Trump tariffs are fueling inflation, congressional budget chief says: President Donald Trump's tariffs face an uncertain future as the Supreme Court is poised to hear the administration's ",
+          "guid": "108198722"
+        },
+        {
+          "title": "Ken Griffin says more tariff impact on inflation is still ahead, Fed should be independent",
+          "date": "2025-09-25",
+          "link": "https://www.cnbc.com/2025/09/25/ken-griffin-say-more-tariff-impact-on-inflation-is-still-ahead-fed-should-be-independent.html",
+          "snippet": "2025-09-25: Ken Griffin says more tariff impact on inflation is still ahead, Fed should be independent: Ken Griffin said only about half of the inflationary impact from Trump's wide-spreading levies o",
+          "guid": "108203864"
+        },
+        {
+          "title": "Five key takeaways from the Supreme Court's landmark decision against Trump's tariffs",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/21/supreme-courts-trump-tariff-decision-five-takeaways.html",
+          "snippet": "2026-02-23: Five key takeaways from the Supreme Court's landmark decision against Trump's tariffs: What's far less certain is the longer-reaching impacts as the economy and markets again adjust to a c",
+          "guid": "108268087"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.25,
+          "mean_sentiment_score": 0.118,
+          "data_age_days": null
+        },
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "efc45022-a04e-4a18-8e57-b284b55bb483",
+      "label": "Government Shutdown Negotiations",
+      "spike_ratio": 1.243,
+      "article_count": 46,
+      "rag_answer": "The government shutdown, which began on October 1, 2025, has become the second longest in U.S. history, with ongoing negotiations between Democrats and President Trump failing to yield a resolution. Senate funding measures have repeatedly failed, leading to concerns about potential layoffs of federal workers and uncertainty in various sectors, including commercial real estate. Market reactions have been mixed, with Wall Street questioning the potential risks associated with the shutdown, although historically, such events have had little economic impact. As the deadlock continues, pressure is mounting on Congress and the Trump administration to reach an agreement, especially with the looming possibility of missed pay periods for military personnel.",
+      "rag_sources": [
+        {
+          "title": "How a U.S. government shutdown could impact global markets",
+          "date": "2025-10-01",
+          "link": "https://www.cnbc.com/2025/10/01/how-a-us-government-shutdown-could-impact-global-markets.html",
+          "snippet": "2025-10-01: How a U.S. government shutdown could impact global markets: Global investors are weighing how much of an impact the shutdown may have on markets.",
+          "guid": "108206219"
+        },
+        {
+          "title": "Government shutdowns usually have little economic impact. This time could be different",
+          "date": "2025-09-30",
+          "link": "https://www.cnbc.com/2025/09/29/government-shutdowns-usually-have-little-economic-impact-this-time-could-be-different.html",
+          "snippet": "2025-09-30: Government shutdowns usually have little economic impact. This time could be different: For all the political firestorms they generate, government shutdowns have been nonevents for both ma",
+          "guid": "108205106"
+        },
+        {
+          "title": "Government shutdown becomes 2nd longest in U.S. history",
+          "date": "2025-10-22",
+          "link": "https://www.cnbc.com/2025/10/22/government-shutdown-trump-democrats.html",
+          "snippet": "2025-10-22: Government shutdown becomes 2nd longest in U.S. history: Democrats want President Donald Trump to get involved in shutdown negotiations. Senate Majority Leader John Thune says, \\Open up th",
+          "guid": "108215328"
+        },
+        {
+          "title": "Schumer presses Trump to negotiate with Democrats as government shutdown deadline nears",
+          "date": "2025-09-21",
+          "link": "https://www.cnbc.com/2025/09/21/trump-schumer-government-shutdown-funding-.html",
+          "snippet": "2025-09-21: Schumer presses Trump to negotiate with Democrats as government shutdown deadline nears: The Senate last week rejected proposals to keep the government funded at least temporarily,  raisin",
+          "guid": "108201678"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "7414a4dc-4f2f-4f00-aaab-b1ec476cbab7",
+      "label": "AI Chip Market Developments",
+      "spike_ratio": 1.164,
+      "article_count": 54,
+      "rag_answer": "The AI chip market is experiencing significant developments, driven by robust demand and strategic advancements from major players like Nvidia, AMD, and Meta. Nvidia is set to unveil specialized processors for agentic AI at its upcoming GTC conference, highlighting the growing focus on AI capabilities. Additionally, the AI infrastructure buildout is causing shortages of various chip components, which may lead to increased prices for consumer electronics. Overall, the market is characterized by a strong push for innovation and capacity expansion, amidst geopolitical tensions that are influencing chip development strategies globally.",
+      "rag_sources": [
+        {
+          "title": "What the Iran war market turmoil means for those nearing retirement",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/iran-war-market-volatility-retirement.html",
+          "snippet": "2026-03-05: What the Iran war market turmoil means for those nearing retirement: Market shakiness may not concern long-term investors, but it could be a useful wake-up call for those on the precipice ",
+          "guid": "108272020"
+        },
+        {
+          "title": "Chip stocks including Nvidia are holding up despite market volatility, according to the charts",
+          "date": "2026-03-10",
+          "link": "https://www.cnbc.com/2026/03/10/chip-stocks-including-nvidia-are-holding-up-despite-market-volatility-according-to-the-charts.html",
+          "snippet": "2026-03-10: Chip stocks including Nvidia are holding up despite market volatility, according to the charts: Todd Gordon takes a look at the technicals in Nvidia and other chipmakers.",
+          "guid": "108276190"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Market concentration around AI darlings persists. It's making investors worried",
+          "date": "2025-08-16",
+          "link": "https://www.cnbc.com/2025/08/16/market-concentration-around-ai-darlings-persists-its-making-investors-worried.html",
+          "snippet": "2025-08-16: Market concentration around AI darlings persists. It's making investors worried: Investors worry that a stock market priced for perfection is vulnerable to some sort of setback.",
+          "guid": "108186696"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "a21f7800-1019-4647-adfd-df0863c955d0",
+      "label": "Fed rate cuts and outlook",
+      "spike_ratio": 1.118,
+      "article_count": 102,
+      "rag_answer": "The Federal Reserve has been actively cutting interest rates, with a series of cuts occurring throughout 2025, including a significant quarter-point cut in December. Market expectations for 2026 suggest that while there may be further cuts, the outlook remains uncertain, with some economists predicting modest easing and others anticipating more aggressive cuts depending on economic conditions. Recent comments from Fed officials indicate a cautious approach, emphasizing the need to monitor labor market trends before making additional cuts. Overall, the evolving rate cuts are influencing market dynamics, with traders adjusting their strategies in response to the Fed's decisions and economic forecasts.",
+      "rag_sources": [
+        {
+          "title": "Here are the five key takeaways from this week's Fed meeting",
+          "date": "2026-03-19",
+          "link": "https://www.cnbc.com/2026/03/18/here-are-the-five-key-takeaways-from-this-weeks-fed-meeting.html",
+          "snippet": "2026-03-19: Here are the five key takeaways from this week's Fed meeting: While no one expected the Fed to cut \u2014 much less hike \u2014 at this meeting, the market always looks for clues about what's next.",
+          "guid": "108279927"
+        },
+        {
+          "title": "The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/09/the-fed-decision-is-expected-to-feature-a-rate-cut-and-a-lot-more-heres-what-to-expect.html",
+          "snippet": "2025-12-10: The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect: The central bank is poised to deliver its third straight interest rate cut Wednesday, while firing a ",
+          "guid": "108239042"
+        },
+        {
+          "title": "Traders say the Fed rate outlook for 2026 will have the most market impact today",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/10/traders-say-fed-2026-rate-outlook-will-have-the-most-market-impact-today.html",
+          "snippet": "2025-12-10: Traders say the Fed rate outlook for 2026 will have the most market impact today: In September, when the Fed last issued its 'summary of economic projections,' the central bank anticipated",
+          "guid": "108239768"
+        },
+        {
+          "title": "Here are five key takeaways from the Fed's big interest rate decision",
+          "date": "2025-09-18",
+          "link": "https://www.cnbc.com/2025/09/17/here-are-five-key-takeaways-from-the-feds-big-interest-rate-decision.html",
+          "snippet": "2025-09-18: Here are five key takeaways from the Fed's big interest rate decision: The Federal Reserve on Wednesday delivered on a widely anticipated quarter percentage point interest rate cut.",
+          "guid": "108200292"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.25,
+          "mean_sentiment_score": 0.118,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

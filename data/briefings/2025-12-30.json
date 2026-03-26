@@ -1,0 +1,220 @@
+{
+  "date": "2025-12-30",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "5027ac75-1fa6-4561-bafa-14e0763d1caf",
+      "label": "Nvidia AI Chips Sales to China",
+      "spike_ratio": 1.622,
+      "article_count": 24,
+      "rag_answer": "Nvidia has faced significant challenges in selling its AI chips to China, despite receiving U.S. government approval to do so. Initially, the company aimed to begin shipments of its H200 chips by mid-February 2026, but these plans have been stalled due to ongoing U.S. security reviews and concerns about local Chinese competitors potentially taking over the market. The uncertainty surrounding these sales has raised questions about Nvidia's market share in China, as the company grapples with both regulatory hurdles and the competitive landscape. Overall, while Nvidia has made strides towards resuming sales, the situation remains precarious and could impact its future revenue from the Chinese market.",
+      "rag_sources": [
+        {
+          "title": "Nvidia still hasn't sold its U.S.-approved China AI chips \u2014 and it\u2019s worried local AI rivals could take over",
+          "date": "2026-02-26",
+          "link": "https://www.cnbc.com/2026/02/26/nvidia-china-chip-sales-export-controls-ai-competition.html",
+          "snippet": "2026-02-26: Nvidia still hasn't sold its U.S.-approved China AI chips \u2014 and it\u2019s worried local AI rivals could take over: The U.S. chipmaker has yet to confirm shipments to China despite Washington ea",
+          "guid": "108270233"
+        },
+        {
+          "title": "Nvidia says it's evaluating a 'variety of products' after report of new AI chip for China",
+          "date": "2025-08-19",
+          "link": "https://www.cnbc.com/2025/08/19/nvidia-ai-china-chip.html",
+          "snippet": "2025-08-19: Nvidia says it's evaluating a 'variety of products' after report of new AI chip for China: Nvidia last week struck a deal with the U.S. government to resume selling products in China, in e",
+          "guid": "108187933"
+        },
+        {
+          "title": "Nvidia aims to begin H200 chip shipments to China by mid-February, sources say",
+          "date": "2025-12-22",
+          "link": "https://www.cnbc.com/2025/12/22/nvidia-aims-to-begin-h200-chip-shipments-to-china-by-mid-february-.html",
+          "snippet": "2025-12-22: Nvidia aims to begin H200 chip shipments to China by mid-February, sources say: Nvidia plans to start shipping its second-most powerful AI chips to China in mid-February, three people fami",
+          "guid": "108244633"
+        },
+        {
+          "title": "Trump's blessing of Nvidia AI chip sales to China gets a chilly reception from GOP",
+          "date": "2025-12-09",
+          "link": "https://www.cnbc.com/2025/12/09/trump-nvidia-china-ai-chips-gop-congress.html",
+          "snippet": "2025-12-09: Trump's blessing of Nvidia AI chip sales to China gets a chilly reception from GOP: Trump said Chinese President Xi Jinping \\responded positively\\\" to the proposal to let Nvidia sell H200 ",
+          "guid": "108239138"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "5cc221ba-5416-492e-bfa3-c1552998cc5f",
+      "label": "Jeffrey Epstein investigation updates",
+      "spike_ratio": 1.468,
+      "article_count": 46,
+      "rag_answer": "The investigation into Jeffrey Epstein continues to unfold with significant developments, including the Department of Justice (DOJ) planning to release new documents related to Epstein and Ghislaine Maxwell, amid scrutiny from Congress and victims. High-profile individuals, including top lawyers and financiers, are expected to testify, indicating a potential escalation in accountability for those involved. The release of documents has sparked controversy over redactions and the handling of sensitive information, which could impact public trust in the DOJ and related institutions. These ongoing revelations may influence market sentiment, particularly for firms associated with Epstein, as public perception and regulatory scrutiny could affect their reputations and operations.",
+      "rag_sources": [
+        {
+          "title": "Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/epstein-doj-bondi-trump.html",
+          "snippet": "2026-03-05: Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports: The top lawyer for Goldman Sachs, Bill Gates, Leon Black and others are expected to testify soon a",
+          "guid": "108274237"
+        },
+        {
+          "title": "Jeffrey Epstein island photos and videos released as top banks share files with House Oversight Committee ",
+          "date": "2025-12-03",
+          "link": "https://www.cnbc.com/2025/12/03/epstein-files-jpmorgan-deutsche-bank-virgin-islands.html",
+          "snippet": "2025-12-03: Jeffrey Epstein island photos and videos released as top banks share files with House Oversight Committee: The release comes as Attorney General Pam Bondi is on a deadline to publicly shar",
+          "guid": "108236053"
+        },
+        {
+          "title": "DOJ urges release of Jeffrey Epstein and Ghislaine Maxwell grand jury info in new filings",
+          "date": "2025-07-30",
+          "link": "https://www.cnbc.com/2025/07/30/jeffrey-epstein-ghislaine-maxwell-victims-trump.html",
+          "snippet": "2025-07-30: DOJ urges release of Jeffrey Epstein and Ghislaine Maxwell grand jury info in new filings: The Trump administration has faced pressure this month to release information in criminal files r",
+          "guid": "108178938"
+        },
+        {
+          "title": "Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents",
+          "date": "2025-12-23",
+          "link": "https://www.cnbc.com/2025/12/23/epstein-files-doj-release-trump.html",
+          "snippet": "2025-12-23: Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents: The release comes amid intense scrutiny from congressional lawmakers and victims ove",
+          "guid": "108244822"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "a21f7800-1019-4647-adfd-df0863c955d0",
+      "label": "Fed rate cuts and outlook",
+      "spike_ratio": 1.194,
+      "article_count": 16,
+      "rag_answer": "Recent developments indicate a divided stance among Federal Reserve officials regarding interest rate cuts, with discussions suggesting two additional cuts by the end of 2025. Fed Chair Powell has indicated that conditions may warrant cuts, but uncertainty remains high. As of December 2025, the Fed is expected to implement its third consecutive rate cut, although there are concerns about inflation that could impact future decisions. Market expectations for further cuts in 2026 are diminishing, particularly as inflation fears rise, suggesting a cautious outlook moving forward.",
+      "rag_sources": [
+        {
+          "title": "Divided Fed officials saw another two interest rate cuts by the end of 2025, minutes show",
+          "date": "2025-10-08",
+          "link": "https://www.cnbc.com/2025/10/08/fed-minutes-september-2025.html",
+          "snippet": "2025-10-08: Divided Fed officials saw another two interest rate cuts by the end of 2025, minutes show: Officials were strongly inclined to lower rates, with the only dispute seeming to be over how man",
+          "guid": "108209324"
+        },
+        {
+          "title": "Powell indicates conditions 'may warrant' interest rate cuts as Fed proceeds 'carefully'",
+          "date": "2025-08-22",
+          "link": "https://www.cnbc.com/2025/08/22/powell-indicates-conditions-may-warrant-interest-rate-cuts-as-fed-proceeds-carefully.html",
+          "snippet": "2025-08-22: Powell indicates conditions 'may warrant' interest rate cuts as Fed proceeds 'carefully': Powell on Friday gave a tepid indication of possible cuts ahead as he noted a high level of uncert",
+          "guid": "108189532"
+        },
+        {
+          "title": "The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/09/the-fed-decision-is-expected-to-feature-a-rate-cut-and-a-lot-more-heres-what-to-expect.html",
+          "snippet": "2025-12-10: The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect: The central bank is poised to deliver its third straight interest rate cut Wednesday, while firing a ",
+          "guid": "108239042"
+        },
+        {
+          "title": "Fed's Goolsbee calls for a hold on cuts as current rate of inflation is 'not good enough'",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/feds-goolsbee-calls-for-a-hold-on-cuts-as-current-rate-of-inflation-is-not-good-enough.html",
+          "snippet": "2026-02-24: Fed's Goolsbee calls for a hold on cuts as current rate of inflation is 'not good enough': The Chicago Fed president said Tuesday that cuts aren't appropriate until there's more evidence t",
+          "guid": "108269037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "5a598585-4aae-4389-91d8-c8e8c6593f83",
+      "label": "Midday Stock Movements",
+      "spike_ratio": 1.019,
+      "article_count": 21,
+      "rag_answer": "Midday stock movements have shown significant volatility, with various companies consistently making notable moves in the market. Recent reports highlight stocks like Newmont, Apple, and Sandisk experiencing substantial midday fluctuations, indicating active trading and investor interest. This trend suggests a dynamic market environment where investors are reacting to earnings reports, economic indicators, and broader market sentiments. The ongoing fluctuations may present both opportunities and risks for traders, as they navigate the impacts of economic conditions and corporate performance on stock prices.",
+      "rag_sources": [
+        {
+          "title": "Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/stocks-making-the-biggest-moves-midday-nem-aapl-sndk-deck.html",
+          "snippet": "2026-01-30: Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more: These are the stocks posting the largest moves midday.",
+          "guid": "108259667"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more",
+          "date": "2025-10-15",
+          "link": "https://www.cnbc.com/2025/10/15/stocks-making-the-biggest-moves-midday-bac-ms-bg-pgr.html",
+          "snippet": "2025-10-15: Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108212417"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more",
+          "date": "2025-09-18",
+          "link": "https://www.cnbc.com/2025/09/18/stocks-making-the-biggest-moves-midday-intc-nvo-blsh-all.html",
+          "snippet": "2025-09-18: Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more: These are the stocks posting the largest moves midday.",
+          "guid": "108200831"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: UnitedHealth, Applied Materials, Sandisk and more",
+          "date": "2025-08-15",
+          "link": "https://www.cnbc.com/2025/08/15/stocks-making-big-moves-midday-unh-amat-sndk-csco-evlv-flo-.html",
+          "snippet": "2025-08-15: Stocks making the biggest moves midday: UnitedHealth, Applied Materials, Sandisk and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108186615"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "409ca803-01f1-4349-8222-0e0c6aee0ccc",
+      "label": "Ukraine peace talks and Trump",
+      "spike_ratio": 1.017,
+      "article_count": 24,
+      "rag_answer": "Recent developments in Ukraine peace talks indicate a complex and evolving situation involving U.S. President Donald Trump and Ukrainian President Volodymyr Zelenskyy. Trump has oscillated in his support for Ukraine, initially promising security guarantees but later suggesting a division of Ukraine with Russia. Despite these tensions, reports suggest Ukraine has agreed to a U.S.-brokered peace proposal, with Trump claiming that a peace deal is \"very close.\" The market implications could include increased volatility in defense and energy sectors, as well as potential shifts in investor sentiment depending on the outcomes of these negotiations and their impact on regional stability.",
+      "rag_sources": [
+        {
+          "title": "Ukraine desperate to keep Trump on its side in peace talks, while saving its sovereignty",
+          "date": "2025-11-24",
+          "link": "https://www.cnbc.com/2025/11/24/ukraine-desperate-to-keep-trump-sweet-while-saving-its-sovereignty.html",
+          "snippet": "2025-11-24: Ukraine desperate to keep Trump on its side in peace talks, while saving its sovereignty: Talks between U.S. and Ukrainian officials were held this weekend after it emerged that Russia and",
+          "guid": "108230764"
+        },
+        {
+          "title": "Watch live: Trump and Zelenskyy meet with European leaders ",
+          "date": "2025-08-18",
+          "link": "https://www.cnbc.com/2025/08/18/trump-zelenskyy-ukraine-putin-live-updates.html",
+          "snippet": "2025-08-18: Watch live: Trump and Zelenskyy meet with European leaders: Trump and Ukraine's Volodymyr Zelenskyy are meeting with European leaders and NATO allies in an unprecedented effort to reach a ",
+          "guid": "108187127"
+        },
+        {
+          "title": "Ukraine\u2019s Zelenskyy says Kyiv \u2018geared up for clear and honest work\u2019 as U.S. pushes for progress on peace plan",
+          "date": "2025-11-21",
+          "link": "https://www.cnbc.com/2025/11/21/ukraine-peace-plan-zelenskyy-to-speak-with-trump-on-deal-to-end-war.html",
+          "snippet": "2025-11-21: Ukraine\u2019s Zelenskyy says Kyiv \u2018geared up for clear and honest work\u2019 as U.S. pushes for progress on peace plan: Ukrainian President Volodymyr Zelenskyy said he expects to speak with U.S. co",
+          "guid": "108229758"
+        },
+        {
+          "title": "Trump says \u2018a lot closer\u2019 to Ukraine peace deal after Zelenskyy meeting, though thorny issues remain",
+          "date": "2025-12-28",
+          "link": "https://www.cnbc.com/2025/12/28/trump-zelenskyy-ukraine.html",
+          "snippet": "2025-12-28: Trump says \u2018a lot closer\u2019 to Ukraine peace deal after Zelenskyy meeting, though thorny issues remain: Ukrainian President Volodymyr Zelenskyy\u00a0was scheduled to arrive at Mar-a-Lago in Presi",
+          "guid": "108246060"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

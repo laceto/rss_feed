@@ -1,0 +1,220 @@
+{
+  "date": "2026-03-20",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "a650670a-96ee-4967-8367-2e1e733e7054",
+      "label": "Interest Rates and Treasury Yields",
+      "spike_ratio": 1.6,
+      "article_count": 32,
+      "rag_answer": "Interest rates and Treasury yields have been fluctuating in response to various economic indicators and Federal Reserve signals. In late December 2025, the 10-year Treasury yield dipped as investors assessed the interest rate outlook for 2026, following strong GDP data. Earlier in the year, yields had surged above 4% after comments from Fed Chair Powell indicated uncertainty about future rate cuts. Overall, the market is reacting to mixed economic data, with traders closely monitoring job reports and inflation figures to gauge the Fed's next moves, leading to a cautious sentiment among investors.",
+      "rag_sources": [
+        {
+          "title": "10-year Treasury yield dips as investors assess interest rate outlook for 2026",
+          "date": "2025-12-29",
+          "link": "https://www.cnbc.com/2025/12/29/10-year-treasury-yield-in-focus-as-investors-assess-rate-outlook.html",
+          "snippet": "2025-12-29: 10-year Treasury yield dips as investors assess interest rate outlook for 2026: The moves come as traders digest the latest economic data and assess the Federal Reserve's monetary rate pat",
+          "guid": "108246099"
+        },
+        {
+          "title": "Treasury yields are stable as traders try to gauge impact of Trump's fight for Fed control",
+          "date": "2025-08-27",
+          "link": "https://www.cnbc.com/2025/08/27/us-treasury-yields-investors-look-ahead-to-key-inflation-data.html",
+          "snippet": "2025-08-27: Treasury yields are stable as traders try to gauge impact of Trump's fight for Fed control: Long-term U.S. Treasury yields backed off early highs Wednesday as traders tried to assess the e",
+          "guid": "108191159"
+        },
+        {
+          "title": "What the 10-year Treasury yield's chart tells us about where stocks are heading ",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/what-the-10-years-chart-tells-us-about-where-stocks-are-heading-.html",
+          "snippet": "2026-02-11: What the 10-year Treasury yield's chart tells us about where stocks are heading: If rates move\u00a0considerably higher after the strong run in equities, the pairing could create a bearish scen",
+          "guid": "108264558"
+        },
+        {
+          "title": "30-year Treasury yield touches 5% briefly, then retreats on weak jobs data",
+          "date": "2025-09-03",
+          "link": "https://www.cnbc.com/2025/09/03/us-treasury-yields-little-changed-as-markets-await-jobs-data.html",
+          "snippet": "2025-09-03: 30-year Treasury yield touches 5% briefly, then retreats on weak jobs data: U.S. Treasurys were little changed on Wednesday, but long-dated bonds hovered just below the 5% mark.",
+          "guid": "108193554"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "7b6c270d-d51f-46b8-be4d-f29ace4d6e95",
+      "label": "Iran conflict and oil prices",
+      "spike_ratio": 1.58,
+      "article_count": 175,
+      "rag_answer": "The ongoing conflict involving Iran has significantly disrupted oil supplies, leading to a surge in prices, with Brent crude recently topping $107 per barrel. The situation has raised concerns about potential further escalations, particularly as Iran threatens oil facilities in Saudi Arabia, the UAE, and Qatar. Analysts warn that prices could potentially reach $200 per barrel if the conflict continues to escalate, which could have profound implications for global energy markets and economies reliant on stable oil supplies. Additionally, the conflict is also impacting other commodities, such as aluminum and fertilizers, further complicating the economic landscape.",
+      "rag_sources": [
+        {
+          "title": "It's not just oil: Aluminum prices have surged as Iran conflict chokes supply",
+          "date": "2026-03-18",
+          "link": "https://www.cnbc.com/2026/03/18/why-aluminum-surged-iran-war.html",
+          "snippet": "2026-03-18: It's not just oil: Aluminum prices have surged as Iran conflict chokes supply: The U.S. and Israel's war with Iran has upended the supply of aluminum in the Middle East, sending prices of ",
+          "guid": "108279406"
+        },
+        {
+          "title": "Asia markets mostly rise as investors assess Iran conflict impact on energy supplies  ",
+          "date": "2026-03-06",
+          "link": "https://www.cnbc.com/2026/03/06/asia-markets-live-oil-prices-iran-nikkei-kospi-hang-seng.html",
+          "snippet": "2026-03-06: Asia markets mostly rise as investors assess Iran conflict impact on energy supplies: Overnight, oil prices broke through the $80 per barrel mark, with Brent futures up 3.54% and last trad",
+          "guid": "108274556"
+        },
+        {
+          "title": "Food prices could rise as Iran conflict disrupts fertilizer supply chain",
+          "date": "2026-03-11",
+          "link": "https://www.cnbc.com/2026/03/11/iran-news-food-prices-could-rise-due-to-fertilizer-shortages.html",
+          "snippet": "2026-03-11: Food prices could rise as Iran conflict disrupts fertilizer supply chain: The Iran conflict is disrupting fertilizer shipments through the Strait of Hormuz, raising supply concerns and pot",
+          "guid": "108275646"
+        },
+        {
+          "title": "Asia airline stocks drop while energy shares rise as Iran conflict escalates",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/asia-markets-live-trump-iran-oil-prices-nikkei-hang-seng-us-israel-strikes-oil.html",
+          "snippet": "2026-03-02: Asia airline stocks drop while energy shares rise as Iran conflict escalates: Oil futures on Monday jumped by over 8%, with West Texas Intermediate futures and Brent trading at $72.52 and ",
+          "guid": "108271671"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "37bac5c5-f756-48e8-a4f0-f5458902018d",
+      "label": "AI Disruption Fears in Markets",
+      "spike_ratio": 1.475,
+      "article_count": 66,
+      "rag_answer": "AI disruption fears are significantly impacting various sectors, particularly software and cybersecurity stocks, leading to a notable sell-off as investors grapple with concerns over a potential tech bubble. The market is witnessing a decline in global software stocks amid worries that AI advancements could disrupt traditional business models, with some analysts suggesting that this could trigger a broader shock in credit markets. Despite the panic, some investors believe the sell-off may be overblown, indicating a divide in market sentiment. Overall, the ongoing volatility suggests that AI-related developments are creating a challenging environment for tech investors.",
+      "rag_sources": [
+        {
+          "title": "AI valuation fears grip global investors as tech bubble concerns grow",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/ai-valuation-fears-grip-investors-as-tech-bubble-concerns-heighten.html",
+          "snippet": "2025-11-07: AI valuation fears grip global investors as tech bubble concerns grow: The recent slide among AI stocks has once again put fears of a tech bubble at the forefront of investors' minds.",
+          "guid": "108222913"
+        },
+        {
+          "title": "AI fears pummel software stocks: Is it 'illogical' panic or a SaaS apocalypse?",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/ai-anthropic-tools-saas-software-stocks-selloff.html",
+          "snippet": "2026-02-06: AI fears pummel software stocks: Is it 'illogical' panic or a SaaS apocalypse?: The software space is facing serious market concerns this week, after the release of new AI tools from AI tr",
+          "guid": "108261773"
+        },
+        {
+          "title": "Cybersecurity stock selling deepens on AI threat concerns. Why we're not bailing",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/23/cybersecurity-stock-selling-deepens-on-ai-threat-concerns-why-were-not-bailing.html",
+          "snippet": "2026-02-23: Cybersecurity stock selling deepens on AI threat concerns. Why we're not bailing: AI disruption fears spark sell-off in cyber, but the market is overlooking the sector's fundamentals",
+          "guid": "108268610"
+        },
+        {
+          "title": "Global software stocks extend losses amid fears over AI-led disruption",
+          "date": "2026-02-04",
+          "link": "https://www.cnbc.com/2026/02/04/software-stocks-plunge-us-ai-disruption.html",
+          "snippet": "2026-02-04: Global software stocks extend losses amid fears over AI-led disruption: Wall Street's fears around artificial intelligence-driven disruption affecting software companies made their way to ",
+          "guid": "108261128"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "2e955eac-a74a-4c42-be9f-b871d12feb52",
+      "label": "Market Trends and Stock Movements",
+      "spike_ratio": 1.37,
+      "article_count": 25,
+      "rag_answer": "The stock market has experienced significant volatility, with benchmarks reaching record highs due to easing inflation, strong corporate earnings, and expectations of U.S. rate cuts. However, recent sentiment has reversed, indicating potential concerns about an economic slowdown, which could lead to a stagflation environment. Despite these fluctuations, certain stocks continue to show resilience and make notable midday moves, suggesting that opportunities may still exist for investors. Overall, the market is navigating a complex landscape of optimism and caution, requiring careful consideration before trading.",
+      "rag_sources": [
+        {
+          "title": "Stock market swings got you reeling? Answer these 6 questions before making a trade",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/stock-market-swings-got-you-reeling-answering-6-questions-will-help.html",
+          "snippet": "2025-11-28: Stock market swings got you reeling? Answer these 6 questions before making a trade: Frustrating as volatility can be, it also tends to present opportunities.",
+          "guid": "108232626"
+        },
+        {
+          "title": "Stock benchmarks are scaling record highs: 'Animal spirits are soaring' ",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/stock-benchmarks-are-scaling-record-highs-animal-spirits-are-soaring-.html",
+          "snippet": "2025-09-11: Stock benchmarks are scaling record highs: 'Animal spirits are soaring': Easing inflation pressures,\u00a0resilient corporate earnings and expectations for U.S. rate cuts have boosted investor ",
+          "guid": "108197275"
+        },
+        {
+          "title": "Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward",
+          "date": "2025-12-26",
+          "link": "https://www.cnbc.com/2025/12/26/market-sentiment-has-made-a-huge-reversal-heres-why-and-what-it-means-going-forward.html",
+          "snippet": "2025-12-26: Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward: Something unusual happened in the past few weeks.",
+          "guid": "108245814"
+        },
+        {
+          "title": "Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel",
+          "date": "2025-08-11",
+          "link": "https://www.cnbc.com/2025/08/11/stock-market-party-to-be-ruined-by-sudden-economic-slowdown-says-stifel.html",
+          "snippet": "2025-08-11: Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel: The market could be in for a stagflation environment, the firm said.",
+          "guid": "108184067"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "f82fe760-6e0c-4aee-a143-a4e2df1c937d",
+      "label": "Student Loan Forgiveness Issues",
+      "spike_ratio": 1.284,
+      "article_count": 26,
+      "rag_answer": "Student loan borrowers seeking Public Service Loan Forgiveness are facing significant challenges, including a growing backlog of applications, which has reportedly reached over 800,000. The Trump administration has proposed changes that could limit eligibility for this popular program, further complicating access to relief for public servants. As a result, many borrowers are experiencing delays, with some waiting over a year for their applications to be processed. These developments could lead to increased financial strain on borrowers and may impact the broader market by affecting consumer spending and financial stability among those reliant on loan forgiveness.",
+      "rag_sources": [
+        {
+          "title": "Student loan borrowers face new challenges trying to get Public Service Loan Forgiveness",
+          "date": "2025-08-06",
+          "link": "https://www.cnbc.com/2025/08/06/student-loan-borrowers-and-changes-to-public-service-loan-forgiveness-pslf.html",
+          "snippet": "2025-08-06: Student loan borrowers face new challenges trying to get Public Service Loan Forgiveness: Borrowers pursuing Public Service Loan Forgiveness are hitting walls trying to access the relief, ",
+          "guid": "108181052"
+        },
+        {
+          "title": "Trump administration moves to 'prevent benefits' for some under popular student loan forgiveness program ",
+          "date": "2025-08-18",
+          "link": "https://www.cnbc.com/2025/08/18/trump-public-service-loan-forgiveness-pslf-eligibility.html",
+          "snippet": "2025-08-18: Trump administration moves to 'prevent benefits' for some under popular student loan forgiveness program: The Trump administration says that its proposed changes to Public Service Loan For",
+          "guid": "108187169"
+        },
+        {
+          "title": "Some student loan borrowers wait over a year in public servant debt forgiveness backlog",
+          "date": "2026-02-09",
+          "link": "https://www.cnbc.com/2026/02/09/pslf-public-service-loan-forgiveness-buyback-backlog.html",
+          "snippet": "2026-02-09: Some student loan borrowers wait over a year in public servant debt forgiveness backlog: More than 83,000 federal student loan borrowers are waiting for a Public Service Loan Forgiveness B",
+          "guid": "108254849"
+        },
+        {
+          "title": "Student loan borrowers in default could soon see reduced paychecks. What to know",
+          "date": "2025-08-22",
+          "link": "https://www.cnbc.com/2025/08/22/student-loan-borrowers-in-default-face-wage-garnishment.html",
+          "snippet": "2025-08-22: Student loan borrowers in default could soon see reduced paychecks. What to know: Student loan borrowers who've fallen behind on their payments could soon see the U.S. Department of Educat",
+          "guid": "108189629"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}
