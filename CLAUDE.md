@@ -48,8 +48,12 @@ python daily_briefing.py                    # morning briefing for today (RAG + 
 python daily_briefing.py --date 2026-03-21  # briefing for a specific date
 python daily_briefing.py --no-rag --save    # fast briefing (no API), save to data/briefings/
 
-python label_topics.py             # label all unlabeled topic_ids without re-clustering
+python label_topics.py             # label all unlabeled topic_ids via OpenAI Batch API
 python label_topics.py --dry-run   # show counts only
+
+python visualize_topics.py              # topic heatmap + frequency chart (top 15, last 90 days)
+python visualize_topics.py --top 20     # top 20 topics
+python visualize_topics.py --days 60    # last 60 days only
 
 python create_batch_briefings.py             # submit RAG briefing batch to OpenAI Batch API
 python create_batch_briefings.py --dry-run   # show counts, no submission
@@ -340,10 +344,11 @@ Path constant: `SECTOR_DB_FILE` in `constants.py`.
 | `hybrid_rag.py` | CLI hybrid RAG: load FAISS + BM25 + query translation + LLM answer; exposes `ask()` public API for external callers |
 | `chatbot_rag.py` | Streamlit chatbot wrapping `hybrid_rag.py`; streaming answers, sidebar controls |
 | `pyproject.toml` | Makes the project pip-installable (`pip install -e .`) so external scripts can `from hybrid_rag import ask` |
-| `daily_briefing.py` | Morning briefing: spike detection → RAG summary → sector cross-check → print + optional JSON save; `build_briefing(date, top_n, use_rag)` is the public entry point |
+| `daily_briefing.py` | Morning briefing: checks for pre-computed `data/briefings/{date}.json` first (`print_precomputed(date)`), falls back to live spike detection → RAG summary → sector cross-check; `build_briefing(date, top_n, use_rag)` is the live-compute entry point; `--save` forces a fresh re-run |
 | `create_batch_briefings.py` | Runs FAISS+BM25 retrieval locally for each spike, builds OpenAI Batch API JSONL, submits batch, saves ID + spike metadata sidecar |
 | `retrieve_batch_briefings.py` | Polls batch (exit 0/1/2), downloads results, assembles briefing JSONs with sector cross-check → `data/briefings/{date}.json` |
-| `label_topics.py` | Labels all unlabeled topic_ids in topic_trends.tsv from existing topic_clusters/{date}.json files; use after `backfill.py --phase1-only` |
+| `label_topics.py` | Labels all unlabeled topic_ids via OpenAI Batch API (kitai.batch); submits one job for all unlabeled topics, polls until done, updates topic_labels.json + topic_trends.tsv; use after `backfill.py --phase1-only` |
+| `visualize_topics.py` | CLI — two charts from `data/topic_trends.tsv`: `topic_spike_heatmap.png` (dates × topics, cell = article_count) + `topic_frequency_ts.png` (line chart per topic); `--top N` (default 15), `--days N` (default 90) |
 | `backfill.py` | Two-phase historical back-fill: Phase 1 = cluster_topics per date (no API), Phase 2 = daily_briefing per date; idempotent (skips already-done dates) |
 | `push_feeds_to_hf.py` | Cold-start: push all `output/feeds*.txt` → `lacetohf/feeds`; run once |
 | `push_new_feeds_to_hf.py` | Daily incremental: append today's new articles to `lacetohf/feeds`; dedup on `guid`; called by `daily-pipeline` |

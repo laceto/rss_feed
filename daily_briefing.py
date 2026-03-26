@@ -304,6 +304,33 @@ def _save(briefing: dict) -> Path:
     return path
 
 
+def print_precomputed(run_date: date) -> bool:
+    """Print a pre-computed briefing from data/briefings/{date}.json if it exists.
+
+    Returns True if the file was found and printed, False otherwise.
+    Reconstructs the rag_results / sector_results dicts that _print_briefing expects
+    from the flattened spike records stored in the JSON.
+    """
+    path = BRIEFINGS_DIR / f"{run_date}.json"
+    if not path.exists():
+        return False
+
+    briefing = json.loads(path.read_text(encoding="utf-8"))
+    spikes = briefing.get("spikes", [])
+
+    rag_results: dict[str, dict] = {
+        s["topic_id"]: {"answer": s.get("rag_answer", ""), "sources": s.get("rag_sources", [])}
+        for s in spikes
+    }
+    sector_results: dict[str, list] = {
+        s["topic_id"]: s.get("sectors", [])
+        for s in spikes
+    }
+
+    _print_briefing(run_date, spikes, rag_results, sector_results)
+    return True
+
+
 def _parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Daily topic-spike briefing")
     parser.add_argument(
@@ -334,12 +361,17 @@ if __name__ == "__main__":
     else:
         run_date = date.today()
 
-    briefing = build_briefing(
-        run_date=run_date,
-        top_n=args.top,
-        use_rag=not args.no_rag,
-    )
+    # Fast path: use pre-computed briefing from data/briefings/{date}.json if available.
+    # This is set by retrieve_batch_briefings.py (batch pipeline) or a prior --save run.
+    if not args.save and print_precomputed(run_date):
+        pass  # already printed; nothing more to do
+    else:
+        briefing = build_briefing(
+            run_date=run_date,
+            top_n=args.top,
+            use_rag=not args.no_rag,
+        )
 
-    if args.save and briefing["n_spikes"] > 0:
-        path = _save(briefing)
-        print(f"Saved: {path}")
+        if args.save and briefing["n_spikes"] > 0:
+            path = _save(briefing)
+            print(f"Saved: {path}")
