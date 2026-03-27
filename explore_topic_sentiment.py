@@ -23,18 +23,12 @@ Output tables:
 from __future__ import annotations
 
 import json
-from pathlib import Path
 
 import pandas as pd
 
-# ── Config ─────────────────────────────────────────────────────────────────────
-
-PROJECT_ROOT = Path(__file__).parent
-TOPIC_CLUSTERS_DIR = PROJECT_ROOT / "data" / "topic_clusters"
-SECTOR_SUMMARY     = PROJECT_ROOT / "data" / "sector_summary.tsv"
-TOPIC_TRENDS       = PROJECT_ROOT / "data" / "topic_trends.tsv"
-
-SENTIMENT_SCORE: dict[str, float] = {"positive": 1.0, "neutral": 0.0, "negative": -1.0}
+from cluster_topics import compute_topic_sentiment_detail
+from constants import TOPIC_CLUSTERS_DIR, TOPIC_TRENDS_FILE
+from pipeline.query_sector import load_summary
 
 # Dates to inspect — pick a few recent ones with known spikes
 TARGET_DATES = [
@@ -48,11 +42,14 @@ TARGET_DATES = [
 
 # ── Core join ──────────────────────────────────────────────────────────────────
 
-def load_sector_scores() -> pd.DataFrame:
-    """Return sector_summary with a numeric sentiment_score column."""
-    df = pd.read_csv(SECTOR_SUMMARY, sep="\t")
-    df["sentiment_score"] = df["sentiment"].map(SENTIMENT_SCORE)
-    # date-level mean (one score per date, across all sectors)
+def load_sector_scores() -> tuple[pd.DataFrame, pd.Series]:
+    """Return sector_summary DataFrame and per-date mean sentiment scores.
+
+    Delegates loading + sentiment_score column to pipeline.query_sector.load_summary().
+    The day_mean (one score per date, averaged across all sectors) is unique
+    to this validation script and computed here.
+    """
+    df = load_summary()
     day_mean = (
         df.groupby("date")["sentiment_score"]
         .mean()
@@ -61,64 +58,9 @@ def load_sector_scores() -> pd.DataFrame:
     return df, day_mean
 
 
-def compute_topic_sentiment(
-    cluster_date: str,
-    sector_df: pd.DataFrame,
-) -> pd.DataFrame:
-    """
-    Compute mean sentiment score for every topic in cluster_date's JSON.
-
-    Returns DataFrame: topic_id, n_articles, n_matched, mean_score, coverage_pct
-    """
-    cluster_file = TOPIC_CLUSTERS_DIR / f"{cluster_date}.json"
-    if not cluster_file.exists():
-        print(f"[warn] No cluster file for {cluster_date}")
-        return pd.DataFrame()
-
-    articles = pd.DataFrame(json.loads(cluster_file.read_text(encoding="utf-8")))
-
-    # Keep only clustered articles (noise has topic_id = null)
-    articles = articles[articles["topic_id"].notna()].copy()
-
-    # Normalise article date to YYYY-MM-DD (strip time component if present)
-    articles["article_date"] = (
-        articles["date"].astype(str).str[:10]
-    )
-
-    # Day-level mean sentiment: average across all sectors for each date
-    # This is the "indirect join" — we don't have per-article sentiment,
-    # only per-date-per-sector sentiment.
-    day_scores = (
-        sector_df.groupby("date")["sentiment_score"]
-        .mean()
-        .reset_index()
-        .rename(columns={"date": "article_date", "sentiment_score": "day_score"})
-    )
-
-    # Join articles to day-level scores
-    merged = articles.merge(day_scores, on="article_date", how="left")
-
-    # Aggregate per topic
-    rows = []
-    for topic_id, grp in merged.groupby("topic_id"):
-        matched = grp["day_score"].notna().sum()
-        rows.append({
-            "topic_id":     topic_id,
-            "n_articles":   len(grp),
-            "n_matched":    matched,
-            "mean_score":   grp["day_score"].mean(),          # NaN-aware
-            "coverage_pct": round(100 * matched / len(grp), 1),
-        })
-
-    return pd.DataFrame(rows).sort_values("mean_score")
 
 
 # ── Pretty output ──────────────────────────────────────────────────────────────
-
-SCORE_LABEL = {
-    lambda s: s > 0.20:  "positive",
-    lambda s: s < -0.20: "negative",
-}
 
 def score_to_label(s: float) -> str:
     if pd.isna(s):      return "n/a"
@@ -232,10 +174,10 @@ def spot_check_top_spike(
 def main() -> None:
     print("Loading sector scores...")
     sector_df, day_mean = load_sector_scores()
-    trends = pd.read_csv(TOPIC_TRENDS, sep="\t")
+    trends = pd.read_csv(TOPIC_TRENDS_FILE, sep="\t")
 
     for target_date in TARGET_DATES:
-        topic_df = compute_topic_sentiment(target_date, sector_df)
+        topic_df = compute_topic_sentiment_detail(target_date, sector_df)
         if topic_df.empty:
             print(f"\n[skip] {target_date} — no cluster file")
             continue
@@ -251,7 +193,7 @@ def main() -> None:
     print(f"  {'-'*12} {'-'*8} {'-'*8} {'-'*8}  {'-'*30}")
 
     for target_date in TARGET_DATES:
-        topic_df = compute_topic_sentiment(target_date, sector_df)
+        topic_df = compute_topic_sentiment_detail(target_date, sector_df)
         if topic_df.empty:
             continue
         scores = topic_df["mean_score"].dropna()

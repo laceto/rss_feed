@@ -17,20 +17,20 @@ Usage:
 from __future__ import annotations
 
 import argparse
-import subprocess
-import sys
+import json
 import time
 from datetime import date, timedelta
-from pathlib import Path
 
 import pandas as pd
 from dotenv import load_dotenv
 
+from cluster_topics import ClusteringAborted, DuplicateDateError, run as cluster_run
+from constants import BRIEFINGS_DIR, TOPIC_TRENDS_FILE
+from daily_briefing import build_briefing
+
 load_dotenv()
 
-PROJECT_ROOT = Path(__file__).parent
-TRENDS_FILE  = PROJECT_ROOT / "data" / "topic_trends.tsv"
-
+# Sep 2025 = first date with sector results in this deployment
 DEFAULT_START = date(2025, 9, 1)
 
 
@@ -47,32 +47,27 @@ def _trading_dates(start: date, end: date) -> list[date]:
 
 def _clustered_dates() -> set[str]:
     """Return the set of dates already in topic_trends.tsv."""
-    if not TRENDS_FILE.exists():
+    if not TOPIC_TRENDS_FILE.exists():
         return set()
-    df = pd.read_csv(TRENDS_FILE, sep="\t")
+    df = pd.read_csv(TOPIC_TRENDS_FILE, sep="\t")
     return set(df["date"].astype(str).unique())
 
 
 def _briefing_dates() -> set[str]:
     """Return dates that already have a briefing JSON."""
-    briefings_dir = PROJECT_ROOT / "data" / "briefings"
-    if not briefings_dir.exists():
+    if not BRIEFINGS_DIR.exists():
         return set()
-    return {p.stem for p in briefings_dir.glob("*.json")}
-
-
-def _run(cmd: list[str]) -> int:
-    """Run a subprocess and return its exit code."""
-    result = subprocess.run(cmd, cwd=PROJECT_ROOT)
-    return result.returncode
+    return {p.stem for p in BRIEFINGS_DIR.glob("*.json")}
 
 
 # -- Phase 1 ------------------------------------------------------------------
 
 def phase1_cluster(dates: list[date], sleep_s: float) -> dict:
-    """Run cluster_topics.py for every date not already in topic_trends.tsv.
+    """Run cluster_topics.run() for every date not already in topic_trends.tsv.
 
-    Exit code 2 = ClusteringAborted (weekend / sparse day) -> logged, not fatal.
+    ClusteringAborted (degenerate / no articles) is non-fatal — counted as
+    'aborted'. DuplicateDateError means the date is already present but was
+    not caught by _clustered_dates() — counted as 'skipped'.
     """
     done  = _clustered_dates()
     stats = {"skipped": 0, "clustered": 0, "aborted": 0, "errors": 0}
@@ -86,17 +81,19 @@ def phase1_cluster(dates: list[date], sleep_s: float) -> dict:
             continue
 
         print(f"[{i:>3}/{total}] {ds}  clustering ...", flush=True)
-        rc = _run([sys.executable, "cluster_topics.py", "--date", ds, "--skip-labeling"])
-
-        if rc == 0:
+        try:
+            cluster_run(target_date=d, skip_labeling=True)
             stats["clustered"] += 1
             print(f"[{i:>3}/{total}] {ds}  OK")
-        elif rc == 2:
+        except ClusteringAborted:
             stats["aborted"] += 1
             print(f"[{i:>3}/{total}] {ds}  ABORTED (degenerate / no articles)")
-        else:
+        except DuplicateDateError:
+            stats["skipped"] += 1
+            print(f"[{i:>3}/{total}] {ds}  SKIP (duplicate date in trends)")
+        except Exception as exc:  # noqa: BLE001
             stats["errors"] += 1
-            print(f"[{i:>3}/{total}] {ds}  ERROR exit={rc}")
+            print(f"[{i:>3}/{total}] {ds}  ERROR {exc}")
 
         if sleep_s > 0:
             time.sleep(sleep_s)
@@ -107,7 +104,17 @@ def phase1_cluster(dates: list[date], sleep_s: float) -> dict:
 # -- Phase 2 ------------------------------------------------------------------
 
 def phase2_briefing(dates: list[date], use_rag: bool, sleep_s: float) -> dict:
-    """Run daily_briefing.py for every date not already in data/briefings/."""
+    """Run build_briefing() for every date not already in data/briefings/.
+
+    Writes BRIEFINGS_DIR/{date}.json when spikes are found. Dates with no
+    spikes are counted separately — the file is intentionally not written so
+    the sentinel stays clear for a future re-run.
+
+    NOTE: build_briefing() calls sys.exit(1) if TOPIC_TRENDS_FILE is absent.
+          SystemExit is BaseException, not Exception, so it propagates through
+          the per-date except clause and aborts the loop — the correct behaviour
+          since all remaining dates would fail the same way.
+    """
     done  = _briefing_dates()
     stats = {"skipped": 0, "generated": 0, "no_spikes": 0, "errors": 0}
     total = len(dates)
@@ -120,22 +127,22 @@ def phase2_briefing(dates: list[date], use_rag: bool, sleep_s: float) -> dict:
             continue
 
         print(f"[{i:>3}/{total}] {ds}  briefing ...", flush=True)
-        cmd = [sys.executable, "daily_briefing.py", "--date", ds, "--save"]
-        if not use_rag:
-            cmd.append("--no-rag")
-
-        rc = _run(cmd)
-
-        if rc == 0:
-            if (PROJECT_ROOT / "data" / "briefings" / f"{ds}.json").exists():
+        try:
+            briefing = build_briefing(d, top_n=5, use_rag=use_rag)
+            if briefing.get("n_spikes", 0) > 0:
+                out = BRIEFINGS_DIR / f"{ds}.json"
+                BRIEFINGS_DIR.mkdir(parents=True, exist_ok=True)
+                out.write_text(
+                    json.dumps(briefing, indent=2, default=str), encoding="utf-8"
+                )
                 stats["generated"] += 1
                 print(f"[{i:>3}/{total}] {ds}  OK")
             else:
                 stats["no_spikes"] += 1
                 print(f"[{i:>3}/{total}] {ds}  OK (no spikes)")
-        else:
+        except Exception as exc:  # noqa: BLE001
             stats["errors"] += 1
-            print(f"[{i:>3}/{total}] {ds}  ERROR exit={rc}")
+            print(f"[{i:>3}/{total}] {ds}  ERROR {exc}")
 
         if sleep_s > 0:
             time.sleep(sleep_s)

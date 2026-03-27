@@ -332,6 +332,7 @@ Path constant: `SECTOR_DB_FILE` in `constants.py`.
 | File | Purpose |
 |---|---|
 | `constants.py` | **Single source of truth**: `SectorName` Literal, `SECTOR_TAXONOMY` list, `SENTIMENT_SCORE`, file paths, `EXPORT_LOOKBACK_DAYS`, `SECTOR_DB_FILE`, `VECTORSTORE_DIR`, `FEEDS_REGISTRY_FILE`, clustering params (`CLUSTER_WINDOW_DAYS=45`, `CLUSTER_MIN_SIZE=10`, `CLUSTER_MIN_SAMPLES=3`, `CLUSTER_MAX_NOISE_RATIO=0.90`, `CLUSTER_MIN_CLUSTERS=3`, `CLUSTER_SELECTION_METHOD="leaf"`), topic file paths (`TOPIC_CENTROIDS_FILE`, `TOPIC_LABELS_FILE`, `TOPIC_TRENDS_FILE`, `TOPIC_CLUSTERS_DIR`), briefing batch paths (`PENDING_BRIEFINGS_BATCH_FILE`, `BRIEFINGS_BATCH_META_FILE`, `BATCH_FILE_BRIEFINGS`, `BRIEFINGS_DIR`) |
+| `pipeline/` | Installable library package — see **pipeline/ Package** section below; `pip install -e .` exposes all submodules |
 | `query_sector.py` | `get_snapshot()` + `get_time_series()` + `get_all_sectors_pivot()` + `export_sector_pivot()` |
 | `query_entity.py` | `get_entity_snapshot()` + `get_entity_time_series()` + `get_all_entities_ts()` + `export_entity_ts()` |
 | `export_time_series.py` | CLI — calls both export functions; run after `read_sector_results.py` |
@@ -360,7 +361,66 @@ Path constant: `SECTOR_DB_FILE` in `constants.py`.
 | `old/` | Archived/experimental versions — not used in production (includes `chatbot6.py`, `trader_assistant.py`, `utils.py`, `create_batch_files.py`) |
 
 ### Strict Schema Note
-`create_batch_files_v2.py` uses `_make_openai_strict()` to convert the Pydantic schema to OpenAI strict JSON schema format (adds `additionalProperties: false` + `required[]` recursively). This replaces the former private SDK call `openai.lib._pydantic.to_strict_json_schema`.
+`create_batch_files_v2.py` (and `pipeline.batch_sector`) uses `make_openai_strict()` to convert the Pydantic schema to OpenAI strict JSON schema format (adds `additionalProperties: false` + `required[]` recursively). This replaces the former private SDK call `openai.lib._pydantic.to_strict_json_schema`. The canonical implementation lives in `pipeline/batch_sector.py`; `STRICT_SCHEMA` is the pre-computed result.
+
+### pipeline/ Package
+
+Installable library package (`pip install -e .`) that exposes the pipeline utilities as importable modules. All submodules use explicit parameters — no module-level side effects on import. `cluster_topics` is **not** in this package; import it directly from the top-level module.
+
+```
+pipeline/
+├── __init__.py          — re-exports all public symbols; defines __all__
+├── batch_briefings.py   — briefing batch: status check, result parsing, save (uses kitai.batch)
+├── batch_collect.py     — sector batch: sentinel read, status, download, routing (uses kitai.batch)
+├── batch_sector.py      — sector batch: Pydantic models, task building, submit (uses kitai.batch)
+├── hf_io.py             — HuggingFace Dataset I/O (feeds + analysis datasets)
+├── query_entity.py      — entity query API (re-uses helpers from query_sector)
+├── query_sector.py      — sector query API + shared helpers
+├── sector_io.py         — sector JSON reading and SQLite building
+├── sentiment_charts.py  — sentiment visualisation (3 static charts)
+└── topic_charts.py      — topic visualisation (6 static charts + animated GIF)
+```
+
+**Batch submission — sector (`pipeline.batch_sector`)**
+
+```python
+from pipeline.batch_sector import submit_batch, persist_batch_id
+
+# tasks built by build_batch_tasks(daily_contents)
+batch_id = submit_batch(tasks, client)
+# optionally write local JSONL audit copy:
+batch_id = submit_batch(tasks, client, batch_file=Path("data/batch_tasks_sector.jsonl"))
+persist_batch_id(batch_id, pending_file)
+```
+
+`submit_batch(tasks, client, batch_file=None) -> str`
+- Uses `kitai.batch.submit_batch_job(client, tasks, endpoint="/v1/chat/completions")` internally.
+- `batch_file` is optional; when provided a local JSONL copy is written before submission.
+- Signature changed from the original script: `batch_file` is now the third (optional) argument, not the second (required) one.
+
+**Batch collection — sector (`pipeline.batch_collect`)**
+
+```python
+from pipeline.batch_collect import (
+    read_pending_batch_id, check_batch_status, download_results, save_batch_results
+)
+
+batch_id = read_pending_batch_id(pending_file)          # sys.exit(1) if absent
+status   = check_batch_status(batch_id, client)         # sys.exit(2/1) on not-ready/failure
+items    = download_results(batch_id, client)           # kitai downloads + parses JSONL
+items    = download_results(batch_id, client,           # also saves local debug copy
+               output_file=Path("data/batch_output_sector.jsonl"))
+ok, fail = save_batch_results(items, batch_id, results_dir)
+```
+
+`check_batch_status(batch_id, client) -> dict`
+- Uses `kitai.batch.check_batch_job(client, batch_id)`.
+- Returns the kitai status dict on success: `{batch_id, status, is_terminal, is_complete, counts: {total, completed, failed}, output_file_id, error_file_id}`.
+- Preserves the sys.exit(2) / sys.exit(1) contract for CI.
+
+`download_results(batch_id, client, output_file=None) -> list[dict]`
+- Uses `kitai.batch.download_batch_results(client, batch_id)`.
+- Signature changed from original: first arg is now `batch_id: str` (not a batch object); `output_file` is now optional.
 
 ### Incremental Sentinel
 All batch scripts use file existence as the processed sentinel:

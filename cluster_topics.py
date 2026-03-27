@@ -48,6 +48,7 @@ from constants import (
     CLUSTER_WINDOW_DAYS,
     FEEDS_REGISTRY_FILE,
     SECTOR_SUMMARY_FILE,
+    SENTIMENT_SCORE,
     TOPIC_CENTROIDS_FILE,
     TOPIC_CLUSTERS_DIR,
     TOPIC_LABELS_FILE,
@@ -465,9 +466,6 @@ def save_label_cache(cache: dict[str, str], path: Path | str = TOPIC_LABELS_FILE
 
 _TRENDS_COLUMNS = ["date", "topic_id", "topic_label", "article_count", "sentiment_score"]
 
-# Sentiment numeric map (mirrors SENTIMENT_SCORE in constants.py)
-_SENTIMENT_SCORE: dict[str, float] = {"positive": 1.0, "neutral": 0.0, "negative": -1.0}
-
 
 def compute_topic_sentiment(
     cluster_date: str,
@@ -512,9 +510,11 @@ def compute_topic_sentiment(
     # Normalise article date to YYYY-MM-DD
     articles["article_date"] = articles["date"].astype(str).str[:10]
 
-    # Build day-level mean sentiment score from sector_summary
+    # Build day-level mean sentiment score from sector_summary.
+    # Direct read rather than pipeline.query_sector._load_summary() because
+    # _load_summary is private and uses a hardcoded path (not injectable).
     sector_df = pd.read_csv(Path(sector_summary_path), sep="\t")
-    sector_df["sentiment_score"] = sector_df["sentiment"].map(_SENTIMENT_SCORE)
+    sector_df["sentiment_score"] = sector_df["sentiment"].map(SENTIMENT_SCORE)
     day_scores = (
         sector_df.groupby("date")["sentiment_score"]
         .mean()
@@ -533,6 +533,63 @@ def compute_topic_sentiment(
             result[str(topic_id)] = float(mean_score)
 
     return result
+
+
+def compute_topic_sentiment_detail(
+    cluster_date: str,
+    sector_df: pd.DataFrame,
+    topic_clusters_dir: Path | str = TOPIC_CLUSTERS_DIR,
+) -> pd.DataFrame:
+    """Diagnostic variant of compute_topic_sentiment — returns a full DataFrame.
+
+    Same join as compute_topic_sentiment but exposes per-topic match statistics
+    for validation and exploration use cases.
+
+    Args:
+        cluster_date:       Date string YYYY-MM-DD (matches cluster JSON filename).
+        sector_df:          Pre-loaded sector DataFrame with a numeric
+                            sentiment_score column (e.g. from pipeline.query_sector.load_summary()).
+        topic_clusters_dir: Directory containing per-date cluster JSONs.
+
+    Returns:
+        DataFrame with columns: topic_id, n_articles, n_matched, mean_score,
+        coverage_pct — sorted by mean_score ascending.
+        Returns an empty DataFrame when the cluster file does not exist.
+    """
+    cluster_file = Path(topic_clusters_dir) / f"{cluster_date}.json"
+    if not cluster_file.exists():
+        return pd.DataFrame()
+
+    articles = pd.DataFrame(json.loads(cluster_file.read_text(encoding="utf-8")))
+    articles = articles[articles["topic_id"].notna()].copy()
+    if articles.empty:
+        return pd.DataFrame()
+
+    articles["article_date"] = articles["date"].astype(str).str[:10]
+
+    # Day-level mean sentiment: average across all sectors per date.
+    # sector_df is injected by the caller so path resolution stays outside this function.
+    day_scores = (
+        sector_df.groupby("date")["sentiment_score"]
+        .mean()
+        .reset_index()
+        .rename(columns={"date": "article_date", "sentiment_score": "day_score"})
+    )
+
+    merged = articles.merge(day_scores, on="article_date", how="left")
+
+    rows = []
+    for topic_id, grp in merged.groupby("topic_id"):
+        matched = grp["day_score"].notna().sum()
+        rows.append({
+            "topic_id":     topic_id,
+            "n_articles":   len(grp),
+            "n_matched":    int(matched),
+            "mean_score":   grp["day_score"].mean(),   # NaN-aware
+            "coverage_pct": round(100 * matched / len(grp), 1),
+        })
+
+    return pd.DataFrame(rows).sort_values("mean_score")
 
 
 def append_trends(

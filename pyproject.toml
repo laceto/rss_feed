@@ -26,3 +26,8 @@ dependencies = [
 # hybrid_rag  -> provides ask(), the public API
 # constants   -> re-exported constants (VECTORSTORE_DIR, SECTOR_TAXONOMY, …)
 py-modules = ["hybrid_rag", "constants", "cluster_topics"]
+
+# pipeline/ package — reusable utilities for the daily analysis pipeline.
+# Import as: from pipeline.hf_io import load_feeds_from_hf
+# or:        from pipeline import load_feeds_from_hf
+packages = ["pipeline"]

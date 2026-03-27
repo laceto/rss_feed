@@ -33,7 +33,7 @@ Usage:
 
 Failure modes:
   - OPENAI_API_KEY missing: fails on kitai.batch.submit_batch_job()
-  - FAISS missing: fails on _get_resources() with FileNotFoundError
+  - FAISS missing: fails on get_resources() with FileNotFoundError
   - topic_trends.tsv absent: exits with instructions
   - All dates already processed: exits cleanly with no submission
 """
@@ -52,9 +52,6 @@ from openai import OpenAI
 
 load_dotenv()
 
-PROJECT_ROOT = Path(__file__).parent
-sys.path.insert(0, str(PROJECT_ROOT))
-
 from cluster_topics import get_emerging_topics
 from constants import (
     BATCH_FILE_BRIEFINGS,
@@ -68,7 +65,7 @@ from hybrid_rag import (
     K_SEMANTIC,
     WEIGHTS_SPARSE,
     CHAT_MODEL,
-    _get_resources,
+    get_resources,
 )
 from kitai.batch import submit_batch_job
 from kitai.retriever import (
@@ -94,7 +91,7 @@ def _retrieve_docs_for_label(label: str, res: dict) -> list[dict]:
 
     Args:
         label: Human-readable topic label used as the retrieval query.
-        res:   Resource dict from hybrid_rag._get_resources().
+        res:   Resource dict from hybrid_rag.get_resources().
 
     Returns:
         List of source dicts with keys: title, date, link, snippet, guid.
@@ -283,7 +280,7 @@ def main() -> None:
 
     # ── Load FAISS + BM25 once ───────────────────────────────────────────────
     print("\nLoading FAISS + BM25 resources (one-time init)...")
-    res = _get_resources()
+    res = get_resources()
     print(f"Resources ready: {len(res['corpus'])} documents in corpus.")
 
     # ── Build tasks ───────────────────────────────────────────────────────────

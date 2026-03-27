@@ -32,23 +32,15 @@ import json
 import logging
 import sys
 from datetime import date, datetime
-from pathlib import Path
 
 import pandas as pd
 from dotenv import load_dotenv
 
 load_dotenv()
 
-# ── Paths ─────────────────────────────────────────────────────────────────────
-
-PROJECT_ROOT = Path(__file__).parent
-sys.path.insert(0, str(PROJECT_ROOT))
-
 from cluster_topics import get_emerging_topics
-from constants import TOPIC_TRENDS_FILE
+from constants import BRIEFINGS_DIR, TOPIC_TRENDS_FILE
 from query_sector import get_time_series, list_sectors
-
-BRIEFINGS_DIR = PROJECT_ROOT / "data" / "briefings"
 
 logging.basicConfig(
     level=logging.WARNING,          # suppress INFO from hybrid_rag / langchain
@@ -240,7 +232,7 @@ def build_briefing(
         }
     """
     # ── Load trends ──────────────────────────────────────────────────────────
-    trends_path = Path(TOPIC_TRENDS_FILE)
+    trends_path = TOPIC_TRENDS_FILE
     if not trends_path.exists():
         print(
             f"ERROR: {trends_path} not found.\n"

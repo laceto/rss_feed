@@ -390,6 +390,18 @@ def _get_resources() -> dict:
     return _lazy
 
 
+def get_resources() -> dict:
+    """Return the cached RAG resource dict (FAISS store, BM25 corpus, clients).
+
+    Callers that need retrieval without LLM generation (e.g. batch submission
+    scripts) use this to load FAISS + BM25 without triggering a full ask() call.
+
+    Returns:
+        dict with keys: openai_client, chat_model, vs, corpus
+    """
+    return _get_resources()
+
+
 def ask(
     query: str,
     strategy: str = QUERY_TRANSLATION_STRATEGY,

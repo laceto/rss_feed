@@ -63,15 +63,23 @@ python daily_briefing.py --save        # generate briefing
 ```
 
 ### Querying data
+
+Via the `pipeline` package (recommended after `pip install -e .`):
 ```python
-from query_sector import get_snapshot, get_time_series
-from query_entity import get_entity_snapshot, get_entity_time_series
+from pipeline.query_sector import get_snapshot, get_time_series
+from pipeline.query_entity import get_entity_snapshot, get_entity_time_series
 
 # Sector snapshot
 snap = get_snapshot("Technology Services")
 
 # Entity trend
 ts = get_entity_time_series("Nvidia", lookback_days=60)
+```
+
+Or directly from the top-level scripts (no install needed):
+```python
+from query_sector import get_snapshot, get_time_series
+from query_entity import get_entity_snapshot, get_entity_time_series
 ```
 
 ### RAG chatbot
