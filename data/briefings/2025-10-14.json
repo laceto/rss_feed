@@ -1,0 +1,227 @@
+{
+  "date": "2025-10-14",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "4eb772eb-d02a-4921-8e56-755d08b0d18e",
+      "label": "Trump Tariffs and Inflation Impact",
+      "spike_ratio": 2.177,
+      "article_count": 27,
+      "rag_answer": "Trump's tariffs are increasingly being recognized for their inflationary impact, with economists predicting that the effects will become more pronounced in consumer prices. Recent reports indicate that while some companies initially absorbed the costs of tariffs, the holiday shopping season is expected to reveal more significant price increases. The Supreme Court's upcoming decision on the tariffs adds uncertainty to the market, with Wall Street bracing for potential fallout. Overall, the consensus among economists is that the inflationary effects of these tariffs are still unfolding, with more impacts anticipated in the near future.",
+      "rag_sources": [
+        {
+          "title": "Tariffs face an uncertain future after Supreme Court hearing. Here are the potential market impacts",
+          "date": "2025-11-05",
+          "link": "https://www.cnbc.com/2025/11/05/tariffs-face-an-uncertain-future-after-supreme-court-hearing-here-are-the-potential-market-impacts.html",
+          "snippet": "2025-11-05: Tariffs face an uncertain future after Supreme Court hearing. Here are the potential market impacts: Wall Street is bracing for the fallout, with sweeping impacts expected but to an unknow",
+          "guid": "108221795"
+        },
+        {
+          "title": "See the full list of U.S. tariffs in place around the world",
+          "date": "2025-08-07",
+          "link": "https://www.cnbc.com/2025/08/07/the-full-list-of-us-tariffs-in-place-around-the-world.html",
+          "snippet": "2025-08-07: See the full list of U.S. tariffs in place around the world: Tariffs on dozens of key U.S. trading partners came into effect Thursday.",
+          "guid": "108182842"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "First rare earths and chips, now quantum computers: Trump reportedly eyes new U.S. stakes",
+          "date": "2025-10-23",
+          "link": "https://www.cnbc.com/2025/10/23/first-rare-earths-and-chips-now-quantum-computers-trump-reportedly-eyes-new-us-stakes.html",
+          "snippet": "2025-10-23: First rare earths and chips, now quantum computers: Trump reportedly eyes new U.S. stakes: The Commerce Department later denied that active talks were happening with the companies.",
+          "guid": "108215776"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.25,
+          "mean_sentiment_score": 0.118,
+          "data_age_days": null
+        },
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "0d20e23d-6795-477d-bb84-20b28b10b364",
+      "label": "Ukraine peace talks dynamics",
+      "spike_ratio": 1.477,
+      "article_count": 26,
+      "rag_answer": "The Ukraine peace talks have seen significant developments, with U.S. officials reporting progress in negotiations between Ukraine and Russia, particularly following a meeting between U.S. Special Envoy Steve Witkoff and Russian President Vladimir Putin. Despite this progress, there remains uncertainty regarding security guarantees for Ukraine, and Putin has expressed a cautious stance towards the proposed peace plan. Market reactions have been notable, with European defense stocks experiencing declines as optimism for a peace deal grows, while gas prices have also fallen amid these negotiations. Overall, the dynamics of the talks suggest a potential shift towards resolution, but challenges remain.",
+      "rag_sources": [
+        {
+          "title": "Ukraine peace talks progressing, Russia open to EU membership, U.S. officials say",
+          "date": "2025-12-15",
+          "link": "https://www.cnbc.com/2025/12/15/ukraine-peace-talks-russia-eu-us-trump.html",
+          "snippet": "2025-12-15: Ukraine peace talks progressing, Russia open to EU membership, U.S. officials say: The war in Ukraine began nearly four years ago, when Russia invaded at the direction of its leader, Vladi",
+          "guid": "108241899"
+        },
+        {
+          "title": "Ukraine peace talks shift to Moscow \u2014 the big unknown is whether Putin will play ball",
+          "date": "2025-12-01",
+          "link": "https://www.cnbc.com/2025/12/01/russia-under-pressure-as-ukraine-peace-talks-shift-to-moscow.html",
+          "snippet": "2025-12-01: Ukraine peace talks shift to Moscow \u2014 the big unknown is whether Putin will play ball: U.S. Special Envoy Steve Witkoff is travelling to Moscow on Monday and is due to meet Russian Preside",
+          "guid": "108234209"
+        },
+        {
+          "title": "European defense stocks and gas prices fall as U.S., Ukraine make progress on peace plan",
+          "date": "2025-11-24",
+          "link": "https://www.cnbc.com/2025/11/24/europe-defense-stocks-fall-as-us-ukraine-make-progress-on-peace-plan.html",
+          "snippet": "2025-11-24: European defense stocks and gas prices fall as U.S., Ukraine make progress on peace plan: The U.S. said Sunday that there had been progress in talks at the weekend but that no agreement wa",
+          "guid": "108230743"
+        },
+        {
+          "title": "All eyes on Russia as it weighs Ukraine peace plan with caution",
+          "date": "2025-11-26",
+          "link": "https://www.cnbc.com/2025/11/26/russia-responds-to-fledgling-ukraine-peace-plan.html",
+          "snippet": "2025-11-26: All eyes on Russia as it weighs Ukraine peace plan with caution: There's been little official comment from Moscow regarding a revised U.S.-brokered peace plan for Ukraine.",
+          "guid": "108232279"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "7414a4dc-4f2f-4f00-aaab-b1ec476cbab7",
+      "label": "AI Chip Market Developments",
+      "spike_ratio": 1.446,
+      "article_count": 72,
+      "rag_answer": "The AI chip market is experiencing significant developments, driven by robust demand and strategic advancements from major players like Nvidia, AMD, and Broadcom. Nvidia is set to unveil specialized processors for agentic AI at its upcoming GTC conference, highlighting the growing focus on AI capabilities. Additionally, Meta has introduced its in-house AI chips to support its data center expansion, indicating a shift towards self-sufficiency in chip production among tech giants. These developments suggest a competitive landscape where companies are racing to enhance their AI infrastructure, potentially leading to supply shortages and increased prices for consumer electronics.",
+      "rag_sources": [
+        {
+          "title": "What the Iran war market turmoil means for those nearing retirement",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/iran-war-market-volatility-retirement.html",
+          "snippet": "2026-03-05: What the Iran war market turmoil means for those nearing retirement: Market shakiness may not concern long-term investors, but it could be a useful wake-up call for those on the precipice ",
+          "guid": "108272020"
+        },
+        {
+          "title": "Chip stocks including Nvidia are holding up despite market volatility, according to the charts",
+          "date": "2026-03-10",
+          "link": "https://www.cnbc.com/2026/03/10/chip-stocks-including-nvidia-are-holding-up-despite-market-volatility-according-to-the-charts.html",
+          "snippet": "2026-03-10: Chip stocks including Nvidia are holding up despite market volatility, according to the charts: Todd Gordon takes a look at the technicals in Nvidia and other chipmakers.",
+          "guid": "108276190"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Market concentration around AI darlings persists. It's making investors worried",
+          "date": "2025-08-16",
+          "link": "https://www.cnbc.com/2025/08/16/market-concentration-around-ai-darlings-persists-its-making-investors-worried.html",
+          "snippet": "2025-08-16: Market concentration around AI darlings persists. It's making investors worried: Investors worry that a stock market priced for perfection is vulnerable to some sort of setback.",
+          "guid": "108186696"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "4761f37d-27cd-4139-ae34-f7ba6d6fa059",
+      "label": "Epstein Files and Political Reactions",
+      "spike_ratio": 1.149,
+      "article_count": 34,
+      "rag_answer": "The release of Jeffrey Epstein files has been a contentious issue, with the Department of Justice (DOJ) facing criticism for its handling of the documents, including accusations of redaction and delays. Key political figures, including House Democrats, are pushing for transparency and accountability, leading to subpoenas for testimony from high-profile individuals and government officials. The ongoing scrutiny has implications for the market, as investors are concerned about the political risks associated with the Trump administration's actions and the potential fallout from the Epstein scandal, which continues to affect high-profile individuals and institutions. Overall, the situation reflects a complex interplay between legal proceedings, political pressures, and market reactions.",
+      "rag_sources": [
+        {
+          "title": "Jeffrey Epstein: Dems say DOJ breaking law with plan to release files over time",
+          "date": "2025-12-19",
+          "link": "https://www.cnbc.com/2025/12/19/jeffrey-epstein-files-doj-release-order-maxwell.html",
+          "snippet": "2025-12-19: Jeffrey Epstein: Dems say DOJ breaking law with plan to release files over time: President Donald Trump signed the Epstein Files Transparency Act in November.",
+          "guid": "108244015"
+        },
+        {
+          "title": "Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/epstein-doj-bondi-trump.html",
+          "snippet": "2026-03-05: Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports: The top lawyer for Goldman Sachs, Bill Gates, Leon Black and others are expected to testify soon a",
+          "guid": "108274237"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Political risk: How Trump 2.0 is affecting investment in U.S. assets",
+          "date": "2026-02-01",
+          "link": "https://www.cnbc.com/2026/02/01/political-risk-how-trump-2point0-is-affecting-investment-in-us-assets.html",
+          "snippet": "2026-02-01: Political risk: How Trump 2.0 is affecting investment in U.S. assets: Political risk: How Trump 2.0 is affecting investment in U.S. assets",
+          "guid": "108259074"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "efc45022-a04e-4a18-8e57-b284b55bb483",
+      "label": "Government Shutdown Negotiations",
+      "spike_ratio": 1.125,
+      "article_count": 45,
+      "rag_answer": "The government shutdown, which began on October 1, 2025, has become the second longest in U.S. history, with ongoing negotiations between Democrats and President Trump failing to yield a resolution. Senate funding measures have repeatedly failed, leading to concerns about potential layoffs of federal workers and uncertainty in commercial real estate and investor confidence. Market reactions have been mixed, with Wall Street questioning the potential risks of the shutdown compared to previous instances, and some analysts suggesting that the markets could experience volatility if the deadlock continues. As the shutdown drags on, the pressure is mounting on Congress and the Trump administration to reach an agreement, especially with the looming impact on military pay and economic data collection.",
+      "rag_sources": [
+        {
+          "title": "How a U.S. government shutdown could impact global markets",
+          "date": "2025-10-01",
+          "link": "https://www.cnbc.com/2025/10/01/how-a-us-government-shutdown-could-impact-global-markets.html",
+          "snippet": "2025-10-01: How a U.S. government shutdown could impact global markets: Global investors are weighing how much of an impact the shutdown may have on markets.",
+          "guid": "108206219"
+        },
+        {
+          "title": "Government shutdowns usually have little economic impact. This time could be different",
+          "date": "2025-09-30",
+          "link": "https://www.cnbc.com/2025/09/29/government-shutdowns-usually-have-little-economic-impact-this-time-could-be-different.html",
+          "snippet": "2025-09-30: Government shutdowns usually have little economic impact. This time could be different: For all the political firestorms they generate, government shutdowns have been nonevents for both ma",
+          "guid": "108205106"
+        },
+        {
+          "title": "Government shutdown becomes 2nd longest in U.S. history",
+          "date": "2025-10-22",
+          "link": "https://www.cnbc.com/2025/10/22/government-shutdown-trump-democrats.html",
+          "snippet": "2025-10-22: Government shutdown becomes 2nd longest in U.S. history: Democrats want President Donald Trump to get involved in shutdown negotiations. Senate Majority Leader John Thune says, \\Open up th",
+          "guid": "108215328"
+        },
+        {
+          "title": "Schumer presses Trump to negotiate with Democrats as government shutdown deadline nears",
+          "date": "2025-09-21",
+          "link": "https://www.cnbc.com/2025/09/21/trump-schumer-government-shutdown-funding-.html",
+          "snippet": "2025-09-21: Schumer presses Trump to negotiate with Democrats as government shutdown deadline nears: The Senate last week rejected proposals to keep the government funded at least temporarily,  raisin",
+          "guid": "108201678"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

@@ -26,7 +26,27 @@ jobs:
         cache: 'pip'
 
     - name: Install Python dependencies
-      run: pip install openai pydantic python-dotenv pandas
+      run: pip install openai pydantic python-dotenv pandas datasets huggingface_hub
+
+    - name: Push new feeds to Hugging Face
+      env:
+        HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        HUGGINGFACE_REPO: ${{ secrets.HUGGINGFACE_REPO }}
+      run: python push_new_feeds_to_hf.py
+
+    - name: Verify HF dataset updated
+      env:
+        HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        HUGGINGFACE_REPO: ${{ secrets.HUGGINGFACE_REPO }}
+      run: |
+        python -c "
+        import os
+        from datasets import load_dataset
+        ds = load_dataset(os.environ['HUGGINGFACE_REPO'], split='train', token=os.environ['HF_TOKEN'])
+        dates = [d for d in ds['pubDate'] if d]
+        print(f'HF dataset rows: {len(ds)}')
+        print(f'Latest pubDate: {max(dates)}')
+        "
 
     - name: Submit sector batch
       env:

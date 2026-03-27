@@ -1,0 +1,204 @@
+{
+  "date": "2026-01-15",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "a21f7800-1019-4647-adfd-df0863c955d0",
+      "label": "Fed rate cuts and outlook",
+      "spike_ratio": 1.477,
+      "article_count": 26,
+      "rag_answer": "Recent developments indicate a divided stance among Federal Reserve officials regarding interest rate cuts, with discussions suggesting two additional cuts by the end of 2025. Fed Chair Powell has indicated that conditions may warrant cuts, but uncertainty remains high. As of December 2025, the Fed is expected to implement its third consecutive rate cut, although there are concerns about inflation that could impact future decisions. Market expectations for further cuts in 2026 are diminishing, particularly as inflation fears rise, suggesting a cautious outlook moving forward.",
+      "rag_sources": [
+        {
+          "title": "Divided Fed officials saw another two interest rate cuts by the end of 2025, minutes show",
+          "date": "2025-10-08",
+          "link": "https://www.cnbc.com/2025/10/08/fed-minutes-september-2025.html",
+          "snippet": "2025-10-08: Divided Fed officials saw another two interest rate cuts by the end of 2025, minutes show: Officials were strongly inclined to lower rates, with the only dispute seeming to be over how man",
+          "guid": "108209324"
+        },
+        {
+          "title": "Powell indicates conditions 'may warrant' interest rate cuts as Fed proceeds 'carefully'",
+          "date": "2025-08-22",
+          "link": "https://www.cnbc.com/2025/08/22/powell-indicates-conditions-may-warrant-interest-rate-cuts-as-fed-proceeds-carefully.html",
+          "snippet": "2025-08-22: Powell indicates conditions 'may warrant' interest rate cuts as Fed proceeds 'carefully': Powell on Friday gave a tepid indication of possible cuts ahead as he noted a high level of uncert",
+          "guid": "108189532"
+        },
+        {
+          "title": "The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/09/the-fed-decision-is-expected-to-feature-a-rate-cut-and-a-lot-more-heres-what-to-expect.html",
+          "snippet": "2025-12-10: The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect: The central bank is poised to deliver its third straight interest rate cut Wednesday, while firing a ",
+          "guid": "108239042"
+        },
+        {
+          "title": "Fed's Goolsbee calls for a hold on cuts as current rate of inflation is 'not good enough'",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/feds-goolsbee-calls-for-a-hold-on-cuts-as-current-rate-of-inflation-is-not-good-enough.html",
+          "snippet": "2026-02-24: Fed's Goolsbee calls for a hold on cuts as current rate of inflation is 'not good enough': The Chicago Fed president said Tuesday that cuts aren't appropriate until there's more evidence t",
+          "guid": "108269037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "08492936-46b7-490a-9566-b8596215d412",
+      "label": "Trump's Greenland Acquisition Controversy",
+      "spike_ratio": 1.364,
+      "article_count": 30,
+      "rag_answer": "President Donald Trump's ambitions to acquire Greenland have escalated, drawing significant geopolitical attention and concern. Following military actions in Venezuela, Trump has threatened a takeover of Greenland, prompting bewilderment among Greenlanders and defiance from their Prime Minister, who stated they would not be pressured by U.S. tariffs. European leaders have also condemned Trump's tariff threats as \"unacceptable,\" indicating potential market volatility. The situation has raised alarms in China and has implications for international relations, particularly in the Arctic region, suggesting that markets could react negatively to the ongoing tensions.",
+      "rag_sources": [
+        {
+          "title": "CNBC Daily Open: Trump's Greenland ambitions have global repercussions",
+          "date": "2026-01-09",
+          "link": "https://www.cnbc.com/2026/01/09/cnbc-daily-open-trumps-greenland-ambitions-have-global-repercussions.html",
+          "snippet": "2026-01-09: CNBC Daily Open: Trump's Greenland ambitions have global repercussions: U.S. President Donald Trump's ambitions around Greenland are rapidly gaining concrete form \u2014 that is, evolving from ",
+          "guid": "108250347"
+        },
+        {
+          "title": "Greenlanders 'bewildered' by Trump\u2019s 'devastating' takeover threats, business minister tells CNBC",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/trump-greenland-takeover-threats-tariffs-naaja-nathanielsen.html",
+          "snippet": "2026-01-20: Greenlanders 'bewildered' by Trump\u2019s 'devastating' takeover threats, business minister tells CNBC: Greenland has been thrust into the geopolitical spotlight by President Donald Trump's tak",
+          "guid": "108254262"
+        },
+        {
+          "title": "Trump wants Greenland. If it were for sale, it could cost trillions",
+          "date": "2026-01-08",
+          "link": "https://www.cnbc.com/2026/01/08/trump-greenland-cost-denmark.html",
+          "snippet": "2026-01-08: Trump wants Greenland. If it were for sale, it could cost trillions: Trump's rhetoric about Greenland has flared back up in the days since the U.S. military entered Venezuela and captured ",
+          "guid": "108249355"
+        },
+        {
+          "title": "Trump\u2019s Greenland gambit puts China on edge after Venezuela operation",
+          "date": "2026-01-08",
+          "link": "https://www.cnbc.com/2026/01/08/us-trump-china-greenland-denmark-arctic-tensions-trump-rare-earth-elements-minerals-mining.html",
+          "snippet": "2026-01-08: Trump\u2019s Greenland gambit puts China on edge after Venezuela operation: U.S. President Donald Trump's threat to take control of Greenland raised alarms in Beijing as nations vye for the vas",
+          "guid": "108249089"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "9ff8b711-a142-4bf0-a2ce-a868bcd756a8",
+      "label": "Robotaxi Developments and EV Market",
+      "spike_ratio": 1.302,
+      "article_count": 25,
+      "rag_answer": "The robotaxi industry is experiencing significant momentum, with major players like Waymo, Tesla, and Rivian making strides in technology and deployment. Lucid and Xpeng are also entering the market, indicating a broader expansion into robotaxis and autonomous vehicles. Uber's substantial investment in Rivian to launch 50,000 robotaxis highlights the growing interest and competition in this sector. However, traditional automakers like GM and Ford are facing challenges, including financial setbacks and declining EV sales, suggesting a complex landscape for the EV market as it adapts to these emerging technologies.",
+      "rag_sources": [
+        {
+          "title": "EV maker Lucid reveals plans for robotaxi, positive free cash flow late this decade",
+          "date": "2026-03-12",
+          "link": "https://www.cnbc.com/2026/03/12/lucid-investor-day.html",
+          "snippet": "2026-03-12: EV maker Lucid reveals plans for robotaxi, positive free cash flow late this decade: The EV company is aiming to hit that target through market expansion into midsize vehicles, robotaxis a",
+          "guid": "108277205"
+        },
+        {
+          "title": "Rivian announces new AI tech, in-house chip and robotaxi ambitions",
+          "date": "2025-12-11",
+          "link": "https://www.cnbc.com/2025/12/11/rivian-autonomy-ai-day.html",
+          "snippet": "2025-12-11: Rivian announces new AI tech, in-house chip and robotaxi ambitions: The company has also developed AI models to power its Autonomy+ subscription, which it intends to roll out early next ye",
+          "guid": "108240446"
+        },
+        {
+          "title": "\u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises",
+          "date": "2025-11-20",
+          "link": "https://www.cnbc.com/2025/11/20/global-robotaxi-race-heats-up-between-us-and-chinese-rivals.html",
+          "snippet": "2025-11-20: \u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises: Global tech executives in recent weeks have proclaimed the robotaxi industry is finally nea",
+          "guid": "108226580"
+        },
+        {
+          "title": "Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/waymo-amazon-zoox-tesla-robotaxi-expansion.html",
+          "snippet": "2025-12-16: Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line: Robotaxis grew rapidly in 2025 with Waymo expanding fastest, Zoox debuting public rides and Tesla ",
+          "guid": "108236372"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "2e955eac-a74a-4c42-be9f-b871d12feb52",
+      "label": "Market Trends and Stock Movements",
+      "spike_ratio": 1.259,
+      "article_count": 36,
+      "rag_answer": "The stock market has experienced significant volatility, with benchmarks reaching record highs due to easing inflation, strong corporate earnings, and expectations of U.S. rate cuts. However, recent sentiment has reversed, indicating potential concerns about an economic slowdown, as suggested by Stifel's warning of a stagflation environment. Despite this, certain sectors, particularly those related to AI and retail, have shown resilience and momentum. Investors are advised to carefully assess market conditions before making trades, as opportunities may arise amidst the fluctuations.",
+      "rag_sources": [
+        {
+          "title": "Stock market swings got you reeling? Answer these 6 questions before making a trade",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/stock-market-swings-got-you-reeling-answering-6-questions-will-help.html",
+          "snippet": "2025-11-28: Stock market swings got you reeling? Answer these 6 questions before making a trade: Frustrating as volatility can be, it also tends to present opportunities.",
+          "guid": "108232626"
+        },
+        {
+          "title": "Stock benchmarks are scaling record highs: 'Animal spirits are soaring' ",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/stock-benchmarks-are-scaling-record-highs-animal-spirits-are-soaring-.html",
+          "snippet": "2025-09-11: Stock benchmarks are scaling record highs: 'Animal spirits are soaring': Easing inflation pressures,\u00a0resilient corporate earnings and expectations for U.S. rate cuts have boosted investor ",
+          "guid": "108197275"
+        },
+        {
+          "title": "Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward",
+          "date": "2025-12-26",
+          "link": "https://www.cnbc.com/2025/12/26/market-sentiment-has-made-a-huge-reversal-heres-why-and-what-it-means-going-forward.html",
+          "snippet": "2025-12-26: Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward: Something unusual happened in the past few weeks.",
+          "guid": "108245814"
+        },
+        {
+          "title": "Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel",
+          "date": "2025-08-11",
+          "link": "https://www.cnbc.com/2025/08/11/stock-market-party-to-be-ruined-by-sudden-economic-slowdown-says-stifel.html",
+          "snippet": "2025-08-11: Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel: The market could be in for a stagflation environment, the firm said.",
+          "guid": "108184067"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "5cc221ba-5416-492e-bfa3-c1552998cc5f",
+      "label": "Jeffrey Epstein investigation updates",
+      "spike_ratio": 1.25,
+      "article_count": 21,
+      "rag_answer": "The investigation into Jeffrey Epstein continues to unfold with significant developments, including the Department of Justice (DOJ) planning to release new documents related to Epstein and Ghislaine Maxwell, amid scrutiny from Congress and victims. High-profile individuals, including top lawyers and financiers, are expected to testify, indicating a potential escalation in accountability for those involved. The release of documents has sparked controversy over redactions and the handling of sensitive information, which could impact public trust in the DOJ and related institutions. These ongoing revelations may influence market sentiment, particularly for financial institutions linked to Epstein, as they navigate reputational risks and potential legal ramifications.",
+      "rag_sources": [
+        {
+          "title": "Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/epstein-doj-bondi-trump.html",
+          "snippet": "2026-03-05: Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports: The top lawyer for Goldman Sachs, Bill Gates, Leon Black and others are expected to testify soon a",
+          "guid": "108274237"
+        },
+        {
+          "title": "Jeffrey Epstein island photos and videos released as top banks share files with House Oversight Committee ",
+          "date": "2025-12-03",
+          "link": "https://www.cnbc.com/2025/12/03/epstein-files-jpmorgan-deutsche-bank-virgin-islands.html",
+          "snippet": "2025-12-03: Jeffrey Epstein island photos and videos released as top banks share files with House Oversight Committee: The release comes as Attorney General Pam Bondi is on a deadline to publicly shar",
+          "guid": "108236053"
+        },
+        {
+          "title": "DOJ urges release of Jeffrey Epstein and Ghislaine Maxwell grand jury info in new filings",
+          "date": "2025-07-30",
+          "link": "https://www.cnbc.com/2025/07/30/jeffrey-epstein-ghislaine-maxwell-victims-trump.html",
+          "snippet": "2025-07-30: DOJ urges release of Jeffrey Epstein and Ghislaine Maxwell grand jury info in new filings: The Trump administration has faced pressure this month to release information in criminal files r",
+          "guid": "108178938"
+        },
+        {
+          "title": "Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents",
+          "date": "2025-12-23",
+          "link": "https://www.cnbc.com/2025/12/23/epstein-files-doj-release-trump.html",
+          "snippet": "2025-12-23: Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents: The release comes amid intense scrutiny from congressional lawmakers and victims ove",
+          "guid": "108244822"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "date": "2026-01-27",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "98f2b667-e4df-4662-8af7-4b0e530dab68",
+      "label": "Housing Market Trends and Challenges",
+      "spike_ratio": 1.515,
+      "article_count": 25,
+      "rag_answer": "The housing market is facing significant challenges, with Goldman Sachs predicting an 8% decline in the second half of 2025 due to immigration and affordability issues. Despite a recent drop in mortgage rates, many potential homebuyers feel priced out, leading to a more than 8% drop in home sales in January 2026. However, there are signs of optimism as real estate agents report a balancing market, and a housing affordability package is advancing in Congress, aimed at reducing regulations for homebuilders and incentivizing local governments. Overall, while there are efforts to address affordability, elevated home prices and mortgage rates continue to hinder market recovery.",
+      "rag_sources": [
+        {
+          "title": "Housing to remain weakest part of economy, falling 8% in the second half, Goldman says",
+          "date": "2025-08-04",
+          "link": "https://www.cnbc.com/2025/08/04/housing-to-remain-weakest-part-of-economy-in-the-2nd-half-goldman-says.html",
+          "snippet": "2025-08-04: Housing to remain weakest part of economy, falling 8% in the second half, Goldman says: The Wall Street investment bank named immigration and affordability challenges as two obstacles stan",
+          "guid": "108181055"
+        },
+        {
+          "title": "Housing affordability package set to advance in Congress amid home-cost concerns",
+          "date": "2026-02-10",
+          "link": "https://www.cnbc.com/2026/02/09/housing-affordability-prices-congress.html",
+          "snippet": "2026-02-10: Housing affordability package set to advance in Congress amid home-cost concerns: Wide-ranging legislation would reduce regulations for homebuilders while giving local governments incentiv",
+          "guid": "108262990"
+        },
+        {
+          "title": "What to expect from the housing market in 2026\u2014and the 10 major cities where prices could fall the most",
+          "date": "2025-12-31",
+          "link": "https://www.cnbc.com/2025/12/31/housing-market-outlook-for-2026and-10-cities-where-prices-may-fall.html",
+          "snippet": "2025-12-31: What to expect from the housing market in 2026\u2014and the 10 major cities where prices could fall the most: Home prices and mortgage rates will remain elevated in 2026, but slower price growt",
+          "guid": "108246806"
+        },
+        {
+          "title": "Here's what's keeping homebuyers on the sidelines despite mortgage rates hitting a 10-month low ",
+          "date": "2025-08-20",
+          "link": "https://www.cnbc.com/2025/08/20/mortgage-rates-hit-a-10-month-low-why-home-buyers-are-on-the-sidelines.html",
+          "snippet": "2025-08-20: Here's what's keeping homebuyers on the sidelines despite mortgage rates hitting a 10-month low: A lot of would-be buyers feel priced out of the housing market. Lower mortgage rates might ",
+          "guid": "108188145"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "b4858294-7651-4b3b-b0c4-3f164aa8755d",
+      "label": "AI Chip Demand Surge",
+      "spike_ratio": 1.5,
+      "article_count": 19,
+      "rag_answer": "The surge in AI chip demand is significantly impacting the semiconductor industry, with companies like TSMC and SK Hynix reporting record profits and sold-out inventories due to robust demand for AI-related products. This boom is leading to shortages in various chip types, particularly memory chips, which could affect consumer electronics and automotive sectors. Additionally, ASML is benefiting from increased orders and optimistic guidance, indicating a broader positive outlook for chipmakers. However, these shortages may also lead to rising prices for gadgets and other tech products, creating potential challenges for consumers.",
+      "rag_sources": [
+        {
+          "title": "Chip giant ASML surges 7% as AI boom fuels record orders and upbeat 2026 guidance",
+          "date": "2026-01-28",
+          "link": "https://www.cnbc.com/2026/01/28/asml-q4-2025-earnings-report.html",
+          "snippet": "2026-01-28: Chip giant ASML surges 7% as AI boom fuels record orders and upbeat 2026 guidance: ASML is experiencing several tailwinds including an expectation of increased chipmaking capacity and cont",
+          "guid": "108257383"
+        },
+        {
+          "title": "TSMC delivers another record quarter as profit jumps 35% fueled by robust AI chip demand",
+          "date": "2026-01-15",
+          "link": "https://www.cnbc.com/2026/01/15/tsmc-q4-profit-record-ai-chip-demand-nt1-trillion.html",
+          "snippet": "2026-01-15: TSMC delivers another record quarter as profit jumps 35% fueled by robust AI chip demand: TSMCy delivered another estimate-beating quarter, with profit up 35% from a year ago as advanced c",
+          "guid": "108252727"
+        },
+        {
+          "title": "SK Hynix, a critical Nvidia supplier, has already sold out chips for 2026 as AI demand booms",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/sk-hynix-q3-profit-revenue-record-.html",
+          "snippet": "2025-10-29: SK Hynix, a critical Nvidia supplier, has already sold out chips for 2026 as AI demand booms: SK Hynix posted record quarterly revenue and profit, boosted by a strong demand for its high b",
+          "guid": "108217835"
+        },
+        {
+          "title": "A 'seismic' Nvidia shift, AI chip shortages and how it's threatening to hike gadget prices",
+          "date": "2025-12-02",
+          "link": "https://www.cnbc.com/2025/12/02/nvidia-shift-ai-chip-shortages-threatening-to-hike-gadget-prices.html",
+          "snippet": "2025-12-02: A 'seismic' Nvidia shift, AI chip shortages and how it's threatening to hike gadget prices: The AI infrastructure buildout is creating shortages of components including various types of ch",
+          "guid": "108233060"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "9ff8b711-a142-4bf0-a2ce-a868bcd756a8",
+      "label": "Robotaxi Developments and EV Market",
+      "spike_ratio": 1.302,
+      "article_count": 25,
+      "rag_answer": "The robotaxi industry is experiencing significant momentum, with major players like Waymo, Tesla, and Rivian making strides in technology and deployment. Lucid and Xpeng are also entering the market, indicating a broader expansion into robotaxis and autonomous vehicles. Uber's substantial investment in Rivian to launch 50,000 robotaxis highlights the growing interest and competition in this sector. However, traditional automakers like GM and Ford are facing challenges, including financial setbacks and declining EV sales, suggesting a complex landscape for the EV market as it adapts to new technologies and consumer demands.",
+      "rag_sources": [
+        {
+          "title": "EV maker Lucid reveals plans for robotaxi, positive free cash flow late this decade",
+          "date": "2026-03-12",
+          "link": "https://www.cnbc.com/2026/03/12/lucid-investor-day.html",
+          "snippet": "2026-03-12: EV maker Lucid reveals plans for robotaxi, positive free cash flow late this decade: The EV company is aiming to hit that target through market expansion into midsize vehicles, robotaxis a",
+          "guid": "108277205"
+        },
+        {
+          "title": "Rivian announces new AI tech, in-house chip and robotaxi ambitions",
+          "date": "2025-12-11",
+          "link": "https://www.cnbc.com/2025/12/11/rivian-autonomy-ai-day.html",
+          "snippet": "2025-12-11: Rivian announces new AI tech, in-house chip and robotaxi ambitions: The company has also developed AI models to power its Autonomy+ subscription, which it intends to roll out early next ye",
+          "guid": "108240446"
+        },
+        {
+          "title": "\u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises",
+          "date": "2025-11-20",
+          "link": "https://www.cnbc.com/2025/11/20/global-robotaxi-race-heats-up-between-us-and-chinese-rivals.html",
+          "snippet": "2025-11-20: \u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises: Global tech executives in recent weeks have proclaimed the robotaxi industry is finally nea",
+          "guid": "108226580"
+        },
+        {
+          "title": "Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/waymo-amazon-zoox-tesla-robotaxi-expansion.html",
+          "snippet": "2025-12-16: Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line: Robotaxis grew rapidly in 2025 with Waymo expanding fastest, Zoox debuting public rides and Tesla ",
+          "guid": "108236372"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "5042faa2-00c9-4f97-b253-3b403294321a",
+      "label": "Trump's Influence on Fed Independence",
+      "spike_ratio": 1.23,
+      "article_count": 30,
+      "rag_answer": "Trump's influence on the Federal Reserve's independence has been a significant concern, as he has openly criticized Fed Chair Jerome Powell and sought to exert control over the central bank. Key developments include Trump's pressure campaign, which has raised fears of higher inflation and weaker economic growth, according to surveys. Prominent figures, including JPMorgan Chase CEO Jamie Dimon and Fed officials like John Williams, have defended the Fed's independence amidst Trump's attempts to reshape its leadership. The ongoing tension suggests potential market volatility, as investors remain wary of how Trump's actions could impact monetary policy and overall financial stability.",
+      "rag_sources": [
+        {
+          "title": "Fed chair candidate Waller says he will 'absolutely' stress importance of Fed's independence to Trump",
+          "date": "2025-12-17",
+          "link": "https://www.cnbc.com/2025/12/17/fed-chair-candidate-waller-says-he-will-absolutely-emphasize-importance-of-the-central-banks-independence-to-trump.html",
+          "snippet": "2025-12-17: Fed chair candidate Waller says he will 'absolutely' stress importance of Fed's independence to Trump: President Donald Trump regularly weighs in on Fed decisions, accusing the central ban",
+          "guid": "108242898"
+        },
+        {
+          "title": "Trump attacks Powell again amid Fed independence fears: 'Incompetent' or 'crooked'",
+          "date": "2026-01-13",
+          "link": "https://www.cnbc.com/2026/01/13/trump-powell-fed-dimon-pirro-doj.html",
+          "snippet": "2026-01-13: Trump attacks Powell again amid Fed independence fears: 'Incompetent' or 'crooked': JPMorgan Chase CEO Jamie Dimon defended the Fed's independence amid the probe of Powell by Trump's DOJ, ",
+          "guid": "108251767"
+        },
+        {
+          "title": "Hassett says Fed independence is \u2018really important\u2019 and chair candidates shouldn\u2019t be disqualified for being Trump\u2019s friend",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/fed-chief-candidate-hassett-says-central-banks-independence-is-really-important-would-move-rates-by-consensus.html",
+          "snippet": "2025-12-16: Hassett says Fed independence is \u2018really important\u2019 and chair candidates shouldn\u2019t be disqualified for being Trump\u2019s friend: Hassett declined in a CNBC interview to directly address his ow",
+          "guid": "108242375"
+        },
+        {
+          "title": "Here's what it really means for Trump to get control of the Federal Reserve board",
+          "date": "2025-08-31",
+          "link": "https://www.cnbc.com/2025/08/30/heres-what-it-really-means-for-trump-to-get-control-of-the-federal-reserve-board.html",
+          "snippet": "2025-08-31: Here's what it really means for Trump to get control of the Federal Reserve board: Since taking office in January, Trump has placed the Fed directly in the crosshairs of executive power.",
+          "guid": "108192598"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "b879033c-a02f-4e06-8138-b59f74de9402",
+      "label": "Global Inflation Trends and Responses",
+      "spike_ratio": 1.211,
+      "article_count": 23,
+      "rag_answer": "Global inflation trends are showing significant divergence, with some regions experiencing rising consumer prices while others face deflationary pressures. For instance, China reported a near two-year high in consumer inflation despite deeper producer deflation, indicating complex economic dynamics. Meanwhile, the U.S. Federal Reserve is grappling with inflation concerns, as highlighted by Fed officials expressing worries about inflation in a challenging economic climate. These developments suggest that investors are increasingly cautious, with inflation becoming a central theme influencing market strategies and central bank policies worldwide.",
+      "rag_sources": [
+        {
+          "title": "'Reflation is back' says Deutsche Bank as global central banks diverge from Fed",
+          "date": "2025-12-11",
+          "link": "https://www.cnbc.com/2025/12/11/reflation-is-back-says-deutsche-bank-as-central-banks-diverge-from-fed.html",
+          "snippet": "2025-12-11: 'Reflation is back' says Deutsche Bank as global central banks diverge from Fed: Global central banks are diverging, following The Fed's decision to cut rates and Swiss' choice to hold ste",
+          "guid": "108240421"
+        },
+        {
+          "title": "Fears of 1970s-style stagflation arise with oil spike to $100. How big a threat is it?",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/fears-of-1970s-style-stagflation-arise-with-oil-spike-to-100-how-big-a-threat-is-it.html",
+          "snippet": "2026-03-09: Fears of 1970s-style stagflation arise with oil spike to $100. How big a threat is it?: High inflation and slow growth present a double threat, as measures like interest rate cuts and gove",
+          "guid": "108275514"
+        },
+        {
+          "title": "Fed's Goolsbee says he's worried about inflation in 'fraught but intense' climate",
+          "date": "2026-03-23",
+          "link": "https://www.cnbc.com/2026/03/23/feds-goolsbee-says-hes-worried-about-inflation-in-fraught-but-intense-climate.html",
+          "snippet": "2026-03-23: Fed's Goolsbee says he's worried about inflation in 'fraught but intense' climate: In a CNBC interview, the central banker said policymaking is difficult in the current environment.",
+          "guid": "108281480"
+        },
+        {
+          "title": "China consumer inflation hits near two-year high despite deeper-than-expected producer deflation",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/10/chinas-cpi-ppi-deflation-november-consumer-prices.html",
+          "snippet": "2025-12-10: China consumer inflation hits near two-year high despite deeper-than-expected producer deflation: Economists warned that deflationary pressure on the world's second largest economy will pe",
+          "guid": "108239450"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

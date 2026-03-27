@@ -1,0 +1,204 @@
+{
+  "date": "2026-02-06",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "2e955eac-a74a-4c42-be9f-b871d12feb52",
+      "label": "Market Trends and Stock Movements",
+      "spike_ratio": 1.758,
+      "article_count": 77,
+      "rag_answer": "The stock market has experienced significant volatility, with benchmarks reaching record highs due to easing inflation, strong corporate earnings, and expectations of U.S. rate cuts. However, recent sentiment has reversed, indicating potential concerns about an economic slowdown, which could lead to a stagflation environment. Despite this, certain sectors, particularly those related to AI and retail, have shown resilience and momentum. Investors are advised to carefully assess market conditions before making trading decisions, as opportunities may arise amidst the fluctuations.",
+      "rag_sources": [
+        {
+          "title": "Stock market swings got you reeling? Answer these 6 questions before making a trade",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/stock-market-swings-got-you-reeling-answering-6-questions-will-help.html",
+          "snippet": "2025-11-28: Stock market swings got you reeling? Answer these 6 questions before making a trade: Frustrating as volatility can be, it also tends to present opportunities.",
+          "guid": "108232626"
+        },
+        {
+          "title": "Stock benchmarks are scaling record highs: 'Animal spirits are soaring' ",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/stock-benchmarks-are-scaling-record-highs-animal-spirits-are-soaring-.html",
+          "snippet": "2025-09-11: Stock benchmarks are scaling record highs: 'Animal spirits are soaring': Easing inflation pressures,\u00a0resilient corporate earnings and expectations for U.S. rate cuts have boosted investor ",
+          "guid": "108197275"
+        },
+        {
+          "title": "Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward",
+          "date": "2025-12-26",
+          "link": "https://www.cnbc.com/2025/12/26/market-sentiment-has-made-a-huge-reversal-heres-why-and-what-it-means-going-forward.html",
+          "snippet": "2025-12-26: Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward: Something unusual happened in the past few weeks.",
+          "guid": "108245814"
+        },
+        {
+          "title": "Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel",
+          "date": "2025-08-11",
+          "link": "https://www.cnbc.com/2025/08/11/stock-market-party-to-be-ruined-by-sudden-economic-slowdown-says-stifel.html",
+          "snippet": "2025-08-11: Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel: The market could be in for a stagflation environment, the firm said.",
+          "guid": "108184067"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "0b33da45-501c-4267-990c-fc52c823783a",
+      "label": "Obesity Drug Market Developments",
+      "spike_ratio": 1.412,
+      "article_count": 24,
+      "rag_answer": "The obesity drug market is experiencing significant growth and transformation, driven by increased access through Medicare coverage and new product launches. Notably, Eli Lilly and Novo Nordisk are leading the charge with innovative obesity pills, while Pfizer is diversifying its pipeline with a substantial deal to develop a Chinese company's drug. The competitive landscape is intensifying, raising questions about insurance coverage and drug pricing. Overall, these developments suggest a promising future for obesity treatments, potentially reaching millions of new patients.",
+      "rag_sources": [
+        {
+          "title": "What obesity drugmakers see next in the market: More pills, easier access and drug combinations",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/2026/01/23/weight-loss-glp-1-drugs-next-steps-for-eli-lilly-novo-nordisk-pfizer.html",
+          "snippet": "2026-01-23: What obesity drugmakers see next in the market: More pills, easier access and drug combinations: CNBC spoke to executives from Eli Lilly, Novo Nordisk, Pfizer and other drugmakers at the a",
+          "guid": "108255916"
+        },
+        {
+          "title": "Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next",
+          "date": "2025-11-02",
+          "link": "https://www.cnbc.com/2025/11/02/whats-next-for-the-weight-loss-drug-market-pills-rivals-insurance.html",
+          "snippet": "2025-11-02: Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next: Competition is heating up, but questions remain about insurance coverage, drug pricing, copycat drugs a",
+          "guid": "108216702"
+        },
+        {
+          "title": "Millions more Americans could access obesity drugs after Trump's deals with Eli Lilly, Novo Nordisk",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/trump-deals-with-lilly-novo-nordisk-could-broaden-obesity-drug-access.html",
+          "snippet": "2025-11-07: Millions more Americans could access obesity drugs after Trump's deals with Eli Lilly, Novo Nordisk: Medicare will start covering obesity drugs for the first time, which could open access ",
+          "guid": "108223164"
+        },
+        {
+          "title": "Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill\u00a0",
+          "date": "2025-12-09",
+          "link": "https://www.cnbc.com/2025/12/09/pfizer-deal-yaopharma-obesity-pill.html",
+          "snippet": "2025-12-09: Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill: The deal will help Pfizer beef up and diversify its obesity drug pipeline following its $10 billi",
+          "guid": "108239106"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "68090fdc-fa74-4ac8-b641-8919461e64cd",
+      "label": "Gold and Silver Market Volatility",
+      "spike_ratio": 1.412,
+      "article_count": 24,
+      "rag_answer": "The gold and silver markets have experienced significant volatility recently, with sharp price fluctuations driven by various factors, including inflation fears and oscillating oil prices. After a record run, both metals faced a notable sell-off, with silver's volatility exceeding 100% and prices dropping dramatically at times, such as a 30% decline for silver and a 10% drop for gold in late January. Speculation, particularly from China, has also contributed to the erratic trading patterns. Overall, these developments indicate a turbulent market environment, raising concerns among investors about potential further declines and the timing of market entry.",
+      "rag_sources": [
+        {
+          "title": "Gold and silver extend rebound but concerns over volatility linger",
+          "date": "2026-02-04",
+          "link": "https://www.cnbc.com/2026/02/04/gold-and-silver-extend-rebound-but-concerns-over-volatility-linger.html",
+          "snippet": "2026-02-04: Gold and silver extend rebound but concerns over volatility linger: Gold and silver climb with further gains seen determined by rate expectations",
+          "guid": "108261162"
+        },
+        {
+          "title": "Gold and silver extend losses as oscillating oil prices spark market volatility  ",
+          "date": "2026-03-20",
+          "link": "https://www.cnbc.com/2026/03/20/gold-silver-price-metal-market-oil-brent-wti-futures-iran-war-inflation.html",
+          "snippet": "2026-03-20: Gold and silver extend losses as oscillating oil prices spark market volatility: The metals saw bumpy trade on Friday morning, after joining a broad sell-off the previous day.",
+          "guid": "108280754"
+        },
+        {
+          "title": "Gold and silver stumble after record run. Is now the time to enter the market?",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/gold-and-silver-rally-has-taken-a-breather-have-finally-fallen-is-now-the-time-to-enter-the-market.html",
+          "snippet": "2026-01-30: Gold and silver stumble after record run. Is now the time to enter the market?: Gold and silver prices fell sharply on Friday, snapping a powerful rally that had carried both metals to rec",
+          "guid": "108259319"
+        },
+        {
+          "title": "Silver's volatility has exceeded 100%. Where exactly is the bottom?",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/silver-price-volatility-investors-search-bottom-meme-stock-commodity-gamestop-buy-sell.html",
+          "snippet": "2026-02-06: Silver's volatility has exceeded 100%. Where exactly is the bottom?: Silver's dizzying plunge last week and erratic trading this week have left investors wondering: Where and when is the b",
+          "guid": "108262306"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "b4858294-7651-4b3b-b0c4-3f164aa8755d",
+      "label": "AI Chip Demand Surge",
+      "spike_ratio": 1.096,
+      "article_count": 25,
+      "rag_answer": "The surge in AI chip demand is significantly impacting the semiconductor industry, with companies like TSMC and SK Hynix reporting record profits and sold-out inventories for 2026. This boom is driven by the increasing need for advanced chips to support AI infrastructure, leading to shortages in various components, including memory chips, which could affect consumer electronics and automotive sectors. As a result, chip stocks are rallying, and companies are raising their spending forecasts to capitalize on this trend. However, the shortages may lead to higher prices for gadgets and other tech products, creating potential market volatility.",
+      "rag_sources": [
+        {
+          "title": "Chip giant ASML surges 7% as AI boom fuels record orders and upbeat 2026 guidance",
+          "date": "2026-01-28",
+          "link": "https://www.cnbc.com/2026/01/28/asml-q4-2025-earnings-report.html",
+          "snippet": "2026-01-28: Chip giant ASML surges 7% as AI boom fuels record orders and upbeat 2026 guidance: ASML is experiencing several tailwinds including an expectation of increased chipmaking capacity and cont",
+          "guid": "108257383"
+        },
+        {
+          "title": "TSMC delivers another record quarter as profit jumps 35% fueled by robust AI chip demand",
+          "date": "2026-01-15",
+          "link": "https://www.cnbc.com/2026/01/15/tsmc-q4-profit-record-ai-chip-demand-nt1-trillion.html",
+          "snippet": "2026-01-15: TSMC delivers another record quarter as profit jumps 35% fueled by robust AI chip demand: TSMCy delivered another estimate-beating quarter, with profit up 35% from a year ago as advanced c",
+          "guid": "108252727"
+        },
+        {
+          "title": "SK Hynix, a critical Nvidia supplier, has already sold out chips for 2026 as AI demand booms",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/sk-hynix-q3-profit-revenue-record-.html",
+          "snippet": "2025-10-29: SK Hynix, a critical Nvidia supplier, has already sold out chips for 2026 as AI demand booms: SK Hynix posted record quarterly revenue and profit, boosted by a strong demand for its high b",
+          "guid": "108217835"
+        },
+        {
+          "title": "A 'seismic' Nvidia shift, AI chip shortages and how it's threatening to hike gadget prices",
+          "date": "2025-12-02",
+          "link": "https://www.cnbc.com/2025/12/02/nvidia-shift-ai-chip-shortages-threatening-to-hike-gadget-prices.html",
+          "snippet": "2025-12-02: A 'seismic' Nvidia shift, AI chip shortages and how it's threatening to hike gadget prices: The AI infrastructure buildout is creating shortages of components including various types of ch",
+          "guid": "108233060"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "5a598585-4aae-4389-91d8-c8e8c6593f83",
+      "label": "Midday Stock Movements",
+      "spike_ratio": 1.085,
+      "article_count": 28,
+      "rag_answer": "Midday stock movements have shown significant volatility, with various companies consistently making notable moves in the market. Recent reports highlight stocks like Newmont, Apple, and Sandisk experiencing substantial midday fluctuations, indicating active trading and investor interest. This trend suggests a dynamic market environment where investors are reacting to earnings reports, economic indicators, and broader market sentiments. The ongoing fluctuations may present both opportunities and risks for traders, as they navigate the impacts of economic conditions and corporate performance on stock prices.",
+      "rag_sources": [
+        {
+          "title": "Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/stocks-making-the-biggest-moves-midday-nem-aapl-sndk-deck.html",
+          "snippet": "2026-01-30: Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more: These are the stocks posting the largest moves midday.",
+          "guid": "108259667"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more",
+          "date": "2025-10-15",
+          "link": "https://www.cnbc.com/2025/10/15/stocks-making-the-biggest-moves-midday-bac-ms-bg-pgr.html",
+          "snippet": "2025-10-15: Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108212417"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more",
+          "date": "2025-09-18",
+          "link": "https://www.cnbc.com/2025/09/18/stocks-making-the-biggest-moves-midday-intc-nvo-blsh-all.html",
+          "snippet": "2025-09-18: Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more: These are the stocks posting the largest moves midday.",
+          "guid": "108200831"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: UnitedHealth, Applied Materials, Sandisk and more",
+          "date": "2025-08-15",
+          "link": "https://www.cnbc.com/2025/08/15/stocks-making-big-moves-midday-unh-amat-sndk-csco-evlv-flo-.html",
+          "snippet": "2025-08-15: Stocks making the biggest moves midday: UnitedHealth, Applied Materials, Sandisk and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108186615"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

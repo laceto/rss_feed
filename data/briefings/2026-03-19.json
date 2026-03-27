@@ -1,0 +1,204 @@
+{
+  "date": "2026-03-19",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "7b6c270d-d51f-46b8-be4d-f29ace4d6e95",
+      "label": "Iran conflict and oil prices",
+      "spike_ratio": 2.309,
+      "article_count": 168,
+      "rag_answer": "The ongoing conflict involving Iran has significantly disrupted oil supplies, leading to a surge in prices, with Brent crude recently topping $107 per barrel. The situation has raised concerns about potential further escalations, particularly as Iran threatens oil facilities in Saudi Arabia, the UAE, and Qatar. Analysts warn that prices could soar to $200 per barrel if the conflict continues to escalate, impacting global energy markets and potentially leading to broader economic repercussions. Additionally, the conflict is also affecting other commodities, such as aluminum and fertilizers, further complicating the market landscape.",
+      "rag_sources": [
+        {
+          "title": "It's not just oil: Aluminum prices have surged as Iran conflict chokes supply",
+          "date": "2026-03-18",
+          "link": "https://www.cnbc.com/2026/03/18/why-aluminum-surged-iran-war.html",
+          "snippet": "2026-03-18: It's not just oil: Aluminum prices have surged as Iran conflict chokes supply: The U.S. and Israel's war with Iran has upended the supply of aluminum in the Middle East, sending prices of ",
+          "guid": "108279406"
+        },
+        {
+          "title": "Asia markets mostly rise as investors assess Iran conflict impact on energy supplies  ",
+          "date": "2026-03-06",
+          "link": "https://www.cnbc.com/2026/03/06/asia-markets-live-oil-prices-iran-nikkei-kospi-hang-seng.html",
+          "snippet": "2026-03-06: Asia markets mostly rise as investors assess Iran conflict impact on energy supplies: Overnight, oil prices broke through the $80 per barrel mark, with Brent futures up 3.54% and last trad",
+          "guid": "108274556"
+        },
+        {
+          "title": "Food prices could rise as Iran conflict disrupts fertilizer supply chain",
+          "date": "2026-03-11",
+          "link": "https://www.cnbc.com/2026/03/11/iran-news-food-prices-could-rise-due-to-fertilizer-shortages.html",
+          "snippet": "2026-03-11: Food prices could rise as Iran conflict disrupts fertilizer supply chain: The Iran conflict is disrupting fertilizer shipments through the Strait of Hormuz, raising supply concerns and pot",
+          "guid": "108275646"
+        },
+        {
+          "title": "Asia airline stocks drop while energy shares rise as Iran conflict escalates",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/asia-markets-live-trump-iran-oil-prices-nikkei-hang-seng-us-israel-strikes-oil.html",
+          "snippet": "2026-03-02: Asia airline stocks drop while energy shares rise as Iran conflict escalates: Oil futures on Monday jumped by over 8%, with West Texas Intermediate futures and Brent trading at $72.52 and ",
+          "guid": "108271671"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "f82fe760-6e0c-4aee-a143-a4e2df1c937d",
+      "label": "Student Loan Forgiveness Issues",
+      "spike_ratio": 1.263,
+      "article_count": 24,
+      "rag_answer": "Student loan borrowers seeking Public Service Loan Forgiveness are facing significant challenges, including a growing backlog of applications, which has reportedly reached over 800,000. The Trump administration is proposing changes that could limit eligibility for this popular program, further complicating access to relief for public servants. As a result, many borrowers are experiencing delays, with some waiting over a year for their applications to be processed. These developments could lead to increased financial strain on borrowers and may impact the broader market by affecting consumer spending and financial stability among those reliant on loan forgiveness.",
+      "rag_sources": [
+        {
+          "title": "Student loan borrowers face new challenges trying to get Public Service Loan Forgiveness",
+          "date": "2025-08-06",
+          "link": "https://www.cnbc.com/2025/08/06/student-loan-borrowers-and-changes-to-public-service-loan-forgiveness-pslf.html",
+          "snippet": "2025-08-06: Student loan borrowers face new challenges trying to get Public Service Loan Forgiveness: Borrowers pursuing Public Service Loan Forgiveness are hitting walls trying to access the relief, ",
+          "guid": "108181052"
+        },
+        {
+          "title": "Trump administration moves to 'prevent benefits' for some under popular student loan forgiveness program ",
+          "date": "2025-08-18",
+          "link": "https://www.cnbc.com/2025/08/18/trump-public-service-loan-forgiveness-pslf-eligibility.html",
+          "snippet": "2025-08-18: Trump administration moves to 'prevent benefits' for some under popular student loan forgiveness program: The Trump administration says that its proposed changes to Public Service Loan For",
+          "guid": "108187169"
+        },
+        {
+          "title": "Some student loan borrowers wait over a year in public servant debt forgiveness backlog",
+          "date": "2026-02-09",
+          "link": "https://www.cnbc.com/2026/02/09/pslf-public-service-loan-forgiveness-buyback-backlog.html",
+          "snippet": "2026-02-09: Some student loan borrowers wait over a year in public servant debt forgiveness backlog: More than 83,000 federal student loan borrowers are waiting for a Public Service Loan Forgiveness B",
+          "guid": "108254849"
+        },
+        {
+          "title": "Student loan borrowers in default could soon see reduced paychecks. What to know",
+          "date": "2025-08-22",
+          "link": "https://www.cnbc.com/2025/08/22/student-loan-borrowers-in-default-face-wage-garnishment.html",
+          "snippet": "2025-08-22: Student loan borrowers in default could soon see reduced paychecks. What to know: Student loan borrowers who've fallen behind on their payments could soon see the U.S. Department of Educat",
+          "guid": "108189629"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "0b33da45-501c-4267-990c-fc52c823783a",
+      "label": "Obesity Drug Market Developments",
+      "spike_ratio": 1.162,
+      "article_count": 34,
+      "rag_answer": "The obesity drug market is experiencing significant growth and transformation, driven by increased access through Medicare coverage and new product launches. Notably, Novo Nordisk's recent launch of an obesity pill and Eli Lilly's advancements in maintaining weight loss with their drugs highlight the competitive landscape. Pfizer is also expanding its portfolio with a substantial deal to develop a Chinese obesity pill, indicating a strategic push into this lucrative market. Overall, these developments suggest a promising future for obesity treatments, although challenges related to insurance coverage and drug pricing remain.",
+      "rag_sources": [
+        {
+          "title": "What obesity drugmakers see next in the market: More pills, easier access and drug combinations",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/2026/01/23/weight-loss-glp-1-drugs-next-steps-for-eli-lilly-novo-nordisk-pfizer.html",
+          "snippet": "2026-01-23: What obesity drugmakers see next in the market: More pills, easier access and drug combinations: CNBC spoke to executives from Eli Lilly, Novo Nordisk, Pfizer and other drugmakers at the a",
+          "guid": "108255916"
+        },
+        {
+          "title": "Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next",
+          "date": "2025-11-02",
+          "link": "https://www.cnbc.com/2025/11/02/whats-next-for-the-weight-loss-drug-market-pills-rivals-insurance.html",
+          "snippet": "2025-11-02: Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next: Competition is heating up, but questions remain about insurance coverage, drug pricing, copycat drugs a",
+          "guid": "108216702"
+        },
+        {
+          "title": "Millions more Americans could access obesity drugs after Trump's deals with Eli Lilly, Novo Nordisk",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/trump-deals-with-lilly-novo-nordisk-could-broaden-obesity-drug-access.html",
+          "snippet": "2025-11-07: Millions more Americans could access obesity drugs after Trump's deals with Eli Lilly, Novo Nordisk: Medicare will start covering obesity drugs for the first time, which could open access ",
+          "guid": "108223164"
+        },
+        {
+          "title": "Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill\u00a0",
+          "date": "2025-12-09",
+          "link": "https://www.cnbc.com/2025/12/09/pfizer-deal-yaopharma-obesity-pill.html",
+          "snippet": "2025-12-09: Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill: The deal will help Pfizer beef up and diversify its obesity drug pipeline following its $10 billi",
+          "guid": "108239106"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "2e955eac-a74a-4c42-be9f-b871d12feb52",
+      "label": "Market Trends and Stock Movements",
+      "spike_ratio": 1.159,
+      "article_count": 20,
+      "rag_answer": "The stock market has experienced significant volatility, with benchmarks reaching record highs due to easing inflation, strong corporate earnings, and expectations of U.S. rate cuts. However, recent sentiment has reversed, indicating potential concerns about an economic slowdown, as suggested by Stifel's warning of a stagflation environment. Despite these fluctuations, certain sectors, particularly AI and retail favorites, have shown resilience, driving stocks to new highs. Investors are advised to carefully assess market conditions before making trading decisions, as opportunities may arise amidst the uncertainty.",
+      "rag_sources": [
+        {
+          "title": "Stock market swings got you reeling? Answer these 6 questions before making a trade",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/stock-market-swings-got-you-reeling-answering-6-questions-will-help.html",
+          "snippet": "2025-11-28: Stock market swings got you reeling? Answer these 6 questions before making a trade: Frustrating as volatility can be, it also tends to present opportunities.",
+          "guid": "108232626"
+        },
+        {
+          "title": "Stock benchmarks are scaling record highs: 'Animal spirits are soaring' ",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/stock-benchmarks-are-scaling-record-highs-animal-spirits-are-soaring-.html",
+          "snippet": "2025-09-11: Stock benchmarks are scaling record highs: 'Animal spirits are soaring': Easing inflation pressures,\u00a0resilient corporate earnings and expectations for U.S. rate cuts have boosted investor ",
+          "guid": "108197275"
+        },
+        {
+          "title": "Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward",
+          "date": "2025-12-26",
+          "link": "https://www.cnbc.com/2025/12/26/market-sentiment-has-made-a-huge-reversal-heres-why-and-what-it-means-going-forward.html",
+          "snippet": "2025-12-26: Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward: Something unusual happened in the past few weeks.",
+          "guid": "108245814"
+        },
+        {
+          "title": "Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel",
+          "date": "2025-08-11",
+          "link": "https://www.cnbc.com/2025/08/11/stock-market-party-to-be-ruined-by-sudden-economic-slowdown-says-stifel.html",
+          "snippet": "2025-08-11: Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel: The market could be in for a stagflation environment, the firm said.",
+          "guid": "108184067"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "98f2b667-e4df-4662-8af7-4b0e530dab68",
+      "label": "Housing Market Trends and Challenges",
+      "spike_ratio": 1.143,
+      "article_count": 14,
+      "rag_answer": "The housing market is facing significant challenges, with Goldman Sachs predicting an 8% decline in the second half of 2025 due to issues like immigration and affordability. Despite a recent drop in mortgage rates, many potential homebuyers feel priced out, leading to a stagnation in home sales, which fell over 8% in January 2026. A housing affordability package is advancing in Congress, aiming to reduce regulations for builders and incentivize local governments, but the market remains under pressure from elevated home prices and mortgage rates. Overall, while there are signs of a potential market balance, economic headwinds continue to hinder recovery.",
+      "rag_sources": [
+        {
+          "title": "Housing to remain weakest part of economy, falling 8% in the second half, Goldman says",
+          "date": "2025-08-04",
+          "link": "https://www.cnbc.com/2025/08/04/housing-to-remain-weakest-part-of-economy-in-the-2nd-half-goldman-says.html",
+          "snippet": "2025-08-04: Housing to remain weakest part of economy, falling 8% in the second half, Goldman says: The Wall Street investment bank named immigration and affordability challenges as two obstacles stan",
+          "guid": "108181055"
+        },
+        {
+          "title": "Housing affordability package set to advance in Congress amid home-cost concerns",
+          "date": "2026-02-10",
+          "link": "https://www.cnbc.com/2026/02/09/housing-affordability-prices-congress.html",
+          "snippet": "2026-02-10: Housing affordability package set to advance in Congress amid home-cost concerns: Wide-ranging legislation would reduce regulations for homebuilders while giving local governments incentiv",
+          "guid": "108262990"
+        },
+        {
+          "title": "What to expect from the housing market in 2026\u2014and the 10 major cities where prices could fall the most",
+          "date": "2025-12-31",
+          "link": "https://www.cnbc.com/2025/12/31/housing-market-outlook-for-2026and-10-cities-where-prices-may-fall.html",
+          "snippet": "2025-12-31: What to expect from the housing market in 2026\u2014and the 10 major cities where prices could fall the most: Home prices and mortgage rates will remain elevated in 2026, but slower price growt",
+          "guid": "108246806"
+        },
+        {
+          "title": "Here's what's keeping homebuyers on the sidelines despite mortgage rates hitting a 10-month low ",
+          "date": "2025-08-20",
+          "link": "https://www.cnbc.com/2025/08/20/mortgage-rates-hit-a-10-month-low-why-home-buyers-are-on-the-sidelines.html",
+          "snippet": "2025-08-20: Here's what's keeping homebuyers on the sidelines despite mortgage rates hitting a 10-month low: A lot of would-be buyers feel priced out of the housing market. Lower mortgage rates might ",
+          "guid": "108188145"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

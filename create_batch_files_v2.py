@@ -3,22 +3,25 @@ create_batch_files_v2.py
 Submits a daily batch job to OpenAI for sector-level news analysis.
 
 Architecture:
-- Reads ONLY top-level output/feeds*.txt files (output/enriched/ is excluded by design)
+- Reads all feed articles from the HF Dataset (lacetohf/feeds, HUGGINGFACE_REPO env var)
+  rather than local output/feeds*.txt — the HF dataset is kept current by
+  push_new_feeds_to_hf.py which runs earlier in the same daily-pipeline workflow.
 - Groups news by publication date; skips dates already in data/sector_results/
 - Submits one batch task per unprocessed date to the OpenAI Batch API
 - Persists the batch job ID to data/pending_sector_batch.txt for the retrieval step
 
 Invariants:
-- glob("feeds*.txt") never recurses into subdirectories
 - Each date produces exactly one batch task
 - MAX_CHARS cap prevents token-limit rejections from very large date groups
 """
 
 from pathlib import Path
 import json
+import os
 import sys
 
 import pandas as pd
+from datasets import load_dataset
 from dotenv import load_dotenv
 from pydantic import BaseModel, Field
 from pydantic.json_schema import model_json_schema
@@ -27,7 +30,6 @@ from openai import OpenAI
 
 from constants import (
     SectorName,
-    RAW_FEED_DIR,
     SECTOR_RESULTS_DIR as RESULTS_DIR,
     BATCH_FILE,
     PENDING_BATCH_FILE,
@@ -111,22 +113,34 @@ STRICT_SCHEMA = _make_openai_strict(model_json_schema(MultiSectorAnalysis))
 # ── Data loading ─────────────────────────────────────────────────────────────────
 
 def load_raw_feeds() -> pd.DataFrame:
-    """Load all top-level feed files into a single deduplicated DataFrame.
+    """Load all feed articles from the Hugging Face Dataset.
 
-    Uses Path.glob('feeds*.txt') which matches only the top-level output/ directory,
-    deliberately excluding output/enriched/ (which uses a different schema).
+    Source: lacetohf/feeds (HUGGINGFACE_REPO env var, split="train").
+    Replaces the former local output/feeds*.txt glob — the HF dataset is the
+    authoritative source now that push_new_feeds_to_hf.py runs before this script.
+
     Deduplicates on description before returning to avoid sending duplicates to the LLM.
+    pubDate is already normalised to YYYY-MM-DD by the push script; coerce handles any
+    residual NaT values from articles with unparseable dates.
+
+    Failure modes:
+    - HUGGINGFACE_REPO missing: KeyError — add to .env / GitHub secret.
+    - HF_TOKEN missing for private dataset: unauthenticated load will fail.
+    - Network unavailable in CI: load_dataset raises ConnectTimeout.
     """
-    feed_files = sorted(RAW_FEED_DIR.glob("feeds*.txt"))
-    if not feed_files:
-        print(f"[error] No feed files found in {RAW_FEED_DIR}. Exiting.")
+    hf_repo  = os.environ["HUGGINGFACE_REPO"]
+    hf_token = os.environ.get("HF_TOKEN")
+
+    print(f"Loading feeds from HF dataset {hf_repo} ...")
+    ds = load_dataset(hf_repo, split="train", token=hf_token)
+    if len(ds) == 0:
+        print("[error] HF dataset is empty. Run push_feeds_to_hf.py first.")
         sys.exit(0)
 
-    raw_dfs = [pd.read_csv(f, sep="\t") for f in feed_files]
-    combined = pd.concat(raw_dfs, ignore_index=True)
+    combined = ds.to_pandas()
     combined = combined.drop_duplicates(subset=["description"])
-    combined["pubDate"] = pd.to_datetime(combined["pubDate"]).dt.strftime("%Y-%m-%d")
-    print(f"Loaded {len(combined)} unique feed items from {len(feed_files)} file(s).")
+    combined["pubDate"] = pd.to_datetime(combined["pubDate"], errors="coerce").dt.strftime("%Y-%m-%d")
+    print(f"Loaded {len(combined):,} unique feed items from {hf_repo}.")
     return combined
 
 

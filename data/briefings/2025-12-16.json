@@ -1,0 +1,220 @@
+{
+  "date": "2025-12-16",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "3d3acae2-25d0-4e59-83b0-0118da72d824",
+      "label": "AI-related tech stock decline",
+      "spike_ratio": 1.545,
+      "article_count": 38,
+      "rag_answer": "AI-related tech stocks have been experiencing significant declines, driven by rising concerns over their valuations and disappointing earnings reports, particularly from major players like Nvidia and Oracle. This has led to broader market sell-offs, with indices such as the Dow and S&P 500 reflecting these pressures. Despite some attempts at recovery, investor sentiment remains cautious, as evidenced by continued sell-offs and strategic shifts towards portfolio diversifiers. The ongoing volatility suggests that the AI sector may be facing a challenging period ahead, impacting overall market stability.",
+      "rag_sources": [
+        {
+          "title": "Dow slides 300 points as AI stocks resume their decline, Nasdaq falls 1%: Live updates",
+          "date": "2025-11-06",
+          "link": "https://www.cnbc.com/2025/11/05/stock-market-today-live-updates.html",
+          "snippet": "2025-11-06: Dow slides 300 points as AI stocks resume their decline, Nasdaq falls 1%: Live updates: Companies that have benefited from the artificial intelligence trade came under pressure yet again a",
+          "guid": "108222099"
+        },
+        {
+          "title": "S&P 500 gives up gain as AI-related stocks come under pressure again: Live updates",
+          "date": "2025-12-15",
+          "link": "https://www.cnbc.com/2025/12/14/stock-market-today-live-updates.html",
+          "snippet": "2025-12-15: S&P 500 gives up gain as AI-related stocks come under pressure again: Live updates: Key stocks in the artificial intelligence trade continued to face pressure.",
+          "guid": "108241593"
+        },
+        {
+          "title": "Stocks drop on rising fears about AI stock valuations, Palantir leads decline: Live updates",
+          "date": "2025-11-04",
+          "link": "https://www.cnbc.com/2025/11/03/stock-market-today-live-updates.html",
+          "snippet": "2025-11-04: Stocks drop on rising fears about AI stock valuations, Palantir leads decline: Live updates: Stocks fell, pressured by declines in artificial intelligence-related names like Palantir as in",
+          "guid": "108220811"
+        },
+        {
+          "title": "CNBC Daily Open: Days of declines won't keep AI trade down",
+          "date": "2025-11-11",
+          "link": "https://www.cnbc.com/2025/11/11/cnbc-daily-open-days-of-declines-wont-keep-ai-trade-down.html",
+          "snippet": "2025-11-11: CNBC Daily Open: Days of declines won't keep AI trade down: Investors piled back into artificial intelligence names on Monday stateside. \\AI-related stocks should drive equity markets,\\\" a",
+          "guid": "108224037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "409ca803-01f1-4349-8222-0e0c6aee0ccc",
+      "label": "Ukraine peace talks and Trump",
+      "spike_ratio": 1.463,
+      "article_count": 20,
+      "rag_answer": "Recent developments in Ukraine peace talks indicate a complex and evolving situation involving U.S. President Donald Trump and Ukrainian President Volodymyr Zelenskyy. Trump has oscillated in his support for Ukraine, initially promising security guarantees but later suggesting a potential division of Ukraine with Russia. As of late November 2025, Ukraine reportedly agreed to a U.S.-brokered peace proposal, with Trump claiming that a peace deal is \"very close.\" The market implications could include increased volatility in defense and energy sectors, as well as potential shifts in investor sentiment depending on the outcomes of these negotiations and their impact on regional stability.",
+      "rag_sources": [
+        {
+          "title": "Ukraine desperate to keep Trump on its side in peace talks, while saving its sovereignty",
+          "date": "2025-11-24",
+          "link": "https://www.cnbc.com/2025/11/24/ukraine-desperate-to-keep-trump-sweet-while-saving-its-sovereignty.html",
+          "snippet": "2025-11-24: Ukraine desperate to keep Trump on its side in peace talks, while saving its sovereignty: Talks between U.S. and Ukrainian officials were held this weekend after it emerged that Russia and",
+          "guid": "108230764"
+        },
+        {
+          "title": "Watch live: Trump and Zelenskyy meet with European leaders ",
+          "date": "2025-08-18",
+          "link": "https://www.cnbc.com/2025/08/18/trump-zelenskyy-ukraine-putin-live-updates.html",
+          "snippet": "2025-08-18: Watch live: Trump and Zelenskyy meet with European leaders: Trump and Ukraine's Volodymyr Zelenskyy are meeting with European leaders and NATO allies in an unprecedented effort to reach a ",
+          "guid": "108187127"
+        },
+        {
+          "title": "Ukraine\u2019s Zelenskyy says Kyiv \u2018geared up for clear and honest work\u2019 as U.S. pushes for progress on peace plan",
+          "date": "2025-11-21",
+          "link": "https://www.cnbc.com/2025/11/21/ukraine-peace-plan-zelenskyy-to-speak-with-trump-on-deal-to-end-war.html",
+          "snippet": "2025-11-21: Ukraine\u2019s Zelenskyy says Kyiv \u2018geared up for clear and honest work\u2019 as U.S. pushes for progress on peace plan: Ukrainian President Volodymyr Zelenskyy said he expects to speak with U.S. co",
+          "guid": "108229758"
+        },
+        {
+          "title": "Trump says \u2018a lot closer\u2019 to Ukraine peace deal after Zelenskyy meeting, though thorny issues remain",
+          "date": "2025-12-28",
+          "link": "https://www.cnbc.com/2025/12/28/trump-zelenskyy-ukraine.html",
+          "snippet": "2025-12-28: Trump says \u2018a lot closer\u2019 to Ukraine peace deal after Zelenskyy meeting, though thorny issues remain: Ukrainian President Volodymyr Zelenskyy\u00a0was scheduled to arrive at Mar-a-Lago in Presi",
+          "guid": "108246060"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "2e955eac-a74a-4c42-be9f-b871d12feb52",
+      "label": "Market Trends and Stock Movements",
+      "spike_ratio": 1.388,
+      "article_count": 34,
+      "rag_answer": "The stock market has experienced significant volatility, with benchmarks reaching record highs due to easing inflation, strong corporate earnings, and expectations of U.S. rate cuts. However, recent sentiment has reversed, indicating potential concerns about an economic slowdown, as suggested by Stifel's warning of a possible stagflation environment. Despite this, certain sectors, particularly those related to AI and retail, have shown resilience and momentum. Investors are advised to carefully assess market conditions before making trades, as opportunities may arise amidst the fluctuations.",
+      "rag_sources": [
+        {
+          "title": "Stock market swings got you reeling? Answer these 6 questions before making a trade",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/stock-market-swings-got-you-reeling-answering-6-questions-will-help.html",
+          "snippet": "2025-11-28: Stock market swings got you reeling? Answer these 6 questions before making a trade: Frustrating as volatility can be, it also tends to present opportunities.",
+          "guid": "108232626"
+        },
+        {
+          "title": "Stock benchmarks are scaling record highs: 'Animal spirits are soaring' ",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/stock-benchmarks-are-scaling-record-highs-animal-spirits-are-soaring-.html",
+          "snippet": "2025-09-11: Stock benchmarks are scaling record highs: 'Animal spirits are soaring': Easing inflation pressures,\u00a0resilient corporate earnings and expectations for U.S. rate cuts have boosted investor ",
+          "guid": "108197275"
+        },
+        {
+          "title": "Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward",
+          "date": "2025-12-26",
+          "link": "https://www.cnbc.com/2025/12/26/market-sentiment-has-made-a-huge-reversal-heres-why-and-what-it-means-going-forward.html",
+          "snippet": "2025-12-26: Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward: Something unusual happened in the past few weeks.",
+          "guid": "108245814"
+        },
+        {
+          "title": "Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel",
+          "date": "2025-08-11",
+          "link": "https://www.cnbc.com/2025/08/11/stock-market-party-to-be-ruined-by-sudden-economic-slowdown-says-stifel.html",
+          "snippet": "2025-08-11: Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel: The market could be in for a stagflation environment, the firm said.",
+          "guid": "108184067"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "5f1eaec1-d4e7-4f3e-ac3e-6d686ae520de",
+      "label": "Electric Vehicle and Robotaxi Developments",
+      "spike_ratio": 1.374,
+      "article_count": 25,
+      "rag_answer": "The electric vehicle (EV) and robotaxi sectors are experiencing significant advancements, with multiple companies, including Lucid, Xpeng, Waymo, and Tesla, actively pursuing robotaxi initiatives. Lucid plans to expand into midsize vehicles and aims for positive free cash flow by the late 2020s, while Xpeng is launching robotaxis and humanoid robots powered by self-developed AI chips. The robotaxi industry is gaining momentum, with leaders like Baidu and Nvidia noting a tipping point in competition, and Tesla has secured permits for ride-hailing services in Texas. These developments suggest a rapidly evolving market with increasing competition and potential for widespread adoption of autonomous ride-hailing services.",
+      "rag_sources": [
+        {
+          "title": "EV maker Lucid reveals plans for robotaxi, positive free cash flow late this decade",
+          "date": "2026-03-12",
+          "link": "https://www.cnbc.com/2026/03/12/lucid-investor-day.html",
+          "snippet": "2026-03-12: EV maker Lucid reveals plans for robotaxi, positive free cash flow late this decade: The EV company is aiming to hit that target through market expansion into midsize vehicles, robotaxis a",
+          "guid": "108277205"
+        },
+        {
+          "title": "\u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises",
+          "date": "2025-11-20",
+          "link": "https://www.cnbc.com/2025/11/20/global-robotaxi-race-heats-up-between-us-and-chinese-rivals.html",
+          "snippet": "2025-11-20: \u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises: Global tech executives in recent weeks have proclaimed the robotaxi industry is finally nea",
+          "guid": "108226580"
+        },
+        {
+          "title": "Chinese EV maker Xpeng to launch robotaxis, humanoid robots with self-developed AI chips",
+          "date": "2025-11-05",
+          "link": "https://www.cnbc.com/2025/11/05/china-xpeng-to-launch-robotaxis-humanoid-robots-with-own-ai-chips.html",
+          "snippet": "2025-11-05: Chinese EV maker Xpeng to launch robotaxis, humanoid robots with self-developed AI chips: Chinese electric car company Xpeng is following in Tesla's footsteps by moving into robotaxis and ",
+          "guid": "108221540"
+        },
+        {
+          "title": "Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/waymo-amazon-zoox-tesla-robotaxi-expansion.html",
+          "snippet": "2025-12-16: Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line: Robotaxis grew rapidly in 2025 with Waymo expanding fastest, Zoox debuting public rides and Tesla ",
+          "guid": "108236372"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "baa12f40-6fae-4a48-b674-488ec8fbeac8",
+      "label": "Trump's Trade War Developments",
+      "spike_ratio": 1.198,
+      "article_count": 29,
+      "rag_answer": "Trump's trade war has escalated with the implementation of extensive tariffs on numerous U.S. trading partners, including Canada, Brazil, and Switzerland, leading to significant market disruptions and reshaping international trade relationships. The introduction of a 40% tariff on goods transshipped to avoid duties has further complicated trade dynamics. Analysts have expressed concerns that Trump is \"losing\" the trade war with China, prompting calls for a change in strategy to mitigate negative impacts on American families. Additionally, the trade deficit saw a notable decrease in October, reaching its smallest level since 2009, suggesting some short-term effects of the tariff policies.",
+      "rag_sources": [
+        {
+          "title": "Live Updates: Trump tariffs slam Canada, Brazil and Switzerland ",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/trumps-tariffs-rekindle-global-trade-tensions.html",
+          "snippet": "2025-08-01: Live Updates: Trump tariffs slam Canada, Brazil and Switzerland: Trump's extensive new tariff regime on dozens of U.S. partners are launching new trade wars and sending shock waves through",
+          "guid": "108180211"
+        },
+        {
+          "title": "How countries are reacting to Trump's latest tariff announcements as deadline looms",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/how-asian-countries-are-reacting-to-trumps-latest-tariffs-announcement-as-deadline-looms.html",
+          "snippet": "2025-08-01: How countries are reacting to Trump's latest tariff announcements as deadline looms: The White House also announced a 40% tariff rate for all goods transshipped to avoid the applicable dut",
+          "guid": "108180161"
+        },
+        {
+          "title": "Another late-night Trump trade twist \u2014 just hours before the world hit go",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/another-late-night-trump-trade-twist-hours-before-the-world-hit-go.html",
+          "snippet": "2025-08-01: Another late-night Trump trade twist \u2014 just hours before the world hit go: Trump\u2019s late-night tariff moves have become a hallmark, catching markets off guard, reshaping deals, and forcing ",
+          "guid": "108180251"
+        },
+        {
+          "title": "Trump 'losing' trade war with China going in to Xi meeting, Senate Democrats say in report",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/trump-trade-china-warren-democrats-inflation-xi.html",
+          "snippet": "2025-10-29: Trump 'losing' trade war with China going in to Xi meeting, Senate Democrats say in report: \\Trump needs to change course on his trade war with China now and stop hurting American families",
+          "guid": "108218477"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

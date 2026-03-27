@@ -1,0 +1,220 @@
+{
+  "date": "2025-12-04",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "3d3acae2-25d0-4e59-83b0-0118da72d824",
+      "label": "AI-related tech stock decline",
+      "spike_ratio": 1.739,
+      "article_count": 32,
+      "rag_answer": "AI-related tech stocks have been experiencing significant declines, driven by rising concerns over their valuations and disappointing earnings reports, particularly from major players like Nvidia and Oracle. This has led to broader market sell-offs, with indices such as the Dow and S&P 500 reflecting these pressures. Despite some attempts at recovery, investor sentiment remains cautious, as evidenced by continued sell-offs and strategic shifts towards portfolio diversifiers. The ongoing volatility suggests that the AI sector may be facing a challenging period ahead, impacting overall market stability.",
+      "rag_sources": [
+        {
+          "title": "Dow slides 300 points as AI stocks resume their decline, Nasdaq falls 1%: Live updates",
+          "date": "2025-11-06",
+          "link": "https://www.cnbc.com/2025/11/05/stock-market-today-live-updates.html",
+          "snippet": "2025-11-06: Dow slides 300 points as AI stocks resume their decline, Nasdaq falls 1%: Live updates: Companies that have benefited from the artificial intelligence trade came under pressure yet again a",
+          "guid": "108222099"
+        },
+        {
+          "title": "S&P 500 gives up gain as AI-related stocks come under pressure again: Live updates",
+          "date": "2025-12-15",
+          "link": "https://www.cnbc.com/2025/12/14/stock-market-today-live-updates.html",
+          "snippet": "2025-12-15: S&P 500 gives up gain as AI-related stocks come under pressure again: Live updates: Key stocks in the artificial intelligence trade continued to face pressure.",
+          "guid": "108241593"
+        },
+        {
+          "title": "Stocks drop on rising fears about AI stock valuations, Palantir leads decline: Live updates",
+          "date": "2025-11-04",
+          "link": "https://www.cnbc.com/2025/11/03/stock-market-today-live-updates.html",
+          "snippet": "2025-11-04: Stocks drop on rising fears about AI stock valuations, Palantir leads decline: Live updates: Stocks fell, pressured by declines in artificial intelligence-related names like Palantir as in",
+          "guid": "108220811"
+        },
+        {
+          "title": "CNBC Daily Open: Days of declines won't keep AI trade down",
+          "date": "2025-11-11",
+          "link": "https://www.cnbc.com/2025/11/11/cnbc-daily-open-days-of-declines-wont-keep-ai-trade-down.html",
+          "snippet": "2025-11-11: CNBC Daily Open: Days of declines won't keep AI trade down: Investors piled back into artificial intelligence names on Monday stateside. \\AI-related stocks should drive equity markets,\\\" a",
+          "guid": "108224037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "9afb6034-4ccf-453f-8b6c-24caaaba46ad",
+      "label": "Global Inflation Trends and Data",
+      "spike_ratio": 1.194,
+      "article_count": 16,
+      "rag_answer": "Global inflation trends have shown mixed signals, with various reports indicating fluctuations in consumer price indices across different regions. For instance, Tokyo's inflation exceeded expectations, while the U.S. saw the CPI remain unchanged in December 2025, raising concerns about the reliability of government data. The Federal Reserve's gauge indicated inflation at 2.8% in November, moving further from its target, which has implications for monetary policy and market stability. Overall, these developments suggest ongoing uncertainty in inflation data, impacting investor sentiment and market performance.",
+      "rag_sources": [
+        {
+          "title": "This week's critical inflation report comes with a variety of doubts about the data",
+          "date": "2025-10-21",
+          "link": "https://www.cnbc.com/2025/10/21/this-weeks-critical-inflation-report-comes-with-doubts-about-the-data.html",
+          "snippet": "2025-10-21: This week's critical inflation report comes with a variety of doubts about the data: The September CPI report will command full attention from financial markets, even as some investors wil",
+          "guid": "108214681"
+        },
+        {
+          "title": "Asia-Pacific stocks trade mixed as Tokyo inflation runs hotter than expected",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/asia-markets-live.html",
+          "snippet": "2025-11-28: Asia-Pacific stocks trade mixed as Tokyo inflation runs hotter than expected: Traders in Asia will assess key economic data, including inflation data from Tokyo and India's GDP for its fis",
+          "guid": "108233147"
+        },
+        {
+          "title": "Here\u2019s the inflation breakdown for December 2025 \u2014 in one chart",
+          "date": "2026-01-13",
+          "link": "https://www.cnbc.com/2026/01/13/cpi-inflation-december-2025-breakdown.html",
+          "snippet": "2026-01-13: Here\u2019s the inflation breakdown for December 2025 \u2014 in one chart: The consumer price index was unchanged in December, and the inflation rate for some consumer staples like food and electric",
+          "guid": "108251665"
+        },
+        {
+          "title": "Wall Street is concerned about the reliability of government inflation data on the eve of CPI report",
+          "date": "2025-08-12",
+          "link": "https://www.cnbc.com/2025/08/11/wall-street-frets-about-reliability-of-government-data-on-eve-of-cpi.html",
+          "snippet": "2025-08-12: Wall Street is concerned about the reliability of government inflation data on the eve of CPI report: Beneath the Bureau of Labor Statistics' reports on consumer and producer prices will b",
+          "guid": "108184285"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "1aceb44f-7fc7-465c-a2a8-1f7c78edb4bf",
+      "label": "2026 Retirement and Benefits Updates",
+      "spike_ratio": 1.181,
+      "article_count": 17,
+      "rag_answer": "In 2026, significant updates to retirement and benefits are emerging, including higher 401(k) contribution limits announced by the IRS, which will allow savers to increase their retirement savings. Additionally, a bipartisan bill aims to enable older workers to use their 401(k) funds to purchase annuities, providing more options for secure retirement income. Social Security beneficiaries will also see a 2.8% cost-of-living adjustment, resulting in larger checks. These developments suggest a shift towards enhancing retirement security, but the recent trend of investors moving to cash and bonds indicates ongoing concerns about market volatility and the long-term sustainability of these strategies.",
+      "rag_sources": [
+        {
+          "title": "Older workers could use 401(k) money to buy annuities, under bipartisan bill",
+          "date": "2026-01-06",
+          "link": "https://www.cnbc.com/2026/01/06/401k-rollover-annuities.html",
+          "snippet": "2026-01-06: Older workers could use 401(k) money to buy annuities, under bipartisan bill: The Retirement Simplification and Clarity Act aims to give workers access to annuities outside of their 401(k)",
+          "guid": "108247713"
+        },
+        {
+          "title": "401(k) plans saw 'flight' to cash, bonds in September, analysis finds",
+          "date": "2025-10-13",
+          "link": "https://www.cnbc.com/2025/10/13/401k-investors-move-to-cash-bonds-in-september.html",
+          "snippet": "2025-10-13: 401(k) plans saw 'flight' to cash, bonds in September, analysis finds: Retirement plan investors seemed to flee to asset classes that felt safer \u2014 but may not be in the long run.",
+          "guid": "108210235"
+        },
+        {
+          "title": "Portugal is the No. 1 country to retire abroad: It's 'one of the most sought-after countries in Europe' for retirees, expert says",
+          "date": "2025-09-29",
+          "link": "https://www.cnbc.com/2025/09/29/global-citizen-solutions-portugal-best-country-retire-abroad.html",
+          "snippet": "2025-09-29: Portugal is the No. 1 country to retire abroad: It's 'one of the most sought-after countries in Europe' for retirees, expert says: The Global Citizen Solutions published its Global Retirem",
+          "guid": "108204825"
+        },
+        {
+          "title": "First 2026 Social Security payments bring a bigger check in January. What beneficiaries can expect",
+          "date": "2026-01-09",
+          "link": "https://www.cnbc.com/2026/01/09/january-social-security-checks-cola-increase.html",
+          "snippet": "2026-01-09: First 2026 Social Security payments bring a bigger check in January. What beneficiaries can expect: The first Social Security and Supplemental Security Income checks for 2026 will include ",
+          "guid": "108250113"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "cbc8e3a7-4226-48ab-86d7-fe0ceba213ba",
+      "label": "SNAP benefits and government shutdown",
+      "spike_ratio": 1.094,
+      "article_count": 14,
+      "rag_answer": "SNAP benefits are at risk due to a government shutdown, with funding potentially lapsing shortly. Despite past administrations continuing payments during shutdowns, the Trump administration has suggested halting SNAP benefits, contradicting a court ruling that mandates their continuation. Treasury Secretary Scott Bessent indicated that benefits could resume soon, but legal challenges persist as states have sued to ensure the program remains funded. The uncertainty surrounding SNAP could significantly impact consumers reliant on food assistance and retailers who depend on SNAP transactions for sales.",
+      "rag_sources": [
+        {
+          "title": "How a lapse in SNAP benefits could affect consumers and retailers",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/snap-benefit-lapse-consumers-retailers-effects.html",
+          "snippet": "2025-10-29: How a lapse in SNAP benefits could affect consumers and retailers: Funding for the Supplemental Nutrition Assistance Program could lapse within days if the government shutdown persists.",
+          "guid": "108218123"
+        },
+        {
+          "title": "Trump suggests U.S. won't pay any SNAP benefits during shutdown, contradicting court filing",
+          "date": "2025-11-04",
+          "link": "https://www.cnbc.com/2025/11/04/snap-trump-food-shutdown.html",
+          "snippet": "2025-11-04: Trump suggests U.S. won't pay any SNAP benefits during shutdown, contradicting court filing: Prior presidential administrations have continued paying SNAP benefits during past shutdowns of",
+          "guid": "108221171"
+        },
+        {
+          "title": "Treasury Secretary Bessent says SNAP food benefits could restart by Wednesday",
+          "date": "2025-11-03",
+          "link": "https://www.cnbc.com/2025/11/02/bessent-trump-snap-food-stamps-shutdown.html",
+          "snippet": "2025-11-03: Treasury Secretary Bessent says SNAP food benefits could restart by Wednesday: SNAP food benefits could restart as early as Wednesday, Treasury Secretary Scott Bessent said Sunday.",
+          "guid": "108220349"
+        },
+        {
+          "title": "SNAP benefits: Trump admin seeks emergency block on order to pay food stamps in full",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/snap-trump-appeals-food-stamps.html",
+          "snippet": "2025-11-07: SNAP benefits: Trump admin seeks emergency block on order to pay food stamps in full: The Trump administration tried not to pay for any food stamps in November because of the government sh",
+          "guid": "108223037"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "36518c34-adda-47b7-876a-a15456c2dac2",
+      "label": "Trump tariffs and Supreme Court",
+      "spike_ratio": 1.068,
+      "article_count": 21,
+      "rag_answer": "The U.S. Supreme Court recently struck down President Trump's global tariffs, a significant rebuke of his economic policy, which could potentially lead to $175 billion in refunds owed to businesses. In response to this ruling, Trump announced a new 10% global tariff, indicating his intent to continue pursuing tariff measures despite the legal setback. The ruling has created uncertainty in trade relations, with partners expressing concerns about the stability of trade deals. Additionally, FedEx has initiated a lawsuit for refunds related to the tariffs, highlighting the immediate financial implications for companies affected by the previous tariff regime.",
+      "rag_sources": [
+        {
+          "title": "Supreme Court strikes down Trump tariffs, rebuking president's signature economic policy",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/supreme-court-trump-tariffs-ruling.html",
+          "snippet": "2026-02-20: Supreme Court strikes down Trump tariffs, rebuking president's signature economic policy: Trump, as recently as Thursday, has talked up the consequences of the Supreme Court striking down ",
+          "guid": "108250033"
+        },
+        {
+          "title": "Trump announces new 10% global tariff after raging over Supreme Court loss",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/trump-global-trade-tariff-supreme-court.html",
+          "snippet": "2026-02-20: Trump announces new 10% global tariff after raging over Supreme Court loss: President Donald Trump spoke hours after the Supreme Court ruled against his global tariffs that he imposed with",
+          "guid": "108268039"
+        },
+        {
+          "title": "Supreme Court Trump tariffs ruling could put U.S. on hook for $175 billion in refunds, estimate says",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/supreme-court-trump-tariffs-us-refunds.html",
+          "snippet": "2026-02-20: Supreme Court Trump tariffs ruling could put U.S. on hook for $175 billion in refunds, estimate says: Supreme Court Justice Brett Kavanaugh, in his dissent, warned that \\the refund process",
+          "guid": "108267896"
+        },
+        {
+          "title": "FedEx sues for refund of Trump tariffs, days after Supreme Court ruling",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/23/fedex-trump-trade-tariffs-refunds-supreme-court-lawsuit.html",
+          "snippet": "2026-02-24: FedEx sues for refund of Trump tariffs, days after Supreme Court ruling: The Trump administration has warned that it could take years for refunds to be paid out for tariffs that the Suprem",
+          "guid": "108268838"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

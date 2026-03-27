@@ -1,0 +1,220 @@
+{
+  "date": "2026-01-20",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "2e955eac-a74a-4c42-be9f-b871d12feb52",
+      "label": "Market Trends and Stock Movements",
+      "spike_ratio": 2.21,
+      "article_count": 61,
+      "rag_answer": "The stock market has experienced significant volatility, with benchmarks reaching record highs in September 2025 due to easing inflation, strong corporate earnings, and expectations of U.S. rate cuts. However, by late December, market sentiment shifted dramatically, indicating a reversal that could impact future trading strategies. Concerns about a potential economic slowdown and stagflation have emerged, suggesting that the market's previous momentum may be at risk. Investors are advised to remain cautious and consider the changing landscape before making trading decisions.",
+      "rag_sources": [
+        {
+          "title": "Stock market swings got you reeling? Answer these 6 questions before making a trade",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/stock-market-swings-got-you-reeling-answering-6-questions-will-help.html",
+          "snippet": "2025-11-28: Stock market swings got you reeling? Answer these 6 questions before making a trade: Frustrating as volatility can be, it also tends to present opportunities.",
+          "guid": "108232626"
+        },
+        {
+          "title": "Stock benchmarks are scaling record highs: 'Animal spirits are soaring' ",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/stock-benchmarks-are-scaling-record-highs-animal-spirits-are-soaring-.html",
+          "snippet": "2025-09-11: Stock benchmarks are scaling record highs: 'Animal spirits are soaring': Easing inflation pressures,\u00a0resilient corporate earnings and expectations for U.S. rate cuts have boosted investor ",
+          "guid": "108197275"
+        },
+        {
+          "title": "Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward",
+          "date": "2025-12-26",
+          "link": "https://www.cnbc.com/2025/12/26/market-sentiment-has-made-a-huge-reversal-heres-why-and-what-it-means-going-forward.html",
+          "snippet": "2025-12-26: Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward: Something unusual happened in the past few weeks.",
+          "guid": "108245814"
+        },
+        {
+          "title": "Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel",
+          "date": "2025-08-11",
+          "link": "https://www.cnbc.com/2025/08/11/stock-market-party-to-be-ruined-by-sudden-economic-slowdown-says-stifel.html",
+          "snippet": "2025-08-11: Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel: The market could be in for a stagflation environment, the firm said.",
+          "guid": "108184067"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "08492936-46b7-490a-9566-b8596215d412",
+      "label": "Trump's Greenland Acquisition Controversy",
+      "spike_ratio": 1.815,
+      "article_count": 57,
+      "rag_answer": "President Donald Trump's ambitions to acquire Greenland have escalated, drawing significant geopolitical attention and concern. Following military actions in Venezuela, Trump has threatened a takeover of Greenland, which has bewildered local leaders and prompted strong rebukes from Greenland's Prime Minister and European leaders. Additionally, Trump is considering imposing tariffs as part of his strategy to facilitate the acquisition, raising fears of market instability. The situation has also put China on alert, indicating broader international implications as nations react to the potential shift in control over Greenland.",
+      "rag_sources": [
+        {
+          "title": "CNBC Daily Open: Trump's Greenland ambitions have global repercussions",
+          "date": "2026-01-09",
+          "link": "https://www.cnbc.com/2026/01/09/cnbc-daily-open-trumps-greenland-ambitions-have-global-repercussions.html",
+          "snippet": "2026-01-09: CNBC Daily Open: Trump's Greenland ambitions have global repercussions: U.S. President Donald Trump's ambitions around Greenland are rapidly gaining concrete form \u2014 that is, evolving from ",
+          "guid": "108250347"
+        },
+        {
+          "title": "Greenlanders 'bewildered' by Trump\u2019s 'devastating' takeover threats, business minister tells CNBC",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/trump-greenland-takeover-threats-tariffs-naaja-nathanielsen.html",
+          "snippet": "2026-01-20: Greenlanders 'bewildered' by Trump\u2019s 'devastating' takeover threats, business minister tells CNBC: Greenland has been thrust into the geopolitical spotlight by President Donald Trump's tak",
+          "guid": "108254262"
+        },
+        {
+          "title": "Trump wants Greenland. If it were for sale, it could cost trillions",
+          "date": "2026-01-08",
+          "link": "https://www.cnbc.com/2026/01/08/trump-greenland-cost-denmark.html",
+          "snippet": "2026-01-08: Trump wants Greenland. If it were for sale, it could cost trillions: Trump's rhetoric about Greenland has flared back up in the days since the U.S. military entered Venezuela and captured ",
+          "guid": "108249355"
+        },
+        {
+          "title": "Trump\u2019s Greenland gambit puts China on edge after Venezuela operation",
+          "date": "2026-01-08",
+          "link": "https://www.cnbc.com/2026/01/08/us-trump-china-greenland-denmark-arctic-tensions-trump-rare-earth-elements-minerals-mining.html",
+          "snippet": "2026-01-08: Trump\u2019s Greenland gambit puts China on edge after Venezuela operation: U.S. President Donald Trump's threat to take control of Greenland raised alarms in Beijing as nations vye for the vas",
+          "guid": "108249089"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "a21f7800-1019-4647-adfd-df0863c955d0",
+      "label": "Fed rate cuts and outlook",
+      "spike_ratio": 1.768,
+      "article_count": 35,
+      "rag_answer": "The Federal Reserve is currently navigating a divided stance on interest rate cuts, with officials indicating the possibility of two additional cuts by the end of 2025, despite some dissent regarding the timing and necessity of these reductions. Fed Chair Powell has suggested that conditions may warrant cuts, but uncertainty remains high. As of December 2025, the Fed is expected to implement its third consecutive rate cut, although there are concerns about inflation that could impact future decisions. Market expectations for further cuts in 2026 are diminishing, particularly as inflation fears rise, suggesting a cautious outlook moving forward.",
+      "rag_sources": [
+        {
+          "title": "Divided Fed officials saw another two interest rate cuts by the end of 2025, minutes show",
+          "date": "2025-10-08",
+          "link": "https://www.cnbc.com/2025/10/08/fed-minutes-september-2025.html",
+          "snippet": "2025-10-08: Divided Fed officials saw another two interest rate cuts by the end of 2025, minutes show: Officials were strongly inclined to lower rates, with the only dispute seeming to be over how man",
+          "guid": "108209324"
+        },
+        {
+          "title": "Powell indicates conditions 'may warrant' interest rate cuts as Fed proceeds 'carefully'",
+          "date": "2025-08-22",
+          "link": "https://www.cnbc.com/2025/08/22/powell-indicates-conditions-may-warrant-interest-rate-cuts-as-fed-proceeds-carefully.html",
+          "snippet": "2025-08-22: Powell indicates conditions 'may warrant' interest rate cuts as Fed proceeds 'carefully': Powell on Friday gave a tepid indication of possible cuts ahead as he noted a high level of uncert",
+          "guid": "108189532"
+        },
+        {
+          "title": "The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/09/the-fed-decision-is-expected-to-feature-a-rate-cut-and-a-lot-more-heres-what-to-expect.html",
+          "snippet": "2025-12-10: The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect: The central bank is poised to deliver its third straight interest rate cut Wednesday, while firing a ",
+          "guid": "108239042"
+        },
+        {
+          "title": "Fed's Goolsbee calls for a hold on cuts as current rate of inflation is 'not good enough'",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/feds-goolsbee-calls-for-a-hold-on-cuts-as-current-rate-of-inflation-is-not-good-enough.html",
+          "snippet": "2026-02-24: Fed's Goolsbee calls for a hold on cuts as current rate of inflation is 'not good enough': The Chicago Fed president said Tuesday that cuts aren't appropriate until there's more evidence t",
+          "guid": "108269037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "3d3acae2-25d0-4e59-83b0-0118da72d824",
+      "label": "AI-related tech stock decline",
+      "spike_ratio": 1.316,
+      "article_count": 25,
+      "rag_answer": "AI-related tech stocks have been experiencing significant declines, driven by rising concerns over their valuations and disappointing earnings reports, particularly from major players like Nvidia and Oracle. This has led to broader market sell-offs, with indices like the Dow and S&P 500 reflecting these pressures. Despite some attempts at recovery, such as a brief resurgence in AI stocks, the overall sentiment remains cautious as investors grapple with fears of an AI bubble. The ongoing volatility suggests that the tech sector may continue to face challenges, prompting strategists to seek diversifiers in their portfolios.",
+      "rag_sources": [
+        {
+          "title": "Dow slides 300 points as AI stocks resume their decline, Nasdaq falls 1%: Live updates",
+          "date": "2025-11-06",
+          "link": "https://www.cnbc.com/2025/11/05/stock-market-today-live-updates.html",
+          "snippet": "2025-11-06: Dow slides 300 points as AI stocks resume their decline, Nasdaq falls 1%: Live updates: Companies that have benefited from the artificial intelligence trade came under pressure yet again a",
+          "guid": "108222099"
+        },
+        {
+          "title": "S&P 500 gives up gain as AI-related stocks come under pressure again: Live updates",
+          "date": "2025-12-15",
+          "link": "https://www.cnbc.com/2025/12/14/stock-market-today-live-updates.html",
+          "snippet": "2025-12-15: S&P 500 gives up gain as AI-related stocks come under pressure again: Live updates: Key stocks in the artificial intelligence trade continued to face pressure.",
+          "guid": "108241593"
+        },
+        {
+          "title": "Stocks drop on rising fears about AI stock valuations, Palantir leads decline: Live updates",
+          "date": "2025-11-04",
+          "link": "https://www.cnbc.com/2025/11/03/stock-market-today-live-updates.html",
+          "snippet": "2025-11-04: Stocks drop on rising fears about AI stock valuations, Palantir leads decline: Live updates: Stocks fell, pressured by declines in artificial intelligence-related names like Palantir as in",
+          "guid": "108220811"
+        },
+        {
+          "title": "CNBC Daily Open: Days of declines won't keep AI trade down",
+          "date": "2025-11-11",
+          "link": "https://www.cnbc.com/2025/11/11/cnbc-daily-open-days-of-declines-wont-keep-ai-trade-down.html",
+          "snippet": "2025-11-11: CNBC Daily Open: Days of declines won't keep AI trade down: Investors piled back into artificial intelligence names on Monday stateside. \\AI-related stocks should drive equity markets,\\\" a",
+          "guid": "108224037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "5042faa2-00c9-4f97-b253-3b403294321a",
+      "label": "Trump's Influence on Fed Independence",
+      "spike_ratio": 1.236,
+      "article_count": 22,
+      "rag_answer": "Trump's influence on the Federal Reserve's independence has been a significant concern, as he has openly criticized Fed Chair Jerome Powell and sought to exert control over the central bank. Key developments include Trump's pressure campaign, which has raised fears of higher inflation and weaker economic growth, according to surveys. Prominent figures, including JPMorgan Chase CEO Jamie Dimon and Fed officials like John Williams, have defended the Fed's independence amid these pressures. The ongoing tension suggests that Trump's actions could lead to increased market volatility and uncertainty regarding monetary policy direction, impacting consumer borrowing costs and overall economic stability.",
+      "rag_sources": [
+        {
+          "title": "Fed chair candidate Waller says he will 'absolutely' stress importance of Fed's independence to Trump",
+          "date": "2025-12-17",
+          "link": "https://www.cnbc.com/2025/12/17/fed-chair-candidate-waller-says-he-will-absolutely-emphasize-importance-of-the-central-banks-independence-to-trump.html",
+          "snippet": "2025-12-17: Fed chair candidate Waller says he will 'absolutely' stress importance of Fed's independence to Trump: President Donald Trump regularly weighs in on Fed decisions, accusing the central ban",
+          "guid": "108242898"
+        },
+        {
+          "title": "Trump attacks Powell again amid Fed independence fears: 'Incompetent' or 'crooked'",
+          "date": "2026-01-13",
+          "link": "https://www.cnbc.com/2026/01/13/trump-powell-fed-dimon-pirro-doj.html",
+          "snippet": "2026-01-13: Trump attacks Powell again amid Fed independence fears: 'Incompetent' or 'crooked': JPMorgan Chase CEO Jamie Dimon defended the Fed's independence amid the probe of Powell by Trump's DOJ, ",
+          "guid": "108251767"
+        },
+        {
+          "title": "Hassett says Fed independence is \u2018really important\u2019 and chair candidates shouldn\u2019t be disqualified for being Trump\u2019s friend",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/fed-chief-candidate-hassett-says-central-banks-independence-is-really-important-would-move-rates-by-consensus.html",
+          "snippet": "2025-12-16: Hassett says Fed independence is \u2018really important\u2019 and chair candidates shouldn\u2019t be disqualified for being Trump\u2019s friend: Hassett declined in a CNBC interview to directly address his ow",
+          "guid": "108242375"
+        },
+        {
+          "title": "Here's what it really means for Trump to get control of the Federal Reserve board",
+          "date": "2025-08-31",
+          "link": "https://www.cnbc.com/2025/08/30/heres-what-it-really-means-for-trump-to-get-control-of-the-federal-reserve-board.html",
+          "snippet": "2025-08-31: Here's what it really means for Trump to get control of the Federal Reserve board: Since taking office in January, Trump has placed the Fed directly in the crosshairs of executive power.",
+          "guid": "108192598"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

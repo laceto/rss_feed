@@ -1,0 +1,212 @@
+{
+  "date": "2026-03-06",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "0009838e-5b99-4f23-b3c0-d85cafc96a09",
+      "label": "U.S.-Iran Tensions and Oil Prices",
+      "spike_ratio": 1.429,
+      "article_count": 60,
+      "rag_answer": "U.S.-Iran tensions have escalated significantly, leading to volatile oil prices. Following reports of military strikes and the collapse of nuclear talks, oil prices surged, with U.S. crude oil reaching over $80 per barrel as the conflict disrupts global fuel supplies. Market reactions have been mixed, with oil prices jumping and then pulling back as traders navigate the uncertainty surrounding negotiations and potential military actions. The ongoing conflict is raising concerns about market concentration risks and its impact on consumers' costs, indicating a broader economic fallout.",
+      "rag_sources": [
+        {
+          "title": "Oil pulls back as U.S.\u2013Iran talks set to resume: Here\u2019s where negotiations stand",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/23/iran-us-talks-oil-falls-nuclear-negotiations.html",
+          "snippet": "2026-02-23: Oil pulls back as U.S.\u2013Iran talks set to resume: Here\u2019s where negotiations stand: Tensions have remained on high alert throughout the Middle East for weeks after U.S. President Donald Trum",
+          "guid": "108268317"
+        },
+        {
+          "title": "Oil jumps 4% after Vance says Iran ignored key U.S. demands, military strikes on the table",
+          "date": "2026-02-18",
+          "link": "https://www.cnbc.com/2026/02/18/oil-prices-today-iran-trump-nuclear-talks.html",
+          "snippet": "2026-02-18: Oil jumps 4% after Vance says Iran ignored key U.S. demands, military strikes on the table: Oil traders are worried that war between the U.S. and Iran could lead to a major disruption of c",
+          "guid": "108266679"
+        },
+        {
+          "title": "Here's how the U.S.-Iran war is already hitting consumers' pocketbooks",
+          "date": "2026-03-06",
+          "link": "https://www.cnbc.com/2026/03/06/us-iran-war-gas-mortgage-markets.html",
+          "snippet": "2026-03-06: Here's how the U.S.-Iran war is already hitting consumers' pocketbooks: The U.S.-Israeli strikes on Iran over the weekend gave way to a week with topsy-turvy markets, spiking mortgage rate",
+          "guid": "108274411"
+        },
+        {
+          "title": "Oil prices steady as traders monitor Iran tensions, U.S. economic data",
+          "date": "2026-02-10",
+          "link": "https://www.cnbc.com/2026/02/10/oil-drifts-lower-as-traders-weigh-supply-risks-amid-usiran-tensions.html",
+          "snippet": "2026-02-10: Oil prices steady as traders monitor Iran tensions, U.S. economic data: Oil prices eased slightly on Tuesday after U.S. guidance for vessels transiting the Strait of Hormuz kept attention ",
+          "guid": "108263647"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "28ef7e58-6eec-468d-9e07-36e059f3bd97",
+      "label": "AI Investment and Valuation Trends",
+      "spike_ratio": 1.346,
+      "article_count": 21,
+      "rag_answer": "AI investment is currently experiencing significant volatility, with growing concerns about a potential tech bubble as valuations for AI stocks come under scrutiny. Prominent investors, such as Orlando Bravo and Ray Dalio, have suggested that certain software stocks may deserve valuation cuts due to the inflated expectations surrounding AI. Fund managers are cautious, indicating that while AI spending continues to rise, they are wary of stretched valuations and are closely monitoring market positioning. Despite these concerns, there are still opportunities in the AI supply chain, particularly among lesser-known companies that support the sector.",
+      "rag_sources": [
+        {
+          "title": "AI valuation fears grip global investors as tech bubble concerns grow",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/ai-valuation-fears-grip-investors-as-tech-bubble-concerns-heighten.html",
+          "snippet": "2025-11-07: AI valuation fears grip global investors as tech bubble concerns grow: The recent slide among AI stocks has once again put fears of a tech bubble at the forefront of investors' minds.",
+          "guid": "108222913"
+        },
+        {
+          "title": "Orlando Bravo says some software names hit by AI deserve a valuation cut",
+          "date": "2026-03-17",
+          "link": "https://www.cnbc.com/2026/03/17/orlando-bravo-software-ai-valuation-cut.html",
+          "snippet": "2026-03-17: Orlando Bravo says some software names hit by AI deserve a valuation cut: The Thoma Bravo co-founder said that some of the software stocks getting hit by the AI wave deserve a lower valuat",
+          "guid": "108279068"
+        },
+        {
+          "title": "Fund managers reveal their bubble recipes and what to watch for as AI stocks soar",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/30/fund-managers-reveal-their-bubble-recipes-and-what-to-watch-for-as-ai-stocks-soar.html",
+          "snippet": "2025-10-29: Fund managers reveal their bubble recipes and what to watch for as AI stocks soar: \\Fundamentals and valuations can only be ignored for so long,\\\" one portfolio manager told CNBC.\"",
+          "guid": "108217900"
+        },
+        {
+          "title": "How fund managers are investing for the fourth quarter as AI bubble talk swirls",
+          "date": "2025-10-12",
+          "link": "https://www.cnbc.com/2025/10/13/how-fund-managers-are-investing-for-the-fourth-quarter-as-ai-bubble-talk-swirls.html",
+          "snippet": "2025-10-12: How fund managers are investing for the fourth quarter as AI bubble talk swirls: \\We are, however, wary of positioning, and remain watchful of stretched valuations,\\\" one fund manager told",
+          "guid": "108209800"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "98f2b667-e4df-4662-8af7-4b0e530dab68",
+      "label": "Housing Market Trends and Challenges",
+      "spike_ratio": 1.25,
+      "article_count": 16,
+      "rag_answer": "The housing market is facing significant challenges, with Goldman Sachs predicting an 8% decline in the second half of 2025 due to immigration and affordability issues. Despite a recent drop in mortgage rates, many potential homebuyers feel priced out, leading to a notable decrease in home sales, which fell over 8% in January 2026. In response to these challenges, a housing affordability package is advancing in Congress, aimed at reducing regulations for homebuilders and providing incentives to local governments. However, as the spring housing market begins, rising mortgage rates are creating additional economic headwinds, complicating recovery efforts.",
+      "rag_sources": [
+        {
+          "title": "Housing to remain weakest part of economy, falling 8% in the second half, Goldman says",
+          "date": "2025-08-04",
+          "link": "https://www.cnbc.com/2025/08/04/housing-to-remain-weakest-part-of-economy-in-the-2nd-half-goldman-says.html",
+          "snippet": "2025-08-04: Housing to remain weakest part of economy, falling 8% in the second half, Goldman says: The Wall Street investment bank named immigration and affordability challenges as two obstacles stan",
+          "guid": "108181055"
+        },
+        {
+          "title": "Housing affordability package set to advance in Congress amid home-cost concerns",
+          "date": "2026-02-10",
+          "link": "https://www.cnbc.com/2026/02/09/housing-affordability-prices-congress.html",
+          "snippet": "2026-02-10: Housing affordability package set to advance in Congress amid home-cost concerns: Wide-ranging legislation would reduce regulations for homebuilders while giving local governments incentiv",
+          "guid": "108262990"
+        },
+        {
+          "title": "What to expect from the housing market in 2026\u2014and the 10 major cities where prices could fall the most",
+          "date": "2025-12-31",
+          "link": "https://www.cnbc.com/2025/12/31/housing-market-outlook-for-2026and-10-cities-where-prices-may-fall.html",
+          "snippet": "2025-12-31: What to expect from the housing market in 2026\u2014and the 10 major cities where prices could fall the most: Home prices and mortgage rates will remain elevated in 2026, but slower price growt",
+          "guid": "108246806"
+        },
+        {
+          "title": "Here's what's keeping homebuyers on the sidelines despite mortgage rates hitting a 10-month low ",
+          "date": "2025-08-20",
+          "link": "https://www.cnbc.com/2025/08/20/mortgage-rates-hit-a-10-month-low-why-home-buyers-are-on-the-sidelines.html",
+          "snippet": "2025-08-20: Here's what's keeping homebuyers on the sidelines despite mortgage rates hitting a 10-month low: A lot of would-be buyers feel priced out of the housing market. Lower mortgage rates might ",
+          "guid": "108188145"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "86c68629-bcc3-4d3e-92f9-6b3e3a5097f9",
+      "label": "Robotaxi and EV Industry Updates",
+      "spike_ratio": 1.183,
+      "article_count": 22,
+      "rag_answer": "The robotaxi industry is experiencing significant momentum, with major players like Baidu, Nvidia, Waymo, and Tesla making strides in technology and market expansion. Companies such as Lucid and Rivian are also entering the robotaxi space, with Rivian announcing a substantial investment from Uber to deploy 50,000 robotaxis. Meanwhile, traditional automakers like GM and Ford are facing challenges, including financial setbacks and declining EV sales, as they adjust their strategies in response to changing market conditions. Overall, the rapid growth of the robotaxi sector suggests a transformative shift in urban mobility, but it also highlights the competitive pressures and financial risks within the broader EV market.",
+      "rag_sources": [
+        {
+          "title": "\u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises",
+          "date": "2025-11-20",
+          "link": "https://www.cnbc.com/2025/11/20/global-robotaxi-race-heats-up-between-us-and-chinese-rivals.html",
+          "snippet": "2025-11-20: \u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises: Global tech executives in recent weeks have proclaimed the robotaxi industry is finally nea",
+          "guid": "108226580"
+        },
+        {
+          "title": "EV maker Lucid reveals plans for robotaxi, positive free cash flow late this decade",
+          "date": "2026-03-12",
+          "link": "https://www.cnbc.com/2026/03/12/lucid-investor-day.html",
+          "snippet": "2026-03-12: EV maker Lucid reveals plans for robotaxi, positive free cash flow late this decade: The EV company is aiming to hit that target through market expansion into midsize vehicles, robotaxis a",
+          "guid": "108277205"
+        },
+        {
+          "title": "Rivian announces new AI tech, in-house chip and robotaxi ambitions",
+          "date": "2025-12-11",
+          "link": "https://www.cnbc.com/2025/12/11/rivian-autonomy-ai-day.html",
+          "snippet": "2025-12-11: Rivian announces new AI tech, in-house chip and robotaxi ambitions: The company has also developed AI models to power its Autonomy+ subscription, which it intends to roll out early next ye",
+          "guid": "108240446"
+        },
+        {
+          "title": "Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/waymo-amazon-zoox-tesla-robotaxi-expansion.html",
+          "snippet": "2025-12-16: Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line: Robotaxis grew rapidly in 2025 with Waymo expanding fastest, Zoox debuting public rides and Tesla ",
+          "guid": "108236372"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "ee1ad4d1-8648-438c-b36e-c7ec3a2fa38c",
+      "label": "Trump tariffs Supreme Court ruling",
+      "spike_ratio": 1.179,
+      "article_count": 25,
+      "rag_answer": "The U.S. Supreme Court has struck down significant portions of President Trump's tariffs, a ruling that could potentially lead to $175 billion in refunds for affected companies. This decision has been described as a major setback for Trump, whose economic policies heavily relied on these tariffs. While U.S. trading partners have welcomed the ruling, businesses are now faced with uncertainty as they navigate the implications of this legal change. The ruling is expected to have far-reaching effects on the economy and markets as they adjust to the new landscape.",
+      "rag_sources": [
+        {
+          "title": "Supreme Court Trump tariffs ruling could put U.S. on hook for $175 billion in refunds, estimate says",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/supreme-court-trump-tariffs-us-refunds.html",
+          "snippet": "2026-02-20: Supreme Court Trump tariffs ruling could put U.S. on hook for $175 billion in refunds, estimate says: Supreme Court Justice Brett Kavanaugh, in his dissent, warned that \\the refund process",
+          "guid": "108267896"
+        },
+        {
+          "title": "Watch: Trump speaks after Supreme Court strikes down tariffs ",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/trump-supreme-court-tariffs-white-house.html",
+          "snippet": "2026-02-20: Watch: Trump speaks after Supreme Court strikes down tariffs: The Supreme Court ruling is a major blow to Trump, whose economic and foreign policies leaned on his asserted power to unilate",
+          "guid": "108267984"
+        },
+        {
+          "title": "President Trump's tariffs fueled U.S. Customs bond market boom. Now billions hang on Supreme Court ruling",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/supreme-court-trump-tariffs-case-decision-refunds-customs-bonds.html",
+          "snippet": "2026-02-06: President Trump's tariffs fueled U.S. Customs bond market boom. Now billions hang on Supreme Court ruling: Companies are anxious for Supreme Court ruling on Trump tariffs, but in addition ",
+          "guid": "108257085"
+        },
+        {
+          "title": "Trump insists trade deals safe after Supreme Court ruling upends tariff authority, but partners aren\u2019t so sure",
+          "date": "2026-02-26",
+          "link": "https://www.cnbc.com/2026/02/26/trump-state-of-the-union-supreme-court-tariffs-trade-deals-ieepa-section-301-232-122.html",
+          "snippet": "2026-02-26: Trump insists trade deals safe after Supreme Court ruling upends tariff authority, but partners aren\u2019t so sure: The Supreme Court decision to strike down Trump's tariffs has thrown fresh c",
+          "guid": "108268905"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

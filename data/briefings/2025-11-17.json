@@ -1,0 +1,220 @@
+{
+  "date": "2025-11-17",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "a21f7800-1019-4647-adfd-df0863c955d0",
+      "label": "Fed rate cuts and outlook",
+      "spike_ratio": 1.176,
+      "article_count": 40,
+      "rag_answer": "Recent developments indicate a divided stance among Federal Reserve officials regarding interest rate cuts, with discussions suggesting two additional cuts by the end of 2025. Fed Chair Powell has indicated that conditions may warrant cuts, but uncertainty remains high. As of December 2025, the Fed is expected to implement its third consecutive rate cut, although there are concerns about inflation that could impact future decisions. Market expectations for further cuts in 2026 are diminishing, particularly as inflation fears rise, suggesting a cautious outlook moving forward.",
+      "rag_sources": [
+        {
+          "title": "Divided Fed officials saw another two interest rate cuts by the end of 2025, minutes show",
+          "date": "2025-10-08",
+          "link": "https://www.cnbc.com/2025/10/08/fed-minutes-september-2025.html",
+          "snippet": "2025-10-08: Divided Fed officials saw another two interest rate cuts by the end of 2025, minutes show: Officials were strongly inclined to lower rates, with the only dispute seeming to be over how man",
+          "guid": "108209324"
+        },
+        {
+          "title": "Powell indicates conditions 'may warrant' interest rate cuts as Fed proceeds 'carefully'",
+          "date": "2025-08-22",
+          "link": "https://www.cnbc.com/2025/08/22/powell-indicates-conditions-may-warrant-interest-rate-cuts-as-fed-proceeds-carefully.html",
+          "snippet": "2025-08-22: Powell indicates conditions 'may warrant' interest rate cuts as Fed proceeds 'carefully': Powell on Friday gave a tepid indication of possible cuts ahead as he noted a high level of uncert",
+          "guid": "108189532"
+        },
+        {
+          "title": "The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/09/the-fed-decision-is-expected-to-feature-a-rate-cut-and-a-lot-more-heres-what-to-expect.html",
+          "snippet": "2025-12-10: The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect: The central bank is poised to deliver its third straight interest rate cut Wednesday, while firing a ",
+          "guid": "108239042"
+        },
+        {
+          "title": "Fed's Goolsbee calls for a hold on cuts as current rate of inflation is 'not good enough'",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/feds-goolsbee-calls-for-a-hold-on-cuts-as-current-rate-of-inflation-is-not-good-enough.html",
+          "snippet": "2026-02-24: Fed's Goolsbee calls for a hold on cuts as current rate of inflation is 'not good enough': The Chicago Fed president said Tuesday that cuts aren't appropriate until there's more evidence t",
+          "guid": "108269037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "6cfbafc7-cfd5-4a00-ad72-313a521c3ad7",
+      "label": "French Political Crisis",
+      "spike_ratio": 1.078,
+      "article_count": 11,
+      "rag_answer": "France is currently experiencing a significant political crisis marked by the resignation of Prime Minister Sebastien Lecornu after just 27 days in office, leading to further instability. President Macron faces pressure to appoint a new Prime Minister, call for new parliamentary elections, or potentially resign himself. This turmoil has prompted criticism from former allies, including ex-Prime Minister Gabriel Attal, and has resulted in a decline in the CAC 40 index, indicating market concerns over the country's governance. Analysts suggest avoiding investments in banks and telecommunications within France, as the ongoing political chaos is expected to hinder economic growth and create a challenging environment for domestic-facing stocks.",
+      "rag_sources": [
+        {
+          "title": "France is plunged further into political crisis. Here\u2019s what could happen next",
+          "date": "2025-10-07",
+          "link": "https://www.cnbc.com/2025/10/07/what-happens-next-in-france-after-lecornus-resignation.html",
+          "snippet": "2025-10-07: France is plunged further into political crisis. Here\u2019s what could happen next: Macron now has to choose a new PM, opt for new parliamentary elections or resign.",
+          "guid": "108207986"
+        },
+        {
+          "title": "France's crisis takes an unexpected turn as Macron's allies defy him",
+          "date": "2025-10-08",
+          "link": "https://www.cnbc.com/2025/10/08/frances-crisis-takes-an-unexpected-turn-as-macrons-allies-defy-him.html",
+          "snippet": "2025-10-08: France's crisis takes an unexpected turn as Macron's allies defy him: The most notable criticism has come from former Prime Minister Gabriel Attal, once Macron's prot\u00e9g\u00e9.",
+          "guid": "108209228"
+        },
+        {
+          "title": "France's political crisis deepens as another PM is axed: Here's what happens next",
+          "date": "2025-09-09",
+          "link": "https://www.cnbc.com/2025/09/09/what-happens-next-in-france-after-another-pm-is-ousted.html",
+          "snippet": "2025-09-09: France's political crisis deepens as another PM is axed: Here's what happens next: CNBC takes a look at what could happen next in France after the ousting of yet another prime minister.",
+          "guid": "108195888"
+        },
+        {
+          "title": "French PM resigns after 27 days sparking fresh political chaos",
+          "date": "2025-10-06",
+          "link": "https://www.cnbc.com/2025/10/06/frances-new-pm-resigns-as-political-chaos-continues.html",
+          "snippet": "2025-10-06: French PM resigns after 27 days sparking fresh political chaos: France's new Prime Minister Sebastien Lecornu has resigned just weeks after his appointment to the role, plunging the countr",
+          "guid": "108207973"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "7414a4dc-4f2f-4f00-aaab-b1ec476cbab7",
+      "label": "AI Chip Market Developments",
+      "spike_ratio": 1.038,
+      "article_count": 44,
+      "rag_answer": "The AI chip market is experiencing significant growth, driven by increased demand and geopolitical factors. Companies like ASML are benefiting from a surge in orders, particularly as the AI boom continues to fuel optimism for 2026. Meanwhile, Chinese firms such as Baidu and Alibaba are ramping up their efforts to develop homegrown AI chips, aiming to fill gaps left by major players like Nvidia. This focus on domestic chip production is likely to enhance competition in the market, while also raising concerns about market concentration and potential vulnerabilities in the sector.",
+      "rag_sources": [
+        {
+          "title": "Chip giant ASML surges 7% as AI boom fuels record orders and upbeat 2026 guidance",
+          "date": "2026-01-28",
+          "link": "https://www.cnbc.com/2026/01/28/asml-q4-2025-earnings-report.html",
+          "snippet": "2026-01-28: Chip giant ASML surges 7% as AI boom fuels record orders and upbeat 2026 guidance: ASML is experiencing several tailwinds including an expectation of increased chipmaking capacity and cont",
+          "guid": "108257383"
+        },
+        {
+          "title": "Alibaba is developing a new AI chip \u2014 here's what we know so far",
+          "date": "2025-08-29",
+          "link": "https://www.cnbc.com/2025/08/29/alibaba-is-developing-a-new-ai-chip-heres-what-we-know-so-far.html",
+          "snippet": "2025-08-29: Alibaba is developing a new AI chip \u2014 here's what we know so far: Chinese technology firms have focused on developing homegrown chips over the last few years amid rising geopolitical tensi",
+          "guid": "108192425"
+        },
+        {
+          "title": "Chip stocks rally to start 2026 after third-straight winning year",
+          "date": "2026-01-02",
+          "link": "https://www.cnbc.com/2026/01/02/chipmakers-2026-ai-trade.html",
+          "snippet": "2026-01-02: Chip stocks rally to start 2026 after third-straight winning year: Investors piled into the winning artificial intelligence-adjacent sector following another big year of gains.",
+          "guid": "108247500"
+        },
+        {
+          "title": "Baidu is emerging as a major AI chip player in China to fill the Nvidia gap",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/baidu-is-major-ai-chip-player-in-china-to-fill-nvidia-gap.html",
+          "snippet": "2025-11-28: Baidu is emerging as a major AI chip player in China to fill the Nvidia gap: China's focus on pushing domestic chips could make Baidu's chip unit, Kunlunxin, a fast-growing business for th",
+          "guid": "108232314"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "cbc8e3a7-4226-48ab-86d7-fe0ceba213ba",
+      "label": "SNAP benefits and government shutdown",
+      "spike_ratio": 1.0,
+      "article_count": 12,
+      "rag_answer": "SNAP benefits are at risk due to a government shutdown, with funding potentially lapsing shortly. Despite past administrations continuing payments during shutdowns, the Trump administration has suggested halting SNAP benefits, contradicting a court ruling that mandates their continuation. Treasury Secretary Scott Bessent indicated that benefits could resume soon, but legal challenges and administrative actions complicate the situation. The uncertainty surrounding SNAP could significantly impact consumers reliant on food assistance and retailers who depend on SNAP transactions, potentially leading to decreased consumer spending in the grocery sector.",
+      "rag_sources": [
+        {
+          "title": "How a lapse in SNAP benefits could affect consumers and retailers",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/snap-benefit-lapse-consumers-retailers-effects.html",
+          "snippet": "2025-10-29: How a lapse in SNAP benefits could affect consumers and retailers: Funding for the Supplemental Nutrition Assistance Program could lapse within days if the government shutdown persists.",
+          "guid": "108218123"
+        },
+        {
+          "title": "Trump suggests U.S. won't pay any SNAP benefits during shutdown, contradicting court filing",
+          "date": "2025-11-04",
+          "link": "https://www.cnbc.com/2025/11/04/snap-trump-food-shutdown.html",
+          "snippet": "2025-11-04: Trump suggests U.S. won't pay any SNAP benefits during shutdown, contradicting court filing: Prior presidential administrations have continued paying SNAP benefits during past shutdowns of",
+          "guid": "108221171"
+        },
+        {
+          "title": "Treasury Secretary Bessent says SNAP food benefits could restart by Wednesday",
+          "date": "2025-11-03",
+          "link": "https://www.cnbc.com/2025/11/02/bessent-trump-snap-food-stamps-shutdown.html",
+          "snippet": "2025-11-03: Treasury Secretary Bessent says SNAP food benefits could restart by Wednesday: SNAP food benefits could restart as early as Wednesday, Treasury Secretary Scott Bessent said Sunday.",
+          "guid": "108220349"
+        },
+        {
+          "title": "SNAP benefits: Trump admin seeks emergency block on order to pay food stamps in full",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/snap-trump-appeals-food-stamps.html",
+          "snippet": "2025-11-07: SNAP benefits: Trump admin seeks emergency block on order to pay food stamps in full: The Trump administration tried not to pay for any food stamps in November because of the government sh",
+          "guid": "108223037"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "0d20e23d-6795-477d-bb84-20b28b10b364",
+      "label": "Ukraine peace talks dynamics",
+      "spike_ratio": 0.988,
+      "article_count": 17,
+      "rag_answer": "Recent developments in the Ukraine peace talks indicate a cautious yet potentially significant shift. Ukraine has reportedly agreed to a U.S.-brokered peace proposal, with President Zelenskyy expressing readiness for constructive dialogue. However, Russia's response remains uncertain, as President Putin has issued threats while weighing the proposal. The dynamics suggest that while there is a glimmer of hope for resolution, market implications could be volatile, particularly if Russia's stance shifts dramatically or if tensions escalate further.",
+      "rag_sources": [
+        {
+          "title": "Ukraine reportedly agrees to U.S.-brokered peace proposal",
+          "date": "2025-11-25",
+          "link": "https://www.cnbc.com/2025/11/25/ukraine-russia-peace-trump-abu-dhabi.html",
+          "snippet": "2025-11-25: Ukraine reportedly agrees to U.S.-brokered peace proposal: Ukraine has reportedly agreed to a potential peace deal with Russia in what could be a massive step toward bringing the devastati",
+          "guid": "108231635"
+        },
+        {
+          "title": "All eyes on Russia as it weighs Ukraine peace plan with caution",
+          "date": "2025-11-26",
+          "link": "https://www.cnbc.com/2025/11/26/russia-responds-to-fledgling-ukraine-peace-plan.html",
+          "snippet": "2025-11-26: All eyes on Russia as it weighs Ukraine peace plan with caution: There's been little official comment from Moscow regarding a revised U.S.-brokered peace plan for Ukraine.",
+          "guid": "108232279"
+        },
+        {
+          "title": "Ukraine desperate to keep Trump on its side in peace talks, while saving its sovereignty",
+          "date": "2025-11-24",
+          "link": "https://www.cnbc.com/2025/11/24/ukraine-desperate-to-keep-trump-sweet-while-saving-its-sovereignty.html",
+          "snippet": "2025-11-24: Ukraine desperate to keep Trump on its side in peace talks, while saving its sovereignty: Talks between U.S. and Ukrainian officials were held this weekend after it emerged that Russia and",
+          "guid": "108230764"
+        },
+        {
+          "title": "Ukraine\u2019s Zelenskyy says Kyiv \u2018geared up for clear and honest work\u2019 as U.S. pushes for progress on peace plan",
+          "date": "2025-11-21",
+          "link": "https://www.cnbc.com/2025/11/21/ukraine-peace-plan-zelenskyy-to-speak-with-trump-on-deal-to-end-war.html",
+          "snippet": "2025-11-21: Ukraine\u2019s Zelenskyy says Kyiv \u2018geared up for clear and honest work\u2019 as U.S. pushes for progress on peace plan: Ukrainian President Volodymyr Zelenskyy said he expects to speak with U.S. co",
+          "guid": "108229758"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

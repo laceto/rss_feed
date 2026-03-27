@@ -4,14 +4,15 @@ cluster_topics.py
 Daily topic clustering pipeline over the existing FAISS feed vectorstore.
 
 High-level flow (called via __main__ or imported):
-  1. extract_window_vectors  — load articles from rolling window
-  2. reduce_dimensions       — PCA(50) for noise reduction
-  3. run_hdbscan             — cluster; abort on degenerate output
-  4. compute_centroids       — mean embedding per cluster
-  5. match_topics            — cosine-similarity continuity across runs
-  6. get_label               — LLM label (cache-first, LLM only for new topics)
-  7. append_trends           — append date × topic × count to topic_trends.tsv
-  8. get_emerging_topics     — spike ratio signal for downstream consumers
+  1. extract_window_vectors   — load articles from rolling window
+  2. reduce_dimensions        — PCA(50) for noise reduction
+  3. run_hdbscan              — cluster; abort on degenerate output
+  4. compute_centroids        — mean embedding per cluster
+  5. match_topics             — cosine-similarity continuity across runs
+  6. get_label                — LLM label (cache-first, LLM only for new topics)
+  7a. compute_topic_sentiment — mean sector sentiment per topic (pure join, no API)
+  7b. append_trends           — append date × topic × count × sentiment to topic_trends.tsv
+  8. get_emerging_topics      — spike ratio + sentiment signal for downstream consumers
 
 Invariants:
   - topic_id is stable once assigned; never changes for the same narrative
@@ -43,8 +44,10 @@ from constants import (
     CLUSTER_MIN_CLUSTERS,
     CLUSTER_MIN_SAMPLES,
     CLUSTER_MIN_SIZE,
+    CLUSTER_SELECTION_METHOD,
     CLUSTER_WINDOW_DAYS,
     FEEDS_REGISTRY_FILE,
+    SECTOR_SUMMARY_FILE,
     TOPIC_CENTROIDS_FILE,
     TOPIC_CLUSTERS_DIR,
     TOPIC_LABELS_FILE,
@@ -132,7 +135,7 @@ def extract_window_vectors(
     registry = _load_registry()
 
     cutoff = target_date - timedelta(days=window_days)
-    mask = registry["date"].dt.date >= cutoff
+    mask = (registry["date"].dt.date >= cutoff) & (registry["date"].dt.date <= target_date)
     sub = registry[mask].reset_index(drop=True)
 
     ids = sub["id"].astype(int).tolist()
@@ -168,15 +171,20 @@ def run_hdbscan(
     min_samples: int = CLUSTER_MIN_SAMPLES,
     max_noise_ratio: float = CLUSTER_MAX_NOISE_RATIO,
     min_clusters: int = CLUSTER_MIN_CLUSTERS,
+    cluster_selection_method: str = CLUSTER_SELECTION_METHOD,
 ) -> tuple[np.ndarray, float]:
     """Cluster reduced vectors with HDBSCAN.
 
     Args:
-        X:               Reduced vectors, shape (n, d).
-        min_cluster_size: HDBSCAN min_cluster_size.
-        min_samples:      HDBSCAN min_samples.
-        max_noise_ratio:  Abort if (n_noise / n) > this value.
-        min_clusters:     Abort if n_clusters < this value.
+        X:                       Reduced vectors, shape (n, d).
+        min_cluster_size:        HDBSCAN min_cluster_size.
+        min_samples:             HDBSCAN min_samples.
+        max_noise_ratio:         Abort if (n_noise / n) > this value.
+        min_clusters:            Abort if n_clusters < this value.
+        cluster_selection_method: HDBSCAN cluster_selection_method.
+                                  'leaf' finds finer-grained clusters (~19 on
+                                  this corpus); 'eom' (HDBSCAN default) tends
+                                  to over-merge to ~3.
 
     Returns:
         (labels, noise_ratio) where labels[i] is the integer cluster ID
@@ -190,6 +198,7 @@ def run_hdbscan(
         min_cluster_size=min_cluster_size,
         min_samples=min_samples,
         metric="euclidean",
+        cluster_selection_method=cluster_selection_method,
     )
     labels = clusterer.fit_predict(X)
 
@@ -454,7 +463,76 @@ def save_label_cache(cache: dict[str, str], path: Path | str = TOPIC_LABELS_FILE
 # A5 — Time-series output
 # ---------------------------------------------------------------------------
 
-_TRENDS_COLUMNS = ["date", "topic_id", "topic_label", "article_count"]
+_TRENDS_COLUMNS = ["date", "topic_id", "topic_label", "article_count", "sentiment_score"]
+
+# Sentiment numeric map (mirrors SENTIMENT_SCORE in constants.py)
+_SENTIMENT_SCORE: dict[str, float] = {"positive": 1.0, "neutral": 0.0, "negative": -1.0}
+
+
+def compute_topic_sentiment(
+    cluster_date: str,
+    sector_summary_path: Path | str = SECTOR_SUMMARY_FILE,
+    topic_clusters_dir: Path | str = TOPIC_CLUSTERS_DIR,
+) -> dict[str, float]:
+    """Compute the mean sentiment score for each topic cluster on cluster_date.
+
+    Join path:
+      topic_clusters/{cluster_date}.json  — article guid → topic_id + article date
+      sector_summary.tsv                  — date × sector → sentiment
+      _SENTIMENT_SCORE                    — "positive"→+1, "neutral"→0, "negative"→-1
+
+    For each topic: collect all member articles, look up the mean sector sentiment
+    on each article's date, then average across all articles in the cluster. Articles
+    from dates with no sector data are excluded from the mean (not zeroed).
+
+    Args:
+        cluster_date:       Date string YYYY-MM-DD (matches cluster JSON filename).
+        sector_summary_path: Path to sector_summary.tsv.
+        topic_clusters_dir: Directory containing per-date cluster JSONs.
+
+    Returns:
+        {topic_id: mean_sentiment_score} for all non-noise topics in the cluster.
+        Returns {} when the cluster file does not exist.
+
+    Invariant:
+        - Noise articles (topic_id=None) are excluded.
+        - Only articles with matching sector data contribute to the mean.
+        - Score range is [-1.0, +1.0].
+    """
+    cluster_file = Path(topic_clusters_dir) / f"{cluster_date}.json"
+    if not cluster_file.exists():
+        return {}
+
+    articles = pd.DataFrame(json.loads(cluster_file.read_text(encoding="utf-8")))
+    # Drop noise articles
+    articles = articles[articles["topic_id"].notna()].copy()
+    if articles.empty:
+        return {}
+
+    # Normalise article date to YYYY-MM-DD
+    articles["article_date"] = articles["date"].astype(str).str[:10]
+
+    # Build day-level mean sentiment score from sector_summary
+    sector_df = pd.read_csv(Path(sector_summary_path), sep="\t")
+    sector_df["sentiment_score"] = sector_df["sentiment"].map(_SENTIMENT_SCORE)
+    day_scores = (
+        sector_df.groupby("date")["sentiment_score"]
+        .mean()
+        .reset_index()
+        .rename(columns={"date": "article_date", "sentiment_score": "day_score"})
+    )
+
+    # Join articles → day scores; articles with no match get NaN
+    merged = articles.merge(day_scores, on="article_date", how="left")
+
+    # Aggregate per topic (NaN rows excluded from mean via skipna=True default)
+    result: dict[str, float] = {}
+    for topic_id, grp in merged.groupby("topic_id"):
+        mean_score = grp["day_score"].mean()  # NaN if all articles unmatched
+        if not pd.isna(mean_score):
+            result[str(topic_id)] = float(mean_score)
+
+    return result
 
 
 def append_trends(
@@ -462,11 +540,13 @@ def append_trends(
     rows: list[dict],
     path: Path | str = TOPIC_TRENDS_FILE,
 ) -> None:
-    """Append today's topic counts to the trends TSV.
+    """Append today's topic counts and sentiment scores to the trends TSV.
 
     Args:
         run_date: The date these counts belong to.
-        rows:     List of dicts with keys: date, topic_id, topic_label, article_count.
+        rows:     List of dicts with keys: date, topic_id, topic_label,
+                  article_count, sentiment_score.
+                  sentiment_score may be omitted (written as NaN).
         path:     TSV path (default: TOPIC_TRENDS_FILE).
 
     Raises:
@@ -476,6 +556,7 @@ def append_trends(
         - File is created with header if absent.
         - Rows are appended; existing rows are never modified.
         - Write is atomic via temp file + os.replace.
+        - Existing rows missing sentiment_score get NaN (backward compatible).
     """
     path = Path(path)
     date_str = str(run_date)
@@ -489,7 +570,12 @@ def append_trends(
                 "Delete them manually before re-running."
             )
 
-    new_df = pd.DataFrame(rows)[_TRENDS_COLUMNS]
+    # Build new rows DataFrame — fill missing sentiment_score with NaN
+    new_df = pd.DataFrame(rows)
+    for col in _TRENDS_COLUMNS:
+        if col not in new_df.columns:
+            new_df[col] = float("nan")
+    new_df = new_df[_TRENDS_COLUMNS]
 
     if path.exists():
         existing = pd.read_csv(path, sep="\t", dtype={"article_count": int})
@@ -572,10 +658,13 @@ def get_emerging_topics(
 
     Returns:
         List of dicts sorted by spike_ratio descending, each with:
-          topic_id, label, spike_ratio, article_count
+          topic_id, label, spike_ratio, article_count, sentiment_score
+        sentiment_score is None when the column is absent from trends
+        (backward compatible with pre-sentiment TSV files).
     """
     date_str = str(target_date)
     today_rows = trends[trends["date"] == date_str]
+    has_sentiment = "sentiment_score" in trends.columns
 
     results = []
     for _, row in today_rows.iterrows():
@@ -586,11 +675,18 @@ def get_emerging_topics(
         )
         if ratio is None:
             continue
+
+        score = None
+        if has_sentiment:
+            raw = row["sentiment_score"]
+            score = None if pd.isna(raw) else float(raw)
+
         results.append({
             "topic_id": row["topic_id"],
             "label": row["topic_label"],
             "spike_ratio": round(ratio, 3),
             "article_count": int(row["article_count"]),
+            "sentiment_score": score,
         })
 
     return sorted(results, key=lambda r: r["spike_ratio"], reverse=True)
@@ -608,6 +704,7 @@ def run(
     labels_path: Path = TOPIC_LABELS_FILE,
     trends_path: Path = TOPIC_TRENDS_FILE,
     clusters_dir: Path = TOPIC_CLUSTERS_DIR,
+    sector_summary_path: Path = SECTOR_SUMMARY_FILE,
     skip_labeling: bool = False,
 ) -> dict[str, Any]:
     """Execute the full clustering pipeline for one day.
@@ -660,22 +757,6 @@ def run(
     save_centroids(updated_centroids, centroids_path)
     save_label_cache(label_cache, labels_path)
 
-    # Step 7: trends
-    trend_rows = []
-    for cid, entry in topic_map.items():
-        member_count = int((labels == cid).sum())
-        trend_rows.append({
-            "date": str(target_date),
-            "topic_id": entry["topic_id"],
-            "topic_label": label_cache.get(entry["topic_id"], entry.get("label", "")),
-            "article_count": member_count,
-        })
-
-    try:
-        append_trends(target_date, trend_rows, trends_path)
-    except DuplicateDateError as exc:
-        print(f"[cluster_topics] WARNING: {exc}", flush=True)
-
     # Write per-date cluster assignment
     clusters_dir = Path(clusters_dir)
     clusters_dir.mkdir(parents=True, exist_ok=True)
@@ -689,6 +770,32 @@ def run(
         clusters_dir / f"{target_date}.json", orient="records", date_format="iso"
     )
 
+    # Step 7a: topic sentiment (pure join — no API calls; runs after cluster JSON is written)
+    topic_sentiment = compute_topic_sentiment(
+        str(target_date),
+        sector_summary_path=sector_summary_path,
+        topic_clusters_dir=clusters_dir,
+    )
+
+    # Step 7b: trends
+    trend_rows = []
+    for cid, entry in topic_map.items():
+        member_count = int((labels == cid).sum())
+        tid = entry["topic_id"]
+        trend_rows.append({
+            "date": str(target_date),
+            "topic_id": tid,
+            "topic_label": label_cache.get(tid, entry.get("label", "")),
+            "article_count": member_count,
+            "sentiment_score": topic_sentiment.get(tid),  # None → NaN in TSV
+        })
+
+    try:
+        append_trends(target_date, trend_rows, trends_path)
+    except DuplicateDateError as exc:
+        print(f"[cluster_topics] WARNING: {exc}", flush=True)
+
+    n_with_sentiment = sum(1 for v in topic_sentiment.values() if v is not None)
     summary = {
         "date": str(target_date),
         "window_articles": len(meta),
@@ -697,6 +804,7 @@ def run(
         "new_labels": new_labels_count,
         "matched_topics": sum(1 for e in topic_map.values()
                               if e["topic_id"] in prior_topics),
+        "topics_with_sentiment": n_with_sentiment,
         "cluster_sizes": sorted(
             [int((labels == cid).sum()) for cid in topic_map], reverse=True
         ),

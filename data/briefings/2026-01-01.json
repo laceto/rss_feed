@@ -1,0 +1,204 @@
+{
+  "date": "2026-01-01",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "f8808869-93ad-472f-b98b-dacc14ac72b7",
+      "label": "S&P 500 performance fluctuations",
+      "spike_ratio": 1.574,
+      "article_count": 24,
+      "rag_answer": "The S&P 500 has experienced notable fluctuations, including a rise to record highs in late December 2025 and January 2026, driven primarily by gains in technology and banking sectors. However, the index has also faced periods of decline, with back-to-back losses reported in late December and a two-week decline noted in February 2026. The market appears to be in a state of volatility, with investors closely monitoring earnings reports and broader economic indicators. Overall, while the S&P 500 has shown resilience with record highs, the recent fluctuations suggest a cautious sentiment among investors regarding future performance.",
+      "rag_sources": [
+        {
+          "title": "S&P 500 is little changed as index tries to avoid 3-day losing streak: Live updates",
+          "date": "2025-12-30",
+          "link": "https://www.cnbc.com/2025/12/29/stock-market-today-live-updates.html",
+          "snippet": "2025-12-30: S&P 500 is little changed as index tries to avoid 3-day losing streak: Live updates: The S&P 500 was relatively unchanged on Tuesday, a day after the index posted back-to-back losses.",
+          "guid": "108246431"
+        },
+        {
+          "title": "S&P 500 rises to start shortened week, led by banks; software shares slide: Live updates",
+          "date": "2026-02-17",
+          "link": "https://www.cnbc.com/2026/02/16/stock-market-today-live-updates.html",
+          "snippet": "2026-02-17: S&P 500 rises to start shortened week, led by banks; software shares slide: Live updates: The S&P 500 has declined two weeks in a row.",
+          "guid": "108266092"
+        },
+        {
+          "title": "S&P 500 rises to record high, led by gains in tech: Live updates",
+          "date": "2026-01-27",
+          "link": "https://www.cnbc.com/2026/01/26/stock-market-today-live-updates.html",
+          "snippet": "2026-01-27: S&P 500 rises to record high, led by gains in tech: Live updates: More than 90 S&P 500 companies are slated to report quarterly results this week.",
+          "guid": "108257207"
+        },
+        {
+          "title": "S&P 500 closes at another fresh record in holiday-shortened session: Live updates",
+          "date": "2025-12-24",
+          "link": "https://www.cnbc.com/2025/12/23/stock-market-today-live-updates.html",
+          "snippet": "2025-12-24: S&P 500 closes at another fresh record in holiday-shortened session: Live updates: The S&P 500 rose to a new all-time high on Wednesday, coasting to another record close.",
+          "guid": "108245376"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "46b51275-0575-4a64-87e7-d4d1864f1669",
+      "label": "Warner Bros. Discovery takeover bids",
+      "spike_ratio": 1.438,
+      "article_count": 23,
+      "rag_answer": "Warner Bros. Discovery (WBD) has opened itself up for a sale, prompting multiple bids from major players including Paramount, Comcast, and Netflix. Paramount Skydance has emerged as a strong contender, reportedly making a higher bid than Netflix, which has since opted out of the bidding war. The situation has led to a significant increase in WBD's share price and has sparked discussions among shareholders regarding the merits of accepting Paramount's offer. The ongoing bidding process reflects a competitive landscape in the media industry, with potential implications for WBD's strategic direction and market positioning.",
+      "rag_sources": [
+        {
+          "title": "Paramount, Comcast, Netflix submit bids for Warner Bros. Discovery ",
+          "date": "2025-11-21",
+          "link": "https://www.cnbc.com/2025/11/21/warner-bros-discovery-wbd-bids-paramount-comcast-netflix.html",
+          "snippet": "2025-11-21: Paramount, Comcast, Netflix submit bids for Warner Bros. Discovery: Warner Bros. Discovery recently expanded its strategic review of its business, saying it's open for a sale. First round ",
+          "guid": "108229432"
+        },
+        {
+          "title": "Warner Bros. Discovery says it's open to a sale; shares jump 10%",
+          "date": "2025-10-21",
+          "link": "https://www.cnbc.com/2025/10/21/wbd-sale-warner-bros-media.html",
+          "snippet": "2025-10-21: Warner Bros. Discovery says it's open to a sale; shares jump 10%: WBD had planned to split into two separate entities and is not abandoning those plans.",
+          "guid": "108214672"
+        },
+        {
+          "title": "Paramount Skydance is preparing a bid for Warner Bros. Discovery, sources say",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/warner-bros-discovery-paramount-skydance-bid.html",
+          "snippet": "2025-09-11: Paramount Skydance is preparing a bid for Warner Bros. Discovery, sources say: The Wall Street Journal reported the recently merged Paramount Skydance was preparing a takeover bid for the ",
+          "guid": "108197645"
+        },
+        {
+          "title": "Warner Bros. Discovery says Paramount made higher bid, board will weigh offer against Netflix deal",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/warner-bros-discovery-paramount-higher-bid-netflix.html",
+          "snippet": "2026-02-24: Warner Bros. Discovery says Paramount made higher bid, board will weigh offer against Netflix deal: If WBD deems the new Paramount offer superior, Netflix will have four days to improve it",
+          "guid": "108269071"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "5cc221ba-5416-492e-bfa3-c1552998cc5f",
+      "label": "Jeffrey Epstein investigation updates",
+      "spike_ratio": 1.366,
+      "article_count": 50,
+      "rag_answer": "The investigation into Jeffrey Epstein continues to unfold with significant developments, including the Department of Justice (DOJ) planning to release new documents related to Epstein and Ghislaine Maxwell, amid scrutiny from Congress and victims. High-profile individuals, including top lawyers and financiers, are expected to testify, indicating a deepening inquiry into the connections between Epstein and influential figures. The release of documents has sparked controversy over redactions and the handling of sensitive information, which could impact public trust in the DOJ and related institutions. These ongoing revelations may affect market sentiment, particularly for firms linked to the investigation, as public and investor scrutiny intensifies.",
+      "rag_sources": [
+        {
+          "title": "Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/epstein-doj-bondi-trump.html",
+          "snippet": "2026-03-05: Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports: The top lawyer for Goldman Sachs, Bill Gates, Leon Black and others are expected to testify soon a",
+          "guid": "108274237"
+        },
+        {
+          "title": "Jeffrey Epstein island photos and videos released as top banks share files with House Oversight Committee ",
+          "date": "2025-12-03",
+          "link": "https://www.cnbc.com/2025/12/03/epstein-files-jpmorgan-deutsche-bank-virgin-islands.html",
+          "snippet": "2025-12-03: Jeffrey Epstein island photos and videos released as top banks share files with House Oversight Committee: The release comes as Attorney General Pam Bondi is on a deadline to publicly shar",
+          "guid": "108236053"
+        },
+        {
+          "title": "DOJ urges release of Jeffrey Epstein and Ghislaine Maxwell grand jury info in new filings",
+          "date": "2025-07-30",
+          "link": "https://www.cnbc.com/2025/07/30/jeffrey-epstein-ghislaine-maxwell-victims-trump.html",
+          "snippet": "2025-07-30: DOJ urges release of Jeffrey Epstein and Ghislaine Maxwell grand jury info in new filings: The Trump administration has faced pressure this month to release information in criminal files r",
+          "guid": "108178938"
+        },
+        {
+          "title": "Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents",
+          "date": "2025-12-23",
+          "link": "https://www.cnbc.com/2025/12/23/epstein-files-doj-release-trump.html",
+          "snippet": "2025-12-23: Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents: The release comes amid intense scrutiny from congressional lawmakers and victims ove",
+          "guid": "108244822"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "a21f7800-1019-4647-adfd-df0863c955d0",
+      "label": "Fed rate cuts and outlook",
+      "spike_ratio": 1.304,
+      "article_count": 18,
+      "rag_answer": "Recent developments indicate a divided stance among Federal Reserve officials regarding interest rate cuts, with discussions suggesting two additional cuts by the end of 2025. Fed Chair Powell has indicated that conditions may warrant cuts, but uncertainty remains high. As of December 2025, the Fed is expected to implement its third consecutive rate cut, although there are concerns about inflation that could impact future decisions. Market expectations for further cuts in 2026 are diminishing, particularly as inflation fears rise, suggesting a cautious outlook moving forward.",
+      "rag_sources": [
+        {
+          "title": "Divided Fed officials saw another two interest rate cuts by the end of 2025, minutes show",
+          "date": "2025-10-08",
+          "link": "https://www.cnbc.com/2025/10/08/fed-minutes-september-2025.html",
+          "snippet": "2025-10-08: Divided Fed officials saw another two interest rate cuts by the end of 2025, minutes show: Officials were strongly inclined to lower rates, with the only dispute seeming to be over how man",
+          "guid": "108209324"
+        },
+        {
+          "title": "Powell indicates conditions 'may warrant' interest rate cuts as Fed proceeds 'carefully'",
+          "date": "2025-08-22",
+          "link": "https://www.cnbc.com/2025/08/22/powell-indicates-conditions-may-warrant-interest-rate-cuts-as-fed-proceeds-carefully.html",
+          "snippet": "2025-08-22: Powell indicates conditions 'may warrant' interest rate cuts as Fed proceeds 'carefully': Powell on Friday gave a tepid indication of possible cuts ahead as he noted a high level of uncert",
+          "guid": "108189532"
+        },
+        {
+          "title": "The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/09/the-fed-decision-is-expected-to-feature-a-rate-cut-and-a-lot-more-heres-what-to-expect.html",
+          "snippet": "2025-12-10: The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect: The central bank is poised to deliver its third straight interest rate cut Wednesday, while firing a ",
+          "guid": "108239042"
+        },
+        {
+          "title": "Fed's Goolsbee calls for a hold on cuts as current rate of inflation is 'not good enough'",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/feds-goolsbee-calls-for-a-hold-on-cuts-as-current-rate-of-inflation-is-not-good-enough.html",
+          "snippet": "2026-02-24: Fed's Goolsbee calls for a hold on cuts as current rate of inflation is 'not good enough': The Chicago Fed president said Tuesday that cuts aren't appropriate until there's more evidence t",
+          "guid": "108269037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "6f4d5659-f892-4496-beca-d13f8fdabac6",
+      "label": "Precious Metals Market Trends",
+      "spike_ratio": 1.273,
+      "article_count": 14,
+      "rag_answer": "The precious metals market has experienced significant volatility, with gold and silver reaching fresh highs multiple times in late December 2025 and early January 2026, driven by various geopolitical factors and market sentiment shifts. However, this upward trend faced challenges, including a notable selloff and subsequent rebounds, as well as margin increases imposed by the CME, which led to price declines at the end of December 2025. Analysts are questioning the sustainability of these record highs, suggesting potential instability in the market. Overall, while the precious metals have shown resilience and strong annual gains, the market dynamics indicate a complex environment influenced by external factors and investor sentiment.",
+      "rag_sources": [
+        {
+          "title": "Silver rebounds 7% from worst day in 4 years as metal's roller-coaster end to a big year continues",
+          "date": "2025-12-30",
+          "link": "https://www.cnbc.com/2025/12/30/silver-price-soars-capping-stellar-year-precious-metals.html",
+          "snippet": "2025-12-30: Silver rebounds 7% from worst day in 4 years as metal's roller-coaster end to a big year continues: The precious metal rally continued Tuesday as gold and silver recovered from Monday's se",
+          "guid": "108246534"
+        },
+        {
+          "title": "Gold and silver reach fresh highs for second day running \u2014 and could keep climbing",
+          "date": "2025-12-23",
+          "link": "https://www.cnbc.com/2025/12/23/gold-and-silver-reach-fresh-highs-for-second-day-running.html",
+          "snippet": "2025-12-23: Gold and silver reach fresh highs for second day running \u2014 and could keep climbing: David Neuhauser, CIO at Livermore Partners, told CNBC's \\Access Middle East\\\" that gold has more room to",
+          "guid": "108245152"
+        },
+        {
+          "title": "Gold and silver rebound, pulling global mining stocks and precious metal ETFs higher",
+          "date": "2026-02-03",
+          "link": "https://www.cnbc.com/2026/02/03/gold-and-silver-rebound-after-historic-wipeout-as-analysts-say-thematic-drivers-stay-intact-.html",
+          "snippet": "2026-02-03: Gold and silver rebound, pulling global mining stocks and precious metal ETFs higher: Gold and silver prices rebounded after suffering a historic selloff, with analysts suggesting that the",
+          "guid": "108260508"
+        },
+        {
+          "title": "Gold, silver prices fall after CME raises precious metals margins \u2014 again",
+          "date": "2025-12-31",
+          "link": "https://www.cnbc.com/2025/12/31/gold-and-silver-prices-fall-after-cme-raises-precious-metals-margins.html",
+          "snippet": "2025-12-31: Gold, silver prices fall after CME raises precious metals margins \u2014 again: The moves come at the end of a blockbuster year of annual gains for the precious metals.",
+          "guid": "108247001"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

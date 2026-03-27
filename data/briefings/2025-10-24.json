@@ -1,0 +1,235 @@
+{
+  "date": "2025-10-24",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "a444e21b-81c0-4df1-8c0d-7ed15279e38e",
+      "label": "Obesity Drug Market Competition",
+      "spike_ratio": 1.231,
+      "article_count": 16,
+      "rag_answer": "The obesity drug market is experiencing intensified competition, particularly between major players Eli Lilly and Novo Nordisk. Novo Nordisk, despite being the first to launch a GLP-1 obesity pill, is facing challenges in maintaining its market share, which has dropped to about 40%. The introduction of Medicare coverage for obesity drugs is expected to expand access and boost prescription volumes, but pricing pressures and competition from smaller companies are complicating the landscape. As more weight loss medications near market entry, the rivalry is set to escalate, with both companies preparing for a significant battle in the pill segment of the market.",
+      "rag_sources": [
+        {
+          "title": "What the Iran war market turmoil means for those nearing retirement",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/iran-war-market-volatility-retirement.html",
+          "snippet": "2026-03-05: What the Iran war market turmoil means for those nearing retirement: Market shakiness may not concern long-term investors, but it could be a useful wake-up call for those on the precipice ",
+          "guid": "108272020"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        },
+        {
+          "title": "Sentiment on stocks collapses the most since the February market top",
+          "date": "2025-08-07",
+          "link": "https://www.cnbc.com/2025/08/07/sentiment-on-stocks-collapses-the-most-since-the-february-market-top.html",
+          "snippet": "2025-08-07: Sentiment on stocks collapses the most since the February market top: Market strategists say the measure, considered a contrarian signal, could ultimately force traders to get back into th",
+          "guid": "108183006"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "4eb772eb-d02a-4921-8e56-755d08b0d18e",
+      "label": "Trump Tariffs and Inflation Impact",
+      "spike_ratio": 1.167,
+      "article_count": 14,
+      "rag_answer": "Trump's tariffs are increasingly impacting consumer prices, with a significant portion of the inflationary effects yet to be fully realized, according to various economic reports. Economists and market strategists anticipate that inflation will reaccelerate due to these tariffs, despite some officials claiming they are not the primary cause of inflation. The Supreme Court's upcoming decision on the tariffs adds uncertainty to their future, with potential market repercussions as investors brace for the fallout. Overall, the situation remains fluid, with ongoing adjustments in the economy and markets as they respond to these tariff policies.",
+      "rag_sources": [
+        {
+          "title": "Trump's tariffs are slowly finding their way into consumer prices",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/trumps-tariffs-are-slowly-finding-their-way-into-consumer-prices.html",
+          "snippet": "2025-09-11: Trump's tariffs are slowly finding their way into consumer prices: A key Bureau of Labor Statistics inflation report showed price increases for a variety of tariff-sensitive items.",
+          "guid": "108197570"
+        },
+        {
+          "title": "Trump tariffs are fueling inflation, congressional budget chief says",
+          "date": "2025-09-15",
+          "link": "https://www.cnbc.com/2025/09/15/trump-trade-inflation-tariffs-cbo.html",
+          "snippet": "2025-09-15: Trump tariffs are fueling inflation, congressional budget chief says: President Donald Trump's tariffs face an uncertain future as the Supreme Court is poised to hear the administration's ",
+          "guid": "108198722"
+        },
+        {
+          "title": "Ken Griffin says more tariff impact on inflation is still ahead, Fed should be independent",
+          "date": "2025-09-25",
+          "link": "https://www.cnbc.com/2025/09/25/ken-griffin-say-more-tariff-impact-on-inflation-is-still-ahead-fed-should-be-independent.html",
+          "snippet": "2025-09-25: Ken Griffin says more tariff impact on inflation is still ahead, Fed should be independent: Ken Griffin said only about half of the inflationary impact from Trump's wide-spreading levies o",
+          "guid": "108203864"
+        },
+        {
+          "title": "Five key takeaways from the Supreme Court's landmark decision against Trump's tariffs",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/21/supreme-courts-trump-tariff-decision-five-takeaways.html",
+          "snippet": "2026-02-23: Five key takeaways from the Supreme Court's landmark decision against Trump's tariffs: What's far less certain is the longer-reaching impacts as the economy and markets again adjust to a c",
+          "guid": "108268087"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.25,
+          "mean_sentiment_score": 0.118,
+          "data_age_days": null
+        },
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "baa12f40-6fae-4a48-b674-488ec8fbeac8",
+      "label": "Trump's Trade War Developments",
+      "spike_ratio": 1.143,
+      "article_count": 18,
+      "rag_answer": "Trump's trade war developments have been marked by significant volatility and uncertainty, particularly following his announcement of new tariffs, which have revived trade war jitters among investors. The trade deficit saw a notable decrease in October 2025, attributed to these tariff moves, but the overall market sentiment remains shaky, as evidenced by sell-offs in European stocks and concerns over the implications of ongoing tariff policies. Additionally, the Supreme Court's recent decision against Trump's tariffs has raised questions about the long-term impacts on the economy and markets, suggesting that investors are bracing for further adjustments in response to these developments. Overall, the situation remains fluid, with market reactions heavily influenced by Trump's tariff strategies and geopolitical tensions, particularly regarding the Middle East.",
+      "rag_sources": [
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Yen near 160, a record Nikkei 225, higher yields: What experts expect after Sanae Takaichi's landslide victory",
+          "date": "2026-02-09",
+          "link": "https://www.cnbc.com/2026/02/09/japan-election-sanae-takaichi-markets-yen-bonds-nikkei-225-jgb-160-usd-ldp.html",
+          "snippet": "2026-02-09: Yen near 160, a record Nikkei 225, higher yields: What experts expect after Sanae Takaichi's landslide victory: Takaichi led the ruling Liberal Democratic Party to a supermajority in the L",
+          "guid": "108262985"
+        },
+        {
+          "title": "Goldman's David Solomon surprised by \u2018benign\u2019 market reaction to Iran war ",
+          "date": "2026-03-04",
+          "link": "https://www.cnbc.com/2026/03/04/goldman-david-solomon-iran-war-market-reaction-stocks.html",
+          "snippet": "2026-03-04: Goldman's David Solomon surprised by \u2018benign\u2019 market reaction to Iran war: \\I think it's going to take a couple of weeks for markets to really digest the implications of what's happened,\\\"",
+          "guid": "108273273"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "61d75c0e-f3f6-4310-98e6-337f075d7ea5",
+      "label": "OpenAI and AI Content Controversies",
+      "spike_ratio": 1.115,
+      "article_count": 35,
+      "rag_answer": "OpenAI is facing increasing pressure and scrutiny regarding its AI technologies, particularly as competitors like Google and Anthropic gain ground. CEO Sam Altman has addressed various moral and ethical controversies surrounding the company's AI chatbot, indicating a proactive approach to managing public perception. The company's aggressive expansion and partnerships, including significant investments and collaborations, highlight its central role in the AI market, but also raise concerns about potential market corrections and the sustainability of its growth. Overall, OpenAI's developments reflect both the rapid evolution of the AI landscape and the complexities of navigating ethical challenges in a competitive environment.",
+      "rag_sources": [
+        {
+          "title": "Watch CNBC's full interview with OpenAI CEO Sam Altman from the India AI Summit",
+          "date": "2026-02-19",
+          "link": "https://www.cnbc.com/video/2026/02/19/openai-sam-altman-india-ai-summit-full-interview.html",
+          "snippet": "2026-02-19: Watch CNBC's full interview with OpenAI CEO Sam Altman from the India AI Summit: OpenAI CEO Sam Altman discusses AI infrastructure, OpenAI's business model, competition from China and thou",
+          "guid": "108267179"
+        },
+        {
+          "title": "OpenAI's dominance is unlike anything Silicon Valley has ever seen",
+          "date": "2025-10-11",
+          "link": "https://www.cnbc.com/2025/10/11/open-ai-silicon-valley-tech-startup.html",
+          "snippet": "2025-10-11: OpenAI's dominance is unlike anything Silicon Valley has ever seen: OpenAI's position at the heart of the AI boom, and its expansion up and down the stack, is putting the company in compet",
+          "guid": "108209603"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Anthropic is giving Claude to the U.S. government for $1 as AI companies try to win key agencies",
+          "date": "2025-08-12",
+          "link": "https://www.cnbc.com/2025/08/12/anthropic-claude-government-ai.html",
+          "snippet": "2025-08-12: Anthropic is giving Claude to the U.S. government for $1 as AI companies try to win key agencies: Earlier this month, Anthropic's competitor OpenAI made a similar announcement.",
+          "guid": "108184674"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "0d20e23d-6795-477d-bb84-20b28b10b364",
+      "label": "Ukraine peace talks dynamics",
+      "spike_ratio": 1.111,
+      "article_count": 20,
+      "rag_answer": "The dynamics of the Ukraine peace talks have seen significant developments, with U.S. officials reporting progress in negotiations between Ukraine and Russia. Notably, Russian President Vladimir Putin has indicated a willingness to engage in serious discussions regarding a U.S.-brokered peace plan, which Ukraine has reportedly agreed to. This optimism around a potential peace deal has led to fluctuations in European defense stocks and gas prices, as investors react to the shifting geopolitical landscape. However, there remains caution, as the situation is fluid and the final agreement on security guarantees for Ukraine is still pending.",
+      "rag_sources": [
+        {
+          "title": "Ukraine peace talks progressing, Russia open to EU membership, U.S. officials say",
+          "date": "2025-12-15",
+          "link": "https://www.cnbc.com/2025/12/15/ukraine-peace-talks-russia-eu-us-trump.html",
+          "snippet": "2025-12-15: Ukraine peace talks progressing, Russia open to EU membership, U.S. officials say: The war in Ukraine began nearly four years ago, when Russia invaded at the direction of its leader, Vladi",
+          "guid": "108241899"
+        },
+        {
+          "title": "Ukraine peace talks shift to Moscow \u2014 the big unknown is whether Putin will play ball",
+          "date": "2025-12-01",
+          "link": "https://www.cnbc.com/2025/12/01/russia-under-pressure-as-ukraine-peace-talks-shift-to-moscow.html",
+          "snippet": "2025-12-01: Ukraine peace talks shift to Moscow \u2014 the big unknown is whether Putin will play ball: U.S. Special Envoy Steve Witkoff is travelling to Moscow on Monday and is due to meet Russian Preside",
+          "guid": "108234209"
+        },
+        {
+          "title": "European defense stocks and gas prices fall as U.S., Ukraine make progress on peace plan",
+          "date": "2025-11-24",
+          "link": "https://www.cnbc.com/2025/11/24/europe-defense-stocks-fall-as-us-ukraine-make-progress-on-peace-plan.html",
+          "snippet": "2025-11-24: European defense stocks and gas prices fall as U.S., Ukraine make progress on peace plan: The U.S. said Sunday that there had been progress in talks at the weekend but that no agreement wa",
+          "guid": "108230743"
+        },
+        {
+          "title": "All eyes on Russia as it weighs Ukraine peace plan with caution",
+          "date": "2025-11-26",
+          "link": "https://www.cnbc.com/2025/11/26/russia-responds-to-fledgling-ukraine-peace-plan.html",
+          "snippet": "2025-11-26: All eyes on Russia as it weighs Ukraine peace plan with caution: There's been little official comment from Moscow regarding a revised U.S.-brokered peace plan for Ukraine.",
+          "guid": "108232279"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

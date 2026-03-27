@@ -1,0 +1,220 @@
+{
+  "date": "2025-12-02",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "9afb6034-4ccf-453f-8b6c-24caaaba46ad",
+      "label": "Global Inflation Trends and Data",
+      "spike_ratio": 1.271,
+      "article_count": 15,
+      "rag_answer": "Global inflation trends have shown mixed signals, with various reports indicating fluctuations in consumer price indices across different regions. For instance, Tokyo's inflation exceeded expectations, while the U.S. saw the CPI remain unchanged in December 2025, raising concerns about the reliability of government data. The Federal Reserve's gauge indicated inflation at 2.8% in November, moving further from its target, which has implications for monetary policy and market stability. Overall, these developments suggest ongoing uncertainty in inflation data, impacting investor sentiment and market performance.",
+      "rag_sources": [
+        {
+          "title": "This week's critical inflation report comes with a variety of doubts about the data",
+          "date": "2025-10-21",
+          "link": "https://www.cnbc.com/2025/10/21/this-weeks-critical-inflation-report-comes-with-doubts-about-the-data.html",
+          "snippet": "2025-10-21: This week's critical inflation report comes with a variety of doubts about the data: The September CPI report will command full attention from financial markets, even as some investors wil",
+          "guid": "108214681"
+        },
+        {
+          "title": "Asia-Pacific stocks trade mixed as Tokyo inflation runs hotter than expected",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/asia-markets-live.html",
+          "snippet": "2025-11-28: Asia-Pacific stocks trade mixed as Tokyo inflation runs hotter than expected: Traders in Asia will assess key economic data, including inflation data from Tokyo and India's GDP for its fis",
+          "guid": "108233147"
+        },
+        {
+          "title": "Here\u2019s the inflation breakdown for December 2025 \u2014 in one chart",
+          "date": "2026-01-13",
+          "link": "https://www.cnbc.com/2026/01/13/cpi-inflation-december-2025-breakdown.html",
+          "snippet": "2026-01-13: Here\u2019s the inflation breakdown for December 2025 \u2014 in one chart: The consumer price index was unchanged in December, and the inflation rate for some consumer staples like food and electric",
+          "guid": "108251665"
+        },
+        {
+          "title": "Wall Street is concerned about the reliability of government inflation data on the eve of CPI report",
+          "date": "2025-08-12",
+          "link": "https://www.cnbc.com/2025/08/11/wall-street-frets-about-reliability-of-government-data-on-eve-of-cpi.html",
+          "snippet": "2025-08-12: Wall Street is concerned about the reliability of government inflation data on the eve of CPI report: Beneath the Bureau of Labor Statistics' reports on consumer and producer prices will b",
+          "guid": "108184285"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "cbc8e3a7-4226-48ab-86d7-fe0ceba213ba",
+      "label": "SNAP benefits and government shutdown",
+      "spike_ratio": 1.148,
+      "article_count": 14,
+      "rag_answer": "SNAP benefits are at risk due to a government shutdown, with funding potentially lapsing shortly. Despite past administrations continuing payments during shutdowns, the Trump administration has suggested halting SNAP benefits, contradicting a court ruling that mandates their continuation. Treasury Secretary Scott Bessent indicated that benefits could resume soon, but legal challenges persist as states have sued to ensure the program remains funded. The uncertainty surrounding SNAP could significantly impact consumers reliant on food assistance and retailers who depend on SNAP transactions.",
+      "rag_sources": [
+        {
+          "title": "How a lapse in SNAP benefits could affect consumers and retailers",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/snap-benefit-lapse-consumers-retailers-effects.html",
+          "snippet": "2025-10-29: How a lapse in SNAP benefits could affect consumers and retailers: Funding for the Supplemental Nutrition Assistance Program could lapse within days if the government shutdown persists.",
+          "guid": "108218123"
+        },
+        {
+          "title": "Trump suggests U.S. won't pay any SNAP benefits during shutdown, contradicting court filing",
+          "date": "2025-11-04",
+          "link": "https://www.cnbc.com/2025/11/04/snap-trump-food-shutdown.html",
+          "snippet": "2025-11-04: Trump suggests U.S. won't pay any SNAP benefits during shutdown, contradicting court filing: Prior presidential administrations have continued paying SNAP benefits during past shutdowns of",
+          "guid": "108221171"
+        },
+        {
+          "title": "Treasury Secretary Bessent says SNAP food benefits could restart by Wednesday",
+          "date": "2025-11-03",
+          "link": "https://www.cnbc.com/2025/11/02/bessent-trump-snap-food-stamps-shutdown.html",
+          "snippet": "2025-11-03: Treasury Secretary Bessent says SNAP food benefits could restart by Wednesday: SNAP food benefits could restart as early as Wednesday, Treasury Secretary Scott Bessent said Sunday.",
+          "guid": "108220349"
+        },
+        {
+          "title": "SNAP benefits: Trump admin seeks emergency block on order to pay food stamps in full",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/snap-trump-appeals-food-stamps.html",
+          "snippet": "2025-11-07: SNAP benefits: Trump admin seeks emergency block on order to pay food stamps in full: The Trump administration tried not to pay for any food stamps in November because of the government sh",
+          "guid": "108223037"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "4c15e1ba-eb9a-4f2e-b0ab-520308780f8c",
+      "label": "Mortgage Market Trends",
+      "spike_ratio": 1.067,
+      "article_count": 12,
+      "rag_answer": "The mortgage market has experienced significant fluctuations in demand and interest rates throughout 2025. After a period of weak demand, borrowers are increasingly turning to riskier adjustable-rate mortgages (ARMs) in search of savings, despite rising interest rates. Notably, mortgage demand saw a spike in November, reaching its highest level since September, even as rates increased. Overall, the market remains volatile, with borrowers navigating a challenging environment marked by fluctuating rates and varying demand trends.",
+      "rag_sources": [
+        {
+          "title": "Borrowers head back to riskier mortgages, looking for any potential savings",
+          "date": "2025-10-08",
+          "link": "https://www.cnbc.com/2025/10/08/borrowers-head-back-to-riskier-mortgages-looking-for-any-potential-savings.html",
+          "snippet": "2025-10-08: Borrowers head back to riskier mortgages, looking for any potential savings: Mortgage demand weakened again but for those in the market, adjustable-rate loans are getting more popular, as ",
+          "guid": "108209080"
+        },
+        {
+          "title": "Mortgage demand from homebuyers pulls back, after four weeks of gains",
+          "date": "2025-09-03",
+          "link": "https://www.cnbc.com/2025/09/03/mortgage-demand-from-homebuyers-pulls-back-after-four-weeks-of-gains.html",
+          "snippet": "2025-09-03: Mortgage demand from homebuyers pulls back, after four weeks of gains: Lower mortgage rates did very little to move mortgage demand out of a rut it's been in for weeks. Potential buyers ne",
+          "guid": "108193381"
+        },
+        {
+          "title": "Mortgage demand from homebuyers hits highest level since September, despite rising interest rates",
+          "date": "2025-11-12",
+          "link": "https://www.cnbc.com/2025/11/12/mortgage-demand-from-homebuyers-hits-highest-level-since-september.html",
+          "snippet": "2025-11-12: Mortgage demand from homebuyers hits highest level since September, despite rising interest rates: Homebuyer demand for mortgages climbed last week to the highest level since September, ev",
+          "guid": "108224515"
+        },
+        {
+          "title": "In a volatile week for interest rates, mortgage demand pulled back",
+          "date": "2025-11-05",
+          "link": "https://www.cnbc.com/2025/11/05/in-a-volatile-week-for-interest-rates-mortgage-demand-pulled-back.html",
+          "snippet": "2025-11-05: In a volatile week for interest rates, mortgage demand pulled back: Mortgage rates started last week quite low and then shot higher, causing demand for both refinance and purchase mortgage",
+          "guid": "108221460"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "0b33da45-501c-4267-990c-fc52c823783a",
+      "label": "Obesity Drug Market Developments",
+      "spike_ratio": 1.042,
+      "article_count": 25,
+      "rag_answer": "The obesity drug market is experiencing significant growth and transformation, driven by increased access through Medicare coverage and new product launches. Notably, Novo Nordisk's CEO highlighted a potential 15 million patient opportunity due to this coverage, while Eli Lilly has introduced a new pill aimed at maintaining weight loss. Additionally, Pfizer is diversifying its pipeline with a substantial deal to develop a Chinese obesity drug. As competition intensifies, questions about insurance coverage, drug pricing, and the emergence of copycat drugs remain critical factors influencing the market's future.",
+      "rag_sources": [
+        {
+          "title": "What obesity drugmakers see next in the market: More pills, easier access and drug combinations",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/2026/01/23/weight-loss-glp-1-drugs-next-steps-for-eli-lilly-novo-nordisk-pfizer.html",
+          "snippet": "2026-01-23: What obesity drugmakers see next in the market: More pills, easier access and drug combinations: CNBC spoke to executives from Eli Lilly, Novo Nordisk, Pfizer and other drugmakers at the a",
+          "guid": "108255916"
+        },
+        {
+          "title": "Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next",
+          "date": "2025-11-02",
+          "link": "https://www.cnbc.com/2025/11/02/whats-next-for-the-weight-loss-drug-market-pills-rivals-insurance.html",
+          "snippet": "2025-11-02: Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next: Competition is heating up, but questions remain about insurance coverage, drug pricing, copycat drugs a",
+          "guid": "108216702"
+        },
+        {
+          "title": "Millions more Americans could access obesity drugs after Trump's deals with Eli Lilly, Novo Nordisk",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/trump-deals-with-lilly-novo-nordisk-could-broaden-obesity-drug-access.html",
+          "snippet": "2025-11-07: Millions more Americans could access obesity drugs after Trump's deals with Eli Lilly, Novo Nordisk: Medicare will start covering obesity drugs for the first time, which could open access ",
+          "guid": "108223164"
+        },
+        {
+          "title": "Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill\u00a0",
+          "date": "2025-12-09",
+          "link": "https://www.cnbc.com/2025/12/09/pfizer-deal-yaopharma-obesity-pill.html",
+          "snippet": "2025-12-09: Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill: The deal will help Pfizer beef up and diversify its obesity drug pipeline following its $10 billi",
+          "guid": "108239106"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "baa12f40-6fae-4a48-b674-488ec8fbeac8",
+      "label": "Trump's Trade War Developments",
+      "spike_ratio": 0.98,
+      "article_count": 20,
+      "rag_answer": "Trump's trade war has escalated with the implementation of extensive new tariffs affecting Canada, Brazil, Switzerland, and other U.S. trading partners, leading to significant market disruptions and reshaping international trade relationships. A 40% tariff rate has been introduced for goods transshipped to circumvent existing tariffs, further complicating trade dynamics. Analysts have noted that the trade war is negatively impacting American families and industries, prompting Trump to announce a $12 billion aid package for farmers affected by these policies. Despite a reduction in the trade deficit to its smallest since 2009, the overall market sentiment remains cautious, with companies like Trade Desk experiencing significant stock declines due to tariff concerns and competitive pressures.",
+      "rag_sources": [
+        {
+          "title": "Live Updates: Trump tariffs slam Canada, Brazil and Switzerland ",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/trumps-tariffs-rekindle-global-trade-tensions.html",
+          "snippet": "2025-08-01: Live Updates: Trump tariffs slam Canada, Brazil and Switzerland: Trump's extensive new tariff regime on dozens of U.S. partners are launching new trade wars and sending shock waves through",
+          "guid": "108180211"
+        },
+        {
+          "title": "How countries are reacting to Trump's latest tariff announcements as deadline looms",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/how-asian-countries-are-reacting-to-trumps-latest-tariffs-announcement-as-deadline-looms.html",
+          "snippet": "2025-08-01: How countries are reacting to Trump's latest tariff announcements as deadline looms: The White House also announced a 40% tariff rate for all goods transshipped to avoid the applicable dut",
+          "guid": "108180161"
+        },
+        {
+          "title": "Another late-night Trump trade twist \u2014 just hours before the world hit go",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/another-late-night-trump-trade-twist-hours-before-the-world-hit-go.html",
+          "snippet": "2025-08-01: Another late-night Trump trade twist \u2014 just hours before the world hit go: Trump\u2019s late-night tariff moves have become a hallmark, catching markets off guard, reshaping deals, and forcing ",
+          "guid": "108180251"
+        },
+        {
+          "title": "Trump 'losing' trade war with China going in to Xi meeting, Senate Democrats say in report",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/trump-trade-china-warren-democrats-inflation-xi.html",
+          "snippet": "2025-10-29: Trump 'losing' trade war with China going in to Xi meeting, Senate Democrats say in report: \\Trump needs to change course on his trade war with China now and stop hurting American families",
+          "guid": "108218477"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

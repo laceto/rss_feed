@@ -97,14 +97,28 @@ FEEDS_REGISTRY_FILE = Path("data") / "vectorstore" / "feeds_registry.tsv"
 # CLUSTER_MAX_NOISE_RATIO — abort threshold. 60-70% noise is normal for news
 #                           data; abort only on truly degenerate runs (>90%).
 # CLUSTER_MIN_CLUSTERS   — abort threshold for too-few-clusters runs.
+# CLUSTER_SELECTION_METHOD — HDBSCAN cluster_selection_method. 'leaf' produces
+#                            finer-grained clusters (~19) compared to the HDBSCAN
+#                            default 'eom', which over-merges to ~3 on this corpus.
 
-CLUSTER_WINDOW_DAYS:     int   = 45
-CLUSTER_MIN_SIZE:        int   = 10
-CLUSTER_MIN_SAMPLES:     int   = 3
-CLUSTER_MAX_NOISE_RATIO: float = 0.90
-CLUSTER_MIN_CLUSTERS:    int   = 3
+CLUSTER_WINDOW_DAYS:      int   = 45
+CLUSTER_MIN_SIZE:         int   = 10
+CLUSTER_MIN_SAMPLES:      int   = 3
+CLUSTER_MAX_NOISE_RATIO:  float = 0.90
+CLUSTER_MIN_CLUSTERS:     int   = 3
+CLUSTER_SELECTION_METHOD: str   = "leaf"
 
 TOPIC_CENTROIDS_FILE = Path("data") / "topic_centroids.json"
 TOPIC_LABELS_FILE    = Path("data") / "topic_labels.json"
 TOPIC_TRENDS_FILE    = Path("data") / "topic_trends.tsv"
 TOPIC_CLUSTERS_DIR   = Path("data") / "topic_clusters"
+
+# ── Daily briefing batch pipeline ────────────────────────────────────────────
+# Mirrors the sector batch pattern:
+#   create_batch_briefings.py   → writes PENDING_BRIEFINGS_BATCH_FILE + BRIEFINGS_BATCH_META_FILE
+#   retrieve_batch_briefings.py → reads them, writes BRIEFINGS_DIR/{date}.json
+
+PENDING_BRIEFINGS_BATCH_FILE = Path("data") / "pending_briefings_batch.txt"
+BRIEFINGS_BATCH_META_FILE    = Path("data") / "pending_briefings_meta.json"
+BATCH_FILE_BRIEFINGS         = Path("data") / "batch_tasks_briefings.jsonl"
+BRIEFINGS_DIR                = Path("data") / "briefings"

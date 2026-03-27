@@ -1,0 +1,212 @@
+{
+  "date": "2025-10-16",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "abddb7fb-34ac-438d-9d14-c197f506a220",
+      "label": "Gold and Cryptocurrency Trends",
+      "spike_ratio": 1.544,
+      "article_count": 22,
+      "rag_answer": "Gold has been experiencing significant price fluctuations, recently hitting new highs around $4,000 an ounce, driven by market uncertainty and investor demand for safe-haven assets. However, it has also entered a correction phase as global investors shift their focus away from geopolitical tensions and towards other investment opportunities. Meanwhile, cryptocurrency, particularly Bitcoin, is gaining traction as some investors rotate their funds out of gold, viewing it as a potential alternative. This trend suggests a growing interest in diversifying investment portfolios, with both gold and cryptocurrencies being seen as viable options amid market volatility.",
+      "rag_sources": [
+        {
+          "title": "Gold is getting knocked on Tuesday \u2013 it\u2019s still the hottest trade of the year ",
+          "date": "2025-10-21",
+          "link": "https://www.cnbc.com/2025/10/21/gold-is-getting-knocked-on-tuesday-its-still-the-hottest-trade-of-the-year-.html",
+          "snippet": "2025-10-21: Gold is getting knocked on Tuesday \u2013 it\u2019s still the hottest trade of the year: There's another corner of the market that Wall Street is enthusiastic about.",
+          "guid": "108210833"
+        },
+        {
+          "title": "Gold may experience a longer consolidation period before bull trend can restart, says Katie Stockton",
+          "date": "2025-10-27",
+          "link": "https://www.cnbc.com/2025/10/27/gold-may-experience-a-longer-consolidation-period-before-bull-trend-can-restart-says-katie-stockton.html",
+          "snippet": "2025-10-27: Gold may experience a longer consolidation period before bull trend can restart, says Katie Stockton: The chart analysts breaks down the charts on bullion and related stocks.",
+          "guid": "108217335"
+        },
+        {
+          "title": "Gold enters correction territory as global investors stop worrying as much about China tensions, Fed independence, AI bubble",
+          "date": "2025-10-28",
+          "link": "https://www.cnbc.com/2025/10/28/gold-enters-correction-territory-as-global-investors-stop-worrying-as-much-about-china-tensions-fed-independence-ai-bubble.html",
+          "snippet": "2025-10-28: Gold enters correction territory as global investors stop worrying as much about China tensions, Fed independence, AI bubble: The yellow metal's recent slide could continue over the near t",
+          "guid": "108217832"
+        },
+        {
+          "title": "Bitcoin is getting a shutdown boost. More money could rotate into the crypto and out of gold",
+          "date": "2025-10-01",
+          "link": "https://www.cnbc.com/2025/10/01/bitcoin-is-getting-a-shutdown-boost-more-money-could-rotate-into-the-crypto-and-out-of-gold.html",
+          "snippet": "2025-10-01: Bitcoin is getting a shutdown boost. More money could rotate into the crypto and out of gold: Frank Cappelleri looks at the ratio between bitcoin and gold.",
+          "guid": "108206577"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "5cab0518-3aaa-4155-966d-7e54eeeb9642",
+      "label": "Aerospace Industry Developments",
+      "spike_ratio": 1.467,
+      "article_count": 22,
+      "rag_answer": "The aerospace industry is experiencing a significant uptick in demand, leading major defense companies like GE Aerospace, Northrop Grumman, RTX, and Lockheed Martin to raise their 2025 outlooks. Additionally, Airbus, Thales, and Leonardo are collaborating on a space merger to compete with SpaceX's Starlink, marking a pivotal moment for Europe's space sector. Meanwhile, Boeing has reported a substantial increase in quarterly sales, indicating a positive trend in aircraft deliveries. Overall, the aerospace sector is benefiting from renewed interest in space exploration and military reindustrialization, with satellite stocks seeing remarkable gains of over 200% in 2025.",
+      "rag_sources": [
+        {
+          "title": "Defense companies raise 2025 outlooks on higher demand",
+          "date": "2025-10-21",
+          "link": "https://www.cnbc.com/2025/10/21/defense-ge-northrop-grumman-rtx-lockheed-martin-earnings.html",
+          "snippet": "2025-10-21: Defense companies raise 2025 outlooks on higher demand: GE Aerospace, Northrop Grumman, RTX and Lockheed Martin all raised their 2025 outlooks in their earnings reports Tuesday morning, ci",
+          "guid": "108214600"
+        },
+        {
+          "title": "Defense giants Airbus, Thales and Leonardo announce space merger to rival Elon Musk\u2019s Starlink",
+          "date": "2025-10-23",
+          "link": "https://www.cnbc.com/2025/10/23/airbus-thales-leonardo-announce-space-merger-to-rival-musks-starlink.html",
+          "snippet": "2025-10-23: Defense giants Airbus, Thales and Leonardo announce space merger to rival Elon Musk\u2019s Starlink: The companies\u2019 CEOs labelled the plans \u201ca pivotal milestone for Europe\u2019s space industry.\u201d",
+          "guid": "108215830"
+        },
+        {
+          "title": "Boeing moves closer to a huge deal \u2014 plus, positive signs for one of our AI plays",
+          "date": "2026-03-06",
+          "link": "https://www.cnbc.com/2026/03/06/boeings-potential-big-deal-plus-positive-signs-for-one-an-ai-play.html",
+          "snippet": "2026-03-06: Boeing moves closer to a huge deal \u2014 plus, positive signs for one of our AI plays: Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time f",
+          "guid": "108274952"
+        },
+        {
+          "title": "We're downgrading a rebounding stock \u2014 plus, aerospace earnings good for Honeywell",
+          "date": "2025-10-21",
+          "link": "https://www.cnbc.com/2025/10/21/aerospace-earnings-good-for-honeywell-plus-were-downgrading-a-rebounding-stock.html",
+          "snippet": "2025-10-21: We're downgrading a rebounding stock \u2014 plus, aerospace earnings good for Honeywell: Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time ",
+          "guid": "108214896"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "4761f37d-27cd-4139-ae34-f7ba6d6fa059",
+      "label": "Epstein Files and Political Reactions",
+      "spike_ratio": 1.433,
+      "article_count": 45,
+      "rag_answer": "The release of Jeffrey Epstein files has become a contentious issue, with the Department of Justice (DOJ) facing criticism for its handling of the documents, including accusations of redaction and delays. Key political figures, including House Democrats, are pushing for transparency and accountability, leading to subpoenas for testimony from high-profile individuals and government officials. The situation has sparked broader political discussions, particularly regarding President Trump's administration and its perceived lack of action on the matter. Market implications include investor concerns about political risk, as evidenced by reactions to Trump's tariffs and the overall volatility in the financial markets amid ongoing geopolitical tensions.",
+      "rag_sources": [
+        {
+          "title": "Jeffrey Epstein: Dems say DOJ breaking law with plan to release files over time",
+          "date": "2025-12-19",
+          "link": "https://www.cnbc.com/2025/12/19/jeffrey-epstein-files-doj-release-order-maxwell.html",
+          "snippet": "2025-12-19: Jeffrey Epstein: Dems say DOJ breaking law with plan to release files over time: President Donald Trump signed the Epstein Files Transparency Act in November.",
+          "guid": "108244015"
+        },
+        {
+          "title": "Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/epstein-doj-bondi-trump.html",
+          "snippet": "2026-03-05: Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports: The top lawyer for Goldman Sachs, Bill Gates, Leon Black and others are expected to testify soon a",
+          "guid": "108274237"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Political risk: How Trump 2.0 is affecting investment in U.S. assets",
+          "date": "2026-02-01",
+          "link": "https://www.cnbc.com/2026/02/01/political-risk-how-trump-2point0-is-affecting-investment-in-us-assets.html",
+          "snippet": "2026-02-01: Political risk: How Trump 2.0 is affecting investment in U.S. assets: Political risk: How Trump 2.0 is affecting investment in U.S. assets",
+          "guid": "108259074"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "0d20e23d-6795-477d-bb84-20b28b10b364",
+      "label": "Ukraine peace talks dynamics",
+      "spike_ratio": 1.176,
+      "article_count": 24,
+      "rag_answer": "The dynamics of the Ukraine peace talks have seen significant developments, with U.S. officials reporting progress in negotiations between Ukraine and Russia. Notably, Russian President Vladimir Putin has indicated a willingness to engage in serious discussions regarding a U.S.-brokered peace plan, which Ukraine has reportedly agreed to. This optimism around a potential peace deal has led to fluctuations in European defense stocks and gas prices, as investors react to the shifting geopolitical landscape. However, there remains caution, as the situation is fluid and the final agreement on security guarantees for Ukraine is still pending.",
+      "rag_sources": [
+        {
+          "title": "Ukraine peace talks progressing, Russia open to EU membership, U.S. officials say",
+          "date": "2025-12-15",
+          "link": "https://www.cnbc.com/2025/12/15/ukraine-peace-talks-russia-eu-us-trump.html",
+          "snippet": "2025-12-15: Ukraine peace talks progressing, Russia open to EU membership, U.S. officials say: The war in Ukraine began nearly four years ago, when Russia invaded at the direction of its leader, Vladi",
+          "guid": "108241899"
+        },
+        {
+          "title": "Ukraine peace talks shift to Moscow \u2014 the big unknown is whether Putin will play ball",
+          "date": "2025-12-01",
+          "link": "https://www.cnbc.com/2025/12/01/russia-under-pressure-as-ukraine-peace-talks-shift-to-moscow.html",
+          "snippet": "2025-12-01: Ukraine peace talks shift to Moscow \u2014 the big unknown is whether Putin will play ball: U.S. Special Envoy Steve Witkoff is travelling to Moscow on Monday and is due to meet Russian Preside",
+          "guid": "108234209"
+        },
+        {
+          "title": "European defense stocks and gas prices fall as U.S., Ukraine make progress on peace plan",
+          "date": "2025-11-24",
+          "link": "https://www.cnbc.com/2025/11/24/europe-defense-stocks-fall-as-us-ukraine-make-progress-on-peace-plan.html",
+          "snippet": "2025-11-24: European defense stocks and gas prices fall as U.S., Ukraine make progress on peace plan: The U.S. said Sunday that there had been progress in talks at the weekend but that no agreement wa",
+          "guid": "108230743"
+        },
+        {
+          "title": "All eyes on Russia as it weighs Ukraine peace plan with caution",
+          "date": "2025-11-26",
+          "link": "https://www.cnbc.com/2025/11/26/russia-responds-to-fledgling-ukraine-peace-plan.html",
+          "snippet": "2025-11-26: All eyes on Russia as it weighs Ukraine peace plan with caution: There's been little official comment from Moscow regarding a revised U.S.-brokered peace plan for Ukraine.",
+          "guid": "108232279"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "4c56f2cb-7dbc-46e4-8ba2-815842870dea",
+      "label": "U.S.-China Trade Tensions Impact Markets",
+      "spike_ratio": 1.156,
+      "article_count": 26,
+      "rag_answer": "U.S.-China trade tensions have been a significant source of market volatility, with recent developments causing renewed investor anxiety. The tensions escalated as President Trump threatened tariffs, leading to a selloff in Chinese stocks and a drop in the Dow. Despite some optimism surrounding trade talks, analysts caution that the truce remains fragile, and the ongoing rivalry is increasingly characterized by strategic competition. Overall, these tensions are impacting market sentiment, with investors closely monitoring developments for potential implications on global growth and trade dynamics.",
+      "rag_sources": [
+        {
+          "title": "China wants to play the long game with the U.S. What that means for Chinese stocks",
+          "date": "2025-10-19",
+          "link": "https://www.cnbc.com/2025/10/19/china-wants-to-play-the-long-game-with-the-us-what-that-means-for-chinese-stocks.html",
+          "snippet": "2025-10-19: China wants to play the long game with the U.S. What that means for Chinese stocks: As U.S.-China tensions escalate and overall market volatility rises, investment strategists are watching",
+          "guid": "108213404"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "CNBC's The China Connection newsletter: What's next after a 10-year 'experiment' with U.S.-China competition",
+          "date": "2026-01-07",
+          "link": "https://www.cnbc.com/2026/01/07/cnbcs-the-china-connection-newsletter-turning-point-for-us-china-ties-in-2026.html",
+          "snippet": "2026-01-07: CNBC's The China Connection newsletter: What's next after a 10-year 'experiment' with U.S.-China competition: For someone who's witnessed the ups and downs of U.S.-China tensions since the",
+          "guid": "108247948"
+        },
+        {
+          "title": "Watch CNBC's full interview with Microsoft President Brad Smith at the AI Impact Summit in India",
+          "date": "2026-02-19",
+          "link": "https://www.cnbc.com/video/2026/02/19/watch-cnbcs-full-interview-with-microsoft-president-brad-smith-at-the-ai-impact-summit-in-india.html",
+          "snippet": "2026-02-19: Watch CNBC's full interview with Microsoft President Brad Smith at the AI Impact Summit in India: Microsoft President Brad Smith told CNBC\u2019s Arjun Kharpal that U.S. tech companies should \u201c",
+          "guid": "108267132"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "date": "2025-11-28",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "eb3759f8-da95-45ed-96d5-50c26505f9fa",
+      "label": "UK Autumn Budget 2025 Insights",
+      "spike_ratio": 1.31,
+      "article_count": 19,
+      "rag_answer": "The UK Autumn Budget 2025, unveiled by Finance Minister Rachel Reeves, included tax hikes following an accidental leak of policy measures. This budget comes at a critical time as the UK economy showed minimal growth in the third quarter, raising concerns about fiscal stability. Market watchers are analyzing how Reeves' policy mix will impact various asset classes, from stocks to property, indicating potential shifts in capital investment in the UK. The budget's implications are seen as pivotal for the government's political standing, particularly for Prime Minister Keir Starmer, amidst heightened scrutiny and pressure.",
+      "rag_sources": [
+        {
+          "title": "Autumn Budget 2025: UK finance minister unveils tax hikes after accidental leak of policy measures",
+          "date": "2025-11-26",
+          "link": "https://www.cnbc.com/2025/11/26/autumn-budget-2025-follow-chancellor-rachel-reeves-announcements-live.html",
+          "snippet": "2025-11-26: Autumn Budget 2025: UK finance minister unveils tax hikes after accidental leak of policy measures: This was CNBC's live blog on the 2025 Autumn Budget unveiled by Finance Minister Rachel ",
+          "guid": "108231532"
+        },
+        {
+          "title": "UK government borrowing costs seesaw as official economic forecasts released early",
+          "date": "2025-11-26",
+          "link": "https://www.cnbc.com/2025/11/26/uk-government-borrowing-costs-fall-as-obr-forecasts-released-early.html",
+          "snippet": "2025-11-26: UK government borrowing costs seesaw as official economic forecasts released early: The Autumn Budget is due to be announced shortly.",
+          "guid": "108231663"
+        },
+        {
+          "title": "UK has weeks to solve fiscal puzzle as it sets date for Autumn Budget",
+          "date": "2025-09-03",
+          "link": "https://www.cnbc.com/2025/09/03/uk-to-deliver-budget-on-nov-26.html",
+          "snippet": "2025-09-03: UK has weeks to solve fiscal puzzle as it sets date for Autumn Budget: The U.K. government has named the date of its forthcoming Autumn Budget amid heightened pressure on Chancellor Rachel",
+          "guid": "108193520"
+        },
+        {
+          "title": "From stocks to property, here\u2019s what the Autumn Budget means for UK assets",
+          "date": "2025-11-27",
+          "link": "https://www.cnbc.com/2025/11/27/autumn-budget-what-rachel-reeves-tax-hikes-mean-for-uk-assets.html",
+          "snippet": "2025-11-27: From stocks to property, here\u2019s what the Autumn Budget means for UK assets: Money market watchers spoke to CNBC about how Rachel Reeves\u2019 policy mix will shape capital invested in the U.K.",
+          "guid": "108233047"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "4761f37d-27cd-4139-ae34-f7ba6d6fa059",
+      "label": "Epstein Files and Political Reactions",
+      "spike_ratio": 1.14,
+      "article_count": 49,
+      "rag_answer": "The ongoing release of Epstein files by the Department of Justice (DOJ) has sparked significant political backlash, with congressional Democrats and senators calling for investigations into the DOJ's handling of these documents. Recent releases have included heavily redacted materials, leading to accusations of insufficient transparency and compliance with the Epstein Files Transparency Act. The political discourse surrounding these files, particularly in relation to the Trump administration, is creating a climate of uncertainty that could impact investor sentiment towards U.S. assets, as concerns about political risk and accountability grow. Overall, the situation reflects a broader tension between legal transparency and political maneuvering, which may influence market dynamics in the near term.",
+      "rag_sources": [
+        {
+          "title": "Epstein files: Senators seek probe of DOJ over release, redaction of sex offender's documents",
+          "date": "2026-03-11",
+          "link": "https://www.cnbc.com/2026/03/11/senators-epstein-files-investigation.html",
+          "snippet": "2026-03-11: Epstein files: Senators seek probe of DOJ over release, redaction of sex offender's documents: The Department of Justice has come under fire for its handling of documents related to disgra",
+          "guid": "108276332"
+        },
+        {
+          "title": "Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/epstein-doj-bondi-trump.html",
+          "snippet": "2026-03-05: Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports: The top lawyer for Goldman Sachs, Bill Gates, Leon Black and others are expected to testify soon a",
+          "guid": "108274237"
+        },
+        {
+          "title": "Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents",
+          "date": "2025-12-23",
+          "link": "https://www.cnbc.com/2025/12/23/epstein-files-doj-release-trump.html",
+          "snippet": "2025-12-23: Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents: The release comes amid intense scrutiny from congressional lawmakers and victims ove",
+          "guid": "108244822"
+        },
+        {
+          "title": "Epstein files released to Congress are mostly \u2018recycled\u2019 documents, Democrat says",
+          "date": "2025-08-23",
+          "link": "https://www.cnbc.com/2025/08/23/jeffrey-epstein-ghislaine-maxwell-trump-doj.html",
+          "snippet": "2025-08-23: Epstein files released to Congress are mostly \u2018recycled\u2019 documents, Democrat says: The Justice Department late Friday gave Congress the first trove of documents to comply with a subpoena b",
+          "guid": "108189960"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "0d20e23d-6795-477d-bb84-20b28b10b364",
+      "label": "Ukraine peace talks dynamics",
+      "spike_ratio": 1.139,
+      "article_count": 23,
+      "rag_answer": "Recent developments in the Ukraine peace talks indicate a cautious yet potentially significant shift. Ukraine has reportedly agreed to a U.S.-brokered peace proposal, with President Zelenskyy expressing readiness for constructive dialogue. However, Russia's response remains uncertain, as President Putin has issued threats while weighing the proposal. The dynamics suggest a complex interplay of diplomacy that could impact market stability, particularly in energy and defense sectors, as investors monitor the situation for signs of resolution or escalation.",
+      "rag_sources": [
+        {
+          "title": "Ukraine reportedly agrees to U.S.-brokered peace proposal",
+          "date": "2025-11-25",
+          "link": "https://www.cnbc.com/2025/11/25/ukraine-russia-peace-trump-abu-dhabi.html",
+          "snippet": "2025-11-25: Ukraine reportedly agrees to U.S.-brokered peace proposal: Ukraine has reportedly agreed to a potential peace deal with Russia in what could be a massive step toward bringing the devastati",
+          "guid": "108231635"
+        },
+        {
+          "title": "All eyes on Russia as it weighs Ukraine peace plan with caution",
+          "date": "2025-11-26",
+          "link": "https://www.cnbc.com/2025/11/26/russia-responds-to-fledgling-ukraine-peace-plan.html",
+          "snippet": "2025-11-26: All eyes on Russia as it weighs Ukraine peace plan with caution: There's been little official comment from Moscow regarding a revised U.S.-brokered peace plan for Ukraine.",
+          "guid": "108232279"
+        },
+        {
+          "title": "Ukraine desperate to keep Trump on its side in peace talks, while saving its sovereignty",
+          "date": "2025-11-24",
+          "link": "https://www.cnbc.com/2025/11/24/ukraine-desperate-to-keep-trump-sweet-while-saving-its-sovereignty.html",
+          "snippet": "2025-11-24: Ukraine desperate to keep Trump on its side in peace talks, while saving its sovereignty: Talks between U.S. and Ukrainian officials were held this weekend after it emerged that Russia and",
+          "guid": "108230764"
+        },
+        {
+          "title": "Ukraine\u2019s Zelenskyy says Kyiv \u2018geared up for clear and honest work\u2019 as U.S. pushes for progress on peace plan",
+          "date": "2025-11-21",
+          "link": "https://www.cnbc.com/2025/11/21/ukraine-peace-plan-zelenskyy-to-speak-with-trump-on-deal-to-end-war.html",
+          "snippet": "2025-11-21: Ukraine\u2019s Zelenskyy says Kyiv \u2018geared up for clear and honest work\u2019 as U.S. pushes for progress on peace plan: Ukrainian President Volodymyr Zelenskyy said he expects to speak with U.S. co",
+          "guid": "108229758"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "c127eb26-2c6e-40a3-ad59-ffc4c86ae198",
+      "label": "Robotaxi Developments in China and Beyond",
+      "spike_ratio": 1.119,
+      "article_count": 15,
+      "rag_answer": "Robotaxi developments are rapidly advancing in China and globally, with significant milestones achieved in 2025. Shanghai has allowed fully autonomous taxis to charge fares, while Chinese EV maker Xpeng is entering the market with its own robotaxis and AI technology. Baidu reported that its weekly robotaxi rides reached 250,000, matching Alphabet's Waymo, indicating a competitive landscape. As companies like Waymo and Tesla expand their services internationally, the robotaxi industry is approaching a tipping point, suggesting strong growth potential and increased competition in the autonomous vehicle market.",
+      "rag_sources": [
+        {
+          "title": "Robotaxis are becoming a reality. Who\u2019s poised to win in China and beyond",
+          "date": "2025-08-04",
+          "link": "https://www.cnbc.com/2025/08/03/robotaxis-are-becoming-a-reality-whos-poised-to-win-in-china-and-beyond.html",
+          "snippet": "2025-08-04: Robotaxis are becoming a reality. Who\u2019s poised to win in China and beyond: Shanghai in late July became the latest region in China to allow fully autonomous taxis to charge fares in parts ",
+          "guid": "108180117"
+        },
+        {
+          "title": "Chinese EV maker Xpeng to launch robotaxis, humanoid robots with self-developed AI chips",
+          "date": "2025-11-05",
+          "link": "https://www.cnbc.com/2025/11/05/china-xpeng-to-launch-robotaxis-humanoid-robots-with-own-ai-chips.html",
+          "snippet": "2025-11-05: Chinese EV maker Xpeng to launch robotaxis, humanoid robots with self-developed AI chips: Chinese electric car company Xpeng is following in Tesla's footsteps by moving into robotaxis and ",
+          "guid": "108221540"
+        },
+        {
+          "title": "\u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises",
+          "date": "2025-11-20",
+          "link": "https://www.cnbc.com/2025/11/20/global-robotaxi-race-heats-up-between-us-and-chinese-rivals.html",
+          "snippet": "2025-11-20: \u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises: Global tech executives in recent weeks have proclaimed the robotaxi industry is finally nea",
+          "guid": "108226580"
+        },
+        {
+          "title": "Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/waymo-amazon-zoox-tesla-robotaxi-expansion.html",
+          "snippet": "2025-12-16: Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line: Robotaxis grew rapidly in 2025 with Waymo expanding fastest, Zoox debuting public rides and Tesla ",
+          "guid": "108236372"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "3d3acae2-25d0-4e59-83b0-0118da72d824",
+      "label": "AI-related tech stock decline",
+      "spike_ratio": 1.111,
+      "article_count": 24,
+      "rag_answer": "AI-related tech stocks have been experiencing significant declines, driven by rising concerns over their valuations and disappointing earnings reports from key players like Nvidia and Oracle. The S&P 500 and Dow have both seen losses as investors react to the pressure on these stocks, with notable declines in companies such as Palantir and SoftBank. Despite some attempts at recovery, the overall sentiment remains cautious, indicating that the AI trade may be facing a challenging period ahead. This ongoing volatility suggests potential implications for broader market stability, as tech stocks are often seen as a bellwether for market performance.",
+      "rag_sources": [
+        {
+          "title": "Dow slides 300 points as AI stocks resume their decline, Nasdaq falls 1%: Live updates",
+          "date": "2025-11-06",
+          "link": "https://www.cnbc.com/2025/11/05/stock-market-today-live-updates.html",
+          "snippet": "2025-11-06: Dow slides 300 points as AI stocks resume their decline, Nasdaq falls 1%: Live updates: Companies that have benefited from the artificial intelligence trade came under pressure yet again a",
+          "guid": "108222099"
+        },
+        {
+          "title": "S&P 500 gives up gain as AI-related stocks come under pressure again: Live updates",
+          "date": "2025-12-15",
+          "link": "https://www.cnbc.com/2025/12/14/stock-market-today-live-updates.html",
+          "snippet": "2025-12-15: S&P 500 gives up gain as AI-related stocks come under pressure again: Live updates: Key stocks in the artificial intelligence trade continued to face pressure.",
+          "guid": "108241593"
+        },
+        {
+          "title": "Stocks drop on rising fears about AI stock valuations, Palantir leads decline: Live updates",
+          "date": "2025-11-04",
+          "link": "https://www.cnbc.com/2025/11/03/stock-market-today-live-updates.html",
+          "snippet": "2025-11-04: Stocks drop on rising fears about AI stock valuations, Palantir leads decline: Live updates: Stocks fell, pressured by declines in artificial intelligence-related names like Palantir as in",
+          "guid": "108220811"
+        },
+        {
+          "title": "CNBC Daily Open: Days of declines won't keep AI trade down",
+          "date": "2025-11-11",
+          "link": "https://www.cnbc.com/2025/11/11/cnbc-daily-open-days-of-declines-wont-keep-ai-trade-down.html",
+          "snippet": "2025-11-11: CNBC Daily Open: Days of declines won't keep AI trade down: Investors piled back into artificial intelligence names on Monday stateside. \\AI-related stocks should drive equity markets,\\\" a",
+          "guid": "108224037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

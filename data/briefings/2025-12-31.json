@@ -1,0 +1,212 @@
+{
+  "date": "2025-12-31",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "5027ac75-1fa6-4561-bafa-14e0763d1caf",
+      "label": "Nvidia AI Chips Sales to China",
+      "spike_ratio": 1.726,
+      "article_count": 29,
+      "rag_answer": "Nvidia has faced significant challenges in selling its AI chips to China, despite receiving U.S. government approval to resume shipments. As of February 2026, the company has not confirmed any sales, raising concerns about local Chinese competitors potentially gaining market share. The rollout of the H200 chip, initially planned for mid-February, has been stalled due to ongoing U.S. security reviews. This uncertainty in the market could impact Nvidia's competitive position in the rapidly evolving AI sector.",
+      "rag_sources": [
+        {
+          "title": "Nvidia still hasn't sold its U.S.-approved China AI chips \u2014 and it\u2019s worried local AI rivals could take over",
+          "date": "2026-02-26",
+          "link": "https://www.cnbc.com/2026/02/26/nvidia-china-chip-sales-export-controls-ai-competition.html",
+          "snippet": "2026-02-26: Nvidia still hasn't sold its U.S.-approved China AI chips \u2014 and it\u2019s worried local AI rivals could take over: The U.S. chipmaker has yet to confirm shipments to China despite Washington ea",
+          "guid": "108270233"
+        },
+        {
+          "title": "Nvidia says it's evaluating a 'variety of products' after report of new AI chip for China",
+          "date": "2025-08-19",
+          "link": "https://www.cnbc.com/2025/08/19/nvidia-ai-china-chip.html",
+          "snippet": "2025-08-19: Nvidia says it's evaluating a 'variety of products' after report of new AI chip for China: Nvidia last week struck a deal with the U.S. government to resume selling products in China, in e",
+          "guid": "108187933"
+        },
+        {
+          "title": "Nvidia aims to begin H200 chip shipments to China by mid-February, sources say",
+          "date": "2025-12-22",
+          "link": "https://www.cnbc.com/2025/12/22/nvidia-aims-to-begin-h200-chip-shipments-to-china-by-mid-february-.html",
+          "snippet": "2025-12-22: Nvidia aims to begin H200 chip shipments to China by mid-February, sources say: Nvidia plans to start shipping its second-most powerful AI chips to China in mid-February, three people fami",
+          "guid": "108244633"
+        },
+        {
+          "title": "Trump's blessing of Nvidia AI chip sales to China gets a chilly reception from GOP",
+          "date": "2025-12-09",
+          "link": "https://www.cnbc.com/2025/12/09/trump-nvidia-china-ai-chips-gop-congress.html",
+          "snippet": "2025-12-09: Trump's blessing of Nvidia AI chip sales to China gets a chilly reception from GOP: Trump said Chinese President Xi Jinping \\responded positively\\\" to the proposal to let Nvidia sell H200 ",
+          "guid": "108239138"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "f8808869-93ad-472f-b98b-dacc14ac72b7",
+      "label": "S&P 500 performance fluctuations",
+      "spike_ratio": 1.256,
+      "article_count": 18,
+      "rag_answer": "The S&P 500 has experienced notable fluctuations, including a rise to record highs in late December 2025 and January 2026, driven primarily by gains in technology and banking sectors. However, the index has also faced periods of decline, with back-to-back losses reported in late December and a two-week decline noted in February 2026. The market appears to be in a tight range, raising questions about the resilience of the current bull market. Overall, these fluctuations suggest a mix of investor optimism and caution, influenced by earnings reports and broader economic conditions.",
+      "rag_sources": [
+        {
+          "title": "S&P 500 is little changed as index tries to avoid 3-day losing streak: Live updates",
+          "date": "2025-12-30",
+          "link": "https://www.cnbc.com/2025/12/29/stock-market-today-live-updates.html",
+          "snippet": "2025-12-30: S&P 500 is little changed as index tries to avoid 3-day losing streak: Live updates: The S&P 500 was relatively unchanged on Tuesday, a day after the index posted back-to-back losses.",
+          "guid": "108246431"
+        },
+        {
+          "title": "S&P 500 rises to start shortened week, led by banks; software shares slide: Live updates",
+          "date": "2026-02-17",
+          "link": "https://www.cnbc.com/2026/02/16/stock-market-today-live-updates.html",
+          "snippet": "2026-02-17: S&P 500 rises to start shortened week, led by banks; software shares slide: Live updates: The S&P 500 has declined two weeks in a row.",
+          "guid": "108266092"
+        },
+        {
+          "title": "S&P 500 rises to record high, led by gains in tech: Live updates",
+          "date": "2026-01-27",
+          "link": "https://www.cnbc.com/2026/01/26/stock-market-today-live-updates.html",
+          "snippet": "2026-01-27: S&P 500 rises to record high, led by gains in tech: Live updates: More than 90 S&P 500 companies are slated to report quarterly results this week.",
+          "guid": "108257207"
+        },
+        {
+          "title": "S&P 500 closes at another fresh record in holiday-shortened session: Live updates",
+          "date": "2025-12-24",
+          "link": "https://www.cnbc.com/2025/12/23/stock-market-today-live-updates.html",
+          "snippet": "2025-12-24: S&P 500 closes at another fresh record in holiday-shortened session: Live updates: The S&P 500 rose to a new all-time high on Wednesday, coasting to another record close.",
+          "guid": "108245376"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "5cc221ba-5416-492e-bfa3-c1552998cc5f",
+      "label": "Jeffrey Epstein investigation updates",
+      "spike_ratio": 1.229,
+      "article_count": 43,
+      "rag_answer": "The investigation into Jeffrey Epstein continues to unfold with significant developments, including the Department of Justice (DOJ) planning to release new documents and facing scrutiny over the handling and redaction of existing files. High-profile individuals, including top lawyers and financiers, are expected to testify, indicating a deepening inquiry into Epstein's connections. The release of photos and videos from Epstein's island, along with ongoing calls from Congress for transparency, suggests that the investigation could impact public perception and regulatory scrutiny of involved financial institutions. These developments may lead to increased volatility in the markets, particularly for firms linked to Epstein, as public sentiment and potential legal ramifications evolve.",
+      "rag_sources": [
+        {
+          "title": "Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/epstein-doj-bondi-trump.html",
+          "snippet": "2026-03-05: Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports: The top lawyer for Goldman Sachs, Bill Gates, Leon Black and others are expected to testify soon a",
+          "guid": "108274237"
+        },
+        {
+          "title": "Jeffrey Epstein island photos and videos released as top banks share files with House Oversight Committee ",
+          "date": "2025-12-03",
+          "link": "https://www.cnbc.com/2025/12/03/epstein-files-jpmorgan-deutsche-bank-virgin-islands.html",
+          "snippet": "2025-12-03: Jeffrey Epstein island photos and videos released as top banks share files with House Oversight Committee: The release comes as Attorney General Pam Bondi is on a deadline to publicly shar",
+          "guid": "108236053"
+        },
+        {
+          "title": "DOJ urges release of Jeffrey Epstein and Ghislaine Maxwell grand jury info in new filings",
+          "date": "2025-07-30",
+          "link": "https://www.cnbc.com/2025/07/30/jeffrey-epstein-ghislaine-maxwell-victims-trump.html",
+          "snippet": "2025-07-30: DOJ urges release of Jeffrey Epstein and Ghislaine Maxwell grand jury info in new filings: The Trump administration has faced pressure this month to release information in criminal files r",
+          "guid": "108178938"
+        },
+        {
+          "title": "Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents",
+          "date": "2025-12-23",
+          "link": "https://www.cnbc.com/2025/12/23/epstein-files-doj-release-trump.html",
+          "snippet": "2025-12-23: Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents: The release comes amid intense scrutiny from congressional lawmakers and victims ove",
+          "guid": "108244822"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "409ca803-01f1-4349-8222-0e0c6aee0ccc",
+      "label": "Ukraine peace talks and Trump",
+      "spike_ratio": 1.144,
+      "article_count": 27,
+      "rag_answer": "Recent developments in Ukraine peace talks indicate a complex and evolving situation involving U.S. President Donald Trump and Ukrainian President Volodymyr Zelenskyy. Trump has oscillated in his support for Ukraine, initially proposing security guarantees from European nations but later suggesting a division of Ukraine with Russia. Despite these tensions, reports suggest Ukraine has agreed to a U.S.-brokered peace proposal, with Trump claiming that a peace deal is \"very close.\" The market implications could include increased volatility in defense and energy sectors, as well as potential shifts in investor sentiment depending on the outcomes of these negotiations and their impact on regional stability.",
+      "rag_sources": [
+        {
+          "title": "Ukraine desperate to keep Trump on its side in peace talks, while saving its sovereignty",
+          "date": "2025-11-24",
+          "link": "https://www.cnbc.com/2025/11/24/ukraine-desperate-to-keep-trump-sweet-while-saving-its-sovereignty.html",
+          "snippet": "2025-11-24: Ukraine desperate to keep Trump on its side in peace talks, while saving its sovereignty: Talks between U.S. and Ukrainian officials were held this weekend after it emerged that Russia and",
+          "guid": "108230764"
+        },
+        {
+          "title": "Watch live: Trump and Zelenskyy meet with European leaders ",
+          "date": "2025-08-18",
+          "link": "https://www.cnbc.com/2025/08/18/trump-zelenskyy-ukraine-putin-live-updates.html",
+          "snippet": "2025-08-18: Watch live: Trump and Zelenskyy meet with European leaders: Trump and Ukraine's Volodymyr Zelenskyy are meeting with European leaders and NATO allies in an unprecedented effort to reach a ",
+          "guid": "108187127"
+        },
+        {
+          "title": "Ukraine\u2019s Zelenskyy says Kyiv \u2018geared up for clear and honest work\u2019 as U.S. pushes for progress on peace plan",
+          "date": "2025-11-21",
+          "link": "https://www.cnbc.com/2025/11/21/ukraine-peace-plan-zelenskyy-to-speak-with-trump-on-deal-to-end-war.html",
+          "snippet": "2025-11-21: Ukraine\u2019s Zelenskyy says Kyiv \u2018geared up for clear and honest work\u2019 as U.S. pushes for progress on peace plan: Ukrainian President Volodymyr Zelenskyy said he expects to speak with U.S. co",
+          "guid": "108229758"
+        },
+        {
+          "title": "Trump says \u2018a lot closer\u2019 to Ukraine peace deal after Zelenskyy meeting, though thorny issues remain",
+          "date": "2025-12-28",
+          "link": "https://www.cnbc.com/2025/12/28/trump-zelenskyy-ukraine.html",
+          "snippet": "2025-12-28: Trump says \u2018a lot closer\u2019 to Ukraine peace deal after Zelenskyy meeting, though thorny issues remain: Ukrainian President Volodymyr Zelenskyy\u00a0was scheduled to arrive at Mar-a-Lago in Presi",
+          "guid": "108246060"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "b7db0f8b-15aa-44d6-82c0-a1a21405ab66",
+      "label": "Robotaxi Developments and Expansion",
+      "spike_ratio": 1.066,
+      "article_count": 13,
+      "rag_answer": "In 2025, the robotaxi industry experienced significant growth, with Waymo leading global expansion efforts and Zoox debuting public rides. Tesla also made strides by testing driverless robotaxis in Austin and securing permits for ride-hailing services in Texas. The competition intensified, as industry leaders like Baidu and Nvidia noted a tipping point in the market, indicating increasing momentum and interest in autonomous ride-hailing solutions. As companies like Rivian and Lucid announce their own robotaxi ambitions, the market is poised for further innovation and expansion, potentially reshaping urban transportation dynamics.",
+      "rag_sources": [
+        {
+          "title": "Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/waymo-amazon-zoox-tesla-robotaxi-expansion.html",
+          "snippet": "2025-12-16: Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line: Robotaxis grew rapidly in 2025 with Waymo expanding fastest, Zoox debuting public rides and Tesla ",
+          "guid": "108236372"
+        },
+        {
+          "title": "Rivian announces new AI tech, in-house chip and robotaxi ambitions",
+          "date": "2025-12-11",
+          "link": "https://www.cnbc.com/2025/12/11/rivian-autonomy-ai-day.html",
+          "snippet": "2025-12-11: Rivian announces new AI tech, in-house chip and robotaxi ambitions: The company has also developed AI models to power its Autonomy+ subscription, which it intends to roll out early next ye",
+          "guid": "108240446"
+        },
+        {
+          "title": "\u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises",
+          "date": "2025-11-20",
+          "link": "https://www.cnbc.com/2025/11/20/global-robotaxi-race-heats-up-between-us-and-chinese-rivals.html",
+          "snippet": "2025-11-20: \u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises: Global tech executives in recent weeks have proclaimed the robotaxi industry is finally nea",
+          "guid": "108226580"
+        },
+        {
+          "title": "Amazon's Zoox expands robotaxi testing to Phoenix and Dallas",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/amazon-zoox-robotaxi-testing-phoenix-dallas.html",
+          "snippet": "2026-03-09: Amazon's Zoox expands robotaxi testing to Phoenix and Dallas: Zoox will start by deploying a fleet of retrofitted Toyota Highlander SUVs, before rolling out its toaster-shaped robotaxis fo",
+          "guid": "108274966"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "date": "2025-10-22",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "61d75c0e-f3f6-4310-98e6-337f075d7ea5",
+      "label": "OpenAI and AI Content Controversies",
+      "spike_ratio": 1.845,
+      "article_count": 38,
+      "rag_answer": "OpenAI is facing increasing pressure and scrutiny regarding its AI technologies, particularly as competitors like Google and Anthropic gain ground. CEO Sam Altman has addressed various moral and ethical controversies surrounding the company's AI chatbot, indicating a proactive approach to managing public perception. The company is also expanding aggressively, building a comprehensive AI ecosystem and entering into significant partnerships, which has led to both collaboration and competition with major players like Microsoft. These developments suggest that while OpenAI is solidifying its position in the AI market, it must navigate complex ethical challenges and market dynamics that could impact its long-term growth and reputation.",
+      "rag_sources": [
+        {
+          "title": "Watch CNBC's full interview with OpenAI CEO Sam Altman from the India AI Summit",
+          "date": "2026-02-19",
+          "link": "https://www.cnbc.com/video/2026/02/19/openai-sam-altman-india-ai-summit-full-interview.html",
+          "snippet": "2026-02-19: Watch CNBC's full interview with OpenAI CEO Sam Altman from the India AI Summit: OpenAI CEO Sam Altman discusses AI infrastructure, OpenAI's business model, competition from China and thou",
+          "guid": "108267179"
+        },
+        {
+          "title": "OpenAI's dominance is unlike anything Silicon Valley has ever seen",
+          "date": "2025-10-11",
+          "link": "https://www.cnbc.com/2025/10/11/open-ai-silicon-valley-tech-startup.html",
+          "snippet": "2025-10-11: OpenAI's dominance is unlike anything Silicon Valley has ever seen: OpenAI's position at the heart of the AI boom, and its expansion up and down the stack, is putting the company in compet",
+          "guid": "108209603"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Anthropic is giving Claude to the U.S. government for $1 as AI companies try to win key agencies",
+          "date": "2025-08-12",
+          "link": "https://www.cnbc.com/2025/08/12/anthropic-claude-government-ai.html",
+          "snippet": "2025-08-12: Anthropic is giving Claude to the U.S. government for $1 as AI companies try to win key agencies: Earlier this month, Anthropic's competitor OpenAI made a similar announcement.",
+          "guid": "108184674"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "85dc10ce-8d59-4f95-ac59-8869f2905632",
+      "label": "Federal Reserve leadership changes",
+      "spike_ratio": 1.293,
+      "article_count": 15,
+      "rag_answer": "The search for the next Federal Reserve chair is ongoing, with Treasury Secretary Bessent meeting with various candidates, including BlackRock's Rieder, as the White House considers replacements for Jerome Powell. President Trump has indicated that a decision on the new chair will be made before the end of the year, which has created uncertainty in the markets. Additionally, recent comments from Fed officials have influenced market expectations regarding interest rate cuts, reflecting concerns about the labor market and economic growth. These leadership changes and the Fed's monetary policy decisions are closely watched by traders, as they can significantly impact market dynamics.",
+      "rag_sources": [
+        {
+          "title": "Here are the five key takeaways from Wednesday's Fed rate decision",
+          "date": "2026-01-28",
+          "link": "https://www.cnbc.com/2026/01/28/here-are-the-five-key-takeaways-from-wednesdays-fed-rate-decision.html",
+          "snippet": "2026-01-28: Here are the five key takeaways from Wednesday's Fed rate decision: The Federal Reserve wrapped up a two-day policy meeting Wednesday, delivering pretty much what the market expected.",
+          "guid": "108258592"
+        },
+        {
+          "title": "Here are five key takeaways from the Fed's big interest rate decision",
+          "date": "2025-09-18",
+          "link": "https://www.cnbc.com/2025/09/17/here-are-five-key-takeaways-from-the-feds-big-interest-rate-decision.html",
+          "snippet": "2025-09-18: Here are five key takeaways from the Fed's big interest rate decision: The Federal Reserve on Wednesday delivered on a widely anticipated quarter percentage point interest rate cut.",
+          "guid": "108200292"
+        },
+        {
+          "title": "One Fed official may have saved market from another rout. Why John Williams' remarks matter so much",
+          "date": "2025-11-21",
+          "link": "https://www.cnbc.com/2025/11/21/one-fed-official-may-have-saved-market-from-another-rout-why-john-williams-remarks-matter-so-much.html",
+          "snippet": "2025-11-21: One Fed official may have saved market from another rout. Why John Williams' remarks matter so much: With his position comes membership in the Fed's leadership troika, a group that also in",
+          "guid": "108229921"
+        },
+        {
+          "title": "Here are the five key takeaways from this week's Fed meeting",
+          "date": "2026-03-19",
+          "link": "https://www.cnbc.com/2026/03/18/here-are-the-five-key-takeaways-from-this-weeks-fed-meeting.html",
+          "snippet": "2026-03-19: Here are the five key takeaways from this week's Fed meeting: While no one expected the Fed to cut \u2014 much less hike \u2014 at this meeting, the market always looks for clues about what's next.",
+          "guid": "108279927"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.25,
+          "mean_sentiment_score": 0.118,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "b82b4dcb-bba3-45f0-9230-df48cf06e1cc",
+      "label": "Trump-Xi TikTok Deal Talks",
+      "spike_ratio": 1.111,
+      "article_count": 18,
+      "rag_answer": "The Trump-Xi TikTok deal talks have seen significant developments, with President Trump approving a proposed deal to keep TikTok operational in the U.S., valuing the business at $14 billion. A \"framework\" deal was reached, indicating cooperation between the U.S. and China, although details remain sparse. The discussions have overshadowed broader U.S.-China trade talks, with both leaders expected to finalize the agreement soon. Market implications include heightened investor interest in TikTok's future and potential impacts on U.S.-China relations, particularly in the tech sector.",
+      "rag_sources": [
+        {
+          "title": "TikTok deal to include new investors with ByteDance; Oracle to keep cloud agreement, sources say",
+          "date": "2025-09-16",
+          "link": "https://www.cnbc.com/2025/09/16/tiktok-bytedance-oracle-china.html",
+          "snippet": "2025-09-16: TikTok deal to include new investors with ByteDance; Oracle to keep cloud agreement, sources say: Deal talks have dragged, with President\u00a0Donald Trump\u00a0extending the deadline three times\u00a0si",
+          "guid": "108199289"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "China says it\u2019s willing to work with U.S. on TikTok \u2014 but offers few details",
+          "date": "2025-10-30",
+          "link": "https://www.cnbc.com/2025/10/30/china-says-its-willing-to-work-with-us-on-tiktok.html",
+          "snippet": "2025-10-30: China says it\u2019s willing to work with U.S. on TikTok \u2014 but offers few details: Beijing indicated it would work with the U.S. on addressing the future of TikTok in the country.",
+          "guid": "108219176"
+        },
+        {
+          "title": "CNBC's The China Connection newsletter: Five things Beijing wants from a Trump-Xi meeting",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/china-connection-newsletter-what-beijing-wants-trump-xi-meeting-south-korea-apec-summit-gyeongju.html",
+          "snippet": "2025-10-29: CNBC's The China Connection newsletter: Five things Beijing wants from a Trump-Xi meeting: What China asks of the U.S. this week can reveal the extent to which Beijing has assessed the tra",
+          "guid": "108215757"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "63e7bf23-b3e8-4620-91c5-d03dab82245b",
+      "label": "H-1B Visa Policy Changes",
+      "spike_ratio": 1.099,
+      "article_count": 20,
+      "rag_answer": "President Trump has imposed a significant $100,000 fee on H-1B visas, which has sparked widespread concern among businesses and foreign talent, particularly from India and China. This policy aims to curb immigration and prioritize domestic hiring, but critics argue it could stifle innovation and lead to job offshoring, especially in the tech sector. Companies like Walmart have paused H-1B visa applications, and startups are particularly worried about the financial burden this fee imposes. Overall, the changes are reshaping the job market and prompting skilled workers to reconsider their options regarding the American Dream.",
+      "rag_sources": [
+        {
+          "title": "Here's everything Trump is changing with H-1B visas",
+          "date": "2025-09-22",
+          "link": "https://www.cnbc.com/2025/09/22/everything-trump-is-changing-with-h1b-visas.html",
+          "snippet": "2025-09-22: Here's everything Trump is changing with H-1B visas: President Donald Trump raised the fee for an H-1B visa to $100,000 on Friday, leaving companies scrambling to respond.",
+          "guid": "108202195"
+        },
+        {
+          "title": "How Trump's $100,000 H-1B visa fee is already changing the job market search for skilled workers",
+          "date": "2025-10-15",
+          "link": "https://www.cnbc.com/2025/10/15/trump-h1b-visa-fee-startups-jobs-recruit-hire-workers.html",
+          "snippet": "2025-10-15: How Trump's $100,000 H-1B visa fee is already changing the job market search for skilled workers: President Trump's $100,000 fee for H-1B visas for skilled foreign workers poses risks to t",
+          "guid": "108212405"
+        },
+        {
+          "title": "H-1B visa applicants face more disruptions amid social media checks and wage protection rules",
+          "date": "2025-12-23",
+          "link": "https://www.cnbc.com/2025/12/23/h-1b-visa-applicants-face-more-disruptions-amid-social-media-checks.html",
+          "snippet": "2025-12-23: H-1B visa applicants face more disruptions amid social media checks and wage protection rules: The U.S. administration has lined up a slew of actions to restrict the use of H-1B visas by b",
+          "guid": "108245067"
+        },
+        {
+          "title": "Trump's H-1B visa fee sparks chaos and confusion among Chinese talents in the U.S.",
+          "date": "2025-09-22",
+          "link": "https://www.cnbc.com/2025/09/22/trumps-h-1b-visa-fee-sparks-chaos-and-confusion-among-chinese-talents-in-the-us.html",
+          "snippet": "2025-09-22: Trump's H-1B visa fee sparks chaos and confusion among Chinese talents in the U.S.: The visa fee change marked the Trump administration's most aggressive step yet to curb immigration, part",
+          "guid": "108201798"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "5a598585-4aae-4389-91d8-c8e8c6593f83",
+      "label": "Midday Stock Movements",
+      "spike_ratio": 1.042,
+      "article_count": 25,
+      "rag_answer": "Midday stock movements have shown significant volatility, with various companies experiencing notable fluctuations in their stock prices. For instance, stocks like Paramount Skydance, Apple, and UnitedHealth have been highlighted for making the biggest moves during midday trading sessions. This volatility reflects broader market trends influenced by economic factors, such as geopolitical tensions and investor sentiment. As a result, investors are advised to be selective and cautious in their trading strategies during this period of uncertainty.",
+      "rag_sources": [
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel",
+          "date": "2025-08-11",
+          "link": "https://www.cnbc.com/2025/08/11/stock-market-party-to-be-ruined-by-sudden-economic-slowdown-says-stifel.html",
+          "snippet": "2025-08-11: Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel: The market could be in for a stagflation environment, the firm said.",
+          "guid": "108184067"
+        },
+        {
+          "title": "European markets close higher as investors digest key points from Munich Security Conference",
+          "date": "2026-02-16",
+          "link": "https://www.cnbc.com/2026/02/16/europe-markets-stoxx-600-ftse-100-msc-defense.html",
+          "snippet": "2026-02-16: European markets close higher as investors digest key points from Munich Security Conference: Stock markets in Europe began the week in positive territory after edging lower on Friday.",
+          "guid": "108266036"
+        },
+        {
+          "title": "Stock market rout picks up steam with the Dow down 800 points and the S&P 500 on pace for worst drop in 3 months: Live updates",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/19/stock-market-today-live-updates.html",
+          "snippet": "2026-01-20: Stock market rout picks up steam with the Dow down 800 points and the S&P 500 on pace for worst drop in 3 months: Live updates: Treasury yields spiked and the U.S. dollar declined as Trump",
+          "guid": "108253887"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

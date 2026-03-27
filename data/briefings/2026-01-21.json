@@ -1,0 +1,220 @@
+{
+  "date": "2026-01-21",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "08492936-46b7-490a-9566-b8596215d412",
+      "label": "Trump's Greenland Acquisition Controversy",
+      "spike_ratio": 1.737,
+      "article_count": 66,
+      "rag_answer": "President Donald Trump's ambitions to acquire Greenland have escalated, drawing significant geopolitical attention and concern. Following military actions in Venezuela, Trump has threatened a takeover of Greenland, which has bewildered Greenlanders and prompted a defiant response from their Prime Minister, who rejected any pressure from the U.S. Additionally, Trump has floated the idea of imposing tariffs to facilitate the acquisition, leading to backlash from European leaders. The situation has created uncertainty in the markets, with potential negative reactions anticipated if the acquisition moves forward, reflecting broader tensions in international relations.",
+      "rag_sources": [
+        {
+          "title": "CNBC Daily Open: Trump's Greenland ambitions have global repercussions",
+          "date": "2026-01-09",
+          "link": "https://www.cnbc.com/2026/01/09/cnbc-daily-open-trumps-greenland-ambitions-have-global-repercussions.html",
+          "snippet": "2026-01-09: CNBC Daily Open: Trump's Greenland ambitions have global repercussions: U.S. President Donald Trump's ambitions around Greenland are rapidly gaining concrete form \u2014 that is, evolving from ",
+          "guid": "108250347"
+        },
+        {
+          "title": "Greenlanders 'bewildered' by Trump\u2019s 'devastating' takeover threats, business minister tells CNBC",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/trump-greenland-takeover-threats-tariffs-naaja-nathanielsen.html",
+          "snippet": "2026-01-20: Greenlanders 'bewildered' by Trump\u2019s 'devastating' takeover threats, business minister tells CNBC: Greenland has been thrust into the geopolitical spotlight by President Donald Trump's tak",
+          "guid": "108254262"
+        },
+        {
+          "title": "Trump wants Greenland. If it were for sale, it could cost trillions",
+          "date": "2026-01-08",
+          "link": "https://www.cnbc.com/2026/01/08/trump-greenland-cost-denmark.html",
+          "snippet": "2026-01-08: Trump wants Greenland. If it were for sale, it could cost trillions: Trump's rhetoric about Greenland has flared back up in the days since the U.S. military entered Venezuela and captured ",
+          "guid": "108249355"
+        },
+        {
+          "title": "Trump\u2019s Greenland gambit puts China on edge after Venezuela operation",
+          "date": "2026-01-08",
+          "link": "https://www.cnbc.com/2026/01/08/us-trump-china-greenland-denmark-arctic-tensions-trump-rare-earth-elements-minerals-mining.html",
+          "snippet": "2026-01-08: Trump\u2019s Greenland gambit puts China on edge after Venezuela operation: U.S. President Donald Trump's threat to take control of Greenland raised alarms in Beijing as nations vye for the vas",
+          "guid": "108249089"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "5042faa2-00c9-4f97-b253-3b403294321a",
+      "label": "Trump's Influence on Fed Independence",
+      "spike_ratio": 1.316,
+      "article_count": 25,
+      "rag_answer": "Trump's influence on the Federal Reserve's independence has been a significant concern, as he has openly criticized Fed Chair Jerome Powell and sought to exert control over the central bank. Key developments include Trump's pressure campaign, which has raised fears of higher inflation and weaker economic growth, according to surveys. Prominent figures, including JPMorgan Chase CEO Jamie Dimon and Fed officials like John Williams, have defended the Fed's independence amid these pressures. The ongoing tension suggests potential market implications, including volatility in interest rates and consumer borrowing costs, as Trump's choices for Fed leadership could lead to shifts in monetary policy that impact economic stability.",
+      "rag_sources": [
+        {
+          "title": "Fed chair candidate Waller says he will 'absolutely' stress importance of Fed's independence to Trump",
+          "date": "2025-12-17",
+          "link": "https://www.cnbc.com/2025/12/17/fed-chair-candidate-waller-says-he-will-absolutely-emphasize-importance-of-the-central-banks-independence-to-trump.html",
+          "snippet": "2025-12-17: Fed chair candidate Waller says he will 'absolutely' stress importance of Fed's independence to Trump: President Donald Trump regularly weighs in on Fed decisions, accusing the central ban",
+          "guid": "108242898"
+        },
+        {
+          "title": "Trump attacks Powell again amid Fed independence fears: 'Incompetent' or 'crooked'",
+          "date": "2026-01-13",
+          "link": "https://www.cnbc.com/2026/01/13/trump-powell-fed-dimon-pirro-doj.html",
+          "snippet": "2026-01-13: Trump attacks Powell again amid Fed independence fears: 'Incompetent' or 'crooked': JPMorgan Chase CEO Jamie Dimon defended the Fed's independence amid the probe of Powell by Trump's DOJ, ",
+          "guid": "108251767"
+        },
+        {
+          "title": "Hassett says Fed independence is \u2018really important\u2019 and chair candidates shouldn\u2019t be disqualified for being Trump\u2019s friend",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/fed-chief-candidate-hassett-says-central-banks-independence-is-really-important-would-move-rates-by-consensus.html",
+          "snippet": "2025-12-16: Hassett says Fed independence is \u2018really important\u2019 and chair candidates shouldn\u2019t be disqualified for being Trump\u2019s friend: Hassett declined in a CNBC interview to directly address his ow",
+          "guid": "108242375"
+        },
+        {
+          "title": "Here's what it really means for Trump to get control of the Federal Reserve board",
+          "date": "2025-08-31",
+          "link": "https://www.cnbc.com/2025/08/30/heres-what-it-really-means-for-trump-to-get-control-of-the-federal-reserve-board.html",
+          "snippet": "2025-08-31: Here's what it really means for Trump to get control of the Federal Reserve board: Since taking office in January, Trump has placed the Fed directly in the crosshairs of executive power.",
+          "guid": "108192598"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "2e955eac-a74a-4c42-be9f-b871d12feb52",
+      "label": "Market Trends and Stock Movements",
+      "spike_ratio": 1.258,
+      "article_count": 38,
+      "rag_answer": "The stock market has experienced significant volatility, with benchmarks reaching record highs due to easing inflation, strong corporate earnings, and expectations of U.S. rate cuts. However, recent sentiment has reversed, indicating potential concerns about an economic slowdown, as suggested by Stifel's warning of a possible stagflation environment. Despite these fluctuations, certain sectors, particularly AI and retail favorites, have shown resilience, driving stocks to new highs. Investors are advised to carefully assess market conditions before making trading decisions, as opportunities may arise amidst the uncertainty.",
+      "rag_sources": [
+        {
+          "title": "Stock market swings got you reeling? Answer these 6 questions before making a trade",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/stock-market-swings-got-you-reeling-answering-6-questions-will-help.html",
+          "snippet": "2025-11-28: Stock market swings got you reeling? Answer these 6 questions before making a trade: Frustrating as volatility can be, it also tends to present opportunities.",
+          "guid": "108232626"
+        },
+        {
+          "title": "Stock benchmarks are scaling record highs: 'Animal spirits are soaring' ",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/stock-benchmarks-are-scaling-record-highs-animal-spirits-are-soaring-.html",
+          "snippet": "2025-09-11: Stock benchmarks are scaling record highs: 'Animal spirits are soaring': Easing inflation pressures,\u00a0resilient corporate earnings and expectations for U.S. rate cuts have boosted investor ",
+          "guid": "108197275"
+        },
+        {
+          "title": "Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward",
+          "date": "2025-12-26",
+          "link": "https://www.cnbc.com/2025/12/26/market-sentiment-has-made-a-huge-reversal-heres-why-and-what-it-means-going-forward.html",
+          "snippet": "2025-12-26: Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward: Something unusual happened in the past few weeks.",
+          "guid": "108245814"
+        },
+        {
+          "title": "Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel",
+          "date": "2025-08-11",
+          "link": "https://www.cnbc.com/2025/08/11/stock-market-party-to-be-ruined-by-sudden-economic-slowdown-says-stifel.html",
+          "snippet": "2025-08-11: Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel: The market could be in for a stagflation environment, the firm said.",
+          "guid": "108184067"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "3d3acae2-25d0-4e59-83b0-0118da72d824",
+      "label": "AI-related tech stock decline",
+      "spike_ratio": 1.238,
+      "article_count": 25,
+      "rag_answer": "AI-related tech stocks have been experiencing significant declines, driven by rising concerns over their valuations and disappointing earnings reports from key players like Nvidia and Oracle. The S&P 500 and Dow have both seen losses as investors react to the pressure on these stocks, with notable declines in companies such as Palantir and SoftBank. Despite some attempts at recovery, the overall sentiment remains cautious, indicating that the AI trade may be facing a challenging period ahead. This ongoing volatility suggests potential implications for broader market stability, as tech stocks are often seen as a bellwether for market performance.",
+      "rag_sources": [
+        {
+          "title": "Dow slides 300 points as AI stocks resume their decline, Nasdaq falls 1%: Live updates",
+          "date": "2025-11-06",
+          "link": "https://www.cnbc.com/2025/11/05/stock-market-today-live-updates.html",
+          "snippet": "2025-11-06: Dow slides 300 points as AI stocks resume their decline, Nasdaq falls 1%: Live updates: Companies that have benefited from the artificial intelligence trade came under pressure yet again a",
+          "guid": "108222099"
+        },
+        {
+          "title": "S&P 500 gives up gain as AI-related stocks come under pressure again: Live updates",
+          "date": "2025-12-15",
+          "link": "https://www.cnbc.com/2025/12/14/stock-market-today-live-updates.html",
+          "snippet": "2025-12-15: S&P 500 gives up gain as AI-related stocks come under pressure again: Live updates: Key stocks in the artificial intelligence trade continued to face pressure.",
+          "guid": "108241593"
+        },
+        {
+          "title": "Stocks drop on rising fears about AI stock valuations, Palantir leads decline: Live updates",
+          "date": "2025-11-04",
+          "link": "https://www.cnbc.com/2025/11/03/stock-market-today-live-updates.html",
+          "snippet": "2025-11-04: Stocks drop on rising fears about AI stock valuations, Palantir leads decline: Live updates: Stocks fell, pressured by declines in artificial intelligence-related names like Palantir as in",
+          "guid": "108220811"
+        },
+        {
+          "title": "CNBC Daily Open: Days of declines won't keep AI trade down",
+          "date": "2025-11-11",
+          "link": "https://www.cnbc.com/2025/11/11/cnbc-daily-open-days-of-declines-wont-keep-ai-trade-down.html",
+          "snippet": "2025-11-11: CNBC Daily Open: Days of declines won't keep AI trade down: Investors piled back into artificial intelligence names on Monday stateside. \\AI-related stocks should drive equity markets,\\\" a",
+          "guid": "108224037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "936f95ce-7a7a-43f9-9e1e-2d3dae612e11",
+      "label": "AI Investments and IPOs",
+      "spike_ratio": 1.2,
+      "article_count": 26,
+      "rag_answer": "AI investments and IPOs are experiencing significant momentum, with several startups, including Cohere, Anthropic, and OpenAI, preparing for public listings. The competition among these firms is intensifying as they aim to capitalize on the growing interest in AI technologies. Additionally, there is a notable surge in AI-linked IPOs in China, attracting attention despite challenges for foreign investors. Overall, the landscape suggests a robust market for AI-related public offerings, potentially leading to substantial wealth creation and shifts in investment strategies.",
+      "rag_sources": [
+        {
+          "title": "Investing in Space: Space IPOs are rearing their heads again ",
+          "date": "2025-08-08",
+          "link": "https://www.cnbc.com/2025/08/08/investing-in-space-space-ipos-are-rearing-their-heads-again-.html",
+          "snippet": "2025-08-08: Investing in Space: Space IPOs are rearing their heads again: A recent string of IPOs signals the space sector is once more warming to traditional public listings.",
+          "guid": "108183394"
+        },
+        {
+          "title": "Enterprise AI startup Cohere tops revenue target as momentum builds to IPO: Investor memo",
+          "date": "2026-02-13",
+          "link": "https://www.cnbc.com/2026/02/13/ai-startup-cohere-revenue-ipo.html",
+          "snippet": "2026-02-13: Enterprise AI startup Cohere tops revenue target as momentum builds to IPO: Investor memo: Cohere's competitors OpenAI and Anthropic are also weighing potential IPOs and competition for en",
+          "guid": "108265522"
+        },
+        {
+          "title": "Chinese firms pull back from listing in the U.S. as Hong Kong IPOs see a surge",
+          "date": "2025-10-15",
+          "link": "https://www.cnbc.com/2025/10/15/chinese-firms-pull-back-from-listing-in-the-us-as-hong-kong-ipos-see-a-surge.html",
+          "snippet": "2025-10-15: Chinese firms pull back from listing in the U.S. as Hong Kong IPOs see a surge: Chinese firms pulled back from U.S. for IPOs this year in a pivot to Hong Kong amid rising Beijing-Washingto",
+          "guid": "108209754"
+        },
+        {
+          "title": "China\u2019s AI chip firms are going public fast. But its crown jewel is staying private",
+          "date": "2026-01-15",
+          "link": "https://www.cnbc.com/2026/01/15/china-ai-chips-ipos-huawei-hisilicon-nvidia-rivals-biren-metax-moore-threads-smic.html",
+          "snippet": "2026-01-15: China\u2019s AI chip firms are going public fast. But its crown jewel is staying private: Despite recent IPOs in China's AI chip space garnering a lot of attention, its the private Huawei that ",
+          "guid": "108251552"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "date": "2025-10-08",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "6cfbafc7-cfd5-4a00-ad72-313a521c3ad7",
+      "label": "French Political Crisis",
+      "spike_ratio": 2.067,
+      "article_count": 31,
+      "rag_answer": "France is currently experiencing significant political turmoil, marked by the resignation of Prime Minister S\u00e9bastien Lecornu just 27 days into his term, which has plunged the country into a fresh crisis. This instability has led to a decline in French stocks, with the CAC 40 index dropping as investors react to the uncertainty surrounding the government's future. Analysts are concerned about the potential for further political instability, including the possibility of new parliamentary elections or Macron's resignation. The ongoing crisis is expected to negatively impact domestic-facing stocks in France, as political risk continues to weigh on market sentiment.",
+      "rag_sources": [
+        {
+          "title": "Avoid banks and telcos: Strategists share how to trade \u2018ungovernable\u2019 France",
+          "date": "2025-10-07",
+          "link": "https://www.cnbc.com/2025/10/07/avoid-banks-and-telcos-strategists-share-how-to-trade-ungovernable-france.html",
+          "snippet": "2025-10-07: Avoid banks and telcos: Strategists share how to trade \u2018ungovernable\u2019 France: Political turmoil is fuelling \\desynchronized growth\\\" in Europe, with French domestic-facing stocks expected ",
+          "guid": "108208652"
+        },
+        {
+          "title": "Political risk: How Trump 2.0 is affecting investment in U.S. assets",
+          "date": "2026-02-01",
+          "link": "https://www.cnbc.com/2026/02/01/political-risk-how-trump-2point0-is-affecting-investment-in-us-assets.html",
+          "snippet": "2026-02-01: Political risk: How Trump 2.0 is affecting investment in U.S. assets: Political risk: How Trump 2.0 is affecting investment in U.S. assets",
+          "guid": "108259074"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "a21f7800-1019-4647-adfd-df0863c955d0",
+      "label": "Fed rate cuts and outlook",
+      "spike_ratio": 1.772,
+      "article_count": 90,
+      "rag_answer": "The Federal Reserve is currently navigating a cautious approach to interest rate cuts, with Governor Waller suggesting that while cuts are possible later in 2026, recent developments warrant a conservative stance. Economists, including Mark Zandi, anticipate that the Fed may surprise markets with three rate cuts in the first half of 2026, despite a general expectation of modest easing. The market is reacting to these potential cuts, with traders considering significant adjustments to their portfolios as a large amount of cash is poised to move once rates decrease. Overall, the outlook remains uncertain, with divided opinions among Fed officials about the pace and extent of future cuts.",
+      "rag_sources": [
+        {
+          "title": "Fed Governor Waller urges caution for now, says rate cuts possible later in the year",
+          "date": "2026-03-20",
+          "link": "https://www.cnbc.com/2026/03/20/fed-gov-waller-urges-caution-for-now-cuts-possible-later-in-the-year.html",
+          "snippet": "2026-03-20: Fed Governor Waller urges caution for now, says rate cuts possible later in the year: Waller said in a CNBC interview that recent developments require a more conservative approach.",
+          "guid": "108280836"
+        },
+        {
+          "title": "Economist Mark Zandi sees the Fed surprising with three rate cuts in first half of 2026 ",
+          "date": "2025-12-31",
+          "link": "https://www.cnbc.com/2025/12/31/economist-mark-zandi-sees-the-fed-surprising-with-three-rate-cuts-in-first-half-of-2026-.html",
+          "snippet": "2025-12-31: Economist Mark Zandi sees the Fed surprising with three rate cuts in first half of 2026: Markets and Fed officials themselves see only modest easing in the year ahead.",
+          "guid": "108247075"
+        },
+        {
+          "title": "Traders see a chance the Fed cuts by a half point",
+          "date": "2025-09-08",
+          "link": "https://www.cnbc.com/2025/09/08/traders-see-a-chance-the-fed-cuts-by-a-half-point.html",
+          "snippet": "2025-09-08: Traders see a chance the Fed cuts by a half point: Traders are leaving open the option that the Federal Reserve next week could cut its key interest rate by half a percentage point.",
+          "guid": "108195631"
+        },
+        {
+          "title": "Powell hints at potential interest rate cuts. What that means for homeowners hoping to refinance",
+          "date": "2025-08-22",
+          "link": "https://www.cnbc.com/2025/08/22/fed-rate-cuts-mortgage-refinance.html",
+          "snippet": "2025-08-22: Powell hints at potential interest rate cuts. What that means for homeowners hoping to refinance: Fed Chair Jerome Powell hinted at potential interest rate cuts on Friday. If the slash mat",
+          "guid": "108189671"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.25,
+          "mean_sentiment_score": 0.118,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "13140471-aec4-49f0-b9a8-41a373fb4471",
+      "label": "China economic data and markets",
+      "spike_ratio": 1.532,
+      "article_count": 19,
+      "rag_answer": "China's economic data has shown mixed signals, with manufacturing contracting for several months while the stock market has rallied to multiyear highs, fueled by record savings among households. Despite a 4.8% growth in the economy during the third quarter, there are concerns over a significant drop in fixed-asset investment, indicating potential weaknesses in infrastructure and manufacturing sectors. Investors are closely monitoring inflation data and key lending rate decisions, as these factors could influence market sentiment and investment strategies. Overall, the interplay between economic growth, consumer behavior, and geopolitical tensions is creating a complex environment for China's markets.",
+      "rag_sources": [
+        {
+          "title": "\u2018The eye of the hurricane\u2019: Why the U.S. job market has soured, economists say",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/us-job-market-jobs-report-july-2025.html",
+          "snippet": "2025-08-01: \u2018The eye of the hurricane\u2019: Why the U.S. job market has soured, economists say: Federal data suggests the job market has slowed more than previously thought amid economic headwinds.",
+          "guid": "108180584"
+        },
+        {
+          "title": "A big week of economic data is next for a stock market in the throes of a major rotation ",
+          "date": "2025-12-12",
+          "link": "https://www.cnbc.com/2025/12/12/stock-market-next-week-outlook-for-dec-15-19-2025.html",
+          "snippet": "2025-12-12: A big week of economic data is next for a stock market in the throes of a major rotation: Any positive surprise in the jobs or inflation data next week could open the door for stock buyers",
+          "guid": "108241167"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "China wants to play the long game with the U.S. What that means for Chinese stocks",
+          "date": "2025-10-19",
+          "link": "https://www.cnbc.com/2025/10/19/china-wants-to-play-the-long-game-with-the-us-what-that-means-for-chinese-stocks.html",
+          "snippet": "2025-10-19: China wants to play the long game with the U.S. What that means for Chinese stocks: As U.S.-China tensions escalate and overall market volatility rises, investment strategists are watching",
+          "guid": "108213404"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "7414a4dc-4f2f-4f00-aaab-b1ec476cbab7",
+      "label": "AI Chip Market Developments",
+      "spike_ratio": 1.461,
+      "article_count": 45,
+      "rag_answer": "The AI chip market is experiencing significant developments, driven by robust demand and strategic advancements from major players like Nvidia, AMD, and Meta. Nvidia is set to unveil specialized processors for agentic AI at its upcoming GTC conference, highlighting the growing focus on AI capabilities. Additionally, Meta has introduced its in-house AI chips to support its data center expansion, indicating a shift towards self-sufficiency in chip production. These advancements are creating a competitive landscape, but also raising concerns about potential shortages and price hikes in consumer electronics due to increased demand for AI infrastructure.",
+      "rag_sources": [
+        {
+          "title": "What the Iran war market turmoil means for those nearing retirement",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/iran-war-market-volatility-retirement.html",
+          "snippet": "2026-03-05: What the Iran war market turmoil means for those nearing retirement: Market shakiness may not concern long-term investors, but it could be a useful wake-up call for those on the precipice ",
+          "guid": "108272020"
+        },
+        {
+          "title": "Chip stocks including Nvidia are holding up despite market volatility, according to the charts",
+          "date": "2026-03-10",
+          "link": "https://www.cnbc.com/2026/03/10/chip-stocks-including-nvidia-are-holding-up-despite-market-volatility-according-to-the-charts.html",
+          "snippet": "2026-03-10: Chip stocks including Nvidia are holding up despite market volatility, according to the charts: Todd Gordon takes a look at the technicals in Nvidia and other chipmakers.",
+          "guid": "108276190"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Market concentration around AI darlings persists. It's making investors worried",
+          "date": "2025-08-16",
+          "link": "https://www.cnbc.com/2025/08/16/market-concentration-around-ai-darlings-persists-its-making-investors-worried.html",
+          "snippet": "2025-08-16: Market concentration around AI darlings persists. It's making investors worried: Investors worry that a stock market priced for perfection is vulnerable to some sort of setback.",
+          "guid": "108186696"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "0fc5570f-451a-4ca8-8f67-6c7362dcd5b5",
+      "label": "Media and Streaming Disputes",
+      "spike_ratio": 1.443,
+      "article_count": 28,
+      "rag_answer": "The media and streaming landscape is currently marked by significant disputes and strategic shifts. Notably, eleven U.S. states are urging the Department of Justice to investigate the Netflix-Warner Bros. deal, as Netflix faces pressure to enhance its offer following Paramount Skydance's increased bid. Additionally, Disney and YouTube TV are embroiled in a prolonged carriage dispute, resulting in a blackout that has become the longest in Disney's history. These developments reflect a broader trend of rising prices among streaming services and ongoing negotiations that could reshape media partnerships, indicating a volatile environment for both consumers and investors in the media sector.",
+      "rag_sources": [
+        {
+          "title": "Eleven U.S. states urge DOJ to thoroughly probe Netflix-Warner Bros. deal",
+          "date": "2026-02-25",
+          "link": "https://www.cnbc.com/2026/02/25/eleven-us-states-urge-doj-to-thoroughly-probe-netflix-warner-bros-deal.html",
+          "snippet": "2026-02-25: Eleven U.S. states urge DOJ to thoroughly probe Netflix-Warner Bros. deal: Pressure is mounting on Netflix to find its way though regulatory hurdles and make a better offer after\u00a0Paramount",
+          "guid": "108270006"
+        },
+        {
+          "title": "Blockbuster social media trial kicks off, with more to come this year",
+          "date": "2026-01-27",
+          "link": "https://www.cnbc.com/2026/01/27/blockbuster-social-media-trial-kicks-off-with-more-to-come-this-year.html",
+          "snippet": "2026-01-27: Blockbuster social media trial kicks off, with more to come this year: A landmark case against social media giants Meta, Alphabet's YouTube and TikTok is set to begin Tuesday in Los Angele",
+          "guid": "108257142"
+        },
+        {
+          "title": "NFL Commissioner Roger Goodell says league could renegotiate media deals as soon as 2026",
+          "date": "2025-09-24",
+          "link": "https://www.cnbc.com/2025/09/24/nfl-tv-rights-renegotiations-accelerated-roger-goodell.html",
+          "snippet": "2025-09-24: NFL Commissioner Roger Goodell says league could renegotiate media deals as soon as 2026: The NFL would need agreement from its media partners \u2014 Disney, Comcast's NBCUniversal, Paramount, ",
+          "guid": "108202716"
+        },
+        {
+          "title": "It's not just Disney: As streaming services hike prices, it's a battle over who blinks first",
+          "date": "2025-09-25",
+          "link": "https://www.cnbc.com/2025/09/25/disney-hulu-netflix-streaming-services-price-hikes.html",
+          "snippet": "2025-09-25: It's not just Disney: As streaming services hike prices, it's a battle over who blinks first: Disney+/Hulu hiked prices this week, the most recent of many streaming service increases. Chur",
+          "guid": "108203837"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

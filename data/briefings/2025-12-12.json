@@ -1,0 +1,212 @@
+{
+  "date": "2025-12-12",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "5f1eaec1-d4e7-4f3e-ac3e-6d686ae520de",
+      "label": "Electric Vehicle and Robotaxi Developments",
+      "spike_ratio": 2.0,
+      "article_count": 28,
+      "rag_answer": "The electric vehicle (EV) and robotaxi sectors are experiencing significant advancements, with multiple companies, including Lucid, Xpeng, Waymo, and Tesla, actively pursuing robotaxi initiatives. Lucid plans to expand into midsize vehicles and aims for positive free cash flow by the late 2020s, while Xpeng is launching robotaxis and humanoid robots powered by self-developed AI chips. The robotaxi industry is gaining momentum, with leaders like Baidu and Nvidia noting a tipping point in competition, and Tesla has secured permits for ride-hailing services in Texas. These developments suggest a rapidly evolving market with increasing competition and potential for substantial growth in autonomous transportation solutions.",
+      "rag_sources": [
+        {
+          "title": "EV maker Lucid reveals plans for robotaxi, positive free cash flow late this decade",
+          "date": "2026-03-12",
+          "link": "https://www.cnbc.com/2026/03/12/lucid-investor-day.html",
+          "snippet": "2026-03-12: EV maker Lucid reveals plans for robotaxi, positive free cash flow late this decade: The EV company is aiming to hit that target through market expansion into midsize vehicles, robotaxis a",
+          "guid": "108277205"
+        },
+        {
+          "title": "\u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises",
+          "date": "2025-11-20",
+          "link": "https://www.cnbc.com/2025/11/20/global-robotaxi-race-heats-up-between-us-and-chinese-rivals.html",
+          "snippet": "2025-11-20: \u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises: Global tech executives in recent weeks have proclaimed the robotaxi industry is finally nea",
+          "guid": "108226580"
+        },
+        {
+          "title": "Chinese EV maker Xpeng to launch robotaxis, humanoid robots with self-developed AI chips",
+          "date": "2025-11-05",
+          "link": "https://www.cnbc.com/2025/11/05/china-xpeng-to-launch-robotaxis-humanoid-robots-with-own-ai-chips.html",
+          "snippet": "2025-11-05: Chinese EV maker Xpeng to launch robotaxis, humanoid robots with self-developed AI chips: Chinese electric car company Xpeng is following in Tesla's footsteps by moving into robotaxis and ",
+          "guid": "108221540"
+        },
+        {
+          "title": "Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/waymo-amazon-zoox-tesla-robotaxi-expansion.html",
+          "snippet": "2025-12-16: Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line: Robotaxis grew rapidly in 2025 with Waymo expanding fastest, Zoox debuting public rides and Tesla ",
+          "guid": "108236372"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "baa12f40-6fae-4a48-b674-488ec8fbeac8",
+      "label": "Trump's Trade War Developments",
+      "spike_ratio": 1.848,
+      "article_count": 34,
+      "rag_answer": "Trump's trade war has escalated with the implementation of extensive new tariffs affecting Canada, Brazil, Switzerland, and other U.S. trading partners, leading to significant market disruptions and reshaping international trade relationships. A 40% tariff rate has been introduced for goods transshipped to circumvent existing tariffs, further complicating trade dynamics. Analysts have expressed concerns about the negative impact on American families and the agricultural sector, prompting Trump to announce a $12 billion aid package for farmers affected by these policies. Despite a reduction in the trade deficit to its smallest since 2009, the overall market sentiment remains cautious, with companies like Trade Desk experiencing significant stock declines due to tariff-related uncertainties.",
+      "rag_sources": [
+        {
+          "title": "Live Updates: Trump tariffs slam Canada, Brazil and Switzerland ",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/trumps-tariffs-rekindle-global-trade-tensions.html",
+          "snippet": "2025-08-01: Live Updates: Trump tariffs slam Canada, Brazil and Switzerland: Trump's extensive new tariff regime on dozens of U.S. partners are launching new trade wars and sending shock waves through",
+          "guid": "108180211"
+        },
+        {
+          "title": "How countries are reacting to Trump's latest tariff announcements as deadline looms",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/how-asian-countries-are-reacting-to-trumps-latest-tariffs-announcement-as-deadline-looms.html",
+          "snippet": "2025-08-01: How countries are reacting to Trump's latest tariff announcements as deadline looms: The White House also announced a 40% tariff rate for all goods transshipped to avoid the applicable dut",
+          "guid": "108180161"
+        },
+        {
+          "title": "Another late-night Trump trade twist \u2014 just hours before the world hit go",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/another-late-night-trump-trade-twist-hours-before-the-world-hit-go.html",
+          "snippet": "2025-08-01: Another late-night Trump trade twist \u2014 just hours before the world hit go: Trump\u2019s late-night tariff moves have become a hallmark, catching markets off guard, reshaping deals, and forcing ",
+          "guid": "108180251"
+        },
+        {
+          "title": "Trump 'losing' trade war with China going in to Xi meeting, Senate Democrats say in report",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/trump-trade-china-warren-democrats-inflation-xi.html",
+          "snippet": "2025-10-29: Trump 'losing' trade war with China going in to Xi meeting, Senate Democrats say in report: \\Trump needs to change course on his trade war with China now and stop hurting American families",
+          "guid": "108218477"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "4761f37d-27cd-4139-ae34-f7ba6d6fa059",
+      "label": "Epstein Files and Political Reactions",
+      "spike_ratio": 1.699,
+      "article_count": 35,
+      "rag_answer": "The ongoing release of Epstein files by the Department of Justice (DOJ) has sparked significant political backlash, with congressional lawmakers, particularly Democrats, criticizing the DOJ for its handling and redaction of documents. Key figures, including Bill Gates and Leon Black, are expected to testify as scrutiny intensifies. The situation has led to calls for further investigation into the DOJ's compliance with the Epstein Files Transparency Act, highlighting a growing political risk that could impact investor sentiment towards U.S. assets. As the political landscape evolves, the uncertainty surrounding these files may influence market dynamics, particularly in sectors sensitive to regulatory changes.",
+      "rag_sources": [
+        {
+          "title": "Epstein files: Senators seek probe of DOJ over release, redaction of sex offender's documents",
+          "date": "2026-03-11",
+          "link": "https://www.cnbc.com/2026/03/11/senators-epstein-files-investigation.html",
+          "snippet": "2026-03-11: Epstein files: Senators seek probe of DOJ over release, redaction of sex offender's documents: The Department of Justice has come under fire for its handling of documents related to disgra",
+          "guid": "108276332"
+        },
+        {
+          "title": "Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/epstein-doj-bondi-trump.html",
+          "snippet": "2026-03-05: Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports: The top lawyer for Goldman Sachs, Bill Gates, Leon Black and others are expected to testify soon a",
+          "guid": "108274237"
+        },
+        {
+          "title": "Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents",
+          "date": "2025-12-23",
+          "link": "https://www.cnbc.com/2025/12/23/epstein-files-doj-release-trump.html",
+          "snippet": "2025-12-23: Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents: The release comes amid intense scrutiny from congressional lawmakers and victims ove",
+          "guid": "108244822"
+        },
+        {
+          "title": "Epstein files released to Congress are mostly \u2018recycled\u2019 documents, Democrat says",
+          "date": "2025-08-23",
+          "link": "https://www.cnbc.com/2025/08/23/jeffrey-epstein-ghislaine-maxwell-trump-doj.html",
+          "snippet": "2025-08-23: Epstein files released to Congress are mostly \u2018recycled\u2019 documents, Democrat says: The Justice Department late Friday gave Congress the first trove of documents to comply with a subpoena b",
+          "guid": "108189960"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "cfd47f02-a084-497c-8723-57e24fc0401a",
+      "label": "ACA Subsidies and Government Funding",
+      "spike_ratio": 1.42,
+      "article_count": 25,
+      "rag_answer": "The expiration of enhanced ACA subsidies has raised concerns about potential \"astronomical tax bills\" for many individuals, as highlighted by financial experts. As federal subsidies lapse, some blue states are stepping in to provide their own support to mitigate the impact. Meanwhile, a bipartisan Senate group is negotiating a deal to address the expiration of these tax credits, but recent government funding measures have not included an extension for the ACA subsidies, which has been a significant point of contention. The ongoing uncertainty surrounding these subsidies could lead to increased financial strain on health providers and consumers, potentially affecting the broader healthcare market.",
+      "rag_sources": [
+        {
+          "title": "ACA subsidy cliff may mean 'astronomical tax bills' for many, CFP says",
+          "date": "2026-01-06",
+          "link": "https://www.cnbc.com/2026/01/06/aca-subsidy-cliff-tax-bills.html",
+          "snippet": "2026-01-06: ACA subsidy cliff may mean 'astronomical tax bills' for many, CFP says: Enhanced premium subsidies for health insurance bought on the ACA marketplace have expired and the so-called subsidy",
+          "guid": "108248259"
+        },
+        {
+          "title": "Why affordability is the 'beating heart' of the ACA enhanced subsidy debate, health policy experts say",
+          "date": "2025-12-12",
+          "link": "https://www.cnbc.com/2025/12/12/aca-enhanced-subsidies-democrats-republicans-health-care-plan.html",
+          "snippet": "2025-12-12: Why affordability is the 'beating heart' of the ACA enhanced subsidy debate, health policy experts say: Health plans proposed by Senate Democrats and Republicans failed on Thursday, making",
+          "guid": "108240832"
+        },
+        {
+          "title": "Health providers could lose $32 billion if ACA credits at center of shutdown fight expire",
+          "date": "2025-09-25",
+          "link": "https://www.cnbc.com/2025/09/25/health-aca-obamacare-federal-government-shutdown.html",
+          "snippet": "2025-09-25: Health providers could lose $32 billion if ACA credits at center of shutdown fight expire: Democrats demand that any stopgap funding measure to keep the federal government open include an ",
+          "guid": "108204023"
+        },
+        {
+          "title": "As federal ACA subsidies lapse, blue states offer their own",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/2026/01/23/aca-subsidies-state-premium-tax-credits.html",
+          "snippet": "2026-01-23: As federal ACA subsidies lapse, blue states offer their own: A handful of states have moved to soften the blow of lapsed federal subsidies for health insurance premiums.",
+          "guid": "108254517"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "3d3acae2-25d0-4e59-83b0-0118da72d824",
+      "label": "AI-related tech stock decline",
+      "spike_ratio": 1.355,
+      "article_count": 29,
+      "rag_answer": "AI-related tech stocks have been experiencing significant declines, driven by rising concerns over their valuations and disappointing earnings reports, particularly from major players like Nvidia and Oracle. This has led to broader market sell-offs, with indices such as the Dow and S&P 500 reflecting these pressures. Despite some attempts at recovery, investor sentiment remains cautious, as evidenced by continued sell-offs and strategic shifts towards portfolio diversifiers. The ongoing volatility suggests that the AI sector may be facing a challenging period ahead, impacting overall market stability.",
+      "rag_sources": [
+        {
+          "title": "Dow slides 300 points as AI stocks resume their decline, Nasdaq falls 1%: Live updates",
+          "date": "2025-11-06",
+          "link": "https://www.cnbc.com/2025/11/05/stock-market-today-live-updates.html",
+          "snippet": "2025-11-06: Dow slides 300 points as AI stocks resume their decline, Nasdaq falls 1%: Live updates: Companies that have benefited from the artificial intelligence trade came under pressure yet again a",
+          "guid": "108222099"
+        },
+        {
+          "title": "S&P 500 gives up gain as AI-related stocks come under pressure again: Live updates",
+          "date": "2025-12-15",
+          "link": "https://www.cnbc.com/2025/12/14/stock-market-today-live-updates.html",
+          "snippet": "2025-12-15: S&P 500 gives up gain as AI-related stocks come under pressure again: Live updates: Key stocks in the artificial intelligence trade continued to face pressure.",
+          "guid": "108241593"
+        },
+        {
+          "title": "Stocks drop on rising fears about AI stock valuations, Palantir leads decline: Live updates",
+          "date": "2025-11-04",
+          "link": "https://www.cnbc.com/2025/11/03/stock-market-today-live-updates.html",
+          "snippet": "2025-11-04: Stocks drop on rising fears about AI stock valuations, Palantir leads decline: Live updates: Stocks fell, pressured by declines in artificial intelligence-related names like Palantir as in",
+          "guid": "108220811"
+        },
+        {
+          "title": "CNBC Daily Open: Days of declines won't keep AI trade down",
+          "date": "2025-11-11",
+          "link": "https://www.cnbc.com/2025/11/11/cnbc-daily-open-days-of-declines-wont-keep-ai-trade-down.html",
+          "snippet": "2025-11-11: CNBC Daily Open: Days of declines won't keep AI trade down: Investors piled back into artificial intelligence names on Monday stateside. \\AI-related stocks should drive equity markets,\\\" a",
+          "guid": "108224037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "date": "2025-12-11",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "cfd47f02-a084-497c-8723-57e24fc0401a",
+      "label": "ACA Subsidies and Government Funding",
+      "spike_ratio": 1.667,
+      "article_count": 25,
+      "rag_answer": "The expiration of enhanced ACA subsidies has raised concerns about significant tax bills for many individuals, as highlighted by financial experts. Despite bipartisan negotiations, efforts to extend these subsidies have stalled, with a recent government funding deal failing to include them. As a result, some states are stepping in to provide their own subsidies to mitigate the impact. The ongoing uncertainty surrounding ACA funding could lead to financial strain for health providers and consumers, potentially affecting the broader healthcare market.",
+      "rag_sources": [
+        {
+          "title": "ACA subsidy cliff may mean 'astronomical tax bills' for many, CFP says",
+          "date": "2026-01-06",
+          "link": "https://www.cnbc.com/2026/01/06/aca-subsidy-cliff-tax-bills.html",
+          "snippet": "2026-01-06: ACA subsidy cliff may mean 'astronomical tax bills' for many, CFP says: Enhanced premium subsidies for health insurance bought on the ACA marketplace have expired and the so-called subsidy",
+          "guid": "108248259"
+        },
+        {
+          "title": "Why affordability is the 'beating heart' of the ACA enhanced subsidy debate, health policy experts say",
+          "date": "2025-12-12",
+          "link": "https://www.cnbc.com/2025/12/12/aca-enhanced-subsidies-democrats-republicans-health-care-plan.html",
+          "snippet": "2025-12-12: Why affordability is the 'beating heart' of the ACA enhanced subsidy debate, health policy experts say: Health plans proposed by Senate Democrats and Republicans failed on Thursday, making",
+          "guid": "108240832"
+        },
+        {
+          "title": "Health providers could lose $32 billion if ACA credits at center of shutdown fight expire",
+          "date": "2025-09-25",
+          "link": "https://www.cnbc.com/2025/09/25/health-aca-obamacare-federal-government-shutdown.html",
+          "snippet": "2025-09-25: Health providers could lose $32 billion if ACA credits at center of shutdown fight expire: Democrats demand that any stopgap funding measure to keep the federal government open include an ",
+          "guid": "108204023"
+        },
+        {
+          "title": "As federal ACA subsidies lapse, blue states offer their own",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/2026/01/23/aca-subsidies-state-premium-tax-credits.html",
+          "snippet": "2026-01-23: As federal ACA subsidies lapse, blue states offer their own: A handful of states have moved to soften the blow of lapsed federal subsidies for health insurance premiums.",
+          "guid": "108254517"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "3a88cffd-4f32-429e-a884-a4a363227274",
+      "label": "U.S. labor market trends",
+      "spike_ratio": 1.408,
+      "article_count": 20,
+      "rag_answer": "The U.S. labor market is showing signs of significant slowdown, with job growth decelerating sharply in recent months. In August, only 54,000 jobs were added, and January saw a mere 22,000 increase in private payrolls, both figures falling short of expectations. This weakening trend has raised concerns among Federal Reserve policymakers, prompting discussions about potential interest rate cuts to mitigate economic risks. Overall, the labor market's deterioration is creating uncertainty in financial markets, as investors brace for the implications of a softer economy.",
+      "rag_sources": [
+        {
+          "title": "July jobs report expected to show a labor market slowing to a crawl",
+          "date": "2025-07-31",
+          "link": "https://www.cnbc.com/2025/07/31/july-jobs-report-expected-to-show-a-labor-market-slowing-to-a-crawl.html",
+          "snippet": "2025-07-31: July jobs report expected to show a labor market slowing to a crawl: Hiring is expected to show a sharp slowdown in July, even as Fed policymakers insist the labor market is in solid shape",
+          "guid": "108179842"
+        },
+        {
+          "title": "Labor market growth slows dramatically in August with U.S. adding just 54,000 jobs, ADP says",
+          "date": "2025-09-04",
+          "link": "https://www.cnbc.com/2025/09/04/adp-jpb-data-august-2025.html",
+          "snippet": "2025-09-04: Labor market growth slows dramatically in August with U.S. adding just 54,000 jobs, ADP says: U.S. private sector hiring rose less than expected in August, per the ADP.",
+          "guid": "108194181"
+        },
+        {
+          "title": "This week provided more evidence that a softening labor market is the economy's biggest threat",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/a-weakening-labor-market-has-become-the-economys-biggest-threat.html",
+          "snippet": "2026-02-06: This week provided more evidence that a softening labor market is the economy's biggest threat: Together, the data points buttress worries from some Federal Reserve policymakers that the c",
+          "guid": "108262682"
+        },
+        {
+          "title": "CNBC's UK Exchange newsletter: The U.K.\u2019s labor market conundrum \u2013 and where to look for clues",
+          "date": "2025-10-08",
+          "link": "https://www.cnbc.com/2025/10/08/cnbcs-uk-exchange-newsletter-the-uks-labor-market-conundrum.html",
+          "snippet": "2025-10-08: CNBC's UK Exchange newsletter: The U.K.\u2019s labor market conundrum \u2013 and where to look for clues: The U.K.'s labor market is a complex one, and economists are finding it harder to decipher w",
+          "guid": "108208789"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "a21f7800-1019-4647-adfd-df0863c955d0",
+      "label": "Fed rate cuts and outlook",
+      "spike_ratio": 1.272,
+      "article_count": 29,
+      "rag_answer": "The Federal Reserve is currently navigating a divided stance on interest rate cuts, with officials indicating the possibility of two additional cuts by the end of 2025, despite some dissent regarding the timing and extent of these reductions. Fed Chair Powell has suggested that conditions may warrant cuts, but uncertainty remains high. As of December 2025, the Fed is expected to implement its third consecutive rate cut, although there are concerns about inflation that could impact future decisions. Market expectations for further cuts in 2026 are fluctuating, with some economists predicting three cuts in the first half of the year, while others express skepticism due to rising energy prices and inflation fears.",
+      "rag_sources": [
+        {
+          "title": "Divided Fed officials saw another two interest rate cuts by the end of 2025, minutes show",
+          "date": "2025-10-08",
+          "link": "https://www.cnbc.com/2025/10/08/fed-minutes-september-2025.html",
+          "snippet": "2025-10-08: Divided Fed officials saw another two interest rate cuts by the end of 2025, minutes show: Officials were strongly inclined to lower rates, with the only dispute seeming to be over how man",
+          "guid": "108209324"
+        },
+        {
+          "title": "Powell indicates conditions 'may warrant' interest rate cuts as Fed proceeds 'carefully'",
+          "date": "2025-08-22",
+          "link": "https://www.cnbc.com/2025/08/22/powell-indicates-conditions-may-warrant-interest-rate-cuts-as-fed-proceeds-carefully.html",
+          "snippet": "2025-08-22: Powell indicates conditions 'may warrant' interest rate cuts as Fed proceeds 'carefully': Powell on Friday gave a tepid indication of possible cuts ahead as he noted a high level of uncert",
+          "guid": "108189532"
+        },
+        {
+          "title": "The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/09/the-fed-decision-is-expected-to-feature-a-rate-cut-and-a-lot-more-heres-what-to-expect.html",
+          "snippet": "2025-12-10: The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect: The central bank is poised to deliver its third straight interest rate cut Wednesday, while firing a ",
+          "guid": "108239042"
+        },
+        {
+          "title": "Fed's Goolsbee calls for a hold on cuts as current rate of inflation is 'not good enough'",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/feds-goolsbee-calls-for-a-hold-on-cuts-as-current-rate-of-inflation-is-not-good-enough.html",
+          "snippet": "2026-02-24: Fed's Goolsbee calls for a hold on cuts as current rate of inflation is 'not good enough': The Chicago Fed president said Tuesday that cuts aren't appropriate until there's more evidence t",
+          "guid": "108269037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "3d3acae2-25d0-4e59-83b0-0118da72d824",
+      "label": "AI-related tech stock decline",
+      "spike_ratio": 1.261,
+      "article_count": 28,
+      "rag_answer": "AI-related tech stocks have been experiencing significant declines, driven by rising concerns over their valuations and disappointing earnings reports from key players like Nvidia and Oracle. The S&P 500 and Dow have both seen losses as investors react to the pressure on these stocks, with notable declines in companies such as Palantir and SoftBank. Despite some attempts at recovery, the overall sentiment remains cautious, indicating that the AI trade may be facing a challenging period ahead. This ongoing volatility suggests potential implications for broader market stability, as tech stocks are often seen as a bellwether for market performance.",
+      "rag_sources": [
+        {
+          "title": "Dow slides 300 points as AI stocks resume their decline, Nasdaq falls 1%: Live updates",
+          "date": "2025-11-06",
+          "link": "https://www.cnbc.com/2025/11/05/stock-market-today-live-updates.html",
+          "snippet": "2025-11-06: Dow slides 300 points as AI stocks resume their decline, Nasdaq falls 1%: Live updates: Companies that have benefited from the artificial intelligence trade came under pressure yet again a",
+          "guid": "108222099"
+        },
+        {
+          "title": "S&P 500 gives up gain as AI-related stocks come under pressure again: Live updates",
+          "date": "2025-12-15",
+          "link": "https://www.cnbc.com/2025/12/14/stock-market-today-live-updates.html",
+          "snippet": "2025-12-15: S&P 500 gives up gain as AI-related stocks come under pressure again: Live updates: Key stocks in the artificial intelligence trade continued to face pressure.",
+          "guid": "108241593"
+        },
+        {
+          "title": "Stocks drop on rising fears about AI stock valuations, Palantir leads decline: Live updates",
+          "date": "2025-11-04",
+          "link": "https://www.cnbc.com/2025/11/03/stock-market-today-live-updates.html",
+          "snippet": "2025-11-04: Stocks drop on rising fears about AI stock valuations, Palantir leads decline: Live updates: Stocks fell, pressured by declines in artificial intelligence-related names like Palantir as in",
+          "guid": "108220811"
+        },
+        {
+          "title": "CNBC Daily Open: Days of declines won't keep AI trade down",
+          "date": "2025-11-11",
+          "link": "https://www.cnbc.com/2025/11/11/cnbc-daily-open-days-of-declines-wont-keep-ai-trade-down.html",
+          "snippet": "2025-11-11: CNBC Daily Open: Days of declines won't keep AI trade down: Investors piled back into artificial intelligence names on Monday stateside. \\AI-related stocks should drive equity markets,\\\" a",
+          "guid": "108224037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "4761f37d-27cd-4139-ae34-f7ba6d6fa059",
+      "label": "Epstein Files and Political Reactions",
+      "spike_ratio": 1.19,
+      "article_count": 25,
+      "rag_answer": "The ongoing release of Epstein files by the Department of Justice (DOJ) has sparked significant political backlash, with congressional lawmakers, particularly Democrats, expressing dissatisfaction over the handling and redaction of these documents. Key figures, including Bill Gates and Leon Black, are expected to testify, indicating heightened scrutiny and potential legal ramifications. The situation has led to calls for further investigation into the DOJ's compliance with the Epstein Files Transparency Act, which may impact public trust in governmental institutions and influence market sentiment regarding political stability. As the political landscape evolves, investors may need to navigate increased volatility tied to these developments.",
+      "rag_sources": [
+        {
+          "title": "Epstein files: Senators seek probe of DOJ over release, redaction of sex offender's documents",
+          "date": "2026-03-11",
+          "link": "https://www.cnbc.com/2026/03/11/senators-epstein-files-investigation.html",
+          "snippet": "2026-03-11: Epstein files: Senators seek probe of DOJ over release, redaction of sex offender's documents: The Department of Justice has come under fire for its handling of documents related to disgra",
+          "guid": "108276332"
+        },
+        {
+          "title": "Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/epstein-doj-bondi-trump.html",
+          "snippet": "2026-03-05: Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports: The top lawyer for Goldman Sachs, Bill Gates, Leon Black and others are expected to testify soon a",
+          "guid": "108274237"
+        },
+        {
+          "title": "Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents",
+          "date": "2025-12-23",
+          "link": "https://www.cnbc.com/2025/12/23/epstein-files-doj-release-trump.html",
+          "snippet": "2025-12-23: Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents: The release comes amid intense scrutiny from congressional lawmakers and victims ove",
+          "guid": "108244822"
+        },
+        {
+          "title": "Epstein files released to Congress are mostly \u2018recycled\u2019 documents, Democrat says",
+          "date": "2025-08-23",
+          "link": "https://www.cnbc.com/2025/08/23/jeffrey-epstein-ghislaine-maxwell-trump-doj.html",
+          "snippet": "2025-08-23: Epstein files released to Congress are mostly \u2018recycled\u2019 documents, Democrat says: The Justice Department late Friday gave Congress the first trove of documents to comply with a subpoena b",
+          "guid": "108189960"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

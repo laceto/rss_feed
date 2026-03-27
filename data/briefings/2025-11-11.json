@@ -1,0 +1,220 @@
+{
+  "date": "2025-11-11",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "c2c41707-713a-492f-aeae-2a743a55e83b",
+      "label": "U.S. stocks and government shutdown",
+      "spike_ratio": 1.887,
+      "article_count": 40,
+      "rag_answer": "The U.S. government shutdown, which began on October 1, 2025, initially created uncertainty in the markets, leading to a surge in gold prices and mixed reactions in U.S. stock indexes. However, as negotiations progressed, optimism grew, resulting in a rally in global equities, particularly in Europe, as investors anticipated a resolution. By November 10, reports of a potential agreement to end the shutdown boosted European stocks, but the subsequent announcement of the shutdown's conclusion on November 13 led to a decline in European markets, indicating a shift in investor sentiment. Overall, the shutdown's end brought clarity to the market, but the immediate reaction was a loss of earlier gains in European stocks.",
+      "rag_sources": [
+        {
+          "title": "European markets lose earlier gains as U.S. shutdown ends",
+          "date": "2025-11-13",
+          "link": "https://www.cnbc.com/2025/11/13/european-markets-on-novpoint13-stoxx-600-ftse-dax-cac.html",
+          "snippet": "2025-11-13: European markets lose earlier gains as U.S. shutdown ends: European stocks closed lower on Thursday, paring earlier gains as the U.S. government shutdown came to an end.",
+          "guid": "108225223"
+        },
+        {
+          "title": "Investors eye market \u2018clarity\u2019 as stocks rally on shutdown agreement",
+          "date": "2025-11-10",
+          "link": "https://www.cnbc.com/2025/11/10/global-stocks-rally-on-hopes-the-us-shutdown-is-nearing-an-end.html",
+          "snippet": "2025-11-10: Investors eye market \u2018clarity\u2019 as stocks rally on shutdown agreement: Global equities traded higher on Monday morning amid reports that the protracted U.S. government shutdown may be neari",
+          "guid": "108223450"
+        },
+        {
+          "title": "How does the U.S. stock market typically react to a government shutdown?",
+          "date": "2025-09-26",
+          "link": "https://www.cnbc.com/2025/09/26/market-reaction-past-government-shutdow.html",
+          "snippet": "2025-09-26: How does the U.S. stock market typically react to a government shutdown?: The markets could be in for some action if the government shutdown next week, according to Bank of America.",
+          "guid": "108204496"
+        },
+        {
+          "title": "Europe stocks close higher; Swiss stocks rise on optimism over possible reduction in U.S. tariffs",
+          "date": "2025-11-11",
+          "link": "https://www.cnbc.com/2025/11/11/european-markets-on-novpoint11-stoxx-600-ftse-cac-dax.html",
+          "snippet": "2025-11-11: Europe stocks close higher; Swiss stocks rise on optimism over possible reduction in U.S. tariffs: European stocks maintained their positive momentum as an end to the U.S.\u00a0government shutd",
+          "guid": "108223581"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "4761f37d-27cd-4139-ae34-f7ba6d6fa059",
+      "label": "Epstein Files and Political Reactions",
+      "spike_ratio": 1.653,
+      "article_count": 41,
+      "rag_answer": "The ongoing release of Epstein files by the Department of Justice (DOJ) has sparked significant political backlash, with congressional lawmakers, particularly Democrats, expressing dissatisfaction over the handling and redaction of these documents. Key figures, including Bill Gates and Leon Black, are expected to testify, indicating heightened scrutiny and potential legal ramifications. The political discourse surrounding these files, especially in relation to the Epstein Files Transparency Act, may influence investor sentiment and market stability, particularly as it intersects with broader political risks associated with the Trump administration and its legacy. Overall, the situation reflects a complex interplay of legal, political, and market dynamics that could impact investment strategies in the U.S.",
+      "rag_sources": [
+        {
+          "title": "Epstein files: Senators seek probe of DOJ over release, redaction of sex offender's documents",
+          "date": "2026-03-11",
+          "link": "https://www.cnbc.com/2026/03/11/senators-epstein-files-investigation.html",
+          "snippet": "2026-03-11: Epstein files: Senators seek probe of DOJ over release, redaction of sex offender's documents: The Department of Justice has come under fire for its handling of documents related to disgra",
+          "guid": "108276332"
+        },
+        {
+          "title": "Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/epstein-doj-bondi-trump.html",
+          "snippet": "2026-03-05: Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports: The top lawyer for Goldman Sachs, Bill Gates, Leon Black and others are expected to testify soon a",
+          "guid": "108274237"
+        },
+        {
+          "title": "Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents",
+          "date": "2025-12-23",
+          "link": "https://www.cnbc.com/2025/12/23/epstein-files-doj-release-trump.html",
+          "snippet": "2025-12-23: Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents: The release comes amid intense scrutiny from congressional lawmakers and victims ove",
+          "guid": "108244822"
+        },
+        {
+          "title": "Epstein files released to Congress are mostly \u2018recycled\u2019 documents, Democrat says",
+          "date": "2025-08-23",
+          "link": "https://www.cnbc.com/2025/08/23/jeffrey-epstein-ghislaine-maxwell-trump-doj.html",
+          "snippet": "2025-08-23: Epstein files released to Congress are mostly \u2018recycled\u2019 documents, Democrat says: The Justice Department late Friday gave Congress the first trove of documents to comply with a subpoena b",
+          "guid": "108189960"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "7414a4dc-4f2f-4f00-aaab-b1ec476cbab7",
+      "label": "AI Chip Market Developments",
+      "spike_ratio": 1.635,
+      "article_count": 51,
+      "rag_answer": "The AI chip market is experiencing significant growth, driven by increased demand and geopolitical factors. Companies like ASML are benefiting from a surge in orders, with a 7% stock increase attributed to the AI boom and optimistic guidance for 2026. Meanwhile, Chinese firms such as Alibaba and Baidu are focusing on developing domestic AI chips to reduce reliance on foreign technology, particularly in light of rising tensions. This shift towards homegrown solutions could reshape the competitive landscape, as investors remain cautious about market concentration around leading AI companies.",
+      "rag_sources": [
+        {
+          "title": "Chip giant ASML surges 7% as AI boom fuels record orders and upbeat 2026 guidance",
+          "date": "2026-01-28",
+          "link": "https://www.cnbc.com/2026/01/28/asml-q4-2025-earnings-report.html",
+          "snippet": "2026-01-28: Chip giant ASML surges 7% as AI boom fuels record orders and upbeat 2026 guidance: ASML is experiencing several tailwinds including an expectation of increased chipmaking capacity and cont",
+          "guid": "108257383"
+        },
+        {
+          "title": "Alibaba is developing a new AI chip \u2014 here's what we know so far",
+          "date": "2025-08-29",
+          "link": "https://www.cnbc.com/2025/08/29/alibaba-is-developing-a-new-ai-chip-heres-what-we-know-so-far.html",
+          "snippet": "2025-08-29: Alibaba is developing a new AI chip \u2014 here's what we know so far: Chinese technology firms have focused on developing homegrown chips over the last few years amid rising geopolitical tensi",
+          "guid": "108192425"
+        },
+        {
+          "title": "Chip stocks rally to start 2026 after third-straight winning year",
+          "date": "2026-01-02",
+          "link": "https://www.cnbc.com/2026/01/02/chipmakers-2026-ai-trade.html",
+          "snippet": "2026-01-02: Chip stocks rally to start 2026 after third-straight winning year: Investors piled into the winning artificial intelligence-adjacent sector following another big year of gains.",
+          "guid": "108247500"
+        },
+        {
+          "title": "Baidu is emerging as a major AI chip player in China to fill the Nvidia gap",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/baidu-is-major-ai-chip-player-in-china-to-fill-nvidia-gap.html",
+          "snippet": "2025-11-28: Baidu is emerging as a major AI chip player in China to fill the Nvidia gap: China's focus on pushing domestic chips could make Baidu's chip unit, Kunlunxin, a fast-growing business for th",
+          "guid": "108232314"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "3d3acae2-25d0-4e59-83b0-0118da72d824",
+      "label": "AI-related tech stock decline",
+      "spike_ratio": 1.63,
+      "article_count": 44,
+      "rag_answer": "AI-related tech stocks have been experiencing significant declines, driven by rising concerns over their valuations and disappointing earnings reports, particularly from major players like Nvidia and Oracle. This has led to broader market sell-offs, with indices such as the Dow and S&P 500 reflecting these pressures. Despite some attempts at recovery, investor sentiment remains cautious, as evidenced by continued sell-offs and strategic shifts towards portfolio diversifiers. The ongoing volatility suggests that the AI sector may be facing a challenging period ahead, impacting overall market stability.",
+      "rag_sources": [
+        {
+          "title": "Dow slides 300 points as AI stocks resume their decline, Nasdaq falls 1%: Live updates",
+          "date": "2025-11-06",
+          "link": "https://www.cnbc.com/2025/11/05/stock-market-today-live-updates.html",
+          "snippet": "2025-11-06: Dow slides 300 points as AI stocks resume their decline, Nasdaq falls 1%: Live updates: Companies that have benefited from the artificial intelligence trade came under pressure yet again a",
+          "guid": "108222099"
+        },
+        {
+          "title": "S&P 500 gives up gain as AI-related stocks come under pressure again: Live updates",
+          "date": "2025-12-15",
+          "link": "https://www.cnbc.com/2025/12/14/stock-market-today-live-updates.html",
+          "snippet": "2025-12-15: S&P 500 gives up gain as AI-related stocks come under pressure again: Live updates: Key stocks in the artificial intelligence trade continued to face pressure.",
+          "guid": "108241593"
+        },
+        {
+          "title": "Stocks drop on rising fears about AI stock valuations, Palantir leads decline: Live updates",
+          "date": "2025-11-04",
+          "link": "https://www.cnbc.com/2025/11/03/stock-market-today-live-updates.html",
+          "snippet": "2025-11-04: Stocks drop on rising fears about AI stock valuations, Palantir leads decline: Live updates: Stocks fell, pressured by declines in artificial intelligence-related names like Palantir as in",
+          "guid": "108220811"
+        },
+        {
+          "title": "CNBC Daily Open: Days of declines won't keep AI trade down",
+          "date": "2025-11-11",
+          "link": "https://www.cnbc.com/2025/11/11/cnbc-daily-open-days-of-declines-wont-keep-ai-trade-down.html",
+          "snippet": "2025-11-11: CNBC Daily Open: Days of declines won't keep AI trade down: Investors piled back into artificial intelligence names on Monday stateside. \\AI-related stocks should drive equity markets,\\\" a",
+          "guid": "108224037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "61d75c0e-f3f6-4310-98e6-337f075d7ea5",
+      "label": "OpenAI and AI Content Controversies",
+      "spike_ratio": 1.224,
+      "article_count": 24,
+      "rag_answer": "OpenAI is currently facing significant controversies related to its AI products and advertising strategies. CEO Sam Altman has criticized competing ads from Anthropic as \"clearly dishonest,\" highlighting the competitive tensions in the AI sector. Additionally, top Hollywood agencies have condemned OpenAI's video generation app, Sora, as exploitative, raising concerns about the impact of AI on creative industries. These controversies reflect broader market implications, as they could influence public perception, regulatory scrutiny, and the competitive landscape within the rapidly evolving AI market.",
+      "rag_sources": [
+        {
+          "title": "Altman lashes out at 'clearly dishonest' Anthropic ads as AI spat heats up",
+          "date": "2026-02-05",
+          "link": "https://www.cnbc.com/2026/02/05/super-bowl-ai-ad-altman-anthropic-open-ai.html",
+          "snippet": "2026-02-05: Altman lashes out at 'clearly dishonest' Anthropic ads as AI spat heats up: OpenAI recently announced plans to begin\u00a0testing ads\u00a0with some ChatGPT users.",
+          "guid": "108261888"
+        },
+        {
+          "title": "Op-ed: The fuel for the AI boom driving the markets is advertising. It is also an existential risk. ",
+          "date": "2025-11-05",
+          "link": "https://www.cnbc.com/2025/11/05/op-ed-the-fuel-for-the-ai-boom-driving-the-markets-is-advertising-it-is-also-an-existential-risk-.html",
+          "snippet": "2025-11-05: Op-ed: The fuel for the AI boom driving the markets is advertising. It is also an existential risk.: Joe Marchese, Executive Chairman at Human Ventures, describes a key conundrum facing Op",
+          "guid": "108221347"
+        },
+        {
+          "title": "Top Hollywood agencies slam OpenAI's Sora as 'exploitation' and a risk to clients",
+          "date": "2025-10-09",
+          "link": "https://www.cnbc.com/2025/10/09/caa-open-ai-sora-copyright-talent-agency.html",
+          "snippet": "2025-10-09: Top Hollywood agencies slam OpenAI's Sora as 'exploitation' and a risk to clients: Talent agency CAA slams OpenAI's AI video generation app Sora for posing \\significant risk\\\" to its clien",
+          "guid": "108209961"
+        },
+        {
+          "title": "OpenAI's dominance is unlike anything Silicon Valley has ever seen",
+          "date": "2025-10-11",
+          "link": "https://www.cnbc.com/2025/10/11/open-ai-silicon-valley-tech-startup.html",
+          "snippet": "2025-10-11: OpenAI's dominance is unlike anything Silicon Valley has ever seen: OpenAI's position at the heart of the AI boom, and its expansion up and down the stack, is putting the company in compet",
+          "guid": "108209603"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

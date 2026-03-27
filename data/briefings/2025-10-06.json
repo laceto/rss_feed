@@ -1,0 +1,220 @@
+{
+  "date": "2025-10-06",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "a21f7800-1019-4647-adfd-df0863c955d0",
+      "label": "Fed rate cuts and outlook",
+      "spike_ratio": 3.623,
+      "article_count": 93,
+      "rag_answer": "The Federal Reserve has been actively cutting interest rates, with a series of cuts occurring throughout 2025, including a significant quarter-point cut in December. Market expectations for 2026 suggest that while there may be further cuts, the outlook remains uncertain, with some traders anticipating only modest easing. Fed officials have expressed caution, indicating that future cuts will depend on economic conditions, particularly the labor market. Overall, the ongoing adjustments in Fed policy are influencing market dynamics, as investors prepare for potential shifts in borrowing costs and economic growth.",
+      "rag_sources": [
+        {
+          "title": "Here are the five key takeaways from this week's Fed meeting",
+          "date": "2026-03-19",
+          "link": "https://www.cnbc.com/2026/03/18/here-are-the-five-key-takeaways-from-this-weeks-fed-meeting.html",
+          "snippet": "2026-03-19: Here are the five key takeaways from this week's Fed meeting: While no one expected the Fed to cut \u2014 much less hike \u2014 at this meeting, the market always looks for clues about what's next.",
+          "guid": "108279927"
+        },
+        {
+          "title": "The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/09/the-fed-decision-is-expected-to-feature-a-rate-cut-and-a-lot-more-heres-what-to-expect.html",
+          "snippet": "2025-12-10: The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect: The central bank is poised to deliver its third straight interest rate cut Wednesday, while firing a ",
+          "guid": "108239042"
+        },
+        {
+          "title": "Traders say the Fed rate outlook for 2026 will have the most market impact today",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/10/traders-say-fed-2026-rate-outlook-will-have-the-most-market-impact-today.html",
+          "snippet": "2025-12-10: Traders say the Fed rate outlook for 2026 will have the most market impact today: In September, when the Fed last issued its 'summary of economic projections,' the central bank anticipated",
+          "guid": "108239768"
+        },
+        {
+          "title": "Here are five key takeaways from the Fed's big interest rate decision",
+          "date": "2025-09-18",
+          "link": "https://www.cnbc.com/2025/09/17/here-are-five-key-takeaways-from-the-feds-big-interest-rate-decision.html",
+          "snippet": "2025-09-18: Here are five key takeaways from the Fed's big interest rate decision: The Federal Reserve on Wednesday delivered on a widely anticipated quarter percentage point interest rate cut.",
+          "guid": "108200292"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.25,
+          "mean_sentiment_score": 0.118,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "13140471-aec4-49f0-b9a8-41a373fb4471",
+      "label": "China economic data and markets",
+      "spike_ratio": 1.636,
+      "article_count": 18,
+      "rag_answer": "China's economic data has shown mixed signals, with manufacturing contracting for several months while the stock market has rallied to multiyear highs, fueled by record savings among households. Despite a 4.8% growth in the economy during the third quarter, there are concerns over a significant drop in fixed-asset investment, indicating potential weaknesses in infrastructure and manufacturing sectors. Investors are closely monitoring inflation data and trade figures, as these will influence market sentiment and expectations for future economic policies. Overall, the situation reflects a complex interplay of growth and contraction, leading to cautious optimism in the markets.",
+      "rag_sources": [
+        {
+          "title": "\u2018The eye of the hurricane\u2019: Why the U.S. job market has soured, economists say",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/us-job-market-jobs-report-july-2025.html",
+          "snippet": "2025-08-01: \u2018The eye of the hurricane\u2019: Why the U.S. job market has soured, economists say: Federal data suggests the job market has slowed more than previously thought amid economic headwinds.",
+          "guid": "108180584"
+        },
+        {
+          "title": "A big week of economic data is next for a stock market in the throes of a major rotation ",
+          "date": "2025-12-12",
+          "link": "https://www.cnbc.com/2025/12/12/stock-market-next-week-outlook-for-dec-15-19-2025.html",
+          "snippet": "2025-12-12: A big week of economic data is next for a stock market in the throes of a major rotation: Any positive surprise in the jobs or inflation data next week could open the door for stock buyers",
+          "guid": "108241167"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "China wants to play the long game with the U.S. What that means for Chinese stocks",
+          "date": "2025-10-19",
+          "link": "https://www.cnbc.com/2025/10/19/china-wants-to-play-the-long-game-with-the-us-what-that-means-for-chinese-stocks.html",
+          "snippet": "2025-10-19: China wants to play the long game with the U.S. What that means for Chinese stocks: As U.S.-China tensions escalate and overall market volatility rises, investment strategists are watching",
+          "guid": "108213404"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "7414a4dc-4f2f-4f00-aaab-b1ec476cbab7",
+      "label": "AI Chip Market Developments",
+      "spike_ratio": 1.337,
+      "article_count": 37,
+      "rag_answer": "The AI chip market is experiencing significant developments, driven by robust demand and strategic advancements from major players like Nvidia, AMD, and Meta. Nvidia is set to unveil specialized processors for agentic AI at its upcoming GTC conference, highlighting the growing focus on AI capabilities. Additionally, Meta has introduced its in-house AI chips to support its data center expansion, indicating a shift towards self-sufficiency in chip production among tech giants. These developments suggest a competitive landscape where companies are racing to enhance their AI infrastructure, which could lead to supply shortages and increased prices for consumer electronics.",
+      "rag_sources": [
+        {
+          "title": "What the Iran war market turmoil means for those nearing retirement",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/iran-war-market-volatility-retirement.html",
+          "snippet": "2026-03-05: What the Iran war market turmoil means for those nearing retirement: Market shakiness may not concern long-term investors, but it could be a useful wake-up call for those on the precipice ",
+          "guid": "108272020"
+        },
+        {
+          "title": "Chip stocks including Nvidia are holding up despite market volatility, according to the charts",
+          "date": "2026-03-10",
+          "link": "https://www.cnbc.com/2026/03/10/chip-stocks-including-nvidia-are-holding-up-despite-market-volatility-according-to-the-charts.html",
+          "snippet": "2026-03-10: Chip stocks including Nvidia are holding up despite market volatility, according to the charts: Todd Gordon takes a look at the technicals in Nvidia and other chipmakers.",
+          "guid": "108276190"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Market concentration around AI darlings persists. It's making investors worried",
+          "date": "2025-08-16",
+          "link": "https://www.cnbc.com/2025/08/16/market-concentration-around-ai-darlings-persists-its-making-investors-worried.html",
+          "snippet": "2025-08-16: Market concentration around AI darlings persists. It's making investors worried: Investors worry that a stock market priced for perfection is vulnerable to some sort of setback.",
+          "guid": "108186696"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "7f4dee2b-59fc-4643-847b-6cfc554750ee",
+      "label": "Charlie Kirk shooting incident",
+      "spike_ratio": 1.147,
+      "article_count": 13,
+      "rag_answer": "Charlie Kirk, a conservative activist and ally of President Donald Trump, was shot and killed during a political event at Utah Valley University on September 11, 2025. The investigation into his assassination has revealed that the shooter, Tyler Robinson, was identified shortly after the incident, and the FBI is exploring motives, including links to political violence. In the aftermath, there have been bipartisan calls to address political violence, and the Trump administration has requested a $58 million security boost for government branches. The incident has also sparked discussions in the media, leading to the suspension of Jimmy Kimmel's show due to his comments about the shooting.",
+      "rag_sources": [
+        {
+          "title": "Charlie Kirk shooting: Utah Gov. Spencer Cox shares new details",
+          "date": "2025-09-14",
+          "link": "https://www.cnbc.com/2025/09/14/charlie-kirk-shooting-utah-gov-cox-.html",
+          "snippet": "2025-09-14: Charlie Kirk shooting: Utah Gov. Spencer Cox shares new details: Investigators are still working to determine the motive for the killing of Charlie Kirk.",
+          "guid": "108198506"
+        },
+        {
+          "title": "Dallas ICE shooter searched 'Charlie Kirk Shot Video' before attack: FBI",
+          "date": "2025-09-25",
+          "link": "https://www.cnbc.com/2025/09/25/dallas-ice-shooter-charlie-kirk-fbi.html",
+          "snippet": "2025-09-25: Dallas ICE shooter searched 'Charlie Kirk Shot Video' before attack: FBI: ICE shooting gunman Joshua Jahn's search for video about Charlie Kirk, the recently assassinated conservative acti",
+          "guid": "108204056"
+        },
+        {
+          "title": "Charlie Kirk shooting: FBI shares person of interest photos, offers $100,000 reward",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/charlie-kirk-shooter-manhunt-trump.html",
+          "snippet": "2025-09-11: Charlie Kirk shooting: FBI shares person of interest photos, offers $100,000 reward: Kirk, a close ally of President Donald Trump, was killed by a gunman during a political event at Utah V",
+          "guid": "108197417"
+        },
+        {
+          "title": "Charlie Kirk shooter: Officials identify Tyler Robinson as suspect after arrest",
+          "date": "2025-09-12",
+          "link": "https://www.cnbc.com/2025/09/12/trump-charlie-kirk-shooter-suspect.html",
+          "snippet": "2025-09-12: Charlie Kirk shooter: Officials identify Tyler Robinson as suspect after arrest: Kirk, an ally of President Donald Trump, was shot during an event at Utah Valley University, kicking off a ",
+          "guid": "108198038"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "0fc5570f-451a-4ca8-8f67-6c7362dcd5b5",
+      "label": "Media and Streaming Disputes",
+      "spike_ratio": 1.14,
+      "article_count": 19,
+      "rag_answer": "The media and streaming landscape is currently marked by significant disputes and strategic shifts. Notably, eleven U.S. states are urging the Department of Justice to investigate the Netflix-Warner Bros. deal, as Netflix faces pressure to enhance its offer following Paramount Skydance's increased bid. Additionally, Disney and YouTube TV are embroiled in a prolonged carriage dispute, resulting in a blackout that has surpassed previous records. These developments reflect a broader trend of rising prices among streaming services and ongoing negotiations that could reshape media partnerships, indicating a volatile environment for both consumers and investors in the media sector.",
+      "rag_sources": [
+        {
+          "title": "Eleven U.S. states urge DOJ to thoroughly probe Netflix-Warner Bros. deal",
+          "date": "2026-02-25",
+          "link": "https://www.cnbc.com/2026/02/25/eleven-us-states-urge-doj-to-thoroughly-probe-netflix-warner-bros-deal.html",
+          "snippet": "2026-02-25: Eleven U.S. states urge DOJ to thoroughly probe Netflix-Warner Bros. deal: Pressure is mounting on Netflix to find its way though regulatory hurdles and make a better offer after\u00a0Paramount",
+          "guid": "108270006"
+        },
+        {
+          "title": "Blockbuster social media trial kicks off, with more to come this year",
+          "date": "2026-01-27",
+          "link": "https://www.cnbc.com/2026/01/27/blockbuster-social-media-trial-kicks-off-with-more-to-come-this-year.html",
+          "snippet": "2026-01-27: Blockbuster social media trial kicks off, with more to come this year: A landmark case against social media giants Meta, Alphabet's YouTube and TikTok is set to begin Tuesday in Los Angele",
+          "guid": "108257142"
+        },
+        {
+          "title": "NFL Commissioner Roger Goodell says league could renegotiate media deals as soon as 2026",
+          "date": "2025-09-24",
+          "link": "https://www.cnbc.com/2025/09/24/nfl-tv-rights-renegotiations-accelerated-roger-goodell.html",
+          "snippet": "2025-09-24: NFL Commissioner Roger Goodell says league could renegotiate media deals as soon as 2026: The NFL would need agreement from its media partners \u2014 Disney, Comcast's NBCUniversal, Paramount, ",
+          "guid": "108202716"
+        },
+        {
+          "title": "It's not just Disney: As streaming services hike prices, it's a battle over who blinks first",
+          "date": "2025-09-25",
+          "link": "https://www.cnbc.com/2025/09/25/disney-hulu-netflix-streaming-services-price-hikes.html",
+          "snippet": "2025-09-25: It's not just Disney: As streaming services hike prices, it's a battle over who blinks first: Disney+/Hulu hiked prices this week, the most recent of many streaming service increases. Chur",
+          "guid": "108203837"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

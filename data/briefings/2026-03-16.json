@@ -1,0 +1,212 @@
+{
+  "date": "2026-03-16",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "28ef7e58-6eec-468d-9e07-36e059f3bd97",
+      "label": "AI Investment and Valuation Trends",
+      "spike_ratio": 1.731,
+      "article_count": 29,
+      "rag_answer": "AI investment is currently experiencing significant volatility, with growing concerns about a potential tech bubble as valuations for AI stocks come under scrutiny. Prominent investors, such as Orlando Bravo and Ray Dalio, have suggested that certain software stocks may deserve valuation cuts due to the inflated expectations surrounding AI. Fund managers are cautious, indicating that while AI spending continues to rise, they are wary of stretched valuations and are closely monitoring market positioning. Despite these concerns, there are still opportunities in the AI supply chain, with analysts highlighting stocks that may benefit from ongoing AI investments.",
+      "rag_sources": [
+        {
+          "title": "AI valuation fears grip global investors as tech bubble concerns grow",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/ai-valuation-fears-grip-investors-as-tech-bubble-concerns-heighten.html",
+          "snippet": "2025-11-07: AI valuation fears grip global investors as tech bubble concerns grow: The recent slide among AI stocks has once again put fears of a tech bubble at the forefront of investors' minds.",
+          "guid": "108222913"
+        },
+        {
+          "title": "Orlando Bravo says some software names hit by AI deserve a valuation cut",
+          "date": "2026-03-17",
+          "link": "https://www.cnbc.com/2026/03/17/orlando-bravo-software-ai-valuation-cut.html",
+          "snippet": "2026-03-17: Orlando Bravo says some software names hit by AI deserve a valuation cut: The Thoma Bravo co-founder said that some of the software stocks getting hit by the AI wave deserve a lower valuat",
+          "guid": "108279068"
+        },
+        {
+          "title": "Fund managers reveal their bubble recipes and what to watch for as AI stocks soar",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/30/fund-managers-reveal-their-bubble-recipes-and-what-to-watch-for-as-ai-stocks-soar.html",
+          "snippet": "2025-10-29: Fund managers reveal their bubble recipes and what to watch for as AI stocks soar: \\Fundamentals and valuations can only be ignored for so long,\\\" one portfolio manager told CNBC.\"",
+          "guid": "108217900"
+        },
+        {
+          "title": "How fund managers are investing for the fourth quarter as AI bubble talk swirls",
+          "date": "2025-10-12",
+          "link": "https://www.cnbc.com/2025/10/13/how-fund-managers-are-investing-for-the-fourth-quarter-as-ai-bubble-talk-swirls.html",
+          "snippet": "2025-10-12: How fund managers are investing for the fourth quarter as AI bubble talk swirls: \\We are, however, wary of positioning, and remain watchful of stretched valuations,\\\" one fund manager told",
+          "guid": "108209800"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "21946eea-2f68-47a4-8581-de61a1725ca9",
+      "label": "Trump and Voter ID Legislation",
+      "spike_ratio": 1.263,
+      "article_count": 18,
+      "rag_answer": "President Donald Trump is actively advocating for a national voter ID requirement through the SAVE America Act, which has garnered support from Republican lawmakers. However, the legislation faces challenges, including skepticism from Senate Leader Thune regarding changes to the filibuster that could facilitate its passage. The House is set to vote on the bill, which proponents argue will secure elections, while critics claim it may disenfranchise millions. The ongoing debate and potential passage of this legislation could influence market sentiment, particularly in sectors related to election security and voter engagement, as well as impact the political landscape leading up to the next elections.",
+      "rag_sources": [
+        {
+          "title": "Trump fans flames of election access as Republican support grows for national voter ID mandate",
+          "date": "2026-02-18",
+          "link": "https://www.cnbc.com/2026/02/18/trump-elections-save-act-congress-voter-id.html",
+          "snippet": "2026-02-18: Trump fans flames of election access as Republican support grows for national voter ID mandate: President Donald Trump wants a national voter ID requirement, a mandate he wants to impose v",
+          "guid": "108266995"
+        },
+        {
+          "title": "Senate Leader Thune throws cold water on filibuster change in push for voter-ID bill",
+          "date": "2026-02-10",
+          "link": "https://www.cnbc.com/2026/02/10/senate-filibuster-thune-trump-save-act.html",
+          "snippet": "2026-02-10: Senate Leader Thune throws cold water on filibuster change in push for voter-ID bill: Voter ID legislation backed by President Donald Trump and his GOP allies faces an uphill climb in the ",
+          "guid": "108264124"
+        },
+        {
+          "title": "SAVE Act: House to vote on Trump-backed voter ID bill",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/trump-save-act-house-voter-id.html",
+          "snippet": "2026-02-11: SAVE Act: House to vote on Trump-backed voter ID bill: The SAVE America Act's GOP supporters say it would secure elections and prevent fraud. Democrats say it could disenfranchise millions",
+          "guid": "108264446"
+        },
+        {
+          "title": "Social Security changes on the table as House bills advance: New retirement age terms, more ID theft services",
+          "date": "2025-12-05",
+          "link": "https://www.cnbc.com/2025/12/05/congress-weighs-social-security-changes.html",
+          "snippet": "2025-12-05: Social Security changes on the table as House bills advance: New retirement age terms, more ID theft services: How the Social Security Administration describes retirement claiming ages and",
+          "guid": "108236897"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "0b33da45-501c-4267-990c-fc52c823783a",
+      "label": "Obesity Drug Market Developments",
+      "spike_ratio": 1.138,
+      "article_count": 31,
+      "rag_answer": "The obesity drug market is experiencing significant growth and transformation, driven by increased access through Medicare coverage and new product launches. Notably, Eli Lilly and Novo Nordisk are leading the charge with innovative obesity pills, while Pfizer is diversifying its pipeline with a substantial deal to develop a Chinese company's drug. The competitive landscape is intensifying, raising questions about insurance coverage and drug pricing. Overall, these developments suggest a promising future for obesity treatments, potentially reaching millions of new patients.",
+      "rag_sources": [
+        {
+          "title": "What obesity drugmakers see next in the market: More pills, easier access and drug combinations",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/2026/01/23/weight-loss-glp-1-drugs-next-steps-for-eli-lilly-novo-nordisk-pfizer.html",
+          "snippet": "2026-01-23: What obesity drugmakers see next in the market: More pills, easier access and drug combinations: CNBC spoke to executives from Eli Lilly, Novo Nordisk, Pfizer and other drugmakers at the a",
+          "guid": "108255916"
+        },
+        {
+          "title": "Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next",
+          "date": "2025-11-02",
+          "link": "https://www.cnbc.com/2025/11/02/whats-next-for-the-weight-loss-drug-market-pills-rivals-insurance.html",
+          "snippet": "2025-11-02: Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next: Competition is heating up, but questions remain about insurance coverage, drug pricing, copycat drugs a",
+          "guid": "108216702"
+        },
+        {
+          "title": "Millions more Americans could access obesity drugs after Trump's deals with Eli Lilly, Novo Nordisk",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/trump-deals-with-lilly-novo-nordisk-could-broaden-obesity-drug-access.html",
+          "snippet": "2025-11-07: Millions more Americans could access obesity drugs after Trump's deals with Eli Lilly, Novo Nordisk: Medicare will start covering obesity drugs for the first time, which could open access ",
+          "guid": "108223164"
+        },
+        {
+          "title": "Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill\u00a0",
+          "date": "2025-12-09",
+          "link": "https://www.cnbc.com/2025/12/09/pfizer-deal-yaopharma-obesity-pill.html",
+          "snippet": "2025-12-09: Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill: The deal will help Pfizer beef up and diversify its obesity drug pipeline following its $10 billi",
+          "guid": "108239106"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "fcfe2030-5a3d-4a72-9961-c84182027a5d",
+      "label": "Anthropic-Pentagon AI Dispute",
+      "spike_ratio": 1.108,
+      "article_count": 18,
+      "rag_answer": "The ongoing dispute between Anthropic and the Pentagon centers around the Defense Department's demands for AI tools to be used in military applications, with Anthropic facing pressure to comply. Despite receiving a $200 million defense contract, Anthropic's CEO has stated that the Pentagon's threats do not alter their position, indicating a stalemate in negotiations. As the deadline for a policy change looms, Anthropic finds itself in a challenging position, potentially impacting its future operations and relationships within the defense sector. This conflict highlights the broader struggle for control over military AI, which could have significant implications for the market dynamics among AI companies.",
+      "rag_sources": [
+        {
+          "title": "In Pentagon-Anthropic standoff, AI is real-time testing the balance of power in future of warfare",
+          "date": "2026-02-27",
+          "link": "https://www.cnbc.com/2026/02/27/defense-anthropic-ai-war-risks-hegseth-amodei.html",
+          "snippet": "2026-02-27: In Pentagon-Anthropic standoff, AI is real-time testing the balance of power in future of warfare: Pentagon's clash with Anthropic highlights growing fight over who controls military AI\u00a0. ",
+          "guid": "108270939"
+        },
+        {
+          "title": "Pentagon threatens to cut off Anthropic in AI safeguards dispute: Report",
+          "date": "2026-02-16",
+          "link": "https://www.cnbc.com/2026/02/16/pentagon-threatens-anthropic-ai-safeguards-dispute.html",
+          "snippet": "2026-02-16: Pentagon threatens to cut off Anthropic in AI safeguards dispute: Report: The Pentagon is pushing Anthropic, OpenAI, Google and xAI to let it use AI tools for weapons development, intellig",
+          "guid": "108266079"
+        },
+        {
+          "title": "Anthropic is clashing with the Pentagon over AI use. Here's what each side wants",
+          "date": "2026-02-18",
+          "link": "https://www.cnbc.com/2026/02/18/anthropic-pentagon-ai-defense-war-surveillance.html",
+          "snippet": "2026-02-18: Anthropic is clashing with the Pentagon over AI use. Here's what each side wants: Anthropic landed a $200 million Defense contract last year, as did AI rivals OpenAI, Google and xAI.",
+          "guid": "108266856"
+        },
+        {
+          "title": "Anthropic CEO Amodei says Pentagon's threats 'do not change our position' on AI",
+          "date": "2026-02-27",
+          "link": "https://www.cnbc.com/2026/02/26/anthropic-pentagon-ai-amodei.html",
+          "snippet": "2026-02-27: Anthropic CEO Amodei says Pentagon's threats 'do not change our position' on AI: Anthropic said its negotiations with the DOD are still ongoing.",
+          "guid": "108270698"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "e91276fe-4a15-4206-9c39-1557b2405ea1",
+      "label": "Epstein Connections and Fallout",
+      "spike_ratio": 1.101,
+      "article_count": 30,
+      "rag_answer": "Recent developments surrounding Jeffrey Epstein's connections have led to significant fallout among high-profile individuals and organizations. New documents released by the DOJ reveal Epstein's extensive ties in Silicon Valley, implicating figures like Bill Gates and Elon Musk, while also prompting resignations, such as that of the World Economic Forum CEO Borge Brende. The ongoing scrutiny has resulted in public backlash against various prominent figures, including Donald Trump, who faces criticism for his past associations with Epstein. These revelations may impact investor sentiment and corporate reputations, particularly in sectors linked to the individuals involved, as the fallout continues to unfold.",
+      "rag_sources": [
+        {
+          "title": "Epstein's Silicon Valley connections went beyond Gates and Musk",
+          "date": "2026-02-09",
+          "link": "https://www.cnbc.com/2026/02/09/tech-leaders-epstein-records-silicon-valley-sergey-brin-thiel-sinofsky-reid-hoffman-musk-gates.html",
+          "snippet": "2026-02-09: Epstein's Silicon Valley connections went beyond Gates and Musk: The new Epstein files released by the DOJ show that the deceased financier was able to build relationships across Silicon V",
+          "guid": "108260807"
+        },
+        {
+          "title": "Epstein files fallout: The high-profile people burned by past dealings with a predator",
+          "date": "2026-02-16",
+          "link": "https://www.cnbc.com/2026/02/15/epstein-files-fallout-goldman-ruemmler-harvard-yale.html",
+          "snippet": "2026-02-16: Epstein files fallout: The high-profile people burned by past dealings with a predator: Jeffrey Epstein killed himself in a New York City federal jail in 2019. But more than six years late",
+          "guid": "108265580"
+        },
+        {
+          "title": "Epstein would 'name drop' Trump, Les Wexner says in deposition video",
+          "date": "2026-02-19",
+          "link": "https://www.cnbc.com/2026/02/19/epstein-trump-les-wexner-deposition.html",
+          "snippet": "2026-02-19: Epstein would 'name drop' Trump, Les Wexner says in deposition video: Democrats on the House Oversight Committee have expressed skepticism about Wexner's insistence that he had virtually n",
+          "guid": "108267572"
+        },
+        {
+          "title": "DOJ says names of two associates Epstein wired $100k and $250k to should stay secret",
+          "date": "2025-09-06",
+          "link": "https://www.cnbc.com/2025/09/06/epstein-doj-says-two-people-he-wired-thousands-to-should-stay-secret.html",
+          "snippet": "2025-09-06: DOJ says names of two associates Epstein wired $100k and $250k to should stay secret: The Justice Department request came after NBC News asked a federal judge to unseal the names of two pe",
+          "guid": "108195264"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

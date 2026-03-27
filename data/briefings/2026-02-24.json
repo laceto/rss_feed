@@ -1,0 +1,220 @@
+{
+  "date": "2026-02-24",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "37bac5c5-f756-48e8-a4f0-f5458902018d",
+      "label": "AI Disruption Fears in Markets",
+      "spike_ratio": 2.632,
+      "article_count": 100,
+      "rag_answer": "AI disruption fears are significantly impacting various sectors, particularly software and cybersecurity stocks, leading to a notable sell-off as investors grapple with concerns over a potential tech bubble. The release of new AI tools has intensified worries about the viability of the software-as-a-service (SaaS) business model, prompting discussions about an \"existential\" crisis in the software industry. Analysts warn that the rapid transformation driven by AI could also trigger broader market shocks, including potential disruptions in credit markets. Overall, these developments indicate a growing apprehension among investors about the sustainability of AI valuations and the broader implications for market stability.",
+      "rag_sources": [
+        {
+          "title": "AI valuation fears grip global investors as tech bubble concerns grow",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/ai-valuation-fears-grip-investors-as-tech-bubble-concerns-heighten.html",
+          "snippet": "2025-11-07: AI valuation fears grip global investors as tech bubble concerns grow: The recent slide among AI stocks has once again put fears of a tech bubble at the forefront of investors' minds.",
+          "guid": "108222913"
+        },
+        {
+          "title": "AI fears pummel software stocks: Is it 'illogical' panic or a SaaS apocalypse?",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/ai-anthropic-tools-saas-software-stocks-selloff.html",
+          "snippet": "2026-02-06: AI fears pummel software stocks: Is it 'illogical' panic or a SaaS apocalypse?: The software space is facing serious market concerns this week, after the release of new AI tools from AI tr",
+          "guid": "108261773"
+        },
+        {
+          "title": "Cybersecurity stock selling deepens on AI threat concerns. Why we're not bailing",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/23/cybersecurity-stock-selling-deepens-on-ai-threat-concerns-why-were-not-bailing.html",
+          "snippet": "2026-02-23: Cybersecurity stock selling deepens on AI threat concerns. Why we're not bailing: AI disruption fears spark sell-off in cyber, but the market is overlooking the sector's fundamentals",
+          "guid": "108268610"
+        },
+        {
+          "title": "Global software stocks extend losses amid fears over AI-led disruption",
+          "date": "2026-02-04",
+          "link": "https://www.cnbc.com/2026/02/04/software-stocks-plunge-us-ai-disruption.html",
+          "snippet": "2026-02-04: Global software stocks extend losses amid fears over AI-led disruption: Wall Street's fears around artificial intelligence-driven disruption affecting software companies made their way to ",
+          "guid": "108261128"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "e91276fe-4a15-4206-9c39-1557b2405ea1",
+      "label": "Epstein Connections and Fallout",
+      "spike_ratio": 1.612,
+      "article_count": 39,
+      "rag_answer": "Recent developments surrounding Jeffrey Epstein's connections have led to significant fallout among high-profile individuals and organizations. New documents released by the DOJ reveal Epstein's extensive ties in Silicon Valley, implicating figures like Bill Gates and Elon Musk, while also prompting resignations, such as that of the World Economic Forum CEO Borge Brende. The ongoing scrutiny has resulted in public backlash against prominent figures, including Donald Trump, who faces criticism for his past associations with Epstein. These revelations could impact investor sentiment and corporate reputations, particularly in sectors linked to the individuals involved, as the fallout continues to unfold.",
+      "rag_sources": [
+        {
+          "title": "Epstein's Silicon Valley connections went beyond Gates and Musk",
+          "date": "2026-02-09",
+          "link": "https://www.cnbc.com/2026/02/09/tech-leaders-epstein-records-silicon-valley-sergey-brin-thiel-sinofsky-reid-hoffman-musk-gates.html",
+          "snippet": "2026-02-09: Epstein's Silicon Valley connections went beyond Gates and Musk: The new Epstein files released by the DOJ show that the deceased financier was able to build relationships across Silicon V",
+          "guid": "108260807"
+        },
+        {
+          "title": "Epstein files fallout: The high-profile people burned by past dealings with a predator",
+          "date": "2026-02-16",
+          "link": "https://www.cnbc.com/2026/02/15/epstein-files-fallout-goldman-ruemmler-harvard-yale.html",
+          "snippet": "2026-02-16: Epstein files fallout: The high-profile people burned by past dealings with a predator: Jeffrey Epstein killed himself in a New York City federal jail in 2019. But more than six years late",
+          "guid": "108265580"
+        },
+        {
+          "title": "Epstein would 'name drop' Trump, Les Wexner says in deposition video",
+          "date": "2026-02-19",
+          "link": "https://www.cnbc.com/2026/02/19/epstein-trump-les-wexner-deposition.html",
+          "snippet": "2026-02-19: Epstein would 'name drop' Trump, Les Wexner says in deposition video: Democrats on the House Oversight Committee have expressed skepticism about Wexner's insistence that he had virtually n",
+          "guid": "108267572"
+        },
+        {
+          "title": "DOJ says names of two associates Epstein wired $100k and $250k to should stay secret",
+          "date": "2025-09-06",
+          "link": "https://www.cnbc.com/2025/09/06/epstein-doj-says-two-people-he-wired-thousands-to-should-stay-secret.html",
+          "snippet": "2025-09-06: DOJ says names of two associates Epstein wired $100k and $250k to should stay secret: The Justice Department request came after NBC News asked a federal judge to unseal the names of two pe",
+          "guid": "108195264"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "33686725-f40c-4761-887e-90829e5000e1",
+      "label": "Boeing and Airline Industry Updates",
+      "spike_ratio": 1.324,
+      "article_count": 15,
+      "rag_answer": "Boeing has experienced a significant surge in quarterly sales, with a 57% increase attributed to a rise in aircraft deliveries, marking the highest delivery rate in seven years. The company is optimistic about future growth, with expectations for higher deliveries of the 737 and 787 models, which has positively impacted its stock. Additionally, Alaska Airlines has made a substantial order for over 100 Boeing jets, further solidifying demand in the airline industry. However, Boeing has faced challenges, including strikes from defense workers, which could impact its operations in that sector. Overall, the developments suggest a strong recovery trajectory for Boeing amidst a recovering airline industry.",
+      "rag_sources": [
+        {
+          "title": "Boeing's quarterly sales jump 57% as CEO says there's 'a lot to be optimistic about'",
+          "date": "2026-01-27",
+          "link": "https://www.cnbc.com/2026/01/27/boeing-ba-4q-2025-earnings.html",
+          "snippet": "2026-01-27: Boeing's quarterly sales jump 57% as CEO says there's 'a lot to be optimistic about': Boeing's aircraft deliveries have surged over the past year as the manufacturer expects to continue to",
+          "guid": "108254354"
+        },
+        {
+          "title": "How this beaten-up aerospace giant could double, according to one analyst",
+          "date": "2025-12-02",
+          "link": "https://www.cnbc.com/2025/12/02/how-this-beaten-up-aerospace-giant-could-double-according-to-one-analyst.html",
+          "snippet": "2025-12-02: How this beaten-up aerospace giant could double, according to one analyst: Rothschild & Co Redburn sees Boeing doubling by the end of the decade.",
+          "guid": "108235211"
+        },
+        {
+          "title": "Boeing moves closer to a huge deal \u2014 plus, positive signs for one of our AI plays",
+          "date": "2026-03-06",
+          "link": "https://www.cnbc.com/2026/03/06/boeings-potential-big-deal-plus-positive-signs-for-one-an-ai-play.html",
+          "snippet": "2026-03-06: Boeing moves closer to a huge deal \u2014 plus, positive signs for one of our AI plays: Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time f",
+          "guid": "108274952"
+        },
+        {
+          "title": "GE Vernova's wind business faces a rocky future, and Southwest gives Boeing shares a lift",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/ge-vernovas-wind-business-faces-a-rocky-future-and-southwest-gives-boeing-shares-a-lift.html",
+          "snippet": "2025-09-11: GE Vernova's wind business faces a rocky future, and Southwest gives Boeing shares a lift: Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just i",
+          "guid": "108197673"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "6563a924-24a7-44a5-9c28-46dc7eadcfcd",
+      "label": "European stock market fluctuations",
+      "spike_ratio": 1.25,
+      "article_count": 17,
+      "rag_answer": "European stock markets have experienced notable fluctuations influenced by various geopolitical and economic factors. Recent developments include a rise in stocks following significant trade agreements, such as the EU's deal with India, and a drop in shares of companies like Dr Martens. However, volatility has also been evident, with sharp declines linked to Middle East conflicts and rising oil prices. Overall, while some periods have seen gains, the market remains sensitive to global events, suggesting that investors should remain cautious and informed.",
+      "rag_sources": [
+        {
+          "title": "Stock market swings got you reeling? Answer these 6 questions before making a trade",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/stock-market-swings-got-you-reeling-answering-6-questions-will-help.html",
+          "snippet": "2025-11-28: Stock market swings got you reeling? Answer these 6 questions before making a trade: Frustrating as volatility can be, it also tends to present opportunities.",
+          "guid": "108232626"
+        },
+        {
+          "title": "European stocks end higher after EU's 'mother of all deals' with India; Dr Martens shares drop 11%",
+          "date": "2026-01-27",
+          "link": "https://www.cnbc.com/2026/01/27/european-markets-stoxx-600-ftse-cac-dax-earnings.html",
+          "snippet": "2026-01-27: European stocks end higher after EU's 'mother of all deals' with India; Dr Martens shares drop 11%: European stocks closed higher on Tuesday, as international trade and corporate earnings ",
+          "guid": "108257365"
+        },
+        {
+          "title": "European markets finish higher as traders track Middle East turmoil",
+          "date": "2026-03-04",
+          "link": "https://www.cnbc.com/2026/03/04/european-markets-stoxx-600-ftse-dax-oil-prices-middle-east-latest.html",
+          "snippet": "2026-03-04: European markets finish higher as traders track Middle East turmoil: European stocks closed higher on Wednesday as markets continue to track developments in the Middle East.",
+          "guid": "108272722"
+        },
+        {
+          "title": "European stocks close soft as global investors look ahead to Fed meeting",
+          "date": "2025-12-05",
+          "link": "https://www.cnbc.com/2025/12/05/stoxx-600-ftse-100-on-dec-5-fed-meeting-ukraine-deal-in-focus.html",
+          "snippet": "2025-12-05: European stocks close soft as global investors look ahead to Fed meeting: Europe-listed shares were broadly higher on Friday but straddled the flatline at close.",
+          "guid": "108237119"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "a650670a-96ee-4967-8367-2e1e733e7054",
+      "label": "Interest Rates and Treasury Yields",
+      "spike_ratio": 1.185,
+      "article_count": 16,
+      "rag_answer": "Interest rates and Treasury yields have been fluctuating in response to various economic indicators and Federal Reserve signals. In late December 2025, the 10-year Treasury yield dipped as investors assessed the interest rate outlook for 2026, following strong GDP data. Earlier in the year, yields had surged above 4% after comments from Fed Chair Powell indicated uncertainty about future rate cuts. Overall, the market is reacting to economic data and Fed communications, leading to a cautious approach among investors as they seek alternatives amid changing yield dynamics.",
+      "rag_sources": [
+        {
+          "title": "10-year Treasury yield dips as investors assess interest rate outlook for 2026",
+          "date": "2025-12-29",
+          "link": "https://www.cnbc.com/2025/12/29/10-year-treasury-yield-in-focus-as-investors-assess-rate-outlook.html",
+          "snippet": "2025-12-29: 10-year Treasury yield dips as investors assess interest rate outlook for 2026: The moves come as traders digest the latest economic data and assess the Federal Reserve's monetary rate pat",
+          "guid": "108246099"
+        },
+        {
+          "title": "Treasury yields are stable as traders try to gauge impact of Trump's fight for Fed control",
+          "date": "2025-08-27",
+          "link": "https://www.cnbc.com/2025/08/27/us-treasury-yields-investors-look-ahead-to-key-inflation-data.html",
+          "snippet": "2025-08-27: Treasury yields are stable as traders try to gauge impact of Trump's fight for Fed control: Long-term U.S. Treasury yields backed off early highs Wednesday as traders tried to assess the e",
+          "guid": "108191159"
+        },
+        {
+          "title": "What the 10-year Treasury yield's chart tells us about where stocks are heading ",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/what-the-10-years-chart-tells-us-about-where-stocks-are-heading-.html",
+          "snippet": "2026-02-11: What the 10-year Treasury yield's chart tells us about where stocks are heading: If rates move\u00a0considerably higher after the strong run in equities, the pairing could create a bearish scen",
+          "guid": "108264558"
+        },
+        {
+          "title": "30-year Treasury yield touches 5% briefly, then retreats on weak jobs data",
+          "date": "2025-09-03",
+          "link": "https://www.cnbc.com/2025/09/03/us-treasury-yields-little-changed-as-markets-await-jobs-data.html",
+          "snippet": "2025-09-03: 30-year Treasury yield touches 5% briefly, then retreats on weak jobs data: U.S. Treasurys were little changed on Wednesday, but long-dated bonds hovered just below the 5% mark.",
+          "guid": "108193554"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

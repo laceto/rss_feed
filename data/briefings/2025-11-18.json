@@ -1,0 +1,204 @@
+{
+  "date": "2025-11-18",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "d97cc01c-d127-4ef1-93ea-09d558cd6a60",
+      "label": "Tech Stock Volatility",
+      "spike_ratio": 1.722,
+      "article_count": 31,
+      "rag_answer": "Tech stocks have been experiencing significant volatility, leading to notable sell-offs, particularly as tensions over geopolitical issues, such as those related to Greenland, have escalated. In January 2026, tech stocks led declines on Wall Street, indicating a risk-off sentiment among investors. Additionally, the market is witnessing a shift in focus, with discussions around a potential rotation from growth and technology stocks into value and defensive sectors. This volatility is compounded by external factors, including economic uncertainties and the impact of tariffs, which have further contributed to market fluctuations.",
+      "rag_sources": [
+        {
+          "title": "Stock market swings got you reeling? Answer these 6 questions before making a trade",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/stock-market-swings-got-you-reeling-answering-6-questions-will-help.html",
+          "snippet": "2025-11-28: Stock market swings got you reeling? Answer these 6 questions before making a trade: Frustrating as volatility can be, it also tends to present opportunities.",
+          "guid": "108232626"
+        },
+        {
+          "title": "Big Tech is poaching energy talent to fuel its AI ambitions",
+          "date": "2026-01-14",
+          "link": "https://www.cnbc.com/2026/01/14/big-tech-google-microsoft-energy-hiring-ai.html",
+          "snippet": "2026-01-14: Big Tech is poaching energy talent to fuel its AI ambitions: Hires of energy-related talent by Big Tech was 30% higher in 2025 than pre-AI levels.",
+          "guid": "108250479"
+        },
+        {
+          "title": "Tech giants commit billions to Indian AI as New Delhi pushes for superpower status",
+          "date": "2026-02-21",
+          "link": "https://www.cnbc.com/2026/02/21/india-ai-summit-tech-giants-billion-dollar-investments.html",
+          "snippet": "2026-02-21: Tech giants commit billions to Indian AI as New Delhi pushes for superpower status: Tech and world leaders flocked to New Delhi for the India AI Impact Summit",
+          "guid": "108267201"
+        },
+        {
+          "title": "Tech stocks lead Wall Street sell-off as tensions over Greenland escalate",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/tech-stocks-lead-wall-street-sell-off-as-tensions-over-greenland-escalate.html",
+          "snippet": "2026-01-20: Tech stocks lead Wall Street sell-off as tensions over Greenland escalate: Tech stocks led declines Tuesday as renewed trade rhetoric tied to Greenland fueled a risk-off move across U.S. m",
+          "guid": "108254143"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "4761f37d-27cd-4139-ae34-f7ba6d6fa059",
+      "label": "Epstein Files and Political Reactions",
+      "spike_ratio": 1.322,
+      "article_count": 46,
+      "rag_answer": "The ongoing release of Epstein files by the Department of Justice (DOJ) has sparked significant political backlash, with congressional lawmakers, particularly Democrats, expressing dissatisfaction over the handling and redaction of these documents. Key figures, including Bill Gates and Leon Black, are expected to testify, indicating heightened scrutiny and potential legal ramifications. The political discourse surrounding these files, especially in relation to the Epstein Files Transparency Act, may influence investor sentiment and market stability, particularly as it intersects with broader political risks associated with the Trump administration and its legacy. Overall, the situation reflects a complex interplay of legal, political, and market dynamics that could impact investment strategies in the U.S.",
+      "rag_sources": [
+        {
+          "title": "Epstein files: Senators seek probe of DOJ over release, redaction of sex offender's documents",
+          "date": "2026-03-11",
+          "link": "https://www.cnbc.com/2026/03/11/senators-epstein-files-investigation.html",
+          "snippet": "2026-03-11: Epstein files: Senators seek probe of DOJ over release, redaction of sex offender's documents: The Department of Justice has come under fire for its handling of documents related to disgra",
+          "guid": "108276332"
+        },
+        {
+          "title": "Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/epstein-doj-bondi-trump.html",
+          "snippet": "2026-03-05: Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports: The top lawyer for Goldman Sachs, Bill Gates, Leon Black and others are expected to testify soon a",
+          "guid": "108274237"
+        },
+        {
+          "title": "Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents",
+          "date": "2025-12-23",
+          "link": "https://www.cnbc.com/2025/12/23/epstein-files-doj-release-trump.html",
+          "snippet": "2025-12-23: Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents: The release comes amid intense scrutiny from congressional lawmakers and victims ove",
+          "guid": "108244822"
+        },
+        {
+          "title": "Epstein files released to Congress are mostly \u2018recycled\u2019 documents, Democrat says",
+          "date": "2025-08-23",
+          "link": "https://www.cnbc.com/2025/08/23/jeffrey-epstein-ghislaine-maxwell-trump-doj.html",
+          "snippet": "2025-08-23: Epstein files released to Congress are mostly \u2018recycled\u2019 documents, Democrat says: The Justice Department late Friday gave Congress the first trove of documents to comply with a subpoena b",
+          "guid": "108189960"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "a21f7800-1019-4647-adfd-df0863c955d0",
+      "label": "Fed rate cuts and outlook",
+      "spike_ratio": 1.114,
+      "article_count": 39,
+      "rag_answer": "Recent developments indicate a divided stance among Federal Reserve officials regarding interest rate cuts, with discussions suggesting two additional cuts by the end of 2025. Fed Chair Powell has indicated that conditions may warrant cuts, but uncertainty remains high. As of December 2025, the Fed is expected to implement its third consecutive rate cut, although there are concerns about inflation that could impact future decisions. Market expectations for further cuts in 2026 are diminishing, particularly as inflation fears rise, suggesting a cautious outlook moving forward.",
+      "rag_sources": [
+        {
+          "title": "Divided Fed officials saw another two interest rate cuts by the end of 2025, minutes show",
+          "date": "2025-10-08",
+          "link": "https://www.cnbc.com/2025/10/08/fed-minutes-september-2025.html",
+          "snippet": "2025-10-08: Divided Fed officials saw another two interest rate cuts by the end of 2025, minutes show: Officials were strongly inclined to lower rates, with the only dispute seeming to be over how man",
+          "guid": "108209324"
+        },
+        {
+          "title": "Powell indicates conditions 'may warrant' interest rate cuts as Fed proceeds 'carefully'",
+          "date": "2025-08-22",
+          "link": "https://www.cnbc.com/2025/08/22/powell-indicates-conditions-may-warrant-interest-rate-cuts-as-fed-proceeds-carefully.html",
+          "snippet": "2025-08-22: Powell indicates conditions 'may warrant' interest rate cuts as Fed proceeds 'carefully': Powell on Friday gave a tepid indication of possible cuts ahead as he noted a high level of uncert",
+          "guid": "108189532"
+        },
+        {
+          "title": "The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/09/the-fed-decision-is-expected-to-feature-a-rate-cut-and-a-lot-more-heres-what-to-expect.html",
+          "snippet": "2025-12-10: The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect: The central bank is poised to deliver its third straight interest rate cut Wednesday, while firing a ",
+          "guid": "108239042"
+        },
+        {
+          "title": "Fed's Goolsbee calls for a hold on cuts as current rate of inflation is 'not good enough'",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/feds-goolsbee-calls-for-a-hold-on-cuts-as-current-rate-of-inflation-is-not-good-enough.html",
+          "snippet": "2026-02-24: Fed's Goolsbee calls for a hold on cuts as current rate of inflation is 'not good enough': The Chicago Fed president said Tuesday that cuts aren't appropriate until there's more evidence t",
+          "guid": "108269037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "6cfbafc7-cfd5-4a00-ad72-313a521c3ad7",
+      "label": "French Political Crisis",
+      "spike_ratio": 1.058,
+      "article_count": 11,
+      "rag_answer": "France is currently experiencing a significant political crisis marked by the resignation of Prime Minister Sebastien Lecornu after just 27 days in office, leading to uncertainty about the future leadership. President Macron faces pressure to either appoint a new Prime Minister, call for new parliamentary elections, or resign, as his allies, including former Prime Minister Gabriel Attal, have begun to openly criticize him. This turmoil has resulted in a decline in the CAC 40 index and has led strategists to advise avoiding investments in French banks and telecommunications, indicating a broader concern about the stability of domestic-facing stocks in France. Overall, the political instability is contributing to a climate of uncertainty in European markets.",
+      "rag_sources": [
+        {
+          "title": "France is plunged further into political crisis. Here\u2019s what could happen next",
+          "date": "2025-10-07",
+          "link": "https://www.cnbc.com/2025/10/07/what-happens-next-in-france-after-lecornus-resignation.html",
+          "snippet": "2025-10-07: France is plunged further into political crisis. Here\u2019s what could happen next: Macron now has to choose a new PM, opt for new parliamentary elections or resign.",
+          "guid": "108207986"
+        },
+        {
+          "title": "France's crisis takes an unexpected turn as Macron's allies defy him",
+          "date": "2025-10-08",
+          "link": "https://www.cnbc.com/2025/10/08/frances-crisis-takes-an-unexpected-turn-as-macrons-allies-defy-him.html",
+          "snippet": "2025-10-08: France's crisis takes an unexpected turn as Macron's allies defy him: The most notable criticism has come from former Prime Minister Gabriel Attal, once Macron's prot\u00e9g\u00e9.",
+          "guid": "108209228"
+        },
+        {
+          "title": "France's political crisis deepens as another PM is axed: Here's what happens next",
+          "date": "2025-09-09",
+          "link": "https://www.cnbc.com/2025/09/09/what-happens-next-in-france-after-another-pm-is-ousted.html",
+          "snippet": "2025-09-09: France's political crisis deepens as another PM is axed: Here's what happens next: CNBC takes a look at what could happen next in France after the ousting of yet another prime minister.",
+          "guid": "108195888"
+        },
+        {
+          "title": "French PM resigns after 27 days sparking fresh political chaos",
+          "date": "2025-10-06",
+          "link": "https://www.cnbc.com/2025/10/06/frances-new-pm-resigns-as-political-chaos-continues.html",
+          "snippet": "2025-10-06: French PM resigns after 27 days sparking fresh political chaos: France's new Prime Minister Sebastien Lecornu has resigned just weeks after his appointment to the role, plunging the countr",
+          "guid": "108207973"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "cbc8e3a7-4226-48ab-86d7-fe0ceba213ba",
+      "label": "SNAP benefits and government shutdown",
+      "spike_ratio": 1.0,
+      "article_count": 12,
+      "rag_answer": "SNAP benefits are at risk due to a government shutdown, with funding potentially lapsing shortly. Despite past administrations continuing payments during shutdowns, the Trump administration has suggested halting SNAP benefits, contradicting a court ruling that mandates their continuation. Treasury Secretary Scott Bessent indicated that benefits could resume soon, but legal challenges persist as states have sued to ensure the program remains funded. The uncertainty surrounding SNAP could significantly impact consumers reliant on food assistance and retailers who depend on SNAP transactions for sales.",
+      "rag_sources": [
+        {
+          "title": "How a lapse in SNAP benefits could affect consumers and retailers",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/snap-benefit-lapse-consumers-retailers-effects.html",
+          "snippet": "2025-10-29: How a lapse in SNAP benefits could affect consumers and retailers: Funding for the Supplemental Nutrition Assistance Program could lapse within days if the government shutdown persists.",
+          "guid": "108218123"
+        },
+        {
+          "title": "Trump suggests U.S. won't pay any SNAP benefits during shutdown, contradicting court filing",
+          "date": "2025-11-04",
+          "link": "https://www.cnbc.com/2025/11/04/snap-trump-food-shutdown.html",
+          "snippet": "2025-11-04: Trump suggests U.S. won't pay any SNAP benefits during shutdown, contradicting court filing: Prior presidential administrations have continued paying SNAP benefits during past shutdowns of",
+          "guid": "108221171"
+        },
+        {
+          "title": "Treasury Secretary Bessent says SNAP food benefits could restart by Wednesday",
+          "date": "2025-11-03",
+          "link": "https://www.cnbc.com/2025/11/02/bessent-trump-snap-food-stamps-shutdown.html",
+          "snippet": "2025-11-03: Treasury Secretary Bessent says SNAP food benefits could restart by Wednesday: SNAP food benefits could restart as early as Wednesday, Treasury Secretary Scott Bessent said Sunday.",
+          "guid": "108220349"
+        },
+        {
+          "title": "SNAP benefits: Trump admin seeks emergency block on order to pay food stamps in full",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/snap-trump-appeals-food-stamps.html",
+          "snippet": "2025-11-07: SNAP benefits: Trump admin seeks emergency block on order to pay food stamps in full: The Trump administration tried not to pay for any food stamps in November because of the government sh",
+          "guid": "108223037"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

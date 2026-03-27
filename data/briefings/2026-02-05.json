@@ -1,0 +1,204 @@
+{
+  "date": "2026-02-05",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "2e955eac-a74a-4c42-be9f-b871d12feb52",
+      "label": "Market Trends and Stock Movements",
+      "spike_ratio": 1.572,
+      "article_count": 61,
+      "rag_answer": "The stock market has experienced significant volatility, with benchmarks reaching record highs due to easing inflation, strong corporate earnings, and expectations of U.S. rate cuts. However, recent sentiment has reversed, indicating potential concerns about an economic slowdown, as suggested by Stifel's warning of a possible stagflation environment. Despite this, certain sectors, particularly those related to AI and retail, have shown resilience and momentum. Investors are advised to carefully assess market conditions before making trades, as opportunities may arise amidst the fluctuations.",
+      "rag_sources": [
+        {
+          "title": "Stock market swings got you reeling? Answer these 6 questions before making a trade",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/stock-market-swings-got-you-reeling-answering-6-questions-will-help.html",
+          "snippet": "2025-11-28: Stock market swings got you reeling? Answer these 6 questions before making a trade: Frustrating as volatility can be, it also tends to present opportunities.",
+          "guid": "108232626"
+        },
+        {
+          "title": "Stock benchmarks are scaling record highs: 'Animal spirits are soaring' ",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/stock-benchmarks-are-scaling-record-highs-animal-spirits-are-soaring-.html",
+          "snippet": "2025-09-11: Stock benchmarks are scaling record highs: 'Animal spirits are soaring': Easing inflation pressures,\u00a0resilient corporate earnings and expectations for U.S. rate cuts have boosted investor ",
+          "guid": "108197275"
+        },
+        {
+          "title": "Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward",
+          "date": "2025-12-26",
+          "link": "https://www.cnbc.com/2025/12/26/market-sentiment-has-made-a-huge-reversal-heres-why-and-what-it-means-going-forward.html",
+          "snippet": "2025-12-26: Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward: Something unusual happened in the past few weeks.",
+          "guid": "108245814"
+        },
+        {
+          "title": "Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel",
+          "date": "2025-08-11",
+          "link": "https://www.cnbc.com/2025/08/11/stock-market-party-to-be-ruined-by-sudden-economic-slowdown-says-stifel.html",
+          "snippet": "2025-08-11: Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel: The market could be in for a stagflation environment, the firm said.",
+          "guid": "108184067"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "b4858294-7651-4b3b-b0c4-3f164aa8755d",
+      "label": "AI Chip Demand Surge",
+      "spike_ratio": 1.524,
+      "article_count": 32,
+      "rag_answer": "The surge in AI chip demand is significantly impacting the semiconductor industry, with companies like TSMC reporting record profits and ASML experiencing a notable increase in orders. SK Hynix has sold out its chips for 2026, highlighting the overwhelming demand driven by AI applications. However, this boom is also leading to shortages in memory chips, which could affect consumer electronics and automotive sectors. Overall, the AI infrastructure buildout is creating both opportunities for chip manufacturers and challenges related to supply chain constraints.",
+      "rag_sources": [
+        {
+          "title": "Chip giant ASML surges 7% as AI boom fuels record orders and upbeat 2026 guidance",
+          "date": "2026-01-28",
+          "link": "https://www.cnbc.com/2026/01/28/asml-q4-2025-earnings-report.html",
+          "snippet": "2026-01-28: Chip giant ASML surges 7% as AI boom fuels record orders and upbeat 2026 guidance: ASML is experiencing several tailwinds including an expectation of increased chipmaking capacity and cont",
+          "guid": "108257383"
+        },
+        {
+          "title": "TSMC delivers another record quarter as profit jumps 35% fueled by robust AI chip demand",
+          "date": "2026-01-15",
+          "link": "https://www.cnbc.com/2026/01/15/tsmc-q4-profit-record-ai-chip-demand-nt1-trillion.html",
+          "snippet": "2026-01-15: TSMC delivers another record quarter as profit jumps 35% fueled by robust AI chip demand: TSMCy delivered another estimate-beating quarter, with profit up 35% from a year ago as advanced c",
+          "guid": "108252727"
+        },
+        {
+          "title": "SK Hynix, a critical Nvidia supplier, has already sold out chips for 2026 as AI demand booms",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/sk-hynix-q3-profit-revenue-record-.html",
+          "snippet": "2025-10-29: SK Hynix, a critical Nvidia supplier, has already sold out chips for 2026 as AI demand booms: SK Hynix posted record quarterly revenue and profit, boosted by a strong demand for its high b",
+          "guid": "108217835"
+        },
+        {
+          "title": "A 'seismic' Nvidia shift, AI chip shortages and how it's threatening to hike gadget prices",
+          "date": "2025-12-02",
+          "link": "https://www.cnbc.com/2025/12/02/nvidia-shift-ai-chip-shortages-threatening-to-hike-gadget-prices.html",
+          "snippet": "2025-12-02: A 'seismic' Nvidia shift, AI chip shortages and how it's threatening to hike gadget prices: The AI infrastructure buildout is creating shortages of components including various types of ch",
+          "guid": "108233060"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "68090fdc-fa74-4ac8-b641-8919461e64cd",
+      "label": "Gold and Silver Market Volatility",
+      "spike_ratio": 1.456,
+      "article_count": 23,
+      "rag_answer": "The gold and silver markets have experienced significant volatility recently, with sharp price fluctuations driven by various factors, including inflation fears and oscillating oil prices. After a record run, both metals faced a notable sell-off, with silver's volatility exceeding 100% and prices dropping dramatically at times, such as a 30% decline for silver and a 10% drop for gold in late January. Speculation, particularly from China, has also contributed to the erratic trading patterns. Overall, the market remains uncertain, with investors grappling with the implications of these price swings and the potential for further declines.",
+      "rag_sources": [
+        {
+          "title": "Gold and silver extend rebound but concerns over volatility linger",
+          "date": "2026-02-04",
+          "link": "https://www.cnbc.com/2026/02/04/gold-and-silver-extend-rebound-but-concerns-over-volatility-linger.html",
+          "snippet": "2026-02-04: Gold and silver extend rebound but concerns over volatility linger: Gold and silver climb with further gains seen determined by rate expectations",
+          "guid": "108261162"
+        },
+        {
+          "title": "Gold and silver extend losses as oscillating oil prices spark market volatility  ",
+          "date": "2026-03-20",
+          "link": "https://www.cnbc.com/2026/03/20/gold-silver-price-metal-market-oil-brent-wti-futures-iran-war-inflation.html",
+          "snippet": "2026-03-20: Gold and silver extend losses as oscillating oil prices spark market volatility: The metals saw bumpy trade on Friday morning, after joining a broad sell-off the previous day.",
+          "guid": "108280754"
+        },
+        {
+          "title": "Gold and silver stumble after record run. Is now the time to enter the market?",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/gold-and-silver-rally-has-taken-a-breather-have-finally-fallen-is-now-the-time-to-enter-the-market.html",
+          "snippet": "2026-01-30: Gold and silver stumble after record run. Is now the time to enter the market?: Gold and silver prices fell sharply on Friday, snapping a powerful rally that had carried both metals to rec",
+          "guid": "108259319"
+        },
+        {
+          "title": "Silver's volatility has exceeded 100%. Where exactly is the bottom?",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/silver-price-volatility-investors-search-bottom-meme-stock-commodity-gamestop-buy-sell.html",
+          "snippet": "2026-02-06: Silver's volatility has exceeded 100%. Where exactly is the bottom?: Silver's dizzying plunge last week and erratic trading this week have left investors wondering: Where and when is the b",
+          "guid": "108262306"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "0b33da45-501c-4267-990c-fc52c823783a",
+      "label": "Obesity Drug Market Developments",
+      "spike_ratio": 1.447,
+      "article_count": 22,
+      "rag_answer": "The obesity drug market is experiencing significant growth and transformation, driven by increased access and new product launches. Medicare's decision to cover obesity drugs is expected to open access to approximately 15 million patients, enhancing market potential for companies like Novo Nordisk and Eli Lilly. Additionally, Pfizer is diversifying its pipeline with a substantial deal to develop a Chinese obesity pill, indicating a competitive landscape. However, challenges remain regarding insurance coverage, drug pricing, and the emergence of copycat drugs, which could impact market dynamics.",
+      "rag_sources": [
+        {
+          "title": "What obesity drugmakers see next in the market: More pills, easier access and drug combinations",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/2026/01/23/weight-loss-glp-1-drugs-next-steps-for-eli-lilly-novo-nordisk-pfizer.html",
+          "snippet": "2026-01-23: What obesity drugmakers see next in the market: More pills, easier access and drug combinations: CNBC spoke to executives from Eli Lilly, Novo Nordisk, Pfizer and other drugmakers at the a",
+          "guid": "108255916"
+        },
+        {
+          "title": "Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next",
+          "date": "2025-11-02",
+          "link": "https://www.cnbc.com/2025/11/02/whats-next-for-the-weight-loss-drug-market-pills-rivals-insurance.html",
+          "snippet": "2025-11-02: Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next: Competition is heating up, but questions remain about insurance coverage, drug pricing, copycat drugs a",
+          "guid": "108216702"
+        },
+        {
+          "title": "Millions more Americans could access obesity drugs after Trump's deals with Eli Lilly, Novo Nordisk",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/trump-deals-with-lilly-novo-nordisk-could-broaden-obesity-drug-access.html",
+          "snippet": "2025-11-07: Millions more Americans could access obesity drugs after Trump's deals with Eli Lilly, Novo Nordisk: Medicare will start covering obesity drugs for the first time, which could open access ",
+          "guid": "108223164"
+        },
+        {
+          "title": "Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill\u00a0",
+          "date": "2025-12-09",
+          "link": "https://www.cnbc.com/2025/12/09/pfizer-deal-yaopharma-obesity-pill.html",
+          "snippet": "2025-12-09: Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill: The deal will help Pfizer beef up and diversify its obesity drug pipeline following its $10 billi",
+          "guid": "108239106"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "5cc221ba-5416-492e-bfa3-c1552998cc5f",
+      "label": "Jeffrey Epstein investigation updates",
+      "spike_ratio": 1.25,
+      "article_count": 13,
+      "rag_answer": "The investigation into Jeffrey Epstein continues to unfold with significant developments, including the Department of Justice (DOJ) planning to release new documents related to Epstein and Ghislaine Maxwell, amid scrutiny from Congress and victims. High-profile individuals, including top lawyers and financiers, are expected to testify, indicating a potential escalation in accountability for those involved. The release of documents has sparked controversy over redactions and the handling of sensitive information, which could impact public trust in the DOJ and related institutions. These ongoing revelations may influence market sentiment, particularly for firms associated with Epstein, as public perception and regulatory scrutiny intensify.",
+      "rag_sources": [
+        {
+          "title": "Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/epstein-doj-bondi-trump.html",
+          "snippet": "2026-03-05: Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports: The top lawyer for Goldman Sachs, Bill Gates, Leon Black and others are expected to testify soon a",
+          "guid": "108274237"
+        },
+        {
+          "title": "Jeffrey Epstein island photos and videos released as top banks share files with House Oversight Committee ",
+          "date": "2025-12-03",
+          "link": "https://www.cnbc.com/2025/12/03/epstein-files-jpmorgan-deutsche-bank-virgin-islands.html",
+          "snippet": "2025-12-03: Jeffrey Epstein island photos and videos released as top banks share files with House Oversight Committee: The release comes as Attorney General Pam Bondi is on a deadline to publicly shar",
+          "guid": "108236053"
+        },
+        {
+          "title": "DOJ urges release of Jeffrey Epstein and Ghislaine Maxwell grand jury info in new filings",
+          "date": "2025-07-30",
+          "link": "https://www.cnbc.com/2025/07/30/jeffrey-epstein-ghislaine-maxwell-victims-trump.html",
+          "snippet": "2025-07-30: DOJ urges release of Jeffrey Epstein and Ghislaine Maxwell grand jury info in new filings: The Trump administration has faced pressure this month to release information in criminal files r",
+          "guid": "108178938"
+        },
+        {
+          "title": "Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents",
+          "date": "2025-12-23",
+          "link": "https://www.cnbc.com/2025/12/23/epstein-files-doj-release-trump.html",
+          "snippet": "2025-12-23: Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents: The release comes amid intense scrutiny from congressional lawmakers and victims ove",
+          "guid": "108244822"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "date": "2026-02-04",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "98f2b667-e4df-4662-8af7-4b0e530dab68",
+      "label": "Housing Market Trends and Challenges",
+      "spike_ratio": 1.528,
+      "article_count": 33,
+      "rag_answer": "The housing market is facing significant challenges, with Goldman Sachs predicting an 8% decline in the second half of 2025 due to issues like immigration and affordability. Despite a recent drop in mortgage rates, many potential homebuyers feel priced out, leading to a stagnation in home sales, which fell over 8% in January 2026. In response to these affordability concerns, a housing affordability package is advancing in Congress, aimed at reducing regulations for homebuilders and incentivizing local governments. However, as the spring housing market begins, rising mortgage rates are creating additional economic headwinds, complicating recovery efforts.",
+      "rag_sources": [
+        {
+          "title": "Housing to remain weakest part of economy, falling 8% in the second half, Goldman says",
+          "date": "2025-08-04",
+          "link": "https://www.cnbc.com/2025/08/04/housing-to-remain-weakest-part-of-economy-in-the-2nd-half-goldman-says.html",
+          "snippet": "2025-08-04: Housing to remain weakest part of economy, falling 8% in the second half, Goldman says: The Wall Street investment bank named immigration and affordability challenges as two obstacles stan",
+          "guid": "108181055"
+        },
+        {
+          "title": "Housing affordability package set to advance in Congress amid home-cost concerns",
+          "date": "2026-02-10",
+          "link": "https://www.cnbc.com/2026/02/09/housing-affordability-prices-congress.html",
+          "snippet": "2026-02-10: Housing affordability package set to advance in Congress amid home-cost concerns: Wide-ranging legislation would reduce regulations for homebuilders while giving local governments incentiv",
+          "guid": "108262990"
+        },
+        {
+          "title": "What to expect from the housing market in 2026\u2014and the 10 major cities where prices could fall the most",
+          "date": "2025-12-31",
+          "link": "https://www.cnbc.com/2025/12/31/housing-market-outlook-for-2026and-10-cities-where-prices-may-fall.html",
+          "snippet": "2025-12-31: What to expect from the housing market in 2026\u2014and the 10 major cities where prices could fall the most: Home prices and mortgage rates will remain elevated in 2026, but slower price growt",
+          "guid": "108246806"
+        },
+        {
+          "title": "Here's what's keeping homebuyers on the sidelines despite mortgage rates hitting a 10-month low ",
+          "date": "2025-08-20",
+          "link": "https://www.cnbc.com/2025/08/20/mortgage-rates-hit-a-10-month-low-why-home-buyers-are-on-the-sidelines.html",
+          "snippet": "2025-08-20: Here's what's keeping homebuyers on the sidelines despite mortgage rates hitting a 10-month low: A lot of would-be buyers feel priced out of the housing market. Lower mortgage rates might ",
+          "guid": "108188145"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "b4858294-7651-4b3b-b0c4-3f164aa8755d",
+      "label": "AI Chip Demand Surge",
+      "spike_ratio": 1.515,
+      "article_count": 30,
+      "rag_answer": "The surge in AI chip demand is significantly impacting the semiconductor industry, with companies like TSMC and SK Hynix reporting record profits and sold-out inventories for 2026. This boom is driven by the increasing need for advanced chips to support AI infrastructure, leading to shortages in various components, including memory chips, which could affect consumer electronics and automotive sectors. As a result, chip stocks are rallying, and companies are raising their spending forecasts to capitalize on this trend. However, the shortages may lead to higher prices for gadgets and other tech products, creating potential challenges for consumers and manufacturers alike.",
+      "rag_sources": [
+        {
+          "title": "Chip giant ASML surges 7% as AI boom fuels record orders and upbeat 2026 guidance",
+          "date": "2026-01-28",
+          "link": "https://www.cnbc.com/2026/01/28/asml-q4-2025-earnings-report.html",
+          "snippet": "2026-01-28: Chip giant ASML surges 7% as AI boom fuels record orders and upbeat 2026 guidance: ASML is experiencing several tailwinds including an expectation of increased chipmaking capacity and cont",
+          "guid": "108257383"
+        },
+        {
+          "title": "TSMC delivers another record quarter as profit jumps 35% fueled by robust AI chip demand",
+          "date": "2026-01-15",
+          "link": "https://www.cnbc.com/2026/01/15/tsmc-q4-profit-record-ai-chip-demand-nt1-trillion.html",
+          "snippet": "2026-01-15: TSMC delivers another record quarter as profit jumps 35% fueled by robust AI chip demand: TSMCy delivered another estimate-beating quarter, with profit up 35% from a year ago as advanced c",
+          "guid": "108252727"
+        },
+        {
+          "title": "SK Hynix, a critical Nvidia supplier, has already sold out chips for 2026 as AI demand booms",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/sk-hynix-q3-profit-revenue-record-.html",
+          "snippet": "2025-10-29: SK Hynix, a critical Nvidia supplier, has already sold out chips for 2026 as AI demand booms: SK Hynix posted record quarterly revenue and profit, boosted by a strong demand for its high b",
+          "guid": "108217835"
+        },
+        {
+          "title": "A 'seismic' Nvidia shift, AI chip shortages and how it's threatening to hike gadget prices",
+          "date": "2025-12-02",
+          "link": "https://www.cnbc.com/2025/12/02/nvidia-shift-ai-chip-shortages-threatening-to-hike-gadget-prices.html",
+          "snippet": "2025-12-02: A 'seismic' Nvidia shift, AI chip shortages and how it's threatening to hike gadget prices: The AI infrastructure buildout is creating shortages of components including various types of ch",
+          "guid": "108233060"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "6b482d3d-4bd3-4a5d-950f-4a9273ba8086",
+      "label": "Fed Chair Confirmation Controversy",
+      "spike_ratio": 1.485,
+      "article_count": 51,
+      "rag_answer": "The Fed Chair confirmation controversy is marked by significant pushback against candidates like Hassett and Warsh, primarily due to concerns over their ties to former President Trump and the potential impact on the Federal Reserve's independence. High-level individuals close to Trump have expressed reservations about Hassett, while Senator Thom Tillis is committed to blocking Warsh's confirmation, citing similar independence concerns. Amidst this turmoil, current Fed Chair Jerome Powell is under investigation, which has raised alarms about the implications for Fed independence, as highlighted by former Chair Janet Yellen. These developments create uncertainty in the markets, as investors are wary of how the leadership changes at the Fed could affect monetary policy and economic stability.",
+      "rag_sources": [
+        {
+          "title": "Hassett's Fed chair candidacy received pushback from high-level people close to Trump, sources say",
+          "date": "2025-12-15",
+          "link": "https://www.cnbc.com/2025/12/15/hassetts-fed-chair-candidacy-received-pushback-from-high-level-people-close-to-trump-sources-say.html",
+          "snippet": "2025-12-15: Hassett's Fed chair candidacy received pushback from high-level people close to Trump, sources say: There's concern that the National Economic Council director is too close to the presiden",
+          "guid": "108241774"
+        },
+        {
+          "title": "Senate should proceed with Warsh hearings for Fed chair despite Powell probe: Bessent",
+          "date": "2026-02-13",
+          "link": "https://www.cnbc.com/2026/02/13/fed-chair-warsh-powell-senate-bessent.html",
+          "snippet": "2026-02-13: Senate should proceed with Warsh hearings for Fed chair despite Powell probe: Bessent: Bessent told CNBC's \\Squawk Box\\\" he believes Republicans on the Senate Banking Committee \\\"are going",
+          "guid": "108265492"
+        },
+        {
+          "title": "Hassett says Fed independence is \u2018really important\u2019 and chair candidates shouldn\u2019t be disqualified for being Trump\u2019s friend",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/fed-chief-candidate-hassett-says-central-banks-independence-is-really-important-would-move-rates-by-consensus.html",
+          "snippet": "2025-12-16: Hassett says Fed independence is \u2018really important\u2019 and chair candidates shouldn\u2019t be disqualified for being Trump\u2019s friend: Hassett declined in a CNBC interview to directly address his ow",
+          "guid": "108242375"
+        },
+        {
+          "title": "BlackRock's Rieder the latest candidate to interview in Fed chair search",
+          "date": "2025-09-12",
+          "link": "https://www.cnbc.com/2025/09/12/blackrocks-rieder-the-latest-candidate-to-interview-in-fed-chair-search.html",
+          "snippet": "2025-09-12: BlackRock's Rieder the latest candidate to interview in Fed chair search: The White House search for the next Federal Reserve chair continues to twist and turn.",
+          "guid": "108198357"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        },
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "68090fdc-fa74-4ac8-b641-8919461e64cd",
+      "label": "Gold and Silver Market Volatility",
+      "spike_ratio": 1.479,
+      "article_count": 21,
+      "rag_answer": "The gold and silver markets have experienced significant volatility recently, with sharp price fluctuations driven by various factors, including inflation fears and oscillating oil prices. After a record run, both metals faced a notable sell-off, with silver's volatility exceeding 100% and prices dropping dramatically at times, such as a 30% decline for silver and a 10% drop for gold following changes in Federal Reserve expectations. Speculation, particularly from China, has also contributed to the erratic trading patterns. Overall, these developments indicate a turbulent market environment, raising concerns among investors about potential further declines and the timing of market entry.",
+      "rag_sources": [
+        {
+          "title": "Gold and silver extend rebound but concerns over volatility linger",
+          "date": "2026-02-04",
+          "link": "https://www.cnbc.com/2026/02/04/gold-and-silver-extend-rebound-but-concerns-over-volatility-linger.html",
+          "snippet": "2026-02-04: Gold and silver extend rebound but concerns over volatility linger: Gold and silver climb with further gains seen determined by rate expectations",
+          "guid": "108261162"
+        },
+        {
+          "title": "Gold and silver extend losses as oscillating oil prices spark market volatility  ",
+          "date": "2026-03-20",
+          "link": "https://www.cnbc.com/2026/03/20/gold-silver-price-metal-market-oil-brent-wti-futures-iran-war-inflation.html",
+          "snippet": "2026-03-20: Gold and silver extend losses as oscillating oil prices spark market volatility: The metals saw bumpy trade on Friday morning, after joining a broad sell-off the previous day.",
+          "guid": "108280754"
+        },
+        {
+          "title": "Gold and silver stumble after record run. Is now the time to enter the market?",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/gold-and-silver-rally-has-taken-a-breather-have-finally-fallen-is-now-the-time-to-enter-the-market.html",
+          "snippet": "2026-01-30: Gold and silver stumble after record run. Is now the time to enter the market?: Gold and silver prices fell sharply on Friday, snapping a powerful rally that had carried both metals to rec",
+          "guid": "108259319"
+        },
+        {
+          "title": "Silver's volatility has exceeded 100%. Where exactly is the bottom?",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/silver-price-volatility-investors-search-bottom-meme-stock-commodity-gamestop-buy-sell.html",
+          "snippet": "2026-02-06: Silver's volatility has exceeded 100%. Where exactly is the bottom?: Silver's dizzying plunge last week and erratic trading this week have left investors wondering: Where and when is the b",
+          "guid": "108262306"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "0b33da45-501c-4267-990c-fc52c823783a",
+      "label": "Obesity Drug Market Developments",
+      "spike_ratio": 1.429,
+      "article_count": 20,
+      "rag_answer": "The obesity drug market is experiencing significant growth and transformation, driven by increased access through Medicare coverage and new product launches. Notably, Eli Lilly and Novo Nordisk are leading the charge, with Lilly's recent pill showing promise in maintaining weight loss and Novo's CEO highlighting a potential 15 million patient opportunity due to Medicare's coverage. Additionally, Pfizer is diversifying its pipeline with a substantial deal to develop a Chinese obesity pill. However, the market faces challenges, including competition, insurance coverage questions, and regulatory hurdles, which could impact pricing and accessibility.",
+      "rag_sources": [
+        {
+          "title": "What obesity drugmakers see next in the market: More pills, easier access and drug combinations",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/2026/01/23/weight-loss-glp-1-drugs-next-steps-for-eli-lilly-novo-nordisk-pfizer.html",
+          "snippet": "2026-01-23: What obesity drugmakers see next in the market: More pills, easier access and drug combinations: CNBC spoke to executives from Eli Lilly, Novo Nordisk, Pfizer and other drugmakers at the a",
+          "guid": "108255916"
+        },
+        {
+          "title": "Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next",
+          "date": "2025-11-02",
+          "link": "https://www.cnbc.com/2025/11/02/whats-next-for-the-weight-loss-drug-market-pills-rivals-insurance.html",
+          "snippet": "2025-11-02: Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next: Competition is heating up, but questions remain about insurance coverage, drug pricing, copycat drugs a",
+          "guid": "108216702"
+        },
+        {
+          "title": "Millions more Americans could access obesity drugs after Trump's deals with Eli Lilly, Novo Nordisk",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/trump-deals-with-lilly-novo-nordisk-could-broaden-obesity-drug-access.html",
+          "snippet": "2025-11-07: Millions more Americans could access obesity drugs after Trump's deals with Eli Lilly, Novo Nordisk: Medicare will start covering obesity drugs for the first time, which could open access ",
+          "guid": "108223164"
+        },
+        {
+          "title": "Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill\u00a0",
+          "date": "2025-12-09",
+          "link": "https://www.cnbc.com/2025/12/09/pfizer-deal-yaopharma-obesity-pill.html",
+          "snippet": "2025-12-09: Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill: The deal will help Pfizer beef up and diversify its obesity drug pipeline following its $10 billi",
+          "guid": "108239106"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

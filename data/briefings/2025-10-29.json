@@ -1,0 +1,212 @@
+{
+  "date": "2025-10-29",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "abddb7fb-34ac-438d-9d14-c197f506a220",
+      "label": "Gold and Cryptocurrency Trends",
+      "spike_ratio": 1.308,
+      "article_count": 17,
+      "rag_answer": "Gold has experienced significant price increases, reaching new highs, with analysts suggesting it remains a strong safe-haven asset amid political and financial uncertainty. However, there are indications that some investors may rotate their investments from gold into cryptocurrencies like Bitcoin, especially as Bitcoin gains traction as a viable alternative. Despite gold's recent peaks, concerns about market volatility and potential consolidation periods could impact its future performance. Overall, while gold continues to attract attention as a safe investment, the cryptocurrency market is diversifying, reflecting a shift in investor sentiment.",
+      "rag_sources": [
+        {
+          "title": "Gold hits $4,000 but stocks still win over time, top advisor says: 'Gold glitters but earnings compound'",
+          "date": "2025-10-08",
+          "link": "https://www.cnbc.com/2025/10/08/gold-vs-sp500-returns.html",
+          "snippet": "2025-10-08: Gold hits $4,000 but stocks still win over time, top advisor says: 'Gold glitters but earnings compound': The price of gold is soaring amid the current state political and financial uncert",
+          "guid": "108209338"
+        },
+        {
+          "title": "Gold and silver reach fresh highs for second day running \u2014 and could keep climbing",
+          "date": "2025-12-23",
+          "link": "https://www.cnbc.com/2025/12/23/gold-and-silver-reach-fresh-highs-for-second-day-running.html",
+          "snippet": "2025-12-23: Gold and silver reach fresh highs for second day running \u2014 and could keep climbing: David Neuhauser, CIO at Livermore Partners, told CNBC's \\Access Middle East\\\" that gold has more room to",
+          "guid": "108245152"
+        },
+        {
+          "title": "Ed Yardeni says gold is the best safe-haven play and 'the new bitcoin'",
+          "date": "2025-10-15",
+          "link": "https://www.cnbc.com/2025/10/15/ed-yardeni-says-gold-is-the-best-safe-haven-play-and-is-the-new-bitcoin.html",
+          "snippet": "2025-10-15: Ed Yardeni says gold is the best safe-haven play and 'the new bitcoin': While both assets have posted strong returns this year, gold has been by far the leader.",
+          "guid": "108212385"
+        },
+        {
+          "title": "Bitcoin is getting a shutdown boost. More money could rotate into the crypto and out of gold",
+          "date": "2025-10-01",
+          "link": "https://www.cnbc.com/2025/10/01/bitcoin-is-getting-a-shutdown-boost-more-money-could-rotate-into-the-crypto-and-out-of-gold.html",
+          "snippet": "2025-10-01: Bitcoin is getting a shutdown boost. More money could rotate into the crypto and out of gold: Frank Cappelleri looks at the ratio between bitcoin and gold.",
+          "guid": "108206577"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "baa12f40-6fae-4a48-b674-488ec8fbeac8",
+      "label": "Trump's Trade War Developments",
+      "spike_ratio": 1.264,
+      "article_count": 22,
+      "rag_answer": "Trump's trade war has escalated with the implementation of extensive tariffs on numerous U.S. trading partners, including Canada, Brazil, and Switzerland, leading to significant market disruptions and reshaping international trade relationships. The introduction of a 40% tariff on goods transshipped to avoid duties has further complicated trade dynamics. Analysts have expressed concerns about the negative impact on American families and the agricultural sector, prompting Trump to announce a $12 billion aid package for affected farmers. Despite a reduction in the trade deficit to its smallest since 2009, the overall market sentiment remains cautious, with companies like Trade Desk experiencing significant stock declines due to tariff-related uncertainties.",
+      "rag_sources": [
+        {
+          "title": "Live Updates: Trump tariffs slam Canada, Brazil and Switzerland ",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/trumps-tariffs-rekindle-global-trade-tensions.html",
+          "snippet": "2025-08-01: Live Updates: Trump tariffs slam Canada, Brazil and Switzerland: Trump's extensive new tariff regime on dozens of U.S. partners are launching new trade wars and sending shock waves through",
+          "guid": "108180211"
+        },
+        {
+          "title": "How countries are reacting to Trump's latest tariff announcements as deadline looms",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/how-asian-countries-are-reacting-to-trumps-latest-tariffs-announcement-as-deadline-looms.html",
+          "snippet": "2025-08-01: How countries are reacting to Trump's latest tariff announcements as deadline looms: The White House also announced a 40% tariff rate for all goods transshipped to avoid the applicable dut",
+          "guid": "108180161"
+        },
+        {
+          "title": "Another late-night Trump trade twist \u2014 just hours before the world hit go",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/another-late-night-trump-trade-twist-hours-before-the-world-hit-go.html",
+          "snippet": "2025-08-01: Another late-night Trump trade twist \u2014 just hours before the world hit go: Trump\u2019s late-night tariff moves have become a hallmark, catching markets off guard, reshaping deals, and forcing ",
+          "guid": "108180251"
+        },
+        {
+          "title": "Trump 'losing' trade war with China going in to Xi meeting, Senate Democrats say in report",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/trump-trade-china-warren-democrats-inflation-xi.html",
+          "snippet": "2025-10-29: Trump 'losing' trade war with China going in to Xi meeting, Senate Democrats say in report: \\Trump needs to change course on his trade war with China now and stop hurting American families",
+          "guid": "108218477"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "a21f7800-1019-4647-adfd-df0863c955d0",
+      "label": "Fed rate cuts and outlook",
+      "spike_ratio": 1.142,
+      "article_count": 61,
+      "rag_answer": "Recent developments indicate a divided stance among Federal Reserve officials regarding interest rate cuts, with discussions suggesting two additional cuts by the end of 2025. Fed Chair Powell has indicated that conditions may warrant cuts, but uncertainty remains high. As of December 2025, the Fed is expected to implement its third consecutive rate cut, although there are concerns about inflation that could impact future decisions. Market expectations for further cuts in 2026 are diminishing, particularly as inflation fears rise, suggesting a cautious outlook moving forward.",
+      "rag_sources": [
+        {
+          "title": "Divided Fed officials saw another two interest rate cuts by the end of 2025, minutes show",
+          "date": "2025-10-08",
+          "link": "https://www.cnbc.com/2025/10/08/fed-minutes-september-2025.html",
+          "snippet": "2025-10-08: Divided Fed officials saw another two interest rate cuts by the end of 2025, minutes show: Officials were strongly inclined to lower rates, with the only dispute seeming to be over how man",
+          "guid": "108209324"
+        },
+        {
+          "title": "Powell indicates conditions 'may warrant' interest rate cuts as Fed proceeds 'carefully'",
+          "date": "2025-08-22",
+          "link": "https://www.cnbc.com/2025/08/22/powell-indicates-conditions-may-warrant-interest-rate-cuts-as-fed-proceeds-carefully.html",
+          "snippet": "2025-08-22: Powell indicates conditions 'may warrant' interest rate cuts as Fed proceeds 'carefully': Powell on Friday gave a tepid indication of possible cuts ahead as he noted a high level of uncert",
+          "guid": "108189532"
+        },
+        {
+          "title": "The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/09/the-fed-decision-is-expected-to-feature-a-rate-cut-and-a-lot-more-heres-what-to-expect.html",
+          "snippet": "2025-12-10: The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect: The central bank is poised to deliver its third straight interest rate cut Wednesday, while firing a ",
+          "guid": "108239042"
+        },
+        {
+          "title": "Fed's Goolsbee calls for a hold on cuts as current rate of inflation is 'not good enough'",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/feds-goolsbee-calls-for-a-hold-on-cuts-as-current-rate-of-inflation-is-not-good-enough.html",
+          "snippet": "2026-02-24: Fed's Goolsbee calls for a hold on cuts as current rate of inflation is 'not good enough': The Chicago Fed president said Tuesday that cuts aren't appropriate until there's more evidence t",
+          "guid": "108269037"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "63e7bf23-b3e8-4620-91c5-d03dab82245b",
+      "label": "H-1B Visa Policy Changes",
+      "spike_ratio": 1.064,
+      "article_count": 20,
+      "rag_answer": "The Trump administration has implemented significant changes to the H-1B visa policy, notably introducing a $100,000 fee for each visa, which has caused chaos among companies, particularly in the tech sector. This fee aims to encourage the hiring of domestic workers but has raised concerns among startups and large employers like Walmart, leading to pauses in H-1B visa applications. Additionally, new regulations involving social media checks and wage protection rules are further complicating the application process. The changes are expected to impact the availability of global tech talent, potentially benefiting regions like the Middle East as companies seek alternatives.",
+      "rag_sources": [
+        {
+          "title": "Here's everything Trump is changing with H-1B visas",
+          "date": "2025-09-22",
+          "link": "https://www.cnbc.com/2025/09/22/everything-trump-is-changing-with-h1b-visas.html",
+          "snippet": "2025-09-22: Here's everything Trump is changing with H-1B visas: President Donald Trump raised the fee for an H-1B visa to $100,000 on Friday, leaving companies scrambling to respond.",
+          "guid": "108202195"
+        },
+        {
+          "title": "H-1B visa applicants face more disruptions amid social media checks and wage protection rules",
+          "date": "2025-12-23",
+          "link": "https://www.cnbc.com/2025/12/23/h-1b-visa-applicants-face-more-disruptions-amid-social-media-checks.html",
+          "snippet": "2025-12-23: H-1B visa applicants face more disruptions amid social media checks and wage protection rules: The U.S. administration has lined up a slew of actions to restrict the use of H-1B visas by b",
+          "guid": "108245067"
+        },
+        {
+          "title": "Trump's H-1B visa fee sparks chaos and confusion among Chinese talents in the U.S.",
+          "date": "2025-09-22",
+          "link": "https://www.cnbc.com/2025/09/22/trumps-h-1b-visa-fee-sparks-chaos-and-confusion-among-chinese-talents-in-the-us.html",
+          "snippet": "2025-09-22: Trump's H-1B visa fee sparks chaos and confusion among Chinese talents in the U.S.: The visa fee change marked the Trump administration's most aggressive step yet to curb immigration, part",
+          "guid": "108201798"
+        },
+        {
+          "title": "These are the U.S. states with the most \u2014 and the least \u2014 H-1B visa applications and renewals",
+          "date": "2025-09-20",
+          "link": "https://www.cnbc.com/2025/09/20/h-1b-visa-applications-renewals-by-state.html",
+          "snippet": "2025-09-20: These are the U.S. states with the most \u2014 and the least \u2014 H-1B visa applications and renewals: The Trump administration plans to impose a $100,000 charge for H-1B worker visas in a move th",
+          "guid": "108201654"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "4761f37d-27cd-4139-ae34-f7ba6d6fa059",
+      "label": "Epstein Files and Political Reactions",
+      "spike_ratio": 1.049,
+      "article_count": 43,
+      "rag_answer": "The ongoing release of Epstein files by the Department of Justice (DOJ) has sparked significant political backlash, with congressional lawmakers, including Democrats, criticizing the DOJ for its handling and redaction of documents. Recent developments include calls for probes into the DOJ's actions and subpoenas for testimonies from high-profile individuals, indicating heightened scrutiny and political tension surrounding the issue. The situation reflects broader concerns about transparency and accountability, which could influence investor sentiment and market stability, particularly in sectors sensitive to political risk. As the investigation unfolds, the potential for increased regulatory scrutiny may impact market dynamics, especially for firms linked to the individuals involved.",
+      "rag_sources": [
+        {
+          "title": "Epstein files: Senators seek probe of DOJ over release, redaction of sex offender's documents",
+          "date": "2026-03-11",
+          "link": "https://www.cnbc.com/2026/03/11/senators-epstein-files-investigation.html",
+          "snippet": "2026-03-11: Epstein files: Senators seek probe of DOJ over release, redaction of sex offender's documents: The Department of Justice has come under fire for its handling of documents related to disgra",
+          "guid": "108276332"
+        },
+        {
+          "title": "Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/epstein-doj-bondi-trump.html",
+          "snippet": "2026-03-05: Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports: The top lawyer for Goldman Sachs, Bill Gates, Leon Black and others are expected to testify soon a",
+          "guid": "108274237"
+        },
+        {
+          "title": "Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents",
+          "date": "2025-12-23",
+          "link": "https://www.cnbc.com/2025/12/23/epstein-files-doj-release-trump.html",
+          "snippet": "2025-12-23: Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents: The release comes amid intense scrutiny from congressional lawmakers and victims ove",
+          "guid": "108244822"
+        },
+        {
+          "title": "Epstein files released to Congress are mostly \u2018recycled\u2019 documents, Democrat says",
+          "date": "2025-08-23",
+          "link": "https://www.cnbc.com/2025/08/23/jeffrey-epstein-ghislaine-maxwell-trump-doj.html",
+          "snippet": "2025-08-23: Epstein files released to Congress are mostly \u2018recycled\u2019 documents, Democrat says: The Justice Department late Friday gave Congress the first trove of documents to comply with a subpoena b",
+          "guid": "108189960"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

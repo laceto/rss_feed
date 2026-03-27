@@ -1,0 +1,204 @@
+{
+  "date": "2025-12-24",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "b879033c-a02f-4e06-8138-b59f74de9402",
+      "label": "Global Inflation Trends and Responses",
+      "spike_ratio": 1.605,
+      "article_count": 23,
+      "rag_answer": "Global inflation trends are showing significant divergence, with some regions experiencing rising consumer prices while others face deflationary pressures. For instance, China reported a near two-year high in consumer inflation despite deeper producer deflation, indicating complex economic dynamics. Meanwhile, the U.S. Federal Reserve is grappling with inflation concerns, as highlighted by Fed officials expressing worries about inflation in a challenging economic climate. These developments suggest that investors are increasingly cautious, with inflation becoming a central theme influencing market strategies and central bank policies worldwide.",
+      "rag_sources": [
+        {
+          "title": "'Reflation is back' says Deutsche Bank as global central banks diverge from Fed",
+          "date": "2025-12-11",
+          "link": "https://www.cnbc.com/2025/12/11/reflation-is-back-says-deutsche-bank-as-central-banks-diverge-from-fed.html",
+          "snippet": "2025-12-11: 'Reflation is back' says Deutsche Bank as global central banks diverge from Fed: Global central banks are diverging, following The Fed's decision to cut rates and Swiss' choice to hold ste",
+          "guid": "108240421"
+        },
+        {
+          "title": "Fears of 1970s-style stagflation arise with oil spike to $100. How big a threat is it?",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/fears-of-1970s-style-stagflation-arise-with-oil-spike-to-100-how-big-a-threat-is-it.html",
+          "snippet": "2026-03-09: Fears of 1970s-style stagflation arise with oil spike to $100. How big a threat is it?: High inflation and slow growth present a double threat, as measures like interest rate cuts and gove",
+          "guid": "108275514"
+        },
+        {
+          "title": "Fed's Goolsbee says he's worried about inflation in 'fraught but intense' climate",
+          "date": "2026-03-23",
+          "link": "https://www.cnbc.com/2026/03/23/feds-goolsbee-says-hes-worried-about-inflation-in-fraught-but-intense-climate.html",
+          "snippet": "2026-03-23: Fed's Goolsbee says he's worried about inflation in 'fraught but intense' climate: In a CNBC interview, the central banker said policymaking is difficult in the current environment.",
+          "guid": "108281480"
+        },
+        {
+          "title": "China consumer inflation hits near two-year high despite deeper-than-expected producer deflation",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/10/chinas-cpi-ppi-deflation-november-consumer-prices.html",
+          "snippet": "2025-12-10: China consumer inflation hits near two-year high despite deeper-than-expected producer deflation: Economists warned that deflationary pressure on the world's second largest economy will pe",
+          "guid": "108239450"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "cfd47f02-a084-497c-8723-57e24fc0401a",
+      "label": "ACA Subsidies and Government Funding",
+      "spike_ratio": 1.444,
+      "article_count": 26,
+      "rag_answer": "The expiration of enhanced ACA subsidies has raised concerns about potential \"astronomical tax bills\" for many individuals, as highlighted by financial experts. A bipartisan Senate group is negotiating a deal to address the lapse in these tax credits, while some states are stepping in to offer their own subsidies to mitigate the impact. The ongoing government shutdown has complicated these discussions, with Democrats pushing for the inclusion of ACA subsidy extensions in any funding measures. The failure to secure these extensions could lead to significant financial strain on health providers and consumers alike, potentially affecting the broader healthcare market.",
+      "rag_sources": [
+        {
+          "title": "ACA subsidy cliff may mean 'astronomical tax bills' for many, CFP says",
+          "date": "2026-01-06",
+          "link": "https://www.cnbc.com/2026/01/06/aca-subsidy-cliff-tax-bills.html",
+          "snippet": "2026-01-06: ACA subsidy cliff may mean 'astronomical tax bills' for many, CFP says: Enhanced premium subsidies for health insurance bought on the ACA marketplace have expired and the so-called subsidy",
+          "guid": "108248259"
+        },
+        {
+          "title": "Why affordability is the 'beating heart' of the ACA enhanced subsidy debate, health policy experts say",
+          "date": "2025-12-12",
+          "link": "https://www.cnbc.com/2025/12/12/aca-enhanced-subsidies-democrats-republicans-health-care-plan.html",
+          "snippet": "2025-12-12: Why affordability is the 'beating heart' of the ACA enhanced subsidy debate, health policy experts say: Health plans proposed by Senate Democrats and Republicans failed on Thursday, making",
+          "guid": "108240832"
+        },
+        {
+          "title": "Health providers could lose $32 billion if ACA credits at center of shutdown fight expire",
+          "date": "2025-09-25",
+          "link": "https://www.cnbc.com/2025/09/25/health-aca-obamacare-federal-government-shutdown.html",
+          "snippet": "2025-09-25: Health providers could lose $32 billion if ACA credits at center of shutdown fight expire: Democrats demand that any stopgap funding measure to keep the federal government open include an ",
+          "guid": "108204023"
+        },
+        {
+          "title": "As federal ACA subsidies lapse, blue states offer their own",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/2026/01/23/aca-subsidies-state-premium-tax-credits.html",
+          "snippet": "2026-01-23: As federal ACA subsidies lapse, blue states offer their own: A handful of states have moved to soften the blow of lapsed federal subsidies for health insurance premiums.",
+          "guid": "108254517"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "4761f37d-27cd-4139-ae34-f7ba6d6fa059",
+      "label": "Epstein Files and Political Reactions",
+      "spike_ratio": 1.398,
+      "article_count": 33,
+      "rag_answer": "The ongoing release of Epstein files by the Department of Justice (DOJ) has sparked significant political backlash, with congressional Democrats criticizing the DOJ for its handling and redaction of documents. Key figures, including senators and representatives, are calling for further investigations and transparency, indicating a growing political divide over the issue. The situation is compounded by the involvement of high-profile individuals expected to testify, which could influence public sentiment and political dynamics. As this controversy unfolds, it may create volatility in markets sensitive to political risk, particularly in sectors linked to the individuals involved or the broader implications of regulatory scrutiny.",
+      "rag_sources": [
+        {
+          "title": "Epstein files: Senators seek probe of DOJ over release, redaction of sex offender's documents",
+          "date": "2026-03-11",
+          "link": "https://www.cnbc.com/2026/03/11/senators-epstein-files-investigation.html",
+          "snippet": "2026-03-11: Epstein files: Senators seek probe of DOJ over release, redaction of sex offender's documents: The Department of Justice has come under fire for its handling of documents related to disgra",
+          "guid": "108276332"
+        },
+        {
+          "title": "Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/epstein-doj-bondi-trump.html",
+          "snippet": "2026-03-05: Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports: The top lawyer for Goldman Sachs, Bill Gates, Leon Black and others are expected to testify soon a",
+          "guid": "108274237"
+        },
+        {
+          "title": "Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents",
+          "date": "2025-12-23",
+          "link": "https://www.cnbc.com/2025/12/23/epstein-files-doj-release-trump.html",
+          "snippet": "2025-12-23: Epstein files: Latest batch from DOJ includes a personal letter, emails and heavily redacted documents: The release comes amid intense scrutiny from congressional lawmakers and victims ove",
+          "guid": "108244822"
+        },
+        {
+          "title": "Epstein files released to Congress are mostly \u2018recycled\u2019 documents, Democrat says",
+          "date": "2025-08-23",
+          "link": "https://www.cnbc.com/2025/08/23/jeffrey-epstein-ghislaine-maxwell-trump-doj.html",
+          "snippet": "2025-08-23: Epstein files released to Congress are mostly \u2018recycled\u2019 documents, Democrat says: The Justice Department late Friday gave Congress the first trove of documents to comply with a subpoena b",
+          "guid": "108189960"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "2e955eac-a74a-4c42-be9f-b871d12feb52",
+      "label": "Market Trends and Stock Movements",
+      "spike_ratio": 1.15,
+      "article_count": 23,
+      "rag_answer": "The stock market has experienced significant volatility, with benchmarks reaching record highs due to easing inflation, strong corporate earnings, and expectations of U.S. rate cuts. However, recent sentiment has reversed, indicating potential challenges ahead, including concerns about a sudden economic slowdown and the possibility of stagflation. Notably, specific stocks have shown considerable movement, reflecting ongoing investor interest and market dynamics. Overall, while opportunities may arise from the current volatility, caution is warranted as market conditions evolve.",
+      "rag_sources": [
+        {
+          "title": "Stock market swings got you reeling? Answer these 6 questions before making a trade",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/stock-market-swings-got-you-reeling-answering-6-questions-will-help.html",
+          "snippet": "2025-11-28: Stock market swings got you reeling? Answer these 6 questions before making a trade: Frustrating as volatility can be, it also tends to present opportunities.",
+          "guid": "108232626"
+        },
+        {
+          "title": "Stock benchmarks are scaling record highs: 'Animal spirits are soaring' ",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/stock-benchmarks-are-scaling-record-highs-animal-spirits-are-soaring-.html",
+          "snippet": "2025-09-11: Stock benchmarks are scaling record highs: 'Animal spirits are soaring': Easing inflation pressures,\u00a0resilient corporate earnings and expectations for U.S. rate cuts have boosted investor ",
+          "guid": "108197275"
+        },
+        {
+          "title": "Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward",
+          "date": "2025-12-26",
+          "link": "https://www.cnbc.com/2025/12/26/market-sentiment-has-made-a-huge-reversal-heres-why-and-what-it-means-going-forward.html",
+          "snippet": "2025-12-26: Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward: Something unusual happened in the past few weeks.",
+          "guid": "108245814"
+        },
+        {
+          "title": "Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel",
+          "date": "2025-08-11",
+          "link": "https://www.cnbc.com/2025/08/11/stock-market-party-to-be-ruined-by-sudden-economic-slowdown-says-stifel.html",
+          "snippet": "2025-08-11: Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel: The market could be in for a stagflation environment, the firm said.",
+          "guid": "108184067"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "aebd0680-e36a-4928-ab12-dc535621c739",
+      "label": "Trump tax legislation and impacts",
+      "spike_ratio": 1.109,
+      "article_count": 17,
+      "rag_answer": "President Donald Trump's \"big beautiful bill\" has enacted significant tax breaks, with promises of larger tax refunds for many Americans in 2026. Key features include a $40,000 limit on the SALT deduction and a proposed \"no tax on tips\" deduction, which could benefit various states and sectors. As Trump continues to promote these tax changes, including potential new cuts announced during the State of the Union, the implications for consumer spending and overall economic growth could be substantial. However, challenges in advancing further legislation may impact the effectiveness and reach of these tax benefits.",
+      "rag_sources": [
+        {
+          "title": "Trump touts 'big beautiful bill' tax breaks at Davos. Here's how they work",
+          "date": "2026-01-21",
+          "link": "https://www.cnbc.com/2026/01/21/trump-big-beautiful-bill-tax-breaks.html",
+          "snippet": "2026-01-21: Trump touts 'big beautiful bill' tax breaks at Davos. Here's how they work: In remarks on Wednesday at the World Economic Forum, President Donald Trump touted his signature \\big beautiful ",
+          "guid": "108255007"
+        },
+        {
+          "title": "States where residents could see the biggest tax benefit from Trump's 'big beautiful bill'",
+          "date": "2025-08-15",
+          "link": "https://www.cnbc.com/2025/08/15/trump-big-beautiful-bill-who-benefits.html",
+          "snippet": "2025-08-15: States where residents could see the biggest tax benefit from Trump's 'big beautiful bill': President Donald Trump's \\big beautiful bill\\\" enacted trillions in tax breaks. But residents in",
+          "guid": "108186137"
+        },
+        {
+          "title": "Treasury, IRS release key details about Trump\u2019s \u2018no tax on tips\u2019 deduction ",
+          "date": "2025-09-19",
+          "link": "https://www.cnbc.com/2025/09/19/treasury-details-trumps-no-tax-on-tips.html",
+          "snippet": "2025-09-19: Treasury, IRS release key details about Trump\u2019s \u2018no tax on tips\u2019 deduction: The Treasury has issued proposed regulations with more details about Trump\u2019s \u201cno tax on tips\u201d deduction. Here ar",
+          "guid": "108200870"
+        },
+        {
+          "title": "How Trump's 'big beautiful bill' could affect your Giving Tuesday tax break ",
+          "date": "2025-11-29",
+          "link": "https://www.cnbc.com/2025/11/29/trump-big-beautiful-bill-giving-tuesday-tax-break.html",
+          "snippet": "2025-11-29: How Trump's 'big beautiful bill' could affect your Giving Tuesday tax break: If you plan to donate money on Giving Tuesday, here's how President Donald Trump's \\big beautiful bill\\\" could ",
+          "guid": "108231910"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

@@ -47,8 +47,6 @@ from openai import OpenAI
 
 from constants import FEEDS_REGISTRY_FILE, RAW_FEED_DIR, VECTORSTORE_DIR
 from kitai.batch import (
-    DEFAULT_EMBEDDING_DIMENSIONS,
-    DEFAULT_EMBEDDING_MODEL,
     build_embedding_tasks,
     download_batch_results,
     parse_embedding_results,
@@ -67,9 +65,8 @@ log = logging.getLogger(__name__)
 
 # ── Constants ─────────────────────────────────────────────────────────────────
 
-EMBED_MODEL      = DEFAULT_EMBEDDING_MODEL       # "text-embedding-3-small"
-EMBED_DIMENSIONS = DEFAULT_EMBEDDING_DIMENSIONS  # 1536
-POLL_INTERVAL    = 30.0                          # seconds between batch status polls
+EMBED_MODEL   = "text-embedding-3-small"
+POLL_INTERVAL = 30                               # seconds between batch status polls
 
 REGISTRY_COLUMNS = ["id", "date", "title", "link", "guid"]
 
@@ -229,24 +226,19 @@ def run_embedding_batch(
         build_embedding_tasks → submit_batch_job → poll_until_complete
         → download_batch_results → parse_embedding_results
 
-    The custom_id format set by kitai.batch is "custom_id_{doc.metadata['id']}".
+    The custom_id is doc.metadata["id"] directly (raw value, no prefix).
 
     Raises:
         RuntimeError: If the batch job does not reach 'completed' status.
     """
-    tasks  = build_embedding_tasks(docs, model=EMBED_MODEL, dimensions=EMBED_DIMENSIONS)
-    job_id = submit_batch_job(
-        client,
-        tasks,
-        endpoint="/v1/embeddings",
-        metadata={"description": "feeds_embed"},
-    )
+    tasks  = build_embedding_tasks(docs, model=EMBED_MODEL)
+    job_id = submit_batch_job(client, tasks)
     log.info("Submitted embedding batch: %s (%d tasks)", job_id, len(tasks))
 
-    completed_ids = poll_until_complete(client, [job_id], poll_interval=POLL_INTERVAL)
-    if job_id not in completed_ids:
+    statuses = poll_until_complete(client, [job_id], poll_interval_seconds=POLL_INTERVAL)
+    if statuses[job_id]["status"] != "completed":
         raise RuntimeError(
-            f"Embedding batch {job_id} did not complete successfully. "
+            f"Embedding batch {job_id} ended with status '{statuses[job_id]['status']}'. "
             "Check the OpenAI dashboard for details."
         )
 
@@ -269,7 +261,7 @@ def align_pairs_to_docs(
 
     Args:
         pairs: List of (custom_id, embedding) from parse_embedding_results.
-               custom_id format: "custom_id_{int_id}".
+               custom_id = raw doc.metadata["id"] (integer).
         docs:  Original document list in submission order.
 
     Returns:
@@ -277,10 +269,7 @@ def align_pairs_to_docs(
             FAISS.add_embeddings or create_vectorstore.
         aligned_docs: Corresponding Document list (same order, failures excluded).
     """
-    emb_by_id = {
-        int(cid.split("custom_id_")[1]): emb
-        for cid, emb in pairs
-    }
+    emb_by_id = {int(cid): emb for cid, emb in pairs}
 
     aligned_pairs: list[tuple[str, list[float]]] = []
     aligned_docs:  list[Document] = []

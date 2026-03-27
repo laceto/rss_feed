@@ -1,0 +1,228 @@
+{
+  "date": "2025-10-23",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "0d20e23d-6795-477d-bb84-20b28b10b364",
+      "label": "Ukraine peace talks dynamics",
+      "spike_ratio": 1.477,
+      "article_count": 26,
+      "rag_answer": "The dynamics of the Ukraine peace talks have seen significant developments, with U.S. officials reporting progress in negotiations between Ukraine and Russia. Notably, Russian President Vladimir Putin has indicated a willingness to engage in serious discussions regarding a U.S.-brokered peace plan, which Ukraine has reportedly agreed to. This optimism around a potential peace deal has led to fluctuations in European defense stocks and gas prices, as investors react to the shifting geopolitical landscape. However, there remains caution, as the situation is fluid and the final agreement on security guarantees for Ukraine is still pending.",
+      "rag_sources": [
+        {
+          "title": "Ukraine peace talks progressing, Russia open to EU membership, U.S. officials say",
+          "date": "2025-12-15",
+          "link": "https://www.cnbc.com/2025/12/15/ukraine-peace-talks-russia-eu-us-trump.html",
+          "snippet": "2025-12-15: Ukraine peace talks progressing, Russia open to EU membership, U.S. officials say: The war in Ukraine began nearly four years ago, when Russia invaded at the direction of its leader, Vladi",
+          "guid": "108241899"
+        },
+        {
+          "title": "Ukraine peace talks shift to Moscow \u2014 the big unknown is whether Putin will play ball",
+          "date": "2025-12-01",
+          "link": "https://www.cnbc.com/2025/12/01/russia-under-pressure-as-ukraine-peace-talks-shift-to-moscow.html",
+          "snippet": "2025-12-01: Ukraine peace talks shift to Moscow \u2014 the big unknown is whether Putin will play ball: U.S. Special Envoy Steve Witkoff is travelling to Moscow on Monday and is due to meet Russian Preside",
+          "guid": "108234209"
+        },
+        {
+          "title": "European defense stocks and gas prices fall as U.S., Ukraine make progress on peace plan",
+          "date": "2025-11-24",
+          "link": "https://www.cnbc.com/2025/11/24/europe-defense-stocks-fall-as-us-ukraine-make-progress-on-peace-plan.html",
+          "snippet": "2025-11-24: European defense stocks and gas prices fall as U.S., Ukraine make progress on peace plan: The U.S. said Sunday that there had been progress in talks at the weekend but that no agreement wa",
+          "guid": "108230743"
+        },
+        {
+          "title": "All eyes on Russia as it weighs Ukraine peace plan with caution",
+          "date": "2025-11-26",
+          "link": "https://www.cnbc.com/2025/11/26/russia-responds-to-fledgling-ukraine-peace-plan.html",
+          "snippet": "2025-11-26: All eyes on Russia as it weighs Ukraine peace plan with caution: There's been little official comment from Moscow regarding a revised U.S.-brokered peace plan for Ukraine.",
+          "guid": "108232279"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "61d75c0e-f3f6-4310-98e6-337f075d7ea5",
+      "label": "OpenAI and AI Content Controversies",
+      "spike_ratio": 1.374,
+      "article_count": 36,
+      "rag_answer": "OpenAI is facing increasing pressure and scrutiny regarding its AI technologies, particularly as competitors like Google and Anthropic gain ground. CEO Sam Altman has addressed various moral and ethical controversies surrounding the company's AI chatbot, indicating a need for improvement and transparency. The company's aggressive expansion and partnerships, including significant investments and collaborations, highlight its central role in the AI market, but also raise concerns about potential market corrections and the sustainability of its growth. Overall, these developments suggest a complex landscape for OpenAI, balancing innovation with ethical considerations and competitive pressures.",
+      "rag_sources": [
+        {
+          "title": "Watch CNBC's full interview with OpenAI CEO Sam Altman from the India AI Summit",
+          "date": "2026-02-19",
+          "link": "https://www.cnbc.com/video/2026/02/19/openai-sam-altman-india-ai-summit-full-interview.html",
+          "snippet": "2026-02-19: Watch CNBC's full interview with OpenAI CEO Sam Altman from the India AI Summit: OpenAI CEO Sam Altman discusses AI infrastructure, OpenAI's business model, competition from China and thou",
+          "guid": "108267179"
+        },
+        {
+          "title": "OpenAI's dominance is unlike anything Silicon Valley has ever seen",
+          "date": "2025-10-11",
+          "link": "https://www.cnbc.com/2025/10/11/open-ai-silicon-valley-tech-startup.html",
+          "snippet": "2025-10-11: OpenAI's dominance is unlike anything Silicon Valley has ever seen: OpenAI's position at the heart of the AI boom, and its expansion up and down the stack, is putting the company in compet",
+          "guid": "108209603"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Anthropic is giving Claude to the U.S. government for $1 as AI companies try to win key agencies",
+          "date": "2025-08-12",
+          "link": "https://www.cnbc.com/2025/08/12/anthropic-claude-government-ai.html",
+          "snippet": "2025-08-12: Anthropic is giving Claude to the U.S. government for $1 as AI companies try to win key agencies: Earlier this month, Anthropic's competitor OpenAI made a similar announcement.",
+          "guid": "108184674"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "a444e21b-81c0-4df1-8c0d-7ed15279e38e",
+      "label": "Obesity Drug Market Competition",
+      "spike_ratio": 1.216,
+      "article_count": 15,
+      "rag_answer": "The obesity drug market is experiencing intensified competition, particularly between major players Novo Nordisk and Eli Lilly, as both companies prepare to launch new oral medications. Novo Nordisk's recent launch of its GLP-1 obesity pill has been met with challenges, including pricing pressures and a decline in market share, now capturing about 40% of the market. Additionally, recent deals announced by the Trump administration to lower drug prices and expand Medicare coverage for obesity drugs could significantly increase access for millions of Americans, further intensifying competition among drugmakers. As more weight loss medications enter the market, the landscape is expected to evolve rapidly, with companies needing to adapt to changing consumer access and pricing dynamics.",
+      "rag_sources": [
+        {
+          "title": "What the Iran war market turmoil means for those nearing retirement",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/iran-war-market-volatility-retirement.html",
+          "snippet": "2026-03-05: What the Iran war market turmoil means for those nearing retirement: Market shakiness may not concern long-term investors, but it could be a useful wake-up call for those on the precipice ",
+          "guid": "108272020"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        },
+        {
+          "title": "Sentiment on stocks collapses the most since the February market top",
+          "date": "2025-08-07",
+          "link": "https://www.cnbc.com/2025/08/07/sentiment-on-stocks-collapses-the-most-since-the-february-market-top.html",
+          "snippet": "2025-08-07: Sentiment on stocks collapses the most since the February market top: Market strategists say the measure, considered a contrarian signal, could ultimately force traders to get back into th",
+          "guid": "108183006"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "85dc10ce-8d59-4f95-ac59-8869f2905632",
+      "label": "Federal Reserve leadership changes",
+      "spike_ratio": 1.19,
+      "article_count": 15,
+      "rag_answer": "The search for the next Federal Reserve chair is ongoing, with Treasury Secretary Bessent meeting with various candidates, including BlackRock's Rieder and others, as the current chair, Jerome Powell, faces potential removal by President Trump. The market is closely watching these developments, as changes in leadership could influence monetary policy and interest rates. Recent comments from Fed officials suggest that the central bank is navigating a challenging economic landscape, with rate cuts being considered in response to a softening labor market. Overall, the uncertainty surrounding leadership changes at the Fed is contributing to market volatility and speculation about future monetary policy directions.",
+      "rag_sources": [
+        {
+          "title": "Here are the five key takeaways from Wednesday's Fed rate decision",
+          "date": "2026-01-28",
+          "link": "https://www.cnbc.com/2026/01/28/here-are-the-five-key-takeaways-from-wednesdays-fed-rate-decision.html",
+          "snippet": "2026-01-28: Here are the five key takeaways from Wednesday's Fed rate decision: The Federal Reserve wrapped up a two-day policy meeting Wednesday, delivering pretty much what the market expected.",
+          "guid": "108258592"
+        },
+        {
+          "title": "Here are five key takeaways from the Fed's big interest rate decision",
+          "date": "2025-09-18",
+          "link": "https://www.cnbc.com/2025/09/17/here-are-five-key-takeaways-from-the-feds-big-interest-rate-decision.html",
+          "snippet": "2025-09-18: Here are five key takeaways from the Fed's big interest rate decision: The Federal Reserve on Wednesday delivered on a widely anticipated quarter percentage point interest rate cut.",
+          "guid": "108200292"
+        },
+        {
+          "title": "One Fed official may have saved market from another rout. Why John Williams' remarks matter so much",
+          "date": "2025-11-21",
+          "link": "https://www.cnbc.com/2025/11/21/one-fed-official-may-have-saved-market-from-another-rout-why-john-williams-remarks-matter-so-much.html",
+          "snippet": "2025-11-21: One Fed official may have saved market from another rout. Why John Williams' remarks matter so much: With his position comes membership in the Fed's leadership troika, a group that also in",
+          "guid": "108229921"
+        },
+        {
+          "title": "Here are the five key takeaways from this week's Fed meeting",
+          "date": "2026-03-19",
+          "link": "https://www.cnbc.com/2026/03/18/here-are-the-five-key-takeaways-from-this-weeks-fed-meeting.html",
+          "snippet": "2026-03-19: Here are the five key takeaways from this week's Fed meeting: While no one expected the Fed to cut \u2014 much less hike \u2014 at this meeting, the market always looks for clues about what's next.",
+          "guid": "108279927"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.25,
+          "mean_sentiment_score": 0.118,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "baa12f40-6fae-4a48-b674-488ec8fbeac8",
+      "label": "Trump's Trade War Developments",
+      "spike_ratio": 1.109,
+      "article_count": 17,
+      "rag_answer": "Trump's trade war developments have been marked by significant volatility and uncertainty, particularly due to new tariff threats that have caused market sell-offs in the U.S., Europe, and Asia. The trade deficit saw a notable decrease following Trump's tariff moves, indicating some short-term economic adjustments. However, the ongoing tensions, especially with the Supreme Court's decisions and potential new tariffs, have left investors anxious about the long-term implications for the economy. As the situation evolves, market sentiment remains fragile, with analysts urging caution amid the geopolitical and economic turbulence.",
+      "rag_sources": [
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Yen near 160, a record Nikkei 225, higher yields: What experts expect after Sanae Takaichi's landslide victory",
+          "date": "2026-02-09",
+          "link": "https://www.cnbc.com/2026/02/09/japan-election-sanae-takaichi-markets-yen-bonds-nikkei-225-jgb-160-usd-ldp.html",
+          "snippet": "2026-02-09: Yen near 160, a record Nikkei 225, higher yields: What experts expect after Sanae Takaichi's landslide victory: Takaichi led the ruling Liberal Democratic Party to a supermajority in the L",
+          "guid": "108262985"
+        },
+        {
+          "title": "Goldman's David Solomon surprised by \u2018benign\u2019 market reaction to Iran war ",
+          "date": "2026-03-04",
+          "link": "https://www.cnbc.com/2026/03/04/goldman-david-solomon-iran-war-market-reaction-stocks.html",
+          "snippet": "2026-03-04: Goldman's David Solomon surprised by \u2018benign\u2019 market reaction to Iran war: \\I think it's going to take a couple of weeks for markets to really digest the implications of what's happened,\\\"",
+          "guid": "108273273"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

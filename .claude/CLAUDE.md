@@ -11,6 +11,11 @@ A hybrid R + Python pipeline for financial news analysis:
 3. **Python (charting)**: Sentiment trend charts generated from consolidated results
 4. **Python (embeddings)**: `embed_feeds.py` embeds all feed articles via OpenAI Batch API → FAISS vectorstore at `data/vectorstore/feeds/`
 5. **Python (topic clustering)**: `cluster_topics.py` clusters articles from a rolling 45-day window into emergent narratives and tracks their frequency as a time-series signal
+6. **Python (daily briefing)**: `daily_briefing.py` surfaces spiking topics, queries the RAG for narrative summaries, and cross-checks against sector sentiment
+7. **Python (briefing batch)**: `create_batch_briefings.py` + `retrieve_batch_briefings.py` generate RAG briefings for all historical dates via OpenAI Batch API (async, 50% cheaper)
+8. **Python (backfill + labeling)**: `backfill.py` orchestrates historical cluster + briefing runs; `label_topics.py` labels existing unlabeled topic_ids without re-clustering
+9. **Python (HF feeds push)**: `push_new_feeds_to_hf.py` appends daily scraped articles to `lacetohf/feeds` on Hugging Face Datasets; `push_feeds_to_hf.py` is the one-time cold-start
+10. **Python (HF analysis push)**: `push_new_analysis_to_hf.py` appends new rows to `lacetohf/sector-analysis`, `lacetohf/topic-trends`, and `lacetohf/entity-sentiment`; `push_analysis_to_hf.py` is the cold-start
 
 ## Running the Scripts
 
@@ -39,13 +44,44 @@ python query_sector.py                 # not a CLI script — import as a module
 python hybrid_rag.py               # CLI hybrid RAG query (BM25 + semantic + query translation)
 streamlit run chatbot_rag.py       # Streamlit RAG chatbot (streaming, sidebar controls)
 
+python daily_briefing.py                    # morning briefing for today (RAG + sector cross-check)
+python daily_briefing.py --date 2026-03-21  # briefing for a specific date
+python daily_briefing.py --no-rag --save    # fast briefing (no API), save to data/briefings/
+
+python label_topics.py             # label all unlabeled topic_ids via OpenAI Batch API
+python label_topics.py --dry-run   # show counts only
+
+python visualize_topics.py              # six charts: heatmap + frequency + timeline + sentiment + delta + scatter (top 15, last 200 days)
+python visualize_topics.py --top 20     # top 20 topics
+python visualize_topics.py --days 90    # last 90 days only
+python visualize_topics.py --animate    # also generate animated GIF (chart G) — slow
+python visualize_topics.py --animate --fps 8  # animated GIF at 8 fps
+
+python create_batch_briefings.py             # submit RAG briefing batch to OpenAI Batch API
+python create_batch_briefings.py --dry-run   # show counts, no submission
+python retrieve_batch_briefings.py           # collect completed batch → data/briefings/{date}.json
+
+python backfill.py                          # cluster + brief Sep 2025 → today
+python backfill.py --phase1-only            # cluster only (no API cost)
+python backfill.py --phase2-only --no-rag   # briefings without RAG (instant)
+
+python push_feeds_to_hf.py             # cold-start: push all feeds → lacetohf/feeds
+python push_feeds_to_hf.py --dry-run   # show row count only
+python push_new_feeds_to_hf.py         # daily incremental: append today's new articles
+
+python push_analysis_to_hf.py          # cold-start: push sector/topic/entity → 3 HF datasets
+python push_analysis_to_hf.py --dry-run
+python push_new_analysis_to_hf.py      # daily incremental: append new analysis rows
+
 python trader_assistant.py         # trading signal extractor (LangChain)
 python create_batch_files.py       # MA/RSI batch analysis (tickers)
 ```
 
-Python deps: `openai pydantic python-dotenv pandas matplotlib seaborn streamlit langchain langchain-community langchain-openai rank-bm25 hdbscan scikit-learn`. API keys in `.env` (gitignored):
+Python deps: `openai pydantic python-dotenv pandas matplotlib seaborn streamlit langchain langchain-community langchain-openai rank-bm25 hdbscan scikit-learn datasets huggingface_hub`. API keys in `.env` (gitignored):
 ```
 OPENAI_API_KEY=sk-...
+HF_TOKEN=hf_...
+HUGGINGFACE_REPO=your-username/feeds
 ```
 
 ## Architecture
@@ -56,8 +92,13 @@ GitHub Actions — daily-pipeline (weekdays 19:00 UTC)
   → download.R
   → output/feeds{date}.txt
 
+  → push_new_feeds_to_hf.py
+      reads:  output/feeds{date}.txt  (today's file only)
+      dedup:  guid — skips articles already in remote dataset
+      writes: lacetohf/feeds  (appends new rows; idempotent)
+
   → create_batch_files_v2.py
-      reads:  output/feeds*.txt  (top-level only — never output/enriched/)
+      reads:  lacetohf/feeds  (HF Dataset — authoritative source after HF push step)
       skips:  dates with existing data/sector_results/{date}.json
       writes: data/pending_sector_batch.txt  (batch job ID)
       writes: data/batch_tasks_sector.jsonl
@@ -102,7 +143,62 @@ GitHub Actions — collect-sector-results (triggered by daily-pipeline completio
               data/topic_clusters/{date}.json  (article → topic_id mapping)
       labels: new clusters via gpt-4o-mini (cached; 0-3 calls/day in steady state)
       aborts: with exit 2 on degenerate runs (noise_ratio > 0.90 or < 3 clusters)
+
+  → push_new_analysis_to_hf.py
+      reads:  data/sector_summary.tsv, data/topic_trends.tsv, data/entity_sentiment_ts.tsv
+      dedup:  date+sector / date+topic_id / date+entity+sector (composite keys)
+      writes: lacetohf/sector-analysis   (new date×sector rows)
+              lacetohf/topic-trends      (new date×topic rows)
+              lacetohf/entity-sentiment  (new date×entity×sector rows)
+      idempotent: re-running same date is always safe
 ```
+
+### Daily Briefing Batch Pipeline
+```
+create_batch_briefings.py
+    reads:  data/topic_trends.tsv          (spike detection via get_emerging_topics)
+    reads:  data/vectorstore/feeds/        (FAISS + BM25 retrieval, local, no API calls)
+    skips:  dates with existing data/briefings/{date}.json
+    writes: data/pending_briefings_batch.txt   (batch job ID)
+    writes: data/pending_briefings_meta.json   (spike metadata: label, spike_ratio,
+                                                article_count, pre-retrieved sources)
+    writes: data/batch_tasks_briefings.jsonl   (debug copy of submitted tasks)
+
+retrieve_batch_briefings.py
+    reads:  data/pending_briefings_batch.txt
+    reads:  data/pending_briefings_meta.json
+    polls:  OpenAI Batch API (exit 0=done, 1=error, 2=retry — same pattern as sector batch)
+    writes: data/briefings/{date}.json    (one per date; includes rag_answer, rag_sources,
+                                           sectors from local _sector_crosscheck)
+    clears: pending_briefings_batch.txt + pending_briefings_meta.json on full success
+
+custom_id convention: "briefing-YYYY-MM-DD-{topic_id[:8]}"
+
+Retrieval split:
+  create step  — FAISS+BM25 retrieval runs locally (no LLM, no cost)
+  batch step   — only the final LLM answer generation is sent to the Batch API
+  collect step — sector cross-check (_sector_crosscheck) runs locally at collect time
+```
+
+**Briefing output schema** (`data/briefings/{date}.json`):
+```json
+{
+  "date": "YYYY-MM-DD",
+  "n_spikes": 3,
+  "spikes": [
+    {
+      "topic_id": "uuid",
+      "label": "Fed Rate Decision",
+      "spike_ratio": 2.5,
+      "article_count": 45,
+      "rag_answer": "The Federal Reserve...",
+      "rag_sources": [{"title","date","link","snippet","guid"}],
+      "sectors": [{"sector","trend_direction","trend_delta","mean_sentiment_score"}]
+    }
+  ]
+}
+```
+Compatible with `daily_briefing.py`'s `build_briefing()` output — same schema.
 
 ### Sector Analysis Schema
 `SectorAnalysis` (Pydantic, in `create_batch_files_v2.py`) is the LLM output model. `SectorName` in `constants.py` is the single source of truth for the taxonomy:
@@ -187,10 +283,11 @@ Pre-computed snapshots auto-regenerated by CI after each collect run:
 | `data/sector_sentiment_pivot.tsv` | wide (date × 19 sectors) | mean `sentiment_score` per date/sector; NaN = no data |
 | `data/entity_sentiment_ts.tsv` | long (date × entity × sector) | one row per mention; filterable by any column |
 | `data/sector_results.db` | SQLite | normalized, lossless — `sector_analyses` + `sector_entities` tables |
-| `data/topic_trends.tsv` | append-only TSV | date × topic_id × topic_label × article_count; one row per cluster per day |
+| `data/topic_trends.tsv` | append-only TSV | date × topic_id × topic_label × article_count × sentiment_score; one row per cluster per day; sentiment_score = mean sector sentiment for member articles (NaN for pre-backfill rows) |
 | `data/topic_centroids.json` | JSON | persistent centroid map: topic_id → {label, centroid, first_seen, last_seen} |
 | `data/topic_labels.json` | JSON | persistent LLM label cache: topic_id → label string |
 | `data/topic_clusters/{date}.json` | JSON array | per-run article → topic_id mapping for the 45-day window |
+| `data/briefings/{date}.json` | JSON | one per date: n_spikes, spikes list with rag_answer + rag_sources + sectors |
 
 Rolling window for sector TSVs is `EXPORT_LOOKBACK_DAYS = 90` in `constants.py` — change once to update all callers.
 Topic clustering window is `CLUSTER_WINDOW_DAYS = 45` — separate constant, also in `constants.py`.
@@ -234,13 +331,13 @@ Path constant: `SECTOR_DB_FILE` in `constants.py`.
 ### Key Files
 | File | Purpose |
 |---|---|
-| `constants.py` | **Single source of truth**: `SectorName` Literal, `SECTOR_TAXONOMY` list, `SENTIMENT_SCORE`, file paths, `EXPORT_LOOKBACK_DAYS`, `SECTOR_DB_FILE`, `VECTORSTORE_DIR`, `FEEDS_REGISTRY_FILE`, clustering params (`CLUSTER_WINDOW_DAYS=45`, `CLUSTER_MIN_SIZE=10`, `CLUSTER_MIN_SAMPLES=3`, `CLUSTER_MAX_NOISE_RATIO=0.90`, `CLUSTER_MIN_CLUSTERS=3`), topic file paths (`TOPIC_CENTROIDS_FILE`, `TOPIC_LABELS_FILE`, `TOPIC_TRENDS_FILE`, `TOPIC_CLUSTERS_DIR`) |
+| `constants.py` | **Single source of truth**: `SectorName` Literal, `SECTOR_TAXONOMY` list, `SENTIMENT_SCORE`, file paths, `EXPORT_LOOKBACK_DAYS`, `SECTOR_DB_FILE`, `VECTORSTORE_DIR`, `FEEDS_REGISTRY_FILE`, clustering params (`CLUSTER_WINDOW_DAYS=45`, `CLUSTER_MIN_SIZE=10`, `CLUSTER_MIN_SAMPLES=3`, `CLUSTER_MAX_NOISE_RATIO=0.90`, `CLUSTER_MIN_CLUSTERS=3`, `CLUSTER_SELECTION_METHOD="leaf"`), topic file paths (`TOPIC_CENTROIDS_FILE`, `TOPIC_LABELS_FILE`, `TOPIC_TRENDS_FILE`, `TOPIC_CLUSTERS_DIR`), briefing batch paths (`PENDING_BRIEFINGS_BATCH_FILE`, `BRIEFINGS_BATCH_META_FILE`, `BATCH_FILE_BRIEFINGS`, `BRIEFINGS_DIR`) |
 | `query_sector.py` | `get_snapshot()` + `get_time_series()` + `get_all_sectors_pivot()` + `export_sector_pivot()` |
 | `query_entity.py` | `get_entity_snapshot()` + `get_entity_time_series()` + `get_all_entities_ts()` + `export_entity_ts()` |
 | `export_time_series.py` | CLI — calls both export functions; run after `read_sector_results.py` |
 | `build_sector_db.py` | CLI — full rebuild of `data/sector_results.db` from all `data/sector_results/*.json`; atomic write; run after `export_time_series.py` |
 | `cluster_topics.py` | CLI + importable module — daily topic clustering; `run(date)` is the public entry point; see Topic Clustering section below |
-| `tests/test_cluster_topics.py` | 36 unit tests for all `cluster_topics.py` public functions (TDD) |
+| `tests/test_cluster_topics.py` | 39 unit tests for all `cluster_topics.py` public functions (TDD) |
 | `embed_feeds.py` | CLI — cold-start build or incremental update of FAISS vectorstore from feed articles |
 | `create_batch_files_v2.py` | Reads raw feeds, submits daily sector batch to OpenAI |
 | `retrieve_batch_file_results.py` | Collects completed batch; routes to `data/sector_results/` |
@@ -249,6 +346,16 @@ Path constant: `SECTOR_DB_FILE` in `constants.py`.
 | `hybrid_rag.py` | CLI hybrid RAG: load FAISS + BM25 + query translation + LLM answer; exposes `ask()` public API for external callers |
 | `chatbot_rag.py` | Streamlit chatbot wrapping `hybrid_rag.py`; streaming answers, sidebar controls |
 | `pyproject.toml` | Makes the project pip-installable (`pip install -e .`) so external scripts can `from hybrid_rag import ask` |
+| `daily_briefing.py` | Morning briefing: checks for pre-computed `data/briefings/{date}.json` first (`print_precomputed(date)`), falls back to live spike detection → RAG summary → sector cross-check; `build_briefing(date, top_n, use_rag)` is the live-compute entry point; `--save` forces a fresh re-run |
+| `create_batch_briefings.py` | Runs FAISS+BM25 retrieval locally for each spike, builds OpenAI Batch API JSONL, submits batch, saves ID + spike metadata sidecar |
+| `retrieve_batch_briefings.py` | Polls batch (exit 0/1/2), downloads results, assembles briefing JSONs with sector cross-check → `data/briefings/{date}.json` |
+| `label_topics.py` | Labels all unlabeled topic_ids via OpenAI Batch API (kitai.batch); submits one job for all unlabeled topics, polls until done, updates topic_labels.json + topic_trends.tsv; use after `backfill.py --phase1-only` |
+| `visualize_topics.py` | CLI — six static charts + optional animated GIF from `data/topic_trends.tsv`: `topic_spike_heatmap.png` (LogNorm count heatmap) + `topic_frequency_ts.png` (symlog line chart) + `topic_timeline.png` (Gantt) + `topic_sentiment_heatmap.png` (diverging red–green) + `topic_sentiment_delta.png` (7-day momentum) + `topic_signal_scatter.png` (spike × sentiment, latest date); `--animate` adds `topic_signal_scatter_animated.gif` (one frame per qualifying date, fixed axes/norm); `--fps N` (default 4); `--top N` (default 15), `--days N` (default 200) |
+| `backfill.py` | Two-phase historical back-fill: Phase 1 = cluster_topics per date (no API), Phase 2 = daily_briefing per date; idempotent (skips already-done dates) |
+| `push_feeds_to_hf.py` | Cold-start: push all `output/feeds*.txt` → `lacetohf/feeds`; run once |
+| `push_new_feeds_to_hf.py` | Daily incremental: append today's new articles to `lacetohf/feeds`; dedup on `guid`; called by `daily-pipeline` |
+| `push_analysis_to_hf.py` | Cold-start: create + push all three analysis datasets to HF; run once |
+| `push_new_analysis_to_hf.py` | Daily incremental: append new rows to `lacetohf/sector-analysis`, `lacetohf/topic-trends`, `lacetohf/entity-sentiment`; composite-key dedup; called by `collect-sector-results` |
 | `download.R` | RSS scraper, called by GitHub Actions |
 | `old/` | Archived/experimental versions — not used in production (includes `chatbot6.py`, `trader_assistant.py`, `utils.py`, `create_batch_files.py`) |
 
@@ -256,9 +363,15 @@ Path constant: `SECTOR_DB_FILE` in `constants.py`.
 `create_batch_files_v2.py` uses `_make_openai_strict()` to convert the Pydantic schema to OpenAI strict JSON schema format (adds `additionalProperties: false` + `required[]` recursively). This replaces the former private SDK call `openai.lib._pydantic.to_strict_json_schema`.
 
 ### Incremental Sentinel
-Both batch scripts use file existence as the processed sentinel:
+All batch scripts use file existence as the processed sentinel:
+
+**Sector batch:**
 - `create_batch_files_v2.py` skips dates where `data/sector_results/{date}.json` already exists
 - `retrieve_batch_file_results.py` clears `data/pending_sector_batch.txt` only after full success
+
+**Briefing batch:**
+- `create_batch_briefings.py` skips dates where `data/briefings/{date}.json` already exists; writes two sentinel files: `data/pending_briefings_batch.txt` (batch ID) and `data/pending_briefings_meta.json` (spike metadata + pre-retrieved sources keyed by custom_id)
+- `retrieve_batch_briefings.py` clears both sentinel files only after full success; exit code 2 = batch still in progress (CI-safe retry)
 
 ### Feed Vectorstore (`embed_feeds.py`)
 FAISS vectorstore of all feed articles, built once and updated daily by CI.
@@ -294,27 +407,30 @@ Unsupervised narrative discovery layered on top of the existing FAISS vectorstor
 3. HDBSCAN (`min_cluster_size=10`, `min_samples=3`) → ~19 clusters, ~60% noise (expected for news)
 4. Centroid-cosine matching (threshold 0.85) assigns stable `topic_id` across daily runs
 5. New clusters get LLM labels via `gpt-4o-mini`; cached labels reused for matched topics
-6. Appended to `data/topic_trends.tsv` (append-only); spike ratios computed for signal
+6. New clusters get LLM labels via `gpt-4o-mini`; cached labels reused for matched topics
+6a. `compute_topic_sentiment` joins cluster assignments → `sector_summary.tsv` to compute mean sentiment per topic (pure join, no API)
+7. Appended to `data/topic_trends.tsv` (append-only, 5 columns: date × topic_id × topic_label × article_count × sentiment_score); spike ratios computed for signal
 
 **Public API:**
 
 ```python
 from cluster_topics import (
-    extract_window_vectors,   # (date, window_days) -> (np.ndarray, pd.DataFrame)
-    reduce_dimensions,        # (vectors, n_components=50) -> np.ndarray
-    run_hdbscan,              # (X) -> (labels, noise_ratio) | raises ClusteringAborted
-    compute_centroids,        # (vectors, labels) -> dict[int, np.ndarray]
-    match_topics,             # (new_centroids, prior_topics, threshold=0.85) -> dict
-    get_label,                # (topic_id, cache, articles, llm_fn=None) -> str
-    append_trends,            # (date, rows, path) -> None | raises DuplicateDateError
-    get_emerging_topics,      # (date, trends_df) -> list[dict]
-    load_centroids,           # (path) -> dict  — returns {} if absent
-    save_centroids,           # (data, path) -> None  — atomic write
-    load_label_cache,         # (path) -> dict  — returns {} if absent
-    save_label_cache,         # (data, path) -> None  — atomic write
-    run,                      # (target_date, ...) -> summary_dict  — full pipeline
-    ClusteringAborted,        # exception: degenerate clustering run
-    DuplicateDateError,       # exception: append_trends called twice for same date
+    extract_window_vectors,    # (date, window_days) -> (np.ndarray, pd.DataFrame)
+    reduce_dimensions,         # (vectors, n_components=50) -> np.ndarray
+    run_hdbscan,               # (X) -> (labels, noise_ratio) | raises ClusteringAborted
+    compute_centroids,         # (vectors, labels) -> dict[int, np.ndarray]
+    match_topics,              # (new_centroids, prior_topics, threshold=0.85) -> dict
+    get_label,                 # (topic_id, cache, articles, llm_fn=None) -> str
+    compute_topic_sentiment,   # (cluster_date, sector_summary_path, topic_clusters_dir) -> dict[str, float]
+    append_trends,             # (date, rows, path) -> None | raises DuplicateDateError
+    get_emerging_topics,       # (date, trends_df) -> list[dict]
+    load_centroids,            # (path) -> dict  — returns {} if absent
+    save_centroids,            # (data, path) -> None  — atomic write
+    load_label_cache,          # (path) -> dict  — returns {} if absent
+    save_label_cache,          # (data, path) -> None  — atomic write
+    run,                       # (target_date, ...) -> summary_dict  — full pipeline
+    ClusteringAborted,         # exception: degenerate clustering run
+    DuplicateDateError,        # exception: append_trends called twice for same date
 )
 ```
 
@@ -325,7 +441,7 @@ from datetime import date
 
 summary = run(target_date=date(2026, 3, 13), skip_labeling=False)
 # summary keys: date, window_articles, n_clusters, noise_ratio,
-#               new_labels, matched_topics, cluster_sizes
+#               new_labels, matched_topics, topics_with_sentiment, cluster_sizes
 ```
 
 **`get_emerging_topics()` — spike signal:**
@@ -336,8 +452,9 @@ from datetime import date
 
 trends = pd.read_csv("data/topic_trends.tsv", sep="\t")
 signals = get_emerging_topics(date.today(), trends)
-# signals: list of {topic_id, label, spike_ratio, article_count}
+# signals: list of {topic_id, label, spike_ratio, article_count, sentiment_score}
 # sorted by spike_ratio descending; topics with article_count < 5 excluded
+# sentiment_score is None when column absent from TSV (backward compatible)
 ```
 
 **Exceptions:**
@@ -355,6 +472,7 @@ signals = get_emerging_topics(date.today(), trends)
 | `CLUSTER_MIN_SAMPLES` | 3 | balanced noise/cluster tradeoff |
 | `CLUSTER_MAX_NOISE_RATIO` | 0.90 | 60–70% noise is expected baseline for news data |
 | `CLUSTER_MIN_CLUSTERS` | 3 | abort on truly degenerate runs only |
+| `CLUSTER_SELECTION_METHOD` | `"leaf"` | HDBSCAN default `"eom"` over-merges to ~3 clusters on this corpus; `"leaf"` recovers ~19 |
 
 ### External Caller API (`ask()`)
 
@@ -387,10 +505,12 @@ Resources (FAISS, BM25 corpus) are loaded once on first call and cached for the 
 - `data/` — must exist for `create_batch_files.py` (holds `batch_tasks_tickers.jsonl`, `book.txt`)
 - `data/vectorstore/feeds/` — pre-built FAISS index used by `hybrid_rag.py`, `chatbot_rag.py`, and `cluster_topics.py`; built/updated by `embed_feeds.py`
 - `data/topic_clusters/` — created at runtime by `cluster_topics.py`
+- `data/briefings/` — created at runtime by `retrieve_batch_briefings.py` or `daily_briefing.py --save`
 
 ### CI/CD
 | Workflow | Trigger | What it does |
 |---|---|---|
-| `daily-pipeline` | cron `0 19 * * 1-5` + manual | download.R → create_batch_files_v2.py → commit |
-| `collect-sector-results` | on `daily-pipeline` completion + manual | retrieve → flatten → charts → **export TSVs** → **build SQLite db** → **cluster topics** → commit |
+| `daily-pipeline` | cron `0 19 * * 1-5` + manual | download.R → **push feeds to HF** → create_batch_files_v2.py → commit |
+| `collect-sector-results` | on `daily-pipeline` completion + manual | retrieve → flatten → charts → **export TSVs** → **build SQLite db** → **cluster topics** → **push analysis to HF** → commit |
 | `embed-feeds` | on `collect-sector-results` completion + manual | embed new feed articles → update FAISS store + registry → commit |
+| `daily-briefing` | on `embed-feeds` completion + cron `0 13 * * 1-5` + manual | daily_briefing.py --save → commit briefing JSON |

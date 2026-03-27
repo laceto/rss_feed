@@ -1,0 +1,212 @@
+{
+  "date": "2025-12-15",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "bc8f43fa-42c5-45c8-916a-f083dc805748",
+      "label": "AI Chip Competition and Sales",
+      "spike_ratio": 1.484,
+      "article_count": 23,
+      "rag_answer": "The AI chip market is experiencing heightened competition, particularly between Nvidia and local Chinese firms. Nvidia recently received approval to sell its H200 AI chips in China, which has led to a rally in chip stocks, but the company has yet to confirm any shipments, raising concerns about local rivals potentially gaining market share. Meanwhile, Chinese companies like Alibaba are actively developing their own AI chips, further intensifying the competitive landscape. Overall, the dynamics of U.S.-China relations and the push for homegrown technology in China are shaping the future of AI chip sales and competition.",
+      "rag_sources": [
+        {
+          "title": "Chip stocks rally after bumper earnings and a report of a game-changing China approval for Nvidia",
+          "date": "2026-01-28",
+          "link": "https://www.cnbc.com/2026/01/28/global-chip-stocks-today-nvidia-china-asml-sk-hynix.html",
+          "snippet": "2026-01-28: Chip stocks rally after bumper earnings and a report of a game-changing China approval for Nvidia: Reuters reported that China has approved sales of Nvidia's H200, sending the AI chip gian",
+          "guid": "108258059"
+        },
+        {
+          "title": "Nvidia says it's evaluating a 'variety of products' after report of new AI chip for China",
+          "date": "2025-08-19",
+          "link": "https://www.cnbc.com/2025/08/19/nvidia-ai-china-chip.html",
+          "snippet": "2025-08-19: Nvidia says it's evaluating a 'variety of products' after report of new AI chip for China: Nvidia last week struck a deal with the U.S. government to resume selling products in China, in e",
+          "guid": "108187933"
+        },
+        {
+          "title": "Nvidia still hasn't sold its U.S.-approved China AI chips \u2014 and it\u2019s worried local AI rivals could take over",
+          "date": "2026-02-26",
+          "link": "https://www.cnbc.com/2026/02/26/nvidia-china-chip-sales-export-controls-ai-competition.html",
+          "snippet": "2026-02-26: Nvidia still hasn't sold its U.S.-approved China AI chips \u2014 and it\u2019s worried local AI rivals could take over: The U.S. chipmaker has yet to confirm shipments to China despite Washington ea",
+          "guid": "108270233"
+        },
+        {
+          "title": "Alibaba is developing a new AI chip \u2014 here's what we know so far",
+          "date": "2025-08-29",
+          "link": "https://www.cnbc.com/2025/08/29/alibaba-is-developing-a-new-ai-chip-heres-what-we-know-so-far.html",
+          "snippet": "2025-08-29: Alibaba is developing a new AI chip \u2014 here's what we know so far: Chinese technology firms have focused on developing homegrown chips over the last few years amid rising geopolitical tensi",
+          "guid": "108192425"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "baa12f40-6fae-4a48-b674-488ec8fbeac8",
+      "label": "Trump's Trade War Developments",
+      "spike_ratio": 1.422,
+      "article_count": 31,
+      "rag_answer": "Trump's trade war has escalated with the implementation of extensive tariffs on numerous U.S. trading partners, including Canada, Brazil, and Switzerland, leading to significant market disruptions and reshaping international trade relationships. The introduction of a 40% tariff on goods transshipped to avoid duties has further complicated trade dynamics. Analysts have expressed concerns that Trump is \"losing\" the trade war with China, prompting calls for a change in strategy to mitigate negative impacts on American families. Additionally, the trade deficit saw a notable decrease, hitting its smallest level since 2009, suggesting some short-term effects of the tariffs on U.S. trade balances.",
+      "rag_sources": [
+        {
+          "title": "Live Updates: Trump tariffs slam Canada, Brazil and Switzerland ",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/trumps-tariffs-rekindle-global-trade-tensions.html",
+          "snippet": "2025-08-01: Live Updates: Trump tariffs slam Canada, Brazil and Switzerland: Trump's extensive new tariff regime on dozens of U.S. partners are launching new trade wars and sending shock waves through",
+          "guid": "108180211"
+        },
+        {
+          "title": "How countries are reacting to Trump's latest tariff announcements as deadline looms",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/how-asian-countries-are-reacting-to-trumps-latest-tariffs-announcement-as-deadline-looms.html",
+          "snippet": "2025-08-01: How countries are reacting to Trump's latest tariff announcements as deadline looms: The White House also announced a 40% tariff rate for all goods transshipped to avoid the applicable dut",
+          "guid": "108180161"
+        },
+        {
+          "title": "Another late-night Trump trade twist \u2014 just hours before the world hit go",
+          "date": "2025-08-01",
+          "link": "https://www.cnbc.com/2025/08/01/another-late-night-trump-trade-twist-hours-before-the-world-hit-go.html",
+          "snippet": "2025-08-01: Another late-night Trump trade twist \u2014 just hours before the world hit go: Trump\u2019s late-night tariff moves have become a hallmark, catching markets off guard, reshaping deals, and forcing ",
+          "guid": "108180251"
+        },
+        {
+          "title": "Trump 'losing' trade war with China going in to Xi meeting, Senate Democrats say in report",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/trump-trade-china-warren-democrats-inflation-xi.html",
+          "snippet": "2025-10-29: Trump 'losing' trade war with China going in to Xi meeting, Senate Democrats say in report: \\Trump needs to change course on his trade war with China now and stop hurting American families",
+          "guid": "108218477"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "2e955eac-a74a-4c42-be9f-b871d12feb52",
+      "label": "Market Trends and Stock Movements",
+      "spike_ratio": 1.388,
+      "article_count": 31,
+      "rag_answer": "The stock market has experienced significant volatility, with benchmarks reaching record highs due to easing inflation, strong corporate earnings, and expectations of U.S. rate cuts. However, recent sentiment has reversed, indicating potential concerns about an economic slowdown, as suggested by Stifel's warning of a stagflation environment. Despite this, certain sectors, particularly those related to AI and retail, have shown resilience and momentum. Investors are advised to carefully assess market conditions before making trades, as opportunities may arise amidst the fluctuations.",
+      "rag_sources": [
+        {
+          "title": "Stock market swings got you reeling? Answer these 6 questions before making a trade",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/stock-market-swings-got-you-reeling-answering-6-questions-will-help.html",
+          "snippet": "2025-11-28: Stock market swings got you reeling? Answer these 6 questions before making a trade: Frustrating as volatility can be, it also tends to present opportunities.",
+          "guid": "108232626"
+        },
+        {
+          "title": "Stock benchmarks are scaling record highs: 'Animal spirits are soaring' ",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/stock-benchmarks-are-scaling-record-highs-animal-spirits-are-soaring-.html",
+          "snippet": "2025-09-11: Stock benchmarks are scaling record highs: 'Animal spirits are soaring': Easing inflation pressures,\u00a0resilient corporate earnings and expectations for U.S. rate cuts have boosted investor ",
+          "guid": "108197275"
+        },
+        {
+          "title": "Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward",
+          "date": "2025-12-26",
+          "link": "https://www.cnbc.com/2025/12/26/market-sentiment-has-made-a-huge-reversal-heres-why-and-what-it-means-going-forward.html",
+          "snippet": "2025-12-26: Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward: Something unusual happened in the past few weeks.",
+          "guid": "108245814"
+        },
+        {
+          "title": "Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel",
+          "date": "2025-08-11",
+          "link": "https://www.cnbc.com/2025/08/11/stock-market-party-to-be-ruined-by-sudden-economic-slowdown-says-stifel.html",
+          "snippet": "2025-08-11: Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel: The market could be in for a stagflation environment, the firm said.",
+          "guid": "108184067"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "5f1eaec1-d4e7-4f3e-ac3e-6d686ae520de",
+      "label": "Electric Vehicle and Robotaxi Developments",
+      "spike_ratio": 1.31,
+      "article_count": 22,
+      "rag_answer": "The electric vehicle (EV) and robotaxi sectors are experiencing significant advancements, with multiple companies, including Lucid, Xpeng, Waymo, and Tesla, actively pursuing robotaxi initiatives. Lucid plans to expand into midsize vehicles and aims for positive free cash flow by the late 2020s, while Xpeng is launching robotaxis and humanoid robots powered by self-developed AI chips. The robotaxi industry is gaining momentum, with leaders like Baidu and Nvidia noting a tipping point in competition, and Tesla has secured permits for ride-hailing services in Texas. These developments suggest a rapidly evolving market with increasing competition and potential for substantial growth in autonomous transportation solutions.",
+      "rag_sources": [
+        {
+          "title": "EV maker Lucid reveals plans for robotaxi, positive free cash flow late this decade",
+          "date": "2026-03-12",
+          "link": "https://www.cnbc.com/2026/03/12/lucid-investor-day.html",
+          "snippet": "2026-03-12: EV maker Lucid reveals plans for robotaxi, positive free cash flow late this decade: The EV company is aiming to hit that target through market expansion into midsize vehicles, robotaxis a",
+          "guid": "108277205"
+        },
+        {
+          "title": "\u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises",
+          "date": "2025-11-20",
+          "link": "https://www.cnbc.com/2025/11/20/global-robotaxi-race-heats-up-between-us-and-chinese-rivals.html",
+          "snippet": "2025-11-20: \u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises: Global tech executives in recent weeks have proclaimed the robotaxi industry is finally nea",
+          "guid": "108226580"
+        },
+        {
+          "title": "Chinese EV maker Xpeng to launch robotaxis, humanoid robots with self-developed AI chips",
+          "date": "2025-11-05",
+          "link": "https://www.cnbc.com/2025/11/05/china-xpeng-to-launch-robotaxis-humanoid-robots-with-own-ai-chips.html",
+          "snippet": "2025-11-05: Chinese EV maker Xpeng to launch robotaxis, humanoid robots with self-developed AI chips: Chinese electric car company Xpeng is following in Tesla's footsteps by moving into robotaxis and ",
+          "guid": "108221540"
+        },
+        {
+          "title": "Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/waymo-amazon-zoox-tesla-robotaxi-expansion.html",
+          "snippet": "2025-12-16: Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line: Robotaxis grew rapidly in 2025 with Waymo expanding fastest, Zoox debuting public rides and Tesla ",
+          "guid": "108236372"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "5a598585-4aae-4389-91d8-c8e8c6593f83",
+      "label": "Midday Stock Movements",
+      "spike_ratio": 0.991,
+      "article_count": 21,
+      "rag_answer": "Midday stock movements have shown significant volatility, with various companies consistently making notable moves in the market. Recent reports highlight stocks like Newmont, Apple, and Sandisk experiencing substantial midday fluctuations, indicating active trading and investor interest. This trend suggests a dynamic market environment where investors are reacting to earnings reports, economic indicators, and broader market sentiments. The ongoing fluctuations may present both opportunities and risks for traders, as they navigate the impacts of economic conditions and corporate performance on stock prices.",
+      "rag_sources": [
+        {
+          "title": "Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/stocks-making-the-biggest-moves-midday-nem-aapl-sndk-deck.html",
+          "snippet": "2026-01-30: Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more: These are the stocks posting the largest moves midday.",
+          "guid": "108259667"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more",
+          "date": "2025-10-15",
+          "link": "https://www.cnbc.com/2025/10/15/stocks-making-the-biggest-moves-midday-bac-ms-bg-pgr.html",
+          "snippet": "2025-10-15: Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108212417"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more",
+          "date": "2025-09-18",
+          "link": "https://www.cnbc.com/2025/09/18/stocks-making-the-biggest-moves-midday-intc-nvo-blsh-all.html",
+          "snippet": "2025-09-18: Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more: These are the stocks posting the largest moves midday.",
+          "guid": "108200831"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: UnitedHealth, Applied Materials, Sandisk and more",
+          "date": "2025-08-15",
+          "link": "https://www.cnbc.com/2025/08/15/stocks-making-big-moves-midday-unh-amat-sndk-csco-evlv-flo-.html",
+          "snippet": "2025-08-15: Stocks making the biggest moves midday: UnitedHealth, Applied Materials, Sandisk and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108186615"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

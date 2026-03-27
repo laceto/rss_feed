@@ -1,0 +1,196 @@
+{
+  "date": "2026-03-03",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "489a5509-0307-4ffc-9a07-7f34dc809001",
+      "label": "Warner Bros. Discovery Acquisition Battle",
+      "spike_ratio": 1.364,
+      "article_count": 18,
+      "rag_answer": "The acquisition battle for Warner Bros. Discovery (WBD) has intensified, with Paramount, Comcast, and Netflix submitting bids as WBD explores a potential sale. Paramount has made a higher bid, prompting Netflix to reconsider its offer, which it later abandoned after Paramount's proposal was deemed superior. This competitive landscape has led to significant market reactions, including a 10% jump in WBD's shares when the company announced its openness to a sale. The situation suggests a prolonged bidding war, with potential implications for the streaming and entertainment sectors as major players vie for WBD's assets.",
+      "rag_sources": [
+        {
+          "title": "Paramount, Comcast, Netflix submit bids for Warner Bros. Discovery ",
+          "date": "2025-11-21",
+          "link": "https://www.cnbc.com/2025/11/21/warner-bros-discovery-wbd-bids-paramount-comcast-netflix.html",
+          "snippet": "2025-11-21: Paramount, Comcast, Netflix submit bids for Warner Bros. Discovery: Warner Bros. Discovery recently expanded its strategic review of its business, saying it's open for a sale. First round ",
+          "guid": "108229432"
+        },
+        {
+          "title": "Warner Bros. Discovery to debut HBO Max in 14 Asia Pacific markets next month",
+          "date": "2025-09-16",
+          "link": "https://www.cnbc.com/2025/09/16/warner-bros-discovery-to-debut-hbo-max-in-14-asia-pacific-markets.html",
+          "snippet": "2025-09-16: Warner Bros. Discovery to debut HBO Max in 14 Asia Pacific markets next month: Warner Bros. Discovery is set to launch its HBO Max streaming service in 14 new markets across the Asia Pacif",
+          "guid": "108199404"
+        },
+        {
+          "title": "CNBC Daily Open: Netflix bows out from Warner Bros. Discovery bidding war",
+          "date": "2026-02-27",
+          "link": "https://www.cnbc.com/2026/02/27/cnbc-daily-open-netflix-bows-out-from-warner-bros-discovery-bidding-war.html",
+          "snippet": "2026-02-27: CNBC Daily Open: Netflix bows out from Warner Bros. Discovery bidding war: Netflix on Thursday stateside said it declined to raise a counteroffer for Warner Bros. Discovery's studio and st",
+          "guid": "108270725"
+        },
+        {
+          "title": "Warner Bros. Discovery says Paramount made higher bid, board will weigh offer against Netflix deal",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/warner-bros-discovery-paramount-higher-bid-netflix.html",
+          "snippet": "2026-02-24: Warner Bros. Discovery says Paramount made higher bid, board will weigh offer against Netflix deal: If WBD deems the new Paramount offer superior, Netflix will have four days to improve it",
+          "guid": "108269071"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "0009838e-5b99-4f23-b3c0-d85cafc96a09",
+      "label": "U.S.-Iran Tensions and Oil Prices",
+      "spike_ratio": 1.235,
+      "article_count": 40,
+      "rag_answer": "U.S.-Iran tensions have escalated significantly, leading to volatile oil prices. Following reports of military strikes and the collapse of nuclear talks, oil prices surged, with U.S. crude oil reaching over $80 per barrel as the conflict disrupts global fuel supplies. Market reactions have been mixed, with oil jumping 4% on fears of war and then pulling back as negotiations resumed. The ongoing conflict is causing broader market volatility, particularly affecting emerging markets and consumer costs.",
+      "rag_sources": [
+        {
+          "title": "Oil pulls back as U.S.\u2013Iran talks set to resume: Here\u2019s where negotiations stand",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/23/iran-us-talks-oil-falls-nuclear-negotiations.html",
+          "snippet": "2026-02-23: Oil pulls back as U.S.\u2013Iran talks set to resume: Here\u2019s where negotiations stand: Tensions have remained on high alert throughout the Middle East for weeks after U.S. President Donald Trum",
+          "guid": "108268317"
+        },
+        {
+          "title": "Oil jumps 4% after Vance says Iran ignored key U.S. demands, military strikes on the table",
+          "date": "2026-02-18",
+          "link": "https://www.cnbc.com/2026/02/18/oil-prices-today-iran-trump-nuclear-talks.html",
+          "snippet": "2026-02-18: Oil jumps 4% after Vance says Iran ignored key U.S. demands, military strikes on the table: Oil traders are worried that war between the U.S. and Iran could lead to a major disruption of c",
+          "guid": "108266679"
+        },
+        {
+          "title": "Here's how the U.S.-Iran war is already hitting consumers' pocketbooks",
+          "date": "2026-03-06",
+          "link": "https://www.cnbc.com/2026/03/06/us-iran-war-gas-mortgage-markets.html",
+          "snippet": "2026-03-06: Here's how the U.S.-Iran war is already hitting consumers' pocketbooks: The U.S.-Israeli strikes on Iran over the weekend gave way to a week with topsy-turvy markets, spiking mortgage rate",
+          "guid": "108274411"
+        },
+        {
+          "title": "Oil prices steady as traders monitor Iran tensions, U.S. economic data",
+          "date": "2026-02-10",
+          "link": "https://www.cnbc.com/2026/02/10/oil-drifts-lower-as-traders-weigh-supply-risks-amid-usiran-tensions.html",
+          "snippet": "2026-02-10: Oil prices steady as traders monitor Iran tensions, U.S. economic data: Oil prices eased slightly on Tuesday after U.S. guidance for vessels transiting the Strait of Hormuz kept attention ",
+          "guid": "108263647"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "b1c25903-7305-4a83-9c9d-297e8686ac06",
+      "label": "DHS funding and shutdown crisis",
+      "spike_ratio": 1.205,
+      "article_count": 20,
+      "rag_answer": "The Department of Homeland Security (DHS) is currently experiencing a shutdown due to a deadlock in funding negotiations between Congressional Democrats and President Trump. Despite multiple counteroffers from Democrats, including a recent one on March 17, the impasse continues, leading to significant disruptions such as increased airport security line delays. The situation has escalated since the government was on the brink of a partial shutdown as early as January, with the shutdown officially starting on February 14. The ongoing crisis could have broader market implications, particularly in sectors reliant on government operations and services, as prolonged uncertainty may affect investor confidence and economic stability.",
+      "rag_sources": [
+        {
+          "title": "Democrats send Trump DHS funding counteroffer as agency shutdown grinds on",
+          "date": "2026-02-17",
+          "link": "https://www.cnbc.com/2026/02/17/dhs-shutdown-democrats-trump-counteroffer-funding-homeland.html",
+          "snippet": "2026-02-17: Democrats send Trump DHS funding counteroffer as agency shutdown grinds on: Congressional Democrats and the White House remain deadlocked in negotiations to reopen the Department of Homela",
+          "guid": "108266280"
+        },
+        {
+          "title": "Senate Democrats send DHS counteroffer to Trump as shutdown drags on",
+          "date": "2026-03-17",
+          "link": "https://www.cnbc.com/2026/03/17/dhs-shutdown-trump-homeland-security-senate-democrats-counteroffer.html",
+          "snippet": "2026-03-17: Senate Democrats send DHS counteroffer to Trump as shutdown drags on: The Department of Homeland Security shutdown has caused pileups in airport security lines across the country.",
+          "guid": "108278971"
+        },
+        {
+          "title": "The government is barreling toward a partial shutdown over DHS funding. Here's what to expect",
+          "date": "2026-01-27",
+          "link": "https://www.cnbc.com/2026/01/27/us-government-shutdown-over-dhs-funding.html",
+          "snippet": "2026-01-27: The government is barreling toward a partial shutdown over DHS funding. Here's what to expect: The U.S. government may partially shutdown on Saturday months after a record 43-day closure i",
+          "guid": "108257539"
+        },
+        {
+          "title": "Democrats lay out demands in prickly DHS funding fight",
+          "date": "2026-02-04",
+          "link": "https://www.cnbc.com/2026/02/04/democrats-demands-dhs-funding-fight.html",
+          "snippet": "2026-02-04: Democrats lay out demands in prickly DHS funding fight: Funding for the Department of Homeland Security still needs to be worked out after President Trump signed a law that reopened most o",
+          "guid": "108261373"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "e91276fe-4a15-4206-9c39-1557b2405ea1",
+      "label": "Epstein Connections and Fallout",
+      "spike_ratio": 1.031,
+      "article_count": 33,
+      "rag_answer": "Recent developments surrounding Jeffrey Epstein's connections have led to significant fallout among high-profile individuals and organizations. New documents released by the DOJ reveal Epstein's extensive ties in Silicon Valley, implicating figures like Bill Gates and Elon Musk, while also prompting resignations, such as that of the World Economic Forum CEO Borge Brende. The ongoing scrutiny has resulted in public backlash against those associated with Epstein, including former President Trump, who faces criticism for his past dealings and calls for the release of further documents. These revelations could impact reputations and relationships in the financial and political sectors, potentially leading to shifts in investor confidence and public trust in associated entities.",
+      "rag_sources": [
+        {
+          "title": "Epstein's Silicon Valley connections went beyond Gates and Musk",
+          "date": "2026-02-09",
+          "link": "https://www.cnbc.com/2026/02/09/tech-leaders-epstein-records-silicon-valley-sergey-brin-thiel-sinofsky-reid-hoffman-musk-gates.html",
+          "snippet": "2026-02-09: Epstein's Silicon Valley connections went beyond Gates and Musk: The new Epstein files released by the DOJ show that the deceased financier was able to build relationships across Silicon V",
+          "guid": "108260807"
+        },
+        {
+          "title": "Epstein files fallout: The high-profile people burned by past dealings with a predator",
+          "date": "2026-02-16",
+          "link": "https://www.cnbc.com/2026/02/15/epstein-files-fallout-goldman-ruemmler-harvard-yale.html",
+          "snippet": "2026-02-16: Epstein files fallout: The high-profile people burned by past dealings with a predator: Jeffrey Epstein killed himself in a New York City federal jail in 2019. But more than six years late",
+          "guid": "108265580"
+        },
+        {
+          "title": "Epstein would 'name drop' Trump, Les Wexner says in deposition video",
+          "date": "2026-02-19",
+          "link": "https://www.cnbc.com/2026/02/19/epstein-trump-les-wexner-deposition.html",
+          "snippet": "2026-02-19: Epstein would 'name drop' Trump, Les Wexner says in deposition video: Democrats on the House Oversight Committee have expressed skepticism about Wexner's insistence that he had virtually n",
+          "guid": "108267572"
+        },
+        {
+          "title": "DOJ says names of two associates Epstein wired $100k and $250k to should stay secret",
+          "date": "2025-09-06",
+          "link": "https://www.cnbc.com/2025/09/06/epstein-doj-says-two-people-he-wired-thousands-to-should-stay-secret.html",
+          "snippet": "2025-09-06: DOJ says names of two associates Epstein wired $100k and $250k to should stay secret: The Justice Department request came after NBC News asked a federal judge to unseal the names of two pe",
+          "guid": "108195264"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "20dc2216-5ed2-4f06-b49a-5e8994526cb3",
+      "label": "Tax Refunds and Relief",
+      "spike_ratio": 1.0,
+      "article_count": 18,
+      "rag_answer": "Tax refunds for the 2026 season are projected to be higher on average, with an increase of 10.2% based on early filing data, although some taxpayers may receive smaller refunds than expected due to lower-than-projected changes. The White House previously indicated that refunds could be $1,000 higher this season, which could influence consumer spending, particularly in the auto industry, as many Americans might use their refunds to purchase vehicles. Additionally, the IRS is addressing past errors related to pandemic-era penalty tax relief, which may further impact taxpayer refunds. Overall, these developments suggest a mixed outlook for consumer spending and economic activity as tax season unfolds.",
+      "rag_sources": [
+        {
+          "title": "Your tax refund could be smaller than expected this season. Here's why",
+          "date": "2026-03-20",
+          "link": "https://www.cnbc.com/2026/03/20/smaller-tax-refunds.html",
+          "snippet": "2026-03-20: Your tax refund could be smaller than expected this season. Here's why: Tax refunds are higher on average compared to last year, but the change has been smaller than some early projections",
+          "guid": "108280386"
+        },
+        {
+          "title": "Trump tariffs: Refunds to companies should go to workers as bonuses, raises, Greer says",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/trump-trade-jamieson-greer-tariff-refunds-workers-companies.html",
+          "snippet": "2026-03-13: Trump tariffs: Refunds to companies should go to workers as bonuses, raises, Greer says: The United States government could end up paying $165 billion of more in refunds for Trump's IEEPA ",
+          "guid": "108277871"
+        },
+        {
+          "title": "Tax season presents a boom-or-bust test for U.S. auto sales",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/us-auto-sales-tax-season-test.html",
+          "snippet": "2026-02-20: Tax season presents a boom-or-bust test for U.S. auto sales: Auto industry experts anticipate that some Americans could use higher tax returns to finally purchase a new or used vehicle.",
+          "guid": "108266104"
+        },
+        {
+          "title": "Tax savings from Trump's $40,000 SALT deduction limit could be highest in these states ",
+          "date": "2025-09-23",
+          "link": "https://www.cnbc.com/2025/09/23/trump-salt-deduction-limit.html",
+          "snippet": "2025-09-23: Tax savings from Trump's $40,000 SALT deduction limit could be highest in these states: Trump\u2019s \u2018big beautiful bill\u2019 increased the SALT deduction to $40,000 for 2025. Here's where taxpayer",
+          "guid": "108202083"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

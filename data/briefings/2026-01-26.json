@@ -1,0 +1,204 @@
+{
+  "date": "2026-01-26",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "b879033c-a02f-4e06-8138-b59f74de9402",
+      "label": "Global Inflation Trends and Responses",
+      "spike_ratio": 1.647,
+      "article_count": 28,
+      "rag_answer": "Global inflation trends are showing significant divergence, with some regions experiencing rising consumer prices while others face deflationary pressures. For instance, China reported a near two-year high in consumer inflation despite deeper producer deflation, indicating complex economic dynamics. Meanwhile, the U.S. Federal Reserve is grappling with inflation concerns, as highlighted by Fed officials expressing worries about inflation in a challenging economic climate. These developments suggest that investors are increasingly cautious, with inflation becoming a central theme influencing market strategies and central bank policies worldwide.",
+      "rag_sources": [
+        {
+          "title": "'Reflation is back' says Deutsche Bank as global central banks diverge from Fed",
+          "date": "2025-12-11",
+          "link": "https://www.cnbc.com/2025/12/11/reflation-is-back-says-deutsche-bank-as-central-banks-diverge-from-fed.html",
+          "snippet": "2025-12-11: 'Reflation is back' says Deutsche Bank as global central banks diverge from Fed: Global central banks are diverging, following The Fed's decision to cut rates and Swiss' choice to hold ste",
+          "guid": "108240421"
+        },
+        {
+          "title": "Fears of 1970s-style stagflation arise with oil spike to $100. How big a threat is it?",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/fears-of-1970s-style-stagflation-arise-with-oil-spike-to-100-how-big-a-threat-is-it.html",
+          "snippet": "2026-03-09: Fears of 1970s-style stagflation arise with oil spike to $100. How big a threat is it?: High inflation and slow growth present a double threat, as measures like interest rate cuts and gove",
+          "guid": "108275514"
+        },
+        {
+          "title": "Fed's Goolsbee says he's worried about inflation in 'fraught but intense' climate",
+          "date": "2026-03-23",
+          "link": "https://www.cnbc.com/2026/03/23/feds-goolsbee-says-hes-worried-about-inflation-in-fraught-but-intense-climate.html",
+          "snippet": "2026-03-23: Fed's Goolsbee says he's worried about inflation in 'fraught but intense' climate: In a CNBC interview, the central banker said policymaking is difficult in the current environment.",
+          "guid": "108281480"
+        },
+        {
+          "title": "China consumer inflation hits near two-year high despite deeper-than-expected producer deflation",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/10/chinas-cpi-ppi-deflation-november-consumer-prices.html",
+          "snippet": "2025-12-10: China consumer inflation hits near two-year high despite deeper-than-expected producer deflation: Economists warned that deflationary pressure on the world's second largest economy will pe",
+          "guid": "108239450"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "2e955eac-a74a-4c42-be9f-b871d12feb52",
+      "label": "Market Trends and Stock Movements",
+      "spike_ratio": 1.587,
+      "article_count": 60,
+      "rag_answer": "The stock market has experienced significant volatility, with benchmarks reaching record highs due to easing inflation, strong corporate earnings, and expectations of U.S. rate cuts. However, recent sentiment has reversed, indicating potential concerns about an economic slowdown, as suggested by Stifel's warning of a stagflation environment. Despite these fluctuations, certain sectors, particularly AI and retail favorites, have shown resilience, driving stocks to new highs. Investors are advised to carefully assess market conditions before making trading decisions, as opportunities may arise amidst the uncertainty.",
+      "rag_sources": [
+        {
+          "title": "Stock market swings got you reeling? Answer these 6 questions before making a trade",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/stock-market-swings-got-you-reeling-answering-6-questions-will-help.html",
+          "snippet": "2025-11-28: Stock market swings got you reeling? Answer these 6 questions before making a trade: Frustrating as volatility can be, it also tends to present opportunities.",
+          "guid": "108232626"
+        },
+        {
+          "title": "Stock benchmarks are scaling record highs: 'Animal spirits are soaring' ",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/stock-benchmarks-are-scaling-record-highs-animal-spirits-are-soaring-.html",
+          "snippet": "2025-09-11: Stock benchmarks are scaling record highs: 'Animal spirits are soaring': Easing inflation pressures,\u00a0resilient corporate earnings and expectations for U.S. rate cuts have boosted investor ",
+          "guid": "108197275"
+        },
+        {
+          "title": "Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward",
+          "date": "2025-12-26",
+          "link": "https://www.cnbc.com/2025/12/26/market-sentiment-has-made-a-huge-reversal-heres-why-and-what-it-means-going-forward.html",
+          "snippet": "2025-12-26: Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward: Something unusual happened in the past few weeks.",
+          "guid": "108245814"
+        },
+        {
+          "title": "Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel",
+          "date": "2025-08-11",
+          "link": "https://www.cnbc.com/2025/08/11/stock-market-party-to-be-ruined-by-sudden-economic-slowdown-says-stifel.html",
+          "snippet": "2025-08-11: Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel: The market could be in for a stagflation environment, the firm said.",
+          "guid": "108184067"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "98f2b667-e4df-4662-8af7-4b0e530dab68",
+      "label": "Housing Market Trends and Challenges",
+      "spike_ratio": 1.304,
+      "article_count": 20,
+      "rag_answer": "The housing market is facing significant challenges, with Goldman Sachs predicting an 8% decline in the second half of 2025 due to immigration and affordability issues. Despite a recent drop in mortgage rates, many potential homebuyers feel priced out, leading to a stagnation in home sales, which fell over 8% in January 2026. In response to these challenges, a housing affordability package is advancing in Congress, aimed at reducing regulations for homebuilders and incentivizing local governments. However, as mortgage rates rise again, the spring housing market may struggle to gain momentum amidst these economic headwinds.",
+      "rag_sources": [
+        {
+          "title": "Housing to remain weakest part of economy, falling 8% in the second half, Goldman says",
+          "date": "2025-08-04",
+          "link": "https://www.cnbc.com/2025/08/04/housing-to-remain-weakest-part-of-economy-in-the-2nd-half-goldman-says.html",
+          "snippet": "2025-08-04: Housing to remain weakest part of economy, falling 8% in the second half, Goldman says: The Wall Street investment bank named immigration and affordability challenges as two obstacles stan",
+          "guid": "108181055"
+        },
+        {
+          "title": "Housing affordability package set to advance in Congress amid home-cost concerns",
+          "date": "2026-02-10",
+          "link": "https://www.cnbc.com/2026/02/09/housing-affordability-prices-congress.html",
+          "snippet": "2026-02-10: Housing affordability package set to advance in Congress amid home-cost concerns: Wide-ranging legislation would reduce regulations for homebuilders while giving local governments incentiv",
+          "guid": "108262990"
+        },
+        {
+          "title": "What to expect from the housing market in 2026\u2014and the 10 major cities where prices could fall the most",
+          "date": "2025-12-31",
+          "link": "https://www.cnbc.com/2025/12/31/housing-market-outlook-for-2026and-10-cities-where-prices-may-fall.html",
+          "snippet": "2025-12-31: What to expect from the housing market in 2026\u2014and the 10 major cities where prices could fall the most: Home prices and mortgage rates will remain elevated in 2026, but slower price growt",
+          "guid": "108246806"
+        },
+        {
+          "title": "Here's what's keeping homebuyers on the sidelines despite mortgage rates hitting a 10-month low ",
+          "date": "2025-08-20",
+          "link": "https://www.cnbc.com/2025/08/20/mortgage-rates-hit-a-10-month-low-why-home-buyers-are-on-the-sidelines.html",
+          "snippet": "2025-08-20: Here's what's keeping homebuyers on the sidelines despite mortgage rates hitting a 10-month low: A lot of would-be buyers feel priced out of the housing market. Lower mortgage rates might ",
+          "guid": "108188145"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "08492936-46b7-490a-9566-b8596215d412",
+      "label": "Trump's Greenland Acquisition Controversy",
+      "spike_ratio": 1.264,
+      "article_count": 88,
+      "rag_answer": "President Donald Trump's ambitions to acquire Greenland have escalated, drawing significant geopolitical attention and concern. Following military actions in Venezuela, Trump has threatened a takeover of Greenland, prompting bewilderment among Greenlanders and defiance from their Prime Minister, who stated they would not be pressured by U.S. tariffs. The situation has also raised alarms in China and elicited strong reactions from European leaders, who deemed Trump's tariff threats as unacceptable. Market analysts suggest that if Trump's acquisition efforts proceed, it could lead to negative market reactions due to the symbolic and potential concrete fractures in international relations.",
+      "rag_sources": [
+        {
+          "title": "CNBC Daily Open: Trump's Greenland ambitions have global repercussions",
+          "date": "2026-01-09",
+          "link": "https://www.cnbc.com/2026/01/09/cnbc-daily-open-trumps-greenland-ambitions-have-global-repercussions.html",
+          "snippet": "2026-01-09: CNBC Daily Open: Trump's Greenland ambitions have global repercussions: U.S. President Donald Trump's ambitions around Greenland are rapidly gaining concrete form \u2014 that is, evolving from ",
+          "guid": "108250347"
+        },
+        {
+          "title": "Greenlanders 'bewildered' by Trump\u2019s 'devastating' takeover threats, business minister tells CNBC",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/trump-greenland-takeover-threats-tariffs-naaja-nathanielsen.html",
+          "snippet": "2026-01-20: Greenlanders 'bewildered' by Trump\u2019s 'devastating' takeover threats, business minister tells CNBC: Greenland has been thrust into the geopolitical spotlight by President Donald Trump's tak",
+          "guid": "108254262"
+        },
+        {
+          "title": "Trump wants Greenland. If it were for sale, it could cost trillions",
+          "date": "2026-01-08",
+          "link": "https://www.cnbc.com/2026/01/08/trump-greenland-cost-denmark.html",
+          "snippet": "2026-01-08: Trump wants Greenland. If it were for sale, it could cost trillions: Trump's rhetoric about Greenland has flared back up in the days since the U.S. military entered Venezuela and captured ",
+          "guid": "108249355"
+        },
+        {
+          "title": "Trump\u2019s Greenland gambit puts China on edge after Venezuela operation",
+          "date": "2026-01-08",
+          "link": "https://www.cnbc.com/2026/01/08/us-trump-china-greenland-denmark-arctic-tensions-trump-rare-earth-elements-minerals-mining.html",
+          "snippet": "2026-01-08: Trump\u2019s Greenland gambit puts China on edge after Venezuela operation: U.S. President Donald Trump's threat to take control of Greenland raised alarms in Beijing as nations vye for the vas",
+          "guid": "108249089"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "0009838e-5b99-4f23-b3c0-d85cafc96a09",
+      "label": "U.S.-Iran Tensions and Oil Prices",
+      "spike_ratio": 1.226,
+      "article_count": 13,
+      "rag_answer": "U.S.-Iran tensions have escalated significantly, leading to volatile oil prices. Following reports of military strikes and the collapse of nuclear talks, oil prices surged, with U.S. crude oil reaching over $80 per barrel as fears of supply disruptions grew. The ongoing conflict has caused fluctuations in the market, with oil prices jumping by as much as 5% in response to developments. As the situation unfolds, traders are closely monitoring the geopolitical landscape, which is impacting consumer costs and creating risks in emerging markets.",
+      "rag_sources": [
+        {
+          "title": "Oil pulls back as U.S.\u2013Iran talks set to resume: Here\u2019s where negotiations stand",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/23/iran-us-talks-oil-falls-nuclear-negotiations.html",
+          "snippet": "2026-02-23: Oil pulls back as U.S.\u2013Iran talks set to resume: Here\u2019s where negotiations stand: Tensions have remained on high alert throughout the Middle East for weeks after U.S. President Donald Trum",
+          "guid": "108268317"
+        },
+        {
+          "title": "Oil jumps 4% after Vance says Iran ignored key U.S. demands, military strikes on the table",
+          "date": "2026-02-18",
+          "link": "https://www.cnbc.com/2026/02/18/oil-prices-today-iran-trump-nuclear-talks.html",
+          "snippet": "2026-02-18: Oil jumps 4% after Vance says Iran ignored key U.S. demands, military strikes on the table: Oil traders are worried that war between the U.S. and Iran could lead to a major disruption of c",
+          "guid": "108266679"
+        },
+        {
+          "title": "Here's how the U.S.-Iran war is already hitting consumers' pocketbooks",
+          "date": "2026-03-06",
+          "link": "https://www.cnbc.com/2026/03/06/us-iran-war-gas-mortgage-markets.html",
+          "snippet": "2026-03-06: Here's how the U.S.-Iran war is already hitting consumers' pocketbooks: The U.S.-Israeli strikes on Iran over the weekend gave way to a week with topsy-turvy markets, spiking mortgage rate",
+          "guid": "108274411"
+        },
+        {
+          "title": "Oil prices steady as traders monitor Iran tensions, U.S. economic data",
+          "date": "2026-02-10",
+          "link": "https://www.cnbc.com/2026/02/10/oil-drifts-lower-as-traders-weigh-supply-risks-amid-usiran-tensions.html",
+          "snippet": "2026-02-10: Oil prices steady as traders monitor Iran tensions, U.S. economic data: Oil prices eased slightly on Tuesday after U.S. guidance for vessels transiting the Strait of Hormuz kept attention ",
+          "guid": "108263647"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

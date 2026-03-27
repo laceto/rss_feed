@@ -1,0 +1,227 @@
+{
+  "date": "2026-02-18",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "2e955eac-a74a-4c42-be9f-b871d12feb52",
+      "label": "Market Trends and Stock Movements",
+      "spike_ratio": 1.374,
+      "article_count": 58,
+      "rag_answer": "The stock market has experienced significant volatility, with benchmarks reaching record highs due to easing inflation, strong corporate earnings, and expectations of U.S. rate cuts. However, recent sentiment has reversed, indicating potential concerns about an economic slowdown, as suggested by Stifel's warning of a stagflation environment. Despite these fluctuations, certain sectors, particularly AI and retail favorites, have shown resilience, driving stocks to new highs. Investors are advised to carefully assess market conditions before making trading decisions, as opportunities may arise amidst the uncertainty.",
+      "rag_sources": [
+        {
+          "title": "Stock market swings got you reeling? Answer these 6 questions before making a trade",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/stock-market-swings-got-you-reeling-answering-6-questions-will-help.html",
+          "snippet": "2025-11-28: Stock market swings got you reeling? Answer these 6 questions before making a trade: Frustrating as volatility can be, it also tends to present opportunities.",
+          "guid": "108232626"
+        },
+        {
+          "title": "Stock benchmarks are scaling record highs: 'Animal spirits are soaring' ",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/stock-benchmarks-are-scaling-record-highs-animal-spirits-are-soaring-.html",
+          "snippet": "2025-09-11: Stock benchmarks are scaling record highs: 'Animal spirits are soaring': Easing inflation pressures,\u00a0resilient corporate earnings and expectations for U.S. rate cuts have boosted investor ",
+          "guid": "108197275"
+        },
+        {
+          "title": "Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward",
+          "date": "2025-12-26",
+          "link": "https://www.cnbc.com/2025/12/26/market-sentiment-has-made-a-huge-reversal-heres-why-and-what-it-means-going-forward.html",
+          "snippet": "2025-12-26: Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward: Something unusual happened in the past few weeks.",
+          "guid": "108245814"
+        },
+        {
+          "title": "Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel",
+          "date": "2025-08-11",
+          "link": "https://www.cnbc.com/2025/08/11/stock-market-party-to-be-ruined-by-sudden-economic-slowdown-says-stifel.html",
+          "snippet": "2025-08-11: Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel: The market could be in for a stagflation environment, the firm said.",
+          "guid": "108184067"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "6b482d3d-4bd3-4a5d-950f-4a9273ba8086",
+      "label": "Fed Chair Confirmation Controversy",
+      "spike_ratio": 1.279,
+      "article_count": 33,
+      "rag_answer": "The Fed Chair confirmation controversy is marked by significant pushback against candidates like Hassett and Warsh, primarily due to concerns over their ties to former President Trump and the potential impact on the Federal Reserve's independence. High-level individuals close to Trump have expressed reservations about Hassett, while Senator Thom Tillis is committed to blocking Warsh's confirmation. The ongoing investigation into current Fed Chair Jerome Powell has also raised alarms about the implications for Fed independence, with former Chair Janet Yellen describing the probe as \"extremely chilling.\" These developments contribute to market uncertainty, as investors remain cautious about the Fed's future direction amid political pressures.",
+      "rag_sources": [
+        {
+          "title": "Hassett's Fed chair candidacy received pushback from high-level people close to Trump, sources say",
+          "date": "2025-12-15",
+          "link": "https://www.cnbc.com/2025/12/15/hassetts-fed-chair-candidacy-received-pushback-from-high-level-people-close-to-trump-sources-say.html",
+          "snippet": "2025-12-15: Hassett's Fed chair candidacy received pushback from high-level people close to Trump, sources say: There's concern that the National Economic Council director is too close to the presiden",
+          "guid": "108241774"
+        },
+        {
+          "title": "Senate should proceed with Warsh hearings for Fed chair despite Powell probe: Bessent",
+          "date": "2026-02-13",
+          "link": "https://www.cnbc.com/2026/02/13/fed-chair-warsh-powell-senate-bessent.html",
+          "snippet": "2026-02-13: Senate should proceed with Warsh hearings for Fed chair despite Powell probe: Bessent: Bessent told CNBC's \\Squawk Box\\\" he believes Republicans on the Senate Banking Committee \\\"are going",
+          "guid": "108265492"
+        },
+        {
+          "title": "Hassett says Fed independence is \u2018really important\u2019 and chair candidates shouldn\u2019t be disqualified for being Trump\u2019s friend",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/fed-chief-candidate-hassett-says-central-banks-independence-is-really-important-would-move-rates-by-consensus.html",
+          "snippet": "2025-12-16: Hassett says Fed independence is \u2018really important\u2019 and chair candidates shouldn\u2019t be disqualified for being Trump\u2019s friend: Hassett declined in a CNBC interview to directly address his ow",
+          "guid": "108242375"
+        },
+        {
+          "title": "BlackRock's Rieder the latest candidate to interview in Fed chair search",
+          "date": "2025-09-12",
+          "link": "https://www.cnbc.com/2025/09/12/blackrocks-rieder-the-latest-candidate-to-interview-in-fed-chair-search.html",
+          "snippet": "2025-09-12: BlackRock's Rieder the latest candidate to interview in Fed chair search: The White House search for the next Federal Reserve chair continues to twist and turn.",
+          "guid": "108198357"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        },
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "37bac5c5-f756-48e8-a4f0-f5458902018d",
+      "label": "AI Disruption Fears in Markets",
+      "spike_ratio": 1.2,
+      "article_count": 36,
+      "rag_answer": "AI disruption fears are significantly impacting various sectors, particularly software and cybersecurity stocks, leading to a notable sell-off as investors grapple with concerns over a potential tech bubble. The release of new AI tools has intensified worries about the viability of the software-as-a-service (SaaS) business model, prompting discussions about an \"existential\" crisis in the software industry. Analysts warn that the rapid transformation driven by AI could also trigger broader market shocks, including potential disruptions in credit markets. Overall, these developments indicate a growing apprehension among investors about the sustainability of AI valuations and the broader implications for market stability.",
+      "rag_sources": [
+        {
+          "title": "AI valuation fears grip global investors as tech bubble concerns grow",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/ai-valuation-fears-grip-investors-as-tech-bubble-concerns-heighten.html",
+          "snippet": "2025-11-07: AI valuation fears grip global investors as tech bubble concerns grow: The recent slide among AI stocks has once again put fears of a tech bubble at the forefront of investors' minds.",
+          "guid": "108222913"
+        },
+        {
+          "title": "AI fears pummel software stocks: Is it 'illogical' panic or a SaaS apocalypse?",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/ai-anthropic-tools-saas-software-stocks-selloff.html",
+          "snippet": "2026-02-06: AI fears pummel software stocks: Is it 'illogical' panic or a SaaS apocalypse?: The software space is facing serious market concerns this week, after the release of new AI tools from AI tr",
+          "guid": "108261773"
+        },
+        {
+          "title": "Cybersecurity stock selling deepens on AI threat concerns. Why we're not bailing",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/23/cybersecurity-stock-selling-deepens-on-ai-threat-concerns-why-were-not-bailing.html",
+          "snippet": "2026-02-23: Cybersecurity stock selling deepens on AI threat concerns. Why we're not bailing: AI disruption fears spark sell-off in cyber, but the market is overlooking the sector's fundamentals",
+          "guid": "108268610"
+        },
+        {
+          "title": "Global software stocks extend losses amid fears over AI-led disruption",
+          "date": "2026-02-04",
+          "link": "https://www.cnbc.com/2026/02/04/software-stocks-plunge-us-ai-disruption.html",
+          "snippet": "2026-02-04: Global software stocks extend losses amid fears over AI-led disruption: Wall Street's fears around artificial intelligence-driven disruption affecting software companies made their way to ",
+          "guid": "108261128"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "b1c25903-7305-4a83-9c9d-297e8686ac06",
+      "label": "DHS funding and shutdown crisis",
+      "spike_ratio": 1.164,
+      "article_count": 17,
+      "rag_answer": "The Department of Homeland Security (DHS) is currently experiencing a shutdown due to a deadlock in funding negotiations between Congressional Democrats and President Trump. The impasse has led to significant disruptions, including long airport security lines, and the situation has worsened with the firing of Homeland Security Secretary Kristi Noem. Despite various counteroffers from Democrats and the White House, a resolution remains elusive, raising concerns about the potential for prolonged government instability. The ongoing crisis could negatively impact market sentiment, particularly in sectors reliant on government operations and services.",
+      "rag_sources": [
+        {
+          "title": "Democrats send Trump DHS funding counteroffer as agency shutdown grinds on",
+          "date": "2026-02-17",
+          "link": "https://www.cnbc.com/2026/02/17/dhs-shutdown-democrats-trump-counteroffer-funding-homeland.html",
+          "snippet": "2026-02-17: Democrats send Trump DHS funding counteroffer as agency shutdown grinds on: Congressional Democrats and the White House remain deadlocked in negotiations to reopen the Department of Homela",
+          "guid": "108266280"
+        },
+        {
+          "title": "Senate Democrats send DHS counteroffer to Trump as shutdown drags on",
+          "date": "2026-03-17",
+          "link": "https://www.cnbc.com/2026/03/17/dhs-shutdown-trump-homeland-security-senate-democrats-counteroffer.html",
+          "snippet": "2026-03-17: Senate Democrats send DHS counteroffer to Trump as shutdown drags on: The Department of Homeland Security shutdown has caused pileups in airport security lines across the country.",
+          "guid": "108278971"
+        },
+        {
+          "title": "The government is barreling toward a partial shutdown over DHS funding. Here's what to expect",
+          "date": "2026-01-27",
+          "link": "https://www.cnbc.com/2026/01/27/us-government-shutdown-over-dhs-funding.html",
+          "snippet": "2026-01-27: The government is barreling toward a partial shutdown over DHS funding. Here's what to expect: The U.S. government may partially shutdown on Saturday months after a record 43-day closure i",
+          "guid": "108257539"
+        },
+        {
+          "title": "Democrats lay out demands in prickly DHS funding fight",
+          "date": "2026-02-04",
+          "link": "https://www.cnbc.com/2026/02/04/democrats-demands-dhs-funding-fight.html",
+          "snippet": "2026-02-04: Democrats lay out demands in prickly DHS funding fight: Funding for the Department of Homeland Security still needs to be worked out after President Trump signed a law that reopened most o",
+          "guid": "108261373"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "5b8f5600-ab52-43b2-931a-5c207c31e48b",
+      "label": "India-EU Trade Deal Developments",
+      "spike_ratio": 1.091,
+      "article_count": 16,
+      "rag_answer": "India and the European Union have successfully finalized a landmark free trade deal, described as the 'mother of all deals,' which is expected to significantly enhance trade relations. In 2024, goods traded between India and the EU amounted to over 120 billion euros (approximately $140 billion). This agreement is seen as a strategic move for India, especially amid ongoing tensions with the U.S., and is likely to benefit various sectors, including high-end watches and passenger jets. The deal is anticipated to have positive market implications, potentially positioning both regions for stronger economic growth and collaboration.",
+      "rag_sources": [
+        {
+          "title": "CNBC's Inside India newsletter: India, EU eye 'mother of all deals' amid U.S. tensions. But New Delhi needs a pact with Washington ",
+          "date": "2026-01-22",
+          "link": "https://www.cnbc.com/2026/01/22/cnbcs-inside-india-newsletter-eu-india-deal-wont-be-a-substitute-to-a-us-india-pact.html",
+          "snippet": "2026-01-22: CNBC's Inside India newsletter: India, EU eye 'mother of all deals' amid U.S. tensions. But New Delhi needs a pact with Washington: Deal with U.S. remains crucial for India's economy.",
+          "guid": "108255006"
+        },
+        {
+          "title": "India and European Union have closed a 'landmark' free trade deal, Prime Minister Modi says ",
+          "date": "2026-01-27",
+          "link": "https://www.cnbc.com/2026/01/27/india-eu-trade-deal-trump-tariffs.html",
+          "snippet": "2026-01-27: India and European Union have closed a 'landmark' free trade deal, Prime Minister Modi says: Goods traded between India and the EU in 2024 amounted to over 120 billion euros (about $140 bi",
+          "guid": "108256837"
+        },
+        {
+          "title": "'A day of celebration': What the blockbuster EU-India trade deal means for auto giants",
+          "date": "2026-01-27",
+          "link": "https://www.cnbc.com/2026/01/27/european-union-india-trade-deal-autos-vw-bmw-stellantis.html",
+          "snippet": "2026-01-27: 'A day of celebration': What the blockbuster EU-India trade deal means for auto giants: A landmark trade deal between the European Union and India has been lauded as a major breakthrough f",
+          "guid": "108257398"
+        },
+        {
+          "title": "TikTok deal to include new investors with ByteDance; Oracle to keep cloud agreement, sources say",
+          "date": "2025-09-16",
+          "link": "https://www.cnbc.com/2025/09/16/tiktok-bytedance-oracle-china.html",
+          "snippet": "2025-09-16: TikTok deal to include new investors with ByteDance; Oracle to keep cloud agreement, sources say: Deal talks have dragged, with President\u00a0Donald Trump\u00a0extending the deadline three times\u00a0si",
+          "guid": "108199289"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

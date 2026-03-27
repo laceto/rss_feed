@@ -1,0 +1,85 @@
+name: daily-briefing
+
+on:
+  # Run automatically once embed-feeds finishes (full pipeline done)
+  workflow_run:
+    workflows: ["embed-feeds"]
+    types: [completed]
+
+  # Morning refresh at 13:00 UTC (9 AM ET) weekdays — reads prior-night data
+  schedule:
+    - cron: '0 13 * * 1-5'
+
+  # Manual trigger (back-fill a date, debug, etc.)
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Target date (YYYY-MM-DD). Leave blank for today.'
+        required: false
+        default: ''
+      top:
+        description: 'Number of top spikes to include (default: 5)'
+        required: false
+        default: '5'
+
+jobs:
+  briefing:
+    runs-on: ubuntu-latest
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      github.event_name == 'schedule' ||
+      github.event.workflow_run.conclusion == 'success'
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Python dependencies
+        run: |
+          pip install openai python-dotenv pandas numpy \
+                      hdbscan scikit-learn \
+                      "langchain-core==0.3.83" "langchain-community==0.3.31" \
+                      "langchain-openai==0.3.35" faiss-cpu rank-bm25
+          pip install git+https://github.com/laceto/kitai.git
+
+      - name: Check topic trends exist
+        id: check
+        run: |
+          if [ -f data/topic_trends.tsv ]; then
+            rows=$(wc -l < data/topic_trends.tsv)
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "topic_trends.tsv has $rows lines"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+            echo "data/topic_trends.tsv not found — skipping briefing."
+          fi
+
+      - name: Build daily briefing
+        if: steps.check.outputs.exists == 'true'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          DATE_ARG=""
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            DATE_ARG="--date ${{ github.event.inputs.date }}"
+          fi
+
+          TOP_ARG="--top ${{ github.event.inputs.top || '5' }}"
+
+          python daily_briefing.py $DATE_ARG $TOP_ARG --save
+
+      - name: Commit briefing JSON
+        if: steps.check.outputs.exists == 'true'
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add data/briefings/
+          git diff --staged --quiet || git commit -m "daily briefing"
+          git pull --rebase origin main
+          git push origin main

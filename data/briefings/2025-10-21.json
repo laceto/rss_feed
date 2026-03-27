@@ -1,0 +1,212 @@
+{
+  "date": "2025-10-21",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "61d75c0e-f3f6-4310-98e6-337f075d7ea5",
+      "label": "OpenAI and AI Content Controversies",
+      "spike_ratio": 1.493,
+      "article_count": 28,
+      "rag_answer": "OpenAI is facing increasing pressure and scrutiny regarding its AI technologies, particularly as competitors like Google and Anthropic gain ground. CEO Sam Altman has addressed various moral and ethical controversies surrounding the company's AI chatbot, indicating a proactive approach to these challenges. The company's aggressive expansion and partnerships, including significant investments and collaborations, highlight its central role in the AI market, but also raise concerns about potential market corrections and the sustainability of its growth. Overall, OpenAI's developments reflect both the rapid evolution of the AI landscape and the complexities of navigating ethical considerations in technology.",
+      "rag_sources": [
+        {
+          "title": "Watch CNBC's full interview with OpenAI CEO Sam Altman from the India AI Summit",
+          "date": "2026-02-19",
+          "link": "https://www.cnbc.com/video/2026/02/19/openai-sam-altman-india-ai-summit-full-interview.html",
+          "snippet": "2026-02-19: Watch CNBC's full interview with OpenAI CEO Sam Altman from the India AI Summit: OpenAI CEO Sam Altman discusses AI infrastructure, OpenAI's business model, competition from China and thou",
+          "guid": "108267179"
+        },
+        {
+          "title": "OpenAI's dominance is unlike anything Silicon Valley has ever seen",
+          "date": "2025-10-11",
+          "link": "https://www.cnbc.com/2025/10/11/open-ai-silicon-valley-tech-startup.html",
+          "snippet": "2025-10-11: OpenAI's dominance is unlike anything Silicon Valley has ever seen: OpenAI's position at the heart of the AI boom, and its expansion up and down the stack, is putting the company in compet",
+          "guid": "108209603"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Anthropic is giving Claude to the U.S. government for $1 as AI companies try to win key agencies",
+          "date": "2025-08-12",
+          "link": "https://www.cnbc.com/2025/08/12/anthropic-claude-government-ai.html",
+          "snippet": "2025-08-12: Anthropic is giving Claude to the U.S. government for $1 as AI companies try to win key agencies: Earlier this month, Anthropic's competitor OpenAI made a similar announcement.",
+          "guid": "108184674"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "85dc10ce-8d59-4f95-ac59-8869f2905632",
+      "label": "Federal Reserve leadership changes",
+      "spike_ratio": 1.296,
+      "article_count": 14,
+      "rag_answer": "The leadership of the Federal Reserve is undergoing significant changes, with President Donald Trump nominating candidates to replace key positions, including the chair. The search for the next Fed chair has seen various candidates interviewed, and there is speculation about the potential impact on monetary policy and market stability. Recent comments from Fed officials, including Jerome Powell, have influenced market reactions, particularly following interest rate cuts. These leadership transitions are closely watched by investors, as they could signal shifts in economic strategy and affect market performance.",
+      "rag_sources": [
+        {
+          "title": "Here are the five key takeaways from the Fed meeting and Powell news conference",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/fed-five-takeaways.html",
+          "snippet": "2025-10-29: Here are the five key takeaways from the Fed meeting and Powell news conference: The Federal Reserve meeting that wrapped up Wednesday both delivered on expectations and offered a few surp",
+          "guid": "108218985"
+        },
+        {
+          "title": "How to trade the market spiral as investors dump gold, silver and oil",
+          "date": "2026-02-02",
+          "link": "https://www.cnbc.com/2026/02/02/gold-silver-oil-prices-fed-warsh-markets-investors.html",
+          "snippet": "2026-02-02: How to trade the market spiral as investors dump gold, silver and oil: Analysts flagged U.S. President Donald Trump\u2019s nomination for the next chair of the Federal Reserve as a key trigger ",
+          "guid": "108260002"
+        },
+        {
+          "title": "As U.S. jobs disappear, the Federal Reserve returns to rate cuts",
+          "date": "2025-09-17",
+          "link": "https://www.cnbc.com/2025/09/17/as-us-jobs-disappear-the-federal-reserve-returns-to-rate-cuts.html",
+          "snippet": "2025-09-17: As U.S. jobs disappear, the Federal Reserve returns to rate cuts: The U.S. labor market is producing relatively few jobs. In response, the Federal Reserve is lowering short-term interest r",
+          "guid": "108198994"
+        },
+        {
+          "title": "This week provided more evidence that a softening labor market is the economy's biggest threat",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/a-weakening-labor-market-has-become-the-economys-biggest-threat.html",
+          "snippet": "2026-02-06: This week provided more evidence that a softening labor market is the economy's biggest threat: Together, the data points buttress worries from some Federal Reserve policymakers that the c",
+          "guid": "108262682"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.25,
+          "mean_sentiment_score": 0.118,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "b82b4dcb-bba3-45f0-9230-df48cf06e1cc",
+      "label": "Trump-Xi TikTok Deal Talks",
+      "spike_ratio": 1.139,
+      "article_count": 18,
+      "rag_answer": "The Trump-Xi TikTok deal talks have seen significant developments, with President Trump approving a proposed deal to keep TikTok operational in the U.S. amid ongoing negotiations with China. A \"framework\" deal was reached, and both leaders are expected to finalize the agreement, which has been a focal point in U.S.-China trade relations. The discussions have overshadowed other trade issues, and the market is closely watching these developments, as they could impact investor sentiment and the broader tech landscape. Additionally, the involvement of new investors and the potential for a partnership with figures like the Murdochs indicates a strategic shift in how TikTok will operate in the U.S. market.",
+      "rag_sources": [
+        {
+          "title": "TikTok deal to include new investors with ByteDance; Oracle to keep cloud agreement, sources say",
+          "date": "2025-09-16",
+          "link": "https://www.cnbc.com/2025/09/16/tiktok-bytedance-oracle-china.html",
+          "snippet": "2025-09-16: TikTok deal to include new investors with ByteDance; Oracle to keep cloud agreement, sources say: Deal talks have dragged, with President\u00a0Donald Trump\u00a0extending the deadline three times\u00a0si",
+          "guid": "108199289"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "China says it\u2019s willing to work with U.S. on TikTok \u2014 but offers few details",
+          "date": "2025-10-30",
+          "link": "https://www.cnbc.com/2025/10/30/china-says-its-willing-to-work-with-us-on-tiktok.html",
+          "snippet": "2025-10-30: China says it\u2019s willing to work with U.S. on TikTok \u2014 but offers few details: Beijing indicated it would work with the U.S. on addressing the future of TikTok in the country.",
+          "guid": "108219176"
+        },
+        {
+          "title": "CNBC's The China Connection newsletter: Five things Beijing wants from a Trump-Xi meeting",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/china-connection-newsletter-what-beijing-wants-trump-xi-meeting-south-korea-apec-summit-gyeongju.html",
+          "snippet": "2025-10-29: CNBC's The China Connection newsletter: Five things Beijing wants from a Trump-Xi meeting: What China asks of the U.S. this week can reveal the extent to which Beijing has assessed the tra",
+          "guid": "108215757"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "63e7bf23-b3e8-4620-91c5-d03dab82245b",
+      "label": "H-1B Visa Policy Changes",
+      "spike_ratio": 1.092,
+      "article_count": 19,
+      "rag_answer": "President Trump has imposed a significant $100,000 fee on H-1B visas, which has sparked widespread concern and confusion among businesses and skilled foreign workers, particularly affecting talent from India and China. This policy aims to curb immigration and prioritize domestic hiring, but critics argue it could hinder innovation and lead to job offshoring, especially among Indian tech companies. The changes have prompted major companies, including Walmart, to pause H-1B visa applications, raising fears about the impact on startups and the broader job market. Overall, the new fee structure is reshaping how global talent views opportunities in the U.S., potentially redirecting skilled workers to other countries.",
+      "rag_sources": [
+        {
+          "title": "Here's everything Trump is changing with H-1B visas",
+          "date": "2025-09-22",
+          "link": "https://www.cnbc.com/2025/09/22/everything-trump-is-changing-with-h1b-visas.html",
+          "snippet": "2025-09-22: Here's everything Trump is changing with H-1B visas: President Donald Trump raised the fee for an H-1B visa to $100,000 on Friday, leaving companies scrambling to respond.",
+          "guid": "108202195"
+        },
+        {
+          "title": "How Trump's $100,000 H-1B visa fee is already changing the job market search for skilled workers",
+          "date": "2025-10-15",
+          "link": "https://www.cnbc.com/2025/10/15/trump-h1b-visa-fee-startups-jobs-recruit-hire-workers.html",
+          "snippet": "2025-10-15: How Trump's $100,000 H-1B visa fee is already changing the job market search for skilled workers: President Trump's $100,000 fee for H-1B visas for skilled foreign workers poses risks to t",
+          "guid": "108212405"
+        },
+        {
+          "title": "H-1B visa applicants face more disruptions amid social media checks and wage protection rules",
+          "date": "2025-12-23",
+          "link": "https://www.cnbc.com/2025/12/23/h-1b-visa-applicants-face-more-disruptions-amid-social-media-checks.html",
+          "snippet": "2025-12-23: H-1B visa applicants face more disruptions amid social media checks and wage protection rules: The U.S. administration has lined up a slew of actions to restrict the use of H-1B visas by b",
+          "guid": "108245067"
+        },
+        {
+          "title": "Trump's H-1B visa fee sparks chaos and confusion among Chinese talents in the U.S.",
+          "date": "2025-09-22",
+          "link": "https://www.cnbc.com/2025/09/22/trumps-h-1b-visa-fee-sparks-chaos-and-confusion-among-chinese-talents-in-the-us.html",
+          "snippet": "2025-09-22: Trump's H-1B visa fee sparks chaos and confusion among Chinese talents in the U.S.: The visa fee change marked the Trump administration's most aggressive step yet to curb immigration, part",
+          "guid": "108201798"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "4761f37d-27cd-4139-ae34-f7ba6d6fa059",
+      "label": "Epstein Files and Political Reactions",
+      "spike_ratio": 1.075,
+      "article_count": 40,
+      "rag_answer": "The release of Jeffrey Epstein files has been a contentious issue, with the Department of Justice (DOJ) facing criticism for its handling of the documents, including calls for transparency from Congress and the public. President Trump signed the Epstein Files Transparency Act, prompting ongoing releases of documents, which have included heavily redacted materials and have been described as \"recycled\" by some lawmakers. The political fallout has led to significant scrutiny of high-profile individuals connected to Epstein, with testimonies expected from figures like Bill Gates and executives from Goldman Sachs. Amid this political turmoil, the stock market has shown resilience, with analysts noting that investors are focusing on broader economic factors, such as the impact of the Iran war and Trump's political maneuvers, rather than solely on the Epstein controversy.",
+      "rag_sources": [
+        {
+          "title": "Jeffrey Epstein: Dems say DOJ breaking law with plan to release files over time",
+          "date": "2025-12-19",
+          "link": "https://www.cnbc.com/2025/12/19/jeffrey-epstein-files-doj-release-order-maxwell.html",
+          "snippet": "2025-12-19: Jeffrey Epstein: Dems say DOJ breaking law with plan to release files over time: President Donald Trump signed the Epstein Files Transparency Act in November.",
+          "guid": "108244015"
+        },
+        {
+          "title": "Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/epstein-doj-bondi-trump.html",
+          "snippet": "2026-03-05: Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports: The top lawyer for Goldman Sachs, Bill Gates, Leon Black and others are expected to testify soon a",
+          "guid": "108274237"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Political risk: How Trump 2.0 is affecting investment in U.S. assets",
+          "date": "2026-02-01",
+          "link": "https://www.cnbc.com/2026/02/01/political-risk-how-trump-2point0-is-affecting-investment-in-us-assets.html",
+          "snippet": "2026-02-01: Political risk: How Trump 2.0 is affecting investment in U.S. assets: Political risk: How Trump 2.0 is affecting investment in U.S. assets",
+          "guid": "108259074"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "date": "2026-03-04",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "3e885fc8-e09f-43f2-9eeb-c42dbd4df6da",
+      "label": "Winter Storm Disruptions and Travel",
+      "spike_ratio": 1.364,
+      "article_count": 18,
+      "rag_answer": "Recent winter storms have significantly disrupted travel across the U.S., particularly affecting airlines. In late December 2025 and throughout February 2026, blizzard conditions led to the cancellation of thousands of flights, with major airlines like American, Delta, JetBlue, and United waiving change and cancellation fees to accommodate stranded travelers. These disruptions have not only impacted passenger travel but have also led to declines in travel stocks, as seen after the blizzard in February 2026. The ongoing severe weather conditions highlight the vulnerability of the travel sector to extreme weather events, potentially affecting airline revenues and consumer confidence in travel plans.",
+      "rag_sources": [
+        {
+          "title": "Winter storm brings blizzard conditions and dangerous wind chills to the Midwest",
+          "date": "2025-12-29",
+          "link": "https://www.cnbc.com/2025/12/29/winter-storm-blizzard-conditions-dangerous-wind-chills.html",
+          "snippet": "2025-12-29: Winter storm brings blizzard conditions and dangerous wind chills to the Midwest: A potent winter storm brought blizzard conditions, treacherous travel and power outages in parts of the Up",
+          "guid": "108246213"
+        },
+        {
+          "title": "Blizzard cripples East Coast airports, with flights canceled through Tuesday",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/21/blizzard-prompts-airlines-waive-flight-change-fees.html",
+          "snippet": "2026-02-23: Blizzard cripples East Coast airports, with flights canceled through Tuesday: American, Delta, JetBlue, United and others waived change and cancellation fees ahead of another massive winte",
+          "guid": "108268198"
+        },
+        {
+          "title": "Snowfall intensifies in Northeast, with many stuck at home under blizzard warnings and travel bans",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/21/blizzard-warnings-issued-for-new-york-city-new-jersey-connecticut.html",
+          "snippet": "2026-02-23: Snowfall intensifies in Northeast, with many stuck at home under blizzard warnings and travel bans: Millions of people in New York City and a large swath of the northeastern U.S. were stuc",
+          "guid": "108268203"
+        },
+        {
+          "title": "Airlines cancel hundreds of flights as massive winter storm sweeps across U.S.",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/2026/01/23/winter-storm-fern-flight-cancellations.html",
+          "snippet": "2026-01-23: Airlines cancel hundreds of flights as massive winter storm sweeps across U.S.: U.S. airlines canceled flights and waived change fees for travelers as a cold snap and massive winter storm ",
+          "guid": "108256159"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "0009838e-5b99-4f23-b3c0-d85cafc96a09",
+      "label": "U.S.-Iran Tensions and Oil Prices",
+      "spike_ratio": 1.322,
+      "article_count": 46,
+      "rag_answer": "U.S.-Iran tensions have escalated significantly, leading to volatile oil prices. Following reports of military strikes and the collapse of nuclear talks, oil prices surged, with U.S. crude oil reaching over $80 per barrel as the conflict disrupts global fuel supplies. Market reactions have been mixed, with oil jumping 4% on fears of war and then pulling back as negotiations resumed. The ongoing conflict is causing broader market volatility, particularly affecting emerging markets and consumer costs.",
+      "rag_sources": [
+        {
+          "title": "Oil pulls back as U.S.\u2013Iran talks set to resume: Here\u2019s where negotiations stand",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/23/iran-us-talks-oil-falls-nuclear-negotiations.html",
+          "snippet": "2026-02-23: Oil pulls back as U.S.\u2013Iran talks set to resume: Here\u2019s where negotiations stand: Tensions have remained on high alert throughout the Middle East for weeks after U.S. President Donald Trum",
+          "guid": "108268317"
+        },
+        {
+          "title": "Oil jumps 4% after Vance says Iran ignored key U.S. demands, military strikes on the table",
+          "date": "2026-02-18",
+          "link": "https://www.cnbc.com/2026/02/18/oil-prices-today-iran-trump-nuclear-talks.html",
+          "snippet": "2026-02-18: Oil jumps 4% after Vance says Iran ignored key U.S. demands, military strikes on the table: Oil traders are worried that war between the U.S. and Iran could lead to a major disruption of c",
+          "guid": "108266679"
+        },
+        {
+          "title": "Here's how the U.S.-Iran war is already hitting consumers' pocketbooks",
+          "date": "2026-03-06",
+          "link": "https://www.cnbc.com/2026/03/06/us-iran-war-gas-mortgage-markets.html",
+          "snippet": "2026-03-06: Here's how the U.S.-Iran war is already hitting consumers' pocketbooks: The U.S.-Israeli strikes on Iran over the weekend gave way to a week with topsy-turvy markets, spiking mortgage rate",
+          "guid": "108274411"
+        },
+        {
+          "title": "Oil prices steady as traders monitor Iran tensions, U.S. economic data",
+          "date": "2026-02-10",
+          "link": "https://www.cnbc.com/2026/02/10/oil-drifts-lower-as-traders-weigh-supply-risks-amid-usiran-tensions.html",
+          "snippet": "2026-02-10: Oil prices steady as traders monitor Iran tensions, U.S. economic data: Oil prices eased slightly on Tuesday after U.S. guidance for vessels transiting the Strait of Hormuz kept attention ",
+          "guid": "108263647"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "489a5509-0307-4ffc-9a07-7f34dc809001",
+      "label": "Warner Bros. Discovery Acquisition Battle",
+      "spike_ratio": 1.216,
+      "article_count": 18,
+      "rag_answer": "The acquisition battle for Warner Bros. Discovery (WBD) has intensified, with Paramount, Comcast, and Netflix submitting bids as WBD explores a potential sale. Paramount has made a higher bid, prompting Netflix to reconsider its offer, which it later abandoned after Paramount's proposal was deemed superior. This competitive landscape has led to significant market movements, including a 10% jump in WBD's shares when the company announced its openness to a sale. The situation suggests a prolonged bidding war, with potential implications for the streaming market as major players vie for WBD's assets.",
+      "rag_sources": [
+        {
+          "title": "Paramount, Comcast, Netflix submit bids for Warner Bros. Discovery ",
+          "date": "2025-11-21",
+          "link": "https://www.cnbc.com/2025/11/21/warner-bros-discovery-wbd-bids-paramount-comcast-netflix.html",
+          "snippet": "2025-11-21: Paramount, Comcast, Netflix submit bids for Warner Bros. Discovery: Warner Bros. Discovery recently expanded its strategic review of its business, saying it's open for a sale. First round ",
+          "guid": "108229432"
+        },
+        {
+          "title": "Warner Bros. Discovery to debut HBO Max in 14 Asia Pacific markets next month",
+          "date": "2025-09-16",
+          "link": "https://www.cnbc.com/2025/09/16/warner-bros-discovery-to-debut-hbo-max-in-14-asia-pacific-markets.html",
+          "snippet": "2025-09-16: Warner Bros. Discovery to debut HBO Max in 14 Asia Pacific markets next month: Warner Bros. Discovery is set to launch its HBO Max streaming service in 14 new markets across the Asia Pacif",
+          "guid": "108199404"
+        },
+        {
+          "title": "CNBC Daily Open: Netflix bows out from Warner Bros. Discovery bidding war",
+          "date": "2026-02-27",
+          "link": "https://www.cnbc.com/2026/02/27/cnbc-daily-open-netflix-bows-out-from-warner-bros-discovery-bidding-war.html",
+          "snippet": "2026-02-27: CNBC Daily Open: Netflix bows out from Warner Bros. Discovery bidding war: Netflix on Thursday stateside said it declined to raise a counteroffer for Warner Bros. Discovery's studio and st",
+          "guid": "108270725"
+        },
+        {
+          "title": "Warner Bros. Discovery says Paramount made higher bid, board will weigh offer against Netflix deal",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/warner-bros-discovery-paramount-higher-bid-netflix.html",
+          "snippet": "2026-02-24: Warner Bros. Discovery says Paramount made higher bid, board will weigh offer against Netflix deal: If WBD deems the new Paramount offer superior, Netflix will have four days to improve it",
+          "guid": "108269071"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "86c68629-bcc3-4d3e-92f9-6b3e3a5097f9",
+      "label": "Robotaxi and EV Industry Updates",
+      "spike_ratio": 1.193,
+      "article_count": 21,
+      "rag_answer": "The robotaxi industry is experiencing significant momentum, with major players like Baidu, Nvidia, Waymo, and Tesla making strides in technology and market expansion. Companies such as Lucid and Rivian are also entering the robotaxi space, with Rivian announcing a substantial investment from Uber to deploy 50,000 robotaxis. Meanwhile, traditional automakers like GM and Ford are facing challenges, including financial setbacks and declining EV sales, as they adjust their strategies in response to changing market conditions. Overall, the rapid growth of the robotaxi sector suggests a transformative shift in urban mobility, but it also highlights the competitive pressures and financial hurdles within the broader EV market.",
+      "rag_sources": [
+        {
+          "title": "\u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises",
+          "date": "2025-11-20",
+          "link": "https://www.cnbc.com/2025/11/20/global-robotaxi-race-heats-up-between-us-and-chinese-rivals.html",
+          "snippet": "2025-11-20: \u2018Robotaxi has reached a tipping point\u2019: Baidu, Nvidia leaders see momentum as competition rises: Global tech executives in recent weeks have proclaimed the robotaxi industry is finally nea",
+          "guid": "108226580"
+        },
+        {
+          "title": "EV maker Lucid reveals plans for robotaxi, positive free cash flow late this decade",
+          "date": "2026-03-12",
+          "link": "https://www.cnbc.com/2026/03/12/lucid-investor-day.html",
+          "snippet": "2026-03-12: EV maker Lucid reveals plans for robotaxi, positive free cash flow late this decade: The EV company is aiming to hit that target through market expansion into midsize vehicles, robotaxis a",
+          "guid": "108277205"
+        },
+        {
+          "title": "Rivian announces new AI tech, in-house chip and robotaxi ambitions",
+          "date": "2025-12-11",
+          "link": "https://www.cnbc.com/2025/12/11/rivian-autonomy-ai-day.html",
+          "snippet": "2025-12-11: Rivian announces new AI tech, in-house chip and robotaxi ambitions: The company has also developed AI models to power its Autonomy+ subscription, which it intends to roll out early next ye",
+          "guid": "108240446"
+        },
+        {
+          "title": "Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/waymo-amazon-zoox-tesla-robotaxi-expansion.html",
+          "snippet": "2025-12-16: Robotaxis in 2025: Waymo plots global expansion as Zoox, Tesla roll to the starting line: Robotaxis grew rapidly in 2025 with Waymo expanding fastest, Zoox debuting public rides and Tesla ",
+          "guid": "108236372"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "e91276fe-4a15-4206-9c39-1557b2405ea1",
+      "label": "Epstein Connections and Fallout",
+      "spike_ratio": 1.169,
+      "article_count": 36,
+      "rag_answer": "Recent developments surrounding Jeffrey Epstein's connections have led to significant fallout among high-profile individuals and organizations. New documents released by the DOJ reveal Epstein's extensive ties in Silicon Valley, implicating figures like Bill Gates and Elon Musk, while also prompting resignations, such as that of the World Economic Forum CEO Borge Brende. The ongoing scrutiny has resulted in public calls for transparency, with some politicians and victims demanding the release of additional Epstein files. This situation may create reputational risks for those involved and could impact investor sentiment in companies associated with these individuals, potentially leading to market volatility.",
+      "rag_sources": [
+        {
+          "title": "Epstein's Silicon Valley connections went beyond Gates and Musk",
+          "date": "2026-02-09",
+          "link": "https://www.cnbc.com/2026/02/09/tech-leaders-epstein-records-silicon-valley-sergey-brin-thiel-sinofsky-reid-hoffman-musk-gates.html",
+          "snippet": "2026-02-09: Epstein's Silicon Valley connections went beyond Gates and Musk: The new Epstein files released by the DOJ show that the deceased financier was able to build relationships across Silicon V",
+          "guid": "108260807"
+        },
+        {
+          "title": "Epstein files fallout: The high-profile people burned by past dealings with a predator",
+          "date": "2026-02-16",
+          "link": "https://www.cnbc.com/2026/02/15/epstein-files-fallout-goldman-ruemmler-harvard-yale.html",
+          "snippet": "2026-02-16: Epstein files fallout: The high-profile people burned by past dealings with a predator: Jeffrey Epstein killed himself in a New York City federal jail in 2019. But more than six years late",
+          "guid": "108265580"
+        },
+        {
+          "title": "Epstein would 'name drop' Trump, Les Wexner says in deposition video",
+          "date": "2026-02-19",
+          "link": "https://www.cnbc.com/2026/02/19/epstein-trump-les-wexner-deposition.html",
+          "snippet": "2026-02-19: Epstein would 'name drop' Trump, Les Wexner says in deposition video: Democrats on the House Oversight Committee have expressed skepticism about Wexner's insistence that he had virtually n",
+          "guid": "108267572"
+        },
+        {
+          "title": "DOJ says names of two associates Epstein wired $100k and $250k to should stay secret",
+          "date": "2025-09-06",
+          "link": "https://www.cnbc.com/2025/09/06/epstein-doj-says-two-people-he-wired-thousands-to-should-stay-secret.html",
+          "snippet": "2025-09-06: DOJ says names of two associates Epstein wired $100k and $250k to should stay secret: The Justice Department request came after NBC News asked a federal judge to unseal the names of two pe",
+          "guid": "108195264"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

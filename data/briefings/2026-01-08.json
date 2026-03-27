@@ -1,0 +1,227 @@
+{
+  "date": "2026-01-08",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "b94eb85b-b199-4311-9916-f97384805f94",
+      "label": "Student loan repayment issues",
+      "spike_ratio": 2.583,
+      "article_count": 31,
+      "rag_answer": "Student loan borrowers are facing significant challenges with repayment plans, largely due to a backlog stemming from the Trump administration's policies. As of early 2026, over 800,000 borrowers remain stuck in a backlog for forgiveness and affordable repayment plans, while more than 300,000 have been denied new repayment plans. Additionally, borrowers pursuing Public Service Loan Forgiveness are encountering obstacles, and those in default may soon see reduced paychecks. These issues could lead to increased financial strain on borrowers and may prompt further scrutiny and regulatory changes in the student loan sector.",
+      "rag_sources": [
+        {
+          "title": "Student loan borrowers can't access repayment plans under Trump. What to know ",
+          "date": "2025-10-03",
+          "link": "https://www.cnbc.com/2025/10/03/student-loan-repayment-plan-backlog-under-trump.html",
+          "snippet": "2025-10-03: Student loan borrowers can't access repayment plans under Trump. What to know: Student loan borrowers who are trying to get into a new repayment plan face delays amid a Trump-era backlog o",
+          "guid": "108207108"
+        },
+        {
+          "title": "Over 800,000 student loan borrowers remain in backlog for forgiveness, affordable repayment plans",
+          "date": "2026-01-15",
+          "link": "https://www.cnbc.com/2026/01/15/student-loan-forgiveness-repayment-plan-backlog.html",
+          "snippet": "2026-01-15: Over 800,000 student loan borrowers remain in backlog for forgiveness, affordable repayment plans: More than 800,000 federal student loan holders remain stuck in a backlog of applications ",
+          "guid": "108252878"
+        },
+        {
+          "title": "Student loan borrowers face new challenges trying to get Public Service Loan Forgiveness",
+          "date": "2025-08-06",
+          "link": "https://www.cnbc.com/2025/08/06/student-loan-borrowers-and-changes-to-public-service-loan-forgiveness-pslf.html",
+          "snippet": "2025-08-06: Student loan borrowers face new challenges trying to get Public Service Loan Forgiveness: Borrowers pursuing Public Service Loan Forgiveness are hitting walls trying to access the relief, ",
+          "guid": "108181052"
+        },
+        {
+          "title": "Student loan borrowers have 'a limited time' to leave payment pause. Here are their options ",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/10/student-loan-options-save-forbearance.html",
+          "snippet": "2025-12-10: Student loan borrowers have 'a limited time' to leave payment pause. Here are their options: Under the terms of a proposed Education Department settlement, millions of student loan borrowe",
+          "guid": "108239362"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "b879033c-a02f-4e06-8138-b59f74de9402",
+      "label": "Global Inflation Trends and Responses",
+      "spike_ratio": 1.41,
+      "article_count": 22,
+      "rag_answer": "Global inflation trends are showing significant divergence, with some regions experiencing rising consumer prices while others face deflationary pressures. For instance, China reported a near two-year high in consumer inflation despite deeper producer deflation, indicating complex economic dynamics. Meanwhile, the U.S. Federal Reserve is grappling with inflation concerns, as highlighted by Fed officials expressing worries about inflation in a challenging economic climate. These developments suggest that investors are increasingly cautious, with inflation becoming a central theme influencing market strategies and central bank policies worldwide.",
+      "rag_sources": [
+        {
+          "title": "'Reflation is back' says Deutsche Bank as global central banks diverge from Fed",
+          "date": "2025-12-11",
+          "link": "https://www.cnbc.com/2025/12/11/reflation-is-back-says-deutsche-bank-as-central-banks-diverge-from-fed.html",
+          "snippet": "2025-12-11: 'Reflation is back' says Deutsche Bank as global central banks diverge from Fed: Global central banks are diverging, following The Fed's decision to cut rates and Swiss' choice to hold ste",
+          "guid": "108240421"
+        },
+        {
+          "title": "Fears of 1970s-style stagflation arise with oil spike to $100. How big a threat is it?",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/fears-of-1970s-style-stagflation-arise-with-oil-spike-to-100-how-big-a-threat-is-it.html",
+          "snippet": "2026-03-09: Fears of 1970s-style stagflation arise with oil spike to $100. How big a threat is it?: High inflation and slow growth present a double threat, as measures like interest rate cuts and gove",
+          "guid": "108275514"
+        },
+        {
+          "title": "Fed's Goolsbee says he's worried about inflation in 'fraught but intense' climate",
+          "date": "2026-03-23",
+          "link": "https://www.cnbc.com/2026/03/23/feds-goolsbee-says-hes-worried-about-inflation-in-fraught-but-intense-climate.html",
+          "snippet": "2026-03-23: Fed's Goolsbee says he's worried about inflation in 'fraught but intense' climate: In a CNBC interview, the central banker said policymaking is difficult in the current environment.",
+          "guid": "108281480"
+        },
+        {
+          "title": "China consumer inflation hits near two-year high despite deeper-than-expected producer deflation",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/10/chinas-cpi-ppi-deflation-november-consumer-prices.html",
+          "snippet": "2025-12-10: China consumer inflation hits near two-year high despite deeper-than-expected producer deflation: Economists warned that deflationary pressure on the world's second largest economy will pe",
+          "guid": "108239450"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "09db4a63-8ed3-4b74-8899-82541f39d50a",
+      "label": "Venezuela Oil Sales and Sanctions",
+      "spike_ratio": 1.344,
+      "article_count": 42,
+      "rag_answer": "Venezuela's oil sales have recently surged, surpassing $1 billion, with the U.S. securing prices approximately 30% higher than previous levels. This increase follows a controversial deal under President Trump's administration, which has raised questions about U.S. recognition of the Venezuelan government. Concurrently, the U.S. has imposed sanctions on groups linked to the Venezuelan and Iranian weapons trade, indicating a complex geopolitical landscape. The situation suggests a potential shift in oil market dynamics, with Venezuela's crude becoming more prominent amid ongoing sanctions and international scrutiny.",
+      "rag_sources": [
+        {
+          "title": "Oil rebounds from lowest levels since 2021 after Trump orders Venezuela oil tanker blockade",
+          "date": "2025-12-17",
+          "link": "https://www.cnbc.com/2025/12/17/crude-oil-prices-today.html",
+          "snippet": "2025-12-17: Oil rebounds from lowest levels since 2021 after Trump orders Venezuela oil tanker blockade: President Donald Trump said he ordered a \\total and complete\\\" blockade of sanctioned oil tanke",
+          "guid": "108242869"
+        },
+        {
+          "title": "Venezuela oil sales top $1 billion, funds won\u2019t go to Qatar account anymore, Energy secretary says",
+          "date": "2026-02-13",
+          "link": "https://www.cnbc.com/2026/02/13/venezuela-oil-sales-qatar-chris-wright-trump.html",
+          "snippet": "2026-02-13: Venezuela oil sales top $1 billion, funds won\u2019t go to Qatar account anymore, Energy secretary says: Democrats in Congress have questioned the transparency and legality of depositing Venezu",
+          "guid": "108265521"
+        },
+        {
+          "title": "Venezuela oil fetching 30% higher price, U.S. energy chief says, after first sale worth $500 million",
+          "date": "2026-01-16",
+          "link": "https://www.cnbc.com/2026/01/16/venezuela-oil-takeover-us-shipment-trump-.html",
+          "snippet": "2026-01-16: Venezuela oil fetching 30% higher price, U.S. energy chief says, after first sale worth $500 million: America is securing prices about 30% higher for Venezuelan crude than those obtained b",
+          "guid": "108253358"
+        },
+        {
+          "title": "Trump's Venezuela oil sales deal raises questions about which government U.S. will recognize",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/trump-venezuela-oil-revenue-qatar.html",
+          "snippet": "2026-02-11: Trump's Venezuela oil sales deal raises questions about which government U.S. will recognize: The U.S. is cooperating with a regime in Venezuela it does not recognize, and it's unclear wha",
+          "guid": "108263354"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "5a598585-4aae-4389-91d8-c8e8c6593f83",
+      "label": "Midday Stock Movements",
+      "spike_ratio": 1.136,
+      "article_count": 25,
+      "rag_answer": "Midday stock movements have shown significant volatility, with various companies consistently making notable moves in the market. Recent reports highlight stocks like Newmont, Apple, and Sandisk experiencing substantial midday fluctuations, indicating active trading and investor interest. This trend suggests a dynamic market environment where investors are reacting to earnings reports, economic indicators, and broader market sentiments. The ongoing fluctuations may present both opportunities and risks for traders, as they navigate the impacts of economic conditions and corporate performance on stock prices.",
+      "rag_sources": [
+        {
+          "title": "Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/stocks-making-the-biggest-moves-midday-nem-aapl-sndk-deck.html",
+          "snippet": "2026-01-30: Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more: These are the stocks posting the largest moves midday.",
+          "guid": "108259667"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more",
+          "date": "2025-10-15",
+          "link": "https://www.cnbc.com/2025/10/15/stocks-making-the-biggest-moves-midday-bac-ms-bg-pgr.html",
+          "snippet": "2025-10-15: Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108212417"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more",
+          "date": "2025-09-18",
+          "link": "https://www.cnbc.com/2025/09/18/stocks-making-the-biggest-moves-midday-intc-nvo-blsh-all.html",
+          "snippet": "2025-09-18: Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more: These are the stocks posting the largest moves midday.",
+          "guid": "108200831"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: UnitedHealth, Applied Materials, Sandisk and more",
+          "date": "2025-08-15",
+          "link": "https://www.cnbc.com/2025/08/15/stocks-making-big-moves-midday-unh-amat-sndk-csco-evlv-flo-.html",
+          "snippet": "2025-08-15: Stocks making the biggest moves midday: UnitedHealth, Applied Materials, Sandisk and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108186615"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "470491eb-39bc-46cc-9152-7dfae757a65b",
+      "label": "AI Bubble Concerns and Strategies",
+      "spike_ratio": 1.056,
+      "article_count": 19,
+      "rag_answer": "Concerns about an AI bubble have intensified as stock prices in the sector have experienced significant volatility, prompting fears of a tech bubble reminiscent of the Dotcom era. Analysts and fund managers are divided; some suggest that despite recent weaknesses, staying invested in AI stocks could be profitable, while others warn that fundamentals and valuations cannot be ignored indefinitely. Notably, companies like OpenAI and Oracle are under scrutiny, with calls for substantial revenue growth to justify their spending and valuations. Overall, the market is grappling with the balance between potential long-term gains in AI and the risks of a speculative bubble.",
+      "rag_sources": [
+        {
+          "title": "Is the AI bubble popping itself? Software's break from the tech stock boom raises concerns",
+          "date": "2026-02-05",
+          "link": "https://www.cnbc.com/2026/02/05/is-the-ai-bubble-popping-itself-software-rout-raises-concerns.html",
+          "snippet": "2026-02-05: Is the AI bubble popping itself? Software's break from the tech stock boom raises concerns: Many investors expect the sell-off has gone too far, saying agentic AI is unable to meaningfully",
+          "guid": "108261390"
+        },
+        {
+          "title": "CNBC Daily Open: Is the AI industry in a bubble, as OpenAI CEO says?",
+          "date": "2025-08-19",
+          "link": "https://www.cnbc.com/2025/08/19/cnbc-daily-open-is-the-ai-industry-in-a-bubble-as-openai-ceo-says.html",
+          "snippet": "2025-08-19: CNBC Daily Open: Is the AI industry in a bubble, as OpenAI CEO says?: In the real world, bubbles delight because they reflect their surroundings. But the bubble Altman described could be o",
+          "guid": "108187780"
+        },
+        {
+          "title": "Who cares if AI is a bubble? Citi says stay long because riding manias can be 'quite profitable'",
+          "date": "2025-12-05",
+          "link": "https://www.cnbc.com/2025/12/05/who-cares-if-ai-is-a-bubble-citi-says-manias-can-be-quite-profitable.html",
+          "snippet": "2025-12-05: Who cares if AI is a bubble? Citi says stay long because riding manias can be 'quite profitable': Investors shouldn't \\overstress\\\" recent weakness in artificial intelligence stocks, the b",
+          "guid": "108237386"
+        },
+        {
+          "title": "Fund managers reveal their bubble recipes and what to watch for as AI stocks soar",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/30/fund-managers-reveal-their-bubble-recipes-and-what-to-watch-for-as-ai-stocks-soar.html",
+          "snippet": "2025-10-29: Fund managers reveal their bubble recipes and what to watch for as AI stocks soar: \\Fundamentals and valuations can only be ignored for so long,\\\" one portfolio manager told CNBC.\"",
+          "guid": "108217900"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        },
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

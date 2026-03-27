@@ -1,0 +1,220 @@
+{
+  "date": "2026-01-28",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "b4858294-7651-4b3b-b0c4-3f164aa8755d",
+      "label": "AI Chip Demand Surge",
+      "spike_ratio": 1.684,
+      "article_count": 24,
+      "rag_answer": "The surge in AI chip demand is significantly impacting the semiconductor industry, with companies like TSMC and SK Hynix reporting record profits and sold-out chip inventories for 2026. This boom is driven by robust demand for advanced AI technologies, leading to shortages in memory chips that could affect consumer electronics and automotive sectors. Additionally, ASML has seen a rise in orders and positive guidance, indicating strong growth prospects in chipmaking capacity. Overall, the AI chip demand surge is creating both opportunities for chip manufacturers and challenges related to supply chain constraints and potential price increases for consumers.",
+      "rag_sources": [
+        {
+          "title": "Chip giant ASML surges 7% as AI boom fuels record orders and upbeat 2026 guidance",
+          "date": "2026-01-28",
+          "link": "https://www.cnbc.com/2026/01/28/asml-q4-2025-earnings-report.html",
+          "snippet": "2026-01-28: Chip giant ASML surges 7% as AI boom fuels record orders and upbeat 2026 guidance: ASML is experiencing several tailwinds including an expectation of increased chipmaking capacity and cont",
+          "guid": "108257383"
+        },
+        {
+          "title": "TSMC delivers another record quarter as profit jumps 35% fueled by robust AI chip demand",
+          "date": "2026-01-15",
+          "link": "https://www.cnbc.com/2026/01/15/tsmc-q4-profit-record-ai-chip-demand-nt1-trillion.html",
+          "snippet": "2026-01-15: TSMC delivers another record quarter as profit jumps 35% fueled by robust AI chip demand: TSMCy delivered another estimate-beating quarter, with profit up 35% from a year ago as advanced c",
+          "guid": "108252727"
+        },
+        {
+          "title": "SK Hynix, a critical Nvidia supplier, has already sold out chips for 2026 as AI demand booms",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/sk-hynix-q3-profit-revenue-record-.html",
+          "snippet": "2025-10-29: SK Hynix, a critical Nvidia supplier, has already sold out chips for 2026 as AI demand booms: SK Hynix posted record quarterly revenue and profit, boosted by a strong demand for its high b",
+          "guid": "108217835"
+        },
+        {
+          "title": "A 'seismic' Nvidia shift, AI chip shortages and how it's threatening to hike gadget prices",
+          "date": "2025-12-02",
+          "link": "https://www.cnbc.com/2025/12/02/nvidia-shift-ai-chip-shortages-threatening-to-hike-gadget-prices.html",
+          "snippet": "2025-12-02: A 'seismic' Nvidia shift, AI chip shortages and how it's threatening to hike gadget prices: The AI infrastructure buildout is creating shortages of components including various types of ch",
+          "guid": "108233060"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "5042faa2-00c9-4f97-b253-3b403294321a",
+      "label": "Trump's Influence on Fed Independence",
+      "spike_ratio": 1.346,
+      "article_count": 35,
+      "rag_answer": "Trump's influence on the Federal Reserve's independence has been a significant concern, as he has openly criticized Fed Chair Jerome Powell and sought to exert control over the central bank. Key developments include Trump's pressure campaign, which many analysts believe could lead to higher inflation and weaker economic growth, as indicated by a CNBC survey. Additionally, Trump's nominees for the Fed board, including Kevin Warsh, are seen as potentially aligning the Fed more closely with executive power, raising fears among European central bankers about global financial stability. Overall, these dynamics suggest a turbulent period for monetary policy, with potential implications for consumer borrowing costs and market confidence.",
+      "rag_sources": [
+        {
+          "title": "Fed chair candidate Waller says he will 'absolutely' stress importance of Fed's independence to Trump",
+          "date": "2025-12-17",
+          "link": "https://www.cnbc.com/2025/12/17/fed-chair-candidate-waller-says-he-will-absolutely-emphasize-importance-of-the-central-banks-independence-to-trump.html",
+          "snippet": "2025-12-17: Fed chair candidate Waller says he will 'absolutely' stress importance of Fed's independence to Trump: President Donald Trump regularly weighs in on Fed decisions, accusing the central ban",
+          "guid": "108242898"
+        },
+        {
+          "title": "Trump attacks Powell again amid Fed independence fears: 'Incompetent' or 'crooked'",
+          "date": "2026-01-13",
+          "link": "https://www.cnbc.com/2026/01/13/trump-powell-fed-dimon-pirro-doj.html",
+          "snippet": "2026-01-13: Trump attacks Powell again amid Fed independence fears: 'Incompetent' or 'crooked': JPMorgan Chase CEO Jamie Dimon defended the Fed's independence amid the probe of Powell by Trump's DOJ, ",
+          "guid": "108251767"
+        },
+        {
+          "title": "Hassett says Fed independence is \u2018really important\u2019 and chair candidates shouldn\u2019t be disqualified for being Trump\u2019s friend",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/fed-chief-candidate-hassett-says-central-banks-independence-is-really-important-would-move-rates-by-consensus.html",
+          "snippet": "2025-12-16: Hassett says Fed independence is \u2018really important\u2019 and chair candidates shouldn\u2019t be disqualified for being Trump\u2019s friend: Hassett declined in a CNBC interview to directly address his ow",
+          "guid": "108242375"
+        },
+        {
+          "title": "Here's what it really means for Trump to get control of the Federal Reserve board",
+          "date": "2025-08-31",
+          "link": "https://www.cnbc.com/2025/08/30/heres-what-it-really-means-for-trump-to-get-control-of-the-federal-reserve-board.html",
+          "snippet": "2025-08-31: Here's what it really means for Trump to get control of the Federal Reserve board: Since taking office in January, Trump has placed the Fed directly in the crosshairs of executive power.",
+          "guid": "108192598"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "0009838e-5b99-4f23-b3c0-d85cafc96a09",
+      "label": "U.S.-Iran Tensions and Oil Prices",
+      "spike_ratio": 1.316,
+      "article_count": 15,
+      "rag_answer": "U.S.-Iran tensions have escalated significantly, leading to volatile oil prices. Following reports of military strikes and the collapse of nuclear talks, oil prices surged, with U.S. crude oil reaching over $80 per barrel as the conflict disrupts global fuel supplies. Market reactions have been mixed, with oil jumping 4% on fears of war and then pulling back as negotiations resumed. The ongoing conflict is causing broader market volatility, particularly affecting emerging markets and consumer costs.",
+      "rag_sources": [
+        {
+          "title": "Oil pulls back as U.S.\u2013Iran talks set to resume: Here\u2019s where negotiations stand",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/23/iran-us-talks-oil-falls-nuclear-negotiations.html",
+          "snippet": "2026-02-23: Oil pulls back as U.S.\u2013Iran talks set to resume: Here\u2019s where negotiations stand: Tensions have remained on high alert throughout the Middle East for weeks after U.S. President Donald Trum",
+          "guid": "108268317"
+        },
+        {
+          "title": "Oil jumps 4% after Vance says Iran ignored key U.S. demands, military strikes on the table",
+          "date": "2026-02-18",
+          "link": "https://www.cnbc.com/2026/02/18/oil-prices-today-iran-trump-nuclear-talks.html",
+          "snippet": "2026-02-18: Oil jumps 4% after Vance says Iran ignored key U.S. demands, military strikes on the table: Oil traders are worried that war between the U.S. and Iran could lead to a major disruption of c",
+          "guid": "108266679"
+        },
+        {
+          "title": "Here's how the U.S.-Iran war is already hitting consumers' pocketbooks",
+          "date": "2026-03-06",
+          "link": "https://www.cnbc.com/2026/03/06/us-iran-war-gas-mortgage-markets.html",
+          "snippet": "2026-03-06: Here's how the U.S.-Iran war is already hitting consumers' pocketbooks: The U.S.-Israeli strikes on Iran over the weekend gave way to a week with topsy-turvy markets, spiking mortgage rate",
+          "guid": "108274411"
+        },
+        {
+          "title": "Oil prices steady as traders monitor Iran tensions, U.S. economic data",
+          "date": "2026-02-10",
+          "link": "https://www.cnbc.com/2026/02/10/oil-drifts-lower-as-traders-weigh-supply-risks-amid-usiran-tensions.html",
+          "snippet": "2026-02-10: Oil prices steady as traders monitor Iran tensions, U.S. economic data: Oil prices eased slightly on Tuesday after U.S. guidance for vessels transiting the Strait of Hormuz kept attention ",
+          "guid": "108263647"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "98f2b667-e4df-4662-8af7-4b0e530dab68",
+      "label": "Housing Market Trends and Challenges",
+      "spike_ratio": 1.209,
+      "article_count": 22,
+      "rag_answer": "The housing market is facing significant challenges, with Goldman Sachs predicting an 8% decline in the second half of 2025 due to immigration and affordability issues. Despite a recent drop in mortgage rates, many potential homebuyers feel priced out, leading to a notable decrease in home sales, which fell over 8% in January 2026. In response to these challenges, a housing affordability package is advancing in Congress, aimed at reducing regulations for homebuilders and incentivizing local governments. However, elevated home prices and mortgage rates are expected to persist, complicating the market's recovery.",
+      "rag_sources": [
+        {
+          "title": "Housing to remain weakest part of economy, falling 8% in the second half, Goldman says",
+          "date": "2025-08-04",
+          "link": "https://www.cnbc.com/2025/08/04/housing-to-remain-weakest-part-of-economy-in-the-2nd-half-goldman-says.html",
+          "snippet": "2025-08-04: Housing to remain weakest part of economy, falling 8% in the second half, Goldman says: The Wall Street investment bank named immigration and affordability challenges as two obstacles stan",
+          "guid": "108181055"
+        },
+        {
+          "title": "Housing affordability package set to advance in Congress amid home-cost concerns",
+          "date": "2026-02-10",
+          "link": "https://www.cnbc.com/2026/02/09/housing-affordability-prices-congress.html",
+          "snippet": "2026-02-10: Housing affordability package set to advance in Congress amid home-cost concerns: Wide-ranging legislation would reduce regulations for homebuilders while giving local governments incentiv",
+          "guid": "108262990"
+        },
+        {
+          "title": "What to expect from the housing market in 2026\u2014and the 10 major cities where prices could fall the most",
+          "date": "2025-12-31",
+          "link": "https://www.cnbc.com/2025/12/31/housing-market-outlook-for-2026and-10-cities-where-prices-may-fall.html",
+          "snippet": "2025-12-31: What to expect from the housing market in 2026\u2014and the 10 major cities where prices could fall the most: Home prices and mortgage rates will remain elevated in 2026, but slower price growt",
+          "guid": "108246806"
+        },
+        {
+          "title": "Here's what's keeping homebuyers on the sidelines despite mortgage rates hitting a 10-month low ",
+          "date": "2025-08-20",
+          "link": "https://www.cnbc.com/2025/08/20/mortgage-rates-hit-a-10-month-low-why-home-buyers-are-on-the-sidelines.html",
+          "snippet": "2025-08-20: Here's what's keeping homebuyers on the sidelines despite mortgage rates hitting a 10-month low: A lot of would-be buyers feel priced out of the housing market. Lower mortgage rates might ",
+          "guid": "108188145"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "51354c92-f673-4c75-9399-c29544b9deef",
+      "label": "Investment strategies for 2026",
+      "spike_ratio": 1.2,
+      "article_count": 14,
+      "rag_answer": "As 2026 approaches, investors are focusing on long-term strategies, emphasizing discipline and diversification, particularly in sectors like European banks, which are seen as strong diversification plays. Tax-efficient investing is gaining attention due to potential changes in tax laws, which could enhance portfolio returns. Additionally, hedge funds are experiencing a resurgence, achieving their best performance since 2009, driven by equity and macro strategies. Investors are also identifying specific stocks, such as Adobe, Citigroup, and TSMC, as promising picks for substantial returns in the upcoming year.",
+      "rag_sources": [
+        {
+          "title": "Check out the winning hedge fund strategies of 2025",
+          "date": "2025-12-19",
+          "link": "https://www.cnbc.com/2025/12/19/the-hedge-fund-strategies-bringing-the-biggest-gains-this-year.html",
+          "snippet": "2025-12-19: Check out the winning hedge fund strategies of 2025: As 2025 draws to a close, hedge funds' annual performances face close scrutiny among investors.",
+          "guid": "108243433"
+        },
+        {
+          "title": "3 tactics the ultra-wealthy are using to invest in 2026 that you can mimic with the right tools",
+          "date": "2025-12-31",
+          "link": "https://www.cnbc.com/select/how-ultra-wealthy-are-investing-in-2026-and-how-you-can-mimic/",
+          "snippet": "2025-12-31: 3 tactics the ultra-wealthy are using to invest in 2026 that you can mimic with the right tools: The rich invest for the long-run, using discipline and diversification \u2014 all things you can",
+          "guid": "108244946"
+        },
+        {
+          "title": "How tax-efficient investing could boost your portfolio returns in 2026 and beyond",
+          "date": "2026-01-12",
+          "link": "https://www.cnbc.com/2026/01/12/tax-efficient-investing.html",
+          "snippet": "2026-01-12: How tax-efficient investing could boost your portfolio returns in 2026 and beyond: Now is the time to consider how changes in tax law, along with tax-efficient investing strategies, can bo",
+          "guid": "108250256"
+        },
+        {
+          "title": "Europe\u2019s banks have had a stellar year. Now they face one big question in 2026",
+          "date": "2025-12-31",
+          "link": "https://www.cnbc.com/2025/12/31/the-big-question-facing-europes-banks-in-2026-following-strong-year.html",
+          "snippet": "2025-12-31: Europe\u2019s banks have had a stellar year. Now they face one big question in 2026: Investment strategists say European banks continue to be a strong diversification play for 2026.",
+          "guid": "108240474"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

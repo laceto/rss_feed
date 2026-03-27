@@ -32,6 +32,7 @@ jobs:
           pip install hdbscan scikit-learn \
                       "langchain-core==0.3.83" "langchain-community==0.3.31" \
                       "langchain-openai==0.3.35" faiss-cpu
+          pip install datasets huggingface_hub
           pip install git+https://github.com/laceto/kitai.git
 
       - name: Check if a batch is pending
@@ -103,6 +104,13 @@ jobs:
         # Exit code 2 = ClusteringAborted (degenerate run) — treated as warning,
         # not a pipeline failure. The commit step will simply have no new topic files.
         run: python cluster_topics.py || [ $? -eq 2 ] && echo "Clustering aborted (degenerate run — skipping topic output)" || exit 1
+
+      - name: Push analysis datasets to Hugging Face
+        if: steps.check.outputs.pending == 'true'
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HUGGINGFACE_REPO: ${{ secrets.HUGGINGFACE_REPO }}
+        run: python push_new_analysis_to_hf.py
 
       - name: Commit sector results
         if: steps.check.outputs.pending == 'true'

@@ -1,0 +1,219 @@
+{
+  "date": "2026-02-20",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "37bac5c5-f756-48e8-a4f0-f5458902018d",
+      "label": "AI Disruption Fears in Markets",
+      "spike_ratio": 1.331,
+      "article_count": 41,
+      "rag_answer": "AI disruption fears are significantly impacting various sectors, particularly software and cybersecurity stocks, leading to a notable sell-off as investors grapple with concerns over a potential tech bubble. The release of new AI tools has intensified worries about the viability of the software-as-a-service (SaaS) business model, prompting discussions about an \"existential\" crisis in the software industry. Analysts warn that the rapid transformation driven by AI could also trigger broader market shocks, including potential disruptions in credit markets. Overall, these developments indicate a growing apprehension among investors about the sustainability of AI valuations and the broader implications for the tech sector.",
+      "rag_sources": [
+        {
+          "title": "AI valuation fears grip global investors as tech bubble concerns grow",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/ai-valuation-fears-grip-investors-as-tech-bubble-concerns-heighten.html",
+          "snippet": "2025-11-07: AI valuation fears grip global investors as tech bubble concerns grow: The recent slide among AI stocks has once again put fears of a tech bubble at the forefront of investors' minds.",
+          "guid": "108222913"
+        },
+        {
+          "title": "AI fears pummel software stocks: Is it 'illogical' panic or a SaaS apocalypse?",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/ai-anthropic-tools-saas-software-stocks-selloff.html",
+          "snippet": "2026-02-06: AI fears pummel software stocks: Is it 'illogical' panic or a SaaS apocalypse?: The software space is facing serious market concerns this week, after the release of new AI tools from AI tr",
+          "guid": "108261773"
+        },
+        {
+          "title": "Cybersecurity stock selling deepens on AI threat concerns. Why we're not bailing",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/23/cybersecurity-stock-selling-deepens-on-ai-threat-concerns-why-were-not-bailing.html",
+          "snippet": "2026-02-23: Cybersecurity stock selling deepens on AI threat concerns. Why we're not bailing: AI disruption fears spark sell-off in cyber, but the market is overlooking the sector's fundamentals",
+          "guid": "108268610"
+        },
+        {
+          "title": "Global software stocks extend losses amid fears over AI-led disruption",
+          "date": "2026-02-04",
+          "link": "https://www.cnbc.com/2026/02/04/software-stocks-plunge-us-ai-disruption.html",
+          "snippet": "2026-02-04: Global software stocks extend losses amid fears over AI-led disruption: Wall Street's fears around artificial intelligence-driven disruption affecting software companies made their way to ",
+          "guid": "108261128"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "0009838e-5b99-4f23-b3c0-d85cafc96a09",
+      "label": "U.S.-Iran Tensions and Oil Prices",
+      "spike_ratio": 1.272,
+      "article_count": 29,
+      "rag_answer": "U.S.-Iran tensions have escalated significantly, leading to volatile oil prices. Following reports of military strikes and the collapse of nuclear talks, oil prices surged, with U.S. crude oil reaching over $80 per barrel as the conflict disrupts global fuel supplies. Market reactions have been mixed, with oil prices jumping and then pulling back as traders navigate the uncertainty surrounding negotiations and potential military actions. The ongoing conflict is raising concerns about market concentration risks and its impact on consumers' costs, indicating a broader economic fallout.",
+      "rag_sources": [
+        {
+          "title": "Oil pulls back as U.S.\u2013Iran talks set to resume: Here\u2019s where negotiations stand",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/23/iran-us-talks-oil-falls-nuclear-negotiations.html",
+          "snippet": "2026-02-23: Oil pulls back as U.S.\u2013Iran talks set to resume: Here\u2019s where negotiations stand: Tensions have remained on high alert throughout the Middle East for weeks after U.S. President Donald Trum",
+          "guid": "108268317"
+        },
+        {
+          "title": "Oil jumps 4% after Vance says Iran ignored key U.S. demands, military strikes on the table",
+          "date": "2026-02-18",
+          "link": "https://www.cnbc.com/2026/02/18/oil-prices-today-iran-trump-nuclear-talks.html",
+          "snippet": "2026-02-18: Oil jumps 4% after Vance says Iran ignored key U.S. demands, military strikes on the table: Oil traders are worried that war between the U.S. and Iran could lead to a major disruption of c",
+          "guid": "108266679"
+        },
+        {
+          "title": "Here's how the U.S.-Iran war is already hitting consumers' pocketbooks",
+          "date": "2026-03-06",
+          "link": "https://www.cnbc.com/2026/03/06/us-iran-war-gas-mortgage-markets.html",
+          "snippet": "2026-03-06: Here's how the U.S.-Iran war is already hitting consumers' pocketbooks: The U.S.-Israeli strikes on Iran over the weekend gave way to a week with topsy-turvy markets, spiking mortgage rate",
+          "guid": "108274411"
+        },
+        {
+          "title": "Oil prices steady as traders monitor Iran tensions, U.S. economic data",
+          "date": "2026-02-10",
+          "link": "https://www.cnbc.com/2026/02/10/oil-drifts-lower-as-traders-weigh-supply-risks-amid-usiran-tensions.html",
+          "snippet": "2026-02-10: Oil prices steady as traders monitor Iran tensions, U.S. economic data: Oil prices eased slightly on Tuesday after U.S. guidance for vessels transiting the Strait of Hormuz kept attention ",
+          "guid": "108263647"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "6b482d3d-4bd3-4a5d-950f-4a9273ba8086",
+      "label": "Fed Chair Confirmation Controversy",
+      "spike_ratio": 1.269,
+      "article_count": 33,
+      "rag_answer": "The Fed Chair confirmation controversy is marked by significant pushback against candidates like Hassett and Warsh, primarily due to concerns over their ties to former President Trump and the potential impact on the Federal Reserve's independence. High-level individuals close to Trump have expressed reservations about Hassett, while Senator Thom Tillis is committed to blocking Warsh's confirmation. The ongoing investigation into current Fed Chair Jerome Powell has further complicated the situation, with former Fed Chair Janet Yellen warning that it poses a threat to the Fed's independence. These developments create uncertainty in the markets, as investors are wary of how leadership changes at the Fed could affect monetary policy and economic stability.",
+      "rag_sources": [
+        {
+          "title": "Hassett's Fed chair candidacy received pushback from high-level people close to Trump, sources say",
+          "date": "2025-12-15",
+          "link": "https://www.cnbc.com/2025/12/15/hassetts-fed-chair-candidacy-received-pushback-from-high-level-people-close-to-trump-sources-say.html",
+          "snippet": "2025-12-15: Hassett's Fed chair candidacy received pushback from high-level people close to Trump, sources say: There's concern that the National Economic Council director is too close to the presiden",
+          "guid": "108241774"
+        },
+        {
+          "title": "Senate should proceed with Warsh hearings for Fed chair despite Powell probe: Bessent",
+          "date": "2026-02-13",
+          "link": "https://www.cnbc.com/2026/02/13/fed-chair-warsh-powell-senate-bessent.html",
+          "snippet": "2026-02-13: Senate should proceed with Warsh hearings for Fed chair despite Powell probe: Bessent: Bessent told CNBC's \\Squawk Box\\\" he believes Republicans on the Senate Banking Committee \\\"are going",
+          "guid": "108265492"
+        },
+        {
+          "title": "Hassett says Fed independence is \u2018really important\u2019 and chair candidates shouldn\u2019t be disqualified for being Trump\u2019s friend",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/fed-chief-candidate-hassett-says-central-banks-independence-is-really-important-would-move-rates-by-consensus.html",
+          "snippet": "2025-12-16: Hassett says Fed independence is \u2018really important\u2019 and chair candidates shouldn\u2019t be disqualified for being Trump\u2019s friend: Hassett declined in a CNBC interview to directly address his ow",
+          "guid": "108242375"
+        },
+        {
+          "title": "BlackRock's Rieder the latest candidate to interview in Fed chair search",
+          "date": "2025-09-12",
+          "link": "https://www.cnbc.com/2025/09/12/blackrocks-rieder-the-latest-candidate-to-interview-in-fed-chair-search.html",
+          "snippet": "2025-09-12: BlackRock's Rieder the latest candidate to interview in Fed chair search: The White House search for the next Federal Reserve chair continues to twist and turn.",
+          "guid": "108198357"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        },
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "20dc2216-5ed2-4f06-b49a-5e8994526cb3",
+      "label": "Tax Refunds and Relief",
+      "spike_ratio": 1.215,
+      "article_count": 26,
+      "rag_answer": "Tax refunds for the 2026 season are projected to be higher on average, with an increase of 10.2% based on early filing data, although some taxpayers may receive smaller refunds than expected due to lower-than-projected changes. The White House previously indicated that refunds could be $1,000 higher this season, which could influence consumer spending, particularly in the auto industry, as many Americans might use their refunds to purchase vehicles. Additionally, the IRS is addressing past errors related to pandemic-era penalty tax relief, which may further impact taxpayer refunds. Overall, these developments suggest a mixed outlook for consumer spending and economic activity as tax season unfolds.",
+      "rag_sources": [
+        {
+          "title": "Your tax refund could be smaller than expected this season. Here's why",
+          "date": "2026-03-20",
+          "link": "https://www.cnbc.com/2026/03/20/smaller-tax-refunds.html",
+          "snippet": "2026-03-20: Your tax refund could be smaller than expected this season. Here's why: Tax refunds are higher on average compared to last year, but the change has been smaller than some early projections",
+          "guid": "108280386"
+        },
+        {
+          "title": "Trump tariffs: Refunds to companies should go to workers as bonuses, raises, Greer says",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/trump-trade-jamieson-greer-tariff-refunds-workers-companies.html",
+          "snippet": "2026-03-13: Trump tariffs: Refunds to companies should go to workers as bonuses, raises, Greer says: The United States government could end up paying $165 billion of more in refunds for Trump's IEEPA ",
+          "guid": "108277871"
+        },
+        {
+          "title": "Tax season presents a boom-or-bust test for U.S. auto sales",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/us-auto-sales-tax-season-test.html",
+          "snippet": "2026-02-20: Tax season presents a boom-or-bust test for U.S. auto sales: Auto industry experts anticipate that some Americans could use higher tax returns to finally purchase a new or used vehicle.",
+          "guid": "108266104"
+        },
+        {
+          "title": "Tax savings from Trump's $40,000 SALT deduction limit could be highest in these states ",
+          "date": "2025-09-23",
+          "link": "https://www.cnbc.com/2025/09/23/trump-salt-deduction-limit.html",
+          "snippet": "2025-09-23: Tax savings from Trump's $40,000 SALT deduction limit could be highest in these states: Trump\u2019s \u2018big beautiful bill\u2019 increased the SALT deduction to $40,000 for 2025. Here's where taxpayer",
+          "guid": "108202083"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "e91276fe-4a15-4206-9c39-1557b2405ea1",
+      "label": "Epstein Connections and Fallout",
+      "spike_ratio": 1.207,
+      "article_count": 28,
+      "rag_answer": "Recent developments surrounding Jeffrey Epstein's connections have led to significant fallout among high-profile individuals and organizations. New documents released by the DOJ reveal Epstein's extensive ties in Silicon Valley, implicating figures like Bill Gates and Elon Musk, while also prompting resignations, such as that of the World Economic Forum CEO Borge Brende. The ongoing scrutiny has resulted in public calls for transparency, particularly regarding Epstein's financial dealings and relationships, which could impact reputations and market perceptions of associated entities. As more information emerges, the potential for reputational damage and legal repercussions for those involved remains a concern for investors and stakeholders.",
+      "rag_sources": [
+        {
+          "title": "Epstein's Silicon Valley connections went beyond Gates and Musk",
+          "date": "2026-02-09",
+          "link": "https://www.cnbc.com/2026/02/09/tech-leaders-epstein-records-silicon-valley-sergey-brin-thiel-sinofsky-reid-hoffman-musk-gates.html",
+          "snippet": "2026-02-09: Epstein's Silicon Valley connections went beyond Gates and Musk: The new Epstein files released by the DOJ show that the deceased financier was able to build relationships across Silicon V",
+          "guid": "108260807"
+        },
+        {
+          "title": "Epstein files fallout: The high-profile people burned by past dealings with a predator",
+          "date": "2026-02-16",
+          "link": "https://www.cnbc.com/2026/02/15/epstein-files-fallout-goldman-ruemmler-harvard-yale.html",
+          "snippet": "2026-02-16: Epstein files fallout: The high-profile people burned by past dealings with a predator: Jeffrey Epstein killed himself in a New York City federal jail in 2019. But more than six years late",
+          "guid": "108265580"
+        },
+        {
+          "title": "Epstein would 'name drop' Trump, Les Wexner says in deposition video",
+          "date": "2026-02-19",
+          "link": "https://www.cnbc.com/2026/02/19/epstein-trump-les-wexner-deposition.html",
+          "snippet": "2026-02-19: Epstein would 'name drop' Trump, Les Wexner says in deposition video: Democrats on the House Oversight Committee have expressed skepticism about Wexner's insistence that he had virtually n",
+          "guid": "108267572"
+        },
+        {
+          "title": "DOJ says names of two associates Epstein wired $100k and $250k to should stay secret",
+          "date": "2025-09-06",
+          "link": "https://www.cnbc.com/2025/09/06/epstein-doj-says-two-people-he-wired-thousands-to-should-stay-secret.html",
+          "snippet": "2025-09-06: DOJ says names of two associates Epstein wired $100k and $250k to should stay secret: The Justice Department request came after NBC News asked a federal judge to unseal the names of two pe",
+          "guid": "108195264"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

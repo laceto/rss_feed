@@ -1,0 +1,220 @@
+{
+  "date": "2026-01-22",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "08492936-46b7-490a-9566-b8596215d412",
+      "label": "Trump's Greenland Acquisition Controversy",
+      "spike_ratio": 1.913,
+      "article_count": 88,
+      "rag_answer": "President Donald Trump's ambitions to acquire Greenland have escalated, drawing significant geopolitical attention and concern. Following military actions in Venezuela, Trump has threatened a takeover of Greenland, prompting bewilderment among Greenlanders and defiance from their Prime Minister, who stated they would not be pressured by U.S. tariffs. European leaders have also condemned Trump's tariff threats as \"unacceptable,\" indicating potential market volatility. The situation has raised alarms in China and has implications for international relations, particularly in the Arctic region, suggesting that markets could react negatively to the ongoing tensions.",
+      "rag_sources": [
+        {
+          "title": "CNBC Daily Open: Trump's Greenland ambitions have global repercussions",
+          "date": "2026-01-09",
+          "link": "https://www.cnbc.com/2026/01/09/cnbc-daily-open-trumps-greenland-ambitions-have-global-repercussions.html",
+          "snippet": "2026-01-09: CNBC Daily Open: Trump's Greenland ambitions have global repercussions: U.S. President Donald Trump's ambitions around Greenland are rapidly gaining concrete form \u2014 that is, evolving from ",
+          "guid": "108250347"
+        },
+        {
+          "title": "Greenlanders 'bewildered' by Trump\u2019s 'devastating' takeover threats, business minister tells CNBC",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/trump-greenland-takeover-threats-tariffs-naaja-nathanielsen.html",
+          "snippet": "2026-01-20: Greenlanders 'bewildered' by Trump\u2019s 'devastating' takeover threats, business minister tells CNBC: Greenland has been thrust into the geopolitical spotlight by President Donald Trump's tak",
+          "guid": "108254262"
+        },
+        {
+          "title": "Trump wants Greenland. If it were for sale, it could cost trillions",
+          "date": "2026-01-08",
+          "link": "https://www.cnbc.com/2026/01/08/trump-greenland-cost-denmark.html",
+          "snippet": "2026-01-08: Trump wants Greenland. If it were for sale, it could cost trillions: Trump's rhetoric about Greenland has flared back up in the days since the U.S. military entered Venezuela and captured ",
+          "guid": "108249355"
+        },
+        {
+          "title": "Trump\u2019s Greenland gambit puts China on edge after Venezuela operation",
+          "date": "2026-01-08",
+          "link": "https://www.cnbc.com/2026/01/08/us-trump-china-greenland-denmark-arctic-tensions-trump-rare-earth-elements-minerals-mining.html",
+          "snippet": "2026-01-08: Trump\u2019s Greenland gambit puts China on edge after Venezuela operation: U.S. President Donald Trump's threat to take control of Greenland raised alarms in Beijing as nations vye for the vas",
+          "guid": "108249089"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "2e955eac-a74a-4c42-be9f-b871d12feb52",
+      "label": "Market Trends and Stock Movements",
+      "spike_ratio": 1.242,
+      "article_count": 39,
+      "rag_answer": "The stock market has experienced significant volatility, with benchmarks reaching record highs due to easing inflation, strong corporate earnings, and expectations of U.S. rate cuts. However, recent sentiment has reversed, indicating potential concerns about an economic slowdown, as suggested by Stifel's warning of a possible stagflation environment. Despite this, certain sectors, particularly AI and retail favorites, have shown resilience, pushing stocks to new highs. Investors are advised to carefully assess market conditions before making trades, as opportunities may arise amidst the fluctuations.",
+      "rag_sources": [
+        {
+          "title": "Stock market swings got you reeling? Answer these 6 questions before making a trade",
+          "date": "2025-11-28",
+          "link": "https://www.cnbc.com/2025/11/28/stock-market-swings-got-you-reeling-answering-6-questions-will-help.html",
+          "snippet": "2025-11-28: Stock market swings got you reeling? Answer these 6 questions before making a trade: Frustrating as volatility can be, it also tends to present opportunities.",
+          "guid": "108232626"
+        },
+        {
+          "title": "Stock benchmarks are scaling record highs: 'Animal spirits are soaring' ",
+          "date": "2025-09-11",
+          "link": "https://www.cnbc.com/2025/09/11/stock-benchmarks-are-scaling-record-highs-animal-spirits-are-soaring-.html",
+          "snippet": "2025-09-11: Stock benchmarks are scaling record highs: 'Animal spirits are soaring': Easing inflation pressures,\u00a0resilient corporate earnings and expectations for U.S. rate cuts have boosted investor ",
+          "guid": "108197275"
+        },
+        {
+          "title": "Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward",
+          "date": "2025-12-26",
+          "link": "https://www.cnbc.com/2025/12/26/market-sentiment-has-made-a-huge-reversal-heres-why-and-what-it-means-going-forward.html",
+          "snippet": "2025-12-26: Market sentiment has made a huge reversal. Here\u2019s why and what it means going forward: Something unusual happened in the past few weeks.",
+          "guid": "108245814"
+        },
+        {
+          "title": "Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel",
+          "date": "2025-08-11",
+          "link": "https://www.cnbc.com/2025/08/11/stock-market-party-to-be-ruined-by-sudden-economic-slowdown-says-stifel.html",
+          "snippet": "2025-08-11: Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel: The market could be in for a stagflation environment, the firm said.",
+          "guid": "108184067"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "936f95ce-7a7a-43f9-9e1e-2d3dae612e11",
+      "label": "AI Investments and IPOs",
+      "spike_ratio": 1.187,
+      "article_count": 27,
+      "rag_answer": "AI investments and IPOs are experiencing significant momentum, with several startups, including Cohere and Anthropic, preparing for public listings amid a competitive landscape. The surge in AI-linked IPOs, particularly in China, is attracting global investor attention, although foreign participation remains challenging. This trend is contributing to a broader capital rush in Asian markets, which are outpacing Europe in IPO activity. Overall, the rapid growth in the AI sector is creating substantial wealth opportunities, as many private fortunes are expected to become liquid through upcoming IPOs.",
+      "rag_sources": [
+        {
+          "title": "Investing in Space: Space IPOs are rearing their heads again ",
+          "date": "2025-08-08",
+          "link": "https://www.cnbc.com/2025/08/08/investing-in-space-space-ipos-are-rearing-their-heads-again-.html",
+          "snippet": "2025-08-08: Investing in Space: Space IPOs are rearing their heads again: A recent string of IPOs signals the space sector is once more warming to traditional public listings.",
+          "guid": "108183394"
+        },
+        {
+          "title": "Enterprise AI startup Cohere tops revenue target as momentum builds to IPO: Investor memo",
+          "date": "2026-02-13",
+          "link": "https://www.cnbc.com/2026/02/13/ai-startup-cohere-revenue-ipo.html",
+          "snippet": "2026-02-13: Enterprise AI startup Cohere tops revenue target as momentum builds to IPO: Investor memo: Cohere's competitors OpenAI and Anthropic are also weighing potential IPOs and competition for en",
+          "guid": "108265522"
+        },
+        {
+          "title": "Chinese firms pull back from listing in the U.S. as Hong Kong IPOs see a surge",
+          "date": "2025-10-15",
+          "link": "https://www.cnbc.com/2025/10/15/chinese-firms-pull-back-from-listing-in-the-us-as-hong-kong-ipos-see-a-surge.html",
+          "snippet": "2025-10-15: Chinese firms pull back from listing in the U.S. as Hong Kong IPOs see a surge: Chinese firms pulled back from U.S. for IPOs this year in a pivot to Hong Kong amid rising Beijing-Washingto",
+          "guid": "108209754"
+        },
+        {
+          "title": "China\u2019s AI chip firms are going public fast. But its crown jewel is staying private",
+          "date": "2026-01-15",
+          "link": "https://www.cnbc.com/2026/01/15/china-ai-chips-ipos-huawei-hisilicon-nvidia-rivals-biren-metax-moore-threads-smic.html",
+          "snippet": "2026-01-15: China\u2019s AI chip firms are going public fast. But its crown jewel is staying private: Despite recent IPOs in China's AI chip space garnering a lot of attention, its the private Huawei that ",
+          "guid": "108251552"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "5042faa2-00c9-4f97-b253-3b403294321a",
+      "label": "Trump's Influence on Fed Independence",
+      "spike_ratio": 1.176,
+      "article_count": 24,
+      "rag_answer": "Trump's influence on the Federal Reserve's independence has been a significant concern, as he has openly criticized Fed Chair Jerome Powell and sought to exert control over the central bank. Key developments include Trump's pressure campaign, which has raised fears of higher inflation and weaker economic growth, according to surveys. Prominent figures, including JPMorgan Chase CEO Jamie Dimon and Fed officials like John Williams, have defended the Fed's independence amid Trump's attempts to reshape its leadership. The ongoing tensions suggest potential market implications, including volatility in interest rates and consumer borrowing costs, as the Fed navigates political pressures while trying to maintain its autonomy.",
+      "rag_sources": [
+        {
+          "title": "Fed chair candidate Waller says he will 'absolutely' stress importance of Fed's independence to Trump",
+          "date": "2025-12-17",
+          "link": "https://www.cnbc.com/2025/12/17/fed-chair-candidate-waller-says-he-will-absolutely-emphasize-importance-of-the-central-banks-independence-to-trump.html",
+          "snippet": "2025-12-17: Fed chair candidate Waller says he will 'absolutely' stress importance of Fed's independence to Trump: President Donald Trump regularly weighs in on Fed decisions, accusing the central ban",
+          "guid": "108242898"
+        },
+        {
+          "title": "Trump attacks Powell again amid Fed independence fears: 'Incompetent' or 'crooked'",
+          "date": "2026-01-13",
+          "link": "https://www.cnbc.com/2026/01/13/trump-powell-fed-dimon-pirro-doj.html",
+          "snippet": "2026-01-13: Trump attacks Powell again amid Fed independence fears: 'Incompetent' or 'crooked': JPMorgan Chase CEO Jamie Dimon defended the Fed's independence amid the probe of Powell by Trump's DOJ, ",
+          "guid": "108251767"
+        },
+        {
+          "title": "Hassett says Fed independence is \u2018really important\u2019 and chair candidates shouldn\u2019t be disqualified for being Trump\u2019s friend",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/fed-chief-candidate-hassett-says-central-banks-independence-is-really-important-would-move-rates-by-consensus.html",
+          "snippet": "2025-12-16: Hassett says Fed independence is \u2018really important\u2019 and chair candidates shouldn\u2019t be disqualified for being Trump\u2019s friend: Hassett declined in a CNBC interview to directly address his ow",
+          "guid": "108242375"
+        },
+        {
+          "title": "Here's what it really means for Trump to get control of the Federal Reserve board",
+          "date": "2025-08-31",
+          "link": "https://www.cnbc.com/2025/08/30/heres-what-it-really-means-for-trump-to-get-control-of-the-federal-reserve-board.html",
+          "snippet": "2025-08-31: Here's what it really means for Trump to get control of the Federal Reserve board: Since taking office in January, Trump has placed the Fed directly in the crosshairs of executive power.",
+          "guid": "108192598"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "409ca803-01f1-4349-8222-0e0c6aee0ccc",
+      "label": "Ukraine peace talks and Trump",
+      "spike_ratio": 1.169,
+      "article_count": 18,
+      "rag_answer": "Recent developments in Ukraine peace talks indicate a complex and evolving situation involving U.S. President Donald Trump and Ukrainian President Volodymyr Zelenskyy. Trump has oscillated in his support for Ukraine, at times suggesting a division of the country with Russia, while also promising security guarantees from European allies. As of late November 2025, Ukraine reportedly agreed to a U.S.-brokered peace proposal, with Trump stating that a peace deal is \"very close.\" These negotiations could significantly impact market sentiment, particularly in sectors related to defense, energy, and European stability, as investors assess the potential for reduced conflict and its economic ramifications.",
+      "rag_sources": [
+        {
+          "title": "Ukraine desperate to keep Trump on its side in peace talks, while saving its sovereignty",
+          "date": "2025-11-24",
+          "link": "https://www.cnbc.com/2025/11/24/ukraine-desperate-to-keep-trump-sweet-while-saving-its-sovereignty.html",
+          "snippet": "2025-11-24: Ukraine desperate to keep Trump on its side in peace talks, while saving its sovereignty: Talks between U.S. and Ukrainian officials were held this weekend after it emerged that Russia and",
+          "guid": "108230764"
+        },
+        {
+          "title": "Watch live: Trump and Zelenskyy meet with European leaders ",
+          "date": "2025-08-18",
+          "link": "https://www.cnbc.com/2025/08/18/trump-zelenskyy-ukraine-putin-live-updates.html",
+          "snippet": "2025-08-18: Watch live: Trump and Zelenskyy meet with European leaders: Trump and Ukraine's Volodymyr Zelenskyy are meeting with European leaders and NATO allies in an unprecedented effort to reach a ",
+          "guid": "108187127"
+        },
+        {
+          "title": "Ukraine\u2019s Zelenskyy says Kyiv \u2018geared up for clear and honest work\u2019 as U.S. pushes for progress on peace plan",
+          "date": "2025-11-21",
+          "link": "https://www.cnbc.com/2025/11/21/ukraine-peace-plan-zelenskyy-to-speak-with-trump-on-deal-to-end-war.html",
+          "snippet": "2025-11-21: Ukraine\u2019s Zelenskyy says Kyiv \u2018geared up for clear and honest work\u2019 as U.S. pushes for progress on peace plan: Ukrainian President Volodymyr Zelenskyy said he expects to speak with U.S. co",
+          "guid": "108229758"
+        },
+        {
+          "title": "Trump says \u2018a lot closer\u2019 to Ukraine peace deal after Zelenskyy meeting, though thorny issues remain",
+          "date": "2025-12-28",
+          "link": "https://www.cnbc.com/2025/12/28/trump-zelenskyy-ukraine.html",
+          "snippet": "2025-12-28: Trump says \u2018a lot closer\u2019 to Ukraine peace deal after Zelenskyy meeting, though thorny issues remain: Ukrainian President Volodymyr Zelenskyy\u00a0was scheduled to arrive at Mar-a-Lago in Presi",
+          "guid": "108246060"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}
