@@ -1,0 +1,87 @@
+{
+  "date": "2026-03-26",
+  "batch_id": "batch_69c58f8306948190bfc2cb0cdbf3443d",
+  "sectors": [
+    {
+      "entities": [
+        "Meta",
+        "El Paso AI data center"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Coca-Cola",
+        "Walmart"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "neutral",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "MLB"
+      ],
+      "sector": "Consumer Services",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "United Airlines"
+      ],
+      "sector": "Transportation",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Fannie Mae",
+        "Coinbase"
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Goldman Sachs"
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Apple",
+        "Bosch",
+        "Cirrus Logic",
+        "TDK",
+        "Qnity Electronics"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "SK Hynix",
+        "Samsung",
+        "Micron"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}
