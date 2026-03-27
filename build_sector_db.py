@@ -16,12 +16,12 @@ To use programmatically, import from the package:
 import sys
 
 from constants import SECTOR_DB_FILE, SECTOR_RESULTS_DIR
-from pipeline.sector_io import build_sector_db
+from pipeline.sector_db import run_sector_db_build
 
 
 def main() -> None:
-    json_count = sum(1 for _ in SECTOR_RESULTS_DIR.glob("*.json"))
-    if json_count == 0:
+    summary = run_sector_db_build(SECTOR_DB_FILE, SECTOR_RESULTS_DIR)
+    if summary["json_count"] == 0:
         print(
             f"[build_sector_db] No JSON files found in {SECTOR_RESULTS_DIR}. "
             "Nothing to do.",
@@ -29,8 +29,10 @@ def main() -> None:
         )
         return
 
-    total = build_sector_db(SECTOR_DB_FILE, SECTOR_RESULTS_DIR)
-    print(f"Built {SECTOR_DB_FILE} — {total} rows across {json_count} dates.")
+    print(
+        f"Built {summary['db_path']} — {summary['row_count']} rows "
+        f"across {summary['json_count']} dates."
+    )
 
 
 if __name__ == "__main__":

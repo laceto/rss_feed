@@ -1,204 +1,159 @@
 """pipeline — reusable utilities for the rss_feed financial news analysis pipeline.
 
-Modules:
-    batch_briefings  — briefing batch collection (kitai.batch): parsing, saving
-    batch_collect    — sector batch collection (OpenAI API): polling, download, routing
-    batch_sector     — sector batch task building and submission
-    hf_io            — HuggingFace Dataset I/O (feeds + analysis datasets)
-    query_entity     — entity query API: snapshot, time-series, bulk export
-    query_sector     — sector query API: snapshot, time-series, bulk pivot
-    sector_io        — sector result file reading and SQLite database building
-    sentiment_charts — sentiment visualisation (heatmap, trend lines, distribution)
-    topic_charts     — topic visualisation (6 static charts + animated GIF)
-    vectorstore_io   — FAISS vectorstore build/update: registry, documents, embedding batch
-
-cluster_topics is not re-exported here — it is already a top-level module
-registered in pyproject.toml and should be imported directly:
-    from cluster_topics import run, get_emerging_topics, ...
+This package exposes a flat import surface via lazy attribute loading, so
+top-level scripts can import narrow submodules such as pipeline.backfill or
+pipeline.topic_clustering without paying the dependency cost of unrelated
+modules during package bootstrap.
 """
 
-from .batch_briefings import (
-    check_briefings_batch_status,
-    collect_briefing_results,
-    parse_briefing_custom_id,
-    read_spike_metadata,
-    save_briefings,
-)
-from .batch_collect import (
-    TERMINAL_STATES,
-    check_batch_status,
-    date_from_custom_id,
-    download_results,
-    parse_sectors,
-    read_pending_batch_id,
-    save_batch_results,
-)
-from .batch_sector import (
-    MAX_CHARS,
-    STRICT_SCHEMA,
-    SYSTEM_PROMPT,
-    MultiSectorAnalysis,
-    SectorAnalysis,
-    build_batch_tasks,
-    build_daily_contents,
-    make_openai_strict,
-    persist_batch_id,
-    submit_batch,
-)
-from .hf_io import (
-    create_hf_dataset_repo,
-    load_feed_for_date,
-    load_feeds_from_files,
-    load_feeds_from_hf,
-    load_tsv,
-    push_df_to_hub,
-    push_feeds_to_hub,
-    push_incremental,
-)
-from .query_entity import (
-    export_entity_ts,
-    get_all_entities_ts,
-    get_entity_snapshot,
-    get_entity_time_series,
-    list_entities,
-)
-from .query_sector import (
-    export_sector_pivot,
-    get_all_sectors_pivot,
-    get_snapshot,
-    get_time_series,
-    list_sectors,
-    load_summary,
-)
-from .sector_io import (
-    build_sector_dataframe,
-    build_sector_db,
-    insert_sector_date,
-    load_sector_json,
-    load_sector_results,
-)
-from .sentiment_charts import (
-    MIN_DATA_POINTS,
-    ROLLING_WINDOW,
-    SENTIMENT_COLORS,
-    SENTIMENT_SCORE,
-    chart_distribution,
-    chart_heatmap,
-    chart_trends,
-    load_sentiment_data,
-)
-from .topic_charts import (
-    load_trends,
-    pick_top_topics,
-    plot_frequency_ts,
-    plot_sentiment_delta,
-    plot_sentiment_heatmap,
-    plot_signal_scatter,
-    plot_signal_scatter_animation,
-    plot_spike_heatmap,
-    plot_topic_timeline,
-)
-from .vectorstore_io import (
-    EMBED_MODEL,
-    POLL_INTERVAL,
-    REGISTRY_COLUMNS,
-    align_pairs_to_docs,
-    assign_ids,
-    build_documents,
-    find_new_articles,
-    init_vectorstore,
-    load_feed_articles,
-    load_registry,
-    run_embedding_batch,
-    save_registry,
-    update_vectorstore,
-)
+from __future__ import annotations
 
-__all__ = [
+from importlib import import_module
+
+_EXPORTS: dict[str, str] = {
+    # backfill
+    "briefing_dates": ".backfill",
+    "clustered_dates": ".backfill",
+    "phase1_cluster": ".backfill",
+    "phase2_briefing": ".backfill",
+    "trading_dates": ".backfill",
     # batch_briefings
-    "check_briefings_batch_status",
-    "collect_briefing_results",
-    "parse_briefing_custom_id",
-    "read_spike_metadata",
-    "save_briefings",
+    "check_briefings_batch_status": ".batch_briefings",
+    "collect_briefing_results": ".batch_briefings",
+    "parse_briefing_custom_id": ".batch_briefings",
+    "read_spike_metadata": ".batch_briefings",
+    "save_briefings": ".batch_briefings",
     # batch_collect
-    "TERMINAL_STATES",
-    "check_batch_status",
-    "date_from_custom_id",
-    "download_results",
-    "parse_sectors",
-    "read_pending_batch_id",
-    "save_batch_results",
+    "TERMINAL_STATES": ".batch_collect",
+    "check_batch_status": ".batch_collect",
+    "date_from_custom_id": ".batch_collect",
+    "download_results": ".batch_collect",
+    "parse_sectors": ".batch_collect",
+    "read_pending_batch_id": ".batch_collect",
+    "save_batch_results": ".batch_collect",
     # batch_sector
-    "MAX_CHARS",
-    "STRICT_SCHEMA",
-    "SYSTEM_PROMPT",
-    "MultiSectorAnalysis",
-    "SectorAnalysis",
-    "build_batch_tasks",
-    "build_daily_contents",
-    "make_openai_strict",
-    "persist_batch_id",
-    "submit_batch",
+    "MAX_CHARS": ".batch_sector",
+    "STRICT_SCHEMA": ".batch_sector",
+    "SYSTEM_PROMPT": ".batch_sector",
+    "MultiSectorAnalysis": ".batch_sector",
+    "SectorAnalysis": ".batch_sector",
+    "build_batch_tasks": ".batch_sector",
+    "build_daily_contents": ".batch_sector",
+    "make_openai_strict": ".batch_sector",
+    "persist_batch_id": ".batch_sector",
+    "submit_batch": ".batch_sector",
+    # briefing_batch_submit
+    "MAX_CONTEXT_CHARS": ".briefing_batch_submit",
+    "TOP_N_DEFAULT": ".briefing_batch_submit",
+    "build_briefing_batch_tasks": ".briefing_batch_submit",
+    "build_briefing_custom_id": ".briefing_batch_submit",
+    "build_prompt": ".briefing_batch_submit",
+    "retrieve_docs_for_label": ".briefing_batch_submit",
+    "run_briefing_batch_submission": ".briefing_batch_submit",
+    # briefing_batch_collect
+    "run_briefing_batch_collection": ".briefing_batch_collect",
+    # briefings
+    "KEYWORD_TO_SECTORS": ".briefings",
+    "build_briefing": ".briefings",
+    "infer_sectors": ".briefings",
+    "load_precomputed": ".briefings",
+    "rag_summary": ".briefings",
+    "save_briefing": ".briefings",
+    "sector_crosscheck": ".briefings",
     # hf_io
-    "create_hf_dataset_repo",
-    "load_feed_for_date",
-    "load_feeds_from_files",
-    "load_feeds_from_hf",
-    "load_tsv",
-    "push_df_to_hub",
-    "push_feeds_to_hub",
-    "push_incremental",
+    "create_hf_dataset_repo": ".hf_io",
+    "load_feed_for_date": ".hf_io",
+    "load_feeds_from_files": ".hf_io",
+    "load_feeds_from_hf": ".hf_io",
+    "load_tsv": ".hf_io",
+    "push_df_to_hub": ".hf_io",
+    "push_feeds_to_hub": ".hf_io",
+    "push_incremental": ".hf_io",
     # query_entity
-    "export_entity_ts",
-    "get_all_entities_ts",
-    "get_entity_snapshot",
-    "get_entity_time_series",
-    "list_entities",
+    "export_entity_ts": ".query_entity",
+    "get_all_entities_ts": ".query_entity",
+    "get_entity_snapshot": ".query_entity",
+    "get_entity_time_series": ".query_entity",
+    "list_entities": ".query_entity",
     # query_sector
-    "export_sector_pivot",
-    "get_all_sectors_pivot",
-    "get_snapshot",
-    "get_time_series",
-    "list_sectors",
-    "load_summary",
+    "export_sector_pivot": ".query_sector",
+    "get_all_sectors_pivot": ".query_sector",
+    "get_snapshot": ".query_sector",
+    "get_time_series": ".query_sector",
+    "list_sectors": ".query_sector",
+    "load_summary": ".query_sector",
+    # sector_db
+    "run_sector_db_build": ".sector_db",
+    # sector_batch_collect
+    "run_sector_batch_collection": ".sector_batch_collect",
     # sector_io
-    "build_sector_dataframe",
-    "build_sector_db",
-    "insert_sector_date",
-    "load_sector_json",
-    "load_sector_results",
+    "build_sector_dataframe": ".sector_io",
+    "build_sector_db": ".sector_io",
+    "insert_sector_date": ".sector_io",
+    "load_sector_json": ".sector_io",
+    "load_sector_results": ".sector_io",
+    # sector_summary
+    "run_sector_summary_build": ".sector_summary",
     # sentiment_charts
-    "MIN_DATA_POINTS",
-    "ROLLING_WINDOW",
-    "SENTIMENT_COLORS",
-    "SENTIMENT_SCORE",
-    "chart_distribution",
-    "chart_heatmap",
-    "chart_trends",
-    "load_sentiment_data",
+    "MIN_DATA_POINTS": ".sentiment_charts",
+    "ROLLING_WINDOW": ".sentiment_charts",
+    "SENTIMENT_COLORS": ".sentiment_charts",
+    "SENTIMENT_SCORE": ".sentiment_charts",
+    "chart_distribution": ".sentiment_charts",
+    "chart_heatmap": ".sentiment_charts",
+    "chart_trends": ".sentiment_charts",
+    "load_sentiment_data": ".sentiment_charts",
+    # sentiment_visualization
+    "run_sentiment_visualizations": ".sentiment_visualization",
+    # topic_clustering
+    "parse_cluster_topics_args": ".topic_clustering",
+    "print_cluster_summary": ".topic_clustering",
+    "run_cluster_topics_cli": ".topic_clustering",
     # topic_charts
-    "load_trends",
-    "pick_top_topics",
-    "plot_frequency_ts",
-    "plot_sentiment_delta",
-    "plot_sentiment_heatmap",
-    "plot_signal_scatter",
-    "plot_signal_scatter_animation",
-    "plot_spike_heatmap",
-    "plot_topic_timeline",
+    "load_trends": ".topic_charts",
+    "pick_top_topics": ".topic_charts",
+    "plot_frequency_ts": ".topic_charts",
+    "plot_sentiment_delta": ".topic_charts",
+    "plot_sentiment_heatmap": ".topic_charts",
+    "plot_signal_scatter": ".topic_charts",
+    "plot_signal_scatter_animation": ".topic_charts",
+    "plot_spike_heatmap": ".topic_charts",
+    "plot_topic_timeline": ".topic_charts",
+    # topic_visualization
+    "DEFAULT_ANIMATION_FPS": ".topic_visualization",
+    "DEFAULT_LOOKBACK_DAYS": ".topic_visualization",
+    "DEFAULT_TOP_N": ".topic_visualization",
+    "parse_topic_visualization_args": ".topic_visualization",
+    "run_topic_visualizations": ".topic_visualization",
     # vectorstore_io
-    "EMBED_MODEL",
-    "POLL_INTERVAL",
-    "REGISTRY_COLUMNS",
-    "align_pairs_to_docs",
-    "assign_ids",
-    "build_documents",
-    "find_new_articles",
-    "init_vectorstore",
-    "load_feed_articles",
-    "load_registry",
-    "run_embedding_batch",
-    "save_registry",
-    "update_vectorstore",
-]
+    "EMBED_MODEL": ".vectorstore_io",
+    "POLL_INTERVAL": ".vectorstore_io",
+    "REGISTRY_COLUMNS": ".vectorstore_io",
+    "align_pairs_to_docs": ".vectorstore_io",
+    "assign_ids": ".vectorstore_io",
+    "build_documents": ".vectorstore_io",
+    "find_new_articles": ".vectorstore_io",
+    "init_vectorstore": ".vectorstore_io",
+    "load_feed_articles": ".vectorstore_io",
+    "load_registry": ".vectorstore_io",
+    "run_embedding_batch": ".vectorstore_io",
+    "save_registry": ".vectorstore_io",
+    "update_vectorstore": ".vectorstore_io",
+}
+
+__all__ = sorted(_EXPORTS)
+
+
+def __getattr__(name: str):
+    module_name = _EXPORTS.get(name)
+    if module_name is None:
+        raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
+
+    module = import_module(module_name, __name__)
+    value = getattr(module, name)
+    globals()[name] = value
+    return value
+
+
+def __dir__() -> list[str]:
+    return sorted(set(globals()) | set(__all__))

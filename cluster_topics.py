@@ -875,30 +875,8 @@ def run(
 
 
 if __name__ == "__main__":
-    import argparse
     import sys
 
-    parser = argparse.ArgumentParser(description="Run topic clustering for one day.")
-    parser.add_argument(
-        "--date",
-        default=None,
-        help="Target date YYYY-MM-DD (default: today)",
-    )
-    parser.add_argument(
-        "--skip-labeling",
-        action="store_true",
-        help="Skip LLM labeling (useful for profiling / CI dry runs)",
-    )
-    args = parser.parse_args()
+    from pipeline.topic_clustering import run_cluster_topics_cli
 
-    target = date.fromisoformat(args.date) if args.date else date.today()
-
-    try:
-        summary = run(target_date=target, skip_labeling=args.skip_labeling)
-    except ClusteringAborted as exc:
-        print(f"[cluster_topics] ABORTED: {exc}", flush=True)
-        sys.exit(2)
-
-    print("[cluster_topics] Run complete:")
-    for k, v in summary.items():
-        print(f"  {k}: {v}")
+    sys.exit(run_cluster_topics_cli(run_fn=run, aborted_exc=ClusteringAborted))
