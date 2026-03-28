@@ -232,14 +232,15 @@ def run_embedding_batch(
     Raises:
         RuntimeError: If the batch job does not reach 'completed' status.
     """
-    tasks  = build_embedding_tasks(docs, model=EMBED_MODEL)
+    tasks  = build_embedding_tasks(docs, model=EMBED_MODEL, dimensions=EMBED_DIMENSIONS)
     job_id = submit_batch_job(client, tasks)
     log.info("Submitted embedding batch: %s (%d tasks)", job_id, len(tasks))
 
-    statuses = poll_until_complete(client, [job_id], poll_interval=POLL_INTERVAL)
-    if statuses[job_id]["status"] != "completed":
+    # poll_until_complete returns list[str] of completed batch IDs
+    completed_ids = poll_until_complete(client, [job_id], poll_interval=POLL_INTERVAL)
+    if job_id not in completed_ids:
         raise RuntimeError(
-            f"Embedding batch {job_id} ended with status '{statuses[job_id]['status']}'. "
+            f"Embedding batch {job_id} did not complete successfully. "
             "Check the OpenAI dashboard for details."
         )
 
