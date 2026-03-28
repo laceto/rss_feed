@@ -1,0 +1,45 @@
+{
+  "date": "2026-03-28",
+  "n_spikes": 1,
+  "spikes": [
+    {
+      "topic_id": "f6c084f0-a547-4ff0-a223-85410a095e66",
+      "label": "Midday Stock Movements",
+      "spike_ratio": 0.98,
+      "article_count": 16,
+      "sentiment_score": 0.2167410714285714,
+      "rag_answer": "Midday stock movements have shown significant volatility, with various companies experiencing notable fluctuations in their stock prices. Key players such as Paramount Skydance, Apple, and UnitedHealth have been highlighted for making the largest moves during these trading sessions. This volatility is occurring against a backdrop of broader market concerns, including geopolitical tensions, economic slowdowns, and changing investor sentiment. As a result, investors are advised to be selective and cautious in their trading strategies during this period of uncertainty.",
+      "rag_sources": [
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel",
+          "date": "2025-08-11",
+          "link": "https://www.cnbc.com/2025/08/11/stock-market-party-to-be-ruined-by-sudden-economic-slowdown-says-stifel.html",
+          "snippet": "2025-08-11: Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel: The market could be in for a stagflation environment, the firm said.",
+          "guid": "108184067"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "European markets close higher as investors digest key points from Munich Security Conference",
+          "date": "2026-02-16",
+          "link": "https://www.cnbc.com/2026/02/16/europe-markets-stoxx-600-ftse-100-msc-defense.html",
+          "snippet": "2026-02-16: European markets close higher as investors digest key points from Munich Security Conference: Stock markets in Europe began the week in positive territory after edging lower on Friday.",
+          "guid": "108266036"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}
