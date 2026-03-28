@@ -31,7 +31,7 @@ import os
 from pathlib import Path
 
 import pandas as pd
-from datasets import Dataset, concatenate_datasets, load_dataset
+from datasets import Dataset, load_dataset
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -80,22 +80,15 @@ def push_incremental(repo_id: str, local_path: Path, key_cols: list[str]) -> Non
         return
 
     print(f"  {len(new_df):,} new rows to append.")
-    new_ds = Dataset.from_pandas(new_df, preserve_index=False)
 
     if existing_ds is not None and len(existing_ds) > 0:
-        # Handle schema evolution: if new data has columns the remote dataset
-        # doesn't (e.g. sentiment_score added later), backfill those columns
-        # with nulls in the existing dataset so both sides match.
-        new_cols = set(new_ds.features) - set(existing_ds.features)
-        for col in new_cols:
-            existing_ds = existing_ds.add_column(col, [None] * len(existing_ds))
-
-        # Cast new_ds to match the (now-aligned) existing schema to fix the
-        # large_string vs string mismatch introduced by newer PyArrow versions.
-        new_ds = new_ds.cast(existing_ds.features)
-        merged = concatenate_datasets([existing_ds, new_ds])
+        # Merge at the pandas level — avoids all PyArrow type-alignment issues
+        # (large_string vs string, null-typed backfill columns, schema drift).
+        # existing_df is already loaded above; just concat and re-create the Dataset.
+        merged_df = pd.concat([existing_df, new_df], ignore_index=True)
+        merged = Dataset.from_pandas(merged_df, preserve_index=False)
     else:
-        merged = new_ds
+        merged = Dataset.from_pandas(new_df, preserve_index=False)
 
     merged.push_to_hub(repo_id, token=HF_TOKEN)
     print(f"  Pushed. Dataset now has {len(merged):,} rows.")
