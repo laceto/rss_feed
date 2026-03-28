@@ -83,6 +83,9 @@ def push_incremental(repo_id: str, local_path: Path, key_cols: list[str]) -> Non
     new_ds = Dataset.from_pandas(new_df, preserve_index=False)
 
     if existing_ds is not None and len(existing_ds) > 0:
+        # Cast to match existing schema — newer PyArrow uses large_string
+        # but the remote dataset has string; concatenate_datasets rejects mismatch.
+        new_ds = new_ds.cast(existing_ds.features)
         merged = concatenate_datasets([existing_ds, new_ds])
     else:
         merged = new_ds
