@@ -51,6 +51,8 @@ jobs:
     - name: Submit sector batch
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        HUGGINGFACE_REPO: ${{ secrets.HUGGINGFACE_REPO }}
       run: python create_batch_files_v2.py
 
     # - name: Run Script delete
