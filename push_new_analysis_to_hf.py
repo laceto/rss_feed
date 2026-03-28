@@ -83,8 +83,15 @@ def push_incremental(repo_id: str, local_path: Path, key_cols: list[str]) -> Non
     new_ds = Dataset.from_pandas(new_df, preserve_index=False)
 
     if existing_ds is not None and len(existing_ds) > 0:
-        # Cast to match existing schema — newer PyArrow uses large_string
-        # but the remote dataset has string; concatenate_datasets rejects mismatch.
+        # Handle schema evolution: if new data has columns the remote dataset
+        # doesn't (e.g. sentiment_score added later), backfill those columns
+        # with nulls in the existing dataset so both sides match.
+        new_cols = set(new_ds.features) - set(existing_ds.features)
+        for col in new_cols:
+            existing_ds = existing_ds.add_column(col, [None] * len(existing_ds))
+
+        # Cast new_ds to match the (now-aligned) existing schema to fix the
+        # large_string vs string mismatch introduced by newer PyArrow versions.
         new_ds = new_ds.cast(existing_ds.features)
         merged = concatenate_datasets([existing_ds, new_ds])
     else:
