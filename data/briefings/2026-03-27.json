@@ -1,0 +1,233 @@
+{
+  "date": "2026-03-27",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "58ae44e7-5874-47a5-baf7-20811fcdcfa7",
+      "label": "DHS funding and shutdown crisis",
+      "spike_ratio": 1.409,
+      "article_count": 31,
+      "sentiment_score": 0.1463133640552995,
+      "rag_answer": "The Department of Homeland Security (DHS) has been in a state of shutdown since February 14, 2026, due to a deadlock between Congressional Democrats and the Trump administration over funding, particularly concerning immigration enforcement policies. As the shutdown continues, it has led to significant disruptions, including long airport security lines and delays. Recent developments indicate that negotiations are ongoing, with Trump urging Congress to resolve the funding issue or face severe consequences. The market is reacting to the uncertainty surrounding the shutdown, with investors closely monitoring the situation as it impacts broader economic conditions.",
+      "rag_sources": [
+        {
+          "title": "Trump to Congress: End DHS shutdown or face 'very drastic measures'",
+          "date": "2026-03-26",
+          "link": "https://www.cnbc.com/2026/03/26/trump-tsa-shutdown-dhs.html",
+          "snippet": "2026-03-26: Trump to Congress: End DHS shutdown or face 'very drastic measures': Lawmakers are stalled on funding the Department of Homeland Security as airport delays mount.",
+          "guid": "108283498"
+        },
+        {
+          "title": "DHS shutdown all but certain as Democrats and Trump White House can't cut deal",
+          "date": "2026-02-13",
+          "link": "https://www.cnbc.com/2026/02/12/dhs-shutdown-senate-dhs-funding-bill-trump.html",
+          "snippet": "2026-02-13: DHS shutdown all but certain as Democrats and Trump White House can't cut deal: The Department of Homeland Security is set to shut down early Saturday morning after the Senate did not pass",
+          "guid": "108265167"
+        },
+        {
+          "title": "Senate Democrats send DHS counteroffer to Trump as shutdown drags on",
+          "date": "2026-03-17",
+          "link": "https://www.cnbc.com/2026/03/17/dhs-shutdown-trump-homeland-security-senate-democrats-counteroffer.html",
+          "snippet": "2026-03-17: Senate Democrats send DHS counteroffer to Trump as shutdown drags on: The Department of Homeland Security shutdown has caused pileups in airport security lines across the country.",
+          "guid": "108278971"
+        },
+        {
+          "title": "The government is barreling toward a partial shutdown over DHS funding. Here's what to expect",
+          "date": "2026-01-27",
+          "link": "https://www.cnbc.com/2026/01/27/us-government-shutdown-over-dhs-funding.html",
+          "snippet": "2026-01-27: The government is barreling toward a partial shutdown over DHS funding. Here's what to expect: The U.S. government may partially shutdown on Saturday months after a record 43-day closure i",
+          "guid": "108257539"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "dba0dd90-06a2-4c47-84b5-82ee7dbea4e9",
+      "label": "Private Credit Market Turmoil",
+      "spike_ratio": 1.324,
+      "article_count": 15,
+      "sentiment_score": 0.3002380952380952,
+      "rag_answer": "The private credit market is experiencing significant turmoil, characterized by rising defaults and increased investor redemptions as concerns about liquidity and lending standards grow. The market, which has expanded to approximately $3 trillion, is facing pressures from factors such as artificial intelligence impacting software firms and a tightening of investor liquidity. Experts warn that the once-promising returns may be overshadowed by risks akin to those seen during the financial crisis, leading to a potential meltdown. As investors seek alternatives and cash out, the stability of the private credit sector is increasingly in question, raising alarms across the financial system.",
+      "rag_sources": [
+        {
+          "title": "Private credit is beginning to look like the bond market \u2014 and that comes with red flags",
+          "date": "2025-12-09",
+          "link": "https://www.cnbc.com/2025/12/09/private-credit-public-debt-market-red-flags.html",
+          "snippet": "2025-12-09: Private credit is beginning to look like the bond market \u2014 and that comes with red flags: Private credit is starting to resemble the public debt market, as its expansion blurs lines that o",
+          "guid": "108238012"
+        },
+        {
+          "title": "What the Iran war market turmoil means for those nearing retirement",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/iran-war-market-volatility-retirement.html",
+          "snippet": "2026-03-05: What the Iran war market turmoil means for those nearing retirement: Market shakiness may not concern long-term investors, but it could be a useful wake-up call for those on the precipice ",
+          "guid": "108272020"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Credit card debt reaches $1.21 trillion \u2014 in line with last year's all-time high, NY Fed finds",
+          "date": "2025-08-05",
+          "link": "https://www.cnbc.com/2025/08/05/ny-fed-credit-card-debt-second-quarter-2025.html",
+          "snippet": "2025-08-05: Credit card debt reaches $1.21 trillion \u2014 in line with last year's all-time high, NY Fed finds: Credit card balances rose by $27 billion in the second quarter to $1.21 trillion, according ",
+          "guid": "108181754"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.333,
+          "mean_sentiment_score": 0.278,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "08e7bdd7-5196-4f23-b556-11c731b9d484",
+      "label": "China's AI Development and Competition",
+      "spike_ratio": 1.317,
+      "article_count": 18,
+      "sentiment_score": 0.0453703703703703,
+      "rag_answer": "China's AI development is rapidly advancing, with significant investments from local companies and a booming market for AI wearables and applications. Chinese firms are shifting focus from large language models to practical business applications, indicating a maturation of the industry. The competition with the U.S. is intensifying, as concerns grow over the U.S. losing its edge in AI talent and technology, particularly in chip development. Market implications include a surge in AI-linked IPOs in China, attracting interest from investors despite challenges for foreign participation.",
+      "rag_sources": [
+        {
+          "title": "China's key weapons in its AI battle with the U.S. \u2014 massive Huawei chip clusters and cheap energy",
+          "date": "2025-11-06",
+          "link": "https://www.cnbc.com/2025/11/07/chinas-strategy-in-ai-race-with-us-big-chip-clusters-cheap-energy.html",
+          "snippet": "2025-11-06: China's key weapons in its AI battle with the U.S. \u2014 massive Huawei chip clusters and cheap energy: China's strategy for competing with the U.S. on AI revolves around huge clusters of Huaw",
+          "guid": "108222214"
+        },
+        {
+          "title": "China's AI wearables market is already booming: From the practical to peculiar",
+          "date": "2025-12-09",
+          "link": "https://www.cnbc.com/2025/12/08/video-china-ai-wearables.html",
+          "snippet": "2025-12-09: China's AI wearables market is already booming: From the practical to peculiar: Chinese companies moved quickly into smartglasses after Meta's release, with Inmo and Rokid sold worldwide.",
+          "guid": "108238310"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "It's been a big \u2014 but rocky \u2014 week for AI models from China. Here's what's happened",
+          "date": "2026-02-14",
+          "link": "https://www.cnbc.com/2026/02/14/new-china-ai-models-alibaba-bytedance-seedance-kuaishou-kling.html",
+          "snippet": "2026-02-14: It's been a big \u2014 but rocky \u2014 week for AI models from China. Here's what's happened: New AI models launched by China's biggest players underscore how the country's companies are keeping up",
+          "guid": "108264360"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -1.167,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "9ca784a5-a36a-48c1-8c7f-478c71cb57d4",
+      "label": "AI Investment and Growth",
+      "spike_ratio": 1.232,
+      "article_count": 23,
+      "sentiment_score": 0.0349378881987577,
+      "rag_answer": "AI investment is experiencing a significant surge, with major tech companies ramping up capital expenditures to meet growing demand, leading to a boom in the sector. However, this rapid growth has raised concerns about a potential bubble, as prominent investors like Ray Dalio and Sam Altman warn that the enthusiasm surrounding AI may be unsustainable. Analysts are divided, with some suggesting that while AI spending is boosting GDP and profits, it may be masking underlying weaknesses in the broader economy. Overall, the market is witnessing a mix of optimism and caution as investors navigate the implications of this AI-driven growth.",
+      "rag_sources": [
+        {
+          "title": "What hedge fund manager Dan Niles is doing during this market turnaround",
+          "date": "2026-03-23",
+          "link": "https://www.cnbc.com/2026/03/23/what-hedge-fund-manager-dan-niles-is-doing-during-this-market-turnaround.html",
+          "snippet": "2026-03-23: What hedge fund manager Dan Niles is doing during this market turnaround: \\You want to have a mix between asset-heavy names [and] be well diversified,\\\" the founder of Niles Investment Man",
+          "guid": "108281679"
+        },
+        {
+          "title": "Ray Dalio says a risky AI market bubble is forming, but may not pop until the Fed tightens",
+          "date": "2025-10-28",
+          "link": "https://www.cnbc.com/2025/10/28/ray-dalio-bubble-ai-federal-reserve.html",
+          "snippet": "2025-10-28: Ray Dalio says a risky AI market bubble is forming, but may not pop until the Fed tightens: Dalio talked with CNBC's Sara Eisen in an exclusive interview from the Future Investment Institu",
+          "guid": "108217816"
+        },
+        {
+          "title": "Saudi AI firm Humain is pouring billions into data. Will it pay off?",
+          "date": "2025-08-27",
+          "link": "https://www.cnbc.com/2025/08/27/saudi-arabia-wants-to-be-worlds-third-largest-ai-provider-humain.html",
+          "snippet": "2025-08-27: Saudi AI firm Humain is pouring billions into data. Will it pay off?: Saudi AI 'champion' Humain, owned by the kingdom's massive Public Investment Fund, has partnerships with Nvidia, AMD a",
+          "guid": "108191211"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -1.167,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "8f45332d-a6a8-47e9-b859-303764889e37",
+      "label": "Anthropic-Pentagon AI Dispute",
+      "spike_ratio": 1.169,
+      "article_count": 23,
+      "sentiment_score": 0.2305900621118012,
+      "rag_answer": "The Anthropic-Pentagon AI dispute centers around the U.S. Department of Defense's demands for greater control over the use of Anthropic's AI models for military applications, including weapons development and intelligence operations. Anthropic has faced pressure from the Pentagon, which has threatened to cut off the company if it does not comply with these demands. Despite the Pentagon's threats, Anthropic's CEO has stated that their position remains unchanged, indicating ongoing negotiations. This conflict highlights the broader implications of AI in military strategy and raises concerns about the balance of power in future warfare, potentially impacting investor sentiment in the tech sector, particularly for companies involved in defense contracts.",
+      "rag_sources": [
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "AI disruption could spark a \u2018shock to the system\u2019 in credit markets, UBS analyst says",
+          "date": "2026-02-13",
+          "link": "https://www.cnbc.com/2026/02/13/ai-credit-markets.html",
+          "snippet": "2026-02-13: AI disruption could spark a \u2018shock to the system\u2019 in credit markets, UBS analyst says: UBS analyst Matthew Mish told CNBC that the artificial intelligence transformation is happening faste",
+          "guid": "108265643"
+        },
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -1.167,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}
