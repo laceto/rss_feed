@@ -1,0 +1,88 @@
+{
+  "date": "2026-03-27",
+  "batch_id": "batch_69c77fb7cc008190b4c11aa7731f833d",
+  "sectors": [
+    {
+      "entities": [
+        "Meta",
+        "Micron"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "cybersecurity stocks",
+        "Anthropic"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Sony"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "negative",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "BYD",
+        "Tesla"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "AstraZeneca",
+        "Novartis"
+      ],
+      "sector": "Health Services",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Huawei",
+        "ByteDance",
+        "Alibaba"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "U.S. Federal Reserve",
+        "Kevin Warsh",
+        "Jerome Powell"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Iran",
+        "U.S.",
+        "Middle East"
+      ],
+      "sector": "Transportation",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    }
+  ]
+}

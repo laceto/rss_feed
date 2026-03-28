@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-28",
+  "batch_id": "batch_69c77fb7cc008190b4c11aa7731f833d",
+  "sectors": [
+    {
+      "entities": [
+        "Bank of America"
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    }
+  ]
+}
