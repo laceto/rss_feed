@@ -227,7 +227,7 @@ def run_embedding_batch(
         build_embedding_tasks → submit_batch_job → poll_until_complete
         → download_batch_results → parse_embedding_results
 
-    The custom_id is doc.metadata["id"] directly (raw value, no prefix).
+    The custom_id is set by kitai as 'custom_id_{id}' (prefix + integer).
 
     Raises:
         RuntimeError: If the batch job does not reach 'completed' status.
@@ -263,7 +263,7 @@ def align_pairs_to_docs(
 
     Args:
         pairs: List of (custom_id, embedding) from parse_embedding_results.
-               custom_id = raw doc.metadata["id"] (integer).
+               custom_id = 'custom_id_{id}' (kitai format).
         docs:  Original document list in submission order.
 
     Returns:
@@ -271,7 +271,10 @@ def align_pairs_to_docs(
             FAISS.add_embeddings or create_vectorstore.
         aligned_docs: Corresponding Document list (same order, failures excluded).
     """
-    emb_by_id = {int(cid): emb for cid, emb in pairs}
+    # kitai uses 'custom_id_{id}' format; strip the prefix to recover the integer key
+    emb_by_id = {
+        int(cid.removeprefix("custom_id_")): emb for cid, emb in pairs
+    }
 
     aligned_pairs: list[tuple[str, list[float]]] = []
     aligned_docs:  list[Document] = []
