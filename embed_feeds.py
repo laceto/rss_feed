@@ -65,8 +65,9 @@ log = logging.getLogger(__name__)
 
 # ── Constants ─────────────────────────────────────────────────────────────────
 
-EMBED_MODEL   = "text-embedding-3-small"
-POLL_INTERVAL = 30                               # seconds between batch status polls
+EMBED_MODEL       = "text-embedding-3-small"
+EMBED_DIMENSIONS  = 1536                         # dimensionality for text-embedding-3-small
+POLL_INTERVAL     = 30                           # seconds between batch status polls
 
 REGISTRY_COLUMNS = ["id", "date", "title", "link", "guid"]
 
