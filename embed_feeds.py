@@ -236,7 +236,7 @@ def run_embedding_batch(
     job_id = submit_batch_job(client, tasks)
     log.info("Submitted embedding batch: %s (%d tasks)", job_id, len(tasks))
 
-    statuses = poll_until_complete(client, [job_id], poll_interval_seconds=POLL_INTERVAL)
+    statuses = poll_until_complete(client, [job_id], poll_interval=POLL_INTERVAL)
     if statuses[job_id]["status"] != "completed":
         raise RuntimeError(
             f"Embedding batch {job_id} ended with status '{statuses[job_id]['status']}'. "
