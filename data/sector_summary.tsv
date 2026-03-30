@@ -1480,3 +1480,17 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-03-27	Finance	U.S. Federal Reserve|Kevin Warsh|Jerome Powell	neutral	macro	ok
 2026-03-27	Transportation	Iran|U.S.|Middle East	negative	macro	ok
 2026-03-28	Finance	Bank of America	positive	regulation	ok
+2026-03-29	Consumer Non-Durables	Pokémon	positive	markets	ok
+2026-03-29	Consumer Services	BTS|Hybe	positive	markets	ok
+2026-03-29	Energy Minerals	gold	neutral	markets	ok
+2026-03-29	Transportation	U.S.-Iran talks|Pakistan|Saudi Arabia|Turkey|Egypt	neutral	macro	ok
+2026-03-29	Technology Services	Meta	negative	regulation	ok
+2026-03-29	Health Technology	Deutsche Bank|psychedelic therapies	positive	markets	ok
+2026-03-30	Energy Minerals	Brent oil|WTI	positive	markets	ok
+2026-03-30	Energy Minerals	Iran|Yemen's Houthis|Israel	negative	macro	ok
+2026-03-30	Distribution Services	China suppliers	negative	macro	ok
+2026-03-30	Finance	Federal Reserve|Jerome Powell	neutral	macro	ok
+2026-03-30	Transportation	JetBlue Airways	negative	products	ok
+2026-03-30	Electronic Technology	Nvidia|Dell Technologies|Five Below	negative	markets	ok
+2026-03-30	Producer Manufacturing	SpaceX	neutral	markets	ok
+2026-03-30	Electronic Technology	Rebellions	positive	markets	ok

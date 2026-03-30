@@ -1,0 +1,66 @@
+{
+  "date": "2026-03-29",
+  "batch_id": "batch_69cad4c29f548190b092dcecaf4e78f7",
+  "sectors": [
+    {
+      "entities": [
+        "Pok\u00e9mon"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "BTS",
+        "Hybe"
+      ],
+      "sector": "Consumer Services",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "gold"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "U.S.-Iran talks",
+        "Pakistan",
+        "Saudi Arabia",
+        "Turkey",
+        "Egypt"
+      ],
+      "sector": "Transportation",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Meta"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "negative",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Deutsche Bank",
+        "psychedelic therapies"
+      ],
+      "sector": "Health Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}

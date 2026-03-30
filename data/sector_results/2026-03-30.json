@@ -1,0 +1,84 @@
+{
+  "date": "2026-03-30",
+  "batch_id": "batch_69cad4c29f548190b092dcecaf4e78f7",
+  "sectors": [
+    {
+      "entities": [
+        "Brent oil",
+        "WTI"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Iran",
+        "Yemen's Houthis",
+        "Israel"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "China suppliers"
+      ],
+      "sector": "Distribution Services",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Federal Reserve",
+        "Jerome Powell"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "JetBlue Airways"
+      ],
+      "sector": "Transportation",
+      "sentiment": "negative",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Nvidia",
+        "Dell Technologies",
+        "Five Below"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "SpaceX"
+      ],
+      "sector": "Producer Manufacturing",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Rebellions"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}

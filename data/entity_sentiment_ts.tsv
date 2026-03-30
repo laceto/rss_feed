@@ -1,39 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2025-12-28	Amazon	Distribution Services	negative	-1	regulation
-2025-12-28	Italy	Distribution Services	negative	-1	regulation
-2025-12-28	Putin	Energy Minerals	negative	-1	macro
-2025-12-28	Russia	Energy Minerals	negative	-1	macro
-2025-12-28	SpaceX	Producer Manufacturing	positive	1	markets
-2025-12-28	Trump	Energy Minerals	neutral	0	macro
-2025-12-28	Ukraine	Energy Minerals	negative	-1	macro
-2025-12-28	Ukraine peace deal	Energy Minerals	neutral	0	macro
-2025-12-28	Zelenskyy	Energy Minerals	neutral	0	macro
-2025-12-28	airlines	Transportation	neutral	0	macro
-2025-12-28	deals	Electronic Technology	positive	1	markets
-2025-12-28	devices	Electronic Technology	positive	1	markets
-2025-12-28	drone delivery	Distribution Services	negative	-1	regulation
-2025-12-28	flights	Transportation	neutral	0	macro
-2025-12-28	investment opportunities	Consumer Non-Durables	positive	1	markets
-2025-12-28	investment trust	Producer Manufacturing	positive	1	markets
-2025-12-28	menu item	Consumer Services	positive	1	products
-2025-12-28	restaurants	Consumer Services	positive	1	products
-2025-12-28	stocks	Consumer Non-Durables	positive	1	markets
-2025-12-28	value	Consumer Services	positive	1	products
-2025-12-28	video game industry	Electronic Technology	positive	1	markets
-2025-12-28	winter storm	Transportation	neutral	0	macro
-2025-12-29	Chinese AI chatbots	Electronic Technology	negative	-1	regulation
-2025-12-29	Chip Wilson	Consumer Durables	neutral	0	other
-2025-12-29	Coupang	Retail Trade	negative	-1	other
-2025-12-29	DigitalBridge	Technology Services	positive	1	M&A
-2025-12-29	Ford	Producer Manufacturing	positive	1	markets
-2025-12-29	General Motors	Producer Manufacturing	positive	1	markets
-2025-12-29	Groq	Electronic Technology	positive	1	M&A
-2025-12-29	Intel	Electronic Technology	positive	1	M&A
-2025-12-29	Lululemon	Consumer Durables	neutral	0	other
-2025-12-29	Nvidia	Electronic Technology	positive	1	M&A
-2025-12-29	Silver	Energy Minerals	negative	-1	macro
-2025-12-29	Softbank	Technology Services	positive	1	M&A
-2025-12-29	Tesla	Producer Manufacturing	positive	1	markets
 2025-12-30	Denny's	Consumer Services	negative	-1	markets
 2025-12-30	Federal Reserve	Finance	neutral	0	macro
 2025-12-30	Kraken	Utilities	positive	1	markets
@@ -1111,3 +1076,29 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-03-27	U.S. Federal Reserve	Finance	neutral	0	macro
 2026-03-27	cybersecurity stocks	Technology Services	negative	-1	markets
 2026-03-28	Bank of America	Finance	positive	1	regulation
+2026-03-29	BTS	Consumer Services	positive	1	markets
+2026-03-29	Deutsche Bank	Health Technology	positive	1	markets
+2026-03-29	Egypt	Transportation	neutral	0	macro
+2026-03-29	Hybe	Consumer Services	positive	1	markets
+2026-03-29	Meta	Technology Services	negative	-1	regulation
+2026-03-29	Pakistan	Transportation	neutral	0	macro
+2026-03-29	Pokémon	Consumer Non-Durables	positive	1	markets
+2026-03-29	Saudi Arabia	Transportation	neutral	0	macro
+2026-03-29	Turkey	Transportation	neutral	0	macro
+2026-03-29	U.S.-Iran talks	Transportation	neutral	0	macro
+2026-03-29	gold	Energy Minerals	neutral	0	markets
+2026-03-29	psychedelic therapies	Health Technology	positive	1	markets
+2026-03-30	Brent oil	Energy Minerals	positive	1	markets
+2026-03-30	China suppliers	Distribution Services	negative	-1	macro
+2026-03-30	Dell Technologies	Electronic Technology	negative	-1	markets
+2026-03-30	Federal Reserve	Finance	neutral	0	macro
+2026-03-30	Five Below	Electronic Technology	negative	-1	markets
+2026-03-30	Iran	Energy Minerals	negative	-1	macro
+2026-03-30	Israel	Energy Minerals	negative	-1	macro
+2026-03-30	Jerome Powell	Finance	neutral	0	macro
+2026-03-30	JetBlue Airways	Transportation	negative	-1	products
+2026-03-30	Nvidia	Electronic Technology	negative	-1	markets
+2026-03-30	Rebellions	Electronic Technology	positive	1	markets
+2026-03-30	SpaceX	Producer Manufacturing	neutral	0	markets
+2026-03-30	WTI	Energy Minerals	positive	1	markets
+2026-03-30	Yemen's Houthis	Energy Minerals	negative	-1	macro
