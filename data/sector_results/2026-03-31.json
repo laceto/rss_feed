@@ -1,0 +1,79 @@
+{
+  "date": "2026-03-31",
+  "batch_id": "batch_69cc2637a6dc819095050020e7c6dd47",
+  "sectors": [
+    {
+      "entities": [
+        "Oracle"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Mercedes"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Snap"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Nvidia"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Unilever",
+        "McCormick"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "neutral",
+      "news_category": "M&A",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Nike"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "neutral",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Apple"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Novo Nordisk"
+      ],
+      "sector": "Health Services",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    }
+  ]
+}

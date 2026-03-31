@@ -1494,3 +1494,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-03-30	Electronic Technology	Nvidia|Dell Technologies|Five Below	negative	markets	ok
 2026-03-30	Producer Manufacturing	SpaceX	neutral	markets	ok
 2026-03-30	Electronic Technology	Rebellions	positive	markets	ok
+2026-03-31	Technology Services	Oracle	neutral	markets	ok
+2026-03-31	Consumer Durables	Mercedes	positive	products	ok
+2026-03-31	Technology Services	Snap	positive	markets	ok
+2026-03-31	Electronic Technology	Nvidia	positive	markets	ok
+2026-03-31	Consumer Non-Durables	Unilever|McCormick	neutral	M&A	ok
+2026-03-31	Consumer Durables	Nike	neutral	earnings	ok
+2026-03-31	Electronic Technology	Apple	neutral	markets	ok
+2026-03-31	Health Services	Novo Nordisk	positive	products	ok
