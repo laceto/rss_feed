@@ -1,0 +1,241 @@
+{
+  "date": "2026-03-31",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "4e0811b8-41ee-47f5-aed0-76182998c54d",
+      "label": "Student Loan Forgiveness Issues",
+      "spike_ratio": 1.254,
+      "article_count": 37,
+      "sentiment_score": 0.1185328185328185,
+      "rag_answer": "The backlog of student loan borrowers seeking Public Service Loan Forgiveness has significantly increased under the Trump administration, with over 800,000 borrowers stuck in the application process as of early 2026. Delays in processing requests for affordable repayment plans and debt forgiveness have prompted legal actions, including a class action complaint from the American Federation of Teachers. Additionally, the administration has moved to limit eligibility for forgiveness programs, which could further complicate access for public servants. These developments indicate a growing frustration among borrowers and potential financial strain as interest accrues on unpaid loans during the backlog.",
+      "rag_sources": [
+        {
+          "title": "Student loan borrower backlog for forgiveness swells to 74,510 under Trump",
+          "date": "2025-09-26",
+          "link": "https://www.cnbc.com/2025/09/26/student-loan-borrower-pslf-buyback-backlog.html",
+          "snippet": "2025-09-26: Student loan borrower backlog for forgiveness swells to 74,510 under Trump: The backlog of student loan borrowers trying to access Public Service Loan Forgiveness continues to grow under t",
+          "guid": "108203903"
+        },
+        {
+          "title": "Some student loan borrowers wait over a year in public servant debt forgiveness backlog",
+          "date": "2026-02-09",
+          "link": "https://www.cnbc.com/2026/02/09/pslf-public-service-loan-forgiveness-buyback-backlog.html",
+          "snippet": "2026-02-09: Some student loan borrowers wait over a year in public servant debt forgiveness backlog: More than 83,000 federal student loan borrowers are waiting for a Public Service Loan Forgiveness B",
+          "guid": "108254849"
+        },
+        {
+          "title": "Trump officials move slowly on student loan forgiveness, repayment plan backlog: court filing",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/trump-student-loan-forgiveness-backlog.html",
+          "snippet": "2025-12-16: Trump officials move slowly on student loan forgiveness, repayment plan backlog: court filing: Hundreds of thousands of student loan borrowers remain stuck in a backlog of requests for an ",
+          "guid": "108242145"
+        },
+        {
+          "title": "Over 800,000 student loan borrowers remain in backlog for forgiveness, affordable repayment plans",
+          "date": "2026-01-15",
+          "link": "https://www.cnbc.com/2026/01/15/student-loan-forgiveness-repayment-plan-backlog.html",
+          "snippet": "2026-01-15: Over 800,000 student loan borrowers remain in backlog for forgiveness, affordable repayment plans: More than 800,000 federal student loan holders remain stuck in a backlog of applications ",
+          "guid": "108252878"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.375,
+          "mean_sentiment_score": 0.312,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "8f45332d-a6a8-47e9-b859-303764889e37",
+      "label": "Anthropic-Pentagon AI Dispute",
+      "spike_ratio": 1.224,
+      "article_count": 30,
+      "sentiment_score": 0.2089285714285714,
+      "rag_answer": "The Anthropic-Pentagon AI dispute centers around the U.S. Department of Defense's demands for greater control over the use of Anthropic's AI models for military applications, including weapons development and intelligence operations. Anthropic has faced pressure from the Pentagon, which has threatened to cut off collaboration if its demands are not met. Despite these threats, Anthropic's CEO has stated that the company's position remains unchanged, indicating ongoing negotiations. This standoff highlights the broader implications for military AI control and could impact market perceptions of AI companies involved in defense contracts, as investors weigh the risks associated with government relations and regulatory pressures.",
+      "rag_sources": [
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        },
+        {
+          "title": "AI disruption could spark a \u2018shock to the system\u2019 in credit markets, UBS analyst says",
+          "date": "2026-02-13",
+          "link": "https://www.cnbc.com/2026/02/13/ai-credit-markets.html",
+          "snippet": "2026-02-13: AI disruption could spark a \u2018shock to the system\u2019 in credit markets, UBS analyst says: UBS analyst Matthew Mish told CNBC that the artificial intelligence transformation is happening faste",
+          "guid": "108265643"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "stable",
+          "trend_delta": 0.0,
+          "mean_sentiment_score": -0.25,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "9ca784a5-a36a-48c1-8c7f-478c71cb57d4",
+      "label": "AI Investment and Growth",
+      "spike_ratio": 1.185,
+      "article_count": 24,
+      "sentiment_score": 0.0699404761904761,
+      "rag_answer": "AI investment is experiencing a significant surge, with major tech companies ramping up their capital expenditures to meet growing demand. However, this rapid growth has raised concerns about a potential bubble, as analysts warn that the enthusiasm surrounding AI may not translate into long-term profitability. Notable figures, including Ray Dalio and Sam Altman, have expressed caution, suggesting that while the AI market is booming, it could lead to substantial risks for investors. Overall, the AI spending boom is driving stock market growth, but it may be masking underlying weaknesses in the broader economy.",
+      "rag_sources": [
+        {
+          "title": "What hedge fund manager Dan Niles is doing during this market turnaround",
+          "date": "2026-03-23",
+          "link": "https://www.cnbc.com/2026/03/23/what-hedge-fund-manager-dan-niles-is-doing-during-this-market-turnaround.html",
+          "snippet": "2026-03-23: What hedge fund manager Dan Niles is doing during this market turnaround: \\You want to have a mix between asset-heavy names [and] be well diversified,\\\" the founder of Niles Investment Man",
+          "guid": "108281679"
+        },
+        {
+          "title": "Ray Dalio says a risky AI market bubble is forming, but may not pop until the Fed tightens",
+          "date": "2025-10-28",
+          "link": "https://www.cnbc.com/2025/10/28/ray-dalio-bubble-ai-federal-reserve.html",
+          "snippet": "2025-10-28: Ray Dalio says a risky AI market bubble is forming, but may not pop until the Fed tightens: Dalio talked with CNBC's Sara Eisen in an exclusive interview from the Future Investment Institu",
+          "guid": "108217816"
+        },
+        {
+          "title": "Saudi AI firm Humain is pouring billions into data. Will it pay off?",
+          "date": "2025-08-27",
+          "link": "https://www.cnbc.com/2025/08/27/saudi-arabia-wants-to-be-worlds-third-largest-ai-provider-humain.html",
+          "snippet": "2025-08-27: Saudi AI firm Humain is pouring billions into data. Will it pay off?: Saudi AI 'champion' Humain, owned by the kingdom's massive Public Investment Fund, has partnerships with Nvidia, AMD a",
+          "guid": "108191211"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "stable",
+          "trend_delta": 0.0,
+          "mean_sentiment_score": -0.25,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "dba0dd90-06a2-4c47-84b5-82ee7dbea4e9",
+      "label": "Private Credit Market Turmoil",
+      "spike_ratio": 1.085,
+      "article_count": 16,
+      "sentiment_score": 0.2736607142857142,
+      "rag_answer": "The private credit market is experiencing significant turmoil, characterized by rising default fears and increased investor redemptions. As the market grows from $3.4 trillion in 2025 to an estimated $4.9 trillion by 2029, concerns about liquidity and loose lending standards have emerged, prompting Wall Street to raise alarms. Recent reports indicate a surge in defaults and fund exits, leading to a potential shift in market dynamics as Wall Street banks may regain market share from private credit lenders. Overall, the situation reflects a growing tension between high returns and the risks associated with less regulated private credit investments.",
+      "rag_sources": [
+        {
+          "title": "Private credit\u2019s \u2018off-ramp\u2019 emerges as investors look to cash out and default fears grow ",
+          "date": "2026-03-17",
+          "link": "https://www.cnbc.com/2026/03/17/private-credit-liquidity-jitters-crisis-investors-redemptions-withdrawals-defaults-risk-debt.html",
+          "snippet": "2026-03-17: Private credit\u2019s \u2018off-ramp\u2019 emerges as investors look to cash out and default fears grow: A \\robust and growing\\\" private credit secondaries market could serve as a pressure valve for the ",
+          "guid": "108278245"
+        },
+        {
+          "title": "Wall Street braced for a private credit meltdown. The risk of one is rising",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/2026/01/23/wall-street-private-credit-risk-rising.html",
+          "snippet": "2026-01-23: Wall Street braced for a private credit meltdown. The risk of one is rising: Private credit is expected to grow from $3.4 trillion in 2025 to an estimated $4.9 trillion by 2029. Wall Stree",
+          "guid": "108255689"
+        },
+        {
+          "title": "Investors poured billions into private credit. Now many want their money back",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/private-credit-blackstone-blue-owl-kkr-carlyle-retail-wealth-investors-liquid.html",
+          "snippet": "2026-03-05: Investors poured billions into private credit. Now many want their money back: Recent redemptions in private credit expose the tensions between high returns and retail liquidity.",
+          "guid": "108273359"
+        },
+        {
+          "title": "Private credit's cracks open door for Wall Street banks' comeback: 'The tug of war is just starting'",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/wall-street-banks-private-credit-market-share-leveraged-loans.html",
+          "snippet": "2026-03-27: Private credit's cracks open door for Wall Street banks' comeback: 'The tug of war is just starting': Wall Street banks may finally be getting a long-awaited opening to claw back market sh",
+          "guid": "108283229"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.375,
+          "mean_sentiment_score": 0.312,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "8f19e3fc-a9bd-430c-b784-f367e1e9e7c0",
+      "label": "Nvidia earnings and AI outlook",
+      "spike_ratio": 1.073,
+      "article_count": 11,
+      "sentiment_score": 0.5227272727272727,
+      "rag_answer": "Nvidia's earnings reports have consistently indicated strong demand for AI infrastructure, with the company being the only major tech stock to gain in 2026 amidst Wall Street's skepticism about AI spending. CEO Jensen Huang has emphasized the sustainability of a $660 billion capital expenditure buildout, while analysts remain divided on whether the current AI investments will yield profitable returns in the future. Despite concerns about a potential AI bubble, Nvidia's performance has provided some respite for the markets, with expectations of continued robust AI spending driving investor optimism. Overall, Nvidia's results are seen as a crucial indicator for the tech sector and broader market trends.",
+      "rag_sources": [
+        {
+          "title": "Nvidia earnings report collides with Wall Street skepticism over AI spending",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/nvidia-earnings-collide-with-wall-street-skepticism-over-ai-spending.html",
+          "snippet": "2026-02-24: Nvidia earnings report collides with Wall Street skepticism over AI spending: Nvidia is the only megacap tech stock to notch gains this year as investors have turned cautious on the hefty ",
+          "guid": "108268615"
+        },
+        {
+          "title": "Nvidia sent a strong signal on AI infrastructure \u2014 but is it a bubble barometer? ",
+          "date": "2025-11-20",
+          "link": "https://www.cnbc.com/2025/11/20/nvidia-sent-a-strong-signal-on-ai-infrastructure-but-is-it-a-bubble-barometer-.html",
+          "snippet": "2025-11-20: Nvidia sent a strong signal on AI infrastructure \u2014 but is it a bubble barometer?: Analysts agree that Nvidia's earnings are a clear signal of of strong demand for AI infrastructure. Less c",
+          "guid": "108228911"
+        },
+        {
+          "title": "AI trade faces key test before Nvidia earnings: AMD's analyst day",
+          "date": "2025-11-10",
+          "link": "https://www.cnbc.com/2025/11/10/ai-trade-faces-key-test-before-nvidia-earnings-amds-analyst-day.html",
+          "snippet": "2025-11-10: AI trade faces key test before Nvidia earnings: AMD's analyst day: Analysts will be watching AMD's expectations for AI market potential, profit and margins as well as any new customer part",
+          "guid": "108223628"
+        },
+        {
+          "title": "Nvidia rises 7% as Jensen Huang says $660 billion capex buildout is sustainable",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/nvidia-rises-7percent-as-ceo-says-660-billion-capex-buildout-is-sustainable.html",
+          "snippet": "2026-02-06: Nvidia rises 7% as Jensen Huang says $660 billion capex buildout is sustainable: Huang's comments come after key Nvidia customers Meta, Amazon, Google and Microsoft reported their latest e",
+          "guid": "108262641"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "stable",
+          "trend_delta": 0.0,
+          "mean_sentiment_score": -0.25,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}
