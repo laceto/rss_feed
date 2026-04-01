@@ -1,11 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2025-12-31	China	Electronic Technology	negative	-1	regulation
-2025-12-31	European banks	Finance	positive	1	markets
-2025-12-31	European markets	Consumer Services	positive	1	markets
-2025-12-31	Nexperia	Electronic Technology	negative	-1	regulation
-2025-12-31	Space and defense	Transportation	positive	1	markets
-2025-12-31	defense stocks	Consumer Services	positive	1	markets
-2025-12-31	satellite stocks	Transportation	positive	1	markets
 2026-01-01	Eli Lilly	Health Services	positive	1	products
 2026-01-01	Gov. Ron DeSantis	Electronic Technology	negative	-1	regulation
 2026-01-01	Novo Nordisk	Health Services	positive	1	products
@@ -1097,3 +1090,22 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-03-31	Oracle	Technology Services	neutral	0	markets
 2026-03-31	Snap	Technology Services	positive	1	markets
 2026-03-31	Unilever	Consumer Non-Durables	neutral	0	M&A
+2026-04-01	Apple	Electronic Technology	neutral	0	markets
+2026-04-01	Baidu	Electronic Technology	neutral	0	markets
+2026-04-01	Department of Homeland Security	Transportation	neutral	0	regulation
+2026-04-01	Eli Lilly	Health Technology	positive	1	products
+2026-04-01	Elon Musk	Producer Manufacturing	positive	1	markets
+2026-04-01	Iran	Energy Minerals	negative	-1	macro
+2026-04-01	Israel	Energy Minerals	negative	-1	macro
+2026-04-01	JPMorgan	Finance	positive	1	markets
+2026-04-01	Novo Nordisk	Health Technology	positive	1	products
+2026-04-01	Nvidia	Electronic Technology	neutral	0	markets
+2026-04-01	Sam Witherow	Finance	positive	1	markets
+2026-04-01	SpaceX	Producer Manufacturing	positive	1	markets
+2026-04-01	TSA	Transportation	neutral	0	regulation
+2026-04-01	Trump	Utilities	negative	-1	macro
+2026-04-01	U.S.	Energy Minerals	negative	-1	macro
+2026-04-01	U.S. government	Utilities	negative	-1	macro
+2026-04-01	Visa	Electronic Technology	neutral	0	markets
+2026-04-01	Volkswagen	Consumer Durables	neutral	0	products
+2026-04-01	Xpeng	Consumer Durables	neutral	0	products

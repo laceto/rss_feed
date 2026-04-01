@@ -1502,3 +1502,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-03-31	Consumer Durables	Nike	neutral	earnings	ok
 2026-03-31	Electronic Technology	Apple	neutral	markets	ok
 2026-03-31	Health Services	Novo Nordisk	positive	products	ok
+2026-04-01	Producer Manufacturing	SpaceX|Elon Musk	positive	markets	ok
+2026-04-01	Transportation	Department of Homeland Security|TSA	neutral	regulation	ok
+2026-04-01	Utilities	U.S. government|Trump	negative	macro	partial
+2026-04-01	Finance	JPMorgan|Sam Witherow	positive	markets	ok
+2026-04-01	Health Technology	Eli Lilly|Novo Nordisk	positive	products	ok
+2026-04-01	Energy Minerals	Iran|U.S.|Israel	negative	macro	ok
+2026-04-01	Electronic Technology	Apple|Nvidia|Visa|Baidu	neutral	markets	ok
+2026-04-01	Consumer Durables	Volkswagen|Xpeng	neutral	products	ok

@@ -1,0 +1,89 @@
+{
+  "date": "2026-04-01",
+  "batch_id": "batch_69cd78c40c84819088dcb6644f1cc80f",
+  "sectors": [
+    {
+      "entities": [
+        "SpaceX",
+        "Elon Musk"
+      ],
+      "sector": "Producer Manufacturing",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Department of Homeland Security",
+        "TSA"
+      ],
+      "sector": "Transportation",
+      "sentiment": "neutral",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "U.S. government",
+        "Trump"
+      ],
+      "sector": "Utilities",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "partial"
+    },
+    {
+      "entities": [
+        "JPMorgan",
+        "Sam Witherow"
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Eli Lilly",
+        "Novo Nordisk"
+      ],
+      "sector": "Health Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Iran",
+        "U.S.",
+        "Israel"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Apple",
+        "Nvidia",
+        "Visa",
+        "Baidu"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Volkswagen",
+        "Xpeng"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    }
+  ]
+}
