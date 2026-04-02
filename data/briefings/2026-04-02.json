@@ -1,0 +1,225 @@
+{
+  "date": "2026-04-02",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "4e0811b8-41ee-47f5-aed0-76182998c54d",
+      "label": "Student Loan Forgiveness Issues",
+      "spike_ratio": 1.292,
+      "article_count": 42,
+      "sentiment_score": 0.1460884353741496,
+      "rag_answer": "The backlog of student loan borrowers seeking Public Service Loan Forgiveness has significantly increased under the Trump administration, with over 800,000 borrowers stuck in the application process as of early 2026. Delays in processing requests for both forgiveness and affordable repayment plans have prompted legal actions, including a class action complaint from the American Federation of Teachers. Additionally, the administration has moved to limit eligibility for forgiveness programs, which could further complicate access for many borrowers. These developments indicate a growing frustration among borrowers and potential financial strain as interest accrues on unpaid loans during the backlog.",
+      "rag_sources": [
+        {
+          "title": "Student loan borrower backlog for forgiveness swells to 74,510 under Trump",
+          "date": "2025-09-26",
+          "link": "https://www.cnbc.com/2025/09/26/student-loan-borrower-pslf-buyback-backlog.html",
+          "snippet": "2025-09-26: Student loan borrower backlog for forgiveness swells to 74,510 under Trump: The backlog of student loan borrowers trying to access Public Service Loan Forgiveness continues to grow under t",
+          "guid": "108203903"
+        },
+        {
+          "title": "Some student loan borrowers wait over a year in public servant debt forgiveness backlog",
+          "date": "2026-02-09",
+          "link": "https://www.cnbc.com/2026/02/09/pslf-public-service-loan-forgiveness-buyback-backlog.html",
+          "snippet": "2026-02-09: Some student loan borrowers wait over a year in public servant debt forgiveness backlog: More than 83,000 federal student loan borrowers are waiting for a Public Service Loan Forgiveness B",
+          "guid": "108254849"
+        },
+        {
+          "title": "Trump officials move slowly on student loan forgiveness, repayment plan backlog: court filing",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/trump-student-loan-forgiveness-backlog.html",
+          "snippet": "2025-12-16: Trump officials move slowly on student loan forgiveness, repayment plan backlog: court filing: Hundreds of thousands of student loan borrowers remain stuck in a backlog of requests for an ",
+          "guid": "108242145"
+        },
+        {
+          "title": "Over 800,000 student loan borrowers remain in backlog for forgiveness, affordable repayment plans",
+          "date": "2026-01-15",
+          "link": "https://www.cnbc.com/2026/01/15/student-loan-forgiveness-repayment-plan-backlog.html",
+          "snippet": "2026-01-15: Over 800,000 student loan borrowers remain in backlog for forgiveness, affordable repayment plans: More than 800,000 federal student loan holders remain stuck in a backlog of applications ",
+          "guid": "108252878"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.548,
+          "mean_sentiment_score": 0.462,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "4e7be4d8-a78f-4603-8cc8-2d594841b09b",
+      "label": "Interest Rates and Treasury Yields",
+      "spike_ratio": 1.123,
+      "article_count": 29,
+      "sentiment_score": 0.0375615763546798,
+      "rag_answer": "Interest rates and Treasury yields have been experiencing fluctuations influenced by various economic factors and geopolitical events. Recently, the 10-year Treasury yield has dipped as investors assess the Federal Reserve's monetary policy outlook for 2026, while yields have also been affected by rising oil prices and tensions in the Middle East. Additionally, the market has reacted to Fed rate cuts, with mortgage rates rising and impacting demand for home buying and refinancing. Overall, the interplay between inflation data, Fed decisions, and external geopolitical pressures continues to shape investor sentiment and market dynamics.",
+      "rag_sources": [
+        {
+          "title": "10-year Treasury yield dips as investors assess interest rate outlook for 2026",
+          "date": "2025-12-29",
+          "link": "https://www.cnbc.com/2025/12/29/10-year-treasury-yield-in-focus-as-investors-assess-rate-outlook.html",
+          "snippet": "2025-12-29: 10-year Treasury yield dips as investors assess interest rate outlook for 2026: The moves come as traders digest the latest economic data and assess the Federal Reserve's monetary rate pat",
+          "guid": "108246099"
+        },
+        {
+          "title": "Treasury yields are stable as traders try to gauge impact of Trump's fight for Fed control",
+          "date": "2025-08-27",
+          "link": "https://www.cnbc.com/2025/08/27/us-treasury-yields-investors-look-ahead-to-key-inflation-data.html",
+          "snippet": "2025-08-27: Treasury yields are stable as traders try to gauge impact of Trump's fight for Fed control: Long-term U.S. Treasury yields backed off early highs Wednesday as traders tried to assess the e",
+          "guid": "108191159"
+        },
+        {
+          "title": "What the 10-year Treasury yield's chart tells us about where stocks are heading ",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/what-the-10-years-chart-tells-us-about-where-stocks-are-heading-.html",
+          "snippet": "2026-02-11: What the 10-year Treasury yield's chart tells us about where stocks are heading: If rates move\u00a0considerably higher after the strong run in equities, the pairing could create a bearish scen",
+          "guid": "108264558"
+        },
+        {
+          "title": "Treasury yields edge lower as investors weigh rising oil price, Iran attacks and looming Fed decision",
+          "date": "2026-03-17",
+          "link": "https://www.cnbc.com/2026/03/17/treasury-yields-middle-east-tensions-fed-decision.html",
+          "snippet": "2026-03-17: Treasury yields edge lower as investors weigh rising oil price, Iran attacks and looming Fed decision: Treasury yields edged lower as investors weighed mounting tensions in the Middle East",
+          "guid": "108278743"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.548,
+          "mean_sentiment_score": 0.462,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "9496948d-ec01-4464-8542-c12c5b038081",
+      "label": "Mortgage Demand and Housing Market",
+      "spike_ratio": 1.111,
+      "article_count": 15,
+      "sentiment_score": 0.0952380952380952,
+      "rag_answer": "Mortgage demand has been highly volatile, experiencing significant fluctuations due to changing interest rates and economic uncertainty, particularly related to the ongoing war with Iran. Recently, mortgage rates surged, leading to a more than 40% drop in refinance demand and a general decline in homebuyer interest, reversing earlier gains when rates were lower. The combination of higher rates and economic instability is expected to hinder the housing market's recovery, with forecasts indicating that home prices and mortgage rates will remain elevated in 2026, limiting affordability for potential buyers. Overall, the housing market is under pressure, with increased foreclosures and a slowdown in housing turnover impacting both demand and sales.",
+      "rag_sources": [
+        {
+          "title": "These funds protect against market drops. Demand is booming",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/these-funds-protect-against-market-drops-demand-is-booming.html",
+          "snippet": "2026-02-11: These funds protect against market drops. Demand is booming: Buffer ETFs could see assets quadruple over a five-year period, according to Cerulli Associates. What to know before investing.",
+          "guid": "108264590"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Mortgage rates jump 20 basis points following Fed cut",
+          "date": "2025-10-30",
+          "link": "https://www.cnbc.com/2025/10/30/mortgage-rates-fed-cut.html",
+          "snippet": "2025-10-30: Mortgage rates jump 20 basis points following Fed cut: Mortgage rates surged higher after the Federal Reserve cut its benchmark interest rate. The market reacted to comments from the chair",
+          "guid": "108219495"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.548,
+          "mean_sentiment_score": 0.462,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "f6c084f0-a547-4ff0-a223-85410a095e66",
+      "label": "Midday Stock Movements",
+      "spike_ratio": 1.055,
+      "article_count": 16,
+      "sentiment_score": 0.2167410714285714,
+      "rag_answer": "Midday stock movements have shown significant volatility, with various companies consistently making headlines for their large price fluctuations. Notable stocks such as Intel, Apple, and Morgan Stanley have been highlighted across multiple dates, indicating a dynamic trading environment influenced by broader market conditions. The ongoing geopolitical tensions, particularly related to the Iran war, are contributing to market uncertainty, prompting investors to be selective and cautious. Overall, the market appears to be reacting to both corporate performance and external factors, leading to varied midday trading outcomes.",
+      "rag_sources": [
+        {
+          "title": "Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more",
+          "date": "2025-09-18",
+          "link": "https://www.cnbc.com/2025/09/18/stocks-making-the-biggest-moves-midday-intc-nvo-blsh-all.html",
+          "snippet": "2025-09-18: Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more: These are the stocks posting the largest moves midday.",
+          "guid": "108200831"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more",
+          "date": "2025-10-15",
+          "link": "https://www.cnbc.com/2025/10/15/stocks-making-the-biggest-moves-midday-bac-ms-bg-pgr.html",
+          "snippet": "2025-10-15: Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108212417"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/stocks-making-the-biggest-moves-midday-nem-aapl-sndk-deck.html",
+          "snippet": "2026-01-30: Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more: These are the stocks posting the largest moves midday.",
+          "guid": "108259667"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: IBM, AMD, Dillard's, Novo Nordisk, Keysight Technologies & more",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/stocks-making-the-biggest-moves-midday-ibm-amd-dds-nvo-more.html",
+          "snippet": "2026-02-24: Stocks making the biggest moves midday: IBM, AMD, Dillard's, Novo Nordisk, Keysight Technologies & more: These are the stocks posting the largest moves in midday trading.",
+          "guid": "108269147"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "69966445-ad7a-4408-a755-c5b1a168f3af",
+      "label": "Warner Bros. Discovery Acquisition Battle",
+      "spike_ratio": 1.054,
+      "article_count": 13,
+      "sentiment_score": 0.3131868131868132,
+      "rag_answer": "The acquisition battle for Warner Bros. Discovery (WBD) has intensified, with Netflix initially proposing an all-cash offer of $27.75 per share. However, after WBD's board deemed a revised bid from Paramount Skydance superior, Netflix decided to withdraw its offer. This shift highlights the competitive landscape in the media sector, as companies vie for valuable streaming and studio assets, potentially reshaping market dynamics and influencing shareholder decisions. The situation remains fluid, with ongoing negotiations and the possibility of further bids impacting the valuation of WBD.",
+      "rag_sources": [
+        {
+          "title": "Netflix amends Warner Bros. Discovery offer to all cash",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/netflix-warner-bros-discovery-offer-all-cash.html",
+          "snippet": "2026-01-20: Netflix amends Warner Bros. Discovery offer to all cash: Netflix has agreed to pay $27.75 per WBD share to acquire the company's studio and streaming assets.",
+          "guid": "108254148"
+        },
+        {
+          "title": "Netflix grants Warner Bros. Discovery 7-day waiver to reopen deal talks with Paramount Skydance",
+          "date": "2026-02-17",
+          "link": "https://www.cnbc.com/2026/02/17/netflix-wbd-waiver-deal-talks-paramount-skydance.html",
+          "snippet": "2026-02-17: Netflix grants Warner Bros. Discovery 7-day waiver to reopen deal talks with Paramount Skydance: Warner Bros. Discovery on Tuesday said it will engage in deal talks with Paramount Skydance",
+          "guid": "108266188"
+        },
+        {
+          "title": "Netflix ditches deal for Warner Bros. Discovery after Paramount\u2019s offer is deemed superior",
+          "date": "2026-02-27",
+          "link": "https://www.cnbc.com/2026/02/26/warner-bros-discovery-paramount-skydance-deal-superior-netflix.html",
+          "snippet": "2026-02-27: Netflix ditches deal for Warner Bros. Discovery after Paramount\u2019s offer is deemed superior: Netflix is ditching a deal to buy Warner Bros. Discovery's studio and streaming assets after the",
+          "guid": "108270659"
+        },
+        {
+          "title": "Netflix likely to adjust Warner Bros. Discovery offer to make it all-cash",
+          "date": "2026-01-14",
+          "link": "https://www.cnbc.com/2026/01/14/netflix-warner-bros-discovery-deal-all-cash.html",
+          "snippet": "2026-01-14: Netflix likely to adjust Warner Bros. Discovery offer to make it all-cash: Netflix is likely to amend its offer for Warner Bros. Discovery's streaming and studio business after reaching an",
+          "guid": "108252275"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}
