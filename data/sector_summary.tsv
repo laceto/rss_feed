@@ -1510,3 +1510,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-04-01	Energy Minerals	Iran|U.S.|Israel	negative	macro	ok
 2026-04-01	Electronic Technology	Apple|Nvidia|Visa|Baidu	neutral	markets	ok
 2026-04-01	Consumer Durables	Volkswagen|Xpeng	neutral	products	ok
+2026-04-02	Energy Minerals	Iran|Oman	negative	macro	ok
+2026-04-02	Distribution Services	Amazon	positive	products	ok
+2026-04-02	Finance	Coinbase	positive	regulation	ok
+2026-04-02	Consumer Durables	Tesla	negative	products	ok
+2026-04-02	Energy Minerals	Oil	negative	macro	ok
+2026-04-02	Consumer Non-Durables	Coca-Cola	neutral	products	ok
+2026-04-02	Producer Manufacturing	SpaceX	neutral	markets	ok
+2026-04-02	Consumer Durables	Auto giants	positive	products	ok

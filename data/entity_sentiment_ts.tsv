@@ -1,14 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-01-01	Eli Lilly	Health Services	positive	1	products
-2026-01-01	Gov. Ron DeSantis	Electronic Technology	negative	-1	regulation
-2026-01-01	Novo Nordisk	Health Services	positive	1	products
-2026-01-01	Ram 1500 SRT TRX	Producer Manufacturing	positive	1	products
-2026-01-01	Saks Fifth Avenue	Retail Trade	negative	-1	markets
-2026-01-01	Saks Group	Retail Trade	negative	-1	markets
-2026-01-01	Sen. Bernie Sanders	Electronic Technology	negative	-1	regulation
-2026-01-01	Stellantis	Producer Manufacturing	positive	1	products
-2026-01-01	TSMC	Electronic Technology	neutral	0	markets
-2026-01-01	Warren Buffett	Finance	neutral	0	other
 2026-01-02	BYD	Consumer Non-Durables	positive	1	markets
 2026-01-02	Berkshire Hathaway	Finance	neutral	0	appointments
 2026-01-02	Bitcoin	Finance	negative	-1	other
@@ -1109,3 +1099,12 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-04-01	Visa	Electronic Technology	neutral	0	markets
 2026-04-01	Volkswagen	Consumer Durables	neutral	0	products
 2026-04-01	Xpeng	Consumer Durables	neutral	0	products
+2026-04-02	Amazon	Distribution Services	positive	1	products
+2026-04-02	Auto giants	Consumer Durables	positive	1	products
+2026-04-02	Coca-Cola	Consumer Non-Durables	neutral	0	products
+2026-04-02	Coinbase	Finance	positive	1	regulation
+2026-04-02	Iran	Energy Minerals	negative	-1	macro
+2026-04-02	Oil	Energy Minerals	negative	-1	macro
+2026-04-02	Oman	Energy Minerals	negative	-1	macro
+2026-04-02	SpaceX	Producer Manufacturing	neutral	0	markets
+2026-04-02	Tesla	Consumer Durables	negative	-1	products
