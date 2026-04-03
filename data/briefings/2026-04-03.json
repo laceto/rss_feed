@@ -1,0 +1,209 @@
+{
+  "date": "2026-04-03",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "9ca784a5-a36a-48c1-8c7f-478c71cb57d4",
+      "label": "AI Investment and Growth",
+      "spike_ratio": 1.697,
+      "article_count": 43,
+      "sentiment_score": 0.0759966777408638,
+      "rag_answer": "AI investment is experiencing a significant surge, with major companies ramping up their capital expenditures to meet growing demand. However, this rapid growth has raised concerns about a potential bubble, reminiscent of the dotcom era, as analysts warn that the enthusiasm may not be sustainable. Despite these fears, many investors remain optimistic, believing that AI will drive long-term economic growth and transform various sectors. The ongoing debate centers on whether the current AI spending boom will yield profitable returns in the future, as market volatility and valuation concerns persist.",
+      "rag_sources": [
+        {
+          "title": "What hedge fund manager Dan Niles is doing during this market turnaround",
+          "date": "2026-03-23",
+          "link": "https://www.cnbc.com/2026/03/23/what-hedge-fund-manager-dan-niles-is-doing-during-this-market-turnaround.html",
+          "snippet": "2026-03-23: What hedge fund manager Dan Niles is doing during this market turnaround: \\You want to have a mix between asset-heavy names [and] be well diversified,\\\" the founder of Niles Investment Man",
+          "guid": "108281679"
+        },
+        {
+          "title": "Ray Dalio says a risky AI market bubble is forming, but may not pop until the Fed tightens",
+          "date": "2025-10-28",
+          "link": "https://www.cnbc.com/2025/10/28/ray-dalio-bubble-ai-federal-reserve.html",
+          "snippet": "2025-10-28: Ray Dalio says a risky AI market bubble is forming, but may not pop until the Fed tightens: Dalio talked with CNBC's Sara Eisen in an exclusive interview from the Future Investment Institu",
+          "guid": "108217816"
+        },
+        {
+          "title": "Saudi AI firm Humain is pouring billions into data. Will it pay off?",
+          "date": "2025-08-27",
+          "link": "https://www.cnbc.com/2025/08/27/saudi-arabia-wants-to-be-worlds-third-largest-ai-provider-humain.html",
+          "snippet": "2025-08-27: Saudi AI firm Humain is pouring billions into data. Will it pay off?: Saudi AI 'champion' Humain, owned by the kingdom's massive Public Investment Fund, has partnerships with Nvidia, AMD a",
+          "guid": "108191211"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "improving",
+          "trend_delta": 1.0,
+          "mean_sentiment_score": -0.4,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "a6911053-deec-44da-91d1-bfa94b65b030",
+      "label": "S&P 500 Market Analysis",
+      "spike_ratio": 1.286,
+      "article_count": 18,
+      "sentiment_score": 0.1132936507936508,
+      "rag_answer": "The S&P 500 has been experiencing significant volatility, with a tight trading range observed for nearly four months, indicating a struggle to maintain upward momentum. Recent developments include the index approaching its 200-day moving average, which traders are closely monitoring as a potential support level. Additionally, external factors such as geopolitical tensions and economic indicators, including the February jobs report, are influencing market sentiment. Overall, the market appears to be under pressure, with concerns about a potential decline as it heads for a third consecutive losing week amidst rising oil prices and ongoing economic uncertainties.",
+      "rag_sources": [
+        {
+          "title": "The S&P 500 is caught in an unusually tight range. Is this bull market resilient or exhausted?  ",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/23/the-sp-500-is-caught-in-an-unusually-tight-range-is-this-bull-market-resilient-or-exhausted-.html",
+          "snippet": "2026-02-23: The S&P 500 is caught in an unusually tight range. Is this bull market resilient or exhausted?: Mike Santoli looks at how the S&P 500 has spent nearly four months in an unusually tight ran",
+          "guid": "108268352"
+        },
+        {
+          "title": "When will the selling stop? Jay Woods and other traders are watching this key S&P 500 level",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/when-will-the-selling-stop-jay-woods-and-others-are-watching-this-key-sp-500-level.html",
+          "snippet": "2026-03-09: When will the selling stop? Jay Woods and other traders are watching this key S&P 500 level: The broad market index is fast approaching its 200-day moving average, which is at 6,582.",
+          "guid": "108275364"
+        },
+        {
+          "title": "NYSE insider Jay Woods is watching these key levels on the S&P 500 and crude oil as U.S.-Iran conflict widens",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/nyse-insider-woods-watching-these-key-levels-on-the-sp-500-crude-oil.html",
+          "snippet": "2026-03-02: NYSE insider Jay Woods is watching these key levels on the S&P 500 and crude oil as U.S.-Iran conflict widens: Beyond the war, this week will see a highly-awaited February jobs report alon",
+          "guid": "108272057"
+        },
+        {
+          "title": "S&P 500 heads for first decline in 8 days on Oracle slide, shutdown angst: Live updates",
+          "date": "2025-10-07",
+          "link": "https://www.cnbc.com/2025/10/06/stock-market-today-live-updates.html",
+          "snippet": "2025-10-07: S&P 500 heads for first decline in 8 days on Oracle slide, shutdown angst: Live updates: Investors await more developments on the current U.S. government shutdown that is now on its second",
+          "guid": "108208432"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "6efff227-9da9-439e-88e0-c0d9ba2624c3",
+      "label": "Middle East conflict impact on markets",
+      "spike_ratio": 1.125,
+      "article_count": 12,
+      "sentiment_score": 0.3229166666666667,
+      "rag_answer": "The ongoing conflict in the Middle East, particularly the war involving Iran, has led to significant volatility in global markets. Investors are grappling with rising oil prices and uncertainty, causing fluctuations in both Asian and European markets, with many indices experiencing sharp declines. The conflict has also raised concerns about disruptions in key sectors such as energy and aviation, particularly affecting countries like India. Additionally, the situation has prompted a divergence in Gulf markets, with some sectors potentially benefiting, such as defense, while others face increased risks.",
+      "rag_sources": [
+        {
+          "title": "Asia-Pacific markets mostly higher as investors weigh developments in the Middle East",
+          "date": "2026-03-11",
+          "link": "https://www.cnbc.com/2026/03/11/asia-pacific-markets-nikkei-225-kospi-hang-seng-index-oil-wti-brent-iran-war.html",
+          "snippet": "2026-03-11: Asia-Pacific markets mostly higher as investors weigh developments in the Middle East: Asia-Pacific markets traded mostly higher on Wednesday as investors assessed the ongoing Middle East ",
+          "guid": "108276385"
+        },
+        {
+          "title": "Luxury stocks slump as Middle East conflict risks one of the sector\u2019s 'few bright spots\u2019",
+          "date": "2026-03-03",
+          "link": "https://www.cnbc.com/2026/03/03/luxury-stocks-iran-strikes-lvmh-kering-gucci-richemont.html",
+          "snippet": "2026-03-03: Luxury stocks slump as Middle East conflict risks one of the sector\u2019s 'few bright spots\u2019: The Middle East has been one of the few bright spots in a sector that is struggling to get sales b",
+          "guid": "108272638"
+        },
+        {
+          "title": "Why India looks especially vulnerable as conflict rages in Middle East",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/india-impact-iran-middle-east-conflict-oil-prices-airlines.html",
+          "snippet": "2026-03-02: Why India looks especially vulnerable as conflict rages in Middle East: As conflict in the Middle East causes surging oil prices and disrupts the aviation sector, India is coming under pre",
+          "guid": "108271742"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "5ffc8c87-a3f1-4609-959b-bb08bc69043c",
+      "label": "Epstein Connections and Fallout",
+      "spike_ratio": 1.095,
+      "article_count": 23,
+      "sentiment_score": 0.2743788819875776,
+      "rag_answer": "Recent developments regarding Jeffrey Epstein's connections have led to significant fallout for several high-profile individuals and institutions. The release of new documents by the DOJ has revealed Epstein's extensive relationships in Silicon Valley, implicating figures like Bill Gates and Peter Thiel, and prompting testimonies from top executives at Goldman Sachs and others. The reputational damage has resulted in job losses and resignations, such as Kathryn Ruemmler stepping down from Goldman Sachs. This ongoing scrutiny and the potential for further revelations may create instability in the markets, particularly affecting sectors linked to the implicated individuals and their companies.",
+      "rag_sources": [
+        {
+          "title": "Epstein's Silicon Valley connections went beyond Gates and Musk",
+          "date": "2026-02-09",
+          "link": "https://www.cnbc.com/2026/02/09/tech-leaders-epstein-records-silicon-valley-sergey-brin-thiel-sinofsky-reid-hoffman-musk-gates.html",
+          "snippet": "2026-02-09: Epstein's Silicon Valley connections went beyond Gates and Musk: The new Epstein files released by the DOJ show that the deceased financier was able to build relationships across Silicon V",
+          "guid": "108260807"
+        },
+        {
+          "title": "Epstein files fallout: The high-profile people burned by past dealings with a predator",
+          "date": "2026-02-16",
+          "link": "https://www.cnbc.com/2026/02/15/epstein-files-fallout-goldman-ruemmler-harvard-yale.html",
+          "snippet": "2026-02-16: Epstein files fallout: The high-profile people burned by past dealings with a predator: Jeffrey Epstein killed himself in a New York City federal jail in 2019. But more than six years late",
+          "guid": "108265580"
+        },
+        {
+          "title": "Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/epstein-doj-bondi-trump.html",
+          "snippet": "2026-03-05: Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports: The top lawyer for Goldman Sachs, Bill Gates, Leon Black and others are expected to testify soon a",
+          "guid": "108274237"
+        },
+        {
+          "title": "Epstein files: Buffett says he hasn't talked to Bill Gates 'since the whole thing was unveiled'",
+          "date": "2026-03-31",
+          "link": "https://www.cnbc.com/2026/03/31/warren-buffett-bill-gates-epstein.html",
+          "snippet": "2026-03-31: Epstein files: Buffett says he hasn't talked to Bill Gates 'since the whole thing was unveiled': Microsoft founder Bill Gates is one of many high-profile people who have suffered reputatio",
+          "guid": "108285336"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "69966445-ad7a-4408-a755-c5b1a168f3af",
+      "label": "Warner Bros. Discovery Acquisition Battle",
+      "spike_ratio": 1.068,
+      "article_count": 13,
+      "sentiment_score": 0.3131868131868132,
+      "rag_answer": "The acquisition battle for Warner Bros. Discovery (WBD) has intensified, with Netflix initially proposing an all-cash offer of $27.75 per share but later withdrawing after Paramount Skydance made a superior bid. WBD's board deemed Paramount's revised offer more attractive, prompting Netflix to bow out of the bidding war. This situation highlights the competitive landscape in the media industry, as major players vie for valuable assets, potentially reshaping market dynamics and influencing shareholder decisions. The outcome of this battle could significantly impact the streaming and entertainment sectors, as consolidation continues to evolve.",
+      "rag_sources": [
+        {
+          "title": "Netflix amends Warner Bros. Discovery offer to all cash",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/netflix-warner-bros-discovery-offer-all-cash.html",
+          "snippet": "2026-01-20: Netflix amends Warner Bros. Discovery offer to all cash: Netflix has agreed to pay $27.75 per WBD share to acquire the company's studio and streaming assets.",
+          "guid": "108254148"
+        },
+        {
+          "title": "Netflix grants Warner Bros. Discovery 7-day waiver to reopen deal talks with Paramount Skydance",
+          "date": "2026-02-17",
+          "link": "https://www.cnbc.com/2026/02/17/netflix-wbd-waiver-deal-talks-paramount-skydance.html",
+          "snippet": "2026-02-17: Netflix grants Warner Bros. Discovery 7-day waiver to reopen deal talks with Paramount Skydance: Warner Bros. Discovery on Tuesday said it will engage in deal talks with Paramount Skydance",
+          "guid": "108266188"
+        },
+        {
+          "title": "Netflix ditches deal for Warner Bros. Discovery after Paramount\u2019s offer is deemed superior",
+          "date": "2026-02-27",
+          "link": "https://www.cnbc.com/2026/02/26/warner-bros-discovery-paramount-skydance-deal-superior-netflix.html",
+          "snippet": "2026-02-27: Netflix ditches deal for Warner Bros. Discovery after Paramount\u2019s offer is deemed superior: Netflix is ditching a deal to buy Warner Bros. Discovery's studio and streaming assets after the",
+          "guid": "108270659"
+        },
+        {
+          "title": "Netflix likely to adjust Warner Bros. Discovery offer to make it all-cash",
+          "date": "2026-01-14",
+          "link": "https://www.cnbc.com/2026/01/14/netflix-warner-bros-discovery-deal-all-cash.html",
+          "snippet": "2026-01-14: Netflix likely to adjust Warner Bros. Discovery offer to make it all-cash: Netflix is likely to amend its offer for Warner Bros. Discovery's streaming and studio business after reaching an",
+          "guid": "108252275"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}
