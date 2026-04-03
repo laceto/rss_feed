@@ -1518,3 +1518,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-04-02	Consumer Non-Durables	Coca-Cola	neutral	products	ok
 2026-04-02	Producer Manufacturing	SpaceX	neutral	markets	ok
 2026-04-02	Consumer Durables	Auto giants	positive	products	ok
+2026-04-03	Finance	U.S. payrolls|nonfarm payrolls	neutral	macro	ok
+2026-04-03	Transportation	Iran|U.S. military	negative	macro	ok
+2026-04-03	Energy Minerals	Trump|Iranian infrastructure	negative	regulation	ok
+2026-04-03	Retail Trade	retail|autos	negative	products	ok
+2026-04-03	Electronic Technology	Meta|Google	negative	regulation	ok
+2026-04-03	Electronic Technology	OpenAI|TBPN	neutral	M&A	ok
+2026-04-03	Electronic Technology	Microsoft|SoftBank	positive	products	ok
+2026-04-03	Electronic Technology	Chinese chip firms	positive	markets	ok

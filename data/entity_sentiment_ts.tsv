@@ -1,17 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-01-02	BYD	Consumer Non-Durables	positive	1	markets
-2026-01-02	Berkshire Hathaway	Finance	neutral	0	appointments
-2026-01-02	Bitcoin	Finance	negative	-1	other
-2026-01-02	Chip stocks	Electronic Technology	positive	1	markets
-2026-01-02	Citadel	Finance	positive	1	markets
-2026-01-02	Douglas Dynamics	Industrial Services	positive	1	products
-2026-01-02	Greg Abel	Finance	neutral	0	appointments
-2026-01-02	SpaceX	Transportation	positive	1	markets
-2026-01-02	Tesla	Consumer Non-Durables	positive	1	markets
-2026-01-02	Tesla	Consumer Non-Durables	positive	1	markets
-2026-01-02	Warren Buffett	Finance	neutral	0	appointments
-2026-01-02	artificial intelligence	Electronic Technology	positive	1	markets
-2026-01-02	crypto theft	Finance	negative	-1	other
 2026-01-03	Amodei	Electronic Technology	positive	1	products
 2026-01-03	Anthropic	Electronic Technology	positive	1	products
 2026-01-03	Chinese-controlled firm	Technology Services	negative	-1	regulation
@@ -1108,3 +1095,18 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-04-02	Oman	Energy Minerals	negative	-1	macro
 2026-04-02	SpaceX	Producer Manufacturing	neutral	0	markets
 2026-04-02	Tesla	Consumer Durables	negative	-1	products
+2026-04-03	Chinese chip firms	Electronic Technology	positive	1	markets
+2026-04-03	Google	Electronic Technology	negative	-1	regulation
+2026-04-03	Iran	Transportation	negative	-1	macro
+2026-04-03	Iranian infrastructure	Energy Minerals	negative	-1	regulation
+2026-04-03	Meta	Electronic Technology	negative	-1	regulation
+2026-04-03	Microsoft	Electronic Technology	positive	1	products
+2026-04-03	OpenAI	Electronic Technology	neutral	0	M&A
+2026-04-03	SoftBank	Electronic Technology	positive	1	products
+2026-04-03	TBPN	Electronic Technology	neutral	0	M&A
+2026-04-03	Trump	Energy Minerals	negative	-1	regulation
+2026-04-03	U.S. military	Transportation	negative	-1	macro
+2026-04-03	U.S. payrolls	Finance	neutral	0	macro
+2026-04-03	autos	Retail Trade	negative	-1	products
+2026-04-03	nonfarm payrolls	Finance	neutral	0	macro
+2026-04-03	retail	Retail Trade	negative	-1	products
