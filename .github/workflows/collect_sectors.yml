@@ -103,7 +103,17 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         # Exit code 2 = ClusteringAborted (degenerate run) — treated as warning,
         # not a pipeline failure. The commit step will simply have no new topic files.
-        run: python cluster_topics.py || [ $? -eq 2 ] && echo "Clustering aborted (degenerate run — skipping topic output)" || exit 1
+        run: |
+          rc=0; python cluster_topics.py || rc=$?
+          if [ $rc -eq 2 ]; then
+            echo "Clustering aborted (degenerate run — skipping topic output)"
+          elif [ $rc -ne 0 ]; then
+            exit $rc
+          fi
+
+      - name: Generate topic charts
+        if: steps.check.outputs.pending == 'true'
+        run: python visualize_topics.py
 
       - name: Push analysis datasets to Hugging Face
         if: steps.check.outputs.pending == 'true'
