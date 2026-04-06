@@ -1526,3 +1526,17 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-04-03	Electronic Technology	OpenAI|TBPN	neutral	M&A	ok
 2026-04-03	Electronic Technology	Microsoft|SoftBank	positive	products	ok
 2026-04-03	Electronic Technology	Chinese chip firms	positive	markets	ok
+2026-04-04	Energy Minerals	U.S.-Iran war 'tax'|diesel and jet fuel prices	negative	macro	ok
+2026-04-04	Electronic Technology	Apple|AI	neutral	products	ok
+2026-04-05	Transportation	U.S. weapons specialist|Iran|F-15E Strike Eagle	negative	macro	ok
+2026-04-05	Energy Minerals	Trump|Iran|Strait of Hormuz	negative	macro	ok
+2026-04-05	Consumer Durables	Europe’s car industry	negative	other	ok
+2026-04-05	Consumer Services	Pope Leo XIV	neutral	other	ok
+2026-04-05	Finance	Wall Street analysts	positive	markets	ok
+2026-04-06	Energy Minerals	U.S. and Israel|Iran|U.S. government|Robinhood|BNY|JPMorgan|SpaceX|India|FDA|Neurocrine|Oracle|Tesla|Netflix|S&P 500|CCTV|Xi	neutral	macro	ok
+2026-04-06	Producer Manufacturing	SpaceX	negative	products	ok
+2026-04-06	Health Technology	Neurocrine|Soleno	positive	products	ok
+2026-04-06	Technology Services	Oracle	neutral	appointments	ok
+2026-04-06	Consumer Non-Durables	Netflix	positive	markets	ok
+2026-04-06	Finance	S&P 500	neutral	markets	ok
+2026-04-06	Utilities	CCTV|Xi	neutral	macro	ok

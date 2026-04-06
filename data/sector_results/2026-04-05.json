@@ -1,0 +1,55 @@
+{
+  "date": "2026-04-05",
+  "batch_id": "batch_69d40e63fbd48190bfcb0c49660ba2a9",
+  "sectors": [
+    {
+      "entities": [
+        "U.S. weapons specialist",
+        "Iran",
+        "F-15E Strike Eagle"
+      ],
+      "sector": "Transportation",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Trump",
+        "Iran",
+        "Strait of Hormuz"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Europe\u2019s car industry"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "negative",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Pope Leo XIV"
+      ],
+      "sector": "Consumer Services",
+      "sentiment": "neutral",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Wall Street analysts"
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}

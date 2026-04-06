@@ -1,32 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-01-03	Amodei	Electronic Technology	positive	1	products
-2026-01-03	Anthropic	Electronic Technology	positive	1	products
-2026-01-03	Chinese-controlled firm	Technology Services	negative	-1	regulation
-2026-01-03	Daniela Amodei	Electronic Technology	positive	1	products
-2026-01-03	Dario Amodei	Electronic Technology	positive	1	products
-2026-01-03	Donald Trump	Energy Minerals	negative	-1	macro
-2026-01-03	Emcore	Technology Services	negative	-1	regulation
-2026-01-03	Nicolas Maduro	Energy Minerals	negative	-1	macro
-2026-01-03	U.S. airlines	Transportation	negative	-1	markets
-2026-01-03	U.S. oil companies	Energy Minerals	negative	-1	macro
-2026-01-03	Venezuela	Energy Minerals	negative	-1	macro
-2026-01-05	Chevron	Energy Minerals	positive	1	markets
-2026-01-05	Comcast	Consumer Non-Durables	neutral	0	markets
-2026-01-05	Exxon	Energy Minerals	positive	1	markets
-2026-01-05	Foxconn	Electronic Technology	positive	1	markets
-2026-01-05	GM	Consumer Non-Durables	positive	1	markets
-2026-01-05	Lucid	Consumer Non-Durables	positive	1	markets
-2026-01-05	Meta	Electronic Technology	negative	-1	regulation
-2026-01-05	NBCUniversal	Consumer Non-Durables	neutral	0	markets
-2026-01-05	Nicolas Maduro	Energy Minerals	neutral	0	macro
-2026-01-05	Nvidia	Electronic Technology	positive	1	markets
-2026-01-05	SLB	Energy Minerals	positive	1	markets
-2026-01-05	SpaceX	Electronic Technology	positive	1	products
-2026-01-05	Starlink	Electronic Technology	positive	1	products
-2026-01-05	Stellantis	Consumer Non-Durables	positive	1	markets
-2026-01-05	U.S. military	Transportation	neutral	0	other
-2026-01-05	Venezuela	Energy Minerals	neutral	0	macro
-2026-01-05	Yann Lecun	Electronic Technology	negative	-1	regulation
 2026-01-06	AMD	Technology Services	positive	1	macro
 2026-01-06	Cisco	Electronic Technology	positive	1	markets
 2026-01-06	Elon Musk	Electronic Technology	positive	1	markets
@@ -1110,3 +1082,40 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-04-03	autos	Retail Trade	negative	-1	products
 2026-04-03	nonfarm payrolls	Finance	neutral	0	macro
 2026-04-03	retail	Retail Trade	negative	-1	products
+2026-04-04	AI	Electronic Technology	neutral	0	products
+2026-04-04	Apple	Electronic Technology	neutral	0	products
+2026-04-04	U.S.-Iran war 'tax'	Energy Minerals	negative	-1	macro
+2026-04-04	diesel and jet fuel prices	Energy Minerals	negative	-1	macro
+2026-04-05	Europe’s car industry	Consumer Durables	negative	-1	other
+2026-04-05	F-15E Strike Eagle	Transportation	negative	-1	macro
+2026-04-05	Iran	Transportation	negative	-1	macro
+2026-04-05	Iran	Energy Minerals	negative	-1	macro
+2026-04-05	Pope Leo XIV	Consumer Services	neutral	0	other
+2026-04-05	Strait of Hormuz	Energy Minerals	negative	-1	macro
+2026-04-05	Trump	Energy Minerals	negative	-1	macro
+2026-04-05	U.S. weapons specialist	Transportation	negative	-1	macro
+2026-04-05	Wall Street analysts	Finance	positive	1	markets
+2026-04-06	BNY	Energy Minerals	neutral	0	macro
+2026-04-06	CCTV	Energy Minerals	neutral	0	macro
+2026-04-06	CCTV	Utilities	neutral	0	macro
+2026-04-06	FDA	Energy Minerals	neutral	0	macro
+2026-04-06	India	Energy Minerals	neutral	0	macro
+2026-04-06	Iran	Energy Minerals	neutral	0	macro
+2026-04-06	JPMorgan	Energy Minerals	neutral	0	macro
+2026-04-06	Netflix	Energy Minerals	neutral	0	macro
+2026-04-06	Netflix	Consumer Non-Durables	positive	1	markets
+2026-04-06	Neurocrine	Energy Minerals	neutral	0	macro
+2026-04-06	Neurocrine	Health Technology	positive	1	products
+2026-04-06	Oracle	Energy Minerals	neutral	0	macro
+2026-04-06	Oracle	Technology Services	neutral	0	appointments
+2026-04-06	Robinhood	Energy Minerals	neutral	0	macro
+2026-04-06	S&P 500	Energy Minerals	neutral	0	macro
+2026-04-06	S&P 500	Finance	neutral	0	markets
+2026-04-06	Soleno	Health Technology	positive	1	products
+2026-04-06	SpaceX	Energy Minerals	neutral	0	macro
+2026-04-06	SpaceX	Producer Manufacturing	negative	-1	products
+2026-04-06	Tesla	Energy Minerals	neutral	0	macro
+2026-04-06	U.S. and Israel	Energy Minerals	neutral	0	macro
+2026-04-06	U.S. government	Energy Minerals	neutral	0	macro
+2026-04-06	Xi	Energy Minerals	neutral	0	macro
+2026-04-06	Xi	Utilities	neutral	0	macro

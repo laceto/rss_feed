@@ -1,0 +1,86 @@
+{
+  "date": "2026-04-06",
+  "batch_id": "batch_69d40e63fbd48190bfcb0c49660ba2a9",
+  "sectors": [
+    {
+      "entities": [
+        "U.S. and Israel",
+        "Iran",
+        "U.S. government",
+        "Robinhood",
+        "BNY",
+        "JPMorgan",
+        "SpaceX",
+        "India",
+        "FDA",
+        "Neurocrine",
+        "Oracle",
+        "Tesla",
+        "Netflix",
+        "S&P 500",
+        "CCTV",
+        "Xi"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "SpaceX"
+      ],
+      "sector": "Producer Manufacturing",
+      "sentiment": "negative",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Neurocrine",
+        "Soleno"
+      ],
+      "sector": "Health Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Oracle"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "neutral",
+      "news_category": "appointments",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Netflix"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "S&P 500"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "CCTV",
+        "Xi"
+      ],
+      "sector": "Utilities",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    }
+  ]
+}

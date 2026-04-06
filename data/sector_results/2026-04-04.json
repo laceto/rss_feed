@@ -1,0 +1,26 @@
+{
+  "date": "2026-04-04",
+  "batch_id": "batch_69d40e63fbd48190bfcb0c49660ba2a9",
+  "sectors": [
+    {
+      "entities": [
+        "U.S.-Iran war 'tax'",
+        "diesel and jet fuel prices"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Apple",
+        "AI"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    }
+  ]
+}
