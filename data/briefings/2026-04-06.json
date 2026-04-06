@@ -1,0 +1,217 @@
+{
+  "date": "2026-04-06",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "8f19e3fc-a9bd-430c-b784-f367e1e9e7c0",
+      "label": "Nvidia earnings and AI outlook",
+      "spike_ratio": 1.455,
+      "article_count": 16,
+      "sentiment_score": 0.375,
+      "rag_answer": "Nvidia's earnings reports have consistently indicated strong demand for AI infrastructure, with the company being the only major tech stock to gain in 2026 amidst Wall Street's skepticism about AI spending. CEO Jensen Huang has emphasized the sustainability of a $660 billion capital expenditure buildout, while analysts remain divided on whether the current AI investments will yield profitable returns in the future. Despite concerns about a potential AI bubble, Nvidia's performance has provided some reassurance to investors, contributing to a positive outlook for the tech sector. Overall, Nvidia's results are seen as pivotal for the broader market, especially as it navigates the complexities of AI demand and geopolitical uncertainties.",
+      "rag_sources": [
+        {
+          "title": "Nvidia earnings report collides with Wall Street skepticism over AI spending",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/nvidia-earnings-collide-with-wall-street-skepticism-over-ai-spending.html",
+          "snippet": "2026-02-24: Nvidia earnings report collides with Wall Street skepticism over AI spending: Nvidia is the only megacap tech stock to notch gains this year as investors have turned cautious on the hefty ",
+          "guid": "108268615"
+        },
+        {
+          "title": "Nvidia sent a strong signal on AI infrastructure \u2014 but is it a bubble barometer? ",
+          "date": "2025-11-20",
+          "link": "https://www.cnbc.com/2025/11/20/nvidia-sent-a-strong-signal-on-ai-infrastructure-but-is-it-a-bubble-barometer-.html",
+          "snippet": "2025-11-20: Nvidia sent a strong signal on AI infrastructure \u2014 but is it a bubble barometer?: Analysts agree that Nvidia's earnings are a clear signal of of strong demand for AI infrastructure. Less c",
+          "guid": "108228911"
+        },
+        {
+          "title": "AI trade faces key test before Nvidia earnings: AMD's analyst day",
+          "date": "2025-11-10",
+          "link": "https://www.cnbc.com/2025/11/10/ai-trade-faces-key-test-before-nvidia-earnings-amds-analyst-day.html",
+          "snippet": "2025-11-10: AI trade faces key test before Nvidia earnings: AMD's analyst day: Analysts will be watching AMD's expectations for AI market potential, profit and margins as well as any new customer part",
+          "guid": "108223628"
+        },
+        {
+          "title": "Nvidia rises 7% as Jensen Huang says $660 billion capex buildout is sustainable",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/nvidia-rises-7percent-as-ceo-says-660-billion-capex-buildout-is-sustainable.html",
+          "snippet": "2026-02-06: Nvidia rises 7% as Jensen Huang says $660 billion capex buildout is sustainable: Huang's comments come after key Nvidia customers Meta, Amazon, Google and Microsoft reported their latest e",
+          "guid": "108262641"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "improving",
+          "trend_delta": 1.333,
+          "mean_sentiment_score": -0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "5ffc8c87-a3f1-4609-959b-bb08bc69043c",
+      "label": "Epstein Connections and Fallout",
+      "spike_ratio": 1.324,
+      "article_count": 27,
+      "sentiment_score": 0.2764550264550265,
+      "rag_answer": "Recent developments surrounding Jeffrey Epstein's connections have led to significant fallout for high-profile individuals and institutions. Notable figures like Bill Gates, Leon Black, and Goldman Sachs' Kathryn Ruemmler are facing reputational damage and professional consequences due to their past associations with Epstein, as highlighted by upcoming testimonies to a House panel. The ongoing release of Epstein-related documents by the DOJ continues to stir scrutiny and concern, impacting the careers of those linked to him. This situation reflects broader market implications, as the reputational risks associated with Epstein's network may influence investor confidence and corporate governance practices in the financial sector.",
+      "rag_sources": [
+        {
+          "title": "Epstein's Silicon Valley connections went beyond Gates and Musk",
+          "date": "2026-02-09",
+          "link": "https://www.cnbc.com/2026/02/09/tech-leaders-epstein-records-silicon-valley-sergey-brin-thiel-sinofsky-reid-hoffman-musk-gates.html",
+          "snippet": "2026-02-09: Epstein's Silicon Valley connections went beyond Gates and Musk: The new Epstein files released by the DOJ show that the deceased financier was able to build relationships across Silicon V",
+          "guid": "108260807"
+        },
+        {
+          "title": "Epstein files fallout: The high-profile people burned by past dealings with a predator",
+          "date": "2026-02-16",
+          "link": "https://www.cnbc.com/2026/02/15/epstein-files-fallout-goldman-ruemmler-harvard-yale.html",
+          "snippet": "2026-02-16: Epstein files fallout: The high-profile people burned by past dealings with a predator: Jeffrey Epstein killed himself in a New York City federal jail in 2019. But more than six years late",
+          "guid": "108265580"
+        },
+        {
+          "title": "Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/epstein-doj-bondi-trump.html",
+          "snippet": "2026-03-05: Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports: The top lawyer for Goldman Sachs, Bill Gates, Leon Black and others are expected to testify soon a",
+          "guid": "108274237"
+        },
+        {
+          "title": "Epstein files: Buffett says he hasn't talked to Bill Gates 'since the whole thing was unveiled'",
+          "date": "2026-03-31",
+          "link": "https://www.cnbc.com/2026/03/31/warren-buffett-bill-gates-epstein.html",
+          "snippet": "2026-03-31: Epstein files: Buffett says he hasn't talked to Bill Gates 'since the whole thing was unveiled': Microsoft founder Bill Gates is one of many high-profile people who have suffered reputatio",
+          "guid": "108285336"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "ad6c966b-2bfc-4c53-91b3-5ce6b0379482",
+      "label": "U.S.-Iran Negotiations and Tensions",
+      "spike_ratio": 1.186,
+      "article_count": 17,
+      "sentiment_score": 0.1060924369747899,
+      "rag_answer": "U.S.-Iran negotiations have been marked by significant uncertainty and mixed signals, with recent talks failing to yield a deal despite intense discussions surrounding Iran's nuclear program and military actions. President Trump's threats and military buildup in the region have heightened tensions, leading to volatility in global markets, particularly in oil prices. Investors are on edge, navigating the potential for either a diplomatic resolution or further escalation of conflict, which has resulted in fluctuating treasury yields and stock market performance. Overall, the situation remains fluid, with geopolitical developments heavily influencing market sentiment.",
+      "rag_sources": [
+        {
+          "title": "Oil pulls back as U.S.\u2013Iran talks set to resume: Here\u2019s where negotiations stand",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/23/iran-us-talks-oil-falls-nuclear-negotiations.html",
+          "snippet": "2026-02-23: Oil pulls back as U.S.\u2013Iran talks set to resume: Here\u2019s where negotiations stand: Tensions have remained on high alert throughout the Middle East for weeks after U.S. President Donald Trum",
+          "guid": "108268317"
+        },
+        {
+          "title": "CNBC Daily Open: U.S.-Iran talks remain clouded in uncertainty ",
+          "date": "2026-03-25",
+          "link": "https://www.cnbc.com/2026/03/25/cnbc-daily-open-us-iran-talks-trump-uncertainty-.html",
+          "snippet": "2026-03-25: CNBC Daily Open: U.S.-Iran talks remain clouded in uncertainty: Global markets search for direction amid mixed signals on U.S.-Israel and Iran conflict.",
+          "guid": "108282564"
+        },
+        {
+          "title": "'Grin and bear it': How investors are navigating the Trump-Iran market whiplash",
+          "date": "2026-03-26",
+          "link": "https://www.cnbc.com/2026/03/26/us-iran-conflicting-signals-markets-oil-volatility.html",
+          "snippet": "2026-03-26: 'Grin and bear it': How investors are navigating the Trump-Iran market whiplash: The U.S. and Iran appeared to diverge on accounts of potential peace deal, with Washington touting progress",
+          "guid": "108283192"
+        },
+        {
+          "title": "Treasury yields rise as Iran ceasefire optimism fades ",
+          "date": "2026-03-26",
+          "link": "https://www.cnbc.com/2026/03/26/treasury-yields-rise-uncertainty-ceasefire-talks.html",
+          "snippet": "2026-03-26: Treasury yields rise as Iran ceasefire optimism fades: Treasury yields rose on Thursday as investors digested mixed messages around the state of negotiations between the U.S. and Iran.",
+          "guid": "108283276"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "4e0811b8-41ee-47f5-aed0-76182998c54d",
+      "label": "Student Loan Forgiveness Issues",
+      "spike_ratio": 1.15,
+      "article_count": 43,
+      "sentiment_score": 0.117109634551495,
+      "rag_answer": "The backlog of student loan borrowers seeking Public Service Loan Forgiveness has significantly increased under the Trump administration, with over 800,000 borrowers currently awaiting decisions on their applications. Delays in processing requests for both forgiveness and affordable repayment plans have prompted legal actions, including a class action complaint from the American Federation of Teachers. Additionally, the administration has moved to limit eligibility for the forgiveness program, which could further complicate access for many borrowers. These developments indicate a challenging landscape for student loan borrowers, potentially leading to increased financial strain and a growing sense of urgency to secure relief before eligibility changes take effect.",
+      "rag_sources": [
+        {
+          "title": "Student loan borrower backlog for forgiveness swells to 74,510 under Trump",
+          "date": "2025-09-26",
+          "link": "https://www.cnbc.com/2025/09/26/student-loan-borrower-pslf-buyback-backlog.html",
+          "snippet": "2025-09-26: Student loan borrower backlog for forgiveness swells to 74,510 under Trump: The backlog of student loan borrowers trying to access Public Service Loan Forgiveness continues to grow under t",
+          "guid": "108203903"
+        },
+        {
+          "title": "Some student loan borrowers wait over a year in public servant debt forgiveness backlog",
+          "date": "2026-02-09",
+          "link": "https://www.cnbc.com/2026/02/09/pslf-public-service-loan-forgiveness-buyback-backlog.html",
+          "snippet": "2026-02-09: Some student loan borrowers wait over a year in public servant debt forgiveness backlog: More than 83,000 federal student loan borrowers are waiting for a Public Service Loan Forgiveness B",
+          "guid": "108254849"
+        },
+        {
+          "title": "Trump officials move slowly on student loan forgiveness, repayment plan backlog: court filing",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/trump-student-loan-forgiveness-backlog.html",
+          "snippet": "2025-12-16: Trump officials move slowly on student loan forgiveness, repayment plan backlog: court filing: Hundreds of thousands of student loan borrowers remain stuck in a backlog of requests for an ",
+          "guid": "108242145"
+        },
+        {
+          "title": "Over 800,000 student loan borrowers remain in backlog for forgiveness, affordable repayment plans",
+          "date": "2026-01-15",
+          "link": "https://www.cnbc.com/2026/01/15/student-loan-forgiveness-repayment-plan-backlog.html",
+          "snippet": "2026-01-15: Over 800,000 student loan borrowers remain in backlog for forgiveness, affordable repayment plans: More than 800,000 federal student loan holders remain stuck in a backlog of applications ",
+          "guid": "108252878"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "stable",
+          "trend_delta": -0.167,
+          "mean_sentiment_score": 0.583,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "6efff227-9da9-439e-88e0-c0d9ba2624c3",
+      "label": "Middle East conflict impact on markets",
+      "spike_ratio": 1.091,
+      "article_count": 12,
+      "sentiment_score": 0.3229166666666667,
+      "rag_answer": "The ongoing conflict in the Middle East, particularly involving Iran, has led to significant volatility in global markets. Asian markets have experienced sharp declines as investors brace for a prolonged war, while European stocks have fluctuated, often closing lower due to surging oil prices and geopolitical tensions. The crisis has raised fears of disruptions in global trade, especially through key maritime routes like the Strait of Hormuz, impacting sectors such as energy and aviation. Additionally, the conflict has prompted a shift in investment strategies, with some investors re-evaluating their portfolios amid the uncertainty.",
+      "rag_sources": [
+        {
+          "title": "Asia markets tumble as Middle East conflict spiral with no sign of abating",
+          "date": "2026-03-23",
+          "link": "https://www.cnbc.com/2026/03/23/asia-markets-us-iran-threats-strait-of-hormuz-oil-nikkei-kospi-hsi-hang-seng.html",
+          "snippet": "2026-03-23: Asia markets tumble as Middle East conflict spiral with no sign of abating: Asia-Pacific markets tumbled Monday as investors weighed escalating tensions in the Middle East after the U.S. a",
+          "guid": "108281292"
+        },
+        {
+          "title": "European markets finish higher as traders track Middle East turmoil",
+          "date": "2026-03-04",
+          "link": "https://www.cnbc.com/2026/03/04/european-markets-stoxx-600-ftse-dax-oil-prices-middle-east-latest.html",
+          "snippet": "2026-03-04: European markets finish higher as traders track Middle East turmoil: European stocks closed higher on Wednesday as markets continue to track developments in the Middle East.",
+          "guid": "108272722"
+        },
+        {
+          "title": "The Strait of Hormuz crisis explained: What it means for global shipping",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/strait-of-hormuz-crisis-us-iran-israel-war-shipping-trade-oil.html",
+          "snippet": "2026-03-02: The Strait of Hormuz crisis explained: What it means for global shipping: The Middle East conflict has stoked fears of prolonged disruption to global trade via key maritime corridors.",
+          "guid": "108271796"
+        },
+        {
+          "title": "What's next for global markets as oil surges and stocks plunge on Middle East conflict",
+          "date": "2026-03-03",
+          "link": "https://www.cnbc.com/2026/03/03/us-iran-israel-war-stock-market-bonds-bitcoin-sell-off-sp500.html",
+          "snippet": "2026-03-03: What's next for global markets as oil surges and stocks plunge on Middle East conflict: As volatility gripped assets from stocks to crypto on Tuesday, market watchers weighed in on what mi",
+          "guid": "108272686"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}
