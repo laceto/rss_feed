@@ -1,0 +1,73 @@
+{
+  "date": "2026-04-07",
+  "batch_id": "batch_69d56117d06481909984bcbc6ddf7502",
+  "sectors": [
+    {
+      "entities": [
+        "Apple",
+        "Arm Holdings",
+        "Broadcom",
+        "UnitedHealth"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Amazon"
+      ],
+      "sector": "Distribution Services",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Robinhood",
+        "Vlad Tenev"
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Broadcom"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Samsung Electronics"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Exxon Mobil"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "SpaceX"
+      ],
+      "sector": "Producer Manufacturing",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}

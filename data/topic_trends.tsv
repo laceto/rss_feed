@@ -3643,26 +3643,46 @@ date	topic_id	topic_label	article_count	sentiment_score
 2026-04-03	b6765d91-8922-4aa8-82a8-faf1879fff83	Trump and Iran tensions	12	0.1979166666666666
 2026-04-03	ad6c966b-2bfc-4c53-91b3-5ce6b0379482	U.S.-Iran Negotiations and Tensions	14	0.1160714285714285
 2026-04-03	5823ee94-e00d-44a9-9e8d-b407cdf8aef8	Iran-U.S. Tensions and Oil Market	25	0.315
-2026-04-06	58ae44e7-5874-47a5-baf7-20811fcdcfa7	DHS funding and shutdown crisis	29	0.18657635467980296
-2026-04-06	69966445-ad7a-4408-a755-c5b1a168f3af	Warner Bros. Discovery Acquisition Battle	10	0.28928571428571426
+2026-04-06	58ae44e7-5874-47a5-baf7-20811fcdcfa7	DHS funding and shutdown crisis	29	0.1865763546798029
+2026-04-06	69966445-ad7a-4408-a755-c5b1a168f3af	Warner Bros. Discovery Acquisition Battle	10	0.2892857142857142
 2026-04-06	f6c084f0-a547-4ff0-a223-85410a095e66	Midday Stock Movements	12	0.2619047619047619
-2026-04-06	870e8477-dc1b-4788-b4a6-60f9e553f80e	Obesity Drug Market Developments	31	0.12307987711213518
-2026-04-06	4e0811b8-41ee-47f5-aed0-76182998c54d	Student Loan Forgiveness Issues	43	0.11710963455149502
+2026-04-06	870e8477-dc1b-4788-b4a6-60f9e553f80e	Obesity Drug Market Developments	31	0.1230798771121351
+2026-04-06	4e0811b8-41ee-47f5-aed0-76182998c54d	Student Loan Forgiveness Issues	43	0.117109634551495
 2026-04-06	5ffc8c87-a3f1-4609-959b-bb08bc69043c	Epstein Connections and Fallout	27	0.2764550264550265
 2026-04-06	67584205-cecb-4f40-9dfe-66b5a8af31bc	Robotaxi and EV Market Trends	13	0.2898351648351648
 2026-04-06	dba0dd90-06a2-4c47-84b5-82ee7dbea4e9	Private Credit Market Turmoil	16	0.2611607142857143
-2026-04-06	fc76618c-c388-4a12-9fe7-c5e743308f92	Trump tariffs Supreme Court ruling	32	0.17633928571428573
+2026-04-06	fc76618c-c388-4a12-9fe7-c5e743308f92	Trump tariffs Supreme Court ruling	32	0.1763392857142857
 2026-04-06	8f19e3fc-a9bd-430c-b784-f367e1e9e7c0	Nvidia earnings and AI outlook	16	0.375
 2026-04-06	8f45332d-a6a8-47e9-b859-303764889e37	Anthropic-Pentagon AI Dispute	22	0.286525974025974
 2026-04-06	2fbfc251-eaea-4872-8901-6018815599e6	AI Demand and Chip Earnings	10	0.0
-2026-04-06	9ca784a5-a36a-48c1-8c7f-478c71cb57d4	AI Investment and Growth	20	0.11964285714285713
-2026-04-06	9496948d-ec01-4464-8542-c12c5b038081	Mortgage Demand and Housing Market	13	0.08104395604395605
+2026-04-06	9ca784a5-a36a-48c1-8c7f-478c71cb57d4	AI Investment and Growth	20	0.1196428571428571
+2026-04-06	9496948d-ec01-4464-8542-c12c5b038081	Mortgage Demand and Housing Market	13	0.081043956043956
 2026-04-06	ad0fef60-4749-4e85-809e-e1e6af36a370	Kevin Warsh Fed Chair Nomination	10	0.025
 2026-04-06	0acb6c6b-5b65-40fa-898c-83e932e00a6b	Iran Leadership and Conflict	10	0.2041666666666667
 2026-04-06	a6911053-deec-44da-91d1-bfa94b65b030	S&P 500 Market Analysis	16	0.0625
 2026-04-06	00e93a97-87ca-49d0-8ca6-f49b6a207cac	Treasury yields and geopolitical risks	10	0.0875
-2026-04-06	4e7be4d8-a78f-4603-8cc8-2d594841b09b	Interest Rates and Treasury Yields	11	-0.07142857142857141
+2026-04-06	4e7be4d8-a78f-4603-8cc8-2d594841b09b	Interest Rates and Treasury Yields	11	-0.0714285714285714
 2026-04-06	6efff227-9da9-439e-88e0-c0d9ba2624c3	Middle East conflict impact on markets	12	0.3229166666666667
 2026-04-06	b6765d91-8922-4aa8-82a8-faf1879fff83	Trump and Iran tensions	10	0.2
-2026-04-06	ad6c966b-2bfc-4c53-91b3-5ce6b0379482	U.S.-Iran Negotiations and Tensions	17	0.10609243697478991
-2026-04-06	5823ee94-e00d-44a9-9e8d-b407cdf8aef8	Iran-U.S. Tensions and Oil Market	28	0.29017857142857145
+2026-04-06	ad6c966b-2bfc-4c53-91b3-5ce6b0379482	U.S.-Iran Negotiations and Tensions	17	0.1060924369747899
+2026-04-06	5823ee94-e00d-44a9-9e8d-b407cdf8aef8	Iran-U.S. Tensions and Oil Market	28	0.2901785714285714
+2026-04-07	58ae44e7-5874-47a5-baf7-20811fcdcfa7	DHS funding and shutdown crisis	29	0.18657635467980296
+2026-04-07	69966445-ad7a-4408-a755-c5b1a168f3af	Warner Bros. Discovery Acquisition Battle	11	0.3019480519480519
+2026-04-07	870e8477-dc1b-4788-b4a6-60f9e553f80e	Obesity Drug Market Developments	40	0.15520833333333334
+2026-04-07	79917efc-d09f-4c6c-9358-5e9e0c720b4b	Prediction Market Regulation Issues	10	0.2225
+2026-04-07	4e0811b8-41ee-47f5-aed0-76182998c54d	Student Loan Forgiveness Issues	42	0.11139455782312926
+2026-04-07	f6c084f0-a547-4ff0-a223-85410a095e66	Midday Stock Movements	12	0.26339285714285715
+2026-04-07	dba0dd90-06a2-4c47-84b5-82ee7dbea4e9	Private Credit Market Turmoil	16	0.2533482142857143
+2026-04-07	fc76618c-c388-4a12-9fe7-c5e743308f92	Trump tariffs Supreme Court ruling	16	0.21651785714285715
+2026-04-07	5ffc8c87-a3f1-4609-959b-bb08bc69043c	Epstein Connections and Fallout	15	0.2773809523809524
+2026-04-07	e279f174-8f2c-496f-b594-50a57a6b0718	AI-related workforce reductions	11	0.10227272727272728
+2026-04-07	8f19e3fc-a9bd-430c-b784-f367e1e9e7c0	Nvidia earnings and AI outlook	15	0.4
+2026-04-07	8f45332d-a6a8-47e9-b859-303764889e37	Anthropic-Pentagon AI Dispute	22	0.286525974025974
+2026-04-07	2fbfc251-eaea-4872-8901-6018815599e6	AI Demand and Chip Earnings	20	0.07946428571428572
+2026-04-07	9496948d-ec01-4464-8542-c12c5b038081	Mortgage Demand and Housing Market	14	0.10204081632653063
+2026-04-07	a6911053-deec-44da-91d1-bfa94b65b030	S&P 500 Market Analysis	20	0.043392857142857136
+2026-04-07	ad0fef60-4749-4e85-809e-e1e6af36a370	Kevin Warsh Fed Chair Nomination	11	-0.022727272727272728
+2026-04-07	4e7be4d8-a78f-4603-8cc8-2d594841b09b	Interest Rates and Treasury Yields	26	0.0418956043956044
+2026-04-07	6efff227-9da9-439e-88e0-c0d9ba2624c3	Middle East conflict impact on markets	11	0.36363636363636365
+2026-04-07	ad6c966b-2bfc-4c53-91b3-5ce6b0379482	U.S.-Iran Negotiations and Tensions	15	0.12738095238095237
+2026-04-07	5823ee94-e00d-44a9-9e8d-b407cdf8aef8	Iran-U.S. Tensions and Oil Market	30	0.27559523809523806

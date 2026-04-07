@@ -1540,3 +1540,10 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-04-06	Consumer Non-Durables	Netflix	positive	markets	ok
 2026-04-06	Finance	S&P 500	neutral	markets	ok
 2026-04-06	Utilities	CCTV|Xi	neutral	macro	ok
+2026-04-07	Electronic Technology	Apple|Arm Holdings|Broadcom|UnitedHealth	negative	markets	ok
+2026-04-07	Distribution Services	Amazon	neutral	macro	ok
+2026-04-07	Finance	Robinhood|Vlad Tenev	positive	products	ok
+2026-04-07	Electronic Technology	Broadcom	positive	products	ok
+2026-04-07	Electronic Technology	Samsung Electronics	positive	markets	ok
+2026-04-07	Energy Minerals	Exxon Mobil	positive	macro	ok
+2026-04-07	Producer Manufacturing	SpaceX	neutral	markets	ok
