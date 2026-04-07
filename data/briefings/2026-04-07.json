@@ -1,0 +1,225 @@
+{
+  "date": "2026-04-07",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "870e8477-dc1b-4788-b4a6-60f9e553f80e",
+      "label": "Obesity Drug Market Developments",
+      "spike_ratio": 1.361,
+      "article_count": 40,
+      "sentiment_score": 0.1552083333333333,
+      "rag_answer": "The obesity drug market is experiencing significant developments, particularly with the launch of Novo Nordisk's first GLP-1 obesity pill in the U.S. and the anticipated approval of a rival oral drug from Eli Lilly. Both companies are competing aggressively, with Novo Nordisk's CEO highlighting a potential 15 million patient opportunity due to new Medicare coverage for obesity drugs. This competition is expected to reshape the market landscape, as more players enter and insurance coverage expands, potentially increasing access for millions of Americans. However, challenges remain regarding drug pricing and market share protection amidst growing competition.",
+      "rag_sources": [
+        {
+          "title": "What the Iran war market turmoil means for those nearing retirement",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/iran-war-market-volatility-retirement.html",
+          "snippet": "2026-03-05: What the Iran war market turmoil means for those nearing retirement: Market shakiness may not concern long-term investors, but it could be a useful wake-up call for those on the precipice ",
+          "guid": "108272020"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "a6911053-deec-44da-91d1-bfa94b65b030",
+      "label": "S&P 500 Market Analysis",
+      "spike_ratio": 1.316,
+      "article_count": 20,
+      "sentiment_score": 0.0433928571428571,
+      "rag_answer": "The S&P 500 has been experiencing significant volatility, with recent reports indicating it has spent nearly four months in a tight trading range, struggling to maintain upward momentum. As it approaches its 200-day moving average, traders are closely monitoring key levels amid concerns over external factors like the U.S.-Iran conflict and economic indicators such as the February jobs report. Additionally, the market has shown signs of exhaustion, with momentum waning and breadth flagging, raising questions about the sustainability of the current bull market. Overall, the S&P 500's performance reflects a cautious sentiment among investors, influenced by geopolitical tensions and economic uncertainties.",
+      "rag_sources": [
+        {
+          "title": "The S&P 500 is caught in an unusually tight range. Is this bull market resilient or exhausted?  ",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/23/the-sp-500-is-caught-in-an-unusually-tight-range-is-this-bull-market-resilient-or-exhausted-.html",
+          "snippet": "2026-02-23: The S&P 500 is caught in an unusually tight range. Is this bull market resilient or exhausted?: Mike Santoli looks at how the S&P 500 has spent nearly four months in an unusually tight ran",
+          "guid": "108268352"
+        },
+        {
+          "title": "When will the selling stop? Jay Woods and other traders are watching this key S&P 500 level",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/when-will-the-selling-stop-jay-woods-and-others-are-watching-this-key-sp-500-level.html",
+          "snippet": "2026-03-09: When will the selling stop? Jay Woods and other traders are watching this key S&P 500 level: The broad market index is fast approaching its 200-day moving average, which is at 6,582.",
+          "guid": "108275364"
+        },
+        {
+          "title": "NYSE insider Jay Woods is watching these key levels on the S&P 500 and crude oil as U.S.-Iran conflict widens",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/nyse-insider-woods-watching-these-key-levels-on-the-sp-500-crude-oil.html",
+          "snippet": "2026-03-02: NYSE insider Jay Woods is watching these key levels on the S&P 500 and crude oil as U.S.-Iran conflict widens: Beyond the war, this week will see a highly-awaited February jobs report alon",
+          "guid": "108272057"
+        },
+        {
+          "title": "S&P 500 heads for first decline in 8 days on Oracle slide, shutdown angst: Live updates",
+          "date": "2025-10-07",
+          "link": "https://www.cnbc.com/2025/10/06/stock-market-today-live-updates.html",
+          "snippet": "2025-10-07: S&P 500 heads for first decline in 8 days on Oracle slide, shutdown angst: Live updates: Investors await more developments on the current U.S. government shutdown that is now on its second",
+          "guid": "108208432"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "8f19e3fc-a9bd-430c-b784-f367e1e9e7c0",
+      "label": "Nvidia earnings and AI outlook",
+      "spike_ratio": 1.25,
+      "article_count": 15,
+      "sentiment_score": 0.4,
+      "rag_answer": "Nvidia's earnings reports have consistently indicated strong demand for AI infrastructure, with the company being the only major tech stock to gain traction amid Wall Street's skepticism about AI spending. CEO Jensen Huang has emphasized the sustainability of a $660 billion capital expenditure buildout, despite ongoing concerns about whether the current investments in AI will yield future profitability. Analysts remain bullish on Nvidia, citing robust AI compute demand and favorable valuations compared to competitors. However, the broader market is still grappling with uncertainties regarding the potential for an AI bubble, as the debate over the long-term viability of these investments continues.",
+      "rag_sources": [
+        {
+          "title": "Nvidia earnings report collides with Wall Street skepticism over AI spending",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/nvidia-earnings-collide-with-wall-street-skepticism-over-ai-spending.html",
+          "snippet": "2026-02-24: Nvidia earnings report collides with Wall Street skepticism over AI spending: Nvidia is the only megacap tech stock to notch gains this year as investors have turned cautious on the hefty ",
+          "guid": "108268615"
+        },
+        {
+          "title": "Nvidia sent a strong signal on AI infrastructure \u2014 but is it a bubble barometer? ",
+          "date": "2025-11-20",
+          "link": "https://www.cnbc.com/2025/11/20/nvidia-sent-a-strong-signal-on-ai-infrastructure-but-is-it-a-bubble-barometer-.html",
+          "snippet": "2025-11-20: Nvidia sent a strong signal on AI infrastructure \u2014 but is it a bubble barometer?: Analysts agree that Nvidia's earnings are a clear signal of of strong demand for AI infrastructure. Less c",
+          "guid": "108228911"
+        },
+        {
+          "title": "AI trade faces key test before Nvidia earnings: AMD's analyst day",
+          "date": "2025-11-10",
+          "link": "https://www.cnbc.com/2025/11/10/ai-trade-faces-key-test-before-nvidia-earnings-amds-analyst-day.html",
+          "snippet": "2025-11-10: AI trade faces key test before Nvidia earnings: AMD's analyst day: Analysts will be watching AMD's expectations for AI market potential, profit and margins as well as any new customer part",
+          "guid": "108223628"
+        },
+        {
+          "title": "Nvidia rises 7% as Jensen Huang says $660 billion capex buildout is sustainable",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/nvidia-rises-7percent-as-ceo-says-660-billion-capex-buildout-is-sustainable.html",
+          "snippet": "2026-02-06: Nvidia rises 7% as Jensen Huang says $660 billion capex buildout is sustainable: Huang's comments come after key Nvidia customers Meta, Amazon, Google and Microsoft reported their latest e",
+          "guid": "108262641"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "improving",
+          "trend_delta": 1.333,
+          "mean_sentiment_score": -0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "4e7be4d8-a78f-4603-8cc8-2d594841b09b",
+      "label": "Interest Rates and Treasury Yields",
+      "spike_ratio": 1.121,
+      "article_count": 26,
+      "sentiment_score": 0.0418956043956044,
+      "rag_answer": "Interest rates and Treasury yields have been experiencing fluctuations influenced by various economic factors and geopolitical events. Recently, the 10-year Treasury yield has dipped as investors assess the Federal Reserve's monetary policy outlook for 2026, while yields have also been affected by rising oil prices and tensions in the Middle East. Additionally, there have been periods of stability and slight increases in yields as traders react to economic data and Fed decisions, including rate cuts. Overall, the market remains cautious, with investors closely monitoring economic indicators and geopolitical developments that could impact future interest rate movements.",
+      "rag_sources": [
+        {
+          "title": "10-year Treasury yield dips as investors assess interest rate outlook for 2026",
+          "date": "2025-12-29",
+          "link": "https://www.cnbc.com/2025/12/29/10-year-treasury-yield-in-focus-as-investors-assess-rate-outlook.html",
+          "snippet": "2025-12-29: 10-year Treasury yield dips as investors assess interest rate outlook for 2026: The moves come as traders digest the latest economic data and assess the Federal Reserve's monetary rate pat",
+          "guid": "108246099"
+        },
+        {
+          "title": "Treasury yields are stable as traders try to gauge impact of Trump's fight for Fed control",
+          "date": "2025-08-27",
+          "link": "https://www.cnbc.com/2025/08/27/us-treasury-yields-investors-look-ahead-to-key-inflation-data.html",
+          "snippet": "2025-08-27: Treasury yields are stable as traders try to gauge impact of Trump's fight for Fed control: Long-term U.S. Treasury yields backed off early highs Wednesday as traders tried to assess the e",
+          "guid": "108191159"
+        },
+        {
+          "title": "What the 10-year Treasury yield's chart tells us about where stocks are heading ",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/what-the-10-years-chart-tells-us-about-where-stocks-are-heading-.html",
+          "snippet": "2026-02-11: What the 10-year Treasury yield's chart tells us about where stocks are heading: If rates move\u00a0considerably higher after the strong run in equities, the pairing could create a bearish scen",
+          "guid": "108264558"
+        },
+        {
+          "title": "Treasury yields edge lower as investors weigh rising oil price, Iran attacks and looming Fed decision",
+          "date": "2026-03-17",
+          "link": "https://www.cnbc.com/2026/03/17/treasury-yields-middle-east-tensions-fed-decision.html",
+          "snippet": "2026-03-17: Treasury yields edge lower as investors weigh rising oil price, Iran attacks and looming Fed decision: Treasury yields edged lower as investors weighed mounting tensions in the Middle East",
+          "guid": "108278743"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "stable",
+          "trend_delta": 0.0,
+          "mean_sentiment_score": 0.667,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "4e0811b8-41ee-47f5-aed0-76182998c54d",
+      "label": "Student Loan Forgiveness Issues",
+      "spike_ratio": 1.066,
+      "article_count": 42,
+      "sentiment_score": 0.1113945578231292,
+      "rag_answer": "The backlog of student loan borrowers seeking Public Service Loan Forgiveness has significantly increased under the Trump administration, with over 800,000 borrowers currently awaiting decisions on their applications. Delays in processing requests for affordable repayment plans and debt forgiveness have prompted legal actions, including a class action complaint from the American Federation of Teachers. Additionally, the administration has moved to limit eligibility for forgiveness programs, which could further complicate access for some borrowers. These developments indicate a growing frustration among borrowers and potential financial strain as interest accrues on unpaid loans during the backlog.",
+      "rag_sources": [
+        {
+          "title": "Student loan borrower backlog for forgiveness swells to 74,510 under Trump",
+          "date": "2025-09-26",
+          "link": "https://www.cnbc.com/2025/09/26/student-loan-borrower-pslf-buyback-backlog.html",
+          "snippet": "2025-09-26: Student loan borrower backlog for forgiveness swells to 74,510 under Trump: The backlog of student loan borrowers trying to access Public Service Loan Forgiveness continues to grow under t",
+          "guid": "108203903"
+        },
+        {
+          "title": "Some student loan borrowers wait over a year in public servant debt forgiveness backlog",
+          "date": "2026-02-09",
+          "link": "https://www.cnbc.com/2026/02/09/pslf-public-service-loan-forgiveness-buyback-backlog.html",
+          "snippet": "2026-02-09: Some student loan borrowers wait over a year in public servant debt forgiveness backlog: More than 83,000 federal student loan borrowers are waiting for a Public Service Loan Forgiveness B",
+          "guid": "108254849"
+        },
+        {
+          "title": "Trump officials move slowly on student loan forgiveness, repayment plan backlog: court filing",
+          "date": "2025-12-16",
+          "link": "https://www.cnbc.com/2025/12/16/trump-student-loan-forgiveness-backlog.html",
+          "snippet": "2025-12-16: Trump officials move slowly on student loan forgiveness, repayment plan backlog: court filing: Hundreds of thousands of student loan borrowers remain stuck in a backlog of requests for an ",
+          "guid": "108242145"
+        },
+        {
+          "title": "Over 800,000 student loan borrowers remain in backlog for forgiveness, affordable repayment plans",
+          "date": "2026-01-15",
+          "link": "https://www.cnbc.com/2026/01/15/student-loan-forgiveness-repayment-plan-backlog.html",
+          "snippet": "2026-01-15: Over 800,000 student loan borrowers remain in backlog for forgiveness, affordable repayment plans: More than 800,000 federal student loan holders remain stuck in a backlog of applications ",
+          "guid": "108252878"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "stable",
+          "trend_delta": 0.0,
+          "mean_sentiment_score": 0.667,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}
