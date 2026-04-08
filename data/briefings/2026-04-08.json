@@ -1,0 +1,225 @@
+{
+  "date": "2026-04-08",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "8f19e3fc-a9bd-430c-b784-f367e1e9e7c0",
+      "label": "Nvidia earnings and AI outlook",
+      "spike_ratio": 1.328,
+      "article_count": 17,
+      "sentiment_score": 0.3529411764705882,
+      "rag_answer": "Nvidia's earnings reports have consistently exceeded Wall Street expectations, driven by strong demand for AI infrastructure and a significant capital expenditure buildout projected at $660 billion. CEO Jensen Huang has emphasized that AI will complement existing software tools, suggesting a sustainable growth trajectory for the company. Despite this optimism, there are concerns about the potential for an AI bubble, as the market remains cautious about the hefty investments in AI infrastructure. Overall, Nvidia's performance is seen as a critical indicator for the tech sector and broader market trends, particularly amid geopolitical uncertainties.",
+      "rag_sources": [
+        {
+          "title": "Nvidia earnings are out after market close. Here's what Wall Street expects to see",
+          "date": "2026-02-25",
+          "link": "https://www.cnbc.com/2026/02/25/nvidia-earnings-are-out-after-market-close-heres-what-wall-street-expects-to-see.html",
+          "snippet": "2026-02-25: Nvidia earnings are out after market close. Here's what Wall Street expects to see: Analysts remain bullish on Nvidia given strong AI capex expected this year, healthy AI compute demand an",
+          "guid": "108269964"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Watch CNBC's full interview with Nvidia CEO Jensen Huang after earnings and guidance beat",
+          "date": "2026-02-26",
+          "link": "https://www.cnbc.com/video/2026/02/26/jensen-x-squawk-asia-full.html",
+          "snippet": "2026-02-26: Watch CNBC's full interview with Nvidia CEO Jensen Huang after earnings and guidance beat: Nvidia CEO Jensen Huang discussed the company's earnings and revenue guidance with CNBC's Becky Q",
+          "guid": "108270212"
+        },
+        {
+          "title": "Nvidia earnings takeaways: A 'full steam' AI spend, but China uncertainty remains",
+          "date": "2025-08-28",
+          "link": "https://www.cnbc.com/2025/08/28/nvidia-stock-ai-spend.html",
+          "snippet": "2025-08-28: Nvidia earnings takeaways: A 'full steam' AI spend, but China uncertainty remains: CEO Jensen Huang said the company was in talks with the Trump administration about China chip sales.",
+          "guid": "108191838"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "improving",
+          "trend_delta": 1.333,
+          "mean_sentiment_score": -0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "870e8477-dc1b-4788-b4a6-60f9e553f80e",
+      "label": "Obesity Drug Market Developments",
+      "spike_ratio": 1.266,
+      "article_count": 40,
+      "sentiment_score": 0.194047619047619,
+      "rag_answer": "The obesity drug market is experiencing significant developments, particularly with the launch of Novo Nordisk's first GLP-1 obesity pill in the U.S. and the anticipated approval of a rival oral drug from Eli Lilly. This competition is intensifying as both companies aim to dominate the market, with Medicare beginning to cover obesity drugs, potentially increasing access for millions of seniors. Additionally, smaller players are entering the market, which could further challenge the established leaders. Overall, the landscape is shifting towards more accessible and diverse treatment options, with implications for pricing and market share among key players.",
+      "rag_sources": [
+        {
+          "title": "What the Iran war market turmoil means for those nearing retirement",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/iran-war-market-volatility-retirement.html",
+          "snippet": "2026-03-05: What the Iran war market turmoil means for those nearing retirement: Market shakiness may not concern long-term investors, but it could be a useful wake-up call for those on the precipice ",
+          "guid": "108272020"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "a6911053-deec-44da-91d1-bfa94b65b030",
+      "label": "S&P 500 Market Analysis",
+      "spike_ratio": 1.145,
+      "article_count": 19,
+      "sentiment_score": 0.0911654135338345,
+      "rag_answer": "The S&P 500 has been experiencing significant volatility, caught in a tight trading range for nearly four months, with recent reports indicating it is approaching its 200-day moving average. Analysts are closely monitoring key levels as the index faces pressure from external factors, including geopolitical tensions and economic indicators like the upcoming jobs report. Despite some recent gains, concerns about overbought conditions and the impact of rate cuts on market performance persist, suggesting a cautious outlook among investors. Overall, the market appears to be at a critical juncture, with potential implications for future momentum and investor sentiment.",
+      "rag_sources": [
+        {
+          "title": "The S&P 500 is caught in an unusually tight range. Is this bull market resilient or exhausted?  ",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/23/the-sp-500-is-caught-in-an-unusually-tight-range-is-this-bull-market-resilient-or-exhausted-.html",
+          "snippet": "2026-02-23: The S&P 500 is caught in an unusually tight range. Is this bull market resilient or exhausted?: Mike Santoli looks at how the S&P 500 has spent nearly four months in an unusually tight ran",
+          "guid": "108268352"
+        },
+        {
+          "title": "When will the selling stop? Jay Woods and other traders are watching this key S&P 500 level",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/when-will-the-selling-stop-jay-woods-and-others-are-watching-this-key-sp-500-level.html",
+          "snippet": "2026-03-09: When will the selling stop? Jay Woods and other traders are watching this key S&P 500 level: The broad market index is fast approaching its 200-day moving average, which is at 6,582.",
+          "guid": "108275364"
+        },
+        {
+          "title": "NYSE insider Jay Woods is watching these key levels on the S&P 500 and crude oil as U.S.-Iran conflict widens",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/nyse-insider-woods-watching-these-key-levels-on-the-sp-500-crude-oil.html",
+          "snippet": "2026-03-02: NYSE insider Jay Woods is watching these key levels on the S&P 500 and crude oil as U.S.-Iran conflict widens: Beyond the war, this week will see a highly-awaited February jobs report alon",
+          "guid": "108272057"
+        },
+        {
+          "title": "S&P 500 heads for first decline in 8 days on Oracle slide, shutdown angst: Live updates",
+          "date": "2025-10-07",
+          "link": "https://www.cnbc.com/2025/10/06/stock-market-today-live-updates.html",
+          "snippet": "2025-10-07: S&P 500 heads for first decline in 8 days on Oracle slide, shutdown angst: Live updates: Investors await more developments on the current U.S. government shutdown that is now on its second",
+          "guid": "108208432"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "9496948d-ec01-4464-8542-c12c5b038081",
+      "label": "Mortgage Demand and Housing Market",
+      "spike_ratio": 1.103,
+      "article_count": 15,
+      "sentiment_score": 0.1238095238095238,
+      "rag_answer": "Mortgage demand has been highly volatile, experiencing significant fluctuations due to changing interest rates and economic uncertainty, particularly related to the ongoing war with Iran. Recently, mortgage rates surged, leading to a more than 40% drop in refinance demand and a general decline in homebuyer interest, which is reversing expectations of a housing market recovery. The combination of higher rates and economic instability is putting pressure on the housing market, with implications for affordability and potential declines in home prices in certain areas. Overall, the outlook for the housing market remains challenging as consumers grapple with elevated mortgage rates and broader economic concerns.",
+      "rag_sources": [
+        {
+          "title": "These funds protect against market drops. Demand is booming",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/these-funds-protect-against-market-drops-demand-is-booming.html",
+          "snippet": "2026-02-11: These funds protect against market drops. Demand is booming: Buffer ETFs could see assets quadruple over a five-year period, according to Cerulli Associates. What to know before investing.",
+          "guid": "108264590"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Mortgage rates jump 20 basis points following Fed cut",
+          "date": "2025-10-30",
+          "link": "https://www.cnbc.com/2025/10/30/mortgage-rates-fed-cut.html",
+          "snippet": "2025-10-30: Mortgage rates jump 20 basis points following Fed cut: Mortgage rates surged higher after the Federal Reserve cut its benchmark interest rate. The market reacted to comments from the chair",
+          "guid": "108219495"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.333,
+          "mean_sentiment_score": 0.5,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "8f45332d-a6a8-47e9-b859-303764889e37",
+      "label": "Anthropic-Pentagon AI Dispute",
+      "spike_ratio": 1.091,
+      "article_count": 24,
+      "sentiment_score": 0.2730654761904762,
+      "rag_answer": "The Anthropic-Pentagon AI dispute centers around the U.S. Department of Defense's demands for greater control over the use of Anthropic's AI models for military applications, including weapons development and intelligence operations. Anthropic has faced pressure from the Pentagon, which has threatened to cut off the company if it does not comply with these demands. Despite the Pentagon's threats, Anthropic's CEO has stated that their position remains unchanged, indicating ongoing negotiations. This conflict highlights the broader implications of AI in military strategy and raises concerns about the balance of power in future warfare, potentially impacting investor sentiment in the tech sector, particularly for companies involved in defense-related AI technologies.",
+      "rag_sources": [
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "AI disruption could spark a \u2018shock to the system\u2019 in credit markets, UBS analyst says",
+          "date": "2026-02-13",
+          "link": "https://www.cnbc.com/2026/02/13/ai-credit-markets.html",
+          "snippet": "2026-02-13: AI disruption could spark a \u2018shock to the system\u2019 in credit markets, UBS analyst says: UBS analyst Matthew Mish told CNBC that the artificial intelligence transformation is happening faste",
+          "guid": "108265643"
+        },
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "improving",
+          "trend_delta": 1.333,
+          "mean_sentiment_score": -0.333,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}
