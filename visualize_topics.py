@@ -75,6 +75,7 @@ import matplotlib.animation as animation
 import matplotlib.dates as mdates
 import matplotlib.ticker
 from matplotlib.colors import LogNorm, TwoSlopeNorm
+import matplotlib.lines as mlines
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -680,12 +681,23 @@ def plot_signal_scatter(df: pd.DataFrame, out_path: Path) -> None:
     cbar.set_label("sentiment delta  (green=improving · red=deteriorating · grey=unknown)",
                    fontsize=8)
 
-    # Legend for dot size
-    for cnt_val, label in [(10, "10 articles"), (30, "30 articles"), (60, "60 articles")]:
+    # Legend for dot size — use Line2D proxy handles to avoid PathCollection
+    # crash on log-scale axes when scatter([], []) produces an empty path.
+    legend_handles = []
+    for cnt_val, lbl in [(10, "10 articles"), (30, "30 articles"), (60, "60 articles")]:
         if cnt_val <= c_max:
             s = size_min + (cnt_val - c_min) / max(c_max - c_min, 1) * (size_max - size_min)
-            ax.scatter([np.nan], [np.nan], s=s, c="#888888", alpha=0.6, label=label, edgecolors="#444444")
-    ax.legend(title="article count", loc="upper left", fontsize=7, title_fontsize=7)
+            # scatter 's' is area in pt²; markersize is diameter in pt → 2*sqrt(s/π)
+            ms = 2.0 * np.sqrt(s / np.pi)
+            legend_handles.append(mlines.Line2D(
+                [], [], linewidth=0, marker="o",
+                color="#888888", alpha=0.6,
+                markeredgecolor="#444444", markeredgewidth=0.5,
+                markersize=ms, label=lbl,
+            ))
+    if legend_handles:
+        ax.legend(handles=legend_handles, title="article count",
+                  loc="upper left", fontsize=7, title_fontsize=7)
 
     ax.set_xscale("log")
     ax.set_xlabel("Spike ratio  (log scale — today vs. 7-day baseline)", fontsize=10)
