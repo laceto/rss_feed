@@ -684,7 +684,7 @@ def plot_signal_scatter(df: pd.DataFrame, out_path: Path) -> None:
     for cnt_val, label in [(10, "10 articles"), (30, "30 articles"), (60, "60 articles")]:
         if cnt_val <= c_max:
             s = size_min + (cnt_val - c_min) / max(c_max - c_min, 1) * (size_max - size_min)
-            ax.scatter([], [], s=s, c="#888888", alpha=0.6, label=label, edgecolors="#444444")
+            ax.scatter([np.nan], [np.nan], s=s, c="#888888", alpha=0.6, label=label, edgecolors="#444444")
     ax.legend(title="article count", loc="upper left", fontsize=7, title_fontsize=7)
 
     ax.set_xscale("log")
