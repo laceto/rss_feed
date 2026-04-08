@@ -1,19 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-01-07	Alaska Airlines	Producer Manufacturing	positive	1	markets
-2026-01-07	Boeing	Producer Manufacturing	positive	1	markets
-2026-01-07	Goldman Sachs	Finance	positive	1	markets
-2026-01-07	India economy	Consumer Non-Durables	positive	1	macro
-2026-01-07	JPMorgan	Finance	positive	1	regulation
-2026-01-07	Nicolas Maduro	Energy Minerals	positive	1	macro
-2026-01-07	Nvidia	Electronic Technology	neutral	0	products
-2026-01-07	Sandisk	Electronic Technology	positive	1	markets
-2026-01-07	Tesla	Electronic Technology	neutral	0	products
-2026-01-07	Teucrium Venezuela Exposure ETF	Finance	positive	1	markets
-2026-01-07	U.S. government	Energy Minerals	positive	1	macro
-2026-01-07	Venezuela	Energy Minerals	positive	1	macro
-2026-01-07	Venezuela stock exchange	Finance	positive	1	markets
-2026-01-07	call options	Finance	positive	1	markets
-2026-01-07	proxy advisors	Finance	positive	1	regulation
 2026-01-08	China	Producer Manufacturing	negative	-1	markets
 2026-01-08	Danish officials	Energy Minerals	neutral	0	macro
 2026-01-08	Defense stocks	Transportation	positive	1	markets
@@ -1112,3 +1097,21 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-04-07	SpaceX	Producer Manufacturing	neutral	0	markets
 2026-04-07	UnitedHealth	Electronic Technology	negative	-1	markets
 2026-04-07	Vlad Tenev	Finance	positive	1	products
+2026-04-08	Alexandr Wang	Electronic Technology	positive	1	products
+2026-04-08	Alibaba	Electronic Technology	positive	1	products
+2026-04-08	Amazon	Distribution Services	negative	-1	markets
+2026-04-08	China Telecom	Electronic Technology	positive	1	products
+2026-04-08	Chipmaking	Electronic Technology	neutral	0	markets
+2026-04-08	Delta Air Lines	Transportation	positive	1	markets
+2026-04-08	IndiGo	Transportation	positive	1	markets
+2026-04-08	Meta	Electronic Technology	positive	1	products
+2026-04-08	Meta Superintelligence Labs	Electronic Technology	positive	1	products
+2026-04-08	Nvidia	Electronic Technology	neutral	0	markets
+2026-04-08	Oil	Energy Minerals	negative	-1	macro
+2026-04-08	TSMC	Electronic Technology	neutral	0	markets
+2026-04-08	Target	Distribution Services	negative	-1	markets
+2026-04-08	U.S. Treasury	Finance	negative	-1	macro
+2026-04-08	U.S. Treasury yields	Finance	negative	-1	macro
+2026-04-08	U.S. housing markets	Consumer Durables	negative	-1	macro
+2026-04-08	Walmart	Distribution Services	negative	-1	markets
+2026-04-08	gas prices	Energy Minerals	negative	-1	macro

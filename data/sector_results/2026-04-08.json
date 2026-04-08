@@ -1,0 +1,88 @@
+{
+  "date": "2026-04-08",
+  "batch_id": "batch_69d6b31419288190b6c374464da59225",
+  "sectors": [
+    {
+      "entities": [
+        "Meta",
+        "Alexandr Wang",
+        "Meta Superintelligence Labs"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Nvidia",
+        "TSMC",
+        "Chipmaking"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Alibaba",
+        "China Telecom"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Delta Air Lines",
+        "IndiGo"
+      ],
+      "sector": "Transportation",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Walmart",
+        "Amazon",
+        "Target"
+      ],
+      "sector": "Distribution Services",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "U.S. Treasury",
+        "U.S. Treasury yields"
+      ],
+      "sector": "Finance",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "U.S. housing markets"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Oil",
+        "gas prices"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    }
+  ]
+}
