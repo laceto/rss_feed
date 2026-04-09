@@ -1,24 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-01-08	China	Producer Manufacturing	negative	-1	markets
-2026-01-08	Danish officials	Energy Minerals	neutral	0	macro
-2026-01-08	Defense stocks	Transportation	positive	1	markets
-2026-01-08	EV	Consumer Durables	positive	1	products
-2026-01-08	EV	Producer Manufacturing	negative	-1	markets
-2026-01-08	Ford	Consumer Durables	positive	1	products
-2026-01-08	GM	Producer Manufacturing	negative	-1	markets
-2026-01-08	Gemini AI	Electronic Technology	positive	1	products
-2026-01-08	Gmail	Electronic Technology	positive	1	products
-2026-01-08	Google	Electronic Technology	positive	1	products
-2026-01-08	Greenland	Energy Minerals	neutral	0	macro
-2026-01-08	Intel	Electronic Technology	positive	1	markets
-2026-01-08	Manus	Electronic Technology	neutral	0	regulation
-2026-01-08	Meta	Electronic Technology	neutral	0	regulation
-2026-01-08	Nicolas Maduro	Energy Minerals	negative	-1	macro
-2026-01-08	Trump	Energy Minerals	neutral	0	macro
-2026-01-08	Trump	Transportation	positive	1	markets
-2026-01-08	Trump	Electronic Technology	positive	1	markets
-2026-01-08	U.S. military	Energy Minerals	negative	-1	macro
-2026-01-08	Venezuela	Energy Minerals	negative	-1	macro
 2026-01-09	Amazon	Retail Trade	positive	1	products
 2026-01-09	China	Energy Minerals	neutral	0	macro
 2026-01-09	Fannie Mae	Finance	positive	1	macro
@@ -1115,3 +1095,21 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-04-08	U.S. housing markets	Consumer Durables	negative	-1	macro
 2026-04-08	Walmart	Distribution Services	negative	-1	markets
 2026-04-08	gas prices	Energy Minerals	negative	-1	macro
+2026-04-09	Amazon	Retail Trade	positive	1	products
+2026-04-09	American Airlines	Transportation	neutral	0	markets
+2026-04-09	Anthropic	Technology Services	neutral	0	products
+2026-04-09	Delta	Transportation	neutral	0	markets
+2026-04-09	Disney	Consumer Durables	neutral	0	other
+2026-04-09	Iran	Energy Minerals	neutral	0	macro
+2026-04-09	Israel	Energy Minerals	neutral	0	macro
+2026-04-09	JetBlue	Transportation	neutral	0	markets
+2026-04-09	Kia	Producer Manufacturing	neutral	0	products
+2026-04-09	Meta	Technology Services	neutral	0	products
+2026-04-09	Morgan Stanley	Finance	positive	1	earnings
+2026-04-09	NATO	Industrial Services	neutral	0	regulation
+2026-04-09	OpenAI	Technology Services	neutral	0	products
+2026-04-09	Southwest	Transportation	neutral	0	markets
+2026-04-09	U.S.	Energy Minerals	neutral	0	macro
+2026-04-09	U.S. military	Energy Minerals	neutral	0	macro
+2026-04-09	UAE	Energy Minerals	neutral	0	macro
+2026-04-09	United	Transportation	neutral	0	markets

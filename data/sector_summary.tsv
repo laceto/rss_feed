@@ -1555,3 +1555,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-04-08	Finance	U.S. Treasury|U.S. Treasury yields	negative	macro	ok
 2026-04-08	Consumer Durables	U.S. housing markets	negative	macro	ok
 2026-04-08	Energy Minerals	Oil|gas prices	negative	macro	ok
+2026-04-09	Energy Minerals	Iran|U.S.|Israel|UAE|U.S. military	neutral	macro	ok
+2026-04-09	Consumer Durables	Disney	neutral	other	ok
+2026-04-09	Finance	Morgan Stanley	positive	earnings	ok
+2026-04-09	Technology Services	OpenAI|Anthropic|Meta	neutral	products	ok
+2026-04-09	Transportation	American Airlines|Delta|United|Southwest|JetBlue	neutral	markets	ok
+2026-04-09	Retail Trade	Amazon	positive	products	ok
+2026-04-09	Producer Manufacturing	Kia	neutral	products	ok
+2026-04-09	Industrial Services	NATO	neutral	regulation	ok
