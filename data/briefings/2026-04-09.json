@@ -1,0 +1,232 @@
+{
+  "date": "2026-04-09",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "2fbfc251-eaea-4872-8901-6018815599e6",
+      "label": "AI Demand and Chip Earnings",
+      "spike_ratio": 1.385,
+      "article_count": 30,
+      "sentiment_score": 0.125,
+      "rag_answer": "AI demand is driving a significant surge in chip earnings, with companies like Nvidia, TSMC, and AMD reporting robust profits fueled by the AI infrastructure boom. Shortages in memory and other components are emerging due to this heightened demand, impacting consumer electronics prices. Analysts are closely monitoring the market for signs of sustainability in AI spending, as concerns about a potential bubble persist. Overall, the AI sector is reshaping the chip market, leading to increased revenues and strategic shifts among major players.",
+      "rag_sources": [
+        {
+          "title": "These funds protect against market drops. Demand is booming",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/these-funds-protect-against-market-drops-demand-is-booming.html",
+          "snippet": "2026-02-11: These funds protect against market drops. Demand is booming: Buffer ETFs could see assets quadruple over a five-year period, according to Cerulli Associates. What to know before investing.",
+          "guid": "108264590"
+        },
+        {
+          "title": "Micron stops selling memory to consumers as demand spikes from AI chips",
+          "date": "2025-12-03",
+          "link": "https://www.cnbc.com/2025/12/03/micron-stops-selling-memory-to-consumers-demand-spikes-from-ai-chips.html",
+          "snippet": "2025-12-03: Micron stops selling memory to consumers as demand spikes from AI chips: Demand driven by the AI infrastructure boom is creating shortages for certain products like memory.",
+          "guid": "108236104"
+        },
+        {
+          "title": "Chip stocks including Nvidia are holding up despite market volatility, according to the charts",
+          "date": "2026-03-10",
+          "link": "https://www.cnbc.com/2026/03/10/chip-stocks-including-nvidia-are-holding-up-despite-market-volatility-according-to-the-charts.html",
+          "snippet": "2026-03-10: Chip stocks including Nvidia are holding up despite market volatility, according to the charts: Todd Gordon takes a look at the technicals in Nvidia and other chipmakers.",
+          "guid": "108276190"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "improving",
+          "trend_delta": 1.25,
+          "mean_sentiment_score": -0.286,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "ad0fef60-4749-4e85-809e-e1e6af36a370",
+      "label": "Kevin Warsh Fed Chair Nomination",
+      "spike_ratio": 1.235,
+      "article_count": 14,
+      "sentiment_score": -0.0625,
+      "rag_answer": "Kevin Warsh has been nominated by President Trump to succeed Jerome Powell as Fed chair, but his confirmation is facing significant hurdles due to a federal criminal investigation into Powell. Senator Thom Tillis has vowed to block Warsh's nomination until the investigation is resolved, creating a political stalemate. Despite this, investors view Warsh as a credible candidate who may advocate for lower interest rates, which could impact consumer borrowing costs and savings rates. The ongoing uncertainty surrounding his nomination has contributed to market volatility, as traders react to the potential implications of his leadership on monetary policy.",
+      "rag_sources": [
+        {
+          "title": "Analysis: What might trip up Kevin Warsh and his agenda as Fed chair",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/analysis-what-might-trip-up-kevin-warsh-and-his-agenda-as-fed-chair.html",
+          "snippet": "2026-03-27: Analysis: What might trip up Kevin Warsh and his agenda as Fed chair: Kevin Warsh would enter the Fed as its chair with an agenda to enact that goes beyond cutting interest rates.",
+          "guid": "108284071"
+        },
+        {
+          "title": "Trump officially nominates Kevin Warsh as Fed chair to replace Jerome Powell",
+          "date": "2026-03-04",
+          "link": "https://www.cnbc.com/2026/03/04/trump-federal-reserve-kevin-warsh-senate.html",
+          "snippet": "2026-03-04: Trump officially nominates Kevin Warsh as Fed chair to replace Jerome Powell: Sen. Thom Tillis has said he would block Kevin Warsh's nomination until a federal criminal investigation of Fe",
+          "guid": "108273607"
+        },
+        {
+          "title": "Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/trump-finally-makes-his-fed-chair-pick-what-kevin-warsh-means-for-investors.html",
+          "snippet": "2026-01-30: Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors: Investors see the former Fed governor as a credible steward of monetary policy despite expectations he may pu",
+          "guid": "108259473"
+        },
+        {
+          "title": "Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/who-is-kevin-warsh-trumps-fed-chair-pick.html",
+          "snippet": "2026-01-30: Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve: Kevin Warsh, a former Fed governor, has emerged as Donald Trump\u2019s pick to lead the Federal Reserve.",
+          "guid": "108259461"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.238,
+          "mean_sentiment_score": 0.538,
+          "data_age_days": null
+        },
+        {
+          "sector": "Technology Services",
+          "trend_direction": "improving",
+          "trend_delta": 1.25,
+          "mean_sentiment_score": -0.286,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "a6911053-deec-44da-91d1-bfa94b65b030",
+      "label": "S&P 500 Market Analysis",
+      "spike_ratio": 1.222,
+      "article_count": 22,
+      "sentiment_score": 0.0662337662337662,
+      "rag_answer": "The S&P 500 has been experiencing significant volatility, caught in a tight trading range for nearly four months, with recent reports indicating it is approaching its 200-day moving average. Analysts are closely monitoring key levels as the index faces pressure from external factors, including geopolitical tensions and economic indicators like the upcoming jobs report. Despite some bullish forecasts, concerns about the market's resilience persist, especially following a notable decline and the potential impact of rate cuts. Overall, the market is navigating a complex landscape of economic signals and investor sentiment, leading to uncertainty about its future direction.",
+      "rag_sources": [
+        {
+          "title": "The S&P 500 is caught in an unusually tight range. Is this bull market resilient or exhausted?  ",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/23/the-sp-500-is-caught-in-an-unusually-tight-range-is-this-bull-market-resilient-or-exhausted-.html",
+          "snippet": "2026-02-23: The S&P 500 is caught in an unusually tight range. Is this bull market resilient or exhausted?: Mike Santoli looks at how the S&P 500 has spent nearly four months in an unusually tight ran",
+          "guid": "108268352"
+        },
+        {
+          "title": "When will the selling stop? Jay Woods and other traders are watching this key S&P 500 level",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/when-will-the-selling-stop-jay-woods-and-others-are-watching-this-key-sp-500-level.html",
+          "snippet": "2026-03-09: When will the selling stop? Jay Woods and other traders are watching this key S&P 500 level: The broad market index is fast approaching its 200-day moving average, which is at 6,582.",
+          "guid": "108275364"
+        },
+        {
+          "title": "NYSE insider Jay Woods is watching these key levels on the S&P 500 and crude oil as U.S.-Iran conflict widens",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/nyse-insider-woods-watching-these-key-levels-on-the-sp-500-crude-oil.html",
+          "snippet": "2026-03-02: NYSE insider Jay Woods is watching these key levels on the S&P 500 and crude oil as U.S.-Iran conflict widens: Beyond the war, this week will see a highly-awaited February jobs report alon",
+          "guid": "108272057"
+        },
+        {
+          "title": "S&P 500 heads for first decline in 8 days on Oracle slide, shutdown angst: Live updates",
+          "date": "2025-10-07",
+          "link": "https://www.cnbc.com/2025/10/06/stock-market-today-live-updates.html",
+          "snippet": "2025-10-07: S&P 500 heads for first decline in 8 days on Oracle slide, shutdown angst: Live updates: Investors await more developments on the current U.S. government shutdown that is now on its second",
+          "guid": "108208432"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "870e8477-dc1b-4788-b4a6-60f9e553f80e",
+      "label": "Obesity Drug Market Developments",
+      "spike_ratio": 1.161,
+      "article_count": 39,
+      "sentiment_score": 0.1894078144078144,
+      "rag_answer": "The obesity drug market is experiencing significant developments, particularly with the launch of Novo Nordisk's GLP-1 obesity pill, which is expected to reshape the market landscape. Eli Lilly is also preparing to introduce a rival oral drug, intensifying competition between the two companies. Medicare's new coverage for obesity drugs could expand access to millions of seniors, potentially increasing prescription volumes and market growth. As competition heats up, drugmakers are focusing on easier access, pricing strategies, and the introduction of combination therapies to capture a larger share of the market.",
+      "rag_sources": [
+        {
+          "title": "What the Iran war market turmoil means for those nearing retirement",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/iran-war-market-volatility-retirement.html",
+          "snippet": "2026-03-05: What the Iran war market turmoil means for those nearing retirement: Market shakiness may not concern long-term investors, but it could be a useful wake-up call for those on the precipice ",
+          "guid": "108272020"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "8f19e3fc-a9bd-430c-b784-f367e1e9e7c0",
+      "label": "Nvidia earnings and AI outlook",
+      "spike_ratio": 1.143,
+      "article_count": 16,
+      "sentiment_score": 0.3671875,
+      "rag_answer": "Nvidia's earnings reports have consistently exceeded Wall Street expectations, driven by strong demand for AI infrastructure and a significant capital expenditure buildout projected at $660 billion. CEO Jensen Huang has emphasized that AI will complement existing software tools, suggesting a sustainable growth trajectory for the company. Despite this optimism, there are concerns about the potential for an AI bubble, as the market remains cautious about the hefty investments in AI infrastructure. Overall, Nvidia's performance is seen as a critical indicator for the tech sector and broader market trends, particularly amid geopolitical uncertainties.",
+      "rag_sources": [
+        {
+          "title": "Nvidia earnings are out after market close. Here's what Wall Street expects to see",
+          "date": "2026-02-25",
+          "link": "https://www.cnbc.com/2026/02/25/nvidia-earnings-are-out-after-market-close-heres-what-wall-street-expects-to-see.html",
+          "snippet": "2026-02-25: Nvidia earnings are out after market close. Here's what Wall Street expects to see: Analysts remain bullish on Nvidia given strong AI capex expected this year, healthy AI compute demand an",
+          "guid": "108269964"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Watch CNBC's full interview with Nvidia CEO Jensen Huang after earnings and guidance beat",
+          "date": "2026-02-26",
+          "link": "https://www.cnbc.com/video/2026/02/26/jensen-x-squawk-asia-full.html",
+          "snippet": "2026-02-26: Watch CNBC's full interview with Nvidia CEO Jensen Huang after earnings and guidance beat: Nvidia CEO Jensen Huang discussed the company's earnings and revenue guidance with CNBC's Becky Q",
+          "guid": "108270212"
+        },
+        {
+          "title": "Nvidia earnings takeaways: A 'full steam' AI spend, but China uncertainty remains",
+          "date": "2025-08-28",
+          "link": "https://www.cnbc.com/2025/08/28/nvidia-stock-ai-spend.html",
+          "snippet": "2025-08-28: Nvidia earnings takeaways: A 'full steam' AI spend, but China uncertainty remains: CEO Jensen Huang said the company was in talks with the Trump administration about China chip sales.",
+          "guid": "108191838"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "improving",
+          "trend_delta": 1.25,
+          "mean_sentiment_score": -0.286,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}
