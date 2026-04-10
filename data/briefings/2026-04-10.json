@@ -1,0 +1,209 @@
+{
+  "date": "2026-04-10",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "fc76618c-c388-4a12-9fe7-c5e743308f92",
+      "label": "Trump tariffs Supreme Court ruling",
+      "spike_ratio": 1.453,
+      "article_count": 34,
+      "sentiment_score": 0.3172268907563025,
+      "rag_answer": "The U.S. Supreme Court recently ruled against President Trump's global tariffs, striking down significant portions of his tariff policies, which has been described as a major rebuke of his economic strategy. Following the ruling, Trump announced a new 10% global tariff, despite the court's decision, leading to ongoing confusion and financial implications for U.S. importers who continue to pay these tariffs. The ruling has prompted discussions among congressional members about the future of tariff policies and potential refunds for businesses affected by the illegal tariffs. Market analysts are closely monitoring the situation, anticipating significant adjustments in the economy and financial markets as a result of these developments.",
+      "rag_sources": [
+        {
+          "title": "Supreme Court justices appear skeptical that Trump tariffs are legal",
+          "date": "2025-11-05",
+          "link": "https://www.cnbc.com/2025/11/05/supreme-court-trump-trade-tarrifs-vos.html",
+          "snippet": "2025-11-05: Supreme Court justices appear skeptical that Trump tariffs are legal: President Donald Trump calls the Supreme Court case on his tariffs a matter of \\life or death\\\" for the United States.",
+          "guid": "108221659"
+        },
+        {
+          "title": "Trump announces new 10% global tariff after raging over Supreme Court loss",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/trump-global-trade-tariff-supreme-court.html",
+          "snippet": "2026-02-20: Trump announces new 10% global tariff after raging over Supreme Court loss: President Donald Trump spoke hours after the Supreme Court ruled against his global tariffs that he imposed with",
+          "guid": "108268039"
+        },
+        {
+          "title": "U.S. importers still paying Trump's illegal tariffs even after Supreme Court ruling",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/22/trump-tariffs-ieepa-supreme-court.html",
+          "snippet": "2026-02-23: U.S. importers still paying Trump's illegal tariffs even after Supreme Court ruling: Billions in U.S. cargo are still being slapped with Trump's \\reciprocal\\\" tariffs even after being stru",
+          "guid": "108268246"
+        },
+        {
+          "title": "U.S. trading partners cheer Supreme Court tariff ruling \u2014 but businesses must still navigate 'murky waters'",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/supreme-court-tariff-ruling-trade-world-leaders-react-trump.html",
+          "snippet": "2026-02-20: U.S. trading partners cheer Supreme Court tariff ruling \u2014 but businesses must still navigate 'murky waters': The U.S. Supreme Court voted 6-3 to strike down large parts of President Trump'",
+          "guid": "108267939"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "improving",
+          "trend_delta": 1.0,
+          "mean_sentiment_score": -0.25,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "6efff227-9da9-439e-88e0-c0d9ba2624c3",
+      "label": "Middle East conflict impact on markets",
+      "spike_ratio": 1.228,
+      "article_count": 14,
+      "sentiment_score": 0.2857142857142857,
+      "rag_answer": "The ongoing conflict in the Middle East, particularly involving Iran, has led to significant volatility in global markets. Investors are reacting to surging oil prices and disruptions in sectors such as aviation and luxury goods, with many markets experiencing sharp declines as uncertainty persists. Asia-Pacific and European markets have shown mixed responses, with some days of gains followed by substantial losses as the situation evolves. Additionally, the conflict is affecting countries like India, which faces risks to energy, aviation, and remittances, highlighting the broader economic implications of the turmoil.",
+      "rag_sources": [
+        {
+          "title": "Asia-Pacific markets mostly higher as investors weigh developments in the Middle East",
+          "date": "2026-03-11",
+          "link": "https://www.cnbc.com/2026/03/11/asia-pacific-markets-nikkei-225-kospi-hang-seng-index-oil-wti-brent-iran-war.html",
+          "snippet": "2026-03-11: Asia-Pacific markets mostly higher as investors weigh developments in the Middle East: Asia-Pacific markets traded mostly higher on Wednesday as investors assessed the ongoing Middle East ",
+          "guid": "108276385"
+        },
+        {
+          "title": "Luxury stocks slump as Middle East conflict risks one of the sector\u2019s 'few bright spots\u2019",
+          "date": "2026-03-03",
+          "link": "https://www.cnbc.com/2026/03/03/luxury-stocks-iran-strikes-lvmh-kering-gucci-richemont.html",
+          "snippet": "2026-03-03: Luxury stocks slump as Middle East conflict risks one of the sector\u2019s 'few bright spots\u2019: The Middle East has been one of the few bright spots in a sector that is struggling to get sales b",
+          "guid": "108272638"
+        },
+        {
+          "title": "Why India looks especially vulnerable as conflict rages in Middle East",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/india-impact-iran-middle-east-conflict-oil-prices-airlines.html",
+          "snippet": "2026-03-02: Why India looks especially vulnerable as conflict rages in Middle East: As conflict in the Middle East causes surging oil prices and disrupts the aviation sector, India is coming under pre",
+          "guid": "108271742"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "5823ee94-e00d-44a9-9e8d-b407cdf8aef8",
+      "label": "Iran-U.S. Tensions and Oil Market",
+      "spike_ratio": 1.192,
+      "article_count": 36,
+      "sentiment_score": 0.2223875661375661,
+      "rag_answer": "Tensions between the U.S. and Iran have escalated significantly, particularly following U.S.-Israeli military actions that resulted in the death of Ayatollah Ali Khamenei, leading to fears of major disruptions in oil supplies from the Middle East. Oil prices have reacted sharply, with significant fluctuations; for instance, prices surged by 11% after President Trump indicated the conflict could last several weeks. Market analysts warn that the ongoing conflict may not only impact oil prices but could also lead to broader economic repercussions, including rising inflation and increased retail prices in the U.S. As the situation develops, traders are closely monitoring negotiations and military actions, which continue to drive volatility in the oil market.",
+      "rag_sources": [
+        {
+          "title": "Oil jumps 4% after Vance says Iran ignored key U.S. demands, military strikes on the table",
+          "date": "2026-02-18",
+          "link": "https://www.cnbc.com/2026/02/18/oil-prices-today-iran-trump-nuclear-talks.html",
+          "snippet": "2026-02-18: Oil jumps 4% after Vance says Iran ignored key U.S. demands, military strikes on the table: Oil traders are worried that war between the U.S. and Iran could lead to a major disruption of c",
+          "guid": "108266679"
+        },
+        {
+          "title": "Oil markets are being pulled in every direction. Here\u2019s how market watchers are navigating it",
+          "date": "2026-01-15",
+          "link": "https://www.cnbc.com/2026/01/15/iran-protests-venezuela-trump-oil-markets-price-outlook.html",
+          "snippet": "2026-01-15: Oil markets are being pulled in every direction. Here\u2019s how market watchers are navigating it: Oil prices rose as a potential U.S. strike on Iran loomed, but sank on Thursday after Trump h",
+          "guid": "108252875"
+        },
+        {
+          "title": "Oil pulls back as U.S.\u2013Iran talks set to resume: Here\u2019s where negotiations stand",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/23/iran-us-talks-oil-falls-nuclear-negotiations.html",
+          "snippet": "2026-02-23: Oil pulls back as U.S.\u2013Iran talks set to resume: Here\u2019s where negotiations stand: Tensions have remained on high alert throughout the Middle East for weeks after U.S. President Donald Trum",
+          "guid": "108268317"
+        },
+        {
+          "title": "U.S. crude oil jumps more than 5%, half the session high, as market monitors Iran war",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/01/crude-oil-futures-iran.html",
+          "snippet": "2026-03-02: U.S. crude oil jumps more than 5%, half the session high, as market monitors Iran war: It is unclear who will ultimately govern Iran, the fourth-largest oil producer in OPEC, after U.S.-Is",
+          "guid": "108271590"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "5ffc8c87-a3f1-4609-959b-bb08bc69043c",
+      "label": "Epstein Connections and Fallout",
+      "spike_ratio": 1.15,
+      "article_count": 23,
+      "sentiment_score": 0.2569875776397516,
+      "rag_answer": "Recent developments surrounding Jeffrey Epstein's connections have led to significant fallout for several high-profile individuals and institutions. The release of new documents by the DOJ has prompted testimonies from notable figures like Bill Gates and Goldman Sachs' top lawyer, Kathryn Ruemmler, who is stepping down due to the repercussions of her past associations with Epstein. The ongoing scrutiny has resulted in reputational damage and job losses, as seen with various professionals distancing themselves from Epstein's legacy. This situation continues to create uncertainty in the market, particularly affecting the reputations of those involved and potentially influencing investor confidence in related sectors.",
+      "rag_sources": [
+        {
+          "title": "Epstein's Silicon Valley connections went beyond Gates and Musk",
+          "date": "2026-02-09",
+          "link": "https://www.cnbc.com/2026/02/09/tech-leaders-epstein-records-silicon-valley-sergey-brin-thiel-sinofsky-reid-hoffman-musk-gates.html",
+          "snippet": "2026-02-09: Epstein's Silicon Valley connections went beyond Gates and Musk: The new Epstein files released by the DOJ show that the deceased financier was able to build relationships across Silicon V",
+          "guid": "108260807"
+        },
+        {
+          "title": "Epstein files fallout: The high-profile people burned by past dealings with a predator",
+          "date": "2026-02-16",
+          "link": "https://www.cnbc.com/2026/02/15/epstein-files-fallout-goldman-ruemmler-harvard-yale.html",
+          "snippet": "2026-02-16: Epstein files fallout: The high-profile people burned by past dealings with a predator: Jeffrey Epstein killed himself in a New York City federal jail in 2019. But more than six years late",
+          "guid": "108265580"
+        },
+        {
+          "title": "Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/epstein-doj-bondi-trump.html",
+          "snippet": "2026-03-05: Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports: The top lawyer for Goldman Sachs, Bill Gates, Leon Black and others are expected to testify soon a",
+          "guid": "108274237"
+        },
+        {
+          "title": "Epstein files: Buffett says he hasn't talked to Bill Gates 'since the whole thing was unveiled'",
+          "date": "2026-03-31",
+          "link": "https://www.cnbc.com/2026/03/31/warren-buffett-bill-gates-epstein.html",
+          "snippet": "2026-03-31: Epstein files: Buffett says he hasn't talked to Bill Gates 'since the whole thing was unveiled': Microsoft founder Bill Gates is one of many high-profile people who have suffered reputatio",
+          "guid": "108285336"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "f6c084f0-a547-4ff0-a223-85410a095e66",
+      "label": "Midday Stock Movements",
+      "spike_ratio": 1.119,
+      "article_count": 15,
+      "sentiment_score": 0.2476190476190476,
+      "rag_answer": "Midday stock movements have shown significant volatility, with various companies consistently making headlines for their large price fluctuations. Notable stocks such as Intel, Apple, and Novo Nordisk have been highlighted across multiple reports, indicating a dynamic trading environment influenced by broader market conditions. The ongoing geopolitical tensions, particularly related to the Iran war, are contributing to market uncertainty, prompting investors to be selective and cautious. Overall, the stock market appears to be experiencing a mix of opportunities and risks, with investors closely monitoring key developments and adjusting their strategies accordingly.",
+      "rag_sources": [
+        {
+          "title": "Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more",
+          "date": "2025-09-18",
+          "link": "https://www.cnbc.com/2025/09/18/stocks-making-the-biggest-moves-midday-intc-nvo-blsh-all.html",
+          "snippet": "2025-09-18: Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more: These are the stocks posting the largest moves midday.",
+          "guid": "108200831"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more",
+          "date": "2025-10-15",
+          "link": "https://www.cnbc.com/2025/10/15/stocks-making-the-biggest-moves-midday-bac-ms-bg-pgr.html",
+          "snippet": "2025-10-15: Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108212417"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/stocks-making-the-biggest-moves-midday-nem-aapl-sndk-deck.html",
+          "snippet": "2026-01-30: Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more: These are the stocks posting the largest moves midday.",
+          "guid": "108259667"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: IBM, AMD, Dillard's, Novo Nordisk, Keysight Technologies & more",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/stocks-making-the-biggest-moves-midday-ibm-amd-dds-nvo-more.html",
+          "snippet": "2026-02-24: Stocks making the biggest moves midday: IBM, AMD, Dillard's, Novo Nordisk, Keysight Technologies & more: These are the stocks posting the largest moves in midday trading.",
+          "guid": "108269147"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}
