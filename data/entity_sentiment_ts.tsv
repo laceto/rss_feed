@@ -1,13 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-01-09	Amazon	Retail Trade	positive	1	products
-2026-01-09	China	Energy Minerals	neutral	0	macro
-2026-01-09	Fannie Mae	Finance	positive	1	macro
-2026-01-09	Freddie Mac	Finance	positive	1	macro
-2026-01-09	Goldman Sachs	Finance	positive	1	markets
-2026-01-09	Intel	Electronic Technology	positive	1	markets
-2026-01-09	Meta	Utilities	positive	1	products
-2026-01-09	Rolls-Royce	Producer Manufacturing	positive	1	markets
-2026-01-09	Venezuela	Energy Minerals	positive	1	macro
 2026-01-10	Eli Lilly	Health Technology	positive	1	products
 2026-01-10	Micron	Electronic Technology	positive	1	markets
 2026-01-10	Novo Nordisk	Health Technology	positive	1	products
@@ -1113,3 +1104,27 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-04-09	U.S. military	Energy Minerals	neutral	0	macro
 2026-04-09	UAE	Energy Minerals	neutral	0	macro
 2026-04-09	United	Transportation	neutral	0	markets
+2026-04-10	AI chip	Electronic Technology	positive	1	markets
+2026-04-10	AI platform	Electronic Technology	neutral	0	products
+2026-04-10	Apple	Electronic Technology	positive	1	markets
+2026-04-10	China	Energy Minerals	neutral	0	macro
+2026-04-10	CoreWeave	Technology Services	neutral	0	markets
+2026-04-10	Defense companies	Industrial Services	positive	1	products
+2026-04-10	Elbit Systems	Industrial Services	positive	1	products
+2026-04-10	Iran conflict	Energy Minerals	negative	-1	macro
+2026-04-10	Iran war	Consumer Non-Durables	negative	-1	macro
+2026-04-10	Marvell	Technology Services	neutral	0	markets
+2026-04-10	Nvidia	Electronic Technology	positive	1	markets
+2026-04-10	Palantir	Electronic Technology	neutral	0	products
+2026-04-10	Revolution Medicines	Health Services	positive	1	products
+2026-04-10	TSMC	Electronic Technology	positive	1	markets
+2026-04-10	U.S. military	Electronic Technology	neutral	0	products
+2026-04-10	U.S. oil	Energy Minerals	negative	-1	macro
+2026-04-10	Zscaler	Technology Services	neutral	0	markets
+2026-04-10	airline fares	Consumer Non-Durables	negative	-1	macro
+2026-04-10	consumer prices	Consumer Non-Durables	negative	-1	macro
+2026-04-10	energy market	Energy Minerals	neutral	0	macro
+2026-04-10	gas prices	Energy Minerals	negative	-1	macro
+2026-04-10	gasoline	Consumer Non-Durables	negative	-1	macro
+2026-04-10	oil prices	Energy Minerals	neutral	0	macro
+2026-04-10	pancreatic cancer	Health Services	positive	1	products

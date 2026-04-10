@@ -1,0 +1,94 @@
+{
+  "date": "2026-04-10",
+  "batch_id": "batch_69d952422adc8190affc7a9b0f0dce79",
+  "sectors": [
+    {
+      "entities": [
+        "Iran war",
+        "gasoline",
+        "airline fares",
+        "consumer prices"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Palantir",
+        "U.S. military",
+        "AI platform"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Revolution Medicines",
+        "pancreatic cancer"
+      ],
+      "sector": "Health Services",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Marvell",
+        "CoreWeave",
+        "Zscaler"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "U.S. oil",
+        "Iran conflict",
+        "gas prices"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "TSMC",
+        "AI chip",
+        "Apple",
+        "Nvidia"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Defense companies",
+        "Elbit Systems"
+      ],
+      "sector": "Industrial Services",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "China",
+        "energy market",
+        "oil prices"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    }
+  ]
+}
