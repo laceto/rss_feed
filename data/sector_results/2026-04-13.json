@@ -1,0 +1,81 @@
+{
+  "date": "2026-04-13",
+  "batch_id": "batch_69dd4c0eb8748190a706ccf883956660",
+  "sectors": [
+    {
+      "entities": [
+        "Oracle",
+        "AI"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Intel",
+        "Google",
+        "Elon Musk"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Revolution Medicines"
+      ],
+      "sector": "Health Services",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Lululemon"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "neutral",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Delta Air Lines"
+      ],
+      "sector": "Transportation",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "BP"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "neutral",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Goldman Sachs"
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "CNBC"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}

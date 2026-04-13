@@ -1571,3 +1571,16 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-04-10	Electronic Technology	TSMC|AI chip|Apple|Nvidia	positive	markets	ok
 2026-04-10	Industrial Services	Defense companies|Elbit Systems	positive	products	ok
 2026-04-10	Energy Minerals	China|energy market|oil prices	neutral	macro	ok
+2026-04-11	Consumer Non-Durables	Robbie Williams	positive	products	ok
+2026-04-11	Health Services	Europe's pharma companies	negative	macro	ok
+2026-04-11	Electronic Technology	Anthropic	neutral	markets	ok
+2026-04-11	Transportation	Trump|Don Beyer	negative	regulation	ok
+2026-04-12	Finance	Morgan Stanley	positive	macro	ok
+2026-04-13	Electronic Technology	Oracle|AI	positive	products	ok
+2026-04-13	Electronic Technology	Intel|Google|Elon Musk	positive	markets	ok
+2026-04-13	Health Services	Revolution Medicines	positive	products	ok
+2026-04-13	Consumer Non-Durables	Lululemon	neutral	regulation	ok
+2026-04-13	Transportation	Delta Air Lines	positive	products	ok
+2026-04-13	Energy Minerals	BP	neutral	regulation	ok
+2026-04-13	Finance	Goldman Sachs	positive	markets	ok
+2026-04-13	Finance	CNBC	neutral	markets	ok

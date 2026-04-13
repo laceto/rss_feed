@@ -1,0 +1,43 @@
+{
+  "date": "2026-04-11",
+  "batch_id": "batch_69dd4c0eb8748190a706ccf883956660",
+  "sectors": [
+    {
+      "entities": [
+        "Robbie Williams"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Europe's pharma companies"
+      ],
+      "sector": "Health Services",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Anthropic"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Trump",
+        "Don Beyer"
+      ],
+      "sector": "Transportation",
+      "sentiment": "negative",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    }
+  ]
+}

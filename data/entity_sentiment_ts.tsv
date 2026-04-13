@@ -1,46 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-01-10	Eli Lilly	Health Technology	positive	1	products
-2026-01-10	Micron	Electronic Technology	positive	1	markets
-2026-01-10	Novo Nordisk	Health Technology	positive	1	products
-2026-01-10	SK Hynix	Electronic Technology	positive	1	markets
-2026-01-10	Samsung Electronics	Electronic Technology	positive	1	markets
-2026-01-10	Trump	Energy Minerals	neutral	0	macro
-2026-01-10	Venezuela	Energy Minerals	neutral	0	macro
-2026-01-11	Boeing	Producer Manufacturing	positive	1	markets
-2026-01-11	ChatGPT	Retail Trade	positive	1	products
-2026-01-11	GM	Producer Manufacturing	positive	1	markets
-2026-01-11	Google's Gemini	Retail Trade	positive	1	products
-2026-01-11	OpenAI	Retail Trade	positive	1	products
-2026-01-11	Walmart	Retail Trade	positive	1	products
-2026-01-12	Aldi	Retail Trade	positive	1	markets
-2026-01-12	Apple	Electronic Technology	positive	1	products
-2026-01-12	Bernanke	Finance	neutral	0	macro
-2026-01-12	China	Consumer Non-Durables	neutral	0	macro
-2026-01-12	Citigroup	Finance	neutral	0	markets
-2026-01-12	Denmark	Consumer Non-Durables	neutral	0	other
-2026-01-12	Elon Musk	Electronic Technology	negative	-1	regulation
-2026-01-12	Exxon	Finance	neutral	0	markets
-2026-01-12	Federal Reserve	Finance	neutral	0	macro
-2026-01-12	Gemini	Electronic Technology	positive	1	products
-2026-01-12	Google	Electronic Technology	positive	1	products
-2026-01-12	Greenland	Consumer Non-Durables	neutral	0	other
-2026-01-12	Greenspan	Finance	neutral	0	macro
-2026-01-12	Grok	Electronic Technology	negative	-1	regulation
-2026-01-12	India	Consumer Non-Durables	neutral	0	macro
-2026-01-12	Indonesia	Electronic Technology	negative	-1	regulation
-2026-01-12	Iran	Energy Minerals	negative	-1	macro
-2026-01-12	JPMorgan	Finance	neutral	0	markets
-2026-01-12	Japan	Consumer Non-Durables	neutral	0	macro
-2026-01-12	Jerome Powell	Finance	neutral	0	macro
-2026-01-12	Jersey Mike's	Retail Trade	positive	1	markets
-2026-01-12	Malaysia	Electronic Technology	negative	-1	regulation
-2026-01-12	Meta	Finance	neutral	0	markets
-2026-01-12	OPEC	Energy Minerals	negative	-1	macro
-2026-01-12	Palantir	Finance	neutral	0	markets
-2026-01-12	Siri	Electronic Technology	positive	1	products
-2026-01-12	U.S.	Energy Minerals	negative	-1	macro
-2026-01-12	Walmart	Retail Trade	positive	1	markets
-2026-01-12	Yellen	Finance	neutral	0	macro
 2026-01-13	Airbus	Producer Manufacturing	positive	1	markets
 2026-01-13	Berkshire	Finance	neutral	0	other
 2026-01-13	Boeing	Producer Manufacturing	positive	1	markets
@@ -1128,3 +1086,20 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-04-10	gasoline	Consumer Non-Durables	negative	-1	macro
 2026-04-10	oil prices	Energy Minerals	neutral	0	macro
 2026-04-10	pancreatic cancer	Health Services	positive	1	products
+2026-04-11	Anthropic	Electronic Technology	neutral	0	markets
+2026-04-11	Don Beyer	Transportation	negative	-1	regulation
+2026-04-11	Europe's pharma companies	Health Services	negative	-1	macro
+2026-04-11	Robbie Williams	Consumer Non-Durables	positive	1	products
+2026-04-11	Trump	Transportation	negative	-1	regulation
+2026-04-12	Morgan Stanley	Finance	positive	1	macro
+2026-04-13	AI	Electronic Technology	positive	1	products
+2026-04-13	BP	Energy Minerals	neutral	0	regulation
+2026-04-13	CNBC	Finance	neutral	0	markets
+2026-04-13	Delta Air Lines	Transportation	positive	1	products
+2026-04-13	Elon Musk	Electronic Technology	positive	1	markets
+2026-04-13	Goldman Sachs	Finance	positive	1	markets
+2026-04-13	Google	Electronic Technology	positive	1	markets
+2026-04-13	Intel	Electronic Technology	positive	1	markets
+2026-04-13	Lululemon	Consumer Non-Durables	neutral	0	regulation
+2026-04-13	Oracle	Electronic Technology	positive	1	products
+2026-04-13	Revolution Medicines	Health Services	positive	1	products

@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-12",
+  "batch_id": "batch_69dd4c0eb8748190a706ccf883956660",
+  "sectors": [
+    {
+      "entities": [
+        "Morgan Stanley"
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    }
+  ]
+}
