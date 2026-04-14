@@ -1584,3 +1584,9 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-04-13	Energy Minerals	BP	neutral	regulation	ok
 2026-04-13	Finance	Goldman Sachs	positive	markets	ok
 2026-04-13	Finance	CNBC	neutral	markets	ok
+2026-04-14	Electronic Technology	Nvidia|Semiconductors	positive	markets	ok
+2026-04-14	Communications	Amazon|Globalstar	positive	products	ok
+2026-04-14	Electronic Technology	Oracle|Bloom Energy	positive	products	ok
+2026-04-14	Energy Minerals	BP|Meg O'Neill	neutral	appointments	ok
+2026-04-14	Health Services	J&J|Stelara|Darzalex|Tremfya	positive	products	ok
+2026-04-14	Health Technology	Novo Nordisk|OpenAI	positive	products	ok

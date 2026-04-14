@@ -1,20 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-01-13	Airbus	Producer Manufacturing	positive	1	markets
-2026-01-13	Berkshire	Finance	neutral	0	other
-2026-01-13	Boeing	Producer Manufacturing	positive	1	markets
-2026-01-13	Consumer Staples	Consumer Non-Durables	neutral	0	macro
-2026-01-13	Data Center REIT	Commercial Services	positive	1	markets
-2026-01-13	Earnings	Finance	positive	1	earnings
-2026-01-13	Fed	Finance	negative	-1	regulation
-2026-01-13	JPMorgan	Finance	negative	-1	markets
-2026-01-13	Morgan Stanley	Finance	positive	1	earnings
-2026-01-13	Oil	Energy Minerals	positive	1	macro
-2026-01-13	Powell	Finance	negative	-1	regulation
-2026-01-13	Real estate	Commercial Services	positive	1	markets
-2026-01-13	S&P 500	Finance	negative	-1	markets
-2026-01-13	Trump	Energy Minerals	positive	1	macro
-2026-01-13	Wall Street	Finance	negative	-1	markets
-2026-01-13	Warren Buffett	Finance	neutral	0	other
 2026-01-14	Apple	Electronic Technology	neutral	0	products
 2026-01-14	Bank of America	Finance	positive	1	earnings
 2026-01-14	Gold	Non-Energy Minerals	positive	1	markets
@@ -1103,3 +1087,17 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-04-13	Lululemon	Consumer Non-Durables	neutral	0	regulation
 2026-04-13	Oracle	Electronic Technology	positive	1	products
 2026-04-13	Revolution Medicines	Health Services	positive	1	products
+2026-04-14	Amazon	Communications	positive	1	products
+2026-04-14	BP	Energy Minerals	neutral	0	appointments
+2026-04-14	Bloom Energy	Electronic Technology	positive	1	products
+2026-04-14	Darzalex	Health Services	positive	1	products
+2026-04-14	Globalstar	Communications	positive	1	products
+2026-04-14	J&J	Health Services	positive	1	products
+2026-04-14	Meg O'Neill	Energy Minerals	neutral	0	appointments
+2026-04-14	Novo Nordisk	Health Technology	positive	1	products
+2026-04-14	Nvidia	Electronic Technology	positive	1	markets
+2026-04-14	OpenAI	Health Technology	positive	1	products
+2026-04-14	Oracle	Electronic Technology	positive	1	products
+2026-04-14	Semiconductors	Electronic Technology	positive	1	markets
+2026-04-14	Stelara	Health Services	positive	1	products
+2026-04-14	Tremfya	Health Services	positive	1	products

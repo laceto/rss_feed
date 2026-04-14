@@ -1,0 +1,68 @@
+{
+  "date": "2026-04-14",
+  "batch_id": "batch_69de9ef5514881909e4b4f41a460e0e3",
+  "sectors": [
+    {
+      "entities": [
+        "Nvidia",
+        "Semiconductors"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Amazon",
+        "Globalstar"
+      ],
+      "sector": "Communications",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Oracle",
+        "Bloom Energy"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "BP",
+        "Meg O'Neill"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "neutral",
+      "news_category": "appointments",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "J&J",
+        "Stelara",
+        "Darzalex",
+        "Tremfya"
+      ],
+      "sector": "Health Services",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Novo Nordisk",
+        "OpenAI"
+      ],
+      "sector": "Health Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    }
+  ]
+}
