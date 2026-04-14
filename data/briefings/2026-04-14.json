@@ -1,0 +1,232 @@
+{
+  "date": "2026-04-14",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "5823ee94-e00d-44a9-9e8d-b407cdf8aef8",
+      "label": "Iran-U.S. Tensions and Oil Market",
+      "spike_ratio": 5.341,
+      "article_count": 188,
+      "sentiment_score": 0.1866134751773049,
+      "rag_answer": "Tensions between the U.S. and Iran have escalated significantly, leading to a war that has disrupted oil supplies and caused prices to soar above $100 per barrel. Despite U.S. measures aimed at reducing prices, the market remains volatile, with traders closely monitoring developments in the conflict. The ongoing war has raised concerns about major disruptions in oil supply, particularly as Iran continues to ship crude oil to China through the Strait of Hormuz. Overall, the situation is contributing to a broader market sell-off, particularly impacting tech stocks, as rising oil prices create uncertainty in the global economy.",
+      "rag_sources": [
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "CNBC Daily Open: Oil markets: Nice try on the reserve release",
+          "date": "2026-03-12",
+          "link": "https://www.cnbc.com/2026/03/12/cnbc-daily-open-oil-market-crude-prices-reserve-release-iea-us-trump.html",
+          "snippet": "2026-03-12: CNBC Daily Open: Oil markets: Nice try on the reserve release: Multiple developments are complicating the energy market, and none are calming prices.",
+          "guid": "108277027"
+        },
+        {
+          "title": "Oil closes above $100 for second day as market shrugs off U.S. measures to reduce prices during Iran war",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/oil-100-price-brent-wti-trump-iran-war-surrender-khamenei.html",
+          "snippet": "2026-03-13: Oil closes above $100 for second day as market shrugs off U.S. measures to reduce prices during Iran war: Traders are continuing to monitor developments in the Middle East. Overnight, Trum",
+          "guid": "108277669"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "a6911053-deec-44da-91d1-bfa94b65b030",
+      "label": "S&P 500 Market Analysis",
+      "spike_ratio": 1.907,
+      "article_count": 45,
+      "sentiment_score": 0.0729894179894179,
+      "rag_answer": "The S&P 500 has been experiencing significant volatility, caught in a tight trading range for nearly four months, with recent reports indicating it is approaching its 200-day moving average. Analysts are closely monitoring key levels as the index faces pressure from external factors, including geopolitical tensions and economic indicators like the upcoming jobs report. Despite some bullish forecasts, concerns about the market's resilience persist, especially following a notable decline and the potential impact of rate cuts. Overall, the market is navigating a complex landscape of economic signals and investor sentiment, leading to cautious trading behavior.",
+      "rag_sources": [
+        {
+          "title": "The S&P 500 is caught in an unusually tight range. Is this bull market resilient or exhausted?  ",
+          "date": "2026-02-23",
+          "link": "https://www.cnbc.com/2026/02/23/the-sp-500-is-caught-in-an-unusually-tight-range-is-this-bull-market-resilient-or-exhausted-.html",
+          "snippet": "2026-02-23: The S&P 500 is caught in an unusually tight range. Is this bull market resilient or exhausted?: Mike Santoli looks at how the S&P 500 has spent nearly four months in an unusually tight ran",
+          "guid": "108268352"
+        },
+        {
+          "title": "When will the selling stop? Jay Woods and other traders are watching this key S&P 500 level",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/when-will-the-selling-stop-jay-woods-and-others-are-watching-this-key-sp-500-level.html",
+          "snippet": "2026-03-09: When will the selling stop? Jay Woods and other traders are watching this key S&P 500 level: The broad market index is fast approaching its 200-day moving average, which is at 6,582.",
+          "guid": "108275364"
+        },
+        {
+          "title": "NYSE insider Jay Woods is watching these key levels on the S&P 500 and crude oil as U.S.-Iran conflict widens",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/nyse-insider-woods-watching-these-key-levels-on-the-sp-500-crude-oil.html",
+          "snippet": "2026-03-02: NYSE insider Jay Woods is watching these key levels on the S&P 500 and crude oil as U.S.-Iran conflict widens: Beyond the war, this week will see a highly-awaited February jobs report alon",
+          "guid": "108272057"
+        },
+        {
+          "title": "S&P 500 heads for first decline in 8 days on Oracle slide, shutdown angst: Live updates",
+          "date": "2025-10-07",
+          "link": "https://www.cnbc.com/2025/10/06/stock-market-today-live-updates.html",
+          "snippet": "2025-10-07: S&P 500 heads for first decline in 8 days on Oracle slide, shutdown angst: Live updates: Investors await more developments on the current U.S. government shutdown that is now on its second",
+          "guid": "108208432"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "8f45332d-a6a8-47e9-b859-303764889e37",
+      "label": "Anthropic-Pentagon AI Dispute",
+      "spike_ratio": 1.496,
+      "article_count": 41,
+      "sentiment_score": 0.2378048780487804,
+      "rag_answer": "The Anthropic-Pentagon AI dispute centers around the U.S. Department of Defense's demands for Anthropic to allow its AI tools to be used for military applications, including weapons development and intelligence operations. Despite receiving a $200 million defense contract, Anthropic is facing pressure from the Pentagon, which has threatened to cut off the company over disagreements on AI safeguards. As negotiations continue, Anthropic's CEO has stated that the Pentagon's threats do not alter their position, leading to a tense standoff with a looming deadline for policy changes. This conflict has raised concerns in the market, particularly regarding the implications for software stocks and the future of military AI control.",
+      "rag_sources": [
+        {
+          "title": "Anthropic is clashing with the Pentagon over AI use. Here's what each side wants",
+          "date": "2026-02-18",
+          "link": "https://www.cnbc.com/2026/02/18/anthropic-pentagon-ai-defense-war-surveillance.html",
+          "snippet": "2026-02-18: Anthropic is clashing with the Pentagon over AI use. Here's what each side wants: Anthropic landed a $200 million Defense contract last year, as did AI rivals OpenAI, Google and xAI.",
+          "guid": "108266856"
+        },
+        {
+          "title": "In Pentagon-Anthropic standoff, AI is real-time testing the balance of power in future of warfare",
+          "date": "2026-02-27",
+          "link": "https://www.cnbc.com/2026/02/27/defense-anthropic-ai-war-risks-hegseth-amodei.html",
+          "snippet": "2026-02-27: In Pentagon-Anthropic standoff, AI is real-time testing the balance of power in future of warfare: Pentagon's clash with Anthropic highlights growing fight over who controls military AI\u00a0. ",
+          "guid": "108270939"
+        },
+        {
+          "title": "Anthropic CEO Amodei says Pentagon's threats 'do not change our position' on AI",
+          "date": "2026-02-27",
+          "link": "https://www.cnbc.com/2026/02/26/anthropic-pentagon-ai-amodei.html",
+          "snippet": "2026-02-27: Anthropic CEO Amodei says Pentagon's threats 'do not change our position' on AI: Anthropic said its negotiations with the DOD are still ongoing.",
+          "guid": "108270698"
+        },
+        {
+          "title": "Pentagon threatens to cut off Anthropic in AI safeguards dispute: Report",
+          "date": "2026-02-16",
+          "link": "https://www.cnbc.com/2026/02/16/pentagon-threatens-anthropic-ai-safeguards-dispute.html",
+          "snippet": "2026-02-16: Pentagon threatens to cut off Anthropic in AI safeguards dispute: Report: The Pentagon is pushing Anthropic, OpenAI, Google and xAI to let it use AI tools for weapons development, intellig",
+          "guid": "108266079"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.5,
+          "mean_sentiment_score": 0.2,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "4ef5b11c-ddd2-41a2-beb1-3050b4e18b77",
+      "label": "Treasury Yields and Iran Conflict",
+      "spike_ratio": 1.302,
+      "article_count": 14,
+      "sentiment_score": 0.0982142857142857,
+      "rag_answer": "Treasury yields have shown significant volatility in response to the ongoing conflict with Iran, fluctuating based on developments in negotiations and military actions. Initially, yields rose as optimism for a ceasefire faded, but they later fell sharply following a temporary ceasefire agreement between the U.S. and Iran. Investors are closely monitoring the situation, as rising oil prices and geopolitical tensions continue to impact inflation expectations and market sentiment. Overall, the uncertainty surrounding the Iran conflict is creating a complex environment for Treasury yields, with implications for broader financial markets.",
+      "rag_sources": [
+        {
+          "title": "10-year Treasury yield is little changed as investors monitor developments with Iran war",
+          "date": "2026-04-01",
+          "link": "https://www.cnbc.com/2026/04/01/treasury-yields-fall-as-iran-peace-hopes-fuel-relief-rally-.html",
+          "snippet": "2026-04-01: 10-year Treasury yield is little changed as investors monitor developments with Iran war: The 10-year Treasury yield was relatively unchanged on Wednesday as investors assessed the prospec",
+          "guid": "108285838"
+        },
+        {
+          "title": "Treasury yields rise as Iran ceasefire optimism fades ",
+          "date": "2026-03-26",
+          "link": "https://www.cnbc.com/2026/03/26/treasury-yields-rise-uncertainty-ceasefire-talks.html",
+          "snippet": "2026-03-26: Treasury yields rise as Iran ceasefire optimism fades: Treasury yields rose on Thursday as investors digested mixed messages around the state of negotiations between the U.S. and Iran.",
+          "guid": "108283276"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "Treasury yields edge lower as investors weigh rising oil price, Iran attacks and looming Fed decision",
+          "date": "2026-03-17",
+          "link": "https://www.cnbc.com/2026/03/17/treasury-yields-middle-east-tensions-fed-decision.html",
+          "snippet": "2026-03-17: Treasury yields edge lower as investors weigh rising oil price, Iran attacks and looming Fed decision: Treasury yields edged lower as investors weighed mounting tensions in the Middle East",
+          "guid": "108278743"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "stable",
+          "trend_delta": -0.1,
+          "mean_sentiment_score": 0.545,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "ad0fef60-4749-4e85-809e-e1e6af36a370",
+      "label": "Kevin Warsh Fed Chair Nomination",
+      "spike_ratio": 1.212,
+      "article_count": 16,
+      "sentiment_score": -0.0390625,
+      "rag_answer": "Kevin Warsh's nomination as Federal Reserve chair by President Trump has faced significant hurdles, primarily due to a criminal investigation involving current Chair Jerome Powell, which has led to opposition from Senator Thom Tillis. Despite these challenges, Warsh has cleared some procedural requirements, such as submitting ethics paperwork, and his nomination is set to be considered by a Senate committee. Market analysts view Warsh's potential leadership as a pivotal factor, with expectations that he may advocate for lower interest rates, which could influence consumer borrowing costs and savings rates. However, the ongoing investigation into Powell continues to complicate the confirmation process and create uncertainty in the markets.",
+      "rag_sources": [
+        {
+          "title": "Kevin Warsh Fed chair confirmation plan hits snag as nomination hearing is delayed",
+          "date": "2026-04-10",
+          "link": "https://www.cnbc.com/2026/04/10/warsh-fed-nomination-hearing-delayed.html",
+          "snippet": "2026-04-10: Kevin Warsh Fed chair confirmation plan hits snag as nomination hearing is delayed: President Trump's nomination of Kevin Warsh as Federal Reserve chair already faced a hurdle by Sen. Thom",
+          "guid": "108289553"
+        },
+        {
+          "title": "Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/trump-finally-makes-his-fed-chair-pick-what-kevin-warsh-means-for-investors.html",
+          "snippet": "2026-01-30: Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors: Investors see the former Fed governor as a credible steward of monetary policy despite expectations he may pu",
+          "guid": "108259473"
+        },
+        {
+          "title": "Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/who-is-kevin-warsh-trumps-fed-chair-pick.html",
+          "snippet": "2026-01-30: Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve: Kevin Warsh, a former Fed governor, has emerged as Donald Trump\u2019s pick to lead the Federal Reserve.",
+          "guid": "108259461"
+        },
+        {
+          "title": "Trump nominates Kevin Warsh for Federal Reserve chair to succeed Jerome Powell",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/trump-nominates-kevin-warsh-for-federal-reserve-chair-to-succeed-jerome-powell.html",
+          "snippet": "2026-01-30: Trump nominates Kevin Warsh for Federal Reserve chair to succeed Jerome Powell: President Trump named Kevin Warsh to succeed Jerome Powell as Fed chair, ending an odyssey that has seen unp",
+          "guid": "108237566"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "stable",
+          "trend_delta": -0.1,
+          "mean_sentiment_score": 0.545,
+          "data_age_days": null
+        },
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.5,
+          "mean_sentiment_score": 0.2,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}
