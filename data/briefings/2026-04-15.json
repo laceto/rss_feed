@@ -1,0 +1,217 @@
+{
+  "date": "2026-04-15",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "4ef5b11c-ddd2-41a2-beb1-3050b4e18b77",
+      "label": "Treasury Yields and Iran Conflict",
+      "spike_ratio": 1.316,
+      "article_count": 15,
+      "sentiment_score": 0.1535714285714285,
+      "rag_answer": "U.S. Treasury yields have shown significant volatility in response to the ongoing conflict with Iran. Initially, yields rose due to concerns over inflation and the war's impact on oil prices, but they fell sharply following a ceasefire agreement between the U.S. and Iran. Throughout the conflict, yields fluctuated as traders reacted to developments, including threats from Iran and President Trump's warnings, which influenced market sentiment. Overall, the situation has created uncertainty, with investors closely monitoring geopolitical developments and their implications for inflation and Federal Reserve policy.",
+      "rag_sources": [
+        {
+          "title": "Treasury yields fall as traders weigh odds of Iran war ending, future Fed policy moves",
+          "date": "2026-03-31",
+          "link": "https://www.cnbc.com/2026/03/31/us10y-treasury-yields-iran-war-jolts-jobs-data-economy-fed-rate-cut.html",
+          "snippet": "2026-03-31: Treasury yields fall as traders weigh odds of Iran war ending, future Fed policy moves: U.S. Treasury yields edged lower on Tuesday morning, as investors continued to monitor developments ",
+          "guid": "108285187"
+        },
+        {
+          "title": "Treasury yields gain after sticky February inflation reading, oil price increase",
+          "date": "2026-03-11",
+          "link": "https://www.cnbc.com/2026/03/11/us-treasury-yields-investors-await-key-inflation-report-.html",
+          "snippet": "2026-03-11: Treasury yields gain after sticky February inflation reading, oil price increase: U.S. Treasury yields moved higher on Wednesday as assessed February's inflation report and monitored devel",
+          "guid": "108276474"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Treasury yields are little changed as Trump reiterates Iran infrastructure threat, sending oil higher",
+          "date": "2026-04-07",
+          "link": "https://www.cnbc.com/2026/04/07/treasury-yields-rise-as-trump-reiterates-iran-infrastructure-threat.html",
+          "snippet": "2026-04-07: Treasury yields are little changed as Trump reiterates Iran infrastructure threat, sending oil higher: Treasury yields were relatively unchanged on Tuesday as President Donald Trump again ",
+          "guid": "108287776"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.381,
+          "mean_sentiment_score": 0.462,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "8f19e3fc-a9bd-430c-b784-f367e1e9e7c0",
+      "label": "Nvidia earnings and AI outlook",
+      "spike_ratio": 1.28,
+      "article_count": 21,
+      "sentiment_score": 0.2202380952380952,
+      "rag_answer": "Nvidia's earnings reports have consistently exceeded Wall Street expectations, driven by strong demand for AI infrastructure and a significant capital expenditure buildout projected at $660 billion. CEO Jensen Huang has emphasized that AI will complement existing software tools, suggesting a sustainable growth trajectory for the company. Despite this optimism, there are concerns about the broader implications of high AI spending, with some analysts questioning whether the current investments will yield profitable returns in the future. Overall, Nvidia remains a focal point for investors, particularly as it navigates market volatility and geopolitical tensions.",
+      "rag_sources": [
+        {
+          "title": "Nvidia earnings are out after market close. Here's what Wall Street expects to see",
+          "date": "2026-02-25",
+          "link": "https://www.cnbc.com/2026/02/25/nvidia-earnings-are-out-after-market-close-heres-what-wall-street-expects-to-see.html",
+          "snippet": "2026-02-25: Nvidia earnings are out after market close. Here's what Wall Street expects to see: Analysts remain bullish on Nvidia given strong AI capex expected this year, healthy AI compute demand an",
+          "guid": "108269964"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Watch CNBC's full interview with Nvidia CEO Jensen Huang after earnings and guidance beat",
+          "date": "2026-02-26",
+          "link": "https://www.cnbc.com/video/2026/02/26/jensen-x-squawk-asia-full.html",
+          "snippet": "2026-02-26: Watch CNBC's full interview with Nvidia CEO Jensen Huang after earnings and guidance beat: Nvidia CEO Jensen Huang discussed the company's earnings and revenue guidance with CNBC's Becky Q",
+          "guid": "108270212"
+        },
+        {
+          "title": "Nvidia earnings takeaways: A 'full steam' AI spend, but China uncertainty remains",
+          "date": "2025-08-28",
+          "link": "https://www.cnbc.com/2025/08/28/nvidia-stock-ai-spend.html",
+          "snippet": "2025-08-28: Nvidia earnings takeaways: A 'full steam' AI spend, but China uncertainty remains: CEO Jensen Huang said the company was in talks with the Trump administration about China chip sales.",
+          "guid": "108191838"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "stable",
+          "trend_delta": 0.0,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "5ffc8c87-a3f1-4609-959b-bb08bc69043c",
+      "label": "Epstein Connections and Fallout",
+      "spike_ratio": 1.131,
+      "article_count": 19,
+      "sentiment_score": 0.2713032581453634,
+      "rag_answer": "The fallout from Jeffrey Epstein's connections continues to impact high-profile individuals and institutions, with several prominent figures, including Goldman Sachs' top lawyer Kathryn Ruemmler and Commerce Secretary Howard Lutnick, facing professional repercussions due to their past associations with Epstein. The release of new documents by the DOJ has intensified scrutiny, leading to testimonies from influential figures like Bill Gates and Leon Black regarding their dealings with Epstein. This ongoing situation has created reputational risks and market implications, as investors assess the potential fallout on companies and individuals involved, particularly in the tech and finance sectors. The broader market sentiment remains cautious as these developments unfold, reflecting concerns over the stability and integrity of high-profile business relationships.",
+      "rag_sources": [
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        },
+        {
+          "title": "Asia-Pacific markets mostly slip as investors assess Greenland developments and key China data",
+          "date": "2026-01-19",
+          "link": "https://www.cnbc.com/2026/01/19/asia-markets-china-gdp-greenland-nikkei-kospi-hang-seng.html",
+          "snippet": "2026-01-19: Asia-Pacific markets mostly slip as investors assess Greenland developments and key China data: China released its fourth-quarter GDP numbers, along with December figures for retail sales,",
+          "guid": "108253877"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "f6c084f0-a547-4ff0-a223-85410a095e66",
+      "label": "Midday Stock Movements",
+      "spike_ratio": 1.071,
+      "article_count": 15,
+      "sentiment_score": 0.2353174603174603,
+      "rag_answer": "Midday stock movements have shown significant volatility, with various companies consistently making headlines for their large price fluctuations. Notable stocks such as Intel, Apple, and Morgan Stanley have been highlighted across multiple reports, indicating a dynamic trading environment influenced by broader market conditions. The frequent updates suggest that investors are reacting to ongoing economic factors, including geopolitical tensions and corporate performance, which may lead to increased market uncertainty. Overall, these midday movements reflect a market that is responsive to both internal corporate developments and external economic pressures.",
+      "rag_sources": [
+        {
+          "title": "Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more",
+          "date": "2025-09-18",
+          "link": "https://www.cnbc.com/2025/09/18/stocks-making-the-biggest-moves-midday-intc-nvo-blsh-all.html",
+          "snippet": "2025-09-18: Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more: These are the stocks posting the largest moves midday.",
+          "guid": "108200831"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more",
+          "date": "2025-10-15",
+          "link": "https://www.cnbc.com/2025/10/15/stocks-making-the-biggest-moves-midday-bac-ms-bg-pgr.html",
+          "snippet": "2025-10-15: Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108212417"
+        },
+        {
+          "title": "The indicator guiding our next move as stocks shake off breakdown in peace talks",
+          "date": "2026-04-13",
+          "link": "https://www.cnbc.com/2026/04/13/the-indicator-guiding-our-next-move-as-stocks-shake-off-breakdown-in-peace-talks.html",
+          "snippet": "2026-04-13: The indicator guiding our next move as stocks shake off breakdown in peace talks: Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time fo",
+          "guid": "108290636"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/stocks-making-the-biggest-moves-midday-nem-aapl-sndk-deck.html",
+          "snippet": "2026-01-30: Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more: These are the stocks posting the largest moves midday.",
+          "guid": "108259667"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "6efff227-9da9-439e-88e0-c0d9ba2624c3",
+      "label": "Middle East conflict impact on markets",
+      "spike_ratio": 1.061,
+      "article_count": 14,
+      "sentiment_score": 0.2589285714285714,
+      "rag_answer": "The ongoing conflict in the Middle East, particularly involving Iran, has led to significant volatility in global markets. Asia-Pacific and European stocks have experienced sharp declines as investors react to escalating tensions and surging oil prices, which have disrupted various sectors, including aviation and luxury goods. The situation has prompted concerns about prolonged instability, with investors bracing for further risk-off trades. Additionally, the conflict is affecting countries like India, which faces economic pressures from rising energy costs and potential declines in remittances.",
+      "rag_sources": [
+        {
+          "title": "Asia markets tumble as Middle East conflict spiral with no sign of abating",
+          "date": "2026-03-23",
+          "link": "https://www.cnbc.com/2026/03/23/asia-markets-us-iran-threats-strait-of-hormuz-oil-nikkei-kospi-hsi-hang-seng.html",
+          "snippet": "2026-03-23: Asia markets tumble as Middle East conflict spiral with no sign of abating: Asia-Pacific markets tumbled Monday as investors weighed escalating tensions in the Middle East after the U.S. a",
+          "guid": "108281292"
+        },
+        {
+          "title": "Luxury stocks slump as Middle East conflict risks one of the sector\u2019s 'few bright spots\u2019",
+          "date": "2026-03-03",
+          "link": "https://www.cnbc.com/2026/03/03/luxury-stocks-iran-strikes-lvmh-kering-gucci-richemont.html",
+          "snippet": "2026-03-03: Luxury stocks slump as Middle East conflict risks one of the sector\u2019s 'few bright spots\u2019: The Middle East has been one of the few bright spots in a sector that is struggling to get sales b",
+          "guid": "108272638"
+        },
+        {
+          "title": "Why India looks especially vulnerable as conflict rages in Middle East",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/india-impact-iran-middle-east-conflict-oil-prices-airlines.html",
+          "snippet": "2026-03-02: Why India looks especially vulnerable as conflict rages in Middle East: As conflict in the Middle East causes surging oil prices and disrupts the aviation sector, India is coming under pre",
+          "guid": "108271742"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}
