@@ -1,18 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-01-14	Apple	Electronic Technology	neutral	0	products
-2026-01-14	Bank of America	Finance	positive	1	earnings
-2026-01-14	Gold	Non-Energy Minerals	positive	1	markets
-2026-01-14	Google	Electronic Technology	neutral	0	products
-2026-01-14	Meta	Electronic Technology	negative	-1	products
-2026-01-14	Oracle	Technology Services	negative	-1	markets
-2026-01-14	Reality Labs	Electronic Technology	negative	-1	products
-2026-01-14	Stellantis	Producer Manufacturing	neutral	0	earnings
-2026-01-14	Tesla	Electronic Technology	neutral	0	products
-2026-01-14	Waymo	Electronic Technology	neutral	0	products
-2026-01-14	Wells Fargo	Finance	positive	1	earnings
-2026-01-14	XLE	Energy Minerals	positive	1	macro
-2026-01-14	energy sector	Energy Minerals	positive	1	macro
-2026-01-14	silver	Non-Energy Minerals	positive	1	markets
 2026-01-15	3M	Producer Manufacturing	neutral	0	earnings
 2026-01-15	AMD	Electronic Technology	positive	1	earnings
 2026-01-15	Amazon	Retail Trade	negative	-1	markets
@@ -1101,3 +1087,17 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-04-14	Semiconductors	Electronic Technology	positive	1	markets
 2026-04-14	Stelara	Health Services	positive	1	products
 2026-04-14	Tremfya	Health Services	positive	1	products
+2026-04-15	Amazon	Retail Trade	negative	-1	products
+2026-04-15	Bank of America	Finance	positive	1	earnings
+2026-04-15	EchoStar	Electronic Technology	positive	1	products
+2026-04-15	Elon Musk	Consumer Durables	positive	1	products
+2026-04-15	Iran war	Finance	negative	-1	macro
+2026-04-15	Lumen Technologies	Electronic Technology	positive	1	markets
+2026-04-15	Oil tanker traffic	Energy Minerals	negative	-1	macro
+2026-04-15	SpaceX	Electronic Technology	positive	1	products
+2026-04-15	Strait of Hormuz	Energy Minerals	negative	-1	macro
+2026-04-15	Tesla	Consumer Durables	positive	1	products
+2026-04-15	U.S. economy	Finance	negative	-1	macro
+2026-04-15	advertising	Retail Trade	negative	-1	products
+2026-04-15	consumer banking	Finance	positive	1	earnings
+2026-04-15	cruise lines	Transportation	negative	-1	macro

@@ -1,0 +1,84 @@
+{
+  "date": "2026-04-15",
+  "batch_id": "batch_69dfee95935c819092e5f8eb7ad0b79e",
+  "sectors": [
+    {
+      "entities": [
+        "U.S. economy",
+        "Iran war"
+      ],
+      "sector": "Finance",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Oil tanker traffic",
+        "Strait of Hormuz"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Amazon",
+        "advertising"
+      ],
+      "sector": "Retail Trade",
+      "sentiment": "negative",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "SpaceX",
+        "EchoStar"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "cruise lines"
+      ],
+      "sector": "Transportation",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Bank of America",
+        "consumer banking"
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Lumen Technologies"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Tesla",
+        "Elon Musk"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    }
+  ]
+}

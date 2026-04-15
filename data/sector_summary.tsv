@@ -1590,3 +1590,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-04-14	Energy Minerals	BP|Meg O'Neill	neutral	appointments	ok
 2026-04-14	Health Services	J&J|Stelara|Darzalex|Tremfya	positive	products	ok
 2026-04-14	Health Technology	Novo Nordisk|OpenAI	positive	products	ok
+2026-04-15	Finance	U.S. economy|Iran war	negative	macro	ok
+2026-04-15	Energy Minerals	Oil tanker traffic|Strait of Hormuz	negative	macro	ok
+2026-04-15	Retail Trade	Amazon|advertising	negative	products	ok
+2026-04-15	Electronic Technology	SpaceX|EchoStar	positive	products	ok
+2026-04-15	Transportation	cruise lines	negative	macro	ok
+2026-04-15	Finance	Bank of America|consumer banking	positive	earnings	ok
+2026-04-15	Electronic Technology	Lumen Technologies	positive	markets	ok
+2026-04-15	Consumer Durables	Tesla|Elon Musk	positive	products	ok
