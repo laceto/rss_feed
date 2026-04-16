@@ -1,0 +1,232 @@
+{
+  "date": "2026-04-16",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "ad0fef60-4749-4e85-809e-e1e6af36a370",
+      "label": "Kevin Warsh Fed Chair Nomination",
+      "spike_ratio": 1.233,
+      "article_count": 18,
+      "sentiment_score": 0.0810185185185185,
+      "rag_answer": "Kevin Warsh's nomination as Federal Reserve chair by President Trump has faced significant hurdles, primarily due to a federal criminal investigation into current Chair Jerome Powell, which has led to opposition from Senator Thom Tillis. Despite these challenges, Warsh has cleared some procedural requirements, such as submitting ethics paperwork, and his nomination is set to be considered by a Senate committee. Market analysts view Warsh as a credible choice who may advocate for lower interest rates, but the ongoing investigation and political opposition could create uncertainty in monetary policy direction, impacting investor sentiment. Overall, the situation remains fluid, with potential implications for market stability as the nomination process unfolds.",
+      "rag_sources": [
+        {
+          "title": "Kevin Warsh Fed chair confirmation plan hits snag as nomination hearing is delayed",
+          "date": "2026-04-10",
+          "link": "https://www.cnbc.com/2026/04/10/warsh-fed-nomination-hearing-delayed.html",
+          "snippet": "2026-04-10: Kevin Warsh Fed chair confirmation plan hits snag as nomination hearing is delayed: President Trump's nomination of Kevin Warsh as Federal Reserve chair already faced a hurdle by Sen. Thom",
+          "guid": "108289553"
+        },
+        {
+          "title": "Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/trump-finally-makes-his-fed-chair-pick-what-kevin-warsh-means-for-investors.html",
+          "snippet": "2026-01-30: Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors: Investors see the former Fed governor as a credible steward of monetary policy despite expectations he may pu",
+          "guid": "108259473"
+        },
+        {
+          "title": "Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/who-is-kevin-warsh-trumps-fed-chair-pick.html",
+          "snippet": "2026-01-30: Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve: Kevin Warsh, a former Fed governor, has emerged as Donald Trump\u2019s pick to lead the Federal Reserve.",
+          "guid": "108259461"
+        },
+        {
+          "title": "Trump nominates Kevin Warsh for Federal Reserve chair to succeed Jerome Powell",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/trump-nominates-kevin-warsh-for-federal-reserve-chair-to-succeed-jerome-powell.html",
+          "snippet": "2026-01-30: Trump nominates Kevin Warsh for Federal Reserve chair to succeed Jerome Powell: President Trump named Kevin Warsh to succeed Jerome Powell as Fed chair, ending an odyssey that has seen unp",
+          "guid": "108237566"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "stable",
+          "trend_delta": 0.095,
+          "mean_sentiment_score": 0.385,
+          "data_age_days": null
+        },
+        {
+          "sector": "Technology Services",
+          "trend_direction": "improving",
+          "trend_delta": 0.5,
+          "mean_sentiment_score": 0.25,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "4ef5b11c-ddd2-41a2-beb1-3050b4e18b77",
+      "label": "Treasury Yields and Iran Conflict",
+      "spike_ratio": 1.21,
+      "article_count": 15,
+      "sentiment_score": 0.1535714285714285,
+      "rag_answer": "Treasury yields have shown significant volatility in response to the ongoing U.S.-Iran conflict. Initially, yields rose due to concerns over inflation and the war's impact on oil prices, but they later fell sharply following a ceasefire agreement between the U.S. and Iran. Throughout the conflict, market reactions have been influenced by geopolitical developments, with yields fluctuating as investors weighed the potential for peace against rising tensions and threats from Iran. Overall, the situation has created uncertainty in the markets, affecting investor sentiment and expectations regarding future Federal Reserve policy.",
+      "rag_sources": [
+        {
+          "title": "Treasury yields fall as traders weigh odds of Iran war ending, future Fed policy moves",
+          "date": "2026-03-31",
+          "link": "https://www.cnbc.com/2026/03/31/us10y-treasury-yields-iran-war-jolts-jobs-data-economy-fed-rate-cut.html",
+          "snippet": "2026-03-31: Treasury yields fall as traders weigh odds of Iran war ending, future Fed policy moves: U.S. Treasury yields edged lower on Tuesday morning, as investors continued to monitor developments ",
+          "guid": "108285187"
+        },
+        {
+          "title": "Treasury yields gain after sticky February inflation reading, oil price increase",
+          "date": "2026-03-11",
+          "link": "https://www.cnbc.com/2026/03/11/us-treasury-yields-investors-await-key-inflation-report-.html",
+          "snippet": "2026-03-11: Treasury yields gain after sticky February inflation reading, oil price increase: U.S. Treasury yields moved higher on Wednesday as assessed February's inflation report and monitored devel",
+          "guid": "108276474"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Treasury yields are little changed as Trump reiterates Iran infrastructure threat, sending oil higher",
+          "date": "2026-04-07",
+          "link": "https://www.cnbc.com/2026/04/07/treasury-yields-rise-as-trump-reiterates-iran-infrastructure-threat.html",
+          "snippet": "2026-04-07: Treasury yields are little changed as Trump reiterates Iran infrastructure threat, sending oil higher: Treasury yields were relatively unchanged on Tuesday as President Donald Trump again ",
+          "guid": "108287776"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "stable",
+          "trend_delta": 0.095,
+          "mean_sentiment_score": 0.385,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "f6c084f0-a547-4ff0-a223-85410a095e66",
+      "label": "Midday Stock Movements",
+      "spike_ratio": 1.111,
+      "article_count": 16,
+      "sentiment_score": 0.220610119047619,
+      "rag_answer": "Midday stock movements have been characterized by significant volatility, with various companies making notable gains or losses on a daily basis. Recent reports highlight stocks like Paramount Skydance, Marvell Technology, and UnitedHealth as some of the biggest movers, indicating active trading and investor interest. The market is currently influenced by geopolitical tensions, particularly the ongoing Iran war, which has led to fluctuations in oil prices and broader market sentiment. Investors are advised to remain selective and cautious amid this volatility, as economic conditions and external factors continue to impact stock performance.",
+      "rag_sources": [
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel",
+          "date": "2025-08-11",
+          "link": "https://www.cnbc.com/2025/08/11/stock-market-party-to-be-ruined-by-sudden-economic-slowdown-says-stifel.html",
+          "snippet": "2025-08-11: Stock market 'party' to be ruined by 'sudden' economic slowdown, says Stifel: The market could be in for a stagflation environment, the firm said.",
+          "guid": "108184067"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "European markets close higher as investors digest key points from Munich Security Conference",
+          "date": "2026-02-16",
+          "link": "https://www.cnbc.com/2026/02/16/europe-markets-stoxx-600-ftse-100-msc-defense.html",
+          "snippet": "2026-02-16: European markets close higher as investors digest key points from Munich Security Conference: Stock markets in Europe began the week in positive territory after edging lower on Friday.",
+          "guid": "108266036"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "4e7be4d8-a78f-4603-8cc8-2d594841b09b",
+      "label": "Interest Rates and Treasury Yields",
+      "spike_ratio": 1.032,
+      "article_count": 13,
+      "sentiment_score": -0.0128205128205128,
+      "rag_answer": "Interest rates and Treasury yields have been experiencing fluctuations influenced by various economic factors and geopolitical events. Recently, the 10-year Treasury yield has dipped as investors assess the Federal Reserve's monetary policy outlook for 2026, while yields have also been affected by rising oil prices and inflation data. The market is reacting to the Fed's decisions, with yields rising after rate cuts and fluctuating based on economic growth expectations and geopolitical tensions, particularly related to the U.S.-Iran conflict. Overall, the interplay between inflation, economic data, and Fed policy continues to shape investor sentiment and market dynamics.",
+      "rag_sources": [
+        {
+          "title": "10-year Treasury yield dips as investors assess interest rate outlook for 2026",
+          "date": "2025-12-29",
+          "link": "https://www.cnbc.com/2025/12/29/10-year-treasury-yield-in-focus-as-investors-assess-rate-outlook.html",
+          "snippet": "2025-12-29: 10-year Treasury yield dips as investors assess interest rate outlook for 2026: The moves come as traders digest the latest economic data and assess the Federal Reserve's monetary rate pat",
+          "guid": "108246099"
+        },
+        {
+          "title": "Treasury yields are stable as traders try to gauge impact of Trump's fight for Fed control",
+          "date": "2025-08-27",
+          "link": "https://www.cnbc.com/2025/08/27/us-treasury-yields-investors-look-ahead-to-key-inflation-data.html",
+          "snippet": "2025-08-27: Treasury yields are stable as traders try to gauge impact of Trump's fight for Fed control: Long-term U.S. Treasury yields backed off early highs Wednesday as traders tried to assess the e",
+          "guid": "108191159"
+        },
+        {
+          "title": "10-year Treasury yield hovers near 4.3% after oil price gain, sticky inflation data",
+          "date": "2026-04-09",
+          "link": "https://www.cnbc.com/2026/04/09/us-treasury-yields-steady-ahead-of-key-us-inflation-data-releases.html",
+          "snippet": "2026-04-09: 10-year Treasury yield hovers near 4.3% after oil price gain, sticky inflation data: The 10-year Treasury yield moved lower on Thursday as oil prices rallied and investors digested a numbe",
+          "guid": "108289080"
+        },
+        {
+          "title": "What the 10-year Treasury yield's chart tells us about where stocks are heading ",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/what-the-10-years-chart-tells-us-about-where-stocks-are-heading-.html",
+          "snippet": "2026-02-11: What the 10-year Treasury yield's chart tells us about where stocks are heading: If rates move\u00a0considerably higher after the strong run in equities, the pairing could create a bearish scen",
+          "guid": "108264558"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "stable",
+          "trend_delta": 0.095,
+          "mean_sentiment_score": 0.385,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "6efff227-9da9-439e-88e0-c0d9ba2624c3",
+      "label": "Middle East conflict impact on markets",
+      "spike_ratio": 1.014,
+      "article_count": 14,
+      "sentiment_score": 0.2589285714285714,
+      "rag_answer": "The ongoing conflict in the Middle East, particularly involving Iran, has led to significant volatility in global markets. Asian and European stocks have experienced sharp declines as investors react to escalating tensions and surging oil prices, which have disrupted various sectors, including aviation and retail. The situation has prompted a risk-off sentiment among traders, with many bracing for prolonged instability. Additionally, the conflict has raised concerns about the impact on remittances to countries like India, further complicating the economic landscape.",
+      "rag_sources": [
+        {
+          "title": "Asia markets tumble as Middle East conflict spiral with no sign of abating",
+          "date": "2026-03-23",
+          "link": "https://www.cnbc.com/2026/03/23/asia-markets-us-iran-threats-strait-of-hormuz-oil-nikkei-kospi-hsi-hang-seng.html",
+          "snippet": "2026-03-23: Asia markets tumble as Middle East conflict spiral with no sign of abating: Asia-Pacific markets tumbled Monday as investors weighed escalating tensions in the Middle East after the U.S. a",
+          "guid": "108281292"
+        },
+        {
+          "title": "Luxury stocks slump as Middle East conflict risks one of the sector\u2019s 'few bright spots\u2019",
+          "date": "2026-03-03",
+          "link": "https://www.cnbc.com/2026/03/03/luxury-stocks-iran-strikes-lvmh-kering-gucci-richemont.html",
+          "snippet": "2026-03-03: Luxury stocks slump as Middle East conflict risks one of the sector\u2019s 'few bright spots\u2019: The Middle East has been one of the few bright spots in a sector that is struggling to get sales b",
+          "guid": "108272638"
+        },
+        {
+          "title": "Why India looks especially vulnerable as conflict rages in Middle East",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/india-impact-iran-middle-east-conflict-oil-prices-airlines.html",
+          "snippet": "2026-03-02: Why India looks especially vulnerable as conflict rages in Middle East: As conflict in the Middle East causes surging oil prices and disrupts the aviation sector, India is coming under pre",
+          "guid": "108271742"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}
