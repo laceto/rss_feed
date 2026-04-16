@@ -1,0 +1,80 @@
+{
+  "date": "2026-04-16",
+  "batch_id": "batch_69e13f4096088190aed63bc4dde5e30a",
+  "sectors": [
+    {
+      "entities": [
+        "U.S. Navy",
+        "Iran"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Salesforce"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "U.S. Navy",
+        "Iran"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Myseum"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Netflix"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "neutral",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "PepsiCo"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Barry Callebaut"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "negative",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Charles Schwab"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    }
+  ]
+}

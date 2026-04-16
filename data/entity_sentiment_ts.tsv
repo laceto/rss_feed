@@ -1,19 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-01-15	3M	Producer Manufacturing	neutral	0	earnings
-2026-01-15	AMD	Electronic Technology	positive	1	earnings
-2026-01-15	Amazon	Retail Trade	negative	-1	markets
-2026-01-15	Applied Materials	Electronic Technology	positive	1	earnings
-2026-01-15	Congress	Health Services	neutral	0	macro
-2026-01-15	Dow	Transportation	positive	1	markets
-2026-01-15	Goldman Sachs	Finance	neutral	0	markets
-2026-01-15	Greenland	Transportation	neutral	0	macro
-2026-01-15	NATO	Transportation	neutral	0	macro
-2026-01-15	Neiman Marcus	Retail Trade	negative	-1	markets
-2026-01-15	Nvidia	Electronic Technology	positive	1	earnings
-2026-01-15	Saks	Retail Trade	negative	-1	markets
-2026-01-15	Spotify	Consumer Durables	neutral	0	products
-2026-01-15	TSMC	Electronic Technology	positive	1	earnings
-2026-01-15	Trump	Health Services	neutral	0	macro
 2026-01-16	AI	Electronic Technology	positive	1	products
 2026-01-16	Eli Lilly	Consumer Non-Durables	positive	1	products
 2026-01-16	Fed	Finance	neutral	0	appointments
@@ -1101,3 +1086,13 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-04-15	advertising	Retail Trade	negative	-1	products
 2026-04-15	consumer banking	Finance	positive	1	earnings
 2026-04-15	cruise lines	Transportation	negative	-1	macro
+2026-04-16	Barry Callebaut	Consumer Non-Durables	negative	-1	earnings
+2026-04-16	Charles Schwab	Finance	neutral	0	products
+2026-04-16	Iran	Energy Minerals	negative	-1	macro
+2026-04-16	Iran	Energy Minerals	negative	-1	macro
+2026-04-16	Myseum	Electronic Technology	positive	1	products
+2026-04-16	Netflix	Consumer Non-Durables	neutral	0	earnings
+2026-04-16	PepsiCo	Consumer Non-Durables	positive	1	earnings
+2026-04-16	Salesforce	Technology Services	positive	1	markets
+2026-04-16	U.S. Navy	Energy Minerals	negative	-1	macro
+2026-04-16	U.S. Navy	Energy Minerals	negative	-1	macro

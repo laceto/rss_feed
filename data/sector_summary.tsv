@@ -1598,3 +1598,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-04-15	Finance	Bank of America|consumer banking	positive	earnings	ok
 2026-04-15	Electronic Technology	Lumen Technologies	positive	markets	ok
 2026-04-15	Consumer Durables	Tesla|Elon Musk	positive	products	ok
+2026-04-16	Energy Minerals	U.S. Navy|Iran	negative	macro	ok
+2026-04-16	Technology Services	Salesforce	positive	markets	ok
+2026-04-16	Energy Minerals	U.S. Navy|Iran	negative	macro	ok
+2026-04-16	Electronic Technology	Myseum	positive	products	ok
+2026-04-16	Consumer Non-Durables	Netflix	neutral	earnings	ok
+2026-04-16	Consumer Non-Durables	PepsiCo	positive	earnings	ok
+2026-04-16	Consumer Non-Durables	Barry Callebaut	negative	earnings	ok
+2026-04-16	Finance	Charles Schwab	neutral	products	ok
