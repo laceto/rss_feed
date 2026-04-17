@@ -1,20 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-01-16	AI	Electronic Technology	positive	1	products
-2026-01-16	Eli Lilly	Consumer Non-Durables	positive	1	products
-2026-01-16	Fed	Finance	neutral	0	appointments
-2026-01-16	Greenland	Energy Minerals	negative	-1	macro
-2026-01-16	Kevin Hassett	Finance	neutral	0	appointments
-2026-01-16	Micron	Electronic Technology	positive	1	products
-2026-01-16	Novo Nordisk	Consumer Non-Durables	positive	1	products
-2026-01-16	Offshore Wind	Energy Minerals	positive	1	products
-2026-01-16	OpenAI	Electronic Technology	neutral	0	products
-2026-01-16	S&P 500	Finance	positive	1	markets
-2026-01-16	Semiconductor	Finance	positive	1	markets
-2026-01-16	Trump	Energy Minerals	negative	-1	macro
-2026-01-16	U.S. Energy	Energy Minerals	positive	1	markets
-2026-01-16	Venezuela oil	Energy Minerals	positive	1	markets
-2026-01-16	Virginia Offshore Wind	Energy Minerals	positive	1	products
-2026-01-16	bank stocks	Finance	positive	1	markets
 2026-01-17	Brazilian stocks	Finance	neutral	0	macro
 2026-01-17	Disney	Consumer Non-Durables	positive	1	markets
 2026-01-17	EPA	Electronic Technology	negative	-1	regulation
@@ -1096,3 +1080,24 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-04-16	Salesforce	Technology Services	positive	1	markets
 2026-04-16	U.S. Navy	Energy Minerals	negative	-1	macro
 2026-04-16	U.S. Navy	Energy Minerals	negative	-1	macro
+2026-04-17	AMD	Electronic Technology	positive	1	markets
+2026-04-17	Apple	Consumer Durables	positive	1	markets
+2026-04-17	Best Buy	Retail Trade	neutral	0	products
+2026-04-17	Broadcom	Electronic Technology	positive	1	markets
+2026-04-17	Cerebras	Electronic Technology	positive	1	products
+2026-04-17	Dick's Sporting Goods	Retail Trade	neutral	0	products
+2026-04-17	Energy	Energy Minerals	positive	1	markets
+2026-04-17	Fed	Finance	neutral	0	macro
+2026-04-17	Federal Reserve	Finance	neutral	0	macro
+2026-04-17	Intel	Electronic Technology	positive	1	markets
+2026-04-17	Marvell	Electronic Technology	positive	1	markets
+2026-04-17	Micron	Electronic Technology	positive	1	markets
+2026-04-17	Microsoft	Electronic Technology	positive	1	markets
+2026-04-17	Netflix	Retail Trade	positive	1	earnings
+2026-04-17	Nvidia	Electronic Technology	positive	1	markets
+2026-04-17	ON Semiconductor	Electronic Technology	positive	1	markets
+2026-04-17	Oil	Energy Minerals	positive	1	markets
+2026-04-17	Oracle	Electronic Technology	positive	1	markets
+2026-04-17	Petco	Retail Trade	neutral	0	products
+2026-04-17	Uber Eats	Retail Trade	neutral	0	products
+2026-04-17	WBD	Retail Trade	positive	1	earnings

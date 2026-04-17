@@ -1,0 +1,91 @@
+{
+  "date": "2026-04-17",
+  "batch_id": "batch_69e2904c8ac4819081b9ac5501db89a3",
+  "sectors": [
+    {
+      "entities": [
+        "Fed",
+        "Federal Reserve"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Netflix",
+        "WBD"
+      ],
+      "sector": "Retail Trade",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Cerebras"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "AMD",
+        "Oracle",
+        "Microsoft",
+        "Intel",
+        "Broadcom",
+        "Micron",
+        "Marvell",
+        "ON Semiconductor"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Uber Eats",
+        "Best Buy",
+        "Dick's Sporting Goods",
+        "Petco"
+      ],
+      "sector": "Retail Trade",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Nvidia"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Apple"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Energy",
+        "Oil"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}

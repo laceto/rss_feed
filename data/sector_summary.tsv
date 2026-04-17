@@ -1606,3 +1606,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-04-16	Consumer Non-Durables	PepsiCo	positive	earnings	ok
 2026-04-16	Consumer Non-Durables	Barry Callebaut	negative	earnings	ok
 2026-04-16	Finance	Charles Schwab	neutral	products	ok
+2026-04-17	Finance	Fed|Federal Reserve	neutral	macro	ok
+2026-04-17	Retail Trade	Netflix|WBD	positive	earnings	ok
+2026-04-17	Electronic Technology	Cerebras	positive	products	ok
+2026-04-17	Electronic Technology	AMD|Oracle|Microsoft|Intel|Broadcom|Micron|Marvell|ON Semiconductor	positive	markets	ok
+2026-04-17	Retail Trade	Uber Eats|Best Buy|Dick's Sporting Goods|Petco	neutral	products	ok
+2026-04-17	Electronic Technology	Nvidia	positive	markets	ok
+2026-04-17	Consumer Durables	Apple	positive	markets	ok
+2026-04-17	Energy Minerals	Energy|Oil	positive	markets	ok
