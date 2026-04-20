@@ -1614,3 +1614,18 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-04-17	Electronic Technology	Nvidia	positive	markets	ok
 2026-04-17	Consumer Durables	Apple	positive	markets	ok
 2026-04-17	Energy Minerals	Energy|Oil	positive	markets	ok
+2026-04-18	Consumer Non-Durables	Naomi Watts|Stripes Beauty	positive	products	ok
+2026-04-18	Energy Minerals	U.S.-Iran war	negative	macro	ok
+2026-04-18	Retail Trade	local mom-and-pop car dealerships|auto retailers	neutral	markets	ok
+2026-04-19	Distribution Services	Amazon|U.S. Postal Service	neutral	macro	ok
+2026-04-19	Technology Services	Cursor|Artificial intelligence startup	neutral	products	ok
+2026-04-19	Electronic Technology	Nvidia|Jensen Huang	neutral	products	ok
+2026-04-19	Energy Minerals	Gas prices|Energy Secretary Wright	negative	macro	ok
+2026-04-20	Retail Trade	Walmart|Target	neutral	macro	ok
+2026-04-20	Finance	U.S. Federal Reserve|Kevin Warsh	neutral	appointments	ok
+2026-04-20	Energy Minerals	Iran|U.S.|Trump	negative	macro	ok
+2026-04-20	Energy Minerals	Oil	positive	markets	ok
+2026-04-20	Retail Trade	Jersey Mike's|Blackstone	neutral	products	ok
+2026-04-20	Health Services	Eli Lilly|Kelonia	positive	products	ok
+2026-04-20	Producer Manufacturing	Mitsubishi Heavy Industries|Royal Australian Navy	positive	products	ok
+2026-04-20	Electronic Technology	China|solar energy	positive	macro	ok

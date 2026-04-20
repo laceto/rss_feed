@@ -1,0 +1,86 @@
+{
+  "date": "2026-04-20",
+  "batch_id": "batch_69e6857264ec81909cf05a0948b4cfe0",
+  "sectors": [
+    {
+      "entities": [
+        "Walmart",
+        "Target"
+      ],
+      "sector": "Retail Trade",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "U.S. Federal Reserve",
+        "Kevin Warsh"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "appointments",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Iran",
+        "U.S.",
+        "Trump"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Oil"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Jersey Mike's",
+        "Blackstone"
+      ],
+      "sector": "Retail Trade",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Eli Lilly",
+        "Kelonia"
+      ],
+      "sector": "Health Services",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Mitsubishi Heavy Industries",
+        "Royal Australian Navy"
+      ],
+      "sector": "Producer Manufacturing",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "China",
+        "solar energy"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "date": "2026-04-19",
+  "batch_id": "batch_69e6857264ec81909cf05a0948b4cfe0",
+  "sectors": [
+    {
+      "entities": [
+        "Amazon",
+        "U.S. Postal Service"
+      ],
+      "sector": "Distribution Services",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Cursor",
+        "Artificial intelligence startup"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Nvidia",
+        "Jensen Huang"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Gas prices",
+        "Energy Secretary Wright"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    }
+  ]
+}

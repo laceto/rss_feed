@@ -1,34 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-01-17	Brazilian stocks	Finance	neutral	0	macro
-2026-01-17	Disney	Consumer Non-Durables	positive	1	markets
-2026-01-17	EPA	Electronic Technology	negative	-1	regulation
-2026-01-17	Elon Musk	Electronic Technology	negative	-1	regulation
-2026-01-17	Venezuela	Finance	neutral	0	macro
-2026-01-17	xAI	Electronic Technology	negative	-1	regulation
-2026-01-18	Airwallex	Finance	neutral	0	markets
-2026-01-18	Berkshire	Finance	neutral	0	markets
-2026-01-18	Greenland	Finance	neutral	0	markets
-2026-01-18	JPMorgan Chase	Finance	neutral	0	markets
-2026-01-18	Khanna	Finance	neutral	0	markets
-2026-01-18	South Korean noodle companies	Finance	neutral	0	markets
-2026-01-18	Supreme Court	Finance	neutral	0	markets
-2026-01-18	Trump administration	Finance	neutral	0	markets
-2026-01-18	health CEOs	Health Services	positive	1	markets
-2026-01-19	European	Consumer Durables	negative	-1	markets
-2026-01-19	European countries	Distribution Services	negative	-1	macro
-2026-01-19	Federal Reserve	Finance	neutral	0	macro
-2026-01-19	Greenland	Distribution Services	negative	-1	macro
-2026-01-19	Jeep	Consumer Durables	negative	-1	earnings
-2026-01-19	Jerome Powell	Finance	neutral	0	macro
-2026-01-19	OpenAI	Electronic Technology	positive	1	products
-2026-01-19	Sarah Friar	Electronic Technology	positive	1	products
-2026-01-19	Stellantis	Consumer Durables	negative	-1	earnings
-2026-01-19	UBS	Electronic Technology	positive	1	markets
-2026-01-19	Valentino	Consumer Non-Durables	neutral	0	other
-2026-01-19	auto makers	Consumer Durables	negative	-1	markets
-2026-01-19	gold	Energy Minerals	positive	1	markets
-2026-01-19	quantum computing	Electronic Technology	positive	1	markets
-2026-01-19	silver	Energy Minerals	positive	1	markets
 2026-01-20	AkademikerPension	Finance	negative	-1	macro
 2026-01-20	Treasury	Finance	negative	-1	macro
 2026-01-20	Treasury	Finance	negative	-1	markets
@@ -1101,3 +1071,32 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-04-17	Petco	Retail Trade	neutral	0	products
 2026-04-17	Uber Eats	Retail Trade	neutral	0	products
 2026-04-17	WBD	Retail Trade	positive	1	earnings
+2026-04-18	Naomi Watts	Consumer Non-Durables	positive	1	products
+2026-04-18	Stripes Beauty	Consumer Non-Durables	positive	1	products
+2026-04-18	U.S.-Iran war	Energy Minerals	negative	-1	macro
+2026-04-18	auto retailers	Retail Trade	neutral	0	markets
+2026-04-18	local mom-and-pop car dealerships	Retail Trade	neutral	0	markets
+2026-04-19	Amazon	Distribution Services	neutral	0	macro
+2026-04-19	Artificial intelligence startup	Technology Services	neutral	0	products
+2026-04-19	Cursor	Technology Services	neutral	0	products
+2026-04-19	Energy Secretary Wright	Energy Minerals	negative	-1	macro
+2026-04-19	Gas prices	Energy Minerals	negative	-1	macro
+2026-04-19	Jensen Huang	Electronic Technology	neutral	0	products
+2026-04-19	Nvidia	Electronic Technology	neutral	0	products
+2026-04-19	U.S. Postal Service	Distribution Services	neutral	0	macro
+2026-04-20	Blackstone	Retail Trade	neutral	0	products
+2026-04-20	China	Electronic Technology	positive	1	macro
+2026-04-20	Eli Lilly	Health Services	positive	1	products
+2026-04-20	Iran	Energy Minerals	negative	-1	macro
+2026-04-20	Jersey Mike's	Retail Trade	neutral	0	products
+2026-04-20	Kelonia	Health Services	positive	1	products
+2026-04-20	Kevin Warsh	Finance	neutral	0	appointments
+2026-04-20	Mitsubishi Heavy Industries	Producer Manufacturing	positive	1	products
+2026-04-20	Oil	Energy Minerals	positive	1	markets
+2026-04-20	Royal Australian Navy	Producer Manufacturing	positive	1	products
+2026-04-20	Target	Retail Trade	neutral	0	macro
+2026-04-20	Trump	Energy Minerals	negative	-1	macro
+2026-04-20	U.S.	Energy Minerals	negative	-1	macro
+2026-04-20	U.S. Federal Reserve	Finance	neutral	0	appointments
+2026-04-20	Walmart	Retail Trade	neutral	0	macro
+2026-04-20	solar energy	Electronic Technology	positive	1	macro

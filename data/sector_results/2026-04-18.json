@@ -1,0 +1,35 @@
+{
+  "date": "2026-04-18",
+  "batch_id": "batch_69e6857264ec81909cf05a0948b4cfe0",
+  "sectors": [
+    {
+      "entities": [
+        "Naomi Watts",
+        "Stripes Beauty"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "U.S.-Iran war"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "local mom-and-pop car dealerships",
+        "auto retailers"
+      ],
+      "sector": "Retail Trade",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}
