@@ -1,0 +1,217 @@
+{
+  "date": "2026-04-20",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "4ef5b11c-ddd2-41a2-beb1-3050b4e18b77",
+      "label": "Treasury Yields and Iran Conflict",
+      "spike_ratio": 1.176,
+      "article_count": 16,
+      "sentiment_score": 0.1674107142857143,
+      "rag_answer": "Treasury yields have shown significant volatility in response to the ongoing U.S.-Iran conflict. Initially, yields rose due to concerns over inflation and the war's impact on oil prices, but they fell sharply following a ceasefire agreement between the U.S. and Iran, indicating a temporary easing of tensions. Throughout the conflict, market reactions have been influenced by developments such as threats from Iran against U.S. Treasury buyers and President Trump's warnings about potential strikes, which have contributed to fluctuations in investor sentiment. Overall, the situation remains fluid, with yields reflecting the uncertainty surrounding the conflict and its implications for the broader economy.",
+      "rag_sources": [
+        {
+          "title": "Treasury yields fall as traders weigh odds of Iran war ending, future Fed policy moves",
+          "date": "2026-03-31",
+          "link": "https://www.cnbc.com/2026/03/31/us10y-treasury-yields-iran-war-jolts-jobs-data-economy-fed-rate-cut.html",
+          "snippet": "2026-03-31: Treasury yields fall as traders weigh odds of Iran war ending, future Fed policy moves: U.S. Treasury yields edged lower on Tuesday morning, as investors continued to monitor developments ",
+          "guid": "108285187"
+        },
+        {
+          "title": "Treasury yields gain after sticky February inflation reading, oil price increase",
+          "date": "2026-03-11",
+          "link": "https://www.cnbc.com/2026/03/11/us-treasury-yields-investors-await-key-inflation-report-.html",
+          "snippet": "2026-03-11: Treasury yields gain after sticky February inflation reading, oil price increase: U.S. Treasury yields moved higher on Wednesday as assessed February's inflation report and monitored devel",
+          "guid": "108276474"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Treasury yields are little changed as Trump reiterates Iran infrastructure threat, sending oil higher",
+          "date": "2026-04-07",
+          "link": "https://www.cnbc.com/2026/04/07/treasury-yields-rise-as-trump-reiterates-iran-infrastructure-threat.html",
+          "snippet": "2026-04-07: Treasury yields are little changed as Trump reiterates Iran infrastructure threat, sending oil higher: Treasury yields were relatively unchanged on Tuesday as President Donald Trump again ",
+          "guid": "108287776"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.5,
+          "mean_sentiment_score": 0.25,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "a6911053-deec-44da-91d1-bfa94b65b030",
+      "label": "S&P 500 Market Analysis",
+      "spike_ratio": 1.074,
+      "article_count": 35,
+      "sentiment_score": 0.168843537414966,
+      "rag_answer": "The S&P 500 has been experiencing significant volatility, influenced by external factors such as the ongoing oil crisis and the U.S.-Iran conflict, which have led to a series of losing weeks. Recently, the index approached its 200-day moving average, raising concerns among traders about potential further declines. Despite these pressures, there have been moments of resilience, with the index reaching all-time highs at times, indicating a complex market environment where investor sentiment is mixed. Overall, the market is navigating through geopolitical tensions and economic indicators, with analysts closely monitoring key levels and upcoming earnings reports for further direction.",
+      "rag_sources": [
+        {
+          "title": "S&P 500 is under pressure again from oil crisis, heads for third-straight losing week: Live updates",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/12/stock-market-today-live-updates.html",
+          "snippet": "2026-03-13: S&P 500 is under pressure again from oil crisis, heads for third-straight losing week: Live updates: The S&P 500 fell on Friday, while oil prices extended their gains as investors awaited ",
+          "guid": "108277498"
+        },
+        {
+          "title": "When will the selling stop? Jay Woods and other traders are watching this key S&P 500 level",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/when-will-the-selling-stop-jay-woods-and-others-are-watching-this-key-sp-500-level.html",
+          "snippet": "2026-03-09: When will the selling stop? Jay Woods and other traders are watching this key S&P 500 level: The broad market index is fast approaching its 200-day moving average, which is at 6,582.",
+          "guid": "108275364"
+        },
+        {
+          "title": "NYSE insider Jay Woods is watching these key levels on the S&P 500 and crude oil as U.S.-Iran conflict widens",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/nyse-insider-woods-watching-these-key-levels-on-the-sp-500-crude-oil.html",
+          "snippet": "2026-03-02: NYSE insider Jay Woods is watching these key levels on the S&P 500 and crude oil as U.S.-Iran conflict widens: Beyond the war, this week will see a highly-awaited February jobs report alon",
+          "guid": "108272057"
+        },
+        {
+          "title": "S&P 500 heads for first decline in 8 days on Oracle slide, shutdown angst: Live updates",
+          "date": "2025-10-07",
+          "link": "https://www.cnbc.com/2025/10/06/stock-market-today-live-updates.html",
+          "snippet": "2025-10-07: S&P 500 heads for first decline in 8 days on Oracle slide, shutdown angst: Live updates: Investors await more developments on the current U.S. government shutdown that is now on its second",
+          "guid": "108208432"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "4e7be4d8-a78f-4603-8cc8-2d594841b09b",
+      "label": "Interest Rates and Treasury Yields",
+      "spike_ratio": 1.066,
+      "article_count": 13,
+      "sentiment_score": -0.0608974358974358,
+      "rag_answer": "Interest rates and Treasury yields have been experiencing fluctuations influenced by various economic factors and geopolitical events. Recently, the 10-year Treasury yield has dipped as investors assess the Federal Reserve's monetary policy outlook for 2026, while yields have also been affected by rising oil prices and inflation data. The market is reacting to the Fed's decisions, with yields rising after rate cuts and fluctuating based on economic growth expectations and geopolitical tensions, particularly related to the U.S.-Iran conflict. Overall, the interplay between inflation, economic data, and Fed policy continues to shape investor sentiment and market dynamics.",
+      "rag_sources": [
+        {
+          "title": "10-year Treasury yield dips as investors assess interest rate outlook for 2026",
+          "date": "2025-12-29",
+          "link": "https://www.cnbc.com/2025/12/29/10-year-treasury-yield-in-focus-as-investors-assess-rate-outlook.html",
+          "snippet": "2025-12-29: 10-year Treasury yield dips as investors assess interest rate outlook for 2026: The moves come as traders digest the latest economic data and assess the Federal Reserve's monetary rate pat",
+          "guid": "108246099"
+        },
+        {
+          "title": "Treasury yields are stable as traders try to gauge impact of Trump's fight for Fed control",
+          "date": "2025-08-27",
+          "link": "https://www.cnbc.com/2025/08/27/us-treasury-yields-investors-look-ahead-to-key-inflation-data.html",
+          "snippet": "2025-08-27: Treasury yields are stable as traders try to gauge impact of Trump's fight for Fed control: Long-term U.S. Treasury yields backed off early highs Wednesday as traders tried to assess the e",
+          "guid": "108191159"
+        },
+        {
+          "title": "10-year Treasury yield hovers near 4.3% after oil price gain, sticky inflation data",
+          "date": "2026-04-09",
+          "link": "https://www.cnbc.com/2026/04/09/us-treasury-yields-steady-ahead-of-key-us-inflation-data-releases.html",
+          "snippet": "2026-04-09: 10-year Treasury yield hovers near 4.3% after oil price gain, sticky inflation data: The 10-year Treasury yield moved lower on Thursday as oil prices rallied and investors digested a numbe",
+          "guid": "108289080"
+        },
+        {
+          "title": "What the 10-year Treasury yield's chart tells us about where stocks are heading ",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/what-the-10-years-chart-tells-us-about-where-stocks-are-heading-.html",
+          "snippet": "2026-02-11: What the 10-year Treasury yield's chart tells us about where stocks are heading: If rates move\u00a0considerably higher after the strong run in equities, the pairing could create a bearish scen",
+          "guid": "108264558"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.5,
+          "mean_sentiment_score": 0.25,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "ae3986d5-920a-4e73-aa01-31ca8ae42b2a",
+      "label": "Trump's Iran Ultimatum and Markets",
+      "spike_ratio": 1.024,
+      "article_count": 14,
+      "sentiment_score": 0.1466836734693877,
+      "rag_answer": "Trump's Iran ultimatum has created significant volatility in global markets, with rising oil prices and fluctuating investor sentiment. As tensions escalated, particularly with threats against Iran's civilian infrastructure, markets reacted negatively, leading to declines in stocks and bonds. However, there were moments of reprieve when Trump indicated positive discussions with Tehran, which temporarily eased market fears. As the deadline approaches, investors are on edge, preparing for potential outcomes ranging from a peace deal to further escalation in the conflict.",
+      "rag_sources": [
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        },
+        {
+          "title": "Goldman's David Solomon surprised by \u2018benign\u2019 market reaction to Iran war ",
+          "date": "2026-03-04",
+          "link": "https://www.cnbc.com/2026/03/04/goldman-david-solomon-iran-war-market-reaction-stocks.html",
+          "snippet": "2026-03-04: Goldman's David Solomon surprised by \u2018benign\u2019 market reaction to Iran war: \\I think it's going to take a couple of weeks for markets to really digest the implications of what's happened,\\\"",
+          "guid": "108273273"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "f6c084f0-a547-4ff0-a223-85410a095e66",
+      "label": "Midday Stock Movements",
+      "spike_ratio": 1.0,
+      "article_count": 15,
+      "sentiment_score": 0.1603174603174603,
+      "rag_answer": "Midday stock movements have shown significant volatility, with various companies consistently making headlines for their large price fluctuations. Notable stocks such as Intel, Apple, and Morgan Stanley have been highlighted in multiple reports, indicating a dynamic trading environment influenced by broader market conditions. The frequent updates suggest that investors are reacting to ongoing economic factors, including geopolitical tensions and corporate earnings reports, which are shaping market sentiment. Overall, the midday stock movements reflect a market that is responsive to both internal and external pressures, leading to varied performance across different sectors.",
+      "rag_sources": [
+        {
+          "title": "Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more",
+          "date": "2025-09-18",
+          "link": "https://www.cnbc.com/2025/09/18/stocks-making-the-biggest-moves-midday-intc-nvo-blsh-all.html",
+          "snippet": "2025-09-18: Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more: These are the stocks posting the largest moves midday.",
+          "guid": "108200831"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more",
+          "date": "2025-10-15",
+          "link": "https://www.cnbc.com/2025/10/15/stocks-making-the-biggest-moves-midday-bac-ms-bg-pgr.html",
+          "snippet": "2025-10-15: Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108212417"
+        },
+        {
+          "title": "The indicator guiding our next move as stocks shake off breakdown in peace talks",
+          "date": "2026-04-13",
+          "link": "https://www.cnbc.com/2026/04/13/the-indicator-guiding-our-next-move-as-stocks-shake-off-breakdown-in-peace-talks.html",
+          "snippet": "2026-04-13: The indicator guiding our next move as stocks shake off breakdown in peace talks: Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time fo",
+          "guid": "108290636"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/stocks-making-the-biggest-moves-midday-nem-aapl-sndk-deck.html",
+          "snippet": "2026-01-30: Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more: These are the stocks posting the largest moves midday.",
+          "guid": "108259667"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}
