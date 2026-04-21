@@ -1,18 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-01-20	AkademikerPension	Finance	negative	-1	macro
-2026-01-20	Treasury	Finance	negative	-1	macro
-2026-01-20	Treasury	Finance	negative	-1	markets
-2026-01-20	Treasury prices	Finance	negative	-1	markets
-2026-01-20	Treasury yields	Finance	negative	-1	markets
-2026-01-20	Treasury yields	Finance	negative	-1	markets
-2026-01-20	U.S. Treasury	Finance	negative	-1	macro
-2026-01-20	U.S. Treasury	Finance	negative	-1	markets
-2026-01-20	U.S. Treasury	Finance	negative	-1	markets
-2026-01-20	U.S. Treasury	Finance	negative	-1	markets
-2026-01-20	U.S. Treasury	Finance	negative	-1	markets
-2026-01-20	U.S. Treasurys	Finance	negative	-1	markets
-2026-01-20	U.S. dollar	Finance	negative	-1	macro
-2026-01-20	government bonds	Finance	negative	-1	markets
 2026-01-21	Broadcom	Electronic Technology	positive	1	markets
 2026-01-21	China	Non-Energy Minerals	negative	-1	macro
 2026-01-21	Denmark	Energy Minerals	neutral	0	macro
@@ -1100,3 +1086,20 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-04-20	U.S. Federal Reserve	Finance	neutral	0	appointments
 2026-04-20	Walmart	Retail Trade	neutral	0	macro
 2026-04-20	solar energy	Electronic Technology	positive	1	macro
+2026-04-21	Amazon	Electronic Technology	positive	1	products
+2026-04-21	Anthropic	Electronic Technology	positive	1	products
+2026-04-21	Apple	Electronic Technology	positive	1	products
+2026-04-21	FedEx	Distribution Services	neutral	0	markets
+2026-04-21	Federal Reserve	Finance	neutral	0	macro
+2026-04-21	Iran	Energy Minerals	negative	-1	macro
+2026-04-21	JPMorgan	Finance	positive	1	markets
+2026-04-21	John Ternus	Electronic Technology	positive	1	products
+2026-04-21	Microsoft	Electronic Technology	positive	1	products
+2026-04-21	Tim Cook	Electronic Technology	positive	1	products
+2026-04-21	U.S.	Energy Minerals	negative	-1	macro
+2026-04-21	UPS	Distribution Services	neutral	0	markets
+2026-04-21	Vance	Energy Minerals	negative	-1	macro
+2026-04-21	Volkswagen	Consumer Durables	neutral	0	products
+2026-04-21	Warsh	Finance	neutral	0	macro
+2026-04-21	Xbox	Electronic Technology	positive	1	products
+2026-04-21	Xpeng	Consumer Durables	neutral	0	products

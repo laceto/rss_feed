@@ -1629,3 +1629,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-04-20	Health Services	Eli Lilly|Kelonia	positive	products	ok
 2026-04-20	Producer Manufacturing	Mitsubishi Heavy Industries|Royal Australian Navy	positive	products	ok
 2026-04-20	Electronic Technology	China|solar energy	positive	macro	ok
+2026-04-21	Finance	Federal Reserve|Warsh	neutral	macro	ok
+2026-04-21	Energy Minerals	U.S.|Iran|Vance	negative	macro	ok
+2026-04-21	Electronic Technology	Amazon|Anthropic	positive	products	ok
+2026-04-21	Electronic Technology	Apple|Tim Cook|John Ternus	positive	products	ok
+2026-04-21	Electronic Technology	Microsoft|Xbox	positive	products	ok
+2026-04-21	Distribution Services	UPS|FedEx	neutral	markets	ok
+2026-04-21	Finance	JPMorgan	positive	markets	ok
+2026-04-21	Consumer Durables	Volkswagen|Xpeng	neutral	products	ok
