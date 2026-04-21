@@ -1,0 +1,232 @@
+{
+  "date": "2026-04-21",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "13899326-df13-4536-b05e-25c1e06eba1d",
+      "label": "Strait of Hormuz Shipping Tensions",
+      "spike_ratio": 2.867,
+      "article_count": 43,
+      "sentiment_score": 0.2602436323366556,
+      "rag_answer": "Tensions in the Strait of Hormuz have escalated significantly due to ongoing conflicts involving the U.S. and Israel against Iran, leading to a near-total blockade of the strait. Shipping traffic has drastically decreased, with reports indicating that tanker transits are down by 90% compared to pre-conflict levels. This disruption has caused oil prices to spike and raised fears of a global recession if the blockade continues for an extended period. Market analysts warn that even if the strait reopens, it may take months for shipping and supply chains to stabilize.",
+      "rag_sources": [
+        {
+          "title": "The Strait of Hormuz crisis explained: What it means for global shipping",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/strait-of-hormuz-crisis-us-iran-israel-war-shipping-trade-oil.html",
+          "snippet": "2026-03-02: The Strait of Hormuz crisis explained: What it means for global shipping: The Middle East conflict has stoked fears of prolonged disruption to global trade via key maritime corridors.",
+          "guid": "108271796"
+        },
+        {
+          "title": "European markets close lower as U.S. blockade of Strait of Hormuz begins",
+          "date": "2026-04-13",
+          "link": "https://www.cnbc.com/2026/04/13/european-markets-stoxx-600-ftse-dax-iran-latest-hungary-election.html",
+          "snippet": "2026-04-13: European markets close lower as U.S. blockade of Strait of Hormuz begins: European stocks started the new trading week on a somber note as global traders assess developments in the Middle ",
+          "guid": "108290252"
+        },
+        {
+          "title": "Global recession is inevitable if Strait of Hormuz stays shut, says Citadel's Ken Griffin",
+          "date": "2026-04-14",
+          "link": "https://www.cnbc.com/2026/04/14/citadels-ken-griffin-global-recession-inevitable-if-strait-of-hormuz-stays-shut.html",
+          "snippet": "2026-04-14: Global recession is inevitable if Strait of Hormuz stays shut, says Citadel's Ken Griffin: A prolonged blockage of the Strait of Hormuz for the next six to 12 months will mean an unavoidab",
+          "guid": "108291080"
+        },
+        {
+          "title": "CNBC Daily Open: Ship struck and Strait shut",
+          "date": "2026-04-20",
+          "link": "https://www.cnbc.com/2026/04/20/cnbc-daily-open-ship-struck-and-strait-shut.html",
+          "snippet": "2026-04-20: CNBC Daily Open: Ship struck and Strait shut: A dramatic escalation in tension over the Strait of Hormuz drives oil prices and risk assets higher in early trade.",
+          "guid": "108293737"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "improving",
+          "trend_delta": 0.5,
+          "mean_sentiment_score": 0.25,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "8f19e3fc-a9bd-430c-b784-f367e1e9e7c0",
+      "label": "Nvidia earnings and AI outlook",
+      "spike_ratio": 1.351,
+      "article_count": 20,
+      "sentiment_score": 0.2791666666666667,
+      "rag_answer": "Nvidia's earnings reports have consistently indicated strong demand for AI infrastructure, with the company being the only major tech stock to gain in 2026 amidst Wall Street's skepticism about AI spending. CEO Jensen Huang has emphasized the sustainability of a $660 billion capital expenditure buildout, while analysts remain divided on whether the current AI investments will yield profitable returns in the future. Despite concerns about a potential AI bubble, Nvidia's performance has provided some reassurance to investors, contributing to a positive outlook for the tech sector. Overall, Nvidia's results are seen as pivotal for the broader market, particularly as it navigates the complexities of AI demand and economic conditions.",
+      "rag_sources": [
+        {
+          "title": "Nvidia earnings report collides with Wall Street skepticism over AI spending",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/nvidia-earnings-collide-with-wall-street-skepticism-over-ai-spending.html",
+          "snippet": "2026-02-24: Nvidia earnings report collides with Wall Street skepticism over AI spending: Nvidia is the only megacap tech stock to notch gains this year as investors have turned cautious on the hefty ",
+          "guid": "108268615"
+        },
+        {
+          "title": "Nvidia sent a strong signal on AI infrastructure \u2014 but is it a bubble barometer? ",
+          "date": "2025-11-20",
+          "link": "https://www.cnbc.com/2025/11/20/nvidia-sent-a-strong-signal-on-ai-infrastructure-but-is-it-a-bubble-barometer-.html",
+          "snippet": "2025-11-20: Nvidia sent a strong signal on AI infrastructure \u2014 but is it a bubble barometer?: Analysts agree that Nvidia's earnings are a clear signal of of strong demand for AI infrastructure. Less c",
+          "guid": "108228911"
+        },
+        {
+          "title": "AI trade faces key test before Nvidia earnings: AMD's analyst day",
+          "date": "2025-11-10",
+          "link": "https://www.cnbc.com/2025/11/10/ai-trade-faces-key-test-before-nvidia-earnings-amds-analyst-day.html",
+          "snippet": "2025-11-10: AI trade faces key test before Nvidia earnings: AMD's analyst day: Analysts will be watching AMD's expectations for AI market potential, profit and margins as well as any new customer part",
+          "guid": "108223628"
+        },
+        {
+          "title": "Nvidia rises 7% as Jensen Huang says $660 billion capex buildout is sustainable",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/nvidia-rises-7percent-as-ceo-says-660-billion-capex-buildout-is-sustainable.html",
+          "snippet": "2026-02-06: Nvidia rises 7% as Jensen Huang says $660 billion capex buildout is sustainable: Huang's comments come after key Nvidia customers Meta, Amazon, Google and Microsoft reported their latest e",
+          "guid": "108262641"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "improving",
+          "trend_delta": 0.5,
+          "mean_sentiment_score": 0.25,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "a6911053-deec-44da-91d1-bfa94b65b030",
+      "label": "S&P 500 Market Analysis",
+      "spike_ratio": 1.329,
+      "article_count": 42,
+      "sentiment_score": 0.1843537414965986,
+      "rag_answer": "The S&P 500 has been experiencing significant volatility, influenced by external factors such as the ongoing oil crisis and the U.S.-Iran conflict, which have led to a series of losing weeks. Recently, the index approached its 200-day moving average, raising concerns among traders about potential further declines. Despite these pressures, there have been moments of resilience, with the index reaching all-time highs at times, indicating a complex market environment where investor sentiment is mixed. Overall, the market is navigating through geopolitical tensions and economic indicators, with analysts closely monitoring key levels and upcoming earnings reports for further direction.",
+      "rag_sources": [
+        {
+          "title": "S&P 500 is under pressure again from oil crisis, heads for third-straight losing week: Live updates",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/12/stock-market-today-live-updates.html",
+          "snippet": "2026-03-13: S&P 500 is under pressure again from oil crisis, heads for third-straight losing week: Live updates: The S&P 500 fell on Friday, while oil prices extended their gains as investors awaited ",
+          "guid": "108277498"
+        },
+        {
+          "title": "When will the selling stop? Jay Woods and other traders are watching this key S&P 500 level",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/when-will-the-selling-stop-jay-woods-and-others-are-watching-this-key-sp-500-level.html",
+          "snippet": "2026-03-09: When will the selling stop? Jay Woods and other traders are watching this key S&P 500 level: The broad market index is fast approaching its 200-day moving average, which is at 6,582.",
+          "guid": "108275364"
+        },
+        {
+          "title": "NYSE insider Jay Woods is watching these key levels on the S&P 500 and crude oil as U.S.-Iran conflict widens",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/nyse-insider-woods-watching-these-key-levels-on-the-sp-500-crude-oil.html",
+          "snippet": "2026-03-02: NYSE insider Jay Woods is watching these key levels on the S&P 500 and crude oil as U.S.-Iran conflict widens: Beyond the war, this week will see a highly-awaited February jobs report alon",
+          "guid": "108272057"
+        },
+        {
+          "title": "S&P 500 heads for first decline in 8 days on Oracle slide, shutdown angst: Live updates",
+          "date": "2025-10-07",
+          "link": "https://www.cnbc.com/2025/10/06/stock-market-today-live-updates.html",
+          "snippet": "2025-10-07: S&P 500 heads for first decline in 8 days on Oracle slide, shutdown angst: Live updates: Investors await more developments on the current U.S. government shutdown that is now on its second",
+          "guid": "108208432"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "ad0fef60-4749-4e85-809e-e1e6af36a370",
+      "label": "Kevin Warsh Fed Chair Nomination",
+      "spike_ratio": 1.279,
+      "article_count": 22,
+      "sentiment_score": 0.0549242424242424,
+      "rag_answer": "Kevin Warsh has been nominated by President Trump to succeed Jerome Powell as the chair of the Federal Reserve, with his nomination facing significant scrutiny and delays due to a federal criminal investigation involving Powell. Despite being viewed as a credible choice by investors, Warsh's wealth and financial disclosures have raised concerns, particularly from Senator Elizabeth Warren. His confirmation hearing is set to address various topics, including interest rates, amid a backdrop of market volatility triggered by the nomination. The ongoing investigation and opposition from some senators, including Thom Tillis, complicate Warsh's path to confirmation, impacting market sentiment regarding future monetary policy.",
+      "rag_sources": [
+        {
+          "title": "CNBC Daily Open: We'll soon find out who the new Fed chair is",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/cnbc-daily-open-well-soon-find-out-who-the-new-fed-chair-is.html",
+          "snippet": "2026-01-30: CNBC Daily Open: We'll soon find out who the new Fed chair is: Former Fed Governor Kevin Warsh is by far the favorite, according to prediction market Kalshi.",
+          "guid": "108259366"
+        },
+        {
+          "title": "Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/trump-finally-makes-his-fed-chair-pick-what-kevin-warsh-means-for-investors.html",
+          "snippet": "2026-01-30: Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors: Investors see the former Fed governor as a credible steward of monetary policy despite expectations he may pu",
+          "guid": "108259473"
+        },
+        {
+          "title": "Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/who-is-kevin-warsh-trumps-fed-chair-pick.html",
+          "snippet": "2026-01-30: Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve: Kevin Warsh, a former Fed governor, has emerged as Donald Trump\u2019s pick to lead the Federal Reserve.",
+          "guid": "108259461"
+        },
+        {
+          "title": "Here's what to expect from Fed chair nominee Kevin Warsh's Senate hearing Tuesday",
+          "date": "2026-04-21",
+          "link": "https://www.cnbc.com/2026/04/21/kevin-warshs-senate-hearing-what-to-expect.html",
+          "snippet": "2026-04-21: Here's what to expect from Fed chair nominee Kevin Warsh's Senate hearing Tuesday: In a much-anticipated hearing before the Banking Committee, the former Fed governor will face questioning",
+          "guid": "108294012"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.357,
+          "mean_sentiment_score": 0.308,
+          "data_age_days": null
+        },
+        {
+          "sector": "Technology Services",
+          "trend_direction": "improving",
+          "trend_delta": 0.5,
+          "mean_sentiment_score": 0.25,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "6a43b8f6-fc2e-4b72-b84f-0ba3a01d1d1b",
+      "label": "Elon Musk's Legal and Business Challenges",
+      "spike_ratio": 1.161,
+      "article_count": 12,
+      "sentiment_score": 0.2509920634920635,
+      "rag_answer": "Elon Musk is currently facing significant legal challenges, including multiple lawsuits related to his AI chatbot Grok, which has been scrutinized for generating explicit content, leading to regulatory probes in Europe, India, and Malaysia. Additionally, a jury found that Musk misled investors during his acquisition of Twitter, now renamed X, which has further complicated his legal landscape. On the business front, Tesla shareholders approved Musk's controversial $1 trillion pay package, despite concerns from major investors like Norway's wealth fund. These developments indicate a turbulent period for Musk, with potential implications for investor confidence and regulatory scrutiny impacting his business ventures.",
+      "rag_sources": [
+        {
+          "title": "Elon Musk's X faces probes in Europe, India, Malaysia after Grok generated explicit images of women and children",
+          "date": "2026-01-06",
+          "link": "https://www.cnbc.com/2026/01/05/india-eu-investigate-musks-x-after-grok-created-deepfake-child-porn.html",
+          "snippet": "2026-01-06: Elon Musk's X faces probes in Europe, India, Malaysia after Grok generated explicit images of women and children: Regulators in Europe, India and Malaysia are scrutinizing X after exploita",
+          "guid": "108247527"
+        },
+        {
+          "title": "Malaysia and Indonesia block Elon Musk's Grok due to nonconsensual sexual content",
+          "date": "2026-01-12",
+          "link": "https://www.cnbc.com/2026/01/12/malaysia-indonesia-block-elon-musks-grok-obscene-non-consensual-content.html",
+          "snippet": "2026-01-12: Malaysia and Indonesia block Elon Musk's Grok due to nonconsensual sexual content: Malaysia and Indonesia blocked access to Elon Musk's AI chatbot Grok over the weekend due to concerns tha",
+          "guid": "108250945"
+        },
+        {
+          "title": "NAACP sues Elon Musk's xAI over Memphis data center air pollution",
+          "date": "2026-04-14",
+          "link": "https://www.cnbc.com/2026/04/14/elon-musk-xai-memphis-data-centers.html",
+          "snippet": "2026-04-14: NAACP sues Elon Musk's xAI over Memphis data center air pollution: Elon Musk, who is the world's richest person, has been counting on the greater Memphis area to serve as the backbone for ",
+          "guid": "108291346"
+        },
+        {
+          "title": "Amex Business Platinum vs Chase Sapphire Reserve for Business: Which premium business card is the best fit?",
+          "date": "2025-09-20",
+          "link": "https://www.cnbc.com/select/amex-business-platinum-vs-chase-sapphire-reserve-business/",
+          "snippet": "2025-09-20: Amex Business Platinum vs Chase Sapphire Reserve for Business: Which premium business card is the best fit?: The Chase Sapphire Reserve for Business and Amex Business Platinum are both pre",
+          "guid": "108186078"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}
