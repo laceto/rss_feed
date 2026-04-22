@@ -1,0 +1,232 @@
+{
+  "date": "2026-04-22",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "ae3986d5-920a-4e73-aa01-31ca8ae42b2a",
+      "label": "Trump's Iran Ultimatum and Markets",
+      "spike_ratio": 1.567,
+      "article_count": 21,
+      "sentiment_score": 0.1760204081632652,
+      "rag_answer": "Trump's Iran ultimatum has created significant volatility in global markets, with rising oil prices and fluctuating investor sentiment. As tensions escalated, particularly with threats against Iran's civilian infrastructure, markets reacted negatively, leading to declines in stocks and bonds. However, there were moments of reprieve when Trump signaled positive discussions with Tehran, which temporarily eased market fears. Overall, investors remain on edge, closely monitoring developments as the situation evolves, with potential outcomes ranging from a peace deal to further escalation.",
+      "rag_sources": [
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        },
+        {
+          "title": "Goldman's David Solomon surprised by \u2018benign\u2019 market reaction to Iran war ",
+          "date": "2026-03-04",
+          "link": "https://www.cnbc.com/2026/03/04/goldman-david-solomon-iran-war-market-reaction-stocks.html",
+          "snippet": "2026-03-04: Goldman's David Solomon surprised by \u2018benign\u2019 market reaction to Iran war: \\I think it's going to take a couple of weeks for markets to really digest the implications of what's happened,\\\"",
+          "guid": "108273273"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "6a43b8f6-fc2e-4b72-b84f-0ba3a01d1d1b",
+      "label": "Elon Musk's Legal and Business Challenges",
+      "spike_ratio": 1.488,
+      "article_count": 16,
+      "sentiment_score": 0.2663690476190476,
+      "rag_answer": "Elon Musk is currently facing significant legal challenges, including multiple lawsuits related to his AI chatbot Grok, which has been scrutinized for generating explicit content, leading to regulatory probes in Europe, India, and Malaysia. Additionally, Musk is involved in ongoing litigation with the SEC regarding his Twitter acquisition and a $56 billion pay package from Tesla, with a Delaware Supreme Court decision pending. These legal issues, coupled with the mounting lawsuits against his companies, could impact investor confidence and market performance, particularly for Tesla and xAI. As Musk navigates these challenges, the outcomes may influence his business strategies and the broader tech landscape.",
+      "rag_sources": [
+        {
+          "title": "Elon Musk's X faces probes in Europe, India, Malaysia after Grok generated explicit images of women and children",
+          "date": "2026-01-06",
+          "link": "https://www.cnbc.com/2026/01/05/india-eu-investigate-musks-x-after-grok-created-deepfake-child-porn.html",
+          "snippet": "2026-01-06: Elon Musk's X faces probes in Europe, India, Malaysia after Grok generated explicit images of women and children: Regulators in Europe, India and Malaysia are scrutinizing X after exploita",
+          "guid": "108247527"
+        },
+        {
+          "title": "Malaysia and Indonesia block Elon Musk's Grok due to nonconsensual sexual content",
+          "date": "2026-01-12",
+          "link": "https://www.cnbc.com/2026/01/12/malaysia-indonesia-block-elon-musks-grok-obscene-non-consensual-content.html",
+          "snippet": "2026-01-12: Malaysia and Indonesia block Elon Musk's Grok due to nonconsensual sexual content: Malaysia and Indonesia blocked access to Elon Musk's AI chatbot Grok over the weekend due to concerns tha",
+          "guid": "108250945"
+        },
+        {
+          "title": "NAACP sues Elon Musk's xAI over Memphis data center air pollution",
+          "date": "2026-04-14",
+          "link": "https://www.cnbc.com/2026/04/14/elon-musk-xai-memphis-data-centers.html",
+          "snippet": "2026-04-14: NAACP sues Elon Musk's xAI over Memphis data center air pollution: Elon Musk, who is the world's richest person, has been counting on the greater Memphis area to serve as the backbone for ",
+          "guid": "108291346"
+        },
+        {
+          "title": "Amex Business Platinum vs Chase Sapphire Reserve for Business: Which premium business card is the best fit?",
+          "date": "2025-09-20",
+          "link": "https://www.cnbc.com/select/amex-business-platinum-vs-chase-sapphire-reserve-business/",
+          "snippet": "2025-09-20: Amex Business Platinum vs Chase Sapphire Reserve for Business: Which premium business card is the best fit?: The Chase Sapphire Reserve for Business and Amex Business Platinum are both pre",
+          "guid": "108186078"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "13899326-df13-4536-b05e-25c1e06eba1d",
+      "label": "Strait of Hormuz Shipping Tensions",
+      "spike_ratio": 1.318,
+      "article_count": 29,
+      "sentiment_score": 0.3230706075533661,
+      "rag_answer": "Shipping tensions in the Strait of Hormuz have escalated significantly due to ongoing conflicts involving Iran, the U.S., and Israel, leading to a near-complete closure of the strait. Ship traffic has plummeted to levels 90% below pre-conflict norms, causing fears of prolonged disruptions to global trade and a spike in oil prices. Analysts warn that if the blockade continues, it could lead to a global recession, with significant impacts on supply chains, particularly for oil and related products. Despite Iran's declaration that the strait is open, the U.S. blockade remains active, further complicating the situation.",
+      "rag_sources": [
+        {
+          "title": "The Strait of Hormuz crisis explained: What it means for global shipping",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/strait-of-hormuz-crisis-us-iran-israel-war-shipping-trade-oil.html",
+          "snippet": "2026-03-02: The Strait of Hormuz crisis explained: What it means for global shipping: The Middle East conflict has stoked fears of prolonged disruption to global trade via key maritime corridors.",
+          "guid": "108271796"
+        },
+        {
+          "title": "Strait of Hormuz remains basically closed as Iran seizes ships after Trump ceasefire extension",
+          "date": "2026-04-22",
+          "link": "https://www.cnbc.com/2026/04/22/iran-war-strait-hormuz-tanker-ship-trump-blockade.html",
+          "snippet": "2026-04-22: Strait of Hormuz remains basically closed as Iran seizes ships after Trump ceasefire extension: Ship traffic in the Strait of Hormuz is still way below normal levels before the war when mo",
+          "guid": "108294859"
+        },
+        {
+          "title": "Strait of Hormuz ship traffic briefly rose and then slowed after weekend attacks",
+          "date": "2026-04-20",
+          "link": "https://www.cnbc.com/2026/04/20/strait-hormuz-ship-tanker-oil-iran-war.html",
+          "snippet": "2026-04-20: Strait of Hormuz ship traffic briefly rose and then slowed after weekend attacks: Commercial ships remain cautious about transiting the strait as tensions escalate between the U.S. and Ira",
+          "guid": "108293895"
+        },
+        {
+          "title": "Three cargo ships struck off Iran's coast, UK says, including one in Strait of Hormuz",
+          "date": "2026-03-11",
+          "link": "https://www.cnbc.com/2026/03/11/cargo-ship-struck-strait-of-hormuz-uk-iran-war.html",
+          "snippet": "2026-03-11: Three cargo ships struck off Iran's coast, UK says, including one in Strait of Hormuz: The incidents mark the latest in a string of reported attacks in or near to the Strait of Hormuz, whe",
+          "guid": "108276463"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "improving",
+          "trend_delta": 0.5,
+          "mean_sentiment_score": 0.25,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "ad0fef60-4749-4e85-809e-e1e6af36a370",
+      "label": "Kevin Warsh Fed Chair Nomination",
+      "spike_ratio": 1.304,
+      "article_count": 24,
+      "sentiment_score": 0.1336805555555555,
+      "rag_answer": "Kevin Warsh has been nominated by President Trump to succeed Jerome Powell as the chair of the Federal Reserve, with his nomination facing significant scrutiny and delays due to a federal criminal investigation involving Powell. Despite being viewed as a credible choice by investors, Warsh's wealth and financial disclosures have raised concerns, particularly from Senator Elizabeth Warren. His confirmation hearing is set to address various topics, including interest rates, amidst a backdrop of market volatility triggered by the nomination. The ongoing investigation and opposition from some senators, notably Thom Tillis, complicate Warsh's path to confirmation, impacting market sentiment regarding future monetary policy.",
+      "rag_sources": [
+        {
+          "title": "CNBC Daily Open: We'll soon find out who the new Fed chair is",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/cnbc-daily-open-well-soon-find-out-who-the-new-fed-chair-is.html",
+          "snippet": "2026-01-30: CNBC Daily Open: We'll soon find out who the new Fed chair is: Former Fed Governor Kevin Warsh is by far the favorite, according to prediction market Kalshi.",
+          "guid": "108259366"
+        },
+        {
+          "title": "Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/trump-finally-makes-his-fed-chair-pick-what-kevin-warsh-means-for-investors.html",
+          "snippet": "2026-01-30: Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors: Investors see the former Fed governor as a credible steward of monetary policy despite expectations he may pu",
+          "guid": "108259473"
+        },
+        {
+          "title": "Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/who-is-kevin-warsh-trumps-fed-chair-pick.html",
+          "snippet": "2026-01-30: Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve: Kevin Warsh, a former Fed governor, has emerged as Donald Trump\u2019s pick to lead the Federal Reserve.",
+          "guid": "108259461"
+        },
+        {
+          "title": "Here's what to expect from Fed chair nominee Kevin Warsh's Senate hearing Tuesday",
+          "date": "2026-04-21",
+          "link": "https://www.cnbc.com/2026/04/21/kevin-warshs-senate-hearing-what-to-expect.html",
+          "snippet": "2026-04-21: Here's what to expect from Fed chair nominee Kevin Warsh's Senate hearing Tuesday: In a much-anticipated hearing before the Banking Committee, the former Fed governor will face questioning",
+          "guid": "108294012"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "stable",
+          "trend_delta": 0.0,
+          "mean_sentiment_score": 0.286,
+          "data_age_days": null
+        },
+        {
+          "sector": "Technology Services",
+          "trend_direction": "improving",
+          "trend_delta": 0.5,
+          "mean_sentiment_score": 0.25,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "8f19e3fc-a9bd-430c-b784-f367e1e9e7c0",
+      "label": "Nvidia earnings and AI outlook",
+      "spike_ratio": 1.299,
+      "article_count": 20,
+      "sentiment_score": 0.2291666666666666,
+      "rag_answer": "Nvidia's earnings reports have consistently exceeded Wall Street expectations, driven by strong demand for AI infrastructure and a significant capital expenditure buildout projected at $660 billion. CEO Jensen Huang has emphasized that AI will complement existing software tools, suggesting a sustainable growth trajectory for the company. Despite this optimism, there are concerns about the potential for an AI bubble, as the market remains cautious about the hefty spending on AI infrastructure. Overall, Nvidia's performance is seen as a critical indicator for the tech sector and broader market trends, particularly amid geopolitical uncertainties.",
+      "rag_sources": [
+        {
+          "title": "Nvidia earnings are out after market close. Here's what Wall Street expects to see",
+          "date": "2026-02-25",
+          "link": "https://www.cnbc.com/2026/02/25/nvidia-earnings-are-out-after-market-close-heres-what-wall-street-expects-to-see.html",
+          "snippet": "2026-02-25: Nvidia earnings are out after market close. Here's what Wall Street expects to see: Analysts remain bullish on Nvidia given strong AI capex expected this year, healthy AI compute demand an",
+          "guid": "108269964"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Watch CNBC's full interview with Nvidia CEO Jensen Huang after earnings and guidance beat",
+          "date": "2026-02-26",
+          "link": "https://www.cnbc.com/video/2026/02/26/jensen-x-squawk-asia-full.html",
+          "snippet": "2026-02-26: Watch CNBC's full interview with Nvidia CEO Jensen Huang after earnings and guidance beat: Nvidia CEO Jensen Huang discussed the company's earnings and revenue guidance with CNBC's Becky Q",
+          "guid": "108270212"
+        },
+        {
+          "title": "Nvidia earnings takeaways: A 'full steam' AI spend, but China uncertainty remains",
+          "date": "2025-08-28",
+          "link": "https://www.cnbc.com/2025/08/28/nvidia-stock-ai-spend.html",
+          "snippet": "2025-08-28: Nvidia earnings takeaways: A 'full steam' AI spend, but China uncertainty remains: CEO Jensen Huang said the company was in talks with the Trump administration about China chip sales.",
+          "guid": "108191838"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "improving",
+          "trend_delta": 0.5,
+          "mean_sentiment_score": 0.25,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}
