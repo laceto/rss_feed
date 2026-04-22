@@ -1637,3 +1637,10 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-04-21	Distribution Services	UPS|FedEx	neutral	markets	ok
 2026-04-21	Finance	JPMorgan	positive	markets	ok
 2026-04-21	Consumer Durables	Volkswagen|Xpeng	neutral	products	ok
+2026-04-22	Consumer Durables	Tesla|Rivian Automotive	positive	products	ok
+2026-04-22	Finance	BlackRock	neutral	markets	ok
+2026-04-22	Electronic Technology	Google|Nvidia	positive	products	ok
+2026-04-22	Electronic Technology	Microsoft	neutral	appointments	ok
+2026-04-22	Producer Manufacturing	Boeing	positive	products	ok
+2026-04-22	Finance	Standard Chartered	positive	regulation	ok
+2026-04-22	Utilities	UK	neutral	macro	ok

@@ -1,16 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-01-21	Broadcom	Electronic Technology	positive	1	markets
-2026-01-21	China	Non-Energy Minerals	negative	-1	macro
-2026-01-21	Denmark	Energy Minerals	neutral	0	macro
-2026-01-21	Gold	Energy Minerals	positive	1	markets
-2026-01-21	Greenland	Energy Minerals	neutral	0	macro
-2026-01-21	Intel	Technology Services	positive	1	products
-2026-01-21	JPMorgan Chase	Finance	neutral	0	other
-2026-01-21	Jamie Dimon	Finance	neutral	0	other
-2026-01-21	Meta	Communications	positive	1	products
-2026-01-21	Netflix	Consumer Non-Durables	positive	1	products
-2026-01-21	Nvidia	Technology Services	positive	1	products
-2026-01-21	Reliance Industries	Non-Energy Minerals	negative	-1	macro
 2026-01-22	Federal Reserve	Finance	neutral	0	macro
 2026-01-22	Google DeepMind	Electronic Technology	neutral	0	products
 2026-01-22	Industrious	Commercial Services	positive	1	products
@@ -1103,3 +1091,12 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-04-21	Warsh	Finance	neutral	0	macro
 2026-04-21	Xbox	Electronic Technology	positive	1	products
 2026-04-21	Xpeng	Consumer Durables	neutral	0	products
+2026-04-22	BlackRock	Finance	neutral	0	markets
+2026-04-22	Boeing	Producer Manufacturing	positive	1	products
+2026-04-22	Google	Electronic Technology	positive	1	products
+2026-04-22	Microsoft	Electronic Technology	neutral	0	appointments
+2026-04-22	Nvidia	Electronic Technology	positive	1	products
+2026-04-22	Rivian Automotive	Consumer Durables	positive	1	products
+2026-04-22	Standard Chartered	Finance	positive	1	regulation
+2026-04-22	Tesla	Consumer Durables	positive	1	products
+2026-04-22	UK	Utilities	neutral	0	macro

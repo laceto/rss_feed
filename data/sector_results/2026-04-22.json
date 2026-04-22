@@ -1,0 +1,71 @@
+{
+  "date": "2026-04-22",
+  "batch_id": "batch_69e9298315348190be1e8f7d1eda3d2e",
+  "sectors": [
+    {
+      "entities": [
+        "Tesla",
+        "Rivian Automotive"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "BlackRock"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Google",
+        "Nvidia"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Microsoft"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "appointments",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Boeing"
+      ],
+      "sector": "Producer Manufacturing",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Standard Chartered"
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "UK"
+      ],
+      "sector": "Utilities",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    }
+  ]
+}
