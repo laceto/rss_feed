@@ -1,13 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-01-22	Federal Reserve	Finance	neutral	0	macro
-2026-01-22	Google DeepMind	Electronic Technology	neutral	0	products
-2026-01-22	Industrious	Commercial Services	positive	1	products
-2026-01-22	Intel	Electronic Technology	negative	-1	earnings
-2026-01-22	JPMorgan Chase	Finance	neutral	0	other
-2026-01-22	Jamie Dimon	Finance	neutral	0	other
-2026-01-22	Nvidia	Electronic Technology	positive	1	products
-2026-01-22	Procter & Gamble	Consumer Non-Durables	neutral	0	earnings
-2026-01-22	Tesla	Consumer Durables	positive	1	products
 2026-01-23	Binance	Finance	neutral	0	other
 2026-01-23	CFPB	Finance	negative	-1	regulation
 2026-01-23	Changpeng Zhao	Finance	neutral	0	other
@@ -1100,3 +1091,12 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-04-22	Standard Chartered	Finance	positive	1	regulation
 2026-04-22	Tesla	Consumer Durables	positive	1	products
 2026-04-22	UK	Utilities	neutral	0	macro
+2026-04-23	Brent oil	Energy Minerals	positive	1	markets
+2026-04-23	IBM	Technology Services	positive	1	earnings
+2026-04-23	L'Oreal	Consumer Non-Durables	positive	1	earnings
+2026-04-23	LVMH	Consumer Non-Durables	positive	1	earnings
+2026-04-23	Meta	Technology Services	negative	-1	regulation
+2026-04-23	Microsoft	Producer Manufacturing	neutral	0	products
+2026-04-23	Regeneron	Health Services	positive	1	products
+2026-04-23	SpaceX	Producer Manufacturing	neutral	0	products
+2026-04-23	Texas Instruments	Electronic Technology	positive	1	earnings

@@ -1,0 +1,79 @@
+{
+  "date": "2026-04-23",
+  "batch_id": "batch_69ea7b51bee88190970da235ec5d3f6a",
+  "sectors": [
+    {
+      "entities": [
+        "Microsoft",
+        "SpaceX"
+      ],
+      "sector": "Producer Manufacturing",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Meta"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "negative",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Brent oil"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Texas Instruments"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Regeneron"
+      ],
+      "sector": "Health Services",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "LVMH"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "L'Oreal"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "IBM"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    }
+  ]
+}

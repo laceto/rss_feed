@@ -1644,3 +1644,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-04-22	Producer Manufacturing	Boeing	positive	products	ok
 2026-04-22	Finance	Standard Chartered	positive	regulation	ok
 2026-04-22	Utilities	UK	neutral	macro	ok
+2026-04-23	Producer Manufacturing	Microsoft|SpaceX	neutral	products	ok
+2026-04-23	Technology Services	Meta	negative	regulation	ok
+2026-04-23	Energy Minerals	Brent oil	positive	markets	ok
+2026-04-23	Electronic Technology	Texas Instruments	positive	earnings	ok
+2026-04-23	Health Services	Regeneron	positive	products	ok
+2026-04-23	Consumer Non-Durables	LVMH	positive	earnings	ok
+2026-04-23	Consumer Non-Durables	L'Oreal	positive	earnings	ok
+2026-04-23	Technology Services	IBM	positive	earnings	ok
