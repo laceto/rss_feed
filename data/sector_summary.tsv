@@ -1652,3 +1652,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-04-23	Consumer Non-Durables	LVMH	positive	earnings	ok
 2026-04-23	Consumer Non-Durables	L'Oreal	positive	earnings	ok
 2026-04-23	Technology Services	IBM	positive	earnings	ok
+2026-04-24	Technology Services	Meta|Microsoft	negative	markets	ok
+2026-04-24	Electronic Technology	Google|Anthropic	positive	products	ok
+2026-04-24	Electronic Technology	Intel	positive	markets	ok
+2026-04-24	Finance	Bessent|U.S. dollar	neutral	regulation	ok
+2026-04-24	Energy Minerals	X-energy	positive	products	ok
+2026-04-24	Consumer Non-Durables	Procter & Gamble	positive	earnings	ok
+2026-04-24	Consumer Durables	Porsche|Bugatti Rimac	neutral	markets	ok
+2026-04-24	Electronic Technology	TSMC	positive	markets	ok

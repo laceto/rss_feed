@@ -1,17 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-01-23	Binance	Finance	neutral	0	other
-2026-01-23	CFPB	Finance	negative	-1	regulation
-2026-01-23	Changpeng Zhao	Finance	neutral	0	other
-2026-01-23	Databricks	Technology Services	positive	1	products
-2026-01-23	Dow	Finance	neutral	0	markets
-2026-01-23	Greenland	Energy Minerals	neutral	0	macro
-2026-01-23	Intel	Electronic Technology	negative	-1	earnings
-2026-01-23	Iran	Energy Minerals	neutral	0	macro
-2026-01-23	Nasdaq	Finance	neutral	0	markets
-2026-01-23	S&P 500	Finance	neutral	0	markets
-2026-01-23	Sen. Warren	Finance	negative	-1	regulation
-2026-01-23	U.S. Geological Survey	Energy Minerals	neutral	0	macro
-2026-01-23	Wall Street	Finance	negative	-1	macro
 2026-01-24	Canada	Distribution Services	negative	-1	macro
 2026-01-24	China	Distribution Services	negative	-1	macro
 2026-01-24	Jensen Huang	Electronic Technology	neutral	0	markets
@@ -1100,3 +1087,15 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-04-23	Regeneron	Health Services	positive	1	products
 2026-04-23	SpaceX	Producer Manufacturing	neutral	0	products
 2026-04-23	Texas Instruments	Electronic Technology	positive	1	earnings
+2026-04-24	Anthropic	Electronic Technology	positive	1	products
+2026-04-24	Bessent	Finance	neutral	0	regulation
+2026-04-24	Bugatti Rimac	Consumer Durables	neutral	0	markets
+2026-04-24	Google	Electronic Technology	positive	1	products
+2026-04-24	Intel	Electronic Technology	positive	1	markets
+2026-04-24	Meta	Technology Services	negative	-1	markets
+2026-04-24	Microsoft	Technology Services	negative	-1	markets
+2026-04-24	Porsche	Consumer Durables	neutral	0	markets
+2026-04-24	Procter & Gamble	Consumer Non-Durables	positive	1	earnings
+2026-04-24	TSMC	Electronic Technology	positive	1	markets
+2026-04-24	U.S. dollar	Finance	neutral	0	regulation
+2026-04-24	X-energy	Energy Minerals	positive	1	products
