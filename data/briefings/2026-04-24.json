@@ -1,0 +1,232 @@
+{
+  "date": "2026-04-24",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "ad8e91c5-7459-4609-b222-fda591a3ae27",
+      "label": "Credit cards and student loans",
+      "spike_ratio": 1.542,
+      "article_count": 37,
+      "sentiment_score": 0.1948198198198198,
+      "rag_answer": "Credit card debt in the U.S. has reached a record high of $1.21 trillion, with balances increasing significantly, indicating growing financial strain among consumers. Concurrently, the Trump administration is focusing on student loan collection, with plans to have the Treasury Department manage defaulted loans, which could impact borrowers' repayment experiences. Additionally, there are discussions around capping credit card interest rates at 10%, a move that has faced resistance from banks due to potential profitability concerns. These developments suggest a tightening credit environment, with implications for consumer spending and financial stability.",
+      "rag_sources": [
+        {
+          "title": "What December's Fed rate cut means for your mortgage, credit card, auto loan, student debt and savings",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/10/fed-december-rate-cut-mortgages-loans-savings-impact.html",
+          "snippet": "2025-12-10: What December's Fed rate cut means for your mortgage, credit card, auto loan, student debt and savings: From\u00a0credit cards and car loans to mortgage rates, student loans and savings account",
+          "guid": "108238540"
+        },
+        {
+          "title": "What this Fed rate cut means for your credit card, mortgage, auto loan, student debt and savings account",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/fed-rate-cut-credit-cards-mortgages-savings.html",
+          "snippet": "2025-10-29: What this Fed rate cut means for your credit card, mortgage, auto loan, student debt and savings account: Here\u2019s a look at all of the ways the Fed decision could affect your finances.",
+          "guid": "108218037"
+        },
+        {
+          "title": "Personal loans surge amid affordability struggles: It's 'the middle-class refinancing option,' expert says",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/subprime-borrowers-personal-loans.html",
+          "snippet": "2026-02-20: Personal loans surge amid affordability struggles: It's 'the middle-class refinancing option,' expert says: Some borrowers are turning to personal loans to refinance credit card debt. Thos",
+          "guid": "108267463"
+        },
+        {
+          "title": "Trump admin tasks Treasury Dept. with student loan collection. What borrowers need to know",
+          "date": "2026-03-20",
+          "link": "https://www.cnbc.com/2026/03/20/student-loan-collection-will-be-managed-by-treasury-department.html",
+          "snippet": "2026-03-20: Trump admin tasks Treasury Dept. with student loan collection. What borrowers need to know: Trump officials plan to task the Treasury Department with collecting on defaulted student loans ",
+          "guid": "108280551"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "stable",
+          "trend_delta": -0.048,
+          "mean_sentiment_score": 0.308,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "8f19e3fc-a9bd-430c-b784-f367e1e9e7c0",
+      "label": "Nvidia earnings and AI outlook",
+      "spike_ratio": 1.444,
+      "article_count": 26,
+      "sentiment_score": 0.3452380952380952,
+      "rag_answer": "Nvidia's earnings reports have consistently indicated strong demand for AI infrastructure, with the company being the only major tech stock to gain in a cautious market. CEO Jensen Huang has emphasized the sustainability of a $660 billion capital expenditure buildout, despite ongoing concerns about whether the current AI spending will yield future profitability. Analysts remain bullish on Nvidia, citing robust AI compute demand and favorable valuations compared to peers, although there are lingering fears of an AI bubble. Overall, Nvidia's performance is seen as a critical indicator for the broader tech market amidst fluctuating investor sentiment.",
+      "rag_sources": [
+        {
+          "title": "Nvidia earnings report collides with Wall Street skepticism over AI spending",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/nvidia-earnings-collide-with-wall-street-skepticism-over-ai-spending.html",
+          "snippet": "2026-02-24: Nvidia earnings report collides with Wall Street skepticism over AI spending: Nvidia is the only megacap tech stock to notch gains this year as investors have turned cautious on the hefty ",
+          "guid": "108268615"
+        },
+        {
+          "title": "Nvidia sent a strong signal on AI infrastructure \u2014 but is it a bubble barometer? ",
+          "date": "2025-11-20",
+          "link": "https://www.cnbc.com/2025/11/20/nvidia-sent-a-strong-signal-on-ai-infrastructure-but-is-it-a-bubble-barometer-.html",
+          "snippet": "2025-11-20: Nvidia sent a strong signal on AI infrastructure \u2014 but is it a bubble barometer?: Analysts agree that Nvidia's earnings are a clear signal of of strong demand for AI infrastructure. Less c",
+          "guid": "108228911"
+        },
+        {
+          "title": "AI trade faces key test before Nvidia earnings: AMD's analyst day",
+          "date": "2025-11-10",
+          "link": "https://www.cnbc.com/2025/11/10/ai-trade-faces-key-test-before-nvidia-earnings-amds-analyst-day.html",
+          "snippet": "2025-11-10: AI trade faces key test before Nvidia earnings: AMD's analyst day: Analysts will be watching AMD's expectations for AI market potential, profit and margins as well as any new customer part",
+          "guid": "108223628"
+        },
+        {
+          "title": "Nvidia rises 7% as Jensen Huang says $660 billion capex buildout is sustainable",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/nvidia-rises-7percent-as-ceo-says-660-billion-capex-buildout-is-sustainable.html",
+          "snippet": "2026-02-06: Nvidia rises 7% as Jensen Huang says $660 billion capex buildout is sustainable: Huang's comments come after key Nvidia customers Meta, Amazon, Google and Microsoft reported their latest e",
+          "guid": "108262641"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "870e8477-dc1b-4788-b4a6-60f9e553f80e",
+      "label": "Obesity Drug Market Developments",
+      "spike_ratio": 1.394,
+      "article_count": 29,
+      "sentiment_score": 0.1389573070607553,
+      "rag_answer": "The obesity drug market is experiencing significant developments, particularly with the launch of new oral medications from major players like Novo Nordisk and Eli Lilly. Novo Nordisk's recent introduction of its GLP-1 obesity pill is expected to boost prescription volumes, especially with Medicare now covering obesity drugs, potentially increasing access for millions of seniors. However, competition is intensifying, with smaller companies entering the market and raising questions about pricing and insurance coverage. As the landscape evolves, the rivalry between established companies and new entrants will shape the future of obesity treatments.",
+      "rag_sources": [
+        {
+          "title": "What obesity drugmakers see next in the market: More pills, easier access and drug combinations",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/2026/01/23/weight-loss-glp-1-drugs-next-steps-for-eli-lilly-novo-nordisk-pfizer.html",
+          "snippet": "2026-01-23: What obesity drugmakers see next in the market: More pills, easier access and drug combinations: CNBC spoke to executives from Eli Lilly, Novo Nordisk, Pfizer and other drugmakers at the a",
+          "guid": "108255916"
+        },
+        {
+          "title": "Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next",
+          "date": "2025-11-02",
+          "link": "https://www.cnbc.com/2025/11/02/whats-next-for-the-weight-loss-drug-market-pills-rivals-insurance.html",
+          "snippet": "2025-11-02: Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next: Competition is heating up, but questions remain about insurance coverage, drug pricing, copycat drugs a",
+          "guid": "108216702"
+        },
+        {
+          "title": "Novo Nordisk faces a defining year in the obesity drug market. It\u2019s off to a dramatic start  ",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/novo-nordisk-faces-defining-year-in-the-obesity-drug-market.html",
+          "snippet": "2026-02-11: Novo Nordisk faces a defining year in the obesity drug market. It\u2019s off to a dramatic start: The Danish drugmaker kicked off 2026 with its explosive obesity pill launch, but recent challen",
+          "guid": "108264597"
+        },
+        {
+          "title": "Healthy Returns: Novo Nordisk\u2019s head of research and development previews the first-ever obesity pill ",
+          "date": "2025-09-03",
+          "link": "https://www.cnbc.com/2025/09/03/healthy-returns-novo-nordisks-martin-holst-lange-previews-obesity-pill.html",
+          "snippet": "2025-09-03: Healthy Returns: Novo Nordisk\u2019s head of research and development previews the first-ever obesity pill: Novo Nordisk's Martin Holst Lange preveiwed the company's obesity pill, while OpenAI ",
+          "guid": "108193736"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "ad0fef60-4749-4e85-809e-e1e6af36a370",
+      "label": "Kevin Warsh Fed Chair Nomination",
+      "spike_ratio": 1.193,
+      "article_count": 26,
+      "sentiment_score": 0.1453754578754579,
+      "rag_answer": "Kevin Warsh has been nominated by President Trump to succeed Jerome Powell as the chair of the Federal Reserve, with his confirmation process facing significant hurdles due to a federal criminal investigation into Powell. Despite being viewed as a credible steward of monetary policy, Warsh's nomination has been complicated by concerns over his vast wealth and opposition from some senators, including Elizabeth Warren and Thom Tillis, who have expressed skepticism about his financial disclosures and the ongoing Powell probe. The market has reacted to Warsh's nomination, with analysts noting it as a key trigger for recent downturns, as investors anticipate potential shifts in monetary policy under his leadership. As of now, Warsh's confirmation remains uncertain, with ongoing Senate hearings and opposition likely to delay the process.",
+      "rag_sources": [
+        {
+          "title": "CNBC Daily Open: We'll soon find out who the new Fed chair is",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/cnbc-daily-open-well-soon-find-out-who-the-new-fed-chair-is.html",
+          "snippet": "2026-01-30: CNBC Daily Open: We'll soon find out who the new Fed chair is: Former Fed Governor Kevin Warsh is by far the favorite, according to prediction market Kalshi.",
+          "guid": "108259366"
+        },
+        {
+          "title": "Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/trump-finally-makes-his-fed-chair-pick-what-kevin-warsh-means-for-investors.html",
+          "snippet": "2026-01-30: Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors: Investors see the former Fed governor as a credible steward of monetary policy despite expectations he may pu",
+          "guid": "108259473"
+        },
+        {
+          "title": "Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/who-is-kevin-warsh-trumps-fed-chair-pick.html",
+          "snippet": "2026-01-30: Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve: Kevin Warsh, a former Fed governor, has emerged as Donald Trump\u2019s pick to lead the Federal Reserve.",
+          "guid": "108259461"
+        },
+        {
+          "title": "Here's what to expect from Fed chair nominee Kevin Warsh's Senate hearing Tuesday",
+          "date": "2026-04-21",
+          "link": "https://www.cnbc.com/2026/04/21/kevin-warshs-senate-hearing-what-to-expect.html",
+          "snippet": "2026-04-21: Here's what to expect from Fed chair nominee Kevin Warsh's Senate hearing Tuesday: In a much-anticipated hearing before the Banking Committee, the former Fed governor will face questioning",
+          "guid": "108294012"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "stable",
+          "trend_delta": -0.048,
+          "mean_sentiment_score": 0.308,
+          "data_age_days": null
+        },
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "5ffc8c87-a3f1-4609-959b-bb08bc69043c",
+      "label": "Epstein Connections and Fallout",
+      "spike_ratio": 1.188,
+      "article_count": 19,
+      "sentiment_score": 0.218671679197995,
+      "rag_answer": "Recent developments surrounding Jeffrey Epstein's connections have led to significant fallout for several high-profile individuals and institutions. The release of new documents by the DOJ has prompted testimonies from notable figures, including Bill Gates and Goldman Sachs' top lawyer, Kathryn Ruemmler, who is stepping down due to the repercussions of her past associations with Epstein. The ongoing scrutiny has resulted in reputational damage and job losses for those linked to Epstein, highlighting the lasting impact of his actions on the professional lives of many. This situation may create a cautious atmosphere in the market as investors assess the implications of these high-profile associations and their potential effects on corporate governance and reputations.",
+      "rag_sources": [
+        {
+          "title": "Epstein's Silicon Valley connections went beyond Gates and Musk",
+          "date": "2026-02-09",
+          "link": "https://www.cnbc.com/2026/02/09/tech-leaders-epstein-records-silicon-valley-sergey-brin-thiel-sinofsky-reid-hoffman-musk-gates.html",
+          "snippet": "2026-02-09: Epstein's Silicon Valley connections went beyond Gates and Musk: The new Epstein files released by the DOJ show that the deceased financier was able to build relationships across Silicon V",
+          "guid": "108260807"
+        },
+        {
+          "title": "Epstein files fallout: The high-profile people burned by past dealings with a predator",
+          "date": "2026-02-16",
+          "link": "https://www.cnbc.com/2026/02/15/epstein-files-fallout-goldman-ruemmler-harvard-yale.html",
+          "snippet": "2026-02-16: Epstein files fallout: The high-profile people burned by past dealings with a predator: Jeffrey Epstein killed himself in a New York City federal jail in 2019. But more than six years late",
+          "guid": "108265580"
+        },
+        {
+          "title": "Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/epstein-doj-bondi-trump.html",
+          "snippet": "2026-03-05: Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports: The top lawyer for Goldman Sachs, Bill Gates, Leon Black and others are expected to testify soon a",
+          "guid": "108274237"
+        },
+        {
+          "title": "Epstein files: Buffett says he hasn't talked to Bill Gates 'since the whole thing was unveiled'",
+          "date": "2026-03-31",
+          "link": "https://www.cnbc.com/2026/03/31/warren-buffett-bill-gates-epstein.html",
+          "snippet": "2026-03-31: Epstein files: Buffett says he hasn't talked to Bill Gates 'since the whole thing was unveiled': Microsoft founder Bill Gates is one of many high-profile people who have suffered reputatio",
+          "guid": "108285336"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}
