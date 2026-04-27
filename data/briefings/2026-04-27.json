@@ -1,0 +1,225 @@
+{
+  "date": "2026-04-27",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "4e7be4d8-a78f-4603-8cc8-2d594841b09b",
+      "label": "Interest Rates and Treasury Yields",
+      "spike_ratio": 1.557,
+      "article_count": 19,
+      "sentiment_score": 0.0109649122807017,
+      "rag_answer": "Interest rates and Treasury yields have been influenced by ongoing geopolitical tensions, particularly the U.S.-Iran war, and economic data releases. Recently, Treasury yields have shown volatility, with fluctuations in response to inflation reports and oil price changes. For instance, yields rose as oil prices increased amid Middle East tensions, while they fell when investors anticipated a potential resolution to the conflict. Overall, the market remains sensitive to both geopolitical developments and economic indicators, which are shaping expectations for future Federal Reserve policy moves.",
+      "rag_sources": [
+        {
+          "title": "10-year Treasury yield is little changed as investors monitor developments with Iran war",
+          "date": "2026-04-01",
+          "link": "https://www.cnbc.com/2026/04/01/treasury-yields-fall-as-iran-peace-hopes-fuel-relief-rally-.html",
+          "snippet": "2026-04-01: 10-year Treasury yield is little changed as investors monitor developments with Iran war: The 10-year Treasury yield was relatively unchanged on Wednesday as investors assessed the prospec",
+          "guid": "108285838"
+        },
+        {
+          "title": "Treasury yields gain after sticky February inflation reading, oil price increase",
+          "date": "2026-03-11",
+          "link": "https://www.cnbc.com/2026/03/11/us-treasury-yields-investors-await-key-inflation-report-.html",
+          "snippet": "2026-03-11: Treasury yields gain after sticky February inflation reading, oil price increase: U.S. Treasury yields moved higher on Wednesday as assessed February's inflation report and monitored devel",
+          "guid": "108276474"
+        },
+        {
+          "title": "Trump admin tasks Treasury Dept. with student loan collection. What borrowers need to know",
+          "date": "2026-03-20",
+          "link": "https://www.cnbc.com/2026/03/20/student-loan-collection-will-be-managed-by-treasury-department.html",
+          "snippet": "2026-03-20: Trump admin tasks Treasury Dept. with student loan collection. What borrowers need to know: Trump officials plan to task the Treasury Department with collecting on defaulted student loans ",
+          "guid": "108280551"
+        },
+        {
+          "title": "Treasury Secretary Bessent says 'we have the makings of a deal' with China",
+          "date": "2025-07-31",
+          "link": "https://www.cnbc.com/2025/07/31/treasury-secretary-bessent-says-we-have-the-makings-of-a-deal-with-china.html",
+          "snippet": "2025-07-31: Treasury Secretary Bessent says 'we have the makings of a deal' with China: Treasury Secretary Scott Bessent on Thursday expressed confidence that the U.S. and China are on the way to a tr",
+          "guid": "108179654"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "stable",
+          "trend_delta": 0.194,
+          "mean_sentiment_score": 0.353,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "5ffc8c87-a3f1-4609-959b-bb08bc69043c",
+      "label": "Epstein Connections and Fallout",
+      "spike_ratio": 1.456,
+      "article_count": 23,
+      "sentiment_score": 0.1806418219461698,
+      "rag_answer": "The fallout from Jeffrey Epstein's connections continues to impact high-profile individuals and institutions, with several prominent figures, including Kathryn Ruemmler of Goldman Sachs and Commerce Secretary Howard Lutnick, facing professional repercussions due to their past associations with Epstein. Testimonies and documents related to Epstein are being scrutinized by congressional lawmakers, leading to reputational damage for those involved, including Bill Gates and Leon Black. The ongoing release of Epstein files has heightened public and political scrutiny, which could affect market confidence, particularly in sectors tied to the individuals implicated. As the situation unfolds, investors are closely monitoring the implications for corporate governance and reputational risk in the financial and tech sectors.",
+      "rag_sources": [
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        },
+        {
+          "title": "Asia-Pacific markets mostly slip as investors assess Greenland developments and key China data",
+          "date": "2026-01-19",
+          "link": "https://www.cnbc.com/2026/01/19/asia-markets-china-gdp-greenland-nikkei-kospi-hang-seng.html",
+          "snippet": "2026-01-19: Asia-Pacific markets mostly slip as investors assess Greenland developments and key China data: China released its fourth-quarter GDP numbers, along with December figures for retail sales,",
+          "guid": "108253877"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "ad8e91c5-7459-4609-b222-fda591a3ae27",
+      "label": "Credit cards and student loans",
+      "spike_ratio": 1.429,
+      "article_count": 36,
+      "sentiment_score": 0.1570767195767196,
+      "rag_answer": "Credit card debt in the U.S. has reached a record high of $1.21 trillion, with balances increasing significantly, indicating growing financial strain among consumers. In response to this situation, former President Trump has proposed a cap on credit card interest rates at 10%, a move that has faced resistance from banks due to concerns about profitability. Meanwhile, student loan borrowers are experiencing heightened challenges, with complaints reaching record levels and many recent graduates facing underemployment, which complicates their ability to manage debt. The ongoing issues in both credit card and student loan markets suggest a need for consumers to seek alternative financing options and for policymakers to consider reforms to alleviate financial pressures.",
+      "rag_sources": [
+        {
+          "title": "What December's Fed rate cut means for your mortgage, credit card, auto loan, student debt and savings",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/10/fed-december-rate-cut-mortgages-loans-savings-impact.html",
+          "snippet": "2025-12-10: What December's Fed rate cut means for your mortgage, credit card, auto loan, student debt and savings: From\u00a0credit cards and car loans to mortgage rates, student loans and savings account",
+          "guid": "108238540"
+        },
+        {
+          "title": "What this Fed rate cut means for your credit card, mortgage, auto loan, student debt and savings account",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/fed-rate-cut-credit-cards-mortgages-savings.html",
+          "snippet": "2025-10-29: What this Fed rate cut means for your credit card, mortgage, auto loan, student debt and savings account: Here\u2019s a look at all of the ways the Fed decision could affect your finances.",
+          "guid": "108218037"
+        },
+        {
+          "title": "Personal loans surge amid affordability struggles: It's 'the middle-class refinancing option,' expert says",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/subprime-borrowers-personal-loans.html",
+          "snippet": "2026-02-20: Personal loans surge amid affordability struggles: It's 'the middle-class refinancing option,' expert says: Some borrowers are turning to personal loans to refinance credit card debt. Thos",
+          "guid": "108267463"
+        },
+        {
+          "title": "Trump admin tasks Treasury Dept. with student loan collection. What borrowers need to know",
+          "date": "2026-03-20",
+          "link": "https://www.cnbc.com/2026/03/20/student-loan-collection-will-be-managed-by-treasury-department.html",
+          "snippet": "2026-03-20: Trump admin tasks Treasury Dept. with student loan collection. What borrowers need to know: Trump officials plan to task the Treasury Department with collecting on defaulted student loans ",
+          "guid": "108280551"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "stable",
+          "trend_delta": 0.194,
+          "mean_sentiment_score": 0.353,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "2fbfc251-eaea-4872-8901-6018815599e6",
+      "label": "AI Demand and Chip Earnings",
+      "spike_ratio": 1.429,
+      "article_count": 16,
+      "sentiment_score": 0.1517857142857143,
+      "rag_answer": "AI demand is driving a significant surge in chip earnings, with companies like Nvidia, TSMC, and ASML reporting record profits fueled by robust orders for AI semiconductors. The AI infrastructure boom is creating shortages in various chip components, impacting consumer electronics prices and raising concerns about potential supply chain disruptions, particularly in light of geopolitical tensions in the Middle East. Analysts are closely monitoring the market for signs of sustainability in this growth, as the rapid transformation driven by AI could lead to both opportunities and risks in the tech sector. Overall, the strong performance of chip stocks reflects heightened investor interest in AI-related technologies, despite ongoing uncertainties about market stability.",
+      "rag_sources": [
+        {
+          "title": "These funds protect against market drops. Demand is booming",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/these-funds-protect-against-market-drops-demand-is-booming.html",
+          "snippet": "2026-02-11: These funds protect against market drops. Demand is booming: Buffer ETFs could see assets quadruple over a five-year period, according to Cerulli Associates. What to know before investing.",
+          "guid": "108264590"
+        },
+        {
+          "title": "Micron stops selling memory to consumers as demand spikes from AI chips",
+          "date": "2025-12-03",
+          "link": "https://www.cnbc.com/2025/12/03/micron-stops-selling-memory-to-consumers-demand-spikes-from-ai-chips.html",
+          "snippet": "2025-12-03: Micron stops selling memory to consumers as demand spikes from AI chips: Demand driven by the AI infrastructure boom is creating shortages for certain products like memory.",
+          "guid": "108236104"
+        },
+        {
+          "title": "Chip stocks including Nvidia are holding up despite market volatility, according to the charts",
+          "date": "2026-03-10",
+          "link": "https://www.cnbc.com/2026/03/10/chip-stocks-including-nvidia-are-holding-up-despite-market-volatility-according-to-the-charts.html",
+          "snippet": "2026-03-10: Chip stocks including Nvidia are holding up despite market volatility, according to the charts: Todd Gordon takes a look at the technicals in Nvidia and other chipmakers.",
+          "guid": "108276190"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.333,
+          "mean_sentiment_score": -0.167,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "54630781-ac63-4b02-bff7-a1637fea6985",
+      "label": "SpaceX IPO Developments",
+      "spike_ratio": 1.256,
+      "article_count": 18,
+      "sentiment_score": 0.123015873015873,
+      "rag_answer": "SpaceX is preparing for a highly anticipated IPO, with plans to launch a roadshow for investors in early June 2026. The company is targeting a valuation of around $1.75 trillion, which could make it the largest public offering in U.S. history. While there is significant excitement surrounding the IPO, some analysts caution that the potential returns for individual investors may be limited, suggesting that the best opportunities may have already been realized. Overall, the IPO could reshape valuations across the aerospace industry and inject new energy into the current IPO market.",
+      "rag_sources": [
+        {
+          "title": "SpaceX could be the biggest IPO ever next year. How investors can play it right now",
+          "date": "2025-12-15",
+          "link": "https://www.cnbc.com/2025/12/15/spacex-may-be-the-biggest-ipo-ever-next-year-how-to-play-it-right-now.html",
+          "snippet": "2025-12-15: SpaceX could be the biggest IPO ever next year. How investors can play it right now: The SpaceX IPO could reshape valuations across the aerospace industry and deliver a rare blockbuster de",
+          "guid": "108241786"
+        },
+        {
+          "title": "SpaceX lays out IPO details, targets early June roadshow: Reuters",
+          "date": "2026-04-07",
+          "link": "https://www.cnbc.com/2026/04/07/spacex-lays-out-ipo-details-targets-early-june-roadshow-reuters.html",
+          "snippet": "2026-04-07: SpaceX lays out IPO details, targets early June roadshow: Reuters: The\u00a0Elon Musk-led company\u00a0plans to launch its roadshow the week of June 8, when executives and bankers will pitch the IPO",
+          "guid": "108287745"
+        },
+        {
+          "title": "Avoid the SpaceX IPO? 'The juice has been squeezed from this orange' ",
+          "date": "2026-04-06",
+          "link": "https://www.cnbc.com/2026/04/06/avoid-the-spacex-ipo-the-juice-has-been-squeezed-from-this-orange-.html",
+          "snippet": "2026-04-06: Avoid the SpaceX IPO? 'The juice has been squeezed from this orange': SpaceX is unlikely to generate robust returns for individuals who buy the stock at its IPO expected later this year, i",
+          "guid": "108287489"
+        },
+        {
+          "title": "IPO index hits 3-year high with Klarna latest offering set to boom. Why is market so hot and can it continue?",
+          "date": "2025-09-10",
+          "link": "https://www.cnbc.com/2025/09/10/ipo-index-hits-3-year-high-with-klarna-latest-offering-set-to-boom.html",
+          "snippet": "2025-09-10: IPO index hits 3-year high with Klarna latest offering set to boom. Why is market so hot and can it continue?: Klarna is just the latest IPO to hit the market.",
+          "guid": "108196799"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}
