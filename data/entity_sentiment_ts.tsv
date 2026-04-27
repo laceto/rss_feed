@@ -1,35 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-01-24	Canada	Distribution Services	negative	-1	macro
-2026-01-24	China	Distribution Services	negative	-1	macro
-2026-01-24	Jensen Huang	Electronic Technology	neutral	0	markets
-2026-01-24	Meta	Electronic Technology	negative	-1	products
-2026-01-24	Nvidia	Electronic Technology	neutral	0	markets
-2026-01-24	Persis Drell	Electronic Technology	neutral	0	markets
-2026-01-24	Reality Labs	Electronic Technology	negative	-1	products
-2026-01-24	Trump	Distribution Services	negative	-1	macro
-2026-01-25	Apple	Technology Services	positive	1	earnings
-2026-01-25	Auto executives	Consumer Durables	neutral	0	macro
-2026-01-25	Automakers	Consumer Durables	neutral	0	macro
-2026-01-25	Caterpillar	Technology Services	positive	1	earnings
-2026-01-26	Allied Gold	Electronic Technology	neutral	0	markets
-2026-01-26	Amazon	Electronic Technology	neutral	0	markets
-2026-01-26	Anthropic	Electronic Technology	neutral	0	markets
-2026-01-26	Apple	Electronic Technology	neutral	0	markets
-2026-01-26	Apple	Electronic Technology	neutral	0	markets
-2026-01-26	Booz Allen	Electronic Technology	neutral	0	markets
-2026-01-26	Charles Edward Littlejohn	Electronic Technology	neutral	0	markets
-2026-01-26	CoreWeave	Electronic Technology	neutral	0	markets
-2026-01-26	Costco	Electronic Technology	neutral	0	markets
-2026-01-26	Enphase	Electronic Technology	neutral	0	markets
-2026-01-26	Jeff Bezos	Electronic Technology	neutral	0	markets
-2026-01-26	Meta	Electronic Technology	neutral	0	markets
-2026-01-26	Michael Burry	Electronic Technology	neutral	0	markets
-2026-01-26	Microsoft	Electronic Technology	neutral	0	markets
-2026-01-26	Microsoft	Electronic Technology	neutral	0	markets
-2026-01-26	Nvidia	Electronic Technology	neutral	0	markets
-2026-01-26	Synthesia	Electronic Technology	neutral	0	markets
-2026-01-26	Tesla	Electronic Technology	neutral	0	markets
-2026-01-26	Zoom	Electronic Technology	neutral	0	markets
 2026-01-27	Blue Origin	Electronic Technology	positive	1	markets
 2026-01-27	Congress	Distribution Services	neutral	0	regulation
 2026-01-27	Fed	Finance	neutral	0	macro
@@ -1099,3 +1068,47 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-04-24	TSMC	Electronic Technology	positive	1	markets
 2026-04-24	U.S. dollar	Finance	neutral	0	regulation
 2026-04-24	X-energy	Energy Minerals	positive	1	products
+2026-04-25	OpenAI	Technology Services	negative	-1	markets
+2026-04-27	AI	Finance	positive	1	products
+2026-04-27	ARC Resources	Energy Minerals	positive	1	markets
+2026-04-27	Amgen	Health Services	positive	1	products
+2026-04-27	Brent oil	Energy Minerals	positive	1	markets
+2026-04-27	China	Electronic Technology	negative	-1	regulation
+2026-04-27	China	Electronic Technology	negative	-1	regulation
+2026-04-27	Cole Allen	Consumer Services	negative	-1	other
+2026-04-27	Customers Bank	Finance	positive	1	products
+2026-04-27	Deutsche Bank	Finance	positive	1	markets
+2026-04-27	Eli Lilly	Health Services	positive	1	products
+2026-04-27	Gen Z women	Consumer Non-Durables	neutral	0	other
+2026-04-27	Gold	Energy Minerals	positive	1	markets
+2026-04-27	Intel	Electronic Technology	positive	1	markets
+2026-04-27	Intellia Therapeutics	Health Technology	positive	1	products
+2026-04-27	Jimmy Kimmel	Consumer Services	negative	-1	other
+2026-04-27	Jury	Consumer Services	neutral	0	other
+2026-04-27	Kevin Warsh	Finance	neutral	0	macro
+2026-04-27	MediaTek	Electronic Technology	positive	1	products
+2026-04-27	Meta	Electronic Technology	negative	-1	regulation
+2026-04-27	Microsoft	Electronic Technology	positive	1	products
+2026-04-27	Musk v. Altman	Consumer Services	neutral	0	other
+2026-04-27	Novartis	Health Services	positive	1	products
+2026-04-27	Nvidia	Electronic Technology	positive	1	markets
+2026-04-27	OpenAI	Electronic Technology	positive	1	products
+2026-04-27	Organon	Health Services	positive	1	products
+2026-04-27	Peloton	Consumer Durables	positive	1	products
+2026-04-27	Qualcomm	Electronic Technology	positive	1	products
+2026-04-27	Ray Dalio	Finance	neutral	0	macro
+2026-04-27	Secret Service	Consumer Services	negative	-1	other
+2026-04-27	Shell	Energy Minerals	positive	1	markets
+2026-04-27	Social Security	Finance	neutral	0	macro
+2026-04-27	Spotify	Consumer Durables	positive	1	products
+2026-04-27	Sun Pharma	Health Services	positive	1	products
+2026-04-27	Trump administration	Energy Minerals	neutral	0	macro
+2026-04-27	U.S.	Electronic Technology	negative	-1	regulation
+2026-04-27	U.S. automakers	Producer Manufacturing	neutral	0	markets
+2026-04-27	U.S. government	Energy Minerals	neutral	0	macro
+2026-04-27	U.S. military	Transportation	neutral	0	macro
+2026-04-27	U.S. oil	Energy Minerals	positive	1	markets
+2026-04-27	White House	Energy Minerals	neutral	0	macro
+2026-04-27	central banks	Energy Minerals	positive	1	markets
+2026-04-27	crypto	Finance	positive	1	markets
+2026-04-27	prediction markets	Finance	positive	1	markets

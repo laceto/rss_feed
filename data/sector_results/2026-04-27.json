@@ -1,0 +1,249 @@
+{
+  "date": "2026-04-27",
+  "batch_id": "batch_69efc2b6119881908d7b1036f4356bf5",
+  "sectors": [
+    {
+      "entities": [
+        "U.S. government",
+        "White House",
+        "Trump administration"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Ray Dalio",
+        "Kevin Warsh"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "prediction markets",
+        "crypto"
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Deutsche Bank"
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Gold",
+        "central banks"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Jury",
+        "Musk v. Altman"
+      ],
+      "sector": "Consumer Services",
+      "sentiment": "neutral",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Secret Service",
+        "Cole Allen"
+      ],
+      "sector": "Consumer Services",
+      "sentiment": "negative",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Novartis",
+        "Amgen",
+        "Eli Lilly"
+      ],
+      "sector": "Health Services",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Jimmy Kimmel"
+      ],
+      "sector": "Consumer Services",
+      "sentiment": "negative",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Customers Bank",
+        "AI"
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Spotify",
+        "Peloton"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Nvidia",
+        "Intel"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "OpenAI",
+        "Microsoft"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Qualcomm",
+        "MediaTek"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "China",
+        "Meta"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "negative",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Brent oil"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Shell",
+        "ARC Resources"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Social Security"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Gen Z women"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "neutral",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Intellia Therapeutics"
+      ],
+      "sector": "Health Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "U.S. oil"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "China",
+        "U.S."
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "negative",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "U.S. military"
+      ],
+      "sector": "Transportation",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "U.S. automakers"
+      ],
+      "sector": "Producer Manufacturing",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Sun Pharma",
+        "Organon"
+      ],
+      "sector": "Health Services",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    }
+  ]
+}

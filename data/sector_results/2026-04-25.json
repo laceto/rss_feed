@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-25",
+  "batch_id": "batch_69efc2b6119881908d7b1036f4356bf5",
+  "sectors": [
+    {
+      "entities": [
+        "OpenAI"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}

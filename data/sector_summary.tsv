@@ -1660,3 +1660,29 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-04-24	Consumer Non-Durables	Procter & Gamble	positive	earnings	ok
 2026-04-24	Consumer Durables	Porsche|Bugatti Rimac	neutral	markets	ok
 2026-04-24	Electronic Technology	TSMC	positive	markets	ok
+2026-04-25	Technology Services	OpenAI	negative	markets	ok
+2026-04-27	Energy Minerals	U.S. government|White House|Trump administration	neutral	macro	ok
+2026-04-27	Finance	Ray Dalio|Kevin Warsh	neutral	macro	ok
+2026-04-27	Finance	prediction markets|crypto	positive	markets	ok
+2026-04-27	Finance	Deutsche Bank	positive	markets	ok
+2026-04-27	Energy Minerals	Gold|central banks	positive	markets	ok
+2026-04-27	Consumer Services	Jury|Musk v. Altman	neutral	other	ok
+2026-04-27	Consumer Services	Secret Service|Cole Allen	negative	other	ok
+2026-04-27	Health Services	Novartis|Amgen|Eli Lilly	positive	products	ok
+2026-04-27	Consumer Services	Jimmy Kimmel	negative	other	ok
+2026-04-27	Finance	Customers Bank|AI	positive	products	ok
+2026-04-27	Consumer Durables	Spotify|Peloton	positive	products	ok
+2026-04-27	Electronic Technology	Nvidia|Intel	positive	markets	ok
+2026-04-27	Electronic Technology	OpenAI|Microsoft	positive	products	ok
+2026-04-27	Electronic Technology	Qualcomm|MediaTek	positive	products	ok
+2026-04-27	Electronic Technology	China|Meta	negative	regulation	ok
+2026-04-27	Energy Minerals	Brent oil	positive	markets	ok
+2026-04-27	Energy Minerals	Shell|ARC Resources	positive	markets	ok
+2026-04-27	Finance	Social Security	neutral	macro	ok
+2026-04-27	Consumer Non-Durables	Gen Z women	neutral	other	ok
+2026-04-27	Health Technology	Intellia Therapeutics	positive	products	ok
+2026-04-27	Energy Minerals	U.S. oil	positive	markets	ok
+2026-04-27	Electronic Technology	China|U.S.	negative	regulation	ok
+2026-04-27	Transportation	U.S. military	neutral	macro	ok
+2026-04-27	Producer Manufacturing	U.S. automakers	neutral	markets	ok
+2026-04-27	Health Services	Sun Pharma|Organon	positive	products	ok
