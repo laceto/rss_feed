@@ -1,0 +1,240 @@
+{
+  "date": "2026-04-28",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "ad0fef60-4749-4e85-809e-e1e6af36a370",
+      "label": "Kevin Warsh Fed Chair Nomination",
+      "spike_ratio": 1.748,
+      "article_count": 43,
+      "sentiment_score": 0.1113510520487264,
+      "rag_answer": "Kevin Warsh has been nominated by President Trump to succeed Jerome Powell as the chair of the Federal Reserve, with his nomination facing significant scrutiny and delays due to a federal criminal investigation involving Powell. Despite being viewed as a credible steward of monetary policy, Warsh's wealth and financial disclosures have raised concerns among some senators, including Elizabeth Warren. His confirmation hearing is highly anticipated, but it has been complicated by opposition from Senator Thom Tillis, who has vowed to block the nomination until the Powell investigation is resolved. The uncertainty surrounding Warsh's nomination has contributed to market volatility, with analysts noting it as a key trigger for recent downturns.",
+      "rag_sources": [
+        {
+          "title": "CNBC Daily Open: We'll soon find out who the new Fed chair is",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/cnbc-daily-open-well-soon-find-out-who-the-new-fed-chair-is.html",
+          "snippet": "2026-01-30: CNBC Daily Open: We'll soon find out who the new Fed chair is: Former Fed Governor Kevin Warsh is by far the favorite, according to prediction market Kalshi.",
+          "guid": "108259366"
+        },
+        {
+          "title": "Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/trump-finally-makes-his-fed-chair-pick-what-kevin-warsh-means-for-investors.html",
+          "snippet": "2026-01-30: Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors: Investors see the former Fed governor as a credible steward of monetary policy despite expectations he may pu",
+          "guid": "108259473"
+        },
+        {
+          "title": "Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/who-is-kevin-warsh-trumps-fed-chair-pick.html",
+          "snippet": "2026-01-30: Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve: Kevin Warsh, a former Fed governor, has emerged as Donald Trump\u2019s pick to lead the Federal Reserve.",
+          "guid": "108259461"
+        },
+        {
+          "title": "Here's what to expect from Fed chair nominee Kevin Warsh's Senate hearing Tuesday",
+          "date": "2026-04-21",
+          "link": "https://www.cnbc.com/2026/04/21/kevin-warshs-senate-hearing-what-to-expect.html",
+          "snippet": "2026-04-21: Here's what to expect from Fed chair nominee Kevin Warsh's Senate hearing Tuesday: In a much-anticipated hearing before the Banking Committee, the former Fed governor will face questioning",
+          "guid": "108294012"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.357,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        },
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.25,
+          "mean_sentiment_score": -0.143,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "5ffc8c87-a3f1-4609-959b-bb08bc69043c",
+      "label": "Epstein Connections and Fallout",
+      "spike_ratio": 1.379,
+      "article_count": 24,
+      "sentiment_score": 0.167906746031746,
+      "rag_answer": "Recent developments surrounding Jeffrey Epstein's connections have led to significant fallout for several high-profile individuals and institutions. Notable figures like Bill Gates, Kathryn Ruemmler of Goldman Sachs, and Leon Black are facing reputational damage and are expected to testify about their past dealings with Epstein. The ongoing release of documents by the DOJ continues to expose these associations, prompting job losses and resignations, such as Ruemmler's departure from Goldman Sachs. This situation has created a ripple effect in the market, as investors and stakeholders reassess the reputational risks associated with affiliations to Epstein, potentially impacting the financial stability of involved firms.",
+      "rag_sources": [
+        {
+          "title": "Epstein's Silicon Valley connections went beyond Gates and Musk",
+          "date": "2026-02-09",
+          "link": "https://www.cnbc.com/2026/02/09/tech-leaders-epstein-records-silicon-valley-sergey-brin-thiel-sinofsky-reid-hoffman-musk-gates.html",
+          "snippet": "2026-02-09: Epstein's Silicon Valley connections went beyond Gates and Musk: The new Epstein files released by the DOJ show that the deceased financier was able to build relationships across Silicon V",
+          "guid": "108260807"
+        },
+        {
+          "title": "Epstein files fallout: The high-profile people burned by past dealings with a predator",
+          "date": "2026-02-16",
+          "link": "https://www.cnbc.com/2026/02/15/epstein-files-fallout-goldman-ruemmler-harvard-yale.html",
+          "snippet": "2026-02-16: Epstein files fallout: The high-profile people burned by past dealings with a predator: Jeffrey Epstein killed himself in a New York City federal jail in 2019. But more than six years late",
+          "guid": "108265580"
+        },
+        {
+          "title": "Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/epstein-doj-bondi-trump.html",
+          "snippet": "2026-03-05: Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports: The top lawyer for Goldman Sachs, Bill Gates, Leon Black and others are expected to testify soon a",
+          "guid": "108274237"
+        },
+        {
+          "title": "Epstein files: Buffett says he hasn't talked to Bill Gates 'since the whole thing was unveiled'",
+          "date": "2026-03-31",
+          "link": "https://www.cnbc.com/2026/03/31/warren-buffett-bill-gates-epstein.html",
+          "snippet": "2026-03-31: Epstein files: Buffett says he hasn't talked to Bill Gates 'since the whole thing was unveiled': Microsoft founder Bill Gates is one of many high-profile people who have suffered reputatio",
+          "guid": "108285336"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "13899326-df13-4536-b05e-25c1e06eba1d",
+      "label": "Strait of Hormuz Shipping Tensions",
+      "spike_ratio": 1.306,
+      "article_count": 41,
+      "sentiment_score": 0.2326074332171893,
+      "rag_answer": "Shipping tensions in the Strait of Hormuz have escalated significantly due to ongoing conflicts involving Iran, the U.S., and Israel, leading to a near-complete closure of the strait. Ship traffic has plummeted to levels 90% below normal, with Iran seizing vessels and issuing warnings that have deterred commercial shipping. The situation has caused crude oil prices to spike and raised fears of a global recession if the blockade continues. Recent attempts at ceasefire negotiations have stalled, leaving the future of shipping through this critical maritime corridor uncertain.",
+      "rag_sources": [
+        {
+          "title": "The Strait of Hormuz crisis explained: What it means for global shipping",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/strait-of-hormuz-crisis-us-iran-israel-war-shipping-trade-oil.html",
+          "snippet": "2026-03-02: The Strait of Hormuz crisis explained: What it means for global shipping: The Middle East conflict has stoked fears of prolonged disruption to global trade via key maritime corridors.",
+          "guid": "108271796"
+        },
+        {
+          "title": "Strait of Hormuz remains basically closed as Iran seizes ships after Trump ceasefire extension",
+          "date": "2026-04-22",
+          "link": "https://www.cnbc.com/2026/04/22/iran-war-strait-hormuz-tanker-ship-trump-blockade.html",
+          "snippet": "2026-04-22: Strait of Hormuz remains basically closed as Iran seizes ships after Trump ceasefire extension: Ship traffic in the Strait of Hormuz is still way below normal levels before the war when mo",
+          "guid": "108294859"
+        },
+        {
+          "title": "Strait of Hormuz ship traffic briefly rose and then slowed after weekend attacks",
+          "date": "2026-04-20",
+          "link": "https://www.cnbc.com/2026/04/20/strait-hormuz-ship-tanker-oil-iran-war.html",
+          "snippet": "2026-04-20: Strait of Hormuz ship traffic briefly rose and then slowed after weekend attacks: Commercial ships remain cautious about transiting the strait as tensions escalate between the U.S. and Ira",
+          "guid": "108293895"
+        },
+        {
+          "title": "Three cargo ships struck off Iran's coast, UK says, including one in Strait of Hormuz",
+          "date": "2026-03-11",
+          "link": "https://www.cnbc.com/2026/03/11/cargo-ship-struck-strait-of-hormuz-uk-iran-war.html",
+          "snippet": "2026-03-11: Three cargo ships struck off Iran's coast, UK says, including one in Strait of Hormuz: The incidents mark the latest in a string of reported attacks in or near to the Strait of Hormuz, whe",
+          "guid": "108276463"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.25,
+          "mean_sentiment_score": -0.143,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "ad8e91c5-7459-4609-b222-fda591a3ae27",
+      "label": "Credit cards and student loans",
+      "spike_ratio": 1.295,
+      "article_count": 36,
+      "sentiment_score": 0.1647156084656084,
+      "rag_answer": "Credit card debt in the U.S. has reached a record high of $1.21 trillion, with balances increasing significantly, indicating growing financial strain among consumers. Concurrently, the Trump administration is focusing on student loan collection, with plans to have the Treasury Department manage defaulted loans, which could impact borrowers' repayment experiences. Additionally, there are discussions around capping credit card interest rates at 10%, a move that has faced resistance from banks due to potential profitability concerns. These developments suggest a challenging landscape for borrowers, as rising debt levels and potential regulatory changes could affect their financial stability and access to credit.",
+      "rag_sources": [
+        {
+          "title": "What December's Fed rate cut means for your mortgage, credit card, auto loan, student debt and savings",
+          "date": "2025-12-10",
+          "link": "https://www.cnbc.com/2025/12/10/fed-december-rate-cut-mortgages-loans-savings-impact.html",
+          "snippet": "2025-12-10: What December's Fed rate cut means for your mortgage, credit card, auto loan, student debt and savings: From\u00a0credit cards and car loans to mortgage rates, student loans and savings account",
+          "guid": "108238540"
+        },
+        {
+          "title": "What this Fed rate cut means for your credit card, mortgage, auto loan, student debt and savings account",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/fed-rate-cut-credit-cards-mortgages-savings.html",
+          "snippet": "2025-10-29: What this Fed rate cut means for your credit card, mortgage, auto loan, student debt and savings account: Here\u2019s a look at all of the ways the Fed decision could affect your finances.",
+          "guid": "108218037"
+        },
+        {
+          "title": "Personal loans surge amid affordability struggles: It's 'the middle-class refinancing option,' expert says",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/subprime-borrowers-personal-loans.html",
+          "snippet": "2026-02-20: Personal loans surge amid affordability struggles: It's 'the middle-class refinancing option,' expert says: Some borrowers are turning to personal loans to refinance credit card debt. Thos",
+          "guid": "108267463"
+        },
+        {
+          "title": "Trump admin tasks Treasury Dept. with student loan collection. What borrowers need to know",
+          "date": "2026-03-20",
+          "link": "https://www.cnbc.com/2026/03/20/student-loan-collection-will-be-managed-by-treasury-department.html",
+          "snippet": "2026-03-20: Trump admin tasks Treasury Dept. with student loan collection. What borrowers need to know: Trump officials plan to task the Treasury Department with collecting on defaulted student loans ",
+          "guid": "108280551"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.357,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "2e283570-f4bc-4266-9b1e-7c119522170d",
+      "label": "Student loan repayment challenges",
+      "spike_ratio": 1.232,
+      "article_count": 17,
+      "sentiment_score": 0.1464285714285714,
+      "rag_answer": "Student loan borrowers are facing significant challenges as they navigate repayment options amid changing policies and economic conditions. Many borrowers are at risk of being removed from the Biden-era SAVE repayment plan, with over 7 million potentially affected, while a backlog of applications for affordable repayment plans and forgiveness remains unresolved. Additionally, borrowers in default may soon see their paychecks reduced, and complaints about student loans have reached record highs. These developments indicate a tightening landscape for borrowers, with potential financial strain and limited access to relief options.",
+      "rag_sources": [
+        {
+          "title": "Parents with student loans have a short window to secure affordable repayment and forgiveness",
+          "date": "2026-02-16",
+          "link": "https://www.cnbc.com/2026/02/16/student-loan-parent-plus-forgiveness.html",
+          "snippet": "2026-02-16: Parents with student loans have a short window to secure affordable repayment and forgiveness: Parents with student debt may be excluded from affordable repayment plans and loan forgivenes",
+          "guid": "108254845"
+        },
+        {
+          "title": "Student loan borrowers pausing payments have doubled since 2024, expert calculates ",
+          "date": "2025-09-03",
+          "link": "https://www.cnbc.com/2025/09/03/student-loan-borrowers-forbearances-deferments.html",
+          "snippet": "2025-09-03: Student loan borrowers pausing payments have doubled since 2024, expert calculates: More people are pausing their student loan payments, amid the fallout of the Biden-era SAVE plan and oth",
+          "guid": "108193050"
+        },
+        {
+          "title": "More than 7 million student loan borrowers face deadline to leave Biden-era repayment plan. What to know",
+          "date": "2026-03-30",
+          "link": "https://www.cnbc.com/2026/03/30/student-loan-borrowers-deadline-save.html",
+          "snippet": "2026-03-30: More than 7 million student loan borrowers face deadline to leave Biden-era repayment plan. What to know: Student loan borrowers will be removed from the Saving on a Valuable Education, or",
+          "guid": "108284691"
+        },
+        {
+          "title": "Student loan borrowers in default could soon see reduced paychecks. What to know",
+          "date": "2025-08-22",
+          "link": "https://www.cnbc.com/2025/08/22/student-loan-borrowers-in-default-face-wage-garnishment.html",
+          "snippet": "2025-08-22: Student loan borrowers in default could soon see reduced paychecks. What to know: Student loan borrowers who've fallen behind on their payments could soon see the U.S. Department of Educat",
+          "guid": "108189629"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.357,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}
