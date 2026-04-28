@@ -1686,3 +1686,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-04-27	Transportation	U.S. military	neutral	macro	ok
 2026-04-27	Producer Manufacturing	U.S. automakers	neutral	markets	ok
 2026-04-27	Health Services	Sun Pharma|Organon	positive	products	ok
+2026-04-28	Consumer Non-Durables	Starbucks|Starbucks' global same-store sales	positive	earnings	ok
+2026-04-28	Technology Services	Nvidia|OpenAI	neutral	markets	ok
+2026-04-28	Electronic Technology	Meta|Google|OpenAI	neutral	markets	ok
+2026-04-28	Energy Minerals	BP|Iran war	positive	macro	ok
+2026-04-28	Consumer Non-Durables	Coca-Cola	positive	earnings	ok
+2026-04-28	Transportation	Ryanair	negative	other	ok
+2026-04-28	Producer Manufacturing	Airbus	negative	earnings	ok
+2026-04-28	Consumer Durables	BYD	negative	regulation	ok

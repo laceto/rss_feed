@@ -1,16 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-01-27	Blue Origin	Electronic Technology	positive	1	markets
-2026-01-27	Congress	Distribution Services	neutral	0	regulation
-2026-01-27	Fed	Finance	neutral	0	macro
-2026-01-27	Gold	Non-Energy Minerals	neutral	0	markets
-2026-01-27	Homebuyers	Consumer Non-Durables	negative	-1	macro
-2026-01-27	Humana	Health Services	negative	-1	products
-2026-01-27	Lockheed Martin	Electronic Technology	positive	1	markets
-2026-01-27	Redwire	Electronic Technology	positive	1	markets
-2026-01-27	Silver	Non-Energy Minerals	neutral	0	markets
-2026-01-27	Starbucks	Consumer Non-Durables	positive	1	products
-2026-01-27	U.S. government	Utilities	neutral	0	macro
-2026-01-27	UnitedHealth	Health Services	negative	-1	products
 2026-01-28	ASML	Non-Energy Minerals	positive	1	markets
 2026-01-28	Chip stocks	Non-Energy Minerals	positive	1	markets
 2026-01-28	Elon Musk	Consumer Non-Durables	positive	1	products
@@ -1112,3 +1100,16 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-04-27	central banks	Energy Minerals	positive	1	markets
 2026-04-27	crypto	Finance	positive	1	markets
 2026-04-27	prediction markets	Finance	positive	1	markets
+2026-04-28	Airbus	Producer Manufacturing	negative	-1	earnings
+2026-04-28	BP	Energy Minerals	positive	1	macro
+2026-04-28	BYD	Consumer Durables	negative	-1	regulation
+2026-04-28	Coca-Cola	Consumer Non-Durables	positive	1	earnings
+2026-04-28	Google	Electronic Technology	neutral	0	markets
+2026-04-28	Iran war	Energy Minerals	positive	1	macro
+2026-04-28	Meta	Electronic Technology	neutral	0	markets
+2026-04-28	Nvidia	Technology Services	neutral	0	markets
+2026-04-28	OpenAI	Technology Services	neutral	0	markets
+2026-04-28	OpenAI	Electronic Technology	neutral	0	markets
+2026-04-28	Ryanair	Transportation	negative	-1	other
+2026-04-28	Starbucks	Consumer Non-Durables	positive	1	earnings
+2026-04-28	Starbucks' global same-store sales	Consumer Non-Durables	positive	1	earnings

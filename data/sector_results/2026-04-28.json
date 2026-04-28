@@ -1,0 +1,83 @@
+{
+  "date": "2026-04-28",
+  "batch_id": "batch_69f1148c2e20819080dfeab41447327d",
+  "sectors": [
+    {
+      "entities": [
+        "Starbucks",
+        "Starbucks' global same-store sales"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Nvidia",
+        "OpenAI"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Meta",
+        "Google",
+        "OpenAI"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "BP",
+        "Iran war"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Coca-Cola"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Ryanair"
+      ],
+      "sector": "Transportation",
+      "sentiment": "negative",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Airbus"
+      ],
+      "sector": "Producer Manufacturing",
+      "sentiment": "negative",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "BYD"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "negative",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    }
+  ]
+}
