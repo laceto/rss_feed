@@ -1,0 +1,225 @@
+{
+  "date": "2026-04-29",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "2fbfc251-eaea-4872-8901-6018815599e6",
+      "label": "AI Demand and Chip Earnings",
+      "spike_ratio": 1.641,
+      "article_count": 21,
+      "sentiment_score": 0.2112811791383219,
+      "rag_answer": "AI demand is driving significant growth in chip earnings, with companies like Nvidia, TSMC, and ASML reporting record revenues fueled by robust demand for AI semiconductors. The AI boom has not only bolstered the financial performance of major chip manufacturers but has also created shortages in various components, impacting consumer electronics prices. Analysts are closely monitoring the sustainability of this growth, as concerns about potential market bubbles and the profitability of AI investments linger. Overall, the strong performance in the chip sector reflects a transformative shift in technology driven by AI advancements.",
+      "rag_sources": [
+        {
+          "title": "Chinese chip firms hit record high revenue driven by the AI boom and U.S. curbs",
+          "date": "2026-04-03",
+          "link": "https://www.cnbc.com/2026/04/03/chinese-chip-firms-record-revenue-ai-boom-us-curbs.html",
+          "snippet": "2026-04-03: Chinese chip firms hit record high revenue driven by the AI boom and U.S. curbs: Chinese chip companies have benefited from strong domestic demand for AI as U.S. tech curbs have bolstered ",
+          "guid": "108284602"
+        },
+        {
+          "title": "Broadcom earnings primer: AI chip demand and growth are key",
+          "date": "2025-09-04",
+          "link": "https://www.cnbc.com/2025/09/04/broadcom-avgo-q3-2025-earnings-report.html",
+          "snippet": "2025-09-04: Broadcom earnings primer: AI chip demand and growth are key: Broadcom has been one of the biggest winners in the AI boom and investor expectations are growing.",
+          "guid": "108194212"
+        },
+        {
+          "title": "AI trade faces key test before Nvidia earnings: AMD's analyst day",
+          "date": "2025-11-10",
+          "link": "https://www.cnbc.com/2025/11/10/ai-trade-faces-key-test-before-nvidia-earnings-amds-analyst-day.html",
+          "snippet": "2025-11-10: AI trade faces key test before Nvidia earnings: AMD's analyst day: Analysts will be watching AMD's expectations for AI market potential, profit and margins as well as any new customer part",
+          "guid": "108223628"
+        },
+        {
+          "title": "AI trade back on? The company behind chip leaders like Nvidia and AMD just raised its spending forecast",
+          "date": "2026-01-15",
+          "link": "https://www.cnbc.com/2026/01/15/ai-trade-the-company-behind-chip-leaders-like-nvidia-raised-its-spending-forecast.html",
+          "snippet": "2026-01-15: AI trade back on? The company behind chip leaders like Nvidia and AMD just raised its spending forecast: Robust earnings results from chip manufacturing giant TSMC just gave a huge lift to",
+          "guid": "108253098"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.25,
+          "mean_sentiment_score": -0.143,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "5ffc8c87-a3f1-4609-959b-bb08bc69043c",
+      "label": "Epstein Connections and Fallout",
+      "spike_ratio": 1.237,
+      "article_count": 24,
+      "sentiment_score": 0.1887400793650794,
+      "rag_answer": "Recent developments regarding Jeffrey Epstein's connections have revealed extensive ties to high-profile figures in Silicon Valley, including Bill Gates and Peter Thiel. The fallout from these associations continues to impact individuals' careers, with several prominent figures, such as Goldman Sachs' top lawyer Kathryn Ruemmler, stepping down amid scrutiny. The Department of Justice is set to release more documents, and testimonies from key individuals are expected, which may further influence reputational risks and market perceptions surrounding those involved. Overall, the ongoing revelations are likely to create a ripple effect in both professional and financial markets as associations with Epstein are scrutinized.",
+      "rag_sources": [
+        {
+          "title": "Epstein's Silicon Valley connections went beyond Gates and Musk",
+          "date": "2026-02-09",
+          "link": "https://www.cnbc.com/2026/02/09/tech-leaders-epstein-records-silicon-valley-sergey-brin-thiel-sinofsky-reid-hoffman-musk-gates.html",
+          "snippet": "2026-02-09: Epstein's Silicon Valley connections went beyond Gates and Musk: The new Epstein files released by the DOJ show that the deceased financier was able to build relationships across Silicon V",
+          "guid": "108260807"
+        },
+        {
+          "title": "Epstein files fallout: The high-profile people burned by past dealings with a predator",
+          "date": "2026-02-16",
+          "link": "https://www.cnbc.com/2026/02/15/epstein-files-fallout-goldman-ruemmler-harvard-yale.html",
+          "snippet": "2026-02-16: Epstein files fallout: The high-profile people burned by past dealings with a predator: Jeffrey Epstein killed himself in a New York City federal jail in 2019. But more than six years late",
+          "guid": "108265580"
+        },
+        {
+          "title": "Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/epstein-doj-bondi-trump.html",
+          "snippet": "2026-03-05: Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports: The top lawyer for Goldman Sachs, Bill Gates, Leon Black and others are expected to testify soon a",
+          "guid": "108274237"
+        },
+        {
+          "title": "Epstein files: Buffett says he hasn't talked to Bill Gates 'since the whole thing was unveiled'",
+          "date": "2026-03-31",
+          "link": "https://www.cnbc.com/2026/03/31/warren-buffett-bill-gates-epstein.html",
+          "snippet": "2026-03-31: Epstein files: Buffett says he hasn't talked to Bill Gates 'since the whole thing was unveiled': Microsoft founder Bill Gates is one of many high-profile people who have suffered reputatio",
+          "guid": "108285336"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "a6911053-deec-44da-91d1-bfa94b65b030",
+      "label": "S&P 500 Market Analysis",
+      "spike_ratio": 1.136,
+      "article_count": 30,
+      "sentiment_score": 0.2047619047619047,
+      "rag_answer": "The S&P 500 has been experiencing significant volatility, influenced by external factors such as the ongoing oil crisis and the U.S.-Iran conflict, which have led to a series of losing weeks. As of mid-March 2026, the index is under pressure, approaching its 200-day moving average, indicating potential further declines. Despite these challenges, there have been moments of resilience, with the index reaching all-time highs earlier in April, suggesting a complex market environment where investor sentiment remains mixed. Analysts are closely monitoring key levels and upcoming earnings reports, which could be pivotal for the market's direction in the near term.",
+      "rag_sources": [
+        {
+          "title": "S&P 500 is under pressure again from oil crisis, heads for third-straight losing week: Live updates",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/12/stock-market-today-live-updates.html",
+          "snippet": "2026-03-13: S&P 500 is under pressure again from oil crisis, heads for third-straight losing week: Live updates: The S&P 500 fell on Friday, while oil prices extended their gains as investors awaited ",
+          "guid": "108277498"
+        },
+        {
+          "title": "When will the selling stop? Jay Woods and other traders are watching this key S&P 500 level",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/when-will-the-selling-stop-jay-woods-and-others-are-watching-this-key-sp-500-level.html",
+          "snippet": "2026-03-09: When will the selling stop? Jay Woods and other traders are watching this key S&P 500 level: The broad market index is fast approaching its 200-day moving average, which is at 6,582.",
+          "guid": "108275364"
+        },
+        {
+          "title": "NYSE insider Jay Woods is watching these key levels on the S&P 500 and crude oil as U.S.-Iran conflict widens",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/nyse-insider-woods-watching-these-key-levels-on-the-sp-500-crude-oil.html",
+          "snippet": "2026-03-02: NYSE insider Jay Woods is watching these key levels on the S&P 500 and crude oil as U.S.-Iran conflict widens: Beyond the war, this week will see a highly-awaited February jobs report alon",
+          "guid": "108272057"
+        },
+        {
+          "title": "S&P 500 heads for first decline in 8 days on Oracle slide, shutdown angst: Live updates",
+          "date": "2025-10-07",
+          "link": "https://www.cnbc.com/2025/10/06/stock-market-today-live-updates.html",
+          "snippet": "2025-10-07: S&P 500 heads for first decline in 8 days on Oracle slide, shutdown angst: Live updates: Investors await more developments on the current U.S. government shutdown that is now on its second",
+          "guid": "108208432"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "ad8e91c5-7459-4609-b222-fda591a3ae27",
+      "label": "Credit cards and student loans",
+      "spike_ratio": 1.125,
+      "article_count": 36,
+      "sentiment_score": 0.1739748677248677,
+      "rag_answer": "Credit card debt in the U.S. has reached a record high of $1.21 trillion, prompting concerns about consumer spending and financial stability. The Federal Reserve's decisions to hold interest rates steady could impact credit card rates and borrowing costs, influencing how consumers manage their debt. Meanwhile, the resumption of federal student loan delinquency reporting has contributed to a decline in average credit scores, highlighting the challenges faced by borrowers as they navigate both student loan repayments and rising credit card debt. Additionally, proposals for capping credit card interest rates have sparked debate among industry executives about their potential economic implications.",
+      "rag_sources": [
+        {
+          "title": "Credit scores fall for the second year in a row as more borrowers miss payments",
+          "date": "2025-09-16",
+          "link": "https://www.cnbc.com/2025/09/16/fico-credit-scores-fall-year-over-year-more-borrowers-miss-payments.html",
+          "snippet": "2025-09-16: Credit scores fall for the second year in a row as more borrowers miss payments: The average FICO credit score fell two points year over year to 715. The resumption of federal student loan",
+          "guid": "108199018"
+        },
+        {
+          "title": "What student loan borrowers can and can't do, as the government shutdown stretches on",
+          "date": "2025-10-17",
+          "link": "https://www.cnbc.com/2025/10/17/student-loan-borrowers-government-shutdown.html",
+          "snippet": "2025-10-17: What student loan borrowers can and can't do, as the government shutdown stretches on: Despite the government shutdown, student loan borrowers should be able to complete most necessary tas",
+          "guid": "108213481"
+        },
+        {
+          "title": "Consumers love buy now, pay later loans. Here\u2019s why banks and credit card companies are wary of them",
+          "date": "2025-09-14",
+          "link": "https://www.cnbc.com/2025/09/14/heres-why-banks-credit-card-companies-are-wary-of-buy-now-pay-later-loans.html",
+          "snippet": "2025-09-14: Consumers love buy now, pay later loans. Here\u2019s why banks and credit card companies are wary of them: Buy now, pay later loans pose a direct challenge to credit cards. Banks and financial ",
+          "guid": "108195055"
+        },
+        {
+          "title": "Fed holds interest rates steady: What that means for mortgages, credit cards and loans",
+          "date": "2026-01-28",
+          "link": "https://www.cnbc.com/2026/01/28/fed-decision-mortgage-rates-credit-cards-loans.html",
+          "snippet": "2026-01-28: Fed holds interest rates steady: What that means for mortgages, credit cards and loans: From mortgage rates and auto loans to credit cards and savings accounts, here's a look at how the Ja",
+          "guid": "108257652"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.375,
+          "mean_sentiment_score": 0.312,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "e22a1b5b-7461-48d5-a738-3845f1fcd75a",
+      "label": "Apple leadership transition and AI",
+      "spike_ratio": 1.091,
+      "article_count": 12,
+      "sentiment_score": 0.2708333333333333,
+      "rag_answer": "Apple is undergoing a significant leadership transition as Tim Cook steps down as CEO, with John Ternus appointed as his successor. This change comes amid growing pressure on Apple to develop a robust AI strategy, as the company has been perceived to have fallen behind its competitors in AI investments. Analysts are concerned that without a clear direction in AI, Apple's core business could be adversely affected. The leadership shift is seen as a critical moment for Apple, with Ternus expected to play a key role in reshaping the company's approach to AI and addressing investor concerns.",
+      "rag_sources": [
+        {
+          "title": "Apple names former Microsoft, Google exec to succeed retiring AI chief",
+          "date": "2025-12-01",
+          "link": "https://www.cnbc.com/2025/12/01/apple-ai.html",
+          "snippet": "2025-12-01: Apple names former Microsoft, Google exec to succeed retiring AI chief: Apple's AI chief is stepping down after experts say the company has fallen behind its peers when it comes to investi",
+          "guid": "108234807"
+        },
+        {
+          "title": "Apple is facing pressure from Wall Street to figure out its AI strategy",
+          "date": "2025-07-30",
+          "link": "https://www.cnbc.com/2025/07/30/apple-ai-hardware-devices.html",
+          "snippet": "2025-07-30: Apple is facing pressure from Wall Street to figure out its AI strategy: Apple analysts are starting to wonder how much time the iPhone maker has to find an AI strategy before its core bus",
+          "guid": "108175363"
+        },
+        {
+          "title": "Apple at 50: The iPhone maker 'blew a 5-year lead' on AI, but former insiders say it can still win",
+          "date": "2026-04-04",
+          "link": "https://www.cnbc.com/2026/04/04/apple-50-anniversary-ai-iphone-siri.html",
+          "snippet": "2026-04-04: Apple at 50: The iPhone maker 'blew a 5-year lead' on AI, but former insiders say it can still win: In dominating consumer devices, Apple sold users on the promise of privacy. To compete i",
+          "guid": "108285089"
+        },
+        {
+          "title": "Facing questions on AI strategy, Tim Cook says Apple is 'very open' to acquisitions ",
+          "date": "2025-07-31",
+          "link": "https://www.cnbc.com/2025/07/31/tim-cook-apple-ai-acquisitions.html",
+          "snippet": "2025-07-31: Facing questions on AI strategy, Tim Cook says Apple is 'very open' to acquisitions: \\The way that we look at AI is that it's one of the most profound technologies of our lifetime\\\" Cook s",
+          "guid": "108180109"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.25,
+          "mean_sentiment_score": -0.143,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}
