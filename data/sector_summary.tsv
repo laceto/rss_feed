@@ -1694,3 +1694,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-04-28	Transportation	Ryanair	negative	other	ok
 2026-04-28	Producer Manufacturing	Airbus	negative	earnings	ok
 2026-04-28	Consumer Durables	BYD	negative	regulation	ok
+2026-04-29	Finance	Federal Reserve	neutral	macro	ok
+2026-04-29	Electronic Technology	Microsoft	negative	earnings	ok
+2026-04-29	Electronic Technology	Meta	positive	earnings	ok
+2026-04-29	Electronic Technology	Alphabet	neutral	earnings	ok
+2026-04-29	Retail Trade	Amazon	neutral	earnings	ok
+2026-04-29	Producer Manufacturing	Ford	positive	earnings	ok
+2026-04-29	Energy Minerals	UAE	neutral	regulation	ok
+2026-04-29	Energy Minerals	Oil	positive	macro	ok

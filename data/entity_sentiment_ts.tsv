@@ -1,19 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-01-28	ASML	Non-Energy Minerals	positive	1	markets
-2026-01-28	Chip stocks	Non-Energy Minerals	positive	1	markets
-2026-01-28	Elon Musk	Consumer Non-Durables	positive	1	products
-2026-01-28	Energy Department	Energy Minerals	neutral	0	macro
-2026-01-28	Federal Reserve	Finance	neutral	0	macro
-2026-01-28	Meta	Electronic Technology	neutral	0	earnings
-2026-01-28	Microsoft	Electronic Technology	neutral	0	earnings
-2026-01-28	Nvidia	Non-Energy Minerals	positive	1	markets
-2026-01-28	OpenAI	Electronic Technology	neutral	0	earnings
-2026-01-28	S&P 500	Consumer Services	neutral	0	markets
-2026-01-28	SK Hynix	Non-Energy Minerals	positive	1	markets
-2026-01-28	Scott Bessent	Finance	neutral	0	macro
-2026-01-28	Tesla	Consumer Non-Durables	positive	1	products
-2026-01-28	Treasury	Finance	neutral	0	macro
-2026-01-28	tech companies	Consumer Services	neutral	0	markets
 2026-01-29	ASML	Electronic Technology	negative	-1	markets
 2026-01-29	Apple	Electronic Technology	negative	-1	markets
 2026-01-29	Canaccord Genuity	Electronic Technology	negative	-1	markets
@@ -1113,3 +1098,11 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-04-28	Ryanair	Transportation	negative	-1	other
 2026-04-28	Starbucks	Consumer Non-Durables	positive	1	earnings
 2026-04-28	Starbucks' global same-store sales	Consumer Non-Durables	positive	1	earnings
+2026-04-29	Alphabet	Electronic Technology	neutral	0	earnings
+2026-04-29	Amazon	Retail Trade	neutral	0	earnings
+2026-04-29	Federal Reserve	Finance	neutral	0	macro
+2026-04-29	Ford	Producer Manufacturing	positive	1	earnings
+2026-04-29	Meta	Electronic Technology	positive	1	earnings
+2026-04-29	Microsoft	Electronic Technology	negative	-1	earnings
+2026-04-29	Oil	Energy Minerals	positive	1	macro
+2026-04-29	UAE	Energy Minerals	neutral	0	regulation
