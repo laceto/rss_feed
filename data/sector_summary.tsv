@@ -1702,3 +1702,9 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-04-29	Producer Manufacturing	Ford	positive	earnings	ok
 2026-04-29	Energy Minerals	UAE	neutral	regulation	ok
 2026-04-29	Energy Minerals	Oil	positive	macro	ok
+2026-04-30	Electronic Technology	Google|Alphabet	positive	markets	ok
+2026-04-30	Consumer Non-Durables	Apple	positive	earnings	ok
+2026-04-30	Electronic Technology	Meta	negative	earnings	ok
+2026-04-30	Health Services	Merck	positive	earnings	ok
+2026-04-30	Health Services	Lilly|Eli Lilly	positive	earnings	ok
+2026-04-30	Producer Manufacturing	Volkswagen	negative	earnings	ok

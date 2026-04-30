@@ -1,28 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-01-29	ASML	Electronic Technology	negative	-1	markets
-2026-01-29	Apple	Electronic Technology	negative	-1	markets
-2026-01-29	Canaccord Genuity	Electronic Technology	negative	-1	markets
-2026-01-29	Carvana	Electronic Technology	negative	-1	markets
-2026-01-29	Deutsche Bank	Electronic Technology	negative	-1	markets
-2026-01-29	Elon Musk	Electronic Technology	negative	-1	markets
-2026-01-29	Gold	Electronic Technology	negative	-1	markets
-2026-01-29	Google DeepMind	Electronic Technology	negative	-1	markets
-2026-01-29	JPMorgan	Electronic Technology	negative	-1	markets
-2026-01-29	JPMorgan	Electronic Technology	negative	-1	markets
-2026-01-29	LightPath Technologies	Electronic Technology	negative	-1	markets
-2026-01-29	Meta	Electronic Technology	negative	-1	markets
-2026-01-29	Microsoft	Electronic Technology	negative	-1	markets
-2026-01-29	NHTSA	Electronic Technology	negative	-1	markets
-2026-01-29	Nvidia	Electronic Technology	negative	-1	markets
-2026-01-29	SK Hynix	Electronic Technology	negative	-1	markets
-2026-01-29	Samsung	Electronic Technology	negative	-1	markets
-2026-01-29	ServiceNow	Technology Services	negative	-1	markets
-2026-01-29	Southwest Airlines	Electronic Technology	negative	-1	markets
-2026-01-29	Tesla	Electronic Technology	negative	-1	markets
-2026-01-29	Toyota	Electronic Technology	negative	-1	markets
-2026-01-29	UnitedHealthcare	Electronic Technology	negative	-1	markets
-2026-01-29	Waymo	Electronic Technology	negative	-1	markets
-2026-01-29	xAI	Electronic Technology	negative	-1	markets
 2026-01-30	AmEx	Finance	positive	1	products
 2026-01-30	American Express	Finance	positive	1	products
 2026-01-30	Apple	Electronic Technology	negative	-1	markets
@@ -1106,3 +1082,11 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-04-29	Microsoft	Electronic Technology	negative	-1	earnings
 2026-04-29	Oil	Energy Minerals	positive	1	macro
 2026-04-29	UAE	Energy Minerals	neutral	0	regulation
+2026-04-30	Alphabet	Electronic Technology	positive	1	markets
+2026-04-30	Apple	Consumer Non-Durables	positive	1	earnings
+2026-04-30	Eli Lilly	Health Services	positive	1	earnings
+2026-04-30	Google	Electronic Technology	positive	1	markets
+2026-04-30	Lilly	Health Services	positive	1	earnings
+2026-04-30	Merck	Health Services	positive	1	earnings
+2026-04-30	Meta	Electronic Technology	negative	-1	earnings
+2026-04-30	Volkswagen	Producer Manufacturing	negative	-1	earnings
