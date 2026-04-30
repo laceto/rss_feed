@@ -1,0 +1,209 @@
+{
+  "date": "2026-04-30",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "a6911053-deec-44da-91d1-bfa94b65b030",
+      "label": "S&P 500 Market Analysis",
+      "spike_ratio": 1.569,
+      "article_count": 43,
+      "sentiment_score": 0.151578073089701,
+      "rag_answer": "The S&P 500 has been experiencing significant volatility, influenced by external factors such as the ongoing Iran war and fluctuations in oil prices. Recently, the index faced pressure, heading for a third consecutive losing week as investors reacted to geopolitical tensions. Despite this, there have been moments of resilience, with the index reaching all-time highs at times, indicating a complex market environment where investor sentiment is mixed. Analysts are closely monitoring key levels, including the 200-day moving average, as they assess the potential for further declines or recoveries in the market.",
+      "rag_sources": [
+        {
+          "title": "S&P 500 is under pressure again from oil crisis, heads for third-straight losing week: Live updates",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/12/stock-market-today-live-updates.html",
+          "snippet": "2026-03-13: S&P 500 is under pressure again from oil crisis, heads for third-straight losing week: Live updates: The S&P 500 fell on Friday, while oil prices extended their gains as investors awaited ",
+          "guid": "108277498"
+        },
+        {
+          "title": "When will the selling stop? Jay Woods and other traders are watching this key S&P 500 level",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/when-will-the-selling-stop-jay-woods-and-others-are-watching-this-key-sp-500-level.html",
+          "snippet": "2026-03-09: When will the selling stop? Jay Woods and other traders are watching this key S&P 500 level: The broad market index is fast approaching its 200-day moving average, which is at 6,582.",
+          "guid": "108275364"
+        },
+        {
+          "title": "NYSE insider Jay Woods is watching these key levels on the S&P 500 and crude oil as U.S.-Iran conflict widens",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/nyse-insider-woods-watching-these-key-levels-on-the-sp-500-crude-oil.html",
+          "snippet": "2026-03-02: NYSE insider Jay Woods is watching these key levels on the S&P 500 and crude oil as U.S.-Iran conflict widens: Beyond the war, this week will see a highly-awaited February jobs report alon",
+          "guid": "108272057"
+        },
+        {
+          "title": "S&P 500 heads for first decline in 8 days on Oracle slide, shutdown angst: Live updates",
+          "date": "2025-10-07",
+          "link": "https://www.cnbc.com/2025/10/06/stock-market-today-live-updates.html",
+          "snippet": "2025-10-07: S&P 500 heads for first decline in 8 days on Oracle slide, shutdown angst: Live updates: Investors await more developments on the current U.S. government shutdown that is now on its second",
+          "guid": "108208432"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "2fbfc251-eaea-4872-8901-6018815599e6",
+      "label": "AI Demand and Chip Earnings",
+      "spike_ratio": 1.438,
+      "article_count": 21,
+      "sentiment_score": 0.1755668934240362,
+      "rag_answer": "AI demand is driving a significant surge in chip earnings, with companies like Nvidia, TSMC, and ASML reporting record profits fueled by robust orders for AI semiconductors. The AI infrastructure boom is creating shortages in various chip components, impacting consumer electronics prices and raising concerns about potential supply chain disruptions, particularly in light of geopolitical tensions in the Middle East. Analysts are closely monitoring the market for signs of sustainability in this growth, as the rapid expansion raises questions about whether it could lead to an AI bubble. Overall, the strong demand for AI chips is reshaping the semiconductor landscape, benefiting both established players and emerging firms in the sector.",
+      "rag_sources": [
+        {
+          "title": "These funds protect against market drops. Demand is booming",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/these-funds-protect-against-market-drops-demand-is-booming.html",
+          "snippet": "2026-02-11: These funds protect against market drops. Demand is booming: Buffer ETFs could see assets quadruple over a five-year period, according to Cerulli Associates. What to know before investing.",
+          "guid": "108264590"
+        },
+        {
+          "title": "Micron stops selling memory to consumers as demand spikes from AI chips",
+          "date": "2025-12-03",
+          "link": "https://www.cnbc.com/2025/12/03/micron-stops-selling-memory-to-consumers-demand-spikes-from-ai-chips.html",
+          "snippet": "2025-12-03: Micron stops selling memory to consumers as demand spikes from AI chips: Demand driven by the AI infrastructure boom is creating shortages for certain products like memory.",
+          "guid": "108236104"
+        },
+        {
+          "title": "Chip stocks including Nvidia are holding up despite market volatility, according to the charts",
+          "date": "2026-03-10",
+          "link": "https://www.cnbc.com/2026/03/10/chip-stocks-including-nvidia-are-holding-up-despite-market-volatility-according-to-the-charts.html",
+          "snippet": "2026-03-10: Chip stocks including Nvidia are holding up despite market volatility, according to the charts: Todd Gordon takes a look at the technicals in Nvidia and other chipmakers.",
+          "guid": "108276190"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.25,
+          "mean_sentiment_score": -0.143,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "5ffc8c87-a3f1-4609-959b-bb08bc69043c",
+      "label": "Epstein Connections and Fallout",
+      "spike_ratio": 1.132,
+      "article_count": 24,
+      "sentiment_score": 0.1887400793650794,
+      "rag_answer": "Recent developments regarding Jeffrey Epstein's connections have revealed extensive ties to high-profile figures in Silicon Valley, including Bill Gates and Peter Thiel. The fallout from these associations continues to impact individuals and organizations, with several prominent figures, such as Goldman Sachs' top lawyer Kathryn Ruemmler, stepping down due to reputational damage. The Department of Justice is set to release more documents, and testimonies from key individuals are expected, which may further influence public perception and market dynamics. Overall, the ongoing scrutiny of Epstein's connections is creating a ripple effect in professional circles, potentially affecting investor confidence and corporate governance.",
+      "rag_sources": [
+        {
+          "title": "Epstein's Silicon Valley connections went beyond Gates and Musk",
+          "date": "2026-02-09",
+          "link": "https://www.cnbc.com/2026/02/09/tech-leaders-epstein-records-silicon-valley-sergey-brin-thiel-sinofsky-reid-hoffman-musk-gates.html",
+          "snippet": "2026-02-09: Epstein's Silicon Valley connections went beyond Gates and Musk: The new Epstein files released by the DOJ show that the deceased financier was able to build relationships across Silicon V",
+          "guid": "108260807"
+        },
+        {
+          "title": "Epstein files fallout: The high-profile people burned by past dealings with a predator",
+          "date": "2026-02-16",
+          "link": "https://www.cnbc.com/2026/02/15/epstein-files-fallout-goldman-ruemmler-harvard-yale.html",
+          "snippet": "2026-02-16: Epstein files fallout: The high-profile people burned by past dealings with a predator: Jeffrey Epstein killed himself in a New York City federal jail in 2019. But more than six years late",
+          "guid": "108265580"
+        },
+        {
+          "title": "Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/epstein-doj-bondi-trump.html",
+          "snippet": "2026-03-05: Epstein files: DOJ plans to release new batch of documents 'fairly soon,' MS NOW reports: The top lawyer for Goldman Sachs, Bill Gates, Leon Black and others are expected to testify soon a",
+          "guid": "108274237"
+        },
+        {
+          "title": "Epstein files: Buffett says he hasn't talked to Bill Gates 'since the whole thing was unveiled'",
+          "date": "2026-03-31",
+          "link": "https://www.cnbc.com/2026/03/31/warren-buffett-bill-gates-epstein.html",
+          "snippet": "2026-03-31: Epstein files: Buffett says he hasn't talked to Bill Gates 'since the whole thing was unveiled': Microsoft founder Bill Gates is one of many high-profile people who have suffered reputatio",
+          "guid": "108285336"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "f6c084f0-a547-4ff0-a223-85410a095e66",
+      "label": "Midday Stock Movements",
+      "spike_ratio": 1.067,
+      "article_count": 16,
+      "sentiment_score": 0.190922619047619,
+      "rag_answer": "Midday stock movements have shown significant volatility, with various companies consistently making headlines for their large price fluctuations. Notable stocks such as Intel, Apple, and Morgan Stanley have been highlighted in multiple reports, indicating a dynamic trading environment influenced by broader market conditions. The ongoing geopolitical tensions, particularly related to the Iran war, are contributing to market uncertainty, prompting investors to be selective and cautious. Overall, the stock market appears to be reacting to both corporate earnings and external factors, with implications for investor confidence and trading strategies.",
+      "rag_sources": [
+        {
+          "title": "Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more",
+          "date": "2025-09-18",
+          "link": "https://www.cnbc.com/2025/09/18/stocks-making-the-biggest-moves-midday-intc-nvo-blsh-all.html",
+          "snippet": "2025-09-18: Stocks making the biggest moves midday: Intel, Novo Nordisk, Bullish, Allstate and more: These are the stocks posting the largest moves midday.",
+          "guid": "108200831"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more",
+          "date": "2025-10-15",
+          "link": "https://www.cnbc.com/2025/10/15/stocks-making-the-biggest-moves-midday-bac-ms-bg-pgr.html",
+          "snippet": "2025-10-15: Stocks making the biggest moves midday: Bank of America, Morgan Stanley, Bunge, Progressive and more: These are some of the stocks posting the largest midday moves.",
+          "guid": "108212417"
+        },
+        {
+          "title": "The indicator guiding our next move as stocks shake off breakdown in peace talks",
+          "date": "2026-04-13",
+          "link": "https://www.cnbc.com/2026/04/13/the-indicator-guiding-our-next-move-as-stocks-shake-off-breakdown-in-peace-talks.html",
+          "snippet": "2026-04-13: The indicator guiding our next move as stocks shake off breakdown in peace talks: Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time fo",
+          "guid": "108290636"
+        },
+        {
+          "title": "Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/stocks-making-the-biggest-moves-midday-nem-aapl-sndk-deck.html",
+          "snippet": "2026-01-30: Stocks making the biggest moves midday: Newmont, Apple, Sandisk, Deckers Outdoor & more: These are the stocks posting the largest moves midday.",
+          "guid": "108259667"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "54630781-ac63-4b02-bff7-a1637fea6985",
+      "label": "SpaceX IPO Developments",
+      "spike_ratio": 1.062,
+      "article_count": 17,
+      "sentiment_score": 0.1155462184873949,
+      "rag_answer": "SpaceX is preparing for a highly anticipated IPO, with plans to launch a roadshow for investors in early June 2026. The company is targeting a valuation of around $1.75 trillion, which could make it the largest public offering in U.S. history. While there is significant excitement surrounding the IPO, some analysts caution that the potential returns for individual investors may be limited, suggesting that \"the juice has been squeezed from this orange.\" Overall, the IPO could reshape valuations across the aerospace industry and inject much-needed excitement into the current IPO market.",
+      "rag_sources": [
+        {
+          "title": "SpaceX could be the biggest IPO ever next year. How investors can play it right now",
+          "date": "2025-12-15",
+          "link": "https://www.cnbc.com/2025/12/15/spacex-may-be-the-biggest-ipo-ever-next-year-how-to-play-it-right-now.html",
+          "snippet": "2025-12-15: SpaceX could be the biggest IPO ever next year. How investors can play it right now: The SpaceX IPO could reshape valuations across the aerospace industry and deliver a rare blockbuster de",
+          "guid": "108241786"
+        },
+        {
+          "title": "SpaceX lays out IPO details, targets early June roadshow: Reuters",
+          "date": "2026-04-07",
+          "link": "https://www.cnbc.com/2026/04/07/spacex-lays-out-ipo-details-targets-early-june-roadshow-reuters.html",
+          "snippet": "2026-04-07: SpaceX lays out IPO details, targets early June roadshow: Reuters: The\u00a0Elon Musk-led company\u00a0plans to launch its roadshow the week of June 8, when executives and bankers will pitch the IPO",
+          "guid": "108287745"
+        },
+        {
+          "title": "Avoid the SpaceX IPO? 'The juice has been squeezed from this orange' ",
+          "date": "2026-04-06",
+          "link": "https://www.cnbc.com/2026/04/06/avoid-the-spacex-ipo-the-juice-has-been-squeezed-from-this-orange-.html",
+          "snippet": "2026-04-06: Avoid the SpaceX IPO? 'The juice has been squeezed from this orange': SpaceX is unlikely to generate robust returns for individuals who buy the stock at its IPO expected later this year, i",
+          "guid": "108287489"
+        },
+        {
+          "title": "IPO index hits 3-year high with Klarna latest offering set to boom. Why is market so hot and can it continue?",
+          "date": "2025-09-10",
+          "link": "https://www.cnbc.com/2025/09/10/ipo-index-hits-3-year-high-with-klarna-latest-offering-set-to-boom.html",
+          "snippet": "2025-09-10: IPO index hits 3-year high with Klarna latest offering set to boom. Why is market so hot and can it continue?: Klarna is just the latest IPO to hit the market.",
+          "guid": "108196799"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}
