@@ -1,0 +1,63 @@
+{
+  "date": "2026-05-01",
+  "batch_id": "batch_69f506fffe708190927926f6e6d53eb7",
+  "sectors": [
+    {
+      "entities": [
+        "Exxon Mobil",
+        "Chevron"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Apple",
+        "Tim Cook"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Alphabet",
+        "Nvidia"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "AstraZeneca"
+      ],
+      "sector": "Health Services",
+      "sentiment": "negative",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Estee Lauder"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Japan Airlines"
+      ],
+      "sector": "Transportation",
+      "sentiment": "neutral",
+      "news_category": "other",
+      "extraction_status": "ok"
+    }
+  ]
+}

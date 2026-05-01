@@ -1,20 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-01-30	AmEx	Finance	positive	1	products
-2026-01-30	American Express	Finance	positive	1	products
-2026-01-30	Apple	Electronic Technology	negative	-1	markets
-2026-01-30	Apple	Electronic Technology	positive	1	products
-2026-01-30	Apple Inc.	Electronic Technology	negative	-1	markets
-2026-01-30	Beijing	Communications	neutral	0	macro
-2026-01-30	Chevron	Energy Minerals	positive	1	markets
-2026-01-30	China	Communications	neutral	0	macro
-2026-01-30	Elon Musk	Producer Manufacturing	positive	1	products
-2026-01-30	Exxon	Energy Minerals	positive	1	markets
-2026-01-30	Federal Reserve	Finance	positive	1	appointments
-2026-01-30	Gold	Energy Minerals	negative	-1	markets
-2026-01-30	Kevin Warsh	Finance	positive	1	appointments
-2026-01-30	Silver	Energy Minerals	negative	-1	markets
-2026-01-30	Tesla	Producer Manufacturing	positive	1	products
-2026-01-30	iPhone	Electronic Technology	positive	1	products
 2026-02-01	Bitcoin	Electronic Technology	negative	-1	markets
 2026-02-01	DOJ	Finance	neutral	0	other
 2026-02-01	Elizabeth Warren	Finance	negative	-1	regulation
@@ -1090,3 +1074,12 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-04-30	Merck	Health Services	positive	1	earnings
 2026-04-30	Meta	Electronic Technology	negative	-1	earnings
 2026-04-30	Volkswagen	Producer Manufacturing	negative	-1	earnings
+2026-05-01	Alphabet	Electronic Technology	positive	1	markets
+2026-05-01	Apple	Electronic Technology	positive	1	earnings
+2026-05-01	AstraZeneca	Health Services	negative	-1	earnings
+2026-05-01	Chevron	Energy Minerals	negative	-1	markets
+2026-05-01	Estee Lauder	Consumer Non-Durables	positive	1	earnings
+2026-05-01	Exxon Mobil	Energy Minerals	negative	-1	markets
+2026-05-01	Japan Airlines	Transportation	neutral	0	other
+2026-05-01	Nvidia	Electronic Technology	positive	1	markets
+2026-05-01	Tim Cook	Electronic Technology	positive	1	earnings

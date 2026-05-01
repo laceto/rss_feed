@@ -1708,3 +1708,9 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-04-30	Health Services	Merck	positive	earnings	ok
 2026-04-30	Health Services	Lilly|Eli Lilly	positive	earnings	ok
 2026-04-30	Producer Manufacturing	Volkswagen	negative	earnings	ok
+2026-05-01	Energy Minerals	Exxon Mobil|Chevron	negative	markets	ok
+2026-05-01	Electronic Technology	Apple|Tim Cook	positive	earnings	ok
+2026-05-01	Electronic Technology	Alphabet|Nvidia	positive	markets	ok
+2026-05-01	Health Services	AstraZeneca	negative	earnings	ok
+2026-05-01	Consumer Non-Durables	Estee Lauder	positive	earnings	ok
+2026-05-01	Transportation	Japan Airlines	neutral	other	ok
