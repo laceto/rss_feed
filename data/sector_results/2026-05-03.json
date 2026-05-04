@@ -1,0 +1,16 @@
+{
+  "date": "2026-05-03",
+  "batch_id": "batch_69f8fdd2f2c08190983a777d3b2bbf04",
+  "sectors": [
+    {
+      "entities": [
+        "Morgan Stanley",
+        "Chinese companies"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}

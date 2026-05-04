@@ -1714,3 +1714,12 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-05-01	Health Services	AstraZeneca	negative	earnings	ok
 2026-05-01	Consumer Non-Durables	Estee Lauder	positive	earnings	ok
 2026-05-01	Transportation	Japan Airlines	neutral	other	ok
+2026-05-03	Electronic Technology	Morgan Stanley|Chinese companies	positive	markets	ok
+2026-05-04	Technology Services	Palantir|U.S. government agencies	positive	earnings	ok
+2026-05-04	Electronic Technology	AI dark horse sector|Wolfe analyst Steve Fleishman	positive	markets	ok
+2026-05-04	Consumer Non-Durables	Spirit Airlines	negative	other	ok
+2026-05-04	Technology Services	Meta	negative	other	ok
+2026-05-04	Consumer Non-Durables	Geely|Zhejiang Geely Holding Group	neutral	other	ok
+2026-05-04	Energy Minerals	OPEC+	neutral	macro	ok
+2026-05-04	Transportation	U.S. military	neutral	macro	ok
+2026-05-04	Finance	CNBC	neutral	markets	ok

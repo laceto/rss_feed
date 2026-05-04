@@ -1,26 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-02-01	Bitcoin	Electronic Technology	negative	-1	markets
-2026-02-01	DOJ	Finance	neutral	0	other
-2026-02-01	Elizabeth Warren	Finance	negative	-1	regulation
-2026-02-01	Ethereum	Electronic Technology	negative	-1	markets
-2026-02-01	Ro Khanna	Finance	neutral	0	other
-2026-02-01	Senate Banking Committee	Finance	negative	-1	regulation
-2026-02-01	Trump	Finance	neutral	0	macro
-2026-02-01	U.S. assets	Finance	neutral	0	macro
-2026-02-01	United Arab Emirates	Finance	negative	-1	regulation
-2026-02-01	WSJ	Finance	negative	-1	regulation
-2026-02-02	AstraZeneca	Health Services	positive	1	markets
-2026-02-02	China	Industrial Services	positive	1	macro
-2026-02-02	Chinese organized crime networks	Non-Energy Minerals	negative	-1	other
-2026-02-02	Clawdbot	Technology Services	positive	1	products
-2026-02-02	India	Consumer Non-Durables	positive	1	macro
-2026-02-02	Jensen Huang	Electronic Technology	negative	-1	markets
-2026-02-02	Moltbot	Technology Services	positive	1	products
-2026-02-02	Nvidia	Electronic Technology	negative	-1	markets
-2026-02-02	OpenAI	Electronic Technology	negative	-1	markets
-2026-02-02	OpenClaw	Technology Services	positive	1	products
-2026-02-02	Oracle	Technology Services	positive	1	markets
-2026-02-02	Starmer	Consumer Services	neutral	0	macro
 2026-02-03	Apple	Electronic Technology	positive	1	products
 2026-02-03	Merck	Health Services	neutral	0	earnings
 2026-02-03	Nintendo	Consumer Durables	positive	1	products
@@ -1083,3 +1061,16 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-05-01	Japan Airlines	Transportation	neutral	0	other
 2026-05-01	Nvidia	Electronic Technology	positive	1	markets
 2026-05-01	Tim Cook	Electronic Technology	positive	1	earnings
+2026-05-03	Chinese companies	Electronic Technology	positive	1	markets
+2026-05-03	Morgan Stanley	Electronic Technology	positive	1	markets
+2026-05-04	AI dark horse sector	Electronic Technology	positive	1	markets
+2026-05-04	CNBC	Finance	neutral	0	markets
+2026-05-04	Geely	Consumer Non-Durables	neutral	0	other
+2026-05-04	Meta	Technology Services	negative	-1	other
+2026-05-04	OPEC+	Energy Minerals	neutral	0	macro
+2026-05-04	Palantir	Technology Services	positive	1	earnings
+2026-05-04	Spirit Airlines	Consumer Non-Durables	negative	-1	other
+2026-05-04	U.S. government agencies	Technology Services	positive	1	earnings
+2026-05-04	U.S. military	Transportation	neutral	0	macro
+2026-05-04	Wolfe analyst Steve Fleishman	Electronic Technology	positive	1	markets
+2026-05-04	Zhejiang Geely Holding Group	Consumer Non-Durables	neutral	0	other
