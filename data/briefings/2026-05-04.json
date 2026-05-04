@@ -1,0 +1,232 @@
+{
+  "date": "2026-05-04",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "ad0fef60-4749-4e85-809e-e1e6af36a370",
+      "label": "Kevin Warsh Fed Chair Nomination",
+      "spike_ratio": 1.677,
+      "article_count": 52,
+      "sentiment_score": 0.2112408424908424,
+      "rag_answer": "Kevin Warsh has been nominated by President Trump to succeed Jerome Powell as the chair of the Federal Reserve, but his confirmation process has faced significant hurdles due to a federal investigation into Powell. Senator Thom Tillis has vowed to block Warsh's nomination until the investigation is resolved, creating a contentious political environment. Despite these challenges, Warsh's nomination has garnered attention from investors, who view him as a credible steward of monetary policy, although there are concerns about his wealth and potential conflicts of interest. The situation has contributed to market volatility, with analysts noting that the nomination has been a key trigger for recent downturns in various asset classes.",
+      "rag_sources": [
+        {
+          "title": "CNBC Daily Open: We'll soon find out who the new Fed chair is",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/cnbc-daily-open-well-soon-find-out-who-the-new-fed-chair-is.html",
+          "snippet": "2026-01-30: CNBC Daily Open: We'll soon find out who the new Fed chair is: Former Fed Governor Kevin Warsh is by far the favorite, according to prediction market Kalshi.",
+          "guid": "108259366"
+        },
+        {
+          "title": "Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/trump-finally-makes-his-fed-chair-pick-what-kevin-warsh-means-for-investors.html",
+          "snippet": "2026-01-30: Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors: Investors see the former Fed governor as a credible steward of monetary policy despite expectations he may pu",
+          "guid": "108259473"
+        },
+        {
+          "title": "Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/who-is-kevin-warsh-trumps-fed-chair-pick.html",
+          "snippet": "2026-01-30: Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve: Kevin Warsh, a former Fed governor, has emerged as Donald Trump\u2019s pick to lead the Federal Reserve.",
+          "guid": "108259461"
+        },
+        {
+          "title": "Here's what to expect from Fed chair nominee Kevin Warsh's Senate hearing Tuesday",
+          "date": "2026-04-21",
+          "link": "https://www.cnbc.com/2026/04/21/kevin-warshs-senate-hearing-what-to-expect.html",
+          "snippet": "2026-04-21: Here's what to expect from Fed chair nominee Kevin Warsh's Senate hearing Tuesday: In a much-anticipated hearing before the Banking Committee, the former Fed governor will face questioning",
+          "guid": "108294012"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "stable",
+          "trend_delta": 0.095,
+          "mean_sentiment_score": 0.385,
+          "data_age_days": null
+        },
+        {
+          "sector": "Technology Services",
+          "trend_direction": "stable",
+          "trend_delta": 0.083,
+          "mean_sentiment_score": -0.286,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "13899326-df13-4536-b05e-25c1e06eba1d",
+      "label": "Strait of Hormuz Shipping Tensions",
+      "spike_ratio": 1.548,
+      "article_count": 39,
+      "sentiment_score": 0.2341575091575091,
+      "rag_answer": "The Strait of Hormuz is currently facing significant shipping tensions due to a blockade, primarily affecting global energy markets, especially in Asia. The U.S. and Iran are engaged in a conflict that has led to a drastic reduction in shipping traffic, with reports indicating that tanker transits are down by 90% compared to pre-conflict levels. Despite Iran's declaration that the strait is open, the U.S. blockade remains active, causing oil prices to fluctuate and raising concerns about a potential global recession if the situation persists. Market analysts warn that prolonged disruptions could lead to severe supply chain impacts and increased volatility in oil prices.",
+      "rag_sources": [
+        {
+          "title": " The Strait of Hormuz is facing a blockade. These countries will be most impacted",
+          "date": "2026-03-04",
+          "link": "https://www.cnbc.com/2026/03/03/strait-of-hormuz-closure-which-countries-will-be-hit-the-most.html",
+          "snippet": "2026-03-04: The Strait of Hormuz is facing a blockade. These countries will be most impacted: A closure of the Strait of Hormuz would send shock waves through global energy markets, but the pain would",
+          "guid": "108272470"
+        },
+        {
+          "title": "Trump says U.S. will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure",
+          "date": "2026-05-04",
+          "link": "https://www.cnbc.com/2026/05/03/trump-iran-strait-of-hormuz-trapped-ships.html",
+          "snippet": "2026-05-04: Trump says U.S. will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure: Vessels have been largely unable to pass through the Strait of Hormuz for months, disrupting key supp",
+          "guid": "108301292"
+        },
+        {
+          "title": "European markets close lower as U.S. blockade of Strait of Hormuz begins",
+          "date": "2026-04-13",
+          "link": "https://www.cnbc.com/2026/04/13/european-markets-stoxx-600-ftse-dax-iran-latest-hungary-election.html",
+          "snippet": "2026-04-13: European markets close lower as U.S. blockade of Strait of Hormuz begins: European stocks started the new trading week on a somber note as global traders assess developments in the Middle ",
+          "guid": "108290252"
+        },
+        {
+          "title": "Global recession is inevitable if Strait of Hormuz stays shut, says Citadel's Ken Griffin",
+          "date": "2026-04-14",
+          "link": "https://www.cnbc.com/2026/04/14/citadels-ken-griffin-global-recession-inevitable-if-strait-of-hormuz-stays-shut.html",
+          "snippet": "2026-04-14: Global recession is inevitable if Strait of Hormuz stays shut, says Citadel's Ken Griffin: A prolonged blockage of the Strait of Hormuz for the next six to 12 months will mean an unavoidab",
+          "guid": "108291080"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "stable",
+          "trend_delta": 0.083,
+          "mean_sentiment_score": -0.286,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "d5a83771-8025-4a89-b9fc-bec0cb6b38fe",
+      "label": "Trump White House ballroom controversy",
+      "spike_ratio": 1.357,
+      "article_count": 19,
+      "sentiment_score": 0.2107843137254902,
+      "rag_answer": "The Trump White House ballroom project has faced significant controversy and legal challenges, including a lawsuit from the National Trust for Historic Preservation that led to a judge blocking construction. Despite these setbacks, Congressional Republicans are rallying support for the project, proposing a bill to allocate $400 million in federal funds. The project, which has been criticized as a \"vanity\" initiative, is also being financed by Big Tech and other corporate donors, raising concerns about its implications for public funding and historical preservation. The ongoing legal battles and political debates surrounding the ballroom could impact investor sentiment and market perceptions of government spending priorities.",
+      "rag_sources": [
+        {
+          "title": "White House calls Trump ballroom demolition work furor 'manufactured outrage'",
+          "date": "2025-10-21",
+          "link": "https://www.cnbc.com/2025/10/21/trump-white-house-ballroom-demoltion-treasury.html",
+          "snippet": "2025-10-21: White House calls Trump ballroom demolition work furor 'manufactured outrage': President Donald Trump said in July that construction of his White House ballroom \\won't interfere with the c",
+          "guid": "108214688"
+        },
+        {
+          "title": "Judge blocks Trump White House ballroom project for now",
+          "date": "2026-03-31",
+          "link": "https://www.cnbc.com/2026/03/31/trump-white-house-ballroom-judge.html",
+          "snippet": "2026-03-31: Judge blocks Trump White House ballroom project for now: The National Trust for Historic Preservation in the United States sued President Trump and the National Park Service over the White",
+          "guid": "108285617"
+        },
+        {
+          "title": "Trump White House ballroom unlikely to get WHCD buy-in \u2014 or end president's off-site events, critics say",
+          "date": "2026-04-28",
+          "link": "https://www.cnbc.com/2026/04/28/trump-white-house-ballroom-whcd.html",
+          "snippet": "2026-04-28: Trump White House ballroom unlikely to get WHCD buy-in \u2014 or end president's off-site events, critics say: Critics say a White House ballroom would be a \\vanity\\\" project for President Dona",
+          "guid": "108297974"
+        },
+        {
+          "title": "Judge blocks above-ground construction of Trump's White House ballroom, administration appeals",
+          "date": "2026-04-16",
+          "link": "https://www.cnbc.com/2026/04/16/white-house-ballroom-trump-judge.html",
+          "snippet": "2026-04-16: Judge blocks above-ground construction of Trump's White House ballroom, administration appeals: The White House's East Wing was demolished to build a 90,000 square-foot ballroom sought by ",
+          "guid": "108292607"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "6e5c8e83-af63-49c2-a8d2-61d97a66e25d",
+      "label": "Strait of Hormuz Oil Tensions",
+      "spike_ratio": 1.333,
+      "article_count": 16,
+      "sentiment_score": 0.2570684523809524,
+      "rag_answer": "Tensions in the Strait of Hormuz have escalated significantly due to the ongoing conflict between the U.S. and Israel against Iran, leading to disruptions in oil supply and sharp fluctuations in oil prices. Initially, the strait was effectively closed, causing crude oil prices to spike, but following a ceasefire agreement, Iran declared the strait open, resulting in a significant drop in oil prices. Despite this, concerns remain about the safety of shipping through the strait, as attacks and military threats continue to create uncertainty in the market. Overall, the situation has led to volatility in oil prices and heightened scrutiny from traders and investors regarding the stability of global oil supply chains.",
+      "rag_sources": [
+        {
+          "title": "Oil tankers transiting Strait of Hormuz 'must be very careful,' Iran Foreign Ministry warns",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/iran-war-oil-tankers-strait-of-hormuz.html",
+          "snippet": "2026-03-09: Oil tankers transiting Strait of Hormuz 'must be very careful,' Iran Foreign Ministry warns: The price of crude oil has sharply spiked as the Strait of Hormuz has been effectively closed a",
+          "guid": "108275520"
+        },
+        {
+          "title": "U.S. oil price plunges below $84 as Iran declares Strait of Hormuz open, easing supply fears ",
+          "date": "2026-04-17",
+          "link": "https://www.cnbc.com/2026/04/17/oil-prices-wti-brent-israel-lebanon-ceasefire-trump.html",
+          "snippet": "2026-04-17: U.S. oil price plunges below $84 as Iran declares Strait of Hormuz open, easing supply fears: Oil prices tumbled more than 11% after Iran declared the Strait of Hormuz open amid a ceasefir",
+          "guid": "108292913"
+        },
+        {
+          "title": "Trump says U.S. will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure",
+          "date": "2026-05-04",
+          "link": "https://www.cnbc.com/2026/05/03/trump-iran-strait-of-hormuz-trapped-ships.html",
+          "snippet": "2026-05-04: Trump says U.S. will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure: Vessels have been largely unable to pass through the Strait of Hormuz for months, disrupting key supp",
+          "guid": "108301292"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "stable",
+          "trend_delta": 0.083,
+          "mean_sentiment_score": -0.286,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "6efff227-9da9-439e-88e0-c0d9ba2624c3",
+      "label": "Middle East conflict impact on markets",
+      "spike_ratio": 1.29,
+      "article_count": 16,
+      "sentiment_score": 0.2091517857142857,
+      "rag_answer": "The ongoing conflict in the Middle East, particularly involving Iran, has led to significant volatility in global markets. Asia-Pacific and European stocks have experienced sharp declines as investors react to escalating tensions and rising oil prices, with fears of prolonged disruptions to trade and economic stability. Despite some temporary recoveries, such as a brief rise in European markets, the overall sentiment remains fragile, with many investors bracing for further turmoil. Additionally, the conflict has sparked increased interest in defense sectors, indicating potential shifts in investment strategies amid the uncertainty.",
+      "rag_sources": [
+        {
+          "title": "Asia markets tumble as Middle East conflict spiral with no sign of abating",
+          "date": "2026-03-23",
+          "link": "https://www.cnbc.com/2026/03/23/asia-markets-us-iran-threats-strait-of-hormuz-oil-nikkei-kospi-hsi-hang-seng.html",
+          "snippet": "2026-03-23: Asia markets tumble as Middle East conflict spiral with no sign of abating: Asia-Pacific markets tumbled Monday as investors weighed escalating tensions in the Middle East after the U.S. a",
+          "guid": "108281292"
+        },
+        {
+          "title": "Luxury stocks slump as Middle East conflict risks one of the sector\u2019s 'few bright spots\u2019",
+          "date": "2026-03-03",
+          "link": "https://www.cnbc.com/2026/03/03/luxury-stocks-iran-strikes-lvmh-kering-gucci-richemont.html",
+          "snippet": "2026-03-03: Luxury stocks slump as Middle East conflict risks one of the sector\u2019s 'few bright spots\u2019: The Middle East has been one of the few bright spots in a sector that is struggling to get sales b",
+          "guid": "108272638"
+        },
+        {
+          "title": "The Strait of Hormuz crisis explained: What it means for global shipping",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/strait-of-hormuz-crisis-us-iran-israel-war-shipping-trade-oil.html",
+          "snippet": "2026-03-02: The Strait of Hormuz crisis explained: What it means for global shipping: The Middle East conflict has stoked fears of prolonged disruption to global trade via key maritime corridors.",
+          "guid": "108271796"
+        },
+        {
+          "title": "Why India looks especially vulnerable as conflict rages in Middle East",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/india-impact-iran-middle-east-conflict-oil-prices-airlines.html",
+          "snippet": "2026-03-02: Why India looks especially vulnerable as conflict rages in Middle East: As conflict in the Middle East causes surging oil prices and disrupts the aviation sector, India is coming under pre",
+          "guid": "108271742"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}
