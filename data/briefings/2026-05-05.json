@@ -1,0 +1,232 @@
+{
+  "date": "2026-05-05",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "870e8477-dc1b-4788-b4a6-60f9e553f80e",
+      "label": "Obesity Drug Market Developments",
+      "spike_ratio": 1.522,
+      "article_count": 21,
+      "sentiment_score": 0.2037981859410431,
+      "rag_answer": "The obesity drug market is experiencing significant growth and competition, particularly with the launch of new oral medications from major players like Novo Nordisk and Eli Lilly. Medicare's recent decision to cover obesity drugs is expected to expand access to millions of seniors, potentially increasing prescription volumes despite lower prices. Additionally, the market is seeing a shift in focus, with obesity drugs now representing a larger share of the pharmaceutical pipeline compared to oncology. As competition intensifies, companies are strategizing to protect their market shares and adapt to evolving consumer and insurance landscapes.",
+      "rag_sources": [
+        {
+          "title": "What obesity drugmakers see next in the market: More pills, easier access and drug combinations",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/2026/01/23/weight-loss-glp-1-drugs-next-steps-for-eli-lilly-novo-nordisk-pfizer.html",
+          "snippet": "2026-01-23: What obesity drugmakers see next in the market: More pills, easier access and drug combinations: CNBC spoke to executives from Eli Lilly, Novo Nordisk, Pfizer and other drugmakers at the a",
+          "guid": "108255916"
+        },
+        {
+          "title": "Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next",
+          "date": "2025-11-02",
+          "link": "https://www.cnbc.com/2025/11/02/whats-next-for-the-weight-loss-drug-market-pills-rivals-insurance.html",
+          "snippet": "2025-11-02: Where the blockbuster weight loss drug market stands today \u2014 and what\u2019s coming next: Competition is heating up, but questions remain about insurance coverage, drug pricing, copycat drugs a",
+          "guid": "108216702"
+        },
+        {
+          "title": "'Bubble effect': Weight loss drug fueled growth is putting the pharma sector at risk, report finds",
+          "date": "2026-05-04",
+          "link": "https://www.cnbc.com/2026/05/04/wegovy-glp1-weight-loss-drugs-pharma-growth-bubble.html",
+          "snippet": "2026-05-04: 'Bubble effect': Weight loss drug fueled growth is putting the pharma sector at risk, report finds: Obesity assets represent about 25% of total forecast sales of the late-stage pipeline, w",
+          "guid": "108301393"
+        },
+        {
+          "title": "Novo Nordisk faces a defining year in the obesity drug market. It\u2019s off to a dramatic start  ",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/novo-nordisk-faces-defining-year-in-the-obesity-drug-market.html",
+          "snippet": "2026-02-11: Novo Nordisk faces a defining year in the obesity drug market. It\u2019s off to a dramatic start: The Danish drugmaker kicked off 2026 with its explosive obesity pill launch, but recent challen",
+          "guid": "108264597"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "ad0fef60-4749-4e85-809e-e1e6af36a370",
+      "label": "Kevin Warsh Fed Chair Nomination",
+      "spike_ratio": 1.401,
+      "article_count": 51,
+      "sentiment_score": 0.2123482726423902,
+      "rag_answer": "Kevin Warsh has been nominated by President Trump to succeed Jerome Powell as the chair of the Federal Reserve, but his confirmation process has faced significant hurdles due to a federal investigation into Powell. Senator Thom Tillis has vowed to block Warsh's nomination until the investigation is resolved, creating a contentious political environment. Despite these challenges, Warsh's nomination has garnered attention from investors, who view him as a credible figure for monetary policy, although there are concerns about his wealth and potential conflicts of interest. The situation has contributed to market volatility, with analysts noting that the nomination process is a key factor influencing recent market downturns.",
+      "rag_sources": [
+        {
+          "title": "CNBC Daily Open: We'll soon find out who the new Fed chair is",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/cnbc-daily-open-well-soon-find-out-who-the-new-fed-chair-is.html",
+          "snippet": "2026-01-30: CNBC Daily Open: We'll soon find out who the new Fed chair is: Former Fed Governor Kevin Warsh is by far the favorite, according to prediction market Kalshi.",
+          "guid": "108259366"
+        },
+        {
+          "title": "Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/trump-finally-makes-his-fed-chair-pick-what-kevin-warsh-means-for-investors.html",
+          "snippet": "2026-01-30: Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors: Investors see the former Fed governor as a credible steward of monetary policy despite expectations he may pu",
+          "guid": "108259473"
+        },
+        {
+          "title": "Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/who-is-kevin-warsh-trumps-fed-chair-pick.html",
+          "snippet": "2026-01-30: Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve: Kevin Warsh, a former Fed governor, has emerged as Donald Trump\u2019s pick to lead the Federal Reserve.",
+          "guid": "108259461"
+        },
+        {
+          "title": "Here's what to expect from Fed chair nominee Kevin Warsh's Senate hearing Tuesday",
+          "date": "2026-04-21",
+          "link": "https://www.cnbc.com/2026/04/21/kevin-warshs-senate-hearing-what-to-expect.html",
+          "snippet": "2026-04-21: Here's what to expect from Fed chair nominee Kevin Warsh's Senate hearing Tuesday: In a much-anticipated hearing before the Banking Committee, the former Fed governor will face questioning",
+          "guid": "108294012"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "stable",
+          "trend_delta": 0.167,
+          "mean_sentiment_score": 0.417,
+          "data_age_days": null
+        },
+        {
+          "sector": "Technology Services",
+          "trend_direction": "stable",
+          "trend_delta": 0.083,
+          "mean_sentiment_score": -0.286,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "6a43b8f6-fc2e-4b72-b84f-0ba3a01d1d1b",
+      "label": "Elon Musk's Legal and Business Challenges",
+      "spike_ratio": 1.23,
+      "article_count": 15,
+      "sentiment_score": 0.2246825396825396,
+      "rag_answer": "Elon Musk is currently embroiled in multiple legal battles, including a significant fight over his $56 billion pay package from Tesla, which is under review by Delaware's Supreme Court. He is also facing a lawsuit from the SEC regarding his delayed disclosure of a stake in Twitter, while simultaneously suing OpenAI and its executives over their transition to a for-profit model, claiming they violated their original nonprofit mission. Additionally, Musk's xAI is facing scrutiny and lawsuits related to the Grok chatbot, which has generated explicit content, leading to regulatory probes in several countries. These legal challenges could impact Musk's business operations and investor confidence, particularly as Tesla's stock remains sensitive to market speculation and potential mergers.",
+      "rag_sources": [
+        {
+          "title": "Musk's legal fight over $56 billion payday from Tesla enters final stage",
+          "date": "2025-10-15",
+          "link": "https://www.cnbc.com/2025/10/15/musks-legal-fight-over-56-billion-payday-from-tesla-enters-final-stage.html",
+          "snippet": "2025-10-15: Musk's legal fight over $56 billion payday from Tesla enters final stage: Musk's lawyers will urge Delaware's Supreme Court to restore his $56 billion pay package nearly two years after a ",
+          "guid": "108212404"
+        },
+        {
+          "title": "Elon Musk and SEC in talks to settle lawsuit over Twitter deal",
+          "date": "2026-03-17",
+          "link": "https://www.cnbc.com/2026/03/17/elon-musk-sec-in-talks-to-settle-government-lawsuit-over-twitter-deal.html",
+          "snippet": "2026-03-17: Elon Musk and SEC in talks to settle lawsuit over Twitter deal: The SEC accused Elon Musk of failing to promptly disclose that he amassed an active stake in Twitter in 2022.",
+          "guid": "108279119"
+        },
+        {
+          "title": "Musk's bid to dismiss OpenAI's harassment claims denied in court",
+          "date": "2025-08-13",
+          "link": "https://www.cnbc.com/2025/08/13/musks-bid-to-dismiss-openais-harassment-claims-denied-in-court.html",
+          "snippet": "2025-08-13: Musk's bid to dismiss OpenAI's harassment claims denied in court: Musk\u00a0sued OpenAI and its CEO Sam Altman over the company's transition to a for-profit model, accusing\u00a0the company\u00a0of stray",
+          "guid": "108185307"
+        },
+        {
+          "title": "Musk-Altman battle escalates as Tesla CEO drags Apple into the spat ",
+          "date": "2025-08-12",
+          "link": "https://www.cnbc.com/2025/08/12/musk-altman-battle-escalates-as-tesla-ceo-drags-apple-into-the-spat-.html",
+          "snippet": "2025-08-12: Musk-Altman battle escalates as Tesla CEO drags Apple into the spat: Elon Musk and Sam Altman, who were longtime friends and helped start OpenAI, are in an extended legal battle that now i",
+          "guid": "108184772"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "8f19e3fc-a9bd-430c-b784-f367e1e9e7c0",
+      "label": "Nvidia earnings and AI outlook",
+      "spike_ratio": 1.176,
+      "article_count": 16,
+      "sentiment_score": 0.3234375,
+      "rag_answer": "Nvidia's earnings reports have consistently indicated strong demand for AI infrastructure, with the company being the only major tech stock to gain in a cautious market. CEO Jensen Huang has emphasized the sustainability of a $660 billion capital expenditure buildout, despite ongoing concerns about whether the current AI spending will yield future profitability. Analysts remain optimistic about Nvidia's position in the AI market, but there are lingering fears of a potential AI bubble. Overall, Nvidia's performance is seen as a critical indicator for the tech sector and broader market trends.",
+      "rag_sources": [
+        {
+          "title": "Nvidia earnings report collides with Wall Street skepticism over AI spending",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/nvidia-earnings-collide-with-wall-street-skepticism-over-ai-spending.html",
+          "snippet": "2026-02-24: Nvidia earnings report collides with Wall Street skepticism over AI spending: Nvidia is the only megacap tech stock to notch gains this year as investors have turned cautious on the hefty ",
+          "guid": "108268615"
+        },
+        {
+          "title": "Nvidia sent a strong signal on AI infrastructure \u2014 but is it a bubble barometer? ",
+          "date": "2025-11-20",
+          "link": "https://www.cnbc.com/2025/11/20/nvidia-sent-a-strong-signal-on-ai-infrastructure-but-is-it-a-bubble-barometer-.html",
+          "snippet": "2025-11-20: Nvidia sent a strong signal on AI infrastructure \u2014 but is it a bubble barometer?: Analysts agree that Nvidia's earnings are a clear signal of of strong demand for AI infrastructure. Less c",
+          "guid": "108228911"
+        },
+        {
+          "title": "AI trade faces key test before Nvidia earnings: AMD's analyst day",
+          "date": "2025-11-10",
+          "link": "https://www.cnbc.com/2025/11/10/ai-trade-faces-key-test-before-nvidia-earnings-amds-analyst-day.html",
+          "snippet": "2025-11-10: AI trade faces key test before Nvidia earnings: AMD's analyst day: Analysts will be watching AMD's expectations for AI market potential, profit and margins as well as any new customer part",
+          "guid": "108223628"
+        },
+        {
+          "title": "Nvidia rises 7% as Jensen Huang says $660 billion capex buildout is sustainable",
+          "date": "2026-02-06",
+          "link": "https://www.cnbc.com/2026/02/06/nvidia-rises-7percent-as-ceo-says-660-billion-capex-buildout-is-sustainable.html",
+          "snippet": "2026-02-06: Nvidia rises 7% as Jensen Huang says $660 billion capex buildout is sustainable: Huang's comments come after key Nvidia customers Meta, Amazon, Google and Microsoft reported their latest e",
+          "guid": "108262641"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "stable",
+          "trend_delta": 0.083,
+          "mean_sentiment_score": -0.286,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "6e5c8e83-af63-49c2-a8d2-61d97a66e25d",
+      "label": "Strait of Hormuz Oil Tensions",
+      "spike_ratio": 1.077,
+      "article_count": 14,
+      "sentiment_score": 0.2937925170068027,
+      "rag_answer": "Tensions in the Strait of Hormuz have escalated significantly due to the ongoing conflict between the U.S. and Israel against Iran, leading to disruptions in oil supply and sharp fluctuations in oil prices. Initially, the strait was effectively closed, causing crude oil prices to spike, but following a ceasefire agreement, Iran declared the strait open, resulting in a significant drop in oil prices. Despite this, concerns remain as ship traffic has been cautious, and geopolitical tensions continue to impact market stability. Analysts suggest that the situation could lead to further volatility in oil prices and global supply chains, particularly if conflicts resume.",
+      "rag_sources": [
+        {
+          "title": "Oil tankers transiting Strait of Hormuz 'must be very careful,' Iran Foreign Ministry warns",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/iran-war-oil-tankers-strait-of-hormuz.html",
+          "snippet": "2026-03-09: Oil tankers transiting Strait of Hormuz 'must be very careful,' Iran Foreign Ministry warns: The price of crude oil has sharply spiked as the Strait of Hormuz has been effectively closed a",
+          "guid": "108275520"
+        },
+        {
+          "title": "U.S. oil price plunges below $84 as Iran declares Strait of Hormuz open, easing supply fears ",
+          "date": "2026-04-17",
+          "link": "https://www.cnbc.com/2026/04/17/oil-prices-wti-brent-israel-lebanon-ceasefire-trump.html",
+          "snippet": "2026-04-17: U.S. oil price plunges below $84 as Iran declares Strait of Hormuz open, easing supply fears: Oil prices tumbled more than 11% after Iran declared the Strait of Hormuz open amid a ceasefir",
+          "guid": "108292913"
+        },
+        {
+          "title": "Trump says U.S. will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure",
+          "date": "2026-05-04",
+          "link": "https://www.cnbc.com/2026/05/03/trump-iran-strait-of-hormuz-trapped-ships.html",
+          "snippet": "2026-05-04: Trump says U.S. will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure: Vessels have been largely unable to pass through the Strait of Hormuz for months, disrupting key supp",
+          "guid": "108301292"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "stable",
+          "trend_delta": 0.083,
+          "mean_sentiment_score": -0.286,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}
