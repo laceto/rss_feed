@@ -1,13 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-02-03	Apple	Electronic Technology	positive	1	products
-2026-02-03	Merck	Health Services	neutral	0	earnings
-2026-02-03	Nintendo	Consumer Durables	positive	1	products
-2026-02-03	Nvidia	Electronic Technology	neutral	0	markets
-2026-02-03	OpenAI	Electronic Technology	neutral	0	markets
-2026-02-03	Palantir	Technology Services	positive	1	earnings
-2026-02-03	PepsiCo	Consumer Non-Durables	positive	1	earnings
-2026-02-03	Pfizer	Health Services	positive	1	earnings
-2026-02-03	Walmart	Retail Trade	positive	1	macro
 2026-02-04	AI startup	Electronic Technology	positive	1	markets
 2026-02-04	AMD	Electronic Technology	positive	1	products
 2026-02-04	Alphabet	Electronic Technology	positive	1	earnings
