@@ -1,0 +1,81 @@
+{
+  "date": "2026-05-06",
+  "batch_id": "batch_69fba24b8d648190ac61cdbed8d5cec2",
+  "sectors": [
+    {
+      "entities": [
+        "Corning",
+        "Nvidia"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Apollo",
+        "Marc Rowan"
+      ],
+      "sector": "Finance",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Snap"
+      ],
+      "sector": "Consumer Services",
+      "sentiment": "neutral",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "DoorDash"
+      ],
+      "sector": "Consumer Services",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "AMD",
+        "Lisa Su"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Shell plc"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Lufthansa"
+      ],
+      "sector": "Transportation",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Lucid Group"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    }
+  ]
+}

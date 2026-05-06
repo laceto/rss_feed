@@ -1,0 +1,82 @@
+{
+  "date": "2026-05-05",
+  "batch_id": "batch_69fba24b8d648190ac61cdbed8d5cec2",
+  "sectors": [
+    {
+      "entities": [
+        "Spirit Airlines"
+      ],
+      "sector": "Transportation",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "U.S.",
+        "Iran"
+      ],
+      "sector": "Utilities",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Micron",
+        "Intel"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "U.S. stocks",
+        "oil"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Anthropic"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "negative",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "SEC"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Ford",
+        "PulteGroup"
+      ],
+      "sector": "Producer Manufacturing",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Pfizer"
+      ],
+      "sector": "Health Services",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    }
+  ]
+}

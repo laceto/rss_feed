@@ -1723,3 +1723,19 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-05-04	Energy Minerals	OPEC+	neutral	macro	ok
 2026-05-04	Transportation	U.S. military	neutral	macro	ok
 2026-05-04	Finance	CNBC	neutral	markets	ok
+2026-05-05	Transportation	Spirit Airlines	negative	macro	ok
+2026-05-05	Utilities	U.S.|Iran	neutral	macro	ok
+2026-05-05	Electronic Technology	Micron|Intel	positive	markets	ok
+2026-05-05	Energy Minerals	U.S. stocks|oil	positive	markets	ok
+2026-05-05	Technology Services	Anthropic	negative	regulation	ok
+2026-05-05	Finance	SEC	neutral	regulation	ok
+2026-05-05	Producer Manufacturing	Ford|PulteGroup	positive	products	ok
+2026-05-05	Health Services	Pfizer	positive	earnings	ok
+2026-05-06	Electronic Technology	Corning|Nvidia	positive	products	ok
+2026-05-06	Finance	Apollo|Marc Rowan	negative	macro	ok
+2026-05-06	Consumer Services	Snap	neutral	earnings	ok
+2026-05-06	Consumer Services	DoorDash	positive	earnings	ok
+2026-05-06	Electronic Technology	AMD|Lisa Su	positive	earnings	ok
+2026-05-06	Energy Minerals	Shell plc	positive	macro	ok
+2026-05-06	Transportation	Lufthansa	negative	macro	ok
+2026-05-06	Consumer Durables	Lucid Group	neutral	products	ok

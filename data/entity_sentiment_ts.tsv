@@ -1,24 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-02-04	AI startup	Electronic Technology	positive	1	markets
-2026-02-04	AMD	Electronic Technology	positive	1	products
-2026-02-04	Alphabet	Electronic Technology	positive	1	earnings
-2026-02-04	Apple	Electronic Technology	positive	1	earnings
-2026-02-04	Chevron	Energy Minerals	neutral	0	other
-2026-02-04	ElevenLabs	Electronic Technology	positive	1	markets
-2026-02-04	Eli Lilly	Health Services	negative	-1	earnings
-2026-02-04	Fed	Finance	neutral	0	regulation
-2026-02-04	Google	Electronic Technology	positive	1	earnings
-2026-02-04	Lisa Su	Electronic Technology	positive	1	products
-2026-02-04	Novo Nordisk	Health Services	negative	-1	earnings
-2026-02-04	Nvidia	Electronic Technology	positive	1	markets
-2026-02-04	Oil	Energy Minerals	negative	-1	macro
-2026-02-04	Powell	Finance	neutral	0	regulation
-2026-02-04	Software stocks	Electronic Technology	negative	-1	markets
-2026-02-04	Syrian waters	Energy Minerals	neutral	0	other
-2026-02-04	Tillis	Finance	neutral	0	regulation
-2026-02-04	U.S.-Iran nuclear talks	Energy Minerals	negative	-1	macro
-2026-02-04	Warsh	Finance	neutral	0	regulation
-2026-02-04	artificial intelligence	Electronic Technology	negative	-1	markets
 2026-02-05	Alphabet	Electronic Technology	neutral	0	earnings
 2026-02-05	Amazon	Electronic Technology	neutral	0	earnings
 2026-02-05	Bitcoin	Energy Minerals	negative	-1	macro
@@ -1065,3 +1045,26 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-05-04	U.S. military	Transportation	neutral	0	macro
 2026-05-04	Wolfe analyst Steve Fleishman	Electronic Technology	positive	1	markets
 2026-05-04	Zhejiang Geely Holding Group	Consumer Non-Durables	neutral	0	other
+2026-05-05	Anthropic	Technology Services	negative	-1	regulation
+2026-05-05	Ford	Producer Manufacturing	positive	1	products
+2026-05-05	Intel	Electronic Technology	positive	1	markets
+2026-05-05	Iran	Utilities	neutral	0	macro
+2026-05-05	Micron	Electronic Technology	positive	1	markets
+2026-05-05	Pfizer	Health Services	positive	1	earnings
+2026-05-05	PulteGroup	Producer Manufacturing	positive	1	products
+2026-05-05	SEC	Finance	neutral	0	regulation
+2026-05-05	Spirit Airlines	Transportation	negative	-1	macro
+2026-05-05	U.S.	Utilities	neutral	0	macro
+2026-05-05	U.S. stocks	Energy Minerals	positive	1	markets
+2026-05-05	oil	Energy Minerals	positive	1	markets
+2026-05-06	AMD	Electronic Technology	positive	1	earnings
+2026-05-06	Apollo	Finance	negative	-1	macro
+2026-05-06	Corning	Electronic Technology	positive	1	products
+2026-05-06	DoorDash	Consumer Services	positive	1	earnings
+2026-05-06	Lisa Su	Electronic Technology	positive	1	earnings
+2026-05-06	Lucid Group	Consumer Durables	neutral	0	products
+2026-05-06	Lufthansa	Transportation	negative	-1	macro
+2026-05-06	Marc Rowan	Finance	negative	-1	macro
+2026-05-06	Nvidia	Electronic Technology	positive	1	products
+2026-05-06	Shell plc	Energy Minerals	positive	1	macro
+2026-05-06	Snap	Consumer Services	neutral	0	earnings
