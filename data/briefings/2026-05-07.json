@@ -1,0 +1,209 @@
+{
+  "date": "2026-05-07",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "2fbfc251-eaea-4872-8901-6018815599e6",
+      "label": "AI Demand and Chip Earnings",
+      "spike_ratio": 3.219,
+      "article_count": 47,
+      "sentiment_score": 0.3126646403242147,
+      "rag_answer": "AI demand is driving significant growth in the chip sector, with companies like Nvidia and AMD experiencing strong earnings due to the booming need for AI infrastructure. This surge in demand has led to shortages of critical components, impacting both consumer electronics and the broader tech supply chain. Analysts are closely monitoring the situation, as the rapid expansion in AI capabilities raises questions about the sustainability of this growth and potential market bubbles. Overall, the AI boom is reshaping the semiconductor landscape, with both opportunities and challenges for companies involved in chip manufacturing.",
+      "rag_sources": [
+        {
+          "title": "These funds protect against market drops. Demand is booming",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/these-funds-protect-against-market-drops-demand-is-booming.html",
+          "snippet": "2026-02-11: These funds protect against market drops. Demand is booming: Buffer ETFs could see assets quadruple over a five-year period, according to Cerulli Associates. What to know before investing.",
+          "guid": "108264590"
+        },
+        {
+          "title": "Micron stops selling memory to consumers as demand spikes from AI chips",
+          "date": "2025-12-03",
+          "link": "https://www.cnbc.com/2025/12/03/micron-stops-selling-memory-to-consumers-demand-spikes-from-ai-chips.html",
+          "snippet": "2025-12-03: Micron stops selling memory to consumers as demand spikes from AI chips: Demand driven by the AI infrastructure boom is creating shortages for certain products like memory.",
+          "guid": "108236104"
+        },
+        {
+          "title": "Chip stocks including Nvidia are holding up despite market volatility, according to the charts",
+          "date": "2026-03-10",
+          "link": "https://www.cnbc.com/2026/03/10/chip-stocks-including-nvidia-are-holding-up-despite-market-volatility-according-to-the-charts.html",
+          "snippet": "2026-03-10: Chip stocks including Nvidia are holding up despite market volatility, according to the charts: Todd Gordon takes a look at the technicals in Nvidia and other chipmakers.",
+          "guid": "108276190"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "improving",
+          "trend_delta": 0.25,
+          "mean_sentiment_score": -0.375,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "6efff227-9da9-439e-88e0-c0d9ba2624c3",
+      "label": "Middle East conflict impact on markets",
+      "spike_ratio": 2.105,
+      "article_count": 32,
+      "sentiment_score": 0.2545014880952381,
+      "rag_answer": "The ongoing conflict in the Middle East, particularly involving Iran, has led to significant volatility in global markets. Asia-Pacific and European stocks have experienced sharp declines as investors react to escalating tensions and rising oil prices, with fears of prolonged disruptions to trade and economic stability. Despite some temporary recoveries, such as a brief rise in European markets, the overall sentiment remains fragile, with many investors bracing for further turmoil. Additionally, sectors like luxury goods and remittances to countries like India are facing increased pressure due to the conflict's economic fallout.",
+      "rag_sources": [
+        {
+          "title": "Asia markets tumble as Middle East conflict spiral with no sign of abating",
+          "date": "2026-03-23",
+          "link": "https://www.cnbc.com/2026/03/23/asia-markets-us-iran-threats-strait-of-hormuz-oil-nikkei-kospi-hsi-hang-seng.html",
+          "snippet": "2026-03-23: Asia markets tumble as Middle East conflict spiral with no sign of abating: Asia-Pacific markets tumbled Monday as investors weighed escalating tensions in the Middle East after the U.S. a",
+          "guid": "108281292"
+        },
+        {
+          "title": "Luxury stocks slump as Middle East conflict risks one of the sector\u2019s 'few bright spots\u2019",
+          "date": "2026-03-03",
+          "link": "https://www.cnbc.com/2026/03/03/luxury-stocks-iran-strikes-lvmh-kering-gucci-richemont.html",
+          "snippet": "2026-03-03: Luxury stocks slump as Middle East conflict risks one of the sector\u2019s 'few bright spots\u2019: The Middle East has been one of the few bright spots in a sector that is struggling to get sales b",
+          "guid": "108272638"
+        },
+        {
+          "title": "The Strait of Hormuz crisis explained: What it means for global shipping",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/strait-of-hormuz-crisis-us-iran-israel-war-shipping-trade-oil.html",
+          "snippet": "2026-03-02: The Strait of Hormuz crisis explained: What it means for global shipping: The Middle East conflict has stoked fears of prolonged disruption to global trade via key maritime corridors.",
+          "guid": "108271796"
+        },
+        {
+          "title": "Why India looks especially vulnerable as conflict rages in Middle East",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/india-impact-iran-middle-east-conflict-oil-prices-airlines.html",
+          "snippet": "2026-03-02: Why India looks especially vulnerable as conflict rages in Middle East: As conflict in the Middle East causes surging oil prices and disrupts the aviation sector, India is coming under pre",
+          "guid": "108271742"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "d5a83771-8025-4a89-b9fc-bec0cb6b38fe",
+      "label": "Trump White House ballroom controversy",
+      "spike_ratio": 1.105,
+      "article_count": 19,
+      "sentiment_score": 0.2411764705882352,
+      "rag_answer": "The Trump White House ballroom project has faced significant controversy and legal challenges, including lawsuits from preservation groups and a federal judge's ruling that halted construction pending congressional approval. Despite these obstacles, the project has garnered support from Congressional Republicans, who are proposing federal funding to advance it. The ballroom, which is intended to enhance security following a recent shooting at a press dinner, has been criticized as a \"vanity\" project by opponents. The ongoing legal and political battles surrounding the project could impact investor sentiment towards the companies involved in its financing, particularly those in the tech sector.",
+      "rag_sources": [
+        {
+          "title": "Trump presses his case for White House ballroom following press dinner shooting",
+          "date": "2026-04-26",
+          "link": "https://www.cnbc.com/2026/04/26/trump-presses-case-for-white-house-ballroom-following-shooting.html",
+          "snippet": "2026-04-26: Trump presses his case for White House ballroom following press dinner shooting: The President took to social media to reiterate his case that White House ballroom is a matter of national ",
+          "guid": "108297342"
+        },
+        {
+          "title": "Trump White House ballroom financed by Big Tech and these other corporate donors",
+          "date": "2025-10-23",
+          "link": "https://www.cnbc.com/2025/10/23/trump-white-house-east-wing-ballroom-donors-apple-amazon-meta-microsoft-google.html",
+          "snippet": "2025-10-23: Trump White House ballroom financed by Big Tech and these other corporate donors: Big Tech and other publicly traded companies are helping to finance the $300 million White House ballroom ",
+          "guid": "108216191"
+        },
+        {
+          "title": "Trump ballroom lawsuit plaintiff rejects DOJ demand to drop case after 'assassination attempt'",
+          "date": "2026-04-27",
+          "link": "https://www.cnbc.com/2026/04/27/trump-ballroom-whcd-doj-lawsuit.html",
+          "snippet": "2026-04-27: Trump ballroom lawsuit plaintiff rejects DOJ demand to drop case after 'assassination attempt': Trump and others say the proposed White House ballroom would be much more secure than the Wa",
+          "guid": "108297779"
+        },
+        {
+          "title": "White House East Wing demolition nearly complete to make room for Trump ballroom",
+          "date": "2025-10-23",
+          "link": "https://www.cnbc.com/2025/10/23/trump-white-house-east-wing-ballroom-demolish.html",
+          "snippet": "2025-10-23: White House East Wing demolition nearly complete to make room for Trump ballroom: Trump said Wednesday that the 90,000 square foot ballroom will cost $300 million, higher than the original",
+          "guid": "108216113"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "ae3986d5-920a-4e73-aa01-31ca8ae42b2a",
+      "label": "Trump's Iran Ultimatum and Markets",
+      "spike_ratio": 1.084,
+      "article_count": 18,
+      "sentiment_score": 0.201058201058201,
+      "rag_answer": "Trump's Iran ultimatum has significantly impacted global markets, with rising tensions causing volatility in oil prices and investor sentiment. As the deadline for a potential deal approaches, markets are reacting to Trump's threats against Iran, which have led to increased oil prices and a souring of investor confidence. Recent developments indicate a mix of hope and anxiety, as Trump has signaled both a potential off-ramp in negotiations and a willingness to escalate military actions if a deal is not reached. Overall, investors are closely monitoring the situation, preparing for either a resolution or further conflict, which could have profound implications for oil supply and market stability.",
+      "rag_sources": [
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        },
+        {
+          "title": "Goldman's David Solomon surprised by \u2018benign\u2019 market reaction to Iran war ",
+          "date": "2026-03-04",
+          "link": "https://www.cnbc.com/2026/03/04/goldman-david-solomon-iran-war-market-reaction-stocks.html",
+          "snippet": "2026-03-04: Goldman's David Solomon surprised by \u2018benign\u2019 market reaction to Iran war: \\I think it's going to take a couple of weeks for markets to really digest the implications of what's happened,\\\"",
+          "guid": "108273273"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "6a43b8f6-fc2e-4b72-b84f-0ba3a01d1d1b",
+      "label": "Elon Musk's Legal and Business Challenges",
+      "spike_ratio": 1.071,
+      "article_count": 15,
+      "sentiment_score": 0.158015873015873,
+      "rag_answer": "Elon Musk is currently facing multiple legal challenges, including a lawsuit from the NAACP over air pollution from his xAI data center in Memphis and a series of lawsuits related to the Grok chatbot, which has generated explicit content, leading to scrutiny and bans in several countries. Additionally, Musk is embroiled in a legal battle with OpenAI, claiming they breached their nonprofit promise, while also dealing with an SEC lawsuit regarding his Twitter stake disclosure. These legal issues could impact Musk's business ventures, particularly as they coincide with significant financial stakes, such as his $56 billion pay package from Tesla and the potential merger with SpaceX, which is expected to go public at a high valuation. Overall, these developments create uncertainty around Musk's business operations and could influence investor confidence in his companies.",
+      "rag_sources": [
+        {
+          "title": "Elon Musk's X faces probes in Europe, India, Malaysia after Grok generated explicit images of women and children",
+          "date": "2026-01-06",
+          "link": "https://www.cnbc.com/2026/01/05/india-eu-investigate-musks-x-after-grok-created-deepfake-child-porn.html",
+          "snippet": "2026-01-06: Elon Musk's X faces probes in Europe, India, Malaysia after Grok generated explicit images of women and children: Regulators in Europe, India and Malaysia are scrutinizing X after exploita",
+          "guid": "108247527"
+        },
+        {
+          "title": "Malaysia and Indonesia block Elon Musk's Grok due to nonconsensual sexual content",
+          "date": "2026-01-12",
+          "link": "https://www.cnbc.com/2026/01/12/malaysia-indonesia-block-elon-musks-grok-obscene-non-consensual-content.html",
+          "snippet": "2026-01-12: Malaysia and Indonesia block Elon Musk's Grok due to nonconsensual sexual content: Malaysia and Indonesia blocked access to Elon Musk's AI chatbot Grok over the weekend due to concerns tha",
+          "guid": "108250945"
+        },
+        {
+          "title": "NAACP sues Elon Musk's xAI over Memphis data center air pollution",
+          "date": "2026-04-14",
+          "link": "https://www.cnbc.com/2026/04/14/elon-musk-xai-memphis-data-centers.html",
+          "snippet": "2026-04-14: NAACP sues Elon Musk's xAI over Memphis data center air pollution: Elon Musk, who is the world's richest person, has been counting on the greater Memphis area to serve as the backbone for ",
+          "guid": "108291346"
+        },
+        {
+          "title": "Amex Business Platinum vs Chase Sapphire Reserve for Business: Which premium business card is the best fit?",
+          "date": "2025-09-20",
+          "link": "https://www.cnbc.com/select/amex-business-platinum-vs-chase-sapphire-reserve-business/",
+          "snippet": "2025-09-20: Amex Business Platinum vs Chase Sapphire Reserve for Business: Which premium business card is the best fit?: The Chase Sapphire Reserve for Business and Amex Business Platinum are both pre",
+          "guid": "108186078"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}
