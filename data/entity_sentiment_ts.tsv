@@ -1,24 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-02-05	Alphabet	Electronic Technology	neutral	0	earnings
-2026-02-05	Amazon	Electronic Technology	neutral	0	earnings
-2026-02-05	Bitcoin	Energy Minerals	negative	-1	macro
-2026-02-05	Broadcom	Electronic Technology	neutral	0	earnings
-2026-02-05	Dow	Finance	negative	-1	markets
-2026-02-05	Estée Lauder	Consumer Non-Durables	negative	-1	earnings
-2026-02-05	Fed	Finance	neutral	0	regulation
-2026-02-05	Google	Electronic Technology	neutral	0	earnings
-2026-02-05	Hims & Hers	Consumer Non-Durables	negative	-1	earnings
-2026-02-05	Meta	Electronic Technology	neutral	0	earnings
-2026-02-05	Nasdaq	Finance	negative	-1	markets
-2026-02-05	Peloton	Consumer Durables	negative	-1	earnings
-2026-02-05	Qualcomm	Electronic Technology	neutral	0	earnings
-2026-02-05	S&P 500	Finance	negative	-1	markets
-2026-02-05	Shell	Energy Minerals	negative	-1	earnings
-2026-02-05	Trump	Communications	neutral	0	regulation
-2026-02-05	UAE	Communications	neutral	0	regulation
-2026-02-05	Wall Street	Finance	negative	-1	markets
-2026-02-05	Warsh	Finance	neutral	0	regulation
-2026-02-05	Wegovy	Consumer Non-Durables	negative	-1	earnings
 2026-02-06	Alphabet	Electronic Technology	negative	-1	markets
 2026-02-06	Amazon	Electronic Technology	positive	1	earnings
 2026-02-06	Amazon	Electronic Technology	negative	-1	markets
@@ -1068,3 +1048,12 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-05-06	Nvidia	Electronic Technology	positive	1	products
 2026-05-06	Shell plc	Energy Minerals	positive	1	macro
 2026-05-06	Snap	Consumer Services	neutral	0	earnings
+2026-05-07	Iran war	Energy Minerals	positive	1	markets
+2026-05-07	Iren	Electronic Technology	positive	1	markets
+2026-05-07	McDonald's	Consumer Non-Durables	neutral	0	markets
+2026-05-07	Morgan Stanley	Finance	positive	1	markets
+2026-05-07	Peloton	Consumer Durables	positive	1	markets
+2026-05-07	Propy	Process Industries	neutral	0	products
+2026-05-07	Shake Shack	Consumer Non-Durables	negative	-1	markets
+2026-05-07	Shell	Energy Minerals	positive	1	markets
+2026-05-07	U.S. labor market	Finance	neutral	0	macro

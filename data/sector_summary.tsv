@@ -1739,3 +1739,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-05-06	Energy Minerals	Shell plc	positive	macro	ok
 2026-05-06	Transportation	Lufthansa	negative	macro	ok
 2026-05-06	Consumer Durables	Lucid Group	neutral	products	ok
+2026-05-07	Finance	U.S. labor market	neutral	macro	ok
+2026-05-07	Energy Minerals	Shell|Iran war	positive	markets	ok
+2026-05-07	Finance	Morgan Stanley	positive	markets	ok
+2026-05-07	Electronic Technology	Iren	positive	markets	ok
+2026-05-07	Consumer Non-Durables	McDonald's	neutral	markets	ok
+2026-05-07	Consumer Non-Durables	Shake Shack	negative	markets	ok
+2026-05-07	Consumer Durables	Peloton	positive	markets	ok
+2026-05-07	Process Industries	Propy	neutral	products	ok
