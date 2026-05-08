@@ -1,0 +1,233 @@
+{
+  "date": "2026-05-08",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "13899326-df13-4536-b05e-25c1e06eba1d",
+      "label": "Strait of Hormuz Shipping Tensions",
+      "spike_ratio": 1.69,
+      "article_count": 48,
+      "sentiment_score": 0.264657738095238,
+      "rag_answer": "The Strait of Hormuz has been facing significant shipping tensions due to a blockade, primarily affecting global energy markets, especially in Asia. As of early May 2026, the strait remains largely closed, with tanker traffic down by 90% compared to pre-conflict levels, leading to a severe oil supply shortage and fears of a global recession. Despite Iran's declaration that the strait is open, the U.S. blockade continues, creating uncertainty in the markets. The ongoing conflict and disruptions have caused oil prices to fluctuate dramatically, with analysts warning of critical inventory shortages if the situation persists.",
+      "rag_sources": [
+        {
+          "title": " The Strait of Hormuz is facing a blockade. These countries will be most impacted",
+          "date": "2026-03-04",
+          "link": "https://www.cnbc.com/2026/03/03/strait-of-hormuz-closure-which-countries-will-be-hit-the-most.html",
+          "snippet": "2026-03-04: The Strait of Hormuz is facing a blockade. These countries will be most impacted: A closure of the Strait of Hormuz would send shock waves through global energy markets, but the pain would",
+          "guid": "108272470"
+        },
+        {
+          "title": "Trump says U.S. will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure",
+          "date": "2026-05-04",
+          "link": "https://www.cnbc.com/2026/05/03/trump-iran-strait-of-hormuz-trapped-ships.html",
+          "snippet": "2026-05-04: Trump says U.S. will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure: Vessels have been largely unable to pass through the Strait of Hormuz for months, disrupting key supp",
+          "guid": "108301292"
+        },
+        {
+          "title": "European markets close lower as U.S. blockade of Strait of Hormuz begins",
+          "date": "2026-04-13",
+          "link": "https://www.cnbc.com/2026/04/13/european-markets-stoxx-600-ftse-dax-iran-latest-hungary-election.html",
+          "snippet": "2026-04-13: European markets close lower as U.S. blockade of Strait of Hormuz begins: European stocks started the new trading week on a somber note as global traders assess developments in the Middle ",
+          "guid": "108290252"
+        },
+        {
+          "title": "Global recession is inevitable if Strait of Hormuz stays shut, says Citadel's Ken Griffin",
+          "date": "2026-04-14",
+          "link": "https://www.cnbc.com/2026/04/14/citadels-ken-griffin-global-recession-inevitable-if-strait-of-hormuz-stays-shut.html",
+          "snippet": "2026-04-14: Global recession is inevitable if Strait of Hormuz stays shut, says Citadel's Ken Griffin: A prolonged blockage of the Strait of Hormuz for the next six to 12 months will mean an unavoidab",
+          "guid": "108291080"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "stable",
+          "trend_delta": 0.167,
+          "mean_sentiment_score": -0.571,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "c1f9bd50-0200-484e-b794-0b6c8de57c9e",
+      "label": "IRS Tax Refund Updates",
+      "spike_ratio": 1.667,
+      "article_count": 18,
+      "sentiment_score": 0.1868386243386243,
+      "rag_answer": "The average IRS tax refund for the 2026 tax season has shown a consistent increase, with reports indicating it is up by 10.2% to 11.2% compared to the previous year. As of early April, the average refund is approximately $350 higher than last year, reflecting positive trends for taxpayers. However, some filers are experiencing delays due to the IRS's transition away from paper checks, affecting over 1.4 million individuals. These developments suggest a mixed outlook for taxpayers, with higher refunds potentially boosting consumer spending, while delays may create frustration and uncertainty for those awaiting their returns.",
+      "rag_sources": [
+        {
+          "title": "Average tax refund is 11% higher, latest IRS filing data shows",
+          "date": "2026-04-10",
+          "link": "https://www.cnbc.com/2026/04/10/average-tax-refund.html",
+          "snippet": "2026-04-10: Average tax refund is 11% higher, latest IRS filing data shows: The average tax refund is about 11% higher so far this season, compared with about the same period in 2025, according to IRS",
+          "guid": "108289824"
+        },
+        {
+          "title": "Average IRS tax refund is up 10.9%, latest filing data shows",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/average-irs-tax-refund.html",
+          "snippet": "2026-03-27: Average IRS tax refund is up 10.9%, latest filing data shows: The average IRS tax refund is up 10.9%, based on new filing data. Here's what you can expect.",
+          "guid": "108284156"
+        },
+        {
+          "title": "Average IRS tax refund is up 10.9% so far this season, early filing data shows",
+          "date": "2026-02-14",
+          "link": "https://www.cnbc.com/2026/02/13/average-tax-refund-early-irs-data.html",
+          "snippet": "2026-02-14: Average IRS tax refund is up 10.9% so far this season, early filing data shows: The average IRS tax refund is up 10.9% so far this season, according to early filing data. Here's what taxpa",
+          "guid": "108265899"
+        },
+        {
+          "title": "Average IRS tax refund is up 10.2%, based on early filing data",
+          "date": "2026-02-27",
+          "link": "https://www.cnbc.com/2026/02/27/average-irs-tax-refund.html",
+          "snippet": "2026-02-27: Average IRS tax refund is up 10.2%, based on early filing data: The average IRS tax refund is up 10.2%, based on early filing data. Here's what filers need to know.",
+          "guid": "108271102"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "d872c7c8-3d06-4af7-ae3b-919f00442bfb",
+      "label": "Software Stocks and AI Trends",
+      "spike_ratio": 1.312,
+      "article_count": 21,
+      "sentiment_score": 0.2380952380952381,
+      "rag_answer": "Software stocks are currently facing significant pressure due to fears of disruption from artificial intelligence (AI), leading to a notable sell-off in the sector. Concerns have been exacerbated by the introduction of new AI tools, particularly from companies like Anthropic, which investors believe could challenge established software services. Despite this turmoil, some analysts see potential buying opportunities in software stocks with strong earnings momentum. Overall, the market is experiencing a volatile environment as the implications of AI advancements continue to unfold, raising questions about the future viability of traditional software business models.",
+      "rag_sources": [
+        {
+          "title": "Software stocks are selling off, but this big name may be worth another look, charts show",
+          "date": "2026-02-04",
+          "link": "https://www.cnbc.com/2026/02/04/software-stocks-are-selling-off-but-this-big-name-may-be-worth-another-look-charts-show.html",
+          "snippet": "2026-02-04: Software stocks are selling off, but this big name may be worth another look, charts show: Software stocks have been suffering as fears of disruption from artificial intelligence rattle th",
+          "guid": "108261430"
+        },
+        {
+          "title": "Software stocks rebound as Anthropic announces new partnerships",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/software-stocks-anthropic-ai.html",
+          "snippet": "2026-02-24: Software stocks rebound as Anthropic announces new partnerships: Cybersecurity and software names have sold off heavily in recent weeks as investors fretted about potential disruption from",
+          "guid": "108269165"
+        },
+        {
+          "title": "AI fears are hitting software stocks the hardest. Citi sees a buying opportunity in many names",
+          "date": "2026-02-16",
+          "link": "https://www.cnbc.com/2026/02/16/ai-fears-hitting-software-stocks-citi-sees-opportunity-in-many-names.html",
+          "snippet": "2026-02-16: AI fears are hitting software stocks the hardest. Citi sees a buying opportunity in many names: Citi chose software stocks with earnings momentum and declines of more than 10% in the last ",
+          "guid": "108265587"
+        },
+        {
+          "title": "The stocks set to win as AI spend continues to soar: Analysts",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/the-stocks-set-to-win-from-soaring-ai-spend-according-to-analysts.html",
+          "snippet": "2025-11-07: The stocks set to win as AI spend continues to soar: Analysts: While Big Tech deals draw eyeballs, opportunities lie in those flying under the radar but supporting the AI supply chain.",
+          "guid": "108222221"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "stable",
+          "trend_delta": 0.167,
+          "mean_sentiment_score": -0.571,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "2fbfc251-eaea-4872-8901-6018815599e6",
+      "label": "AI Demand and Chip Earnings",
+      "spike_ratio": 1.212,
+      "article_count": 24,
+      "sentiment_score": 0.3626488095238095,
+      "rag_answer": "AI demand is driving significant growth in the chip sector, with companies like Nvidia and AMD experiencing strong earnings due to the booming need for AI infrastructure. This surge in demand has led to shortages of critical components, impacting consumer electronics and raising concerns about pricing. Analysts are closely monitoring the situation, as the rapid expansion of AI capabilities could lead to a \"shock to the system\" in credit markets, while also raising questions about the sustainability of this growth and potential market bubbles. Overall, the AI boom is reshaping the semiconductor landscape, with both opportunities and challenges for investors.",
+      "rag_sources": [
+        {
+          "title": "These funds protect against market drops. Demand is booming",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/these-funds-protect-against-market-drops-demand-is-booming.html",
+          "snippet": "2026-02-11: These funds protect against market drops. Demand is booming: Buffer ETFs could see assets quadruple over a five-year period, according to Cerulli Associates. What to know before investing.",
+          "guid": "108264590"
+        },
+        {
+          "title": "Micron stops selling memory to consumers as demand spikes from AI chips",
+          "date": "2025-12-03",
+          "link": "https://www.cnbc.com/2025/12/03/micron-stops-selling-memory-to-consumers-demand-spikes-from-ai-chips.html",
+          "snippet": "2025-12-03: Micron stops selling memory to consumers as demand spikes from AI chips: Demand driven by the AI infrastructure boom is creating shortages for certain products like memory.",
+          "guid": "108236104"
+        },
+        {
+          "title": "Chip stocks including Nvidia are holding up despite market volatility, according to the charts",
+          "date": "2026-03-10",
+          "link": "https://www.cnbc.com/2026/03/10/chip-stocks-including-nvidia-are-holding-up-despite-market-volatility-according-to-the-charts.html",
+          "snippet": "2026-03-10: Chip stocks including Nvidia are holding up despite market volatility, according to the charts: Todd Gordon takes a look at the technicals in Nvidia and other chipmakers.",
+          "guid": "108276190"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "stable",
+          "trend_delta": 0.167,
+          "mean_sentiment_score": -0.571,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "6e5c8e83-af63-49c2-a8d2-61d97a66e25d",
+      "label": "Strait of Hormuz Oil Tensions",
+      "spike_ratio": 1.127,
+      "article_count": 16,
+      "sentiment_score": 0.2414434523809523,
+      "rag_answer": "The Strait of Hormuz has been a focal point of escalating tensions due to the ongoing conflict involving Iran, the U.S., and Israel, leading to significant disruptions in oil shipping. Recent reports indicate that oil prices have fluctuated dramatically, with prices spiking above $103 amid fears of a blockade and then plunging after Iran agreed to a ceasefire and safe passage for vessels. Despite these developments, the oil market remains tight, with global inventories expected to hit their lowest levels in eight years, raising concerns about supply shortages. The situation continues to evolve, with ongoing negotiations and military threats impacting market stability and trader sentiment.",
+      "rag_sources": [
+        {
+          "title": "The Strait of Hormuz crisis explained: What it means for global shipping",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/strait-of-hormuz-crisis-us-iran-israel-war-shipping-trade-oil.html",
+          "snippet": "2026-03-02: The Strait of Hormuz crisis explained: What it means for global shipping: The Middle East conflict has stoked fears of prolonged disruption to global trade via key maritime corridors.",
+          "guid": "108271796"
+        },
+        {
+          "title": "Citi spells out 3 scenarios for the Strait of Hormuz \u2014 and where oil prices would go in each",
+          "date": "2026-04-21",
+          "link": "https://www.cnbc.com/2026/04/21/citi-oil-prices-stocks-strait-hormuz-supply-shock.html",
+          "snippet": "2026-04-21: Citi spells out 3 scenarios for the Strait of Hormuz \u2014 and where oil prices would go in each: Citi wrote that global crude inventories are set to reach their lowest levels in eight years b",
+          "guid": "108294449"
+        },
+        {
+          "title": "CNBC Daily Open: Ship struck and Strait shut",
+          "date": "2026-04-20",
+          "link": "https://www.cnbc.com/2026/04/20/cnbc-daily-open-ship-struck-and-strait-shut.html",
+          "snippet": "2026-04-20: CNBC Daily Open: Ship struck and Strait shut: A dramatic escalation in tension over the Strait of Hormuz drives oil prices and risk assets higher in early trade.",
+          "guid": "108293737"
+        },
+        {
+          "title": "Oil prices plunge after Iran agrees to safe passage through Strait of Hormuz during ceasefire ",
+          "date": "2026-04-08",
+          "link": "https://www.cnbc.com/2026/04/07/oil-prices-iran-war-trump-deadline-strait-hormuz.html",
+          "snippet": "2026-04-08: Oil prices plunge after Iran agrees to safe passage through Strait of Hormuz during ceasefire: President Donald Trump agreed to the ceasefire with Iran after discussions with Pakistan Prim",
+          "guid": "108288266"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "stable",
+          "trend_delta": 0.167,
+          "mean_sentiment_score": -0.571,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}
