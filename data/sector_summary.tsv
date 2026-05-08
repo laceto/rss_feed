@@ -1747,3 +1747,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-05-07	Consumer Non-Durables	Shake Shack	negative	markets	ok
 2026-05-07	Consumer Durables	Peloton	positive	markets	ok
 2026-05-07	Process Industries	Propy	neutral	products	ok
+2026-05-08	Electronic Technology	Intel|AMD|Micron	positive	markets	ok
+2026-05-08	Consumer Non-Durables	Inspire Brands|Dunkin'|Arby's|Buffalo Wild Wings|Baskin Robbins|Sonic Drive-In|Jimmy John's	neutral	products	ok
+2026-05-08	Transportation	Rocket Lab|SpaceX	positive	markets	ok
+2026-05-08	Technology Services	Anthropic|cybersecurity	negative	regulation	ok
+2026-05-08	Non-Energy Minerals	Micron	positive	markets	ok
+2026-05-08	Electronic Technology	Akamai	positive	earnings	ok
+2026-05-08	Electronic Technology	Nvidia	positive	products	ok
+2026-05-08	Energy Minerals	Oil	positive	macro	ok

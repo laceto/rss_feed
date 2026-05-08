@@ -1,0 +1,88 @@
+{
+  "date": "2026-05-08",
+  "batch_id": "batch_69fe4217b1488190848fe4a9311bc9c4",
+  "sectors": [
+    {
+      "entities": [
+        "Intel",
+        "AMD",
+        "Micron"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Inspire Brands",
+        "Dunkin'",
+        "Arby's",
+        "Buffalo Wild Wings",
+        "Baskin Robbins",
+        "Sonic Drive-In",
+        "Jimmy John's"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Rocket Lab",
+        "SpaceX"
+      ],
+      "sector": "Transportation",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Anthropic",
+        "cybersecurity"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "negative",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Micron"
+      ],
+      "sector": "Non-Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Akamai"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Nvidia"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Oil"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    }
+  ]
+}
