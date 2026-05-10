@@ -1,5 +1,14 @@
 # Coding Rules
 
+## Root-Only Rule
+
+Root (`/`) holds only config + package files. Do NOT add new `.py` scripts here.
+- **Config**: `pyproject.toml`, `CLAUDE.md`, `*.md` rule files, `.env`
+- **Package**: `pipeline/` (shared library), `scraper/` (R), backward-compat shims (`hybrid_rag.py`, `cluster_topics.py`)
+- **New CLI scripts** → pick the right stage dir: `batch/`, `results/`, `ingest/`, `enrich/`, or `output/`
+- **New shared modules** (imported by multiple scripts) → `pipeline/`; use relative imports inside (`from .constants import X`)
+- Run scripts via `just <task>` or `PYTHONPATH=. python <stage>/script.py` — never bare `python script.py` from root
+
 ## Single Source of Truth
 
 - All paths, taxonomy values, and tunable constants live in `constants.py`. Never hardcode them.

@@ -26,6 +26,23 @@ Hybrid R + Python financial news analysis pipeline. This file routes you to the 
 → READ: `docs/api-reference.md`
 → READ: `docs/scripts-reference.md` for CLI commands
 
+## Repo Layout
+
+```
+pipeline/     shared library (constants, cluster_topics, hybrid_rag, query_sector, query_entity)
+scraper/      R scraper (download.R, DESCRIPTION)
+batch/        OpenAI Batch API scripts (submit + retrieve)
+results/      flatten + export (read_sector_results, export_time_series, build_sector_db)
+ingest/       HuggingFace push scripts
+enrich/       embed, cluster, label, briefing, backfill
+output/       visualizations, chatbot, hybrid_rag CLI
+tests/        pytest suite
+docs/         reference documentation
+Justfile      stable named tasks — use `just <task>` instead of bare python paths
+```
+
+Root holds only: `pyproject.toml`, `CLAUDE.md`, `*.md` rule files, backward-compat shims (`hybrid_rag.py`, `cluster_topics.py`).
+
 ## Reference Docs (load only what your task requires)
 
 | File | Contents |
