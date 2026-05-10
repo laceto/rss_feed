@@ -62,7 +62,7 @@ jobs:
           for i in $(seq 1 $MAX_ATTEMPTS); do
             echo "=== Attempt $i / $MAX_ATTEMPTS ==="
             rc=0
-            python retrieve_batch_file_results.py || rc=$?
+            python batch/retrieve_batch_file_results.py || rc=$?
 
             if [ $rc -eq 0 ]; then
               echo "Collection succeeded on attempt $i."
@@ -84,19 +84,19 @@ jobs:
 
       - name: Build sector summary
         if: steps.check.outputs.pending == 'true'
-        run: python read_sector_results.py
+        run: python results/read_sector_results.py
 
       - name: Generate sentiment charts
         if: steps.check.outputs.pending == 'true'
-        run: python visualize_sentiment.py
+        run: python output/visualize_sentiment.py
 
       - name: Export sentiment time series
         if: steps.check.outputs.pending == 'true'
-        run: python export_time_series.py
+        run: python results/export_time_series.py
 
       - name: Build sector SQLite database
         if: steps.check.outputs.pending == 'true'
-        run: python build_sector_db.py
+        run: python results/build_sector_db.py
 
       - name: Cluster topics
         if: steps.check.outputs.pending == 'true'
@@ -105,7 +105,7 @@ jobs:
         # Exit code 2 = ClusteringAborted (degenerate run) — treated as warning,
         # not a pipeline failure. The commit step will simply have no new topic files.
         run: |
-          rc=0; python cluster_topics.py || rc=$?
+          rc=0; python enrich/cluster_topics.py || rc=$?
           if [ $rc -eq 2 ]; then
             echo "Clustering aborted (degenerate run — skipping topic output)"
           elif [ $rc -ne 0 ]; then
@@ -114,14 +114,14 @@ jobs:
 
       - name: Generate topic charts
         if: steps.check.outputs.pending == 'true'
-        run: python visualize_topics.py
+        run: python output/visualize_topics.py
 
       - name: Push analysis datasets to Hugging Face
         if: steps.check.outputs.pending == 'true'
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           HUGGINGFACE_REPO: ${{ secrets.HUGGINGFACE_REPO }}
-        run: python push_new_analysis_to_hf.py
+        run: python ingest/push_new_analysis_to_hf.py
 
       - name: Commit sector results
         if: steps.check.outputs.pending == 'true'

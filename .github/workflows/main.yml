@@ -35,7 +35,7 @@ jobs:
       env:
         HF_TOKEN: ${{ secrets.HF_TOKEN }}
         HUGGINGFACE_REPO: ${{ secrets.HUGGINGFACE_REPO }}
-      run: python push_new_feeds_to_hf.py
+      run: python ingest/push_new_feeds_to_hf.py
 
     - name: Verify HF dataset updated
       env:
@@ -56,7 +56,7 @@ jobs:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         HF_TOKEN: ${{ secrets.HF_TOKEN }}
         HUGGINGFACE_REPO: ${{ secrets.HUGGINGFACE_REPO }}
-      run: python create_batch_files_v2.py
+      run: python batch/create_batch_files_v2.py
 
     # - name: Run Script delete
     #  run: Rscript script_del.R
