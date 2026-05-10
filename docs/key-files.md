@@ -27,7 +27,9 @@
 | `push_new_feeds_to_hf.py` | Daily incremental: append today's new articles; dedup on guid |
 | `push_analysis_to_hf.py` | Cold-start: create 3 HF repos + push all analysis data |
 | `push_new_analysis_to_hf.py` | Daily incremental: append new rows to 3 HF datasets; composite-key dedup |
-| `download.R` | RSS scraper, called by GitHub Actions |
+| `scraper/download.R` | RSS scraper, called by GitHub Actions |
+| `scraper/DESCRIPTION` | R package deps (`rvest`, `xml2`, `XML`, `dplyr`, `purrr`) |
+| `scraper/README.md` | Interface contract: writes `output/feeds{date}.txt` → HF |
 | `tests/test_cluster_topics.py` | 50 unit tests for all cluster_topics.py public functions |
 | `pyproject.toml` | Makes the project pip-installable (`pip install -e .`) |
 | `old/` | Archived/experimental versions — NOT used in production |

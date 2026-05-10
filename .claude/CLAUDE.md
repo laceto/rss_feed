@@ -4,9 +4,13 @@ Hybrid R + Python financial news analysis pipeline. This file routes you to the 
 
 ## Identify Your Task
 
-**CODING** — Adding a new script, extending the pipeline, fixing a bug in source code
+**CODING (Python)** — Adding a new script, extending the analysis pipeline, fixing a Python bug
 → READ: `coding-rules.md`
 → ALSO READ: `docs/architecture.md` for data flow context
+
+**CODING (R / scraper)** — Modifying `scraper/download.R` or the feed ingestion logic
+→ READ: `scraper/README.md` for the interface contract
+→ READ: `coding-rules.md` scraper section
 
 **TESTING** — Writing new tests or expanding test coverage
 → READ: `testing-rules.md`

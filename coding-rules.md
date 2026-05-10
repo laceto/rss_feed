@@ -34,6 +34,14 @@ Never merge submit + retrieve into one script. CI re-runs the retrieve script un
 - The `pipeline/` package uses explicit parameters — no module-level resource loading.
 - `cluster_topics` is NOT in the `pipeline/` package; import it from the top-level module.
 
+## R Scraper (`scraper/`)
+
+- R files live in `scraper/`: `download.R` and `DESCRIPTION`
+- Run from repo root: `Rscript scraper/download.R` — CWD-relative paths in the script (`output/`) resolve correctly
+- R package deps are declared in `scraper/DESCRIPTION`; CI installs them with `working-directory: scraper`
+- The handoff to Python is via `lacetohf/feeds` (HuggingFace Dataset) — `push_new_feeds_to_hf.py` at repo root handles the push
+- Do not add Python imports to R scripts; do not add R calls to Python scripts
+
 ## TDD Requirement
 
 Write the failing test first. Do not write implementation code without a failing test that demands it.
