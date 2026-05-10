@@ -16,6 +16,7 @@ jobs:
     if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+      PYTHONPATH: "."
 
     steps:
       - uses: actions/checkout@v4
@@ -38,7 +39,7 @@ jobs:
         # embed_feeds.py exits 0 with a log message when there is nothing new.
         # poll_until_complete inside the script blocks synchronously — typical
         # feed volumes (50-200 articles/day) complete in 1-5 minutes.
-        run: python embed_feeds.py
+        run: python enrich/embed_feeds.py
 
       - name: Commit vectorstore and registry
         run: |

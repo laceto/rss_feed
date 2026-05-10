@@ -1,6 +1,6 @@
 # Topic Clustering
 
-`cluster_topics.py` — unsupervised narrative discovery layered on top of the FAISS vectorstore. Runs daily after `build_sector_db.py` in CI. Does NOT re-embed — all vectors come from the existing store.
+`pipeline/cluster_topics.py` — unsupervised narrative discovery layered on top of the FAISS vectorstore. Invoked via `enrich/cluster_topics.py` in CI (after `results/build_sector_db.py`). Does NOT re-embed — all vectors come from the existing store.
 
 ## How It Works
 
@@ -32,7 +32,7 @@
 | `CLUSTER_MIN_CLUSTERS` | 3 | abort on truly degenerate runs only |
 | `CLUSTER_SELECTION_METHOD` | `"leaf"` | `"eom"` over-merges to ~3 clusters on this corpus |
 
-All of these live in `constants.py` — never hardcode.
+All of these live in `pipeline/constants.py` — never hardcode.
 
 ## Public API
 

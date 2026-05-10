@@ -1,9 +1,9 @@
 import rich
-from query_entity import (
+from pipeline.query_entity import (
     get_entity_snapshot, get_entity_time_series, list_entities,
     get_all_entities_ts, export_entity_ts,
 )
-from query_sector import (
+from pipeline.query_sector import (
     get_snapshot, get_time_series, list_sectors,
     get_all_sectors_pivot, export_sector_pivot,
 )

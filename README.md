@@ -6,7 +6,7 @@ A hybrid R + Python pipeline that scrapes CNBC RSS feeds daily, extracts sector-
 
 | Step | Tool | Output |
 |---|---|---|
-| Scrape feeds | R (`download.R`) | `output/feeds{date}.txt` |
+| Scrape feeds | R (`scraper/download.R`) | `output/feeds{date}.txt` |
 | Push to Hugging Face | Python | `lacetohf/feeds` (public dataset) |
 | Sector sentiment extraction | OpenAI Batch API | `data/sector_results/{date}.json` |
 | Embed articles | OpenAI + FAISS | `data/vectorstore/feeds/` |
@@ -26,7 +26,6 @@ A hybrid R + Python pipeline that scrapes CNBC RSS feeds daily, extracts sector-
 ## Quick Start
 
 ```bash
-# Clone and set up Python environment
 git clone https://github.com/laceto/rss_feed
 cd rss_feed
 python -m venv venv
@@ -36,6 +35,7 @@ pip install openai pydantic python-dotenv pandas matplotlib seaborn \
             streamlit langchain langchain-community langchain-openai \
             rank-bm25 hdbscan scikit-learn datasets huggingface_hub
 pip install git+https://github.com/laceto/kitai.git
+pip install -e .   # installs pipeline/ package so imports resolve
 ```
 
 Create `.env`:
@@ -45,27 +45,58 @@ HF_TOKEN=hf_...
 HUGGINGFACE_REPO=lacetohf/feeds
 ```
 
+## Repo Layout
+
+```
+pipeline/     shared library (constants, cluster_topics, hybrid_rag, query_sector, query_entity)
+scraper/      R scraper (download.R, DESCRIPTION)
+batch/        OpenAI Batch API scripts (submit + retrieve)
+results/      flatten + export (read_sector_results, export_time_series, build_sector_db)
+ingest/       HuggingFace push scripts
+enrich/       embed, cluster, label, briefing, backfill
+output/       visualizations, chatbot, hybrid_rag CLI
+tests/        pytest suite
+Justfile      named tasks — use `just <task>` instead of raw python paths
+```
+
 ## Key Scripts
 
-### Daily pipeline (automated by CI)
+### Daily pipeline (automated by CI, or run with `just`)
+
 ```bash
-Rscript download.R                     # scrape feeds
-python push_new_feeds_to_hf.py         # push to HF
-python create_batch_files_v2.py        # submit sector batch
-python retrieve_batch_file_results.py  # collect results
-python read_sector_results.py          # flatten → sector_summary.tsv
-python export_time_series.py           # export TSVs
-python build_sector_db.py              # build SQLite db
-python cluster_topics.py               # cluster today's topics
-python push_new_analysis_to_hf.py      # push analysis to HF
-python embed_feeds.py                  # embed new articles
-python daily_briefing.py --save        # generate briefing
+just scrape                            # Rscript scraper/download.R
+just push-feeds                        # push to HF
+just batch-submit                      # submit sector batch
+just batch-collect                     # collect results
+just flatten && just export-ts         # sector_summary.tsv + TSV exports
+just build-db                          # build SQLite db
+just cluster                           # cluster today's topics
+just push-analysis                     # push analysis to HF
+just embed                             # embed new articles
+just briefing --save                   # generate briefing
+```
+
+Or run directly (set `PYTHONPATH=.` first):
+
+```bash
+Rscript scraper/download.R
+python ingest/push_new_feeds_to_hf.py
+python batch/create_batch_files_v2.py
+python batch/retrieve_batch_file_results.py
+python results/read_sector_results.py
+python results/export_time_series.py
+python results/build_sector_db.py
+python enrich/cluster_topics.py
+python ingest/push_new_analysis_to_hf.py
+python enrich/embed_feeds.py
+python enrich/daily_briefing.py --save
 ```
 
 ### Querying data
+
 ```python
-from query_sector import get_snapshot, get_time_series
-from query_entity import get_entity_snapshot, get_entity_time_series
+from pipeline.query_sector import get_snapshot, get_time_series
+from pipeline.query_entity import get_entity_snapshot, get_entity_time_series
 
 # Sector snapshot
 snap = get_snapshot("Technology Services")
@@ -75,21 +106,24 @@ ts = get_entity_time_series("Nvidia", lookback_days=60)
 ```
 
 ### RAG chatbot
+
 ```bash
-streamlit run chatbot_rag.py
+streamlit run output/chatbot_rag.py
 ```
 
 ### Morning briefing
+
 ```bash
-python daily_briefing.py                    # today
-python daily_briefing.py --date 2026-03-25  # specific date
+python enrich/daily_briefing.py                    # today
+python enrich/daily_briefing.py --date 2026-03-25  # specific date
 ```
 
 ### Visualizations
+
 ```bash
-python visualize_sentiment.py   # sector sentiment charts
-python visualize_topics.py              # six charts: spike heatmap, frequency, timeline, sentiment heatmap, momentum, signal scatter
-python visualize_topics.py --animate    # + animated GIF (topic_signal_scatter_animated.gif)
+python output/visualize_sentiment.py
+python output/visualize_topics.py              # six charts
+python output/visualize_topics.py --animate    # + animated GIF
 ```
 
 ## Data Files
@@ -106,13 +140,15 @@ python visualize_topics.py --animate    # + animated GIF (topic_signal_scatter_a
 
 ## Architecture
 
-See [`CLAUDE.md`](CLAUDE.md) for the full architecture, pipeline diagrams, and API reference.
-See [`docs/workflows.md`](docs/workflows.md) for the GitHub Actions CI/CD details.
+See [`docs/architecture.md`](docs/architecture.md) for pipeline diagrams and data flow.
+See [`docs/api-reference.md`](docs/api-reference.md) for the full Python API.
+See [`docs/workflows.md`](docs/workflows.md) for GitHub Actions CI/CD details.
 
-## R Dependencies
-Listed in `DESCRIPTION` (`rvest`, `xml2`, `XML`, `dplyr`, `purrr`).
+## Dependencies
 
-## Python Dependencies
+**R** — deps in `scraper/DESCRIPTION` (`rvest`, `xml2`, `XML`, `dplyr`, `purrr`).
+
+**Python**:
 ```
 openai pydantic python-dotenv pandas matplotlib seaborn streamlit
 langchain langchain-community langchain-openai rank-bm25

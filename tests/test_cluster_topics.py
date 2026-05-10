@@ -54,7 +54,7 @@ def _make_registry(n: int, reference_date: date | None = None) -> pd.DataFrame:
 class TestExtractWindowVectors:
     def test_returns_tuple_of_ndarray_and_dataframe(self, tmp_path, monkeypatch):
         """extract_window_vectors returns (np.ndarray, pd.DataFrame) for valid window."""
-        from cluster_topics import extract_window_vectors
+        from pipeline.cluster_topics import extract_window_vectors
 
         n = 100
         registry = _make_registry(n, reference_date=date(2026, 3, 1))
@@ -65,8 +65,8 @@ class TestExtractWindowVectors:
         mock_store.index.ntotal = n
         mock_store.index.reconstruct.side_effect = lambda i: vectors_all[i]
 
-        monkeypatch.setattr("cluster_topics._load_store", lambda: mock_store)
-        monkeypatch.setattr("cluster_topics._load_registry", lambda: registry)
+        monkeypatch.setattr("pipeline.cluster_topics._load_store", lambda: mock_store)
+        monkeypatch.setattr("pipeline.cluster_topics._load_registry", lambda: registry)
 
         vectors, meta = extract_window_vectors(date(2026, 3, 1), window_days=30)
 
@@ -77,7 +77,7 @@ class TestExtractWindowVectors:
 
     def test_filters_to_window(self, tmp_path, monkeypatch):
         """Only articles within window_days of target_date are returned."""
-        from cluster_topics import extract_window_vectors
+        from pipeline.cluster_topics import extract_window_vectors
 
         # 60 articles: 30 inside window, 30 outside
         ref = date(2026, 3, 1)
@@ -98,8 +98,8 @@ class TestExtractWindowVectors:
         mock_store.index.ntotal = 60
         mock_store.index.reconstruct.side_effect = lambda i: vectors_all[i]
 
-        monkeypatch.setattr("cluster_topics._load_store", lambda: mock_store)
-        monkeypatch.setattr("cluster_topics._load_registry", lambda: registry)
+        monkeypatch.setattr("pipeline.cluster_topics._load_store", lambda: mock_store)
+        monkeypatch.setattr("pipeline.cluster_topics._load_registry", lambda: registry)
 
         vectors, meta = extract_window_vectors(ref, window_days=30)
 
@@ -108,7 +108,7 @@ class TestExtractWindowVectors:
 
     def test_excludes_future_articles(self, monkeypatch):
         """Articles dated after target_date are excluded (back-fill correctness)."""
-        from cluster_topics import extract_window_vectors
+        from pipeline.cluster_topics import extract_window_vectors
 
         ref = date(2025, 10, 1)
         # 20 articles inside window, 20 articles in the future (after ref)
@@ -129,8 +129,8 @@ class TestExtractWindowVectors:
         mock_store.index.ntotal = 40
         mock_store.index.reconstruct.side_effect = lambda i: vectors_all[i]
 
-        monkeypatch.setattr("cluster_topics._load_store",    lambda: mock_store)
-        monkeypatch.setattr("cluster_topics._load_registry", lambda: registry)
+        monkeypatch.setattr("pipeline.cluster_topics._load_store",    lambda: mock_store)
+        monkeypatch.setattr("pipeline.cluster_topics._load_registry", lambda: registry)
 
         vectors, meta = extract_window_vectors(ref, window_days=45)
 
@@ -140,7 +140,7 @@ class TestExtractWindowVectors:
 
     def test_row_counts_match(self, monkeypatch):
         """vectors.shape[0] == len(meta) — always."""
-        from cluster_topics import extract_window_vectors
+        from pipeline.cluster_topics import extract_window_vectors
 
         n = 50
         registry = _make_registry(n, reference_date=date(2026, 3, 1))
@@ -150,8 +150,8 @@ class TestExtractWindowVectors:
         mock_store.index.ntotal = n
         mock_store.index.reconstruct.side_effect = lambda i: vectors_all[i]
 
-        monkeypatch.setattr("cluster_topics._load_store", lambda: mock_store)
-        monkeypatch.setattr("cluster_topics._load_registry", lambda: registry)
+        monkeypatch.setattr("pipeline.cluster_topics._load_store", lambda: mock_store)
+        monkeypatch.setattr("pipeline.cluster_topics._load_registry", lambda: registry)
 
         vectors, meta = extract_window_vectors(date(2026, 3, 1), window_days=45)
         assert vectors.shape[0] == len(meta)
@@ -164,7 +164,7 @@ class TestExtractWindowVectors:
 class TestReduceDimensions:
     def test_output_shape(self):
         """reduce_dimensions returns (n, n_components) array."""
-        from cluster_topics import reduce_dimensions
+        from pipeline.cluster_topics import reduce_dimensions
 
         X = _make_vectors(200, dim=1536)
         result = reduce_dimensions(X, n_components=50)
@@ -172,7 +172,7 @@ class TestReduceDimensions:
 
     def test_deterministic(self):
         """Same input → same output (fixed random_state)."""
-        from cluster_topics import reduce_dimensions
+        from pipeline.cluster_topics import reduce_dimensions
 
         X = _make_vectors(100, dim=1536)
         r1 = reduce_dimensions(X, n_components=50)
@@ -181,7 +181,7 @@ class TestReduceDimensions:
 
     def test_default_n_components(self):
         """Default n_components=50."""
-        from cluster_topics import reduce_dimensions
+        from pipeline.cluster_topics import reduce_dimensions
 
         X = _make_vectors(100, dim=1536)
         result = reduce_dimensions(X)
@@ -195,7 +195,7 @@ class TestReduceDimensions:
 class TestRunHdbscan:
     def test_returns_labels_correct_length(self):
         """run_hdbscan returns integer labels array of length n."""
-        from cluster_topics import run_hdbscan
+        from pipeline.cluster_topics import run_hdbscan
 
         # Build tight clusters so HDBSCAN finds something
         rng = np.random.default_rng(42)
@@ -211,7 +211,7 @@ class TestRunHdbscan:
 
     def test_noise_ratio_in_range(self):
         """noise_ratio is between 0.0 and 1.0 for clusterable data."""
-        from cluster_topics import run_hdbscan
+        from pipeline.cluster_topics import run_hdbscan
 
         # Build tight clusters — HDBSCAN should find them without aborting
         rng = np.random.default_rng(42)
@@ -226,7 +226,7 @@ class TestRunHdbscan:
 
     def test_raises_clustering_aborted_on_all_noise(self):
         """ClusteringAborted raised when noise_ratio > max_noise_ratio."""
-        from cluster_topics import run_hdbscan, ClusteringAborted
+        from pipeline.cluster_topics import run_hdbscan, ClusteringAborted
 
         # Uniform random data → HDBSCAN produces mostly noise
         rng = np.random.default_rng(99)
@@ -243,7 +243,7 @@ class TestRunHdbscan:
         the cluster check will fire. We test that ClusteringAborted is raised;
         the specific message is not asserted since ordering is an implementation detail.
         """
-        from cluster_topics import run_hdbscan, ClusteringAborted
+        from pipeline.cluster_topics import run_hdbscan, ClusteringAborted
 
         # 5 articles, min_cluster_size=100 → HDBSCAN labels all as noise
         rng = np.random.default_rng(7)
@@ -254,7 +254,7 @@ class TestRunHdbscan:
 
     def test_cluster_selection_method_leaf_accepted(self):
         """run_hdbscan accepts cluster_selection_method='leaf' and returns valid output."""
-        from cluster_topics import run_hdbscan
+        from pipeline.cluster_topics import run_hdbscan
 
         rng = np.random.default_rng(42)
         centers = rng.standard_normal((5, 50)).astype(np.float32) * 10
@@ -272,7 +272,7 @@ class TestRunHdbscan:
 
     def test_cluster_selection_method_default_is_leaf(self):
         """Default cluster_selection_method is 'leaf' (not HDBSCAN's 'eom' default)."""
-        from cluster_topics import run_hdbscan
+        from pipeline.cluster_topics import run_hdbscan
         import inspect
 
         sig = inspect.signature(run_hdbscan)
@@ -286,7 +286,7 @@ class TestRunHdbscan:
 class TestComputeCentroids:
     def test_returns_dict_of_arrays(self):
         """compute_centroids returns dict[int, np.ndarray]."""
-        from cluster_topics import compute_centroids
+        from pipeline.cluster_topics import compute_centroids
 
         vectors = _make_vectors(60, dim=50)
         labels = np.array([0] * 20 + [1] * 20 + [-1] * 20)
@@ -298,7 +298,7 @@ class TestComputeCentroids:
 
     def test_excludes_noise(self):
         """Noise label -1 is never a key in the result."""
-        from cluster_topics import compute_centroids
+        from pipeline.cluster_topics import compute_centroids
 
         vectors = _make_vectors(30, dim=50)
         labels = np.array([0] * 10 + [-1] * 20)
@@ -309,7 +309,7 @@ class TestComputeCentroids:
 
     def test_centroid_is_mean(self):
         """Centroid equals mean of member vectors."""
-        from cluster_topics import compute_centroids
+        from pipeline.cluster_topics import compute_centroids
 
         vectors = np.array([
             [1.0, 0.0],
@@ -324,7 +324,7 @@ class TestComputeCentroids:
 
     def test_empty_labels(self):
         """All-noise input returns empty dict."""
-        from cluster_topics import compute_centroids
+        from pipeline.cluster_topics import compute_centroids
 
         vectors = _make_vectors(10, dim=50)
         labels = np.full(10, -1)
@@ -349,7 +349,7 @@ class TestMatchTopics:
 
     def test_high_similarity_reuses_topic_id(self):
         """Near-identical centroids should be matched → same topic_id."""
-        from cluster_topics import match_topics
+        from pipeline.cluster_topics import match_topics
 
         vec = np.array([1.0, 0.0, 0.0], dtype=np.float32)
         prior = {"t001": self._make_centroid_entry(vec, "t001", first_seen="2026-01-01")}
@@ -364,7 +364,7 @@ class TestMatchTopics:
 
     def test_orthogonal_centroid_gets_new_topic_id(self):
         """Orthogonal centroid (similarity=0) must get a new UUID."""
-        from cluster_topics import match_topics
+        from pipeline.cluster_topics import match_topics
 
         vec_prior = np.array([1.0, 0.0, 0.0], dtype=np.float32)
         vec_new   = np.array([0.0, 1.0, 0.0], dtype=np.float32)
@@ -377,7 +377,7 @@ class TestMatchTopics:
 
     def test_no_double_assignment(self):
         """One prior topic cannot match two new clusters."""
-        from cluster_topics import match_topics
+        from pipeline.cluster_topics import match_topics
 
         vec = np.array([1.0, 0.0, 0.0], dtype=np.float32)
         prior = {"t001": self._make_centroid_entry(vec, "t001")}
@@ -393,7 +393,7 @@ class TestMatchTopics:
 
     def test_empty_prior_all_new(self):
         """With no prior topics, all new clusters get fresh UUIDs."""
-        from cluster_topics import match_topics
+        from pipeline.cluster_topics import match_topics
 
         new_centroids = {
             0: np.array([1.0, 0.0], dtype=np.float32),
@@ -413,14 +413,14 @@ class TestMatchTopics:
 class TestCentroidsIO:
     def test_load_returns_empty_dict_when_absent(self, tmp_path):
         """load_centroids() returns {} when file does not exist."""
-        from cluster_topics import load_centroids
+        from pipeline.cluster_topics import load_centroids
 
         result = load_centroids(tmp_path / "nonexistent.json")
         assert result == {}
 
     def test_roundtrip(self, tmp_path):
         """save_centroids + load_centroids preserves all fields."""
-        from cluster_topics import save_centroids, load_centroids
+        from pipeline.cluster_topics import save_centroids, load_centroids
 
         data = {
             "t001": {
@@ -445,7 +445,7 @@ class TestCentroidsIO:
 class TestGetLabel:
     def test_returns_cached_label_without_llm(self):
         """get_label returns cached value and does not call LLM."""
-        from cluster_topics import get_label
+        from pipeline.cluster_topics import get_label
 
         cache = {"t001": "Iran oil geopolitics"}
         mock_llm = MagicMock()
@@ -457,7 +457,7 @@ class TestGetLabel:
 
     def test_calls_llm_on_cache_miss_and_stores(self):
         """get_label calls llm_fn for unknown topic and stores result in cache."""
-        from cluster_topics import get_label
+        from pipeline.cluster_topics import get_label
 
         cache = {}
         mock_llm = MagicMock(return_value="Fed rate pause bets")
@@ -471,7 +471,7 @@ class TestGetLabel:
 
     def test_llm_receives_article_titles(self):
         """LLM function receives the article list."""
-        from cluster_topics import get_label
+        from pipeline.cluster_topics import get_label
 
         cache = {}
         received = []
@@ -492,13 +492,13 @@ class TestGetLabel:
 
 class TestLabelCacheIO:
     def test_load_returns_empty_dict_when_absent(self, tmp_path):
-        from cluster_topics import load_label_cache
+        from pipeline.cluster_topics import load_label_cache
 
         result = load_label_cache(tmp_path / "labels.json")
         assert result == {}
 
     def test_roundtrip(self, tmp_path):
-        from cluster_topics import save_label_cache, load_label_cache
+        from pipeline.cluster_topics import save_label_cache, load_label_cache
 
         data = {"t001": "Iran oil geopolitics", "t002": "Fed rate pause bets"}
         path = tmp_path / "labels.json"
@@ -519,7 +519,7 @@ class TestAppendTrends:
 
     def test_creates_file_with_header_if_absent(self, tmp_path):
         """append_trends creates TSV with header when file doesn't exist."""
-        from cluster_topics import append_trends
+        from pipeline.cluster_topics import append_trends
 
         path = tmp_path / "trends.tsv"
         append_trends(date(2026, 3, 1), self._make_rows(date(2026, 3, 1)), path)
@@ -530,7 +530,7 @@ class TestAppendTrends:
 
     def test_appends_without_duplicate_header(self, tmp_path):
         """Second call appends rows; no extra header row inserted."""
-        from cluster_topics import append_trends
+        from pipeline.cluster_topics import append_trends
 
         path = tmp_path / "trends.tsv"
         append_trends(date(2026, 3, 1), self._make_rows(date(2026, 3, 1)), path)
@@ -543,7 +543,7 @@ class TestAppendTrends:
 
     def test_raises_duplicate_date_error(self, tmp_path):
         """Calling append_trends twice with same date raises DuplicateDateError."""
-        from cluster_topics import append_trends, DuplicateDateError
+        from pipeline.cluster_topics import append_trends, DuplicateDateError
 
         path = tmp_path / "trends.tsv"
         append_trends(date(2026, 3, 1), self._make_rows(date(2026, 3, 1)), path)
@@ -553,7 +553,7 @@ class TestAppendTrends:
 
     def test_atomic_write(self, tmp_path):
         """Verify that the file is written atomically (no temp file left behind)."""
-        from cluster_topics import append_trends
+        from pipeline.cluster_topics import append_trends
 
         path = tmp_path / "trends.tsv"
         append_trends(date(2026, 3, 1), self._make_rows(date(2026, 3, 1)), path)
@@ -577,7 +577,7 @@ class TestComputeSpike:
 
     def test_correct_spike_ratio(self):
         """compute_spike returns today / mean(last 7 days excluding today)."""
-        from cluster_topics import compute_spike
+        from pipeline.cluster_topics import compute_spike
 
         ref = date(2026, 3, 10)
         counts = {ref - timedelta(days=i): 10 for i in range(1, 8)}  # avg=10
@@ -590,7 +590,7 @@ class TestComputeSpike:
 
     def test_returns_none_with_insufficient_history(self):
         """Returns None when fewer than 3 days of history exist."""
-        from cluster_topics import compute_spike
+        from pipeline.cluster_topics import compute_spike
 
         ref = date(2026, 3, 10)
         counts = {ref - timedelta(days=1): 5, ref: 20}  # only 1 prior day
@@ -600,14 +600,14 @@ class TestComputeSpike:
 
     def test_returns_none_for_unknown_topic(self):
         """Returns None for a topic_id not in trends."""
-        from cluster_topics import compute_spike
+        from pipeline.cluster_topics import compute_spike
 
         trends = pd.DataFrame(columns=["date", "topic_id", "topic_label", "article_count"])
         assert compute_spike("t_nonexistent", trends, date(2026, 3, 1)) is None
 
     def test_zero_average_returns_none(self):
         """Returns None when rolling average is 0 (avoids divide-by-zero)."""
-        from cluster_topics import compute_spike
+        from pipeline.cluster_topics import compute_spike
 
         ref = date(2026, 3, 10)
         counts = {ref - timedelta(days=i): 0 for i in range(1, 8)}
@@ -644,7 +644,7 @@ class TestGetEmergingTopics:
 
     def test_sorted_by_spike_ratio_descending(self):
         """Results sorted highest spike_ratio first."""
-        from cluster_topics import get_emerging_topics
+        from pipeline.cluster_topics import get_emerging_topics
 
         trends = self._make_trends_df()
         results = get_emerging_topics(date(2026, 3, 10), trends)
@@ -654,7 +654,7 @@ class TestGetEmergingTopics:
 
     def test_filters_tiny_clusters(self):
         """Topics with article_count < 5 on target date are excluded."""
-        from cluster_topics import get_emerging_topics
+        from pipeline.cluster_topics import get_emerging_topics
 
         trends = self._make_trends_df()
         results = get_emerging_topics(date(2026, 3, 10), trends)
@@ -664,7 +664,7 @@ class TestGetEmergingTopics:
 
     def test_result_keys(self):
         """Each result dict has required keys."""
-        from cluster_topics import get_emerging_topics
+        from pipeline.cluster_topics import get_emerging_topics
 
         trends = self._make_trends_df()
         results = get_emerging_topics(date(2026, 3, 10), trends)
@@ -676,7 +676,7 @@ class TestGetEmergingTopics:
 
     def test_result_includes_sentiment_score(self):
         """Each result dict includes sentiment_score (float or None)."""
-        from cluster_topics import get_emerging_topics
+        from pipeline.cluster_topics import get_emerging_topics
 
         trends = self._make_trends_df()
         # Add sentiment_score column (as would be present after the new pipeline)
@@ -688,7 +688,7 @@ class TestGetEmergingTopics:
 
     def test_result_sentiment_score_none_when_column_absent(self):
         """sentiment_score is None when column is missing (backward compat)."""
-        from cluster_topics import get_emerging_topics
+        from pipeline.cluster_topics import get_emerging_topics
 
         trends = self._make_trends_df()  # no sentiment_score column
         results = get_emerging_topics(date(2026, 3, 10), trends)
@@ -747,7 +747,7 @@ class TestComputeTopicSentiment:
 
     def test_returns_dict_keyed_by_topic_id(self, tmp_path):
         """compute_topic_sentiment returns {topic_id: float} for clustered topics."""
-        from cluster_topics import compute_topic_sentiment
+        from pipeline.cluster_topics import compute_topic_sentiment
 
         clusters_dir = self._make_cluster_file(tmp_path, "2026-01-15")
         sector_path  = self._make_sector_summary(tmp_path)
@@ -761,7 +761,7 @@ class TestComputeTopicSentiment:
 
     def test_scores_are_floats_in_range(self, tmp_path):
         """Each score is a float in [-1, +1]."""
-        from cluster_topics import compute_topic_sentiment
+        from pipeline.cluster_topics import compute_topic_sentiment
 
         clusters_dir = self._make_cluster_file(tmp_path, "2026-01-15")
         sector_path  = self._make_sector_summary(tmp_path)
@@ -774,7 +774,7 @@ class TestComputeTopicSentiment:
 
     def test_different_topics_get_different_scores(self, tmp_path):
         """Topics drawing from different date ranges get distinct scores."""
-        from cluster_topics import compute_topic_sentiment
+        from pipeline.cluster_topics import compute_topic_sentiment
 
         clusters_dir = self._make_cluster_file(tmp_path, "2026-01-15")
         sector_path  = self._make_sector_summary(tmp_path)
@@ -789,7 +789,7 @@ class TestComputeTopicSentiment:
     def test_topic_a_score_is_correct(self, tmp_path):
         """tid-A: 2 articles on 2026-01-05 (day_score=0.0) + 2 on 2026-01-06 (day_score=0.5)
            → mean = (0.0 + 0.0 + 0.5 + 0.5) / 4 = 0.25"""
-        from cluster_topics import compute_topic_sentiment
+        from pipeline.cluster_topics import compute_topic_sentiment
 
         clusters_dir = self._make_cluster_file(tmp_path, "2026-01-15")
         sector_path  = self._make_sector_summary(tmp_path)
@@ -800,7 +800,7 @@ class TestComputeTopicSentiment:
 
     def test_topic_b_score_is_correct(self, tmp_path):
         """tid-B: 2 articles on 2026-01-10 (day_score=1.0) → mean = 1.0"""
-        from cluster_topics import compute_topic_sentiment
+        from pipeline.cluster_topics import compute_topic_sentiment
 
         clusters_dir = self._make_cluster_file(tmp_path, "2026-01-15")
         sector_path  = self._make_sector_summary(tmp_path)
@@ -811,7 +811,7 @@ class TestComputeTopicSentiment:
 
     def test_returns_empty_when_cluster_file_absent(self, tmp_path):
         """Returns {} when the cluster JSON for the date does not exist."""
-        from cluster_topics import compute_topic_sentiment
+        from pipeline.cluster_topics import compute_topic_sentiment
 
         sector_path = self._make_sector_summary(tmp_path)
         result = compute_topic_sentiment("2099-01-01", sector_path, tmp_path)
@@ -820,7 +820,7 @@ class TestComputeTopicSentiment:
 
     def test_articles_with_no_sector_data_excluded_from_mean(self, tmp_path):
         """Articles on dates with no sector data do not contaminate the mean."""
-        from cluster_topics import compute_topic_sentiment
+        from pipeline.cluster_topics import compute_topic_sentiment
 
         # Add one article on a date with no sector data
         articles = [
@@ -854,7 +854,7 @@ class TestAppendTrendsSentiment:
 
     def test_sentiment_score_written_to_tsv(self, tmp_path):
         """sentiment_score column is present after append_trends."""
-        from cluster_topics import append_trends
+        from pipeline.cluster_topics import append_trends
 
         path = tmp_path / "trends.tsv"
         append_trends(date(2026, 3, 1), self._make_rows_with_sentiment(date(2026, 3, 1)), path)
@@ -865,7 +865,7 @@ class TestAppendTrendsSentiment:
 
     def test_backward_compat_old_rows_get_nan(self, tmp_path):
         """Existing rows without sentiment_score get NaN after concat with new rows."""
-        from cluster_topics import append_trends
+        from pipeline.cluster_topics import append_trends
         import numpy as np
 
         path = tmp_path / "trends.tsv"

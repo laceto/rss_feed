@@ -41,12 +41,12 @@ load_dotenv()
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
 
-PROJECT_ROOT = Path(__file__).parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
-from cluster_topics import get_emerging_topics
-from constants import TOPIC_TRENDS_FILE
-from query_sector import get_time_series, list_sectors
+from pipeline.cluster_topics import get_emerging_topics
+from pipeline.constants import TOPIC_TRENDS_FILE
+from pipeline.query_sector import get_time_series, list_sectors
 
 BRIEFINGS_DIR = PROJECT_ROOT / "data" / "briefings"
 

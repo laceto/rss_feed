@@ -86,7 +86,7 @@ from langchain_openai import ChatOpenAI
 from openai import OpenAI as _OpenAIClient
 
 # Re-use all business logic from hybrid_rag — single source of truth
-from hybrid_rag import (
+from pipeline.hybrid_rag import (
     CHAT_MODEL,
     EMBED_DIMENSIONS,
     EMBEDDING_MODEL,
@@ -106,7 +106,7 @@ from kitai.retriever import (
     create_retriever,
     reorder_docs,
 )
-from constants import VECTORSTORE_DIR
+from pipeline.constants import VECTORSTORE_DIR
 
 # ---------------------------------------------------------------------------
 # Logging

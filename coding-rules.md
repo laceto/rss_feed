@@ -1,5 +1,14 @@
 # Coding Rules
 
+## Root-Only Rule
+
+Root (`/`) holds only config + package files. Do NOT add new `.py` scripts here.
+- **Config**: `pyproject.toml`, `CLAUDE.md`, `*.md` rule files, `.env`
+- **Package**: `pipeline/` (shared library), `scraper/` (R), backward-compat shims (`hybrid_rag.py`, `cluster_topics.py`)
+- **New CLI scripts** → pick the right stage dir: `batch/`, `results/`, `ingest/`, `enrich/`, or `output/`
+- **New shared modules** (imported by multiple scripts) → `pipeline/`; use relative imports inside (`from .constants import X`)
+- Run scripts via `just <task>` or `PYTHONPATH=. python <stage>/script.py` — never bare `python script.py` from root
+
 ## Single Source of Truth
 
 - All paths, taxonomy values, and tunable constants live in `constants.py`. Never hardcode them.
@@ -33,6 +42,14 @@ Never merge submit + retrieve into one script. CI re-runs the retrieve script un
 - `query_sector.py` and `query_entity.py` are pure read-only modules; they must not write files.
 - The `pipeline/` package uses explicit parameters — no module-level resource loading.
 - `cluster_topics` is NOT in the `pipeline/` package; import it from the top-level module.
+
+## R Scraper (`scraper/`)
+
+- R files live in `scraper/`: `download.R` and `DESCRIPTION`
+- Run from repo root: `Rscript scraper/download.R` — CWD-relative paths in the script (`output/`) resolve correctly
+- R package deps are declared in `scraper/DESCRIPTION`; CI installs them with `working-directory: scraper`
+- The handoff to Python is via `lacetohf/feeds` (HuggingFace Dataset) — `push_new_feeds_to_hf.py` at repo root handles the push
+- Do not add Python imports to R scripts; do not add R calls to Python scripts
 
 ## TDD Requirement
 

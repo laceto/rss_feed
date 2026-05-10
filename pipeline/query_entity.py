@@ -82,7 +82,7 @@ import warnings
 
 import pandas as pd
 
-from constants import (
+from .constants import (
     SENTIMENT_SCORE, SECTOR_SUMMARY_FILE, RAW_FEED_DIR,
     EXPORT_LOOKBACK_DAYS, ENTITY_TS_FILE,
 )

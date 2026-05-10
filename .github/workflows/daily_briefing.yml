@@ -31,6 +31,7 @@ jobs:
       github.event.workflow_run.conclusion == 'success'
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+      PYTHONPATH: "."
 
     steps:
       - uses: actions/checkout@v4
@@ -72,7 +73,7 @@ jobs:
 
           TOP_ARG="--top ${{ github.event.inputs.top || '5' }}"
 
-          python daily_briefing.py $DATE_ARG $TOP_ARG --save
+          python enrich/daily_briefing.py $DATE_ARG $TOP_ARG --save
 
       - name: Commit briefing JSON
         if: steps.check.outputs.exists == 'true'

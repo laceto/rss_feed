@@ -28,7 +28,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-PROJECT_ROOT = Path(__file__).parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 TRENDS_FILE  = PROJECT_ROOT / "data" / "topic_trends.tsv"
 
 DEFAULT_START = date(2025, 9, 1)

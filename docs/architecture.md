@@ -4,7 +4,7 @@
 
 ```
 GitHub Actions — daily-pipeline (weekdays 19:00 UTC)
-  → download.R
+  → scraper/download.R
   → output/feeds{date}.txt
 
   → push_new_feeds_to_hf.py

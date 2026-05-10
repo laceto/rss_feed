@@ -29,7 +29,7 @@ import sqlite3
 import sys
 from pathlib import Path
 
-from constants import SECTOR_DB_FILE, SECTOR_RESULTS_DIR, SENTIMENT_SCORE
+from pipeline.constants import SECTOR_DB_FILE, SECTOR_RESULTS_DIR, SENTIMENT_SCORE
 
 # ── DDL ───────────────────────────────────────────────────────────────────────
 

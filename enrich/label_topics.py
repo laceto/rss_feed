@@ -46,12 +46,12 @@ from openai import OpenAI
 
 load_dotenv()
 
-PROJECT_ROOT = Path(__file__).parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
 from kitai.batch import submit_batch_job, poll_until_complete, download_batch_results
-from cluster_topics import load_label_cache, save_label_cache
-from constants import TOPIC_CLUSTERS_DIR, TOPIC_LABELS_FILE, TOPIC_TRENDS_FILE
+from pipeline.cluster_topics import load_label_cache, save_label_cache
+from pipeline.constants import TOPIC_CLUSTERS_DIR, TOPIC_LABELS_FILE, TOPIC_TRENDS_FILE
 
 _MODEL      = "gpt-4o-mini"
 _MAX_TOKENS = 20
