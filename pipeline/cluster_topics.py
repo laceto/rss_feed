@@ -39,7 +39,7 @@ import numpy as np
 import pandas as pd
 from sklearn.decomposition import PCA
 
-from constants import (
+from .constants import (
     CLUSTER_MAX_NOISE_RATIO,
     CLUSTER_MIN_CLUSTERS,
     CLUSTER_MIN_SAMPLES,

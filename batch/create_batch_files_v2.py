@@ -28,7 +28,7 @@ from pydantic.json_schema import model_json_schema
 from typing import Literal
 from openai import OpenAI
 
-from constants import (
+from pipeline.constants import (
     SectorName,
     SECTOR_RESULTS_DIR as RESULTS_DIR,
     BATCH_FILE,

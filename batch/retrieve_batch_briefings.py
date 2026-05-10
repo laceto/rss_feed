@@ -38,10 +38,10 @@ from openai import OpenAI
 
 load_dotenv()
 
-PROJECT_ROOT = Path(__file__).parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
-from constants import (
+from pipeline.constants import (
     BATCH_FILE_BRIEFINGS,
     BRIEFINGS_DIR,
     BRIEFINGS_BATCH_META_FILE,

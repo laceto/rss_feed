@@ -1,10 +1,10 @@
 # API Reference
 
-## query_sector.py
+## query_sector — `pipeline/query_sector.py`
 
 ```python
-from query_sector import get_snapshot, get_time_series, list_sectors
-from query_sector import get_all_sectors_pivot, export_sector_pivot
+from pipeline.query_sector import get_snapshot, get_time_series, list_sectors
+from pipeline.query_sector import get_all_sectors_pivot, export_sector_pivot
 
 snap = get_snapshot("Technology Services")
 # → {last_date, latest_sentiment, sentiment_score, entities, news_category, data_age_days}
@@ -25,11 +25,11 @@ path  = export_sector_pivot()                    # writes data/sector_sentiment_
 - Columns in pivot always alphabetically sorted (same order as `list_sectors()`)
 - Not a CLI script — import only
 
-## query_entity.py
+## query_entity — `pipeline/query_entity.py`
 
 ```python
-from query_entity import get_entity_snapshot, get_entity_time_series, list_entities
-from query_entity import get_all_entities_ts, export_entity_ts
+from pipeline.query_entity import get_entity_snapshot, get_entity_time_series, list_entities
+from pipeline.query_entity import get_all_entities_ts, export_entity_ts
 
 names = list_entities()         # sorted list; returns [] if TSV missing
 
@@ -52,22 +52,24 @@ path = export_entity_ts()   # writes data/entity_sentiment_ts.tsv
 - `sectors_seen` ranked by appearance frequency
 - `export_entity_ts` writes `date` as plain YYYY-MM-DD (R-friendly, no timezone)
 
-## hybrid_rag.py — ask()
+## hybrid_rag — `pipeline/hybrid_rag.py`
 
 ```python
-# Option A: editable install
-# pip install -e /path/to/rss_feed
-from hybrid_rag import ask
+# Preferred (editable install: pip install -e /path/to/rss_feed)
+from pipeline.hybrid_rag import ask
 
 result = ask("What happened to oil prices after Maduro left?")
 # result = {"answer": str, "sources": list[dict], "queries": list[str]}
 # sources keys: title, date, link, snippet, guid
 # queries[0] is always the original unmodified query
 
-# Option B: sys.path
+# Backward-compat shim at repo root still works:
+from hybrid_rag import ask  # re-exports from pipeline.hybrid_rag
+
+# sys.path option:
 import sys
 sys.path.insert(0, r"C:\Users\l_ace\Desktop\projects\rss_feed")
-from hybrid_rag import ask
+from pipeline.hybrid_rag import ask
 result = ask("Fed rate decision", strategy="decompose", k_semantic=8)
 ```
 
@@ -75,10 +77,10 @@ Parameters: `query`, `strategy` ("expand"/"decompose"/"step_back"/"none"), `k_se
 
 Resources (FAISS, BM25 corpus) are loaded once on first call and cached for the process lifetime.
 
-## cluster_topics.py — Public API
+## cluster_topics — `pipeline/cluster_topics.py`
 
 ```python
-from cluster_topics import (
+from pipeline.cluster_topics import (
     extract_window_vectors,    # (date, window_days) -> (np.ndarray, pd.DataFrame)
     reduce_dimensions,         # (vectors, n_components=50) -> np.ndarray
     run_hdbscan,               # (X) -> (labels, noise_ratio) | raises ClusteringAborted
@@ -96,7 +98,7 @@ from cluster_topics import (
 )
 
 # Full pipeline for one day:
-from cluster_topics import run
+from pipeline.cluster_topics import run
 from datetime import date
 summary = run(target_date=date(2026, 3, 13), skip_labeling=False)
 # summary keys: date, window_articles, n_clusters, noise_ratio,
@@ -104,7 +106,7 @@ summary = run(target_date=date(2026, 3, 13), skip_labeling=False)
 
 # Spike signal:
 import pandas as pd
-from cluster_topics import get_emerging_topics
+from pipeline.cluster_topics import get_emerging_topics
 trends = pd.read_csv("data/topic_trends.tsv", sep="\t")
 signals = get_emerging_topics(date.today(), trends)
 # signals: list of {topic_id, label, spike_ratio, article_count, sentiment_score}

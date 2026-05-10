@@ -74,7 +74,7 @@ from langchain_core.embeddings import Embeddings
 from langchain_openai import ChatOpenAI
 from openai import OpenAI as _OpenAIClient
 
-from constants import VECTORSTORE_DIR
+from .constants import VECTORSTORE_DIR
 from kitai.query_translation import decompose_query, expand_query, step_back_query
 from kitai.retriever import (
     create_BM25retriever_from_docs,

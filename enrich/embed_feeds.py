@@ -45,7 +45,7 @@ from langchain_core.documents import Document
 from langchain_openai import OpenAIEmbeddings
 from openai import OpenAI
 
-from constants import FEEDS_REGISTRY_FILE, RAW_FEED_DIR, VECTORSTORE_DIR
+from pipeline.constants import FEEDS_REGISTRY_FILE, RAW_FEED_DIR, VECTORSTORE_DIR
 from kitai.batch import (
     build_embedding_tasks,
     download_batch_results,

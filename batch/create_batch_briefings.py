@@ -52,18 +52,18 @@ from openai import OpenAI
 
 load_dotenv()
 
-PROJECT_ROOT = Path(__file__).parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
-from cluster_topics import get_emerging_topics
-from constants import (
+from pipeline.cluster_topics import get_emerging_topics
+from pipeline.constants import (
     BATCH_FILE_BRIEFINGS,
     BRIEFINGS_DIR,
     BRIEFINGS_BATCH_META_FILE,
     PENDING_BRIEFINGS_BATCH_FILE,
     TOPIC_TRENDS_FILE,
 )
-from hybrid_rag import (
+from pipeline.hybrid_rag import (
     K_BM25,
     K_SEMANTIC,
     WEIGHTS_SPARSE,
