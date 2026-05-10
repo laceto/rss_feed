@@ -12,7 +12,13 @@
       "Bash(gh workflow:*)",
       "Bash(venv/Scripts/pip install:*)",
       "Bash(venv/Scripts/python:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"fix\\(embed\\): fix two more kitai API mismatches:*)",
+      "Bash(git push:*)",
+      "Bash(git commit:*)",
+      "Bash(git pull:*)",
+      "Bash(git stash:*)",
+      "Bash(python -c ' *)"
     ]
   },
   "outputStyle": "Cognitive Debt–Aware Engineering"
