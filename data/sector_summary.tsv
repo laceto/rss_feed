@@ -1755,3 +1755,12 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-05-08	Electronic Technology	Akamai	positive	earnings	ok
 2026-05-08	Electronic Technology	Nvidia	positive	products	ok
 2026-05-08	Energy Minerals	Oil	positive	macro	ok
+2026-05-09	Consumer Non-Durables	Capital One	positive	markets	ok
+2026-05-09	Electronic Technology	Nvidia	positive	products	ok
+2026-05-09	Finance	Bank of America|Apple	positive	earnings	ok
+2026-05-09	Consumer Non-Durables	MV Hondius	neutral	other	ok
+2026-05-09	Energy Minerals	Iran	negative	macro	ok
+2026-05-09	Electronic Technology	Micron|Qualcomm	neutral	markets	ok
+2026-05-09	Finance	Berkshire Hathaway	neutral	appointments	ok
+2026-05-09	Consumer Durables	Blackberry	positive	products	ok
+2026-05-10	Energy Minerals	Saudi Aramco	positive	earnings	ok

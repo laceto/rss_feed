@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-10",
+  "batch_id": "batch_6a00565c0c7c8190a987e378790812c9",
+  "sectors": [
+    {
+      "entities": [
+        "Saudi Aramco"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    }
+  ]
+}

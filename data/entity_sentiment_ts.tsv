@@ -1,10 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-02-07	accounting software	Technology Services	neutral	0	products
-2026-02-08	Keir Starmer	Finance	negative	-1	regulation
-2026-02-08	Luckin Coffee	Consumer Non-Durables	positive	1	products
-2026-02-08	McSweeney	Finance	negative	-1	regulation
-2026-02-08	Peter Mandelson	Finance	negative	-1	regulation
-2026-02-08	Starbucks	Consumer Non-Durables	positive	1	products
 2026-02-09	American Airlines	Transportation	neutral	0	markets
 2026-02-09	Databricks	Technology Services	positive	1	markets
 2026-02-09	Delta Air Lines	Transportation	neutral	0	markets
@@ -1053,3 +1047,14 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-05-08	Sonic Drive-In	Consumer Non-Durables	neutral	0	products
 2026-05-08	SpaceX	Transportation	positive	1	markets
 2026-05-08	cybersecurity	Technology Services	negative	-1	regulation
+2026-05-09	Apple	Finance	positive	1	earnings
+2026-05-09	Bank of America	Finance	positive	1	earnings
+2026-05-09	Berkshire Hathaway	Finance	neutral	0	appointments
+2026-05-09	Blackberry	Consumer Durables	positive	1	products
+2026-05-09	Capital One	Consumer Non-Durables	positive	1	markets
+2026-05-09	Iran	Energy Minerals	negative	-1	macro
+2026-05-09	MV Hondius	Consumer Non-Durables	neutral	0	other
+2026-05-09	Micron	Electronic Technology	neutral	0	markets
+2026-05-09	Nvidia	Electronic Technology	positive	1	products
+2026-05-09	Qualcomm	Electronic Technology	neutral	0	markets
+2026-05-10	Saudi Aramco	Energy Minerals	positive	1	earnings
