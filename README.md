@@ -55,6 +55,7 @@ results/      flatten + export (read_sector_results, export_time_series, build_s
 ingest/       HuggingFace push scripts
 enrich/       embed, cluster, label, briefing, backfill
 output/       visualizations, chatbot, hybrid_rag CLI
+notebooks/    user guide notebooks — start with START_HERE.ipynb
 tests/        pytest suite
 Justfile      named tasks — use `just <task>` instead of raw python paths
 ```
@@ -104,6 +105,22 @@ snap = get_snapshot("Technology Services")
 # Entity trend
 ts = get_entity_time_series("Nvidia", lookback_days=60)
 ```
+
+### Notebooks
+
+Open `notebooks/START_HERE.ipynb` to confirm data availability and navigate to
+the right notebook. See [`notebooks/README.md`](notebooks/README.md) for the
+full reference table.
+
+| Notebook | Use case | API key? |
+|---|---|---|
+| `morning_briefing_guide.ipynb` | Read today's market briefing | no |
+| `emerging_topics_guide.ipynb` | Topics suddenly spiking | no |
+| `query_sector_guide.ipynb` | Sector sentiment + trend | no |
+| `query_entity_guide.ipynb` | Company / person sentiment | no |
+| `signal_export_guide.ipynb` | Backtest-ready signal TSV | no |
+| `semantic_search_guide.ipynb` | Plain-English news search | yes |
+| `sector_db_guide.ipynb` | Raw SQLite queries | no |
 
 ### RAG chatbot
 

@@ -75,6 +75,23 @@ Root shims (`hybrid_rag.py`, `cluster_topics.py`) re-export from `pipeline/` for
 | `hybrid_rag.py` | Backward-compat shim: `from hybrid_rag import ask` still works |
 | `cluster_topics.py` | Backward-compat shim: `from cluster_topics import run` still works |
 
+## notebooks/ — User Guide Notebooks
+
+All notebooks run with no API key unless noted. Constants are always in a top-level config cell.
+
+| Notebook | Purpose | API key? | Config vars |
+|---|---|---|---|
+| `notebooks/START_HERE.ipynb` | Data availability check + routing table | no | — |
+| `notebooks/morning_briefing_guide.ipynb` | Read a pre-computed daily briefing | no | `DATE`, `TOP_N` |
+| `notebooks/emerging_topics_guide.ipynb` | Topics spiking above baseline | no | `DATE`, `TOP_N`, `LOOKBACK` |
+| `notebooks/query_sector_guide.ipynb` | Sector snapshot + time series + pivot | no | `SECTOR`, `LOOKBACK`, `FREQ` |
+| `notebooks/query_entity_guide.ipynb` | Entity sentiment snapshot + trend | no | `ENTITY`, `LOOKBACK`, `TOP_N` |
+| `notebooks/signal_export_guide.ipynb` | Assemble backtest-ready signal TSV | no | `LOOKBACK`, `TOP_ENTITIES`, `OUTPUT_TSV` |
+| `notebooks/semantic_search_guide.ipynb` | Hybrid RAG search over news corpus | **yes** | `QUERY`, `STRATEGY`, `K_SEMANTIC`, `K_BM25` |
+| `notebooks/sector_db_guide.ipynb` | Raw SQLite ad-hoc queries | no | `SECTOR`, `ENTITY`, `LOOKBACK_DAYS` |
+
+See `notebooks/README.md` for data-source table and daily workflow guide.
+
 ## Tests
 
 | File | Purpose |

@@ -36,6 +36,7 @@ results/      flatten + export (read_sector_results, export_time_series, build_s
 ingest/       HuggingFace push scripts
 enrich/       embed, cluster, label, briefing, backfill
 output/       visualizations, chatbot, hybrid_rag CLI
+notebooks/    user guide notebooks — start with START_HERE.ipynb
 tests/        pytest suite
 docs/         reference documentation
 Justfile      stable named tasks — use `just <task>` instead of bare python paths
