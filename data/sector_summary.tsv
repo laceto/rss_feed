@@ -1764,3 +1764,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-05-09	Finance	Berkshire Hathaway	neutral	appointments	ok
 2026-05-09	Consumer Durables	Blackberry	positive	products	ok
 2026-05-10	Energy Minerals	Saudi Aramco	positive	earnings	ok
+2026-05-11	Consumer Non-Durables	Tesla|Elon Musk	neutral	products	ok
+2026-05-11	Consumer Non-Durables	Apple|Tim Cook	neutral	products	ok
+2026-05-11	Finance	Blackrock|Larry Fink	neutral	markets	ok
+2026-05-11	Electronic Technology	Google	positive	products	ok
+2026-05-11	Electronic Technology	Microsoft	neutral	markets	ok
+2026-05-11	Finance	JPMorgan Chase|KKR	neutral	markets	ok
+2026-05-11	Energy Minerals	Saudi Aramco	negative	macro	ok
+2026-05-11	Electronic Technology	Nvidia	positive	markets	partial

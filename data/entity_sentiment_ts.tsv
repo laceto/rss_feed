@@ -1,16 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-02-09	American Airlines	Transportation	neutral	0	markets
-2026-02-09	Databricks	Technology Services	positive	1	markets
-2026-02-09	Delta Air Lines	Transportation	neutral	0	markets
-2026-02-09	Hims & Hers	Health Services	positive	1	regulation
-2026-02-09	Hong Kong media baron Jimmy Lai	Communications	negative	-1	regulation
-2026-02-09	Kroger	Retail Trade	positive	1	markets
-2026-02-09	Meta	Communications	negative	-1	regulation
-2026-02-09	Novo Nordisk	Health Services	positive	1	regulation
-2026-02-09	Oracle	Electronic Technology	positive	1	markets
-2026-02-09	S&P 500	Electronic Technology	positive	1	markets
-2026-02-09	United Airlines	Transportation	neutral	0	markets
-2026-02-09	tech	Electronic Technology	positive	1	markets
 2026-02-10	Alphabet	Electronic Technology	positive	1	markets
 2026-02-10	BP	Energy Minerals	negative	-1	markets
 2026-02-10	Coca-Cola	Consumer Non-Durables	negative	-1	markets
@@ -1058,3 +1046,15 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-05-09	Nvidia	Electronic Technology	positive	1	products
 2026-05-09	Qualcomm	Electronic Technology	neutral	0	markets
 2026-05-10	Saudi Aramco	Energy Minerals	positive	1	earnings
+2026-05-11	Apple	Consumer Non-Durables	neutral	0	products
+2026-05-11	Blackrock	Finance	neutral	0	markets
+2026-05-11	Elon Musk	Consumer Non-Durables	neutral	0	products
+2026-05-11	Google	Electronic Technology	positive	1	products
+2026-05-11	JPMorgan Chase	Finance	neutral	0	markets
+2026-05-11	KKR	Finance	neutral	0	markets
+2026-05-11	Larry Fink	Finance	neutral	0	markets
+2026-05-11	Microsoft	Electronic Technology	neutral	0	markets
+2026-05-11	Nvidia	Electronic Technology	positive	1	markets
+2026-05-11	Saudi Aramco	Energy Minerals	negative	-1	macro
+2026-05-11	Tesla	Consumer Non-Durables	neutral	0	products
+2026-05-11	Tim Cook	Consumer Non-Durables	neutral	0	products
