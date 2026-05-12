@@ -1772,3 +1772,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-05-11	Finance	JPMorgan Chase|KKR	neutral	markets	ok
 2026-05-11	Energy Minerals	Saudi Aramco	negative	macro	ok
 2026-05-11	Electronic Technology	Nvidia	positive	markets	partial
+2026-05-12	Energy Minerals	Iran|U.S.-Iran conflict	negative	macro	ok
+2026-05-12	Non-Energy Minerals	copper|Citigroup	positive	products	ok
+2026-05-12	Electronic Technology	Google|Android|Gemini	positive	products	ok
+2026-05-12	Electronic Technology	chip prices|GPU rental rates	positive	markets	ok
+2026-05-12	Transportation	Waymo|robotaxis	negative	products	ok
+2026-05-12	Consumer Non-Durables	Gold coins|investment	positive	products	ok
+2026-05-12	Producer Manufacturing	Boeing|aircraft	positive	products	ok
+2026-05-12	Electronic Technology	AI|semiconductor	positive	products	ok

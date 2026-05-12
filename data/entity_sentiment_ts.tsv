@@ -1,13 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-02-10	Alphabet	Electronic Technology	positive	1	markets
-2026-02-10	BP	Energy Minerals	negative	-1	markets
-2026-02-10	Coca-Cola	Consumer Non-Durables	negative	-1	markets
-2026-02-10	Estee Lauder	Consumer Non-Durables	negative	-1	regulation
-2026-02-10	Ford	Producer Manufacturing	neutral	0	earnings
-2026-02-10	LPL	Finance	negative	-1	markets
-2026-02-10	Rockwell Automation	Industrial Services	positive	1	earnings
-2026-02-10	Spotify	Consumer Services	positive	1	earnings
-2026-02-10	Walmart	Consumer Non-Durables	negative	-1	regulation
 2026-02-11	Bill Ackman	Communications	positive	1	markets
 2026-02-11	Cloudflare	Technology Services	positive	1	products
 2026-02-11	David Einhorn	Finance	positive	1	macro
@@ -1058,3 +1049,20 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-05-11	Saudi Aramco	Energy Minerals	negative	-1	macro
 2026-05-11	Tesla	Consumer Non-Durables	neutral	0	products
 2026-05-11	Tim Cook	Consumer Non-Durables	neutral	0	products
+2026-05-12	AI	Electronic Technology	positive	1	products
+2026-05-12	Android	Electronic Technology	positive	1	products
+2026-05-12	Boeing	Producer Manufacturing	positive	1	products
+2026-05-12	Citigroup	Non-Energy Minerals	positive	1	products
+2026-05-12	GPU rental rates	Electronic Technology	positive	1	markets
+2026-05-12	Gemini	Electronic Technology	positive	1	products
+2026-05-12	Gold coins	Consumer Non-Durables	positive	1	products
+2026-05-12	Google	Electronic Technology	positive	1	products
+2026-05-12	Iran	Energy Minerals	negative	-1	macro
+2026-05-12	U.S.-Iran conflict	Energy Minerals	negative	-1	macro
+2026-05-12	Waymo	Transportation	negative	-1	products
+2026-05-12	aircraft	Producer Manufacturing	positive	1	products
+2026-05-12	chip prices	Electronic Technology	positive	1	markets
+2026-05-12	copper	Non-Energy Minerals	positive	1	products
+2026-05-12	investment	Consumer Non-Durables	positive	1	products
+2026-05-12	robotaxis	Transportation	negative	-1	products
+2026-05-12	semiconductor	Electronic Technology	positive	1	products
