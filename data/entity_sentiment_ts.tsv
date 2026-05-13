@@ -1,18 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-02-11	Bill Ackman	Communications	positive	1	markets
-2026-02-11	Cloudflare	Technology Services	positive	1	products
-2026-02-11	David Einhorn	Finance	positive	1	macro
-2026-02-11	Federal Reserve	Finance	positive	1	macro
-2026-02-11	Goldman	Non-Energy Minerals	positive	1	products
-2026-02-11	Heineken	Consumer Non-Durables	negative	-1	products
-2026-02-11	McDonald's	Consumer Non-Durables	positive	1	earnings
-2026-02-11	Meta	Communications	positive	1	markets
-2026-02-11	Orlando Bravo	Electronic Technology	negative	-1	markets
-2026-02-11	Supreme Court	Finance	positive	1	macro
-2026-02-11	U.S. government	Finance	positive	1	macro
-2026-02-11	rare earths	Non-Energy Minerals	positive	1	products
-2026-02-11	software companies	Electronic Technology	negative	-1	markets
-2026-02-11	uranium	Non-Energy Minerals	positive	1	products
 2026-02-12	AI startups	Electronic Technology	positive	1	markets
 2026-02-12	Anthropic	Electronic Technology	positive	1	products
 2026-02-12	CBRE	Commercial Services	negative	-1	markets
@@ -1066,3 +1052,14 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-05-12	investment	Consumer Non-Durables	positive	1	products
 2026-05-12	robotaxis	Transportation	negative	-1	products
 2026-05-12	semiconductor	Electronic Technology	positive	1	products
+2026-05-13	Alibaba	Consumer Non-Durables	negative	-1	earnings
+2026-05-13	Cisco	Electronic Technology	positive	1	products
+2026-05-13	Jensen Huang	Electronic Technology	positive	1	products
+2026-05-13	Leapmotor	Producer Manufacturing	neutral	0	other
+2026-05-13	Nvidia	Electronic Technology	positive	1	products
+2026-05-13	OpenAI	Electronic Technology	positive	1	markets
+2026-05-13	Qnity Electronics	Electronic Technology	positive	1	markets
+2026-05-13	Samsung Electronics	Electronic Technology	positive	1	markets
+2026-05-13	SoftBank	Electronic Technology	positive	1	markets
+2026-05-13	Stellantis	Producer Manufacturing	neutral	0	other
+2026-05-13	Wall Street analysts	Electronic Technology	positive	1	products
