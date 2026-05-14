@@ -1787,3 +1787,4 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-05-13	Producer Manufacturing	Stellantis|Leapmotor	neutral	other	ok
 2026-05-13	Electronic Technology	SoftBank|OpenAI	positive	markets	ok
 2026-05-13	Electronic Technology	Samsung Electronics	positive	markets	ok
+2026-05-14	Electronic Technology	Cerebras	positive	markets	ok

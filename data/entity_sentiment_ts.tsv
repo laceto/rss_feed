@@ -1,14 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-02-12	AI startups	Electronic Technology	positive	1	markets
-2026-02-12	Anthropic	Electronic Technology	positive	1	products
-2026-02-12	CBRE	Commercial Services	negative	-1	markets
-2026-02-12	EPA	Energy Minerals	negative	-1	regulation
-2026-02-12	Jones Lang LaSalle	Commercial Services	negative	-1	markets
-2026-02-12	SpaceX	Producer Manufacturing	positive	1	products
-2026-02-12	agribusiness stocks	Consumer Non-Durables	positive	1	markets
-2026-02-12	climate change	Energy Minerals	negative	-1	regulation
-2026-02-12	electricity prices	Utilities	positive	1	macro
-2026-02-12	realtors	Consumer Durables	negative	-1	macro
 2026-02-13	Consumer Durables	Consumer Durables	positive	1	products
 2026-02-13	Energy	Energy Minerals	neutral	0	macro
 2026-02-13	Financial	Finance	negative	-1	markets
@@ -1063,3 +1053,4 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-05-13	SoftBank	Electronic Technology	positive	1	markets
 2026-05-13	Stellantis	Producer Manufacturing	neutral	0	other
 2026-05-13	Wall Street analysts	Electronic Technology	positive	1	products
+2026-05-14	Cerebras	Electronic Technology	positive	1	markets
