@@ -1,12 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-02-13	Consumer Durables	Consumer Durables	positive	1	products
-2026-02-13	Energy	Energy Minerals	neutral	0	macro
-2026-02-13	Financial	Finance	negative	-1	markets
-2026-02-13	Health	Health Services	positive	1	earnings
-2026-02-13	Industrial	Industrial Services	negative	-1	markets
-2026-02-13	Retail	Retail Trade	negative	-1	markets
-2026-02-13	Technology	Electronic Technology	negative	-1	markets
-2026-02-13	Transportation	Transportation	negative	-1	markets
 2026-02-14	Chinese luxury market	Consumer Non-Durables	positive	1	markets
 2026-02-14	Elon Musk	Electronic Technology	negative	-1	other
 2026-02-14	IRS	Finance	positive	1	macro
@@ -1054,3 +1046,17 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-05-13	Stellantis	Producer Manufacturing	neutral	0	other
 2026-05-13	Wall Street analysts	Electronic Technology	positive	1	products
 2026-05-14	Cerebras	Electronic Technology	positive	1	markets
+2026-05-15	Amazon	Electronic Technology	positive	1	markets
+2026-05-15	Broadcom	Electronic Technology	positive	1	markets
+2026-05-15	Cerebras	Electronic Technology	negative	-1	markets
+2026-05-15	China	Energy Minerals	positive	1	macro
+2026-05-15	Cuba	Utilities	negative	-1	macro
+2026-05-15	Dell	Electronic Technology	positive	1	markets
+2026-05-15	Honda	Consumer Durables	positive	1	markets
+2026-05-15	Meta	Electronic Technology	positive	1	markets
+2026-05-15	Microsoft	Electronic Technology	positive	1	markets
+2026-05-15	Motorola	Electronic Technology	positive	1	markets
+2026-05-15	Nvidia	Electronic Technology	neutral	0	markets
+2026-05-15	Oracle	Electronic Technology	positive	1	markets
+2026-05-15	Palantir	Electronic Technology	positive	1	markets
+2026-05-15	U.S.	Energy Minerals	positive	1	macro

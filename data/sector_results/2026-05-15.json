@@ -1,0 +1,84 @@
+{
+  "date": "2026-05-15",
+  "batch_id": "batch_6a077e37b9448190a58a84b12baefffa",
+  "sectors": [
+    {
+      "entities": [
+        "China",
+        "U.S."
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Amazon",
+        "Meta",
+        "Oracle",
+        "Broadcom",
+        "Motorola",
+        "Dell"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Cerebras"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Palantir"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Nvidia"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Microsoft"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Honda"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Cuba"
+      ],
+      "sector": "Utilities",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    }
+  ]
+}

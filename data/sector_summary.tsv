@@ -1788,3 +1788,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-05-13	Electronic Technology	SoftBank|OpenAI	positive	markets	ok
 2026-05-13	Electronic Technology	Samsung Electronics	positive	markets	ok
 2026-05-14	Electronic Technology	Cerebras	positive	markets	ok
+2026-05-15	Energy Minerals	China|U.S.	positive	macro	ok
+2026-05-15	Electronic Technology	Amazon|Meta|Oracle|Broadcom|Motorola|Dell	positive	markets	ok
+2026-05-15	Electronic Technology	Cerebras	negative	markets	ok
+2026-05-15	Electronic Technology	Palantir	positive	markets	ok
+2026-05-15	Electronic Technology	Nvidia	neutral	markets	ok
+2026-05-15	Electronic Technology	Microsoft	positive	markets	ok
+2026-05-15	Consumer Durables	Honda	positive	markets	ok
+2026-05-15	Utilities	Cuba	negative	macro	ok
