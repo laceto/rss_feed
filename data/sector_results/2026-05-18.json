@@ -1,0 +1,68 @@
+{
+  "date": "2026-05-18",
+  "batch_id": "batch_6a0b768038448190b9b3dafeec84e64a",
+  "sectors": [
+    {
+      "entities": [
+        "Micron",
+        "Seagate",
+        "Western Digital",
+        "SanDisk"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Ryanair",
+        "European carriers"
+      ],
+      "sector": "Transportation",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "NextEra Energy",
+        "Dominion"
+      ],
+      "sector": "Utilities",
+      "sentiment": "positive",
+      "news_category": "M&A",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Alcoa"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Berkshire Hathaway",
+        "Delta Airlines",
+        "Alphabet"
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Riyadh",
+        "Saudi Arabia"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    }
+  ]
+}

@@ -1796,3 +1796,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-05-15	Electronic Technology	Microsoft	positive	markets	ok
 2026-05-15	Consumer Durables	Honda	positive	markets	ok
 2026-05-15	Utilities	Cuba	negative	macro	ok
+2026-05-16	Energy Minerals	Iran|Daleep Singh	negative	macro	ok
+2026-05-17	Electronic Technology	space sector	positive	markets	ok
+2026-05-18	Electronic Technology	Micron|Seagate|Western Digital|SanDisk	negative	markets	ok
+2026-05-18	Transportation	Ryanair|European carriers	neutral	products	ok
+2026-05-18	Utilities	NextEra Energy|Dominion	positive	M&A	ok
+2026-05-18	Energy Minerals	Alcoa	positive	products	ok
+2026-05-18	Finance	Berkshire Hathaway|Delta Airlines|Alphabet	positive	markets	ok
+2026-05-18	Energy Minerals	Riyadh|Saudi Arabia	positive	macro	ok

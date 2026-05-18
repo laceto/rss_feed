@@ -1,34 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-02-14	Chinese luxury market	Consumer Non-Durables	positive	1	markets
-2026-02-14	Elon Musk	Electronic Technology	negative	-1	other
-2026-02-14	IRS	Finance	positive	1	macro
-2026-02-14	home sellers	Consumer Durables	negative	-1	markets
-2026-02-14	luxury brands	Consumer Non-Durables	positive	1	markets
-2026-02-14	xAI	Electronic Technology	negative	-1	other
-2026-02-15	European Union	Utilities	neutral	0	macro
-2026-02-15	Germany	Utilities	neutral	0	macro
-2026-02-15	Gong Cha	Consumer Non-Durables	positive	1	markets
-2026-02-15	Meta	Electronic Technology	neutral	0	products
-2026-02-15	Netflix	Consumer Non-Durables	neutral	0	markets
-2026-02-15	Paramount	Consumer Non-Durables	neutral	0	markets
-2026-02-15	Warner Bros.	Consumer Non-Durables	neutral	0	markets
-2026-02-16	Altman	Electronic Technology	positive	1	appointments
-2026-02-16	Apple	Consumer Durables	positive	1	products
-2026-02-16	ByteDance	Electronic Technology	neutral	0	regulation
-2026-02-16	China	Electronic Technology	negative	-1	macro
-2026-02-16	Citi	Technology Services	negative	-1	markets
-2026-02-16	Deutsche Bank	Finance	negative	-1	regulation
-2026-02-16	Hollywood	Electronic Technology	neutral	0	regulation
-2026-02-16	International Olympic Committee	Distribution Services	neutral	0	markets
-2026-02-16	OpenAI	Electronic Technology	positive	1	appointments
-2026-02-16	Spotify	Consumer Durables	positive	1	products
-2026-02-16	U.S. AI monopoly	Electronic Technology	negative	-1	macro
-2026-02-16	U.S. equities	Finance	negative	-1	regulation
-2026-02-16	Visa	Distribution Services	neutral	0	markets
-2026-02-16	YouTube	Consumer Durables	positive	1	products
-2026-02-16	cryptocurrency	Finance	negative	-1	other
-2026-02-16	human trafficking	Finance	negative	-1	other
-2026-02-16	software stocks	Technology Services	negative	-1	markets
 2026-02-17	Alibaba	Electronic Technology	positive	1	products
 2026-02-17	Amazon	Retail Trade	negative	-1	markets
 2026-02-17	Anthropic	Electronic Technology	positive	1	products
@@ -1060,3 +1030,20 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-05-15	Oracle	Electronic Technology	positive	1	markets
 2026-05-15	Palantir	Electronic Technology	positive	1	markets
 2026-05-15	U.S.	Energy Minerals	positive	1	macro
+2026-05-16	Daleep Singh	Energy Minerals	negative	-1	macro
+2026-05-16	Iran	Energy Minerals	negative	-1	macro
+2026-05-17	space sector	Electronic Technology	positive	1	markets
+2026-05-18	Alcoa	Energy Minerals	positive	1	products
+2026-05-18	Alphabet	Finance	positive	1	markets
+2026-05-18	Berkshire Hathaway	Finance	positive	1	markets
+2026-05-18	Delta Airlines	Finance	positive	1	markets
+2026-05-18	Dominion	Utilities	positive	1	M&A
+2026-05-18	European carriers	Transportation	neutral	0	products
+2026-05-18	Micron	Electronic Technology	negative	-1	markets
+2026-05-18	NextEra Energy	Utilities	positive	1	M&A
+2026-05-18	Riyadh	Energy Minerals	positive	1	macro
+2026-05-18	Ryanair	Transportation	neutral	0	products
+2026-05-18	SanDisk	Electronic Technology	negative	-1	markets
+2026-05-18	Saudi Arabia	Energy Minerals	positive	1	macro
+2026-05-18	Seagate	Electronic Technology	negative	-1	markets
+2026-05-18	Western Digital	Electronic Technology	negative	-1	markets

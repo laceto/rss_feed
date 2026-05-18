@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-17",
+  "batch_id": "batch_6a0b768038448190b9b3dafeec84e64a",
+  "sectors": [
+    {
+      "entities": [
+        "space sector"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}
