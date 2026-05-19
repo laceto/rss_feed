@@ -1,0 +1,85 @@
+{
+  "date": "2026-05-19",
+  "batch_id": "batch_6a0cc7cf710481908e018a5b9ea3670c",
+  "sectors": [
+    {
+      "entities": [
+        "Google",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Nvidia",
+        "CNBC"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "SpaceX",
+        "Elon Musk"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Blackstone",
+        "Google"
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Target",
+        "Walmart"
+      ],
+      "sector": "Retail Trade",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Home Depot"
+      ],
+      "sector": "Retail Trade",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Ottobock",
+        "Grizzly Research"
+      ],
+      "sector": "Health Services",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Saab"
+      ],
+      "sector": "Industrial Services",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}

@@ -1804,3 +1804,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-05-18	Energy Minerals	Alcoa	positive	products	ok
 2026-05-18	Finance	Berkshire Hathaway|Delta Airlines|Alphabet	positive	markets	ok
 2026-05-18	Energy Minerals	Riyadh|Saudi Arabia	positive	macro	ok
+2026-05-19	Electronic Technology	Google|OpenAI|Anthropic	positive	products	ok
+2026-05-19	Electronic Technology	Nvidia|CNBC	positive	markets	ok
+2026-05-19	Electronic Technology	SpaceX|Elon Musk	positive	products	ok
+2026-05-19	Finance	Blackstone|Google	positive	markets	ok
+2026-05-19	Retail Trade	Target|Walmart	positive	markets	ok
+2026-05-19	Retail Trade	Home Depot	positive	markets	ok
+2026-05-19	Health Services	Ottobock|Grizzly Research	negative	markets	ok
+2026-05-19	Industrial Services	Saab	positive	markets	ok

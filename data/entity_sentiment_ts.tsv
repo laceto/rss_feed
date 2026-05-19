@@ -1,16 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-02-17	Alibaba	Electronic Technology	positive	1	products
-2026-02-17	Amazon	Retail Trade	negative	-1	markets
-2026-02-17	Anthropic	Electronic Technology	positive	1	products
-2026-02-17	Figma	Electronic Technology	positive	1	products
-2026-02-17	Ford	Consumer Non-Durables	positive	1	products
-2026-02-17	Iran	Energy Minerals	neutral	0	macro
-2026-02-17	Palantir	Technology Services	neutral	0	markets
-2026-02-17	Render	Electronic Technology	positive	1	products
-2026-02-17	S&P 500	Finance	neutral	0	markets
-2026-02-17	Silver miners	Non-Energy Minerals	negative	-1	markets
-2026-02-17	Tesla	Consumer Non-Durables	positive	1	products
-2026-02-17	U.S.	Energy Minerals	neutral	0	macro
 2026-02-18	Anthropic	Electronic Technology	neutral	0	products
 2026-02-18	Cruise stock	Consumer Durables	positive	1	markets
 2026-02-18	David Solomon	Finance	positive	1	markets
@@ -1047,3 +1035,18 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-05-18	Saudi Arabia	Energy Minerals	positive	1	macro
 2026-05-18	Seagate	Electronic Technology	negative	-1	markets
 2026-05-18	Western Digital	Electronic Technology	negative	-1	markets
+2026-05-19	Anthropic	Electronic Technology	positive	1	products
+2026-05-19	Blackstone	Finance	positive	1	markets
+2026-05-19	CNBC	Electronic Technology	positive	1	markets
+2026-05-19	Elon Musk	Electronic Technology	positive	1	products
+2026-05-19	Google	Electronic Technology	positive	1	products
+2026-05-19	Google	Finance	positive	1	markets
+2026-05-19	Grizzly Research	Health Services	negative	-1	markets
+2026-05-19	Home Depot	Retail Trade	positive	1	markets
+2026-05-19	Nvidia	Electronic Technology	positive	1	markets
+2026-05-19	OpenAI	Electronic Technology	positive	1	products
+2026-05-19	Ottobock	Health Services	negative	-1	markets
+2026-05-19	Saab	Industrial Services	positive	1	markets
+2026-05-19	SpaceX	Electronic Technology	positive	1	products
+2026-05-19	Target	Retail Trade	positive	1	markets
+2026-05-19	Walmart	Retail Trade	positive	1	markets
