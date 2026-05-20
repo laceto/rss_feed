@@ -1812,3 +1812,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-05-19	Retail Trade	Home Depot	positive	markets	ok
 2026-05-19	Health Services	Ottobock|Grizzly Research	negative	markets	ok
 2026-05-19	Industrial Services	Saab	positive	markets	ok
+2026-05-20	Electronic Technology	Nvidia|Jensen Huang	positive	earnings	ok
+2026-05-20	Transportation	SpaceX	neutral	products	ok
+2026-05-20	Retail Trade	Jeff Bezos|Amazon	neutral	other	ok
+2026-05-20	Technology Services	Intuit	negative	earnings	ok
+2026-05-20	Electronic Technology	OpenAI	neutral	markets	ok
+2026-05-20	Producer Manufacturing	Stellantis|Ram	neutral	products	ok
+2026-05-20	Electronic Technology	Meta	negative	regulation	ok
+2026-05-20	Retail Trade	Airbnb	positive	products	ok

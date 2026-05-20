@@ -1,20 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-02-18	Anthropic	Electronic Technology	neutral	0	products
-2026-02-18	Cruise stock	Consumer Durables	positive	1	markets
-2026-02-18	David Solomon	Finance	positive	1	markets
-2026-02-18	Federal Reserve	Finance	neutral	0	macro
-2026-02-18	Goldman Sachs	Finance	positive	1	markets
-2026-02-18	Google	Electronic Technology	neutral	0	products
-2026-02-18	Iran	Energy Minerals	negative	-1	macro
-2026-02-18	Mark Zuckerberg	Communications	neutral	0	products
-2026-02-18	Meta	Communications	neutral	0	products
-2026-02-18	Moderna	Health Technology	neutral	0	products
-2026-02-18	New York Fed	Finance	negative	-1	regulation
-2026-02-18	Oil	Energy Minerals	negative	-1	macro
-2026-02-18	OpenAI	Electronic Technology	neutral	0	products
-2026-02-18	Pentagon	Electronic Technology	neutral	0	products
-2026-02-18	Vance	Energy Minerals	negative	-1	macro
-2026-02-18	xAI	Electronic Technology	neutral	0	products
 2026-02-19	AI summit	Electronic Technology	neutral	0	products
 2026-02-19	Amazon	Retail Trade	positive	1	markets
 2026-02-19	Anthropic	Electronic Technology	neutral	0	products
@@ -1050,3 +1034,14 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-05-19	SpaceX	Electronic Technology	positive	1	products
 2026-05-19	Target	Retail Trade	positive	1	markets
 2026-05-19	Walmart	Retail Trade	positive	1	markets
+2026-05-20	Airbnb	Retail Trade	positive	1	products
+2026-05-20	Amazon	Retail Trade	neutral	0	other
+2026-05-20	Intuit	Technology Services	negative	-1	earnings
+2026-05-20	Jeff Bezos	Retail Trade	neutral	0	other
+2026-05-20	Jensen Huang	Electronic Technology	positive	1	earnings
+2026-05-20	Meta	Electronic Technology	negative	-1	regulation
+2026-05-20	Nvidia	Electronic Technology	positive	1	earnings
+2026-05-20	OpenAI	Electronic Technology	neutral	0	markets
+2026-05-20	Ram	Producer Manufacturing	neutral	0	products
+2026-05-20	SpaceX	Transportation	neutral	0	products
+2026-05-20	Stellantis	Producer Manufacturing	neutral	0	products
