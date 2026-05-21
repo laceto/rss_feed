@@ -1,0 +1,86 @@
+{
+  "date": "2026-05-21",
+  "batch_id": "batch_6a0f6ff138d88190aa3bb8f1ff831719",
+  "sectors": [
+    {
+      "entities": [
+        "Microsoft",
+        "Anthropic"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "SpaceX",
+        "Starlink"
+      ],
+      "sector": "Transportation",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Meta",
+        "Broadcom",
+        "Applied Materials",
+        "GlobalFoundries",
+        "Synopsys"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Workday"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Spotify",
+        "UMG"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "LIV Golf"
+      ],
+      "sector": "Consumer Services",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Perpetua Resources"
+      ],
+      "sector": "Non-Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Nvidia",
+        "Huawei"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}

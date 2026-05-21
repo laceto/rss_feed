@@ -1820,3 +1820,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-05-20	Producer Manufacturing	Stellantis|Ram	neutral	products	ok
 2026-05-20	Electronic Technology	Meta	negative	regulation	ok
 2026-05-20	Retail Trade	Airbnb	positive	products	ok
+2026-05-21	Electronic Technology	Microsoft|Anthropic	positive	products	ok
+2026-05-21	Transportation	SpaceX|Starlink	positive	markets	ok
+2026-05-21	Electronic Technology	Meta|Broadcom|Applied Materials|GlobalFoundries|Synopsys	positive	markets	ok
+2026-05-21	Technology Services	Workday	positive	earnings	ok
+2026-05-21	Consumer Non-Durables	Spotify|UMG	positive	products	ok
+2026-05-21	Consumer Services	LIV Golf	neutral	markets	ok
+2026-05-21	Non-Energy Minerals	Perpetua Resources	positive	markets	ok
+2026-05-21	Electronic Technology	Nvidia|Huawei	neutral	markets	ok

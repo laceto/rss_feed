@@ -1,13 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-02-19	AI summit	Electronic Technology	neutral	0	products
-2026-02-19	Amazon	Retail Trade	positive	1	markets
-2026-02-19	Anthropic	Electronic Technology	neutral	0	products
-2026-02-19	Iran	Energy Minerals	negative	-1	macro
-2026-02-19	Nestle	Consumer Non-Durables	positive	1	earnings
-2026-02-19	OpenAI	Electronic Technology	neutral	0	products
-2026-02-19	Trump	Energy Minerals	negative	-1	macro
-2026-02-19	Walmart	Retail Trade	positive	1	markets
-2026-02-19	Walmart	Retail Trade	neutral	0	earnings
 2026-02-20	Amazon	Retail Trade	positive	1	markets
 2026-02-20	Brett Kavanaugh	Finance	negative	-1	regulation
 2026-02-20	Etsy	Retail Trade	positive	1	markets
@@ -1045,3 +1036,19 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-05-20	Ram	Producer Manufacturing	neutral	0	products
 2026-05-20	SpaceX	Transportation	neutral	0	products
 2026-05-20	Stellantis	Producer Manufacturing	neutral	0	products
+2026-05-21	Anthropic	Electronic Technology	positive	1	products
+2026-05-21	Applied Materials	Electronic Technology	positive	1	markets
+2026-05-21	Broadcom	Electronic Technology	positive	1	markets
+2026-05-21	GlobalFoundries	Electronic Technology	positive	1	markets
+2026-05-21	Huawei	Electronic Technology	neutral	0	markets
+2026-05-21	LIV Golf	Consumer Services	neutral	0	markets
+2026-05-21	Meta	Electronic Technology	positive	1	markets
+2026-05-21	Microsoft	Electronic Technology	positive	1	products
+2026-05-21	Nvidia	Electronic Technology	neutral	0	markets
+2026-05-21	Perpetua Resources	Non-Energy Minerals	positive	1	markets
+2026-05-21	SpaceX	Transportation	positive	1	markets
+2026-05-21	Spotify	Consumer Non-Durables	positive	1	products
+2026-05-21	Starlink	Transportation	positive	1	markets
+2026-05-21	Synopsys	Electronic Technology	positive	1	markets
+2026-05-21	UMG	Consumer Non-Durables	positive	1	products
+2026-05-21	Workday	Technology Services	positive	1	earnings
