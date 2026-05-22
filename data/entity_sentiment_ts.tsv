@@ -1,19 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-02-20	Amazon	Retail Trade	positive	1	markets
-2026-02-20	Brett Kavanaugh	Finance	negative	-1	regulation
-2026-02-20	Etsy	Retail Trade	positive	1	markets
-2026-02-20	Five9	Electronic Technology	positive	1	earnings
-2026-02-20	Google	Electronic Technology	neutral	0	other
-2026-02-20	Home Depot	Retail Trade	positive	1	markets
-2026-02-20	Nike	Retail Trade	positive	1	markets
-2026-02-20	RingCentral	Electronic Technology	positive	1	earnings
-2026-02-20	South Korea's Kospi	Transportation	positive	1	markets
-2026-02-20	Target	Retail Trade	positive	1	markets
-2026-02-20	Tesla	Producer Manufacturing	negative	-1	markets
-2026-02-20	Trump	Finance	negative	-1	regulation
-2026-02-20	U.S. Supreme Court	Finance	negative	-1	regulation
-2026-02-20	oil	Energy Minerals	negative	-1	macro
-2026-02-20	software stocks	Electronic Technology	positive	1	earnings
 2026-02-21	Trump	Energy Minerals	negative	-1	macro
 2026-02-21	Trump Administration	Energy Minerals	negative	-1	macro
 2026-02-22	India	Distribution Services	neutral	0	macro
@@ -1052,3 +1037,19 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-05-21	Synopsys	Electronic Technology	positive	1	markets
 2026-05-21	UMG	Consumer Non-Durables	positive	1	products
 2026-05-21	Workday	Technology Services	positive	1	earnings
+2026-05-22	Air France	Transportation	negative	-1	other
+2026-05-22	Airbus	Transportation	negative	-1	other
+2026-05-22	BT	Communications	positive	1	markets
+2026-05-22	Bharti Airtel	Communications	positive	1	markets
+2026-05-22	Federal Reserve	Finance	neutral	0	macro
+2026-05-22	Guzman y Gomez	Consumer Non-Durables	negative	-1	markets
+2026-05-22	Iran	Energy Minerals	negative	-1	macro
+2026-05-22	Kalshi	Finance	neutral	0	regulation
+2026-05-22	Kevin Warsh	Finance	neutral	0	macro
+2026-05-22	Polymarket	Finance	neutral	0	regulation
+2026-05-22	SoftBank Group	Technology Services	positive	1	markets
+2026-05-22	U.S. Iran war	Energy Minerals	negative	-1	macro
+2026-05-22	U.S. government	Finance	neutral	0	regulation
+2026-05-22	U.S. stocks	Retail Trade	positive	1	markets
+2026-05-22	Wall Street	Retail Trade	positive	1	markets
+2026-05-22	prediction markets	Finance	neutral	0	regulation

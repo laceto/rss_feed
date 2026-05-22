@@ -1828,3 +1828,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-05-21	Consumer Services	LIV Golf	neutral	markets	ok
 2026-05-21	Non-Energy Minerals	Perpetua Resources	positive	markets	ok
 2026-05-21	Electronic Technology	Nvidia|Huawei	neutral	markets	ok
+2026-05-22	Finance	Federal Reserve|Kevin Warsh	neutral	macro	ok
+2026-05-22	Energy Minerals	U.S. Iran war|Iran	negative	macro	ok
+2026-05-22	Finance	U.S. government|prediction markets|Kalshi|Polymarket	neutral	regulation	ok
+2026-05-22	Transportation	Airbus|Air France	negative	other	ok
+2026-05-22	Technology Services	SoftBank Group	positive	markets	ok
+2026-05-22	Consumer Non-Durables	Guzman y Gomez	negative	markets	ok
+2026-05-22	Communications	Bharti Airtel|BT	positive	markets	ok
+2026-05-22	Retail Trade	U.S. stocks|Wall Street	positive	markets	ok
