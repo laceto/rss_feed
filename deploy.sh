@@ -8,6 +8,8 @@ SERVICE_NAME="chatbot-rag"
 SERVICE_ACCOUNT="rss-feed-runner@${PROJECT_ID}.iam.gserviceaccount.com"
 # ─────────────────────────────────────────────────────────────────────────────
 
+[[ "$PROJECT_ID" == "YOUR_PROJECT_ID" ]] && { echo "ERROR: set PROJECT_ID in deploy.sh before running"; exit 1; }
+
 IMAGE="$REGION-docker.pkg.dev/$PROJECT_ID/rss-feed-repo/$SERVICE_NAME"
 
 echo "==> Configuring Docker auth for Artifact Registry..."
