@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Secrets — never bake in
+.env
+.env.*
+secrets/
+
+# Git metadata
+.git/
+.gitignore
+.gitattributes
+
+# Editor / OS noise
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Test artefacts
+tests/
+pytest_cache/
+.pytest_cache/
+htmlcov/
+.coverage
+
+# CI / local tooling
+.github/
+Makefile
+
+# DO NOT exclude data/vectorstore/feeds/ — must be in the image
