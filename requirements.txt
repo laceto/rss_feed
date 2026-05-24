@@ -1,0 +1,9 @@
+python-dotenv
+openai
+langchain-core
+langchain-community
+langchain-openai
+faiss-cpu
+rank-bm25
+streamlit
+https://github.com/laceto/rss_feed/raw/main/kitai-0.1.0-py3-none-any.whl
