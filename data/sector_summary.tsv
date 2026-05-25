@@ -1836,3 +1836,15 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-05-22	Consumer Non-Durables	Guzman y Gomez	negative	markets	ok
 2026-05-22	Communications	Bharti Airtel|BT	positive	markets	ok
 2026-05-22	Retail Trade	U.S. stocks|Wall Street	positive	markets	ok
+2026-05-23	Transportation	Travel industry|Spirit Airlines	negative	macro	ok
+2026-05-23	Consumer Services	Live music industry|Concert venues	neutral	markets	ok
+2026-05-23	Electronic Technology	Music industry executives Bernie Cho and Anand Roy	neutral	other	partial
+2026-05-24	Electronic Technology	China tech|artificial intelligence	positive	macro	ok
+2026-05-25	Energy Minerals	Iran|Petraeus	neutral	macro	ok
+2026-05-25	Energy Minerals	Jeff Currie	negative	macro	ok
+2026-05-25	Electronic Technology	Huawei|Nvidia|Apple	neutral	products	ok
+2026-05-25	Finance	Gold	positive	markets	ok
+2026-05-25	Energy Minerals	Trump|Qatar|Saudi Arabia|Pakistan|Egypt|Jordan|Turkey	neutral	macro	ok
+2026-05-25	Electronic Technology	Nvidia|Apple	neutral	products	ok
+2026-05-25	Consumer Services	Japan's Nikkei 225	positive	markets	ok
+2026-05-25	Electronic Technology	TSMC|Samsung Electronics|SK Hynix	positive	markets	ok

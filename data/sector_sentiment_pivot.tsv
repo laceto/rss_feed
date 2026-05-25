@@ -1,7 +1,4 @@
 date	Commercial Services	Communications	Consumer Durables	Consumer Non-Durables	Consumer Services	Distribution Services	Electronic Technology	Energy Minerals	Finance	Health Services	Health Technology	Industrial Services	Non-Energy Minerals	Process Industries	Producer Manufacturing	Retail Trade	Technology Services	Transportation	Utilities
-2026-02-21								-1.0											
-2026-02-22						0.0													
-2026-02-23							0.0			1.0	-1.0				-1.0		1.0		
 2026-02-24		1.0					0.3333333333333333		1.0							1.0	1.0		
 2026-02-25			0.0				0.25										1.0		
 2026-02-26					0.0		0.5								1.0	1.0			1.0
@@ -90,3 +87,6 @@ date	Commercial Services	Communications	Consumer Durables	Consumer Non-Durables	
 2026-05-20							0.0								0.0	0.5	-1.0	0.0	
 2026-05-21				1.0	0.0		0.6666666666666666						1.0				1.0	1.0	
 2026-05-22		1.0		-1.0				-1.0	0.0							1.0	1.0	-1.0	
+2026-05-23					0.0		0.0											-1.0	
+2026-05-24							1.0												
+2026-05-25					1.0		0.3333333333333333	-0.3333333333333333	1.0										

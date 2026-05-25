@@ -1,0 +1,35 @@
+{
+  "date": "2026-05-23",
+  "batch_id": "batch_6a14af46493c819081888da6e03ca9d9",
+  "sectors": [
+    {
+      "entities": [
+        "Travel industry",
+        "Spirit Airlines"
+      ],
+      "sector": "Transportation",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Live music industry",
+        "Concert venues"
+      ],
+      "sector": "Consumer Services",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Music industry executives Bernie Cho and Anand Roy"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "other",
+      "extraction_status": "partial"
+    }
+  ]
+}

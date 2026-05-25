@@ -1,18 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-02-21	Trump	Energy Minerals	negative	-1	macro
-2026-02-21	Trump Administration	Energy Minerals	negative	-1	macro
-2026-02-22	India	Distribution Services	neutral	0	macro
-2026-02-22	Washington	Distribution Services	neutral	0	macro
-2026-02-23	Aalyria	Electronic Technology	positive	1	markets
-2026-02-23	Amazon	Technology Services	positive	1	products
-2026-02-23	Arcellx	Health Services	positive	1	M&A
-2026-02-23	Cybersecurity stocks	Electronic Technology	negative	-1	markets
-2026-02-23	Eli Lilly	Health Technology	negative	-1	products
-2026-02-23	Gilead Sciences	Health Services	positive	1	M&A
-2026-02-23	Google	Electronic Technology	positive	1	markets
-2026-02-23	IBM	Electronic Technology	negative	-1	markets
-2026-02-23	Novo Nordisk	Health Technology	negative	-1	products
-2026-02-23	Tesla	Producer Manufacturing	negative	-1	regulation
 2026-02-24	AMD	Electronic Technology	neutral	0	products
 2026-02-24	Anthropic	Technology Services	positive	1	products
 2026-02-24	Cato Networks	Electronic Technology	positive	1	products
@@ -1053,3 +1039,30 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-05-22	U.S. stocks	Retail Trade	positive	1	markets
 2026-05-22	Wall Street	Retail Trade	positive	1	markets
 2026-05-22	prediction markets	Finance	neutral	0	regulation
+2026-05-23	Concert venues	Consumer Services	neutral	0	markets
+2026-05-23	Live music industry	Consumer Services	neutral	0	markets
+2026-05-23	Music industry executives Bernie Cho and Anand Roy	Electronic Technology	neutral	0	other
+2026-05-23	Spirit Airlines	Transportation	negative	-1	macro
+2026-05-23	Travel industry	Transportation	negative	-1	macro
+2026-05-24	China tech	Electronic Technology	positive	1	macro
+2026-05-24	artificial intelligence	Electronic Technology	positive	1	macro
+2026-05-25	Apple	Electronic Technology	neutral	0	products
+2026-05-25	Apple	Electronic Technology	neutral	0	products
+2026-05-25	Egypt	Energy Minerals	neutral	0	macro
+2026-05-25	Gold	Finance	positive	1	markets
+2026-05-25	Huawei	Electronic Technology	neutral	0	products
+2026-05-25	Iran	Energy Minerals	neutral	0	macro
+2026-05-25	Japan's Nikkei 225	Consumer Services	positive	1	markets
+2026-05-25	Jeff Currie	Energy Minerals	negative	-1	macro
+2026-05-25	Jordan	Energy Minerals	neutral	0	macro
+2026-05-25	Nvidia	Electronic Technology	neutral	0	products
+2026-05-25	Nvidia	Electronic Technology	neutral	0	products
+2026-05-25	Pakistan	Energy Minerals	neutral	0	macro
+2026-05-25	Petraeus	Energy Minerals	neutral	0	macro
+2026-05-25	Qatar	Energy Minerals	neutral	0	macro
+2026-05-25	SK Hynix	Electronic Technology	positive	1	markets
+2026-05-25	Samsung Electronics	Electronic Technology	positive	1	markets
+2026-05-25	Saudi Arabia	Energy Minerals	neutral	0	macro
+2026-05-25	TSMC	Electronic Technology	positive	1	markets
+2026-05-25	Trump	Energy Minerals	neutral	0	macro
+2026-05-25	Turkey	Energy Minerals	neutral	0	macro
