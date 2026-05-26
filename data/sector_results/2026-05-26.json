@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-26",
+  "batch_id": "batch_6a1607f35fcc81908cdccdda01038aae",
+  "sectors": [
+    {
+      "entities": [
+        "Micron"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "SpaceX"
+      ],
+      "sector": "Transportation",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Wells Fargo",
+        "Icon"
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "BP"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Ferrari"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "negative",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Dropbox"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "neutral",
+      "news_category": "appointments",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Euronext"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "U.S. Treasury"
+      ],
+      "sector": "Utilities",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    }
+  ]
+}

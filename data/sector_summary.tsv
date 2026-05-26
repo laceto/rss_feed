@@ -1848,3 +1848,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-05-25	Electronic Technology	Nvidia|Apple	neutral	products	ok
 2026-05-25	Consumer Services	Japan's Nikkei 225	positive	markets	ok
 2026-05-25	Electronic Technology	TSMC|Samsung Electronics|SK Hynix	positive	markets	ok
+2026-05-26	Electronic Technology	Micron	positive	markets	ok
+2026-05-26	Transportation	SpaceX	positive	products	ok
+2026-05-26	Finance	Wells Fargo|Icon	positive	products	ok
+2026-05-26	Energy Minerals	BP	negative	regulation	ok
+2026-05-26	Consumer Durables	Ferrari	negative	products	ok
+2026-05-26	Technology Services	Dropbox	neutral	appointments	ok
+2026-05-26	Finance	Euronext	neutral	regulation	ok
+2026-05-26	Utilities	U.S. Treasury	neutral	macro	ok

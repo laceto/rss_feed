@@ -1,16 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-02-24	AMD	Electronic Technology	neutral	0	products
-2026-02-24	Anthropic	Technology Services	positive	1	products
-2026-02-24	Cato Networks	Electronic Technology	positive	1	products
-2026-02-24	Home Depot	Retail Trade	positive	1	earnings
-2026-02-24	Meta	Electronic Technology	neutral	0	products
-2026-02-24	Microsoft	Communications	positive	1	products
-2026-02-24	Nvidia	Electronic Technology	neutral	0	products
-2026-02-24	Nvidia	Electronic Technology	neutral	0	earnings
-2026-02-24	Shlomo Kramer	Electronic Technology	positive	1	products
-2026-02-24	SpaceX	Communications	positive	1	products
-2026-02-24	Starlink	Communications	positive	1	products
-2026-02-24	Stripe	Finance	positive	1	markets
 2026-02-25	Amazon	Electronic Technology	neutral	0	regulation
 2026-02-25	Axon	Electronic Technology	positive	1	products
 2026-02-25	Big Tech companies	Electronic Technology	neutral	0	regulation
@@ -1066,3 +1054,12 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-05-25	TSMC	Electronic Technology	positive	1	markets
 2026-05-25	Trump	Energy Minerals	neutral	0	macro
 2026-05-25	Turkey	Energy Minerals	neutral	0	macro
+2026-05-26	BP	Energy Minerals	negative	-1	regulation
+2026-05-26	Dropbox	Technology Services	neutral	0	appointments
+2026-05-26	Euronext	Finance	neutral	0	regulation
+2026-05-26	Ferrari	Consumer Durables	negative	-1	products
+2026-05-26	Icon	Finance	positive	1	products
+2026-05-26	Micron	Electronic Technology	positive	1	markets
+2026-05-26	SpaceX	Transportation	positive	1	products
+2026-05-26	U.S. Treasury	Utilities	neutral	0	macro
+2026-05-26	Wells Fargo	Finance	positive	1	products
