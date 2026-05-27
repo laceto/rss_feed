@@ -1,22 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-02-25	Amazon	Electronic Technology	neutral	0	regulation
-2026-02-25	Axon	Electronic Technology	positive	1	products
-2026-02-25	Big Tech companies	Electronic Technology	neutral	0	regulation
-2026-02-25	Galaxy	Consumer Durables	neutral	0	products
-2026-02-25	Google	Electronic Technology	neutral	0	regulation
-2026-02-25	Meta	Electronic Technology	neutral	0	regulation
-2026-02-25	Microsoft	Electronic Technology	neutral	0	regulation
-2026-02-25	Microsoft Japan	Electronic Technology	negative	-1	regulation
-2026-02-25	Nvidia	Technology Services	positive	1	markets
-2026-02-25	Nvidia	Electronic Technology	positive	1	products
-2026-02-25	OpenAI	Technology Services	positive	1	markets
-2026-02-25	OpenAI	Electronic Technology	neutral	0	regulation
-2026-02-25	Oracle	Electronic Technology	neutral	0	regulation
-2026-02-25	Oracle	Technology Services	positive	1	markets
-2026-02-25	Samsung	Consumer Durables	neutral	0	products
-2026-02-25	Thrive Capital	Technology Services	positive	1	markets
-2026-02-25	Vera Rubin	Electronic Technology	positive	1	products
-2026-02-25	xAI	Electronic Technology	neutral	0	regulation
 2026-02-26	Block	Retail Trade	positive	1	earnings
 2026-02-26	C3 AI	Electronic Technology	negative	-1	earnings
 2026-02-26	CoreWeave	Electronic Technology	positive	1	earnings
@@ -1063,3 +1045,12 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-05-26	SpaceX	Transportation	positive	1	products
 2026-05-26	U.S. Treasury	Utilities	neutral	0	macro
 2026-05-26	Wells Fargo	Finance	positive	1	products
+2026-05-27	Abercrombie & Fitch	Retail Trade	positive	1	earnings
+2026-05-27	Amazon Web Services	Technology Services	positive	1	products
+2026-05-27	Boeing	Producer Manufacturing	positive	1	markets
+2026-05-27	Goldman	Finance	positive	1	macro
+2026-05-27	JPMorgan Chase	Finance	neutral	0	M&A
+2026-05-27	Lamborghini	Consumer Durables	neutral	0	products
+2026-05-27	Meta	Technology Services	neutral	0	products
+2026-05-27	Snowflake	Technology Services	positive	1	products
+2026-05-27	Zscaler	Technology Services	negative	-1	earnings

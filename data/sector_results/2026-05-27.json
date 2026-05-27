@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-27",
+  "batch_id": "batch_6a175b283798819097ce04a638b7da3c",
+  "sectors": [
+    {
+      "entities": [
+        "Snowflake",
+        "Amazon Web Services"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Meta"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Zscaler"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "negative",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Goldman"
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Abercrombie & Fitch"
+      ],
+      "sector": "Retail Trade",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Lamborghini"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "JPMorgan Chase"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "M&A",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Boeing"
+      ],
+      "sector": "Producer Manufacturing",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}

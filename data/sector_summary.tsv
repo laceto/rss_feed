@@ -1856,3 +1856,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-05-26	Technology Services	Dropbox	neutral	appointments	ok
 2026-05-26	Finance	Euronext	neutral	regulation	ok
 2026-05-26	Utilities	U.S. Treasury	neutral	macro	ok
+2026-05-27	Technology Services	Snowflake|Amazon Web Services	positive	products	ok
+2026-05-27	Technology Services	Meta	neutral	products	ok
+2026-05-27	Technology Services	Zscaler	negative	earnings	ok
+2026-05-27	Finance	Goldman	positive	macro	ok
+2026-05-27	Retail Trade	Abercrombie & Fitch	positive	earnings	ok
+2026-05-27	Consumer Durables	Lamborghini	neutral	products	ok
+2026-05-27	Finance	JPMorgan Chase	neutral	M&A	ok
+2026-05-27	Producer Manufacturing	Boeing	positive	markets	ok
