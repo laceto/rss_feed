@@ -1,14 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-02-26	Block	Retail Trade	positive	1	earnings
-2026-02-26	C3 AI	Electronic Technology	negative	-1	earnings
-2026-02-26	CoreWeave	Electronic Technology	positive	1	earnings
-2026-02-26	Engie	Utilities	positive	1	markets
-2026-02-26	Google	Electronic Technology	positive	1	products
-2026-02-26	Meta	Electronic Technology	positive	1	earnings
-2026-02-26	Nvidia	Electronic Technology	positive	1	earnings
-2026-02-26	OpenAI	Electronic Technology	positive	1	earnings
-2026-02-26	Rolls-Royce	Producer Manufacturing	positive	1	earnings
-2026-02-26	Wyndham	Consumer Services	neutral	0	markets
 2026-02-27	Amazon	Electronic Technology	negative	-1	markets
 2026-02-27	Apple	Electronic Technology	negative	-1	markets
 2026-02-27	CoreWeave	Producer Manufacturing	negative	-1	earnings
@@ -1054,3 +1044,22 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-05-27	Meta	Technology Services	neutral	0	products
 2026-05-27	Snowflake	Technology Services	positive	1	products
 2026-05-27	Zscaler	Technology Services	negative	-1	earnings
+2026-05-28	Anthropic	Electronic Technology	positive	1	markets
+2026-05-28	Dell	Producer Manufacturing	positive	1	earnings
+2026-05-28	Gap	Retail Trade	negative	-1	earnings
+2026-05-28	Iran	Energy Minerals	negative	-1	macro
+2026-05-28	Motorola Solutions	Electronic Technology	positive	1	markets
+2026-05-28	Nasdaq	Electronic Technology	positive	1	markets
+2026-05-28	Okta	Electronic Technology	positive	1	earnings
+2026-05-28	Old Navy	Retail Trade	negative	-1	earnings
+2026-05-28	OpenAI	Electronic Technology	positive	1	markets
+2026-05-28	Oracle	Electronic Technology	positive	1	markets
+2026-05-28	Palantir	Electronic Technology	positive	1	markets
+2026-05-28	S&P 500	Electronic Technology	positive	1	markets
+2026-05-28	Salesforce	Electronic Technology	positive	1	markets
+2026-05-28	ServiceNow	Electronic Technology	positive	1	markets
+2026-05-28	Snowflake	Electronic Technology	positive	1	markets
+2026-05-28	U.S. and Iranian negotiators	Energy Minerals	negative	-1	macro
+2026-05-28	U.S. government	Energy Minerals	negative	-1	macro
+2026-05-28	Unusual Machines	Electronic Technology	positive	1	markets
+2026-05-28	tech	Electronic Technology	positive	1	markets

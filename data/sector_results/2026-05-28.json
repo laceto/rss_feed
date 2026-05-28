@@ -1,0 +1,89 @@
+{
+  "date": "2026-05-28",
+  "batch_id": "batch_6a18ae0bd9a08190ba3faa5ecc32cf67",
+  "sectors": [
+    {
+      "entities": [
+        "Iran",
+        "U.S. government",
+        "U.S. and Iranian negotiators"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "S&P 500",
+        "Nasdaq",
+        "tech"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Dell"
+      ],
+      "sector": "Producer Manufacturing",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Anthropic",
+        "OpenAI"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Unusual Machines",
+        "Motorola Solutions"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Snowflake",
+        "ServiceNow",
+        "Oracle",
+        "Palantir",
+        "Salesforce"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Okta"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Gap",
+        "Old Navy"
+      ],
+      "sector": "Retail Trade",
+      "sentiment": "negative",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    }
+  ]
+}

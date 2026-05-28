@@ -1864,3 +1864,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-05-27	Consumer Durables	Lamborghini	neutral	products	ok
 2026-05-27	Finance	JPMorgan Chase	neutral	M&A	ok
 2026-05-27	Producer Manufacturing	Boeing	positive	markets	ok
+2026-05-28	Energy Minerals	Iran|U.S. government|U.S. and Iranian negotiators	negative	macro	ok
+2026-05-28	Electronic Technology	S&P 500|Nasdaq|tech	positive	markets	ok
+2026-05-28	Producer Manufacturing	Dell	positive	earnings	ok
+2026-05-28	Electronic Technology	Anthropic|OpenAI	positive	markets	ok
+2026-05-28	Electronic Technology	Unusual Machines|Motorola Solutions	positive	markets	ok
+2026-05-28	Electronic Technology	Snowflake|ServiceNow|Oracle|Palantir|Salesforce	positive	markets	ok
+2026-05-28	Electronic Technology	Okta	positive	earnings	ok
+2026-05-28	Retail Trade	Gap|Old Navy	negative	earnings	ok
