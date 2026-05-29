@@ -1,0 +1,43 @@
+{
+  "date": "2026-05-29",
+  "batch_id": "batch_6a19ffcebcc08190b703a22ba968a6fc",
+  "sectors": [
+    {
+      "entities": [
+        "Dell"
+      ],
+      "sector": "Producer Manufacturing",
+      "sentiment": "positive",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "SpaceX",
+        "Elon Musk"
+      ],
+      "sector": "Transportation",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Nvidia"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "SentinelOne"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "negative",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    }
+  ]
+}

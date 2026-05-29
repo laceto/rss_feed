@@ -1,19 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-02-27	Amazon	Electronic Technology	negative	-1	markets
-2026-02-27	Apple	Electronic Technology	negative	-1	markets
-2026-02-27	CoreWeave	Producer Manufacturing	negative	-1	earnings
-2026-02-27	Dell	Producer Manufacturing	positive	1	earnings
-2026-02-27	Google	Electronic Technology	negative	-1	markets
-2026-02-27	Meta	Electronic Technology	negative	-1	markets
-2026-02-27	Netflix	Consumer Non-Durables	negative	-1	M&A
-2026-02-27	Nintendo	Consumer Durables	positive	1	products
-2026-02-27	Nvidia	Electronic Technology	negative	-1	markets
-2026-02-27	OpenAI	Electronic Technology	negative	-1	markets
-2026-02-27	OpenAI	Technology Services	neutral	0	products
-2026-02-27	Paramount	Consumer Non-Durables	negative	-1	M&A
-2026-02-27	UBS	Finance	negative	-1	macro
-2026-02-27	WBD	Consumer Non-Durables	negative	-1	M&A
-2026-02-27	Yotta Data Services	Technology Services	positive	1	products
 2026-02-28	Anthropic	Technology Services	neutral	0	markets
 2026-02-28	ChatGPT	Technology Services	neutral	0	markets
 2026-02-28	Claude	Technology Services	neutral	0	markets
@@ -1063,3 +1048,8 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-05-28	U.S. government	Energy Minerals	negative	-1	macro
 2026-05-28	Unusual Machines	Electronic Technology	positive	1	markets
 2026-05-28	tech	Electronic Technology	positive	1	markets
+2026-05-29	Dell	Producer Manufacturing	positive	1	earnings
+2026-05-29	Elon Musk	Transportation	neutral	0	products
+2026-05-29	Nvidia	Electronic Technology	positive	1	products
+2026-05-29	SentinelOne	Technology Services	negative	-1	earnings
+2026-05-29	SpaceX	Transportation	neutral	0	products

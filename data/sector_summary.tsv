@@ -1872,3 +1872,7 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-05-28	Electronic Technology	Snowflake|ServiceNow|Oracle|Palantir|Salesforce	positive	markets	ok
 2026-05-28	Electronic Technology	Okta	positive	earnings	ok
 2026-05-28	Retail Trade	Gap|Old Navy	negative	earnings	ok
+2026-05-29	Producer Manufacturing	Dell	positive	earnings	ok
+2026-05-29	Transportation	SpaceX|Elon Musk	neutral	products	ok
+2026-05-29	Electronic Technology	Nvidia	positive	products	ok
+2026-05-29	Technology Services	SentinelOne	negative	earnings	ok
