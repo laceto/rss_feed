@@ -1,40 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-02-28	Anthropic	Technology Services	neutral	0	markets
-2026-02-28	ChatGPT	Technology Services	neutral	0	markets
-2026-02-28	Claude	Technology Services	neutral	0	markets
-2026-02-28	FourLeaf Credit Union	Finance	positive	1	products
-2026-02-28	Iran	Energy Minerals	negative	-1	macro
-2026-02-28	OPEC	Energy Minerals	negative	-1	macro
-2026-02-28	OpenAI	Technology Services	neutral	0	markets
-2026-03-01	Ayatollah Ruhollah Khomeini	Energy Minerals	negative	-1	macro
-2026-03-01	China	Energy Minerals	negative	-1	macro
-2026-03-01	Chinese companies	Technology Services	positive	1	products
-2026-03-01	Donald Trump	Energy Minerals	negative	-1	macro
-2026-03-01	Iran	Energy Minerals	negative	-1	macro
-2026-03-01	Iran	Energy Minerals	negative	-1	macro
-2026-03-01	Iranian	Energy Minerals	negative	-1	macro
-2026-03-01	Israel	Energy Minerals	negative	-1	macro
-2026-03-01	Khamenei	Energy Minerals	negative	-1	macro
-2026-03-01	Oil	Energy Minerals	negative	-1	macro
-2026-03-01	Russia	Energy Minerals	negative	-1	macro
-2026-03-01	Tehran	Energy Minerals	negative	-1	macro
-2026-03-01	U.S.	Energy Minerals	negative	-1	macro
-2026-03-01	U.S.	Energy Minerals	negative	-1	macro
-2026-03-01	UBS	Technology Services	positive	1	products
-2026-03-02	Apple	Electronic Technology	positive	1	products
-2026-03-02	Berkshire Hathaway	Finance	negative	-1	earnings
-2026-03-02	Brent Crude	Energy Minerals	positive	1	markets
-2026-03-02	Citadel	Finance	positive	1	markets
-2026-03-02	Coherent	Electronic Technology	positive	1	markets
-2026-03-02	Deutsche Telekom	Electronic Technology	neutral	0	products
-2026-03-02	Energy	Energy Minerals	positive	1	macro
-2026-03-02	Lumentum	Electronic Technology	positive	1	markets
-2026-03-02	Nvidia	Electronic Technology	positive	1	markets
-2026-03-02	Oil	Energy Minerals	positive	1	markets
-2026-03-02	QatarEnergy	Energy Minerals	negative	-1	macro
-2026-03-02	SpaceX	Electronic Technology	neutral	0	products
-2026-03-02	Starlink	Electronic Technology	neutral	0	products
-2026-03-02	WTI crude oil	Energy Minerals	positive	1	markets
 2026-03-03	Hanwha Aerospace	Industrial Services	positive	1	markets
 2026-03-03	Luxury stocks	Consumer Durables	negative	-1	markets
 2026-03-03	Mick Mulvaney	Finance	neutral	0	other
@@ -1053,3 +1017,43 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-05-29	Nvidia	Electronic Technology	positive	1	products
 2026-05-29	SentinelOne	Technology Services	negative	-1	earnings
 2026-05-29	SpaceX	Transportation	neutral	0	products
+2026-05-30	China	Communications	neutral	0	other
+2026-05-30	Chinese delegation	Communications	neutral	0	other
+2026-05-30	Congress	Finance	neutral	0	other
+2026-05-30	Donald Trump	Finance	neutral	0	other
+2026-05-30	Dutch	Finance	neutral	0	other
+2026-05-30	Dylan Taylor	Electronic Technology	positive	1	products
+2026-05-30	European defense stocks	Energy Minerals	neutral	0	markets
+2026-05-30	Gregory Smirin	Electronic Technology	positive	1	products
+2026-05-30	Hegseth	Communications	neutral	0	other
+2026-05-30	Manila	Transportation	neutral	0	other
+2026-05-30	Meta	Technology Services	neutral	0	markets
+2026-05-30	Muon Space	Electronic Technology	positive	1	products
+2026-05-30	Philippines	Transportation	neutral	0	other
+2026-05-30	U.S.	Finance	neutral	0	other
+2026-05-30	Voyager Technologies	Electronic Technology	positive	1	products
+2026-05-31	Big C	Consumer Non-Durables	positive	1	other
+2026-05-31	Chang beer	Consumer Non-Durables	positive	1	other
+2026-05-31	Foundation Robotics Labs	Electronic Technology	neutral	0	products
+2026-05-31	Fraser & Neave	Consumer Non-Durables	positive	1	other
+2026-05-31	Japan	Transportation	neutral	0	macro
+2026-05-31	Thapanee Techajareonvikul	Consumer Non-Durables	positive	1	other
+2026-05-31	defense minister	Transportation	neutral	0	macro
+2026-06-01	ASUS	Electronic Technology	positive	1	products
+2026-06-01	Alphabet	Finance	positive	1	markets
+2026-06-01	Anthropic	Electronic Technology	neutral	0	products
+2026-06-01	Berkshire Hathaway	Finance	positive	1	markets
+2026-06-01	Berkshire Hathaway	Finance	positive	1	markets
+2026-06-01	Dell	Electronic Technology	positive	1	products
+2026-06-01	Google	Electronic Technology	neutral	0	products
+2026-06-01	HP	Electronic Technology	positive	1	products
+2026-06-01	HPE	Technology Services	positive	1	earnings
+2026-06-01	MGM Resorts	Consumer Non-Durables	neutral	0	markets
+2026-06-01	Masayoshi Son	Electronic Technology	positive	1	markets
+2026-06-01	Microsoft	Electronic Technology	neutral	0	products
+2026-06-01	Microsoft	Electronic Technology	positive	1	products
+2026-06-01	Nvidia	Electronic Technology	positive	1	products
+2026-06-01	OpenAI	Electronic Technology	neutral	0	products
+2026-06-01	Softbank	Electronic Technology	positive	1	markets
+2026-06-01	SpaceX	Transportation	neutral	0	markets
+2026-06-01	Taylor Morrison	Finance	positive	1	markets

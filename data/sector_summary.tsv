@@ -1876,3 +1876,22 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-05-29	Transportation	SpaceX|Elon Musk	neutral	products	ok
 2026-05-29	Electronic Technology	Nvidia	positive	products	ok
 2026-05-29	Technology Services	SentinelOne	negative	earnings	ok
+2026-05-30	Electronic Technology	Muon Space|Gregory Smirin|Voyager Technologies|Dylan Taylor	positive	products	ok
+2026-05-30	Energy Minerals	European defense stocks	neutral	markets	ok
+2026-05-30	Technology Services	Meta	neutral	markets	ok
+2026-05-30	Communications	Chinese delegation	neutral	other	ok
+2026-05-30	Transportation	Philippines|Manila	neutral	other	ok
+2026-05-30	Finance	U.S.|Congress|Donald Trump	neutral	other	ok
+2026-05-30	Finance	Dutch	neutral	other	ok
+2026-05-30	Communications	Hegseth|China	neutral	other	ok
+2026-05-31	Consumer Non-Durables	Thapanee Techajareonvikul|Chang beer|Big C|Fraser & Neave	positive	other	ok
+2026-05-31	Electronic Technology	Foundation Robotics Labs	neutral	products	ok
+2026-05-31	Transportation	Japan|defense minister	neutral	macro	ok
+2026-06-01	Finance	Alphabet|Berkshire Hathaway	positive	markets	ok
+2026-06-01	Technology Services	HPE	positive	earnings	ok
+2026-06-01	Electronic Technology	Microsoft|Google|Anthropic|OpenAI	neutral	products	ok
+2026-06-01	Electronic Technology	Nvidia|Dell|Microsoft|HP|ASUS	positive	products	ok
+2026-06-01	Transportation	SpaceX	neutral	markets	ok
+2026-06-01	Finance	Berkshire Hathaway|Taylor Morrison	positive	markets	ok
+2026-06-01	Consumer Non-Durables	MGM Resorts	neutral	markets	ok
+2026-06-01	Electronic Technology	Softbank|Masayoshi Son	positive	markets	ok

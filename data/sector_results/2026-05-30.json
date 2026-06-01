@@ -1,0 +1,85 @@
+{
+  "date": "2026-05-30",
+  "batch_id": "batch_6a1e00b751fc8190a3167f3861cf072b",
+  "sectors": [
+    {
+      "entities": [
+        "Muon Space",
+        "Gregory Smirin",
+        "Voyager Technologies",
+        "Dylan Taylor"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "European defense stocks"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Meta"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Chinese delegation"
+      ],
+      "sector": "Communications",
+      "sentiment": "neutral",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Philippines",
+        "Manila"
+      ],
+      "sector": "Transportation",
+      "sentiment": "neutral",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "U.S.",
+        "Congress",
+        "Donald Trump"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Dutch"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Hegseth",
+        "China"
+      ],
+      "sector": "Communications",
+      "sentiment": "neutral",
+      "news_category": "other",
+      "extraction_status": "ok"
+    }
+  ]
+}

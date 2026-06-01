@@ -1,0 +1,37 @@
+{
+  "date": "2026-05-31",
+  "batch_id": "batch_6a1e00b751fc8190a3167f3861cf072b",
+  "sectors": [
+    {
+      "entities": [
+        "Thapanee Techajareonvikul",
+        "Chang beer",
+        "Big C",
+        "Fraser & Neave"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "positive",
+      "news_category": "other",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Foundation Robotics Labs"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Japan",
+        "defense minister"
+      ],
+      "sector": "Transportation",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    }
+  ]
+}
