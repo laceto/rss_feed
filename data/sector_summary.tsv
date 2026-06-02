@@ -1895,3 +1895,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-06-01	Finance	Berkshire Hathaway|Taylor Morrison	positive	markets	ok
 2026-06-01	Consumer Non-Durables	MGM Resorts	neutral	markets	ok
 2026-06-01	Electronic Technology	Softbank|Masayoshi Son	positive	markets	ok
+2026-06-02	Electronic Technology	Palo Alto Networks	positive	earnings	ok
+2026-06-02	Finance	Wall Street exchanges	negative	markets	ok
+2026-06-02	Producer Manufacturing	Berkshire Hathaway	neutral	other	ok
+2026-06-02	Consumer Non-Durables	Ulta Beauty	positive	earnings	ok
+2026-06-02	Electronic Technology	Microsoft	positive	products	ok
+2026-06-02	Electronic Technology	Nvidia	positive	products	ok
+2026-06-02	Electronic Technology	HPE	positive	earnings	ok
+2026-06-02	Consumer Non-Durables	Victoria's Secret	positive	earnings	ok
