@@ -32,6 +32,7 @@ jobs:
       run: pip install openai pydantic python-dotenv pandas datasets huggingface_hub
 
     - name: Push new feeds to Hugging Face
+      continue-on-error: true  # HF 429 rate-limits are transient; git commit preserves the data
       env:
         HF_TOKEN: ${{ secrets.HF_TOKEN }}
         HUGGINGFACE_REPO: ${{ secrets.HUGGINGFACE_REPO }}

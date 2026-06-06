@@ -118,6 +118,7 @@ jobs:
 
       - name: Push analysis datasets to Hugging Face
         if: steps.check.outputs.pending == 'true'
+        continue-on-error: true  # HF 429 rate-limits are transient; git commit preserves the data
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           HUGGINGFACE_REPO: ${{ secrets.HUGGINGFACE_REPO }}
