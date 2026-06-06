@@ -1,0 +1,159 @@
+{
+  "date": "2026-05-22",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "6e5c8e83-af63-49c2-a8d2-61d97a66e25d",
+      "label": "Strait of Hormuz Oil Tensions",
+      "spike_ratio": 1.894,
+      "article_count": 25,
+      "sentiment_score": 0.3850476190476191,
+      "rag_answer": "Tensions in the Strait of Hormuz have significantly impacted the global oil market, with the waterway experiencing closures due to ongoing conflict involving Iran, the U.S., and Israel. As a result, oil prices have fluctuated dramatically, with spikes when the strait was closed and drops following declarations of its reopening amid ceasefire agreements. Industry leaders, including the CEO of Saudi Aramco, have warned that normalization of the oil market may not occur until 2027 if disruptions continue. The situation remains volatile, with fears of potential fees imposed by Iran on shipping and ongoing geopolitical negotiations influencing market sentiment.",
+      "rag_sources": [
+        {
+          "title": "Oil tankers transiting Strait of Hormuz 'must be very careful,' Iran Foreign Ministry warns",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/iran-war-oil-tankers-strait-of-hormuz.html",
+          "snippet": "2026-03-09: Oil tankers transiting Strait of Hormuz 'must be very careful,' Iran Foreign Ministry warns: The price of crude oil has sharply spiked as the Strait of Hormuz has been effectively closed a",
+          "guid": "108275520"
+        },
+        {
+          "title": "U.S. oil price plunges below $84 as Iran declares Strait of Hormuz open, easing supply fears ",
+          "date": "2026-04-17",
+          "link": "https://www.cnbc.com/2026/04/17/oil-prices-wti-brent-israel-lebanon-ceasefire-trump.html",
+          "snippet": "2026-04-17: U.S. oil price plunges below $84 as Iran declares Strait of Hormuz open, easing supply fears: Oil prices tumbled more than 11% after Iran declared the Strait of Hormuz open amid a ceasefir",
+          "guid": "108292913"
+        },
+        {
+          "title": "Saudi Aramco CEO says oil market won't normalize until 2027 if Hormuz disruption persists ",
+          "date": "2026-05-11",
+          "link": "https://www.cnbc.com/2026/05/11/saudi-aramco-oil-iran-war-strait-hormuz.html",
+          "snippet": "2026-05-11: Saudi Aramco CEO says oil market won't normalize until 2027 if Hormuz disruption persists: Oil inventories are rapidly drawing down as the Strait of Hormuz remains closed, Saudi Aramco CEO",
+          "guid": "108304933"
+        },
+        {
+          "title": "Trump says U.S. will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure",
+          "date": "2026-05-04",
+          "link": "https://www.cnbc.com/2026/05/03/trump-iran-strait-of-hormuz-trapped-ships.html",
+          "snippet": "2026-05-04: Trump says U.S. will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure: Vessels have been largely unable to pass through the Strait of Hormuz for months, disrupting key supp",
+          "guid": "108301292"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.583,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "4ef5b11c-ddd2-41a2-beb1-3050b4e18b77",
+      "label": "Treasury Yields and Iran Conflict",
+      "spike_ratio": 1.458,
+      "article_count": 21,
+      "sentiment_score": 0.3619614512471655,
+      "rag_answer": "Treasury yields have shown volatility in response to the ongoing conflict in Iran, fluctuating based on developments in negotiations and military actions. Initially, yields rose as optimism for a ceasefire faded and tensions escalated, particularly with rising oil prices impacting market sentiment. However, following a recent ceasefire agreement, yields fell sharply, indicating a temporary relief in investor anxiety. Overall, the market remains sensitive to geopolitical developments, with yields reflecting the uncertainty surrounding the U.S.-Iran situation and its broader implications for the economy.",
+      "rag_sources": [
+        {
+          "title": "10-year Treasury yield is little changed as investors monitor developments with Iran war",
+          "date": "2026-04-01",
+          "link": "https://www.cnbc.com/2026/04/01/treasury-yields-fall-as-iran-peace-hopes-fuel-relief-rally-.html",
+          "snippet": "2026-04-01: 10-year Treasury yield is little changed as investors monitor developments with Iran war: The 10-year Treasury yield was relatively unchanged on Wednesday as investors assessed the prospec",
+          "guid": "108285838"
+        },
+        {
+          "title": "Treasury yields rise as Iran ceasefire optimism fades ",
+          "date": "2026-03-26",
+          "link": "https://www.cnbc.com/2026/03/26/treasury-yields-rise-uncertainty-ceasefire-talks.html",
+          "snippet": "2026-03-26: Treasury yields rise as Iran ceasefire optimism fades: Treasury yields rose on Thursday as investors digested mixed messages around the state of negotiations between the U.S. and Iran.",
+          "guid": "108283276"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "Treasury yields are little changed as Trump reiterates Iran infrastructure threat, sending oil higher",
+          "date": "2026-04-07",
+          "link": "https://www.cnbc.com/2026/04/07/treasury-yields-rise-as-trump-reiterates-iran-infrastructure-threat.html",
+          "snippet": "2026-04-07: Treasury yields are little changed as Trump reiterates Iran infrastructure threat, sending oil higher: Treasury yields were relatively unchanged on Tuesday as President Donald Trump again ",
+          "guid": "108287776"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.4,
+          "mean_sentiment_score": 0.4,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "d5a83771-8025-4a89-b9fc-bec0cb6b38fe",
+      "label": "Trump White House ballroom controversy",
+      "spike_ratio": 1.335,
+      "article_count": 43,
+      "sentiment_score": 0.2910416666666666,
+      "rag_answer": "The Trump White House ballroom project has faced significant controversy and legal challenges, including a lawsuit from the National Trust for Historic Preservation, which argues that federal approvals were necessary before demolishing the historic East Wing. Despite a federal judge blocking construction, the project received approval from the National Capital Planning Commission, and Congressional Republicans are rallying to secure $400 million in federal funding. Critics label the ballroom a \"vanity\" project, while Trump defends it as a matter of national security, especially following a recent shooting incident. The financing of the $300 million project involves contributions from Big Tech and other corporate donors, raising concerns about the influence of corporate money in political projects.",
+      "rag_sources": [
+        {
+          "title": "White House calls Trump ballroom demolition work furor 'manufactured outrage'",
+          "date": "2025-10-21",
+          "link": "https://www.cnbc.com/2025/10/21/trump-white-house-ballroom-demoltion-treasury.html",
+          "snippet": "2025-10-21: White House calls Trump ballroom demolition work furor 'manufactured outrage': President Donald Trump said in July that construction of his White House ballroom \\won't interfere with the c",
+          "guid": "108214688"
+        },
+        {
+          "title": "Judge blocks Trump White House ballroom project for now",
+          "date": "2026-03-31",
+          "link": "https://www.cnbc.com/2026/03/31/trump-white-house-ballroom-judge.html",
+          "snippet": "2026-03-31: Judge blocks Trump White House ballroom project for now: The National Trust for Historic Preservation in the United States sued President Trump and the National Park Service over the White",
+          "guid": "108285617"
+        },
+        {
+          "title": "Trump White House ballroom unlikely to get WHCD buy-in \u2014 or end president's off-site events, critics say",
+          "date": "2026-04-28",
+          "link": "https://www.cnbc.com/2026/04/28/trump-white-house-ballroom-whcd.html",
+          "snippet": "2026-04-28: Trump White House ballroom unlikely to get WHCD buy-in \u2014 or end president's off-site events, critics say: Critics say a White House ballroom would be a \\vanity\\\" project for President Dona",
+          "guid": "108297974"
+        },
+        {
+          "title": "Judge blocks above-ground construction of Trump's White House ballroom, administration appeals",
+          "date": "2026-04-16",
+          "link": "https://www.cnbc.com/2026/04/16/white-house-ballroom-trump-judge.html",
+          "snippet": "2026-04-16: Judge blocks above-ground construction of Trump's White House ballroom, administration appeals: The White House's East Wing was demolished to build a 90,000 square-foot ballroom sought by ",
+          "guid": "108292607"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "0c0d6002-645d-4d5b-93ee-2eb5f3b4205b",
+      "label": NaN,
+      "spike_ratio": 1.123,
+      "article_count": 16,
+      "sentiment_score": 0.4575892857142857,
+      "rag_answer": "",
+      "rag_sources": [],
+      "sectors": []
+    },
+    {
+      "topic_id": "6fee283d-ffbb-4267-a21d-4fc542922500",
+      "label": NaN,
+      "spike_ratio": 1.105,
+      "article_count": 19,
+      "sentiment_score": 0.4953007518796992,
+      "rag_answer": "",
+      "rag_sources": [],
+      "sectors": []
+    }
+  ]
+}

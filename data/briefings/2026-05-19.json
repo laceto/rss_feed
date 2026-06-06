@@ -1,0 +1,204 @@
+{
+  "date": "2026-05-19",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "6e5c8e83-af63-49c2-a8d2-61d97a66e25d",
+      "label": "Strait of Hormuz Oil Tensions",
+      "spike_ratio": 1.182,
+      "article_count": 13,
+      "sentiment_score": 0.3869047619047619,
+      "rag_answer": "Tensions in the Strait of Hormuz have significantly impacted the global oil market, with the strait being effectively closed due to ongoing conflict involving the U.S. and Israel against Iran. This closure has led to sharp spikes in oil prices, with fears of supply disruptions causing volatility in the market. However, following a ceasefire agreement, Iran declared the strait open, resulting in a notable drop in oil prices. Despite this, concerns remain about potential fees for tankers and the overall stability of oil supplies, with industry leaders warning that normalization may not occur until 2027 if disruptions continue.",
+      "rag_sources": [
+        {
+          "title": "Oil tankers transiting Strait of Hormuz 'must be very careful,' Iran Foreign Ministry warns",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/iran-war-oil-tankers-strait-of-hormuz.html",
+          "snippet": "2026-03-09: Oil tankers transiting Strait of Hormuz 'must be very careful,' Iran Foreign Ministry warns: The price of crude oil has sharply spiked as the Strait of Hormuz has been effectively closed a",
+          "guid": "108275520"
+        },
+        {
+          "title": "U.S. oil price plunges below $84 as Iran declares Strait of Hormuz open, easing supply fears ",
+          "date": "2026-04-17",
+          "link": "https://www.cnbc.com/2026/04/17/oil-prices-wti-brent-israel-lebanon-ceasefire-trump.html",
+          "snippet": "2026-04-17: U.S. oil price plunges below $84 as Iran declares Strait of Hormuz open, easing supply fears: Oil prices tumbled more than 11% after Iran declared the Strait of Hormuz open amid a ceasefir",
+          "guid": "108292913"
+        },
+        {
+          "title": "Saudi Aramco CEO says oil market won't normalize until 2027 if Hormuz disruption persists ",
+          "date": "2026-05-11",
+          "link": "https://www.cnbc.com/2026/05/11/saudi-aramco-oil-iran-war-strait-hormuz.html",
+          "snippet": "2026-05-11: Saudi Aramco CEO says oil market won't normalize until 2027 if Hormuz disruption persists: Oil inventories are rapidly drawing down as the Strait of Hormuz remains closed, Saudi Aramco CEO",
+          "guid": "108304933"
+        },
+        {
+          "title": "Trump says U.S. will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure",
+          "date": "2026-05-04",
+          "link": "https://www.cnbc.com/2026/05/03/trump-iran-strait-of-hormuz-trapped-ships.html",
+          "snippet": "2026-05-04: Trump says U.S. will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure: Vessels have been largely unable to pass through the Strait of Hormuz for months, disrupting key supp",
+          "guid": "108301292"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.583,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "6fee283d-ffbb-4267-a21d-4fc542922500",
+      "label": NaN,
+      "spike_ratio": 1.172,
+      "article_count": 17,
+      "sentiment_score": 0.5462184873949579,
+      "rag_answer": "",
+      "rag_sources": [],
+      "sectors": []
+    },
+    {
+      "topic_id": "d872c7c8-3d06-4af7-ae3b-919f00442bfb",
+      "label": "Software Stocks and AI Trends",
+      "spike_ratio": 1.078,
+      "article_count": 11,
+      "sentiment_score": 0.2662337662337662,
+      "rag_answer": "Software stocks are currently facing significant pressure due to fears of disruption from artificial intelligence, leading to a notable sell-off in the sector. Despite some recent rebounds, concerns persist that new AI tools could displace traditional software business models, prompting analysts to identify potential buying opportunities amidst the declines. The market is experiencing volatility as investors react to announcements from AI companies like Anthropic, which have heightened fears of an impending \"AI day of reckoning.\" Overall, the software sector is navigating a challenging landscape, with ongoing debates about the long-term implications of AI on its viability and growth.",
+      "rag_sources": [
+        {
+          "title": "Software stocks are selling off, but this big name may be worth another look, charts show",
+          "date": "2026-02-04",
+          "link": "https://www.cnbc.com/2026/02/04/software-stocks-are-selling-off-but-this-big-name-may-be-worth-another-look-charts-show.html",
+          "snippet": "2026-02-04: Software stocks are selling off, but this big name may be worth another look, charts show: Software stocks have been suffering as fears of disruption from artificial intelligence rattle th",
+          "guid": "108261430"
+        },
+        {
+          "title": "Software stocks rebound as Anthropic announces new partnerships",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/software-stocks-anthropic-ai.html",
+          "snippet": "2026-02-24: Software stocks rebound as Anthropic announces new partnerships: Cybersecurity and software names have sold off heavily in recent weeks as investors fretted about potential disruption from",
+          "guid": "108269165"
+        },
+        {
+          "title": "AI fears are hitting software stocks the hardest. Citi sees a buying opportunity in many names",
+          "date": "2026-02-16",
+          "link": "https://www.cnbc.com/2026/02/16/ai-fears-hitting-software-stocks-citi-sees-opportunity-in-many-names.html",
+          "snippet": "2026-02-16: AI fears are hitting software stocks the hardest. Citi sees a buying opportunity in many names: Citi chose software stocks with earnings momentum and declines of more than 10% in the last ",
+          "guid": "108265587"
+        },
+        {
+          "title": "The stocks set to win as AI spend continues to soar: Analysts",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/the-stocks-set-to-win-from-soaring-ai-spend-according-to-analysts.html",
+          "snippet": "2025-11-07: The stocks set to win as AI spend continues to soar: Analysts: While Big Tech deals draw eyeballs, opportunities lie in those flying under the radar but supporting the AI supply chain.",
+          "guid": "108222221"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.583,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "689eea93-34bb-4a6a-8037-ec5ec063a3fd",
+      "label": "Spirit Airlines bailout efforts",
+      "spike_ratio": 1.048,
+      "article_count": 13,
+      "sentiment_score": 0.2802579365079364,
+      "rag_answer": "Spirit Airlines has been in a precarious financial situation, filing for Chapter 11 bankruptcy protection twice within a year and warning of its inability to survive without additional cash. Recent developments include talks with the Trump administration for a potential government rescue package, as well as negotiations with bondholders for a $475 million lifeline. However, despite these efforts, the airline ultimately ceased operations after a failed bailout attempt, highlighting the challenges faced by struggling carriers in a volatile market. The situation underscores the broader implications for the airline industry and investor confidence in the face of ongoing financial instability.",
+      "rag_sources": [
+        {
+          "title": "Spirit Airlines lawyer says cash 'not going to last for very much longer,' but government rescue on the table",
+          "date": "2026-04-23",
+          "link": "https://www.cnbc.com/2026/04/23/spirit-airlines-bankruptcy-court-rescue.html",
+          "snippet": "2026-04-23: Spirit Airlines lawyer says cash 'not going to last for very much longer,' but government rescue on the table: Spirit Airlines confirmed it is in talks with the Trump administration for a ",
+          "guid": "108296256"
+        },
+        {
+          "title": "Spirit Airlines on track for a $475 million bankruptcy lifeline",
+          "date": "2025-10-01",
+          "link": "https://www.cnbc.com/2025/09/30/spirit-airlines-bankruptcy.html",
+          "snippet": "2025-10-01: Spirit Airlines on track for a $475 million bankruptcy lifeline: Spirit Airlines has reached an agreement with some of its debtholders for up to $475 million in debtor-in-possession financ",
+          "guid": "108205896"
+        },
+        {
+          "title": "Spirit Airlines is in deal talks with investment firm Castlelake as struggling carrier seeks path forward",
+          "date": "2026-01-22",
+          "link": "https://www.cnbc.com/2026/01/22/spirit-airlines-deal-talks-castlelake.html",
+          "snippet": "2026-01-22: Spirit Airlines is in deal talks with investment firm Castlelake as struggling carrier seeks path forward: Spirit Airlines is in talks with investment firm Castlelake for a potential takeo",
+          "guid": "108255034"
+        },
+        {
+          "title": "Spirit Airlines wins approval for $475 million lifeline in bankruptcy court",
+          "date": "2025-10-10",
+          "link": "https://www.cnbc.com/2025/10/10/spirit-airlines-bankruptcy-court-approves-lifeline-financing.html",
+          "snippet": "2025-10-10: Spirit Airlines wins approval for $475 million lifeline in bankruptcy court: Spirit Airlines will get a $475 million lifeline from its bondholders and another $150 million from an aircraft",
+          "guid": "108210815"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.583,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "4ef5b11c-ddd2-41a2-beb1-3050b4e18b77",
+      "label": "Treasury Yields and Iran Conflict",
+      "spike_ratio": 1.048,
+      "article_count": 13,
+      "sentiment_score": 0.4542124542124541,
+      "rag_answer": "Treasury yields have shown volatility in response to the ongoing conflict in Iran, fluctuating based on developments in negotiations and military actions. Initially, yields rose as optimism for a ceasefire faded and tensions escalated, particularly with rising oil prices impacting market sentiment. However, following a recent ceasefire agreement, yields fell sharply, indicating a temporary relief in investor anxiety. Overall, the market remains sensitive to geopolitical developments, with yields reflecting the uncertainty surrounding the U.S.-Iran situation and its broader implications for the economy.",
+      "rag_sources": [
+        {
+          "title": "10-year Treasury yield is little changed as investors monitor developments with Iran war",
+          "date": "2026-04-01",
+          "link": "https://www.cnbc.com/2026/04/01/treasury-yields-fall-as-iran-peace-hopes-fuel-relief-rally-.html",
+          "snippet": "2026-04-01: 10-year Treasury yield is little changed as investors monitor developments with Iran war: The 10-year Treasury yield was relatively unchanged on Wednesday as investors assessed the prospec",
+          "guid": "108285838"
+        },
+        {
+          "title": "Treasury yields rise as Iran ceasefire optimism fades ",
+          "date": "2026-03-26",
+          "link": "https://www.cnbc.com/2026/03/26/treasury-yields-rise-uncertainty-ceasefire-talks.html",
+          "snippet": "2026-03-26: Treasury yields rise as Iran ceasefire optimism fades: Treasury yields rose on Thursday as investors digested mixed messages around the state of negotiations between the U.S. and Iran.",
+          "guid": "108283276"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "Treasury yields are little changed as Trump reiterates Iran infrastructure threat, sending oil higher",
+          "date": "2026-04-07",
+          "link": "https://www.cnbc.com/2026/04/07/treasury-yields-rise-as-trump-reiterates-iran-infrastructure-threat.html",
+          "snippet": "2026-04-07: Treasury yields are little changed as Trump reiterates Iran infrastructure threat, sending oil higher: Treasury yields were relatively unchanged on Tuesday as President Donald Trump again ",
+          "guid": "108287776"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.4,
+          "mean_sentiment_score": 0.4,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

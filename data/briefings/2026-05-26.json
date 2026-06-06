@@ -1,0 +1,159 @@
+{
+  "date": "2026-05-26",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "2fbfc251-eaea-4872-8901-6018815599e6",
+      "label": "AI Demand and Chip Earnings",
+      "spike_ratio": 1.436,
+      "article_count": 29,
+      "sentiment_score": 0.3610837438423645,
+      "rag_answer": "Demand for AI chips is surging, driven by the rapid growth of artificial intelligence infrastructure, leading to significant earnings boosts for companies like Nvidia, AMD, and Broadcom. This boom has resulted in shortages of key components, impacting prices and availability in consumer electronics. Analysts are optimistic about the continued profitability of chip stocks, with expectations of historic gains as the AI market expands. However, concerns about potential market bubbles and the sustainability of this growth remain, as the industry navigates challenges such as supply chain disruptions and geopolitical tensions.",
+      "rag_sources": [
+        {
+          "title": "These funds protect against market drops. Demand is booming",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/these-funds-protect-against-market-drops-demand-is-booming.html",
+          "snippet": "2026-02-11: These funds protect against market drops. Demand is booming: Buffer ETFs could see assets quadruple over a five-year period, according to Cerulli Associates. What to know before investing.",
+          "guid": "108264590"
+        },
+        {
+          "title": "Micron stops selling memory to consumers as demand spikes from AI chips",
+          "date": "2025-12-03",
+          "link": "https://www.cnbc.com/2025/12/03/micron-stops-selling-memory-to-consumers-demand-spikes-from-ai-chips.html",
+          "snippet": "2025-12-03: Micron stops selling memory to consumers as demand spikes from AI chips: Demand driven by the AI infrastructure boom is creating shortages for certain products like memory.",
+          "guid": "108236104"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Chip stocks including Nvidia are holding up despite market volatility, according to the charts",
+          "date": "2026-03-10",
+          "link": "https://www.cnbc.com/2026/03/10/chip-stocks-including-nvidia-are-holding-up-despite-market-volatility-according-to-the-charts.html",
+          "snippet": "2026-03-10: Chip stocks including Nvidia are holding up despite market volatility, according to the charts: Todd Gordon takes a look at the technicals in Nvidia and other chipmakers.",
+          "guid": "108276190"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.583,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "6e5c8e83-af63-49c2-a8d2-61d97a66e25d",
+      "label": "Strait of Hormuz Oil Tensions",
+      "spike_ratio": 1.319,
+      "article_count": 24,
+      "sentiment_score": 0.3703373015873015,
+      "rag_answer": "Tensions in the Strait of Hormuz have escalated significantly due to ongoing conflicts involving Iran, the U.S., and Israel, leading to a temporary closure of the strait, which is a critical chokepoint for global oil shipments. This disruption has caused oil prices to spike, with reports indicating that the market is short nearly 1 billion barrels due to the conflict. However, following a ceasefire agreement, Iran declared the strait open, resulting in a sharp decline in oil prices. Despite this, concerns remain about potential fees imposed by Iran on tankers and the overall stability of the oil market, with experts predicting that normalization may not occur until 2027 if disruptions continue.",
+      "rag_sources": [
+        {
+          "title": "Oil tankers transiting Strait of Hormuz 'must be very careful,' Iran Foreign Ministry warns",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/iran-war-oil-tankers-strait-of-hormuz.html",
+          "snippet": "2026-03-09: Oil tankers transiting Strait of Hormuz 'must be very careful,' Iran Foreign Ministry warns: The price of crude oil has sharply spiked as the Strait of Hormuz has been effectively closed a",
+          "guid": "108275520"
+        },
+        {
+          "title": "U.S. oil price plunges below $84 as Iran declares Strait of Hormuz open, easing supply fears ",
+          "date": "2026-04-17",
+          "link": "https://www.cnbc.com/2026/04/17/oil-prices-wti-brent-israel-lebanon-ceasefire-trump.html",
+          "snippet": "2026-04-17: U.S. oil price plunges below $84 as Iran declares Strait of Hormuz open, easing supply fears: Oil prices tumbled more than 11% after Iran declared the Strait of Hormuz open amid a ceasefir",
+          "guid": "108292913"
+        },
+        {
+          "title": "Saudi Aramco CEO says oil market won't normalize until 2027 if Hormuz disruption persists ",
+          "date": "2026-05-11",
+          "link": "https://www.cnbc.com/2026/05/11/saudi-aramco-oil-iran-war-strait-hormuz.html",
+          "snippet": "2026-05-11: Saudi Aramco CEO says oil market won't normalize until 2027 if Hormuz disruption persists: Oil inventories are rapidly drawing down as the Strait of Hormuz remains closed, Saudi Aramco CEO",
+          "guid": "108304933"
+        },
+        {
+          "title": "Trump says U.S. will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure",
+          "date": "2026-05-04",
+          "link": "https://www.cnbc.com/2026/05/03/trump-iran-strait-of-hormuz-trapped-ships.html",
+          "snippet": "2026-05-04: Trump says U.S. will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure: Vessels have been largely unable to pass through the Strait of Hormuz for months, disrupting key supp",
+          "guid": "108301292"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.583,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "ad9919d0-c596-4484-b51f-cec82c0c07a6",
+      "label": "Iran conflict and stock market",
+      "spike_ratio": 1.081,
+      "article_count": 16,
+      "sentiment_score": 0.2511160714285714,
+      "rag_answer": "The Iran conflict has significantly influenced the stock market, with volatility observed since the U.S. and Israel's military actions began. Initially, stocks remained calm, but as the conflict extended into weeks, concerns about economic impacts grew, leading to fluctuations in oil prices and market sentiment. Despite these challenges, global stocks managed to recover losses and reach record levels, partly due to investor optimism regarding potential resolutions and Trump's assurances about the economic recovery. However, ongoing geopolitical tensions continue to create uncertainty, prompting investors to remain cautious and closely monitor developments.",
+      "rag_sources": [
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "The stock market isn't ignoring Iran. It's rising for these three very real reasons",
+          "date": "2026-05-12",
+          "link": "https://www.cnbc.com/2026/05/12/the-stock-market-isnt-ignoring-iran-its-rising-for-these-three-very-real-reasons.html",
+          "snippet": "2026-05-12: The stock market isn't ignoring Iran. It's rising for these three very real reasons: It's time to take a closer look with stocks rallying into the third month of the U.S.-Iran conflict.",
+          "guid": "108305200"
+        },
+        {
+          "title": "The clock is ticking for the stock market as the Iran war stretches into a fourth week ",
+          "date": "2026-03-20",
+          "link": "https://www.cnbc.com/2026/03/20/stock-market-next-week-outlook-for-march-23-27-2026-.html",
+          "snippet": "2026-03-20: The clock is ticking for the stock market as the Iran war stretches into a fourth week: Stocks have been largely calm since the start of the U.S. war in Iran, but the latest headlines coul",
+          "guid": "108280512"
+        },
+        {
+          "title": "Trump says oil and stock market reaction to Iran conflict not as severe as he expected",
+          "date": "2026-03-26",
+          "link": "https://www.cnbc.com/2026/03/26/trump-iran-war-oil-stocks.html",
+          "snippet": "2026-03-26: Trump says oil and stock market reaction to Iran conflict not as severe as he expected: Trump expressed confidence in the war effort and said the economic damage will reverse.",
+          "guid": "108283503"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "a48d606d-4db7-44dd-a739-16803814c2fe",
+      "label": NaN,
+      "spike_ratio": 1.041,
+      "article_count": 17,
+      "sentiment_score": 0.3512605042016807,
+      "rag_answer": "",
+      "rag_sources": [],
+      "sectors": []
+    },
+    {
+      "topic_id": "6fee283d-ffbb-4267-a21d-4fc542922500",
+      "label": NaN,
+      "spike_ratio": 1.033,
+      "article_count": 19,
+      "sentiment_score": 0.4953007518796992,
+      "rag_answer": "",
+      "rag_sources": [],
+      "sectors": []
+    }
+  ]
+}

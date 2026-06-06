@@ -86,7 +86,7 @@ def phase1_cluster(dates: list[date], sleep_s: float) -> dict:
             continue
 
         print(f"[{i:>3}/{total}] {ds}  clustering ...", flush=True)
-        rc = _run([sys.executable, "cluster_topics.py", "--date", ds, "--skip-labeling"])
+        rc = _run([sys.executable, "-m", "pipeline.cluster_topics", "--date", ds, "--skip-labeling"])
 
         if rc == 0:
             stats["clustered"] += 1
@@ -120,7 +120,7 @@ def phase2_briefing(dates: list[date], use_rag: bool, sleep_s: float) -> dict:
             continue
 
         print(f"[{i:>3}/{total}] {ds}  briefing ...", flush=True)
-        cmd = [sys.executable, "daily_briefing.py", "--date", ds, "--save"]
+        cmd = [sys.executable, "enrich/daily_briefing.py", "--date", ds, "--save"]
         if not use_rag:
             cmd.append("--no-rag")
 

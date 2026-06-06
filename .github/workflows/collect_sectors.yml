@@ -105,7 +105,7 @@ jobs:
         # Exit code 2 = ClusteringAborted (degenerate run) — treated as warning,
         # not a pipeline failure. The commit step will simply have no new topic files.
         run: |
-          rc=0; python enrich/cluster_topics.py || rc=$?
+          rc=0; python -m pipeline.cluster_topics || rc=$?
           if [ $rc -eq 2 ]; then
             echo "Clustering aborted (degenerate run — skipping topic output)"
           elif [ $rc -ne 0 ]; then

@@ -1,0 +1,195 @@
+{
+  "date": "2026-05-14",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "ad0fef60-4749-4e85-809e-e1e6af36a370",
+      "label": "Kevin Warsh Fed Chair Nomination",
+      "spike_ratio": 1.832,
+      "article_count": 59,
+      "sentiment_score": 0.2881759483454398,
+      "rag_answer": "Kevin Warsh has been nominated by President Trump to succeed Jerome Powell as the Federal Reserve chair, with his nomination facing significant scrutiny and hurdles in the Senate. After a contentious confirmation process, Warsh was confirmed by a narrow 51-45 vote, marking a historic low in support for a Fed chair nominee. Investors view Warsh as a credible figure who may advocate for lower interest rates, which has implications for market dynamics, particularly as the Fed navigates inflation and labor market challenges. His confirmation comes amid ongoing investigations into Powell, adding complexity to the Fed's leadership transition.",
+      "rag_sources": [
+        {
+          "title": "CNBC Daily Open: We'll soon find out who the new Fed chair is",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/cnbc-daily-open-well-soon-find-out-who-the-new-fed-chair-is.html",
+          "snippet": "2026-01-30: CNBC Daily Open: We'll soon find out who the new Fed chair is: Former Fed Governor Kevin Warsh is by far the favorite, according to prediction market Kalshi.",
+          "guid": "108259366"
+        },
+        {
+          "title": "Senate confirms Kevin Warsh as Fed governor, clears way for chair vote ",
+          "date": "2026-05-12",
+          "link": "https://www.cnbc.com/2026/05/12/senate-confirms-kevin-warsh-as-fed-governor-clears-way-for-chair-vote.html",
+          "snippet": "2026-05-12: Senate confirms Kevin Warsh as Fed governor, clears way for chair vote: The upper chamber voted to approve Warsh's nomination by a 51-45 vote, on a mostly party-line basis.",
+          "guid": "108305731"
+        },
+        {
+          "title": "Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/trump-finally-makes-his-fed-chair-pick-what-kevin-warsh-means-for-investors.html",
+          "snippet": "2026-01-30: Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors: Investors see the former Fed governor as a credible steward of monetary policy despite expectations he may pu",
+          "guid": "108259473"
+        },
+        {
+          "title": "Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/who-is-kevin-warsh-trumps-fed-chair-pick.html",
+          "snippet": "2026-01-30: Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve: Kevin Warsh, a former Fed governor, has emerged as Donald Trump\u2019s pick to lead the Federal Reserve.",
+          "guid": "108259461"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.4,
+          "mean_sentiment_score": 0.4,
+          "data_age_days": null
+        },
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.583,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "a6911053-deec-44da-91d1-bfa94b65b030",
+      "label": "S&P 500 Market Analysis",
+      "spike_ratio": 1.581,
+      "article_count": 37,
+      "sentiment_score": 0.3375160875160874,
+      "rag_answer": "The S&P 500 has experienced significant volatility, with periods of both decline and recovery influenced by various factors, including geopolitical tensions, economic data, and corporate earnings. In March 2026, the index faced pressure due to an oil crisis and the ongoing Iran war, leading to a potential third consecutive week of losses. However, by May 2026, the S&P 500 had turned around, extending its winning streak to six weeks, driven by positive earnings reports and economic indicators, alongside a notable AI partnership. Despite these gains, concerns about market dislocations and overbought conditions persist, indicating a cautious outlook among investors.",
+      "rag_sources": [
+        {
+          "title": "S&P 500 is under pressure again from oil crisis, heads for third-straight losing week: Live updates",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/12/stock-market-today-live-updates.html",
+          "snippet": "2026-03-13: S&P 500 is under pressure again from oil crisis, heads for third-straight losing week: Live updates: The S&P 500 fell on Friday, while oil prices extended their gains as investors awaited ",
+          "guid": "108277498"
+        },
+        {
+          "title": "S&P 500 extends winning streak to 6 weeks. What drove the stock market gains",
+          "date": "2026-05-09",
+          "link": "https://www.cnbc.com/2026/05/09/sp-500-extends-winning-streak-to-6-weeks-what-drove-the-stock-market-gains.html",
+          "snippet": "2026-05-09: S&P 500 extends winning streak to 6 weeks. What drove the stock market gains: Investors cheered positive earnings, economic data, and a high-profile AI partnership.",
+          "guid": "108304401"
+        },
+        {
+          "title": "When will the selling stop? Jay Woods and other traders are watching this key S&P 500 level",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/when-will-the-selling-stop-jay-woods-and-others-are-watching-this-key-sp-500-level.html",
+          "snippet": "2026-03-09: When will the selling stop? Jay Woods and other traders are watching this key S&P 500 level: The broad market index is fast approaching its 200-day moving average, which is at 6,582.",
+          "guid": "108275364"
+        },
+        {
+          "title": "NYSE insider Jay Woods is watching these key levels on the S&P 500 and crude oil as U.S.-Iran conflict widens",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/nyse-insider-woods-watching-these-key-levels-on-the-sp-500-crude-oil.html",
+          "snippet": "2026-03-02: NYSE insider Jay Woods is watching these key levels on the S&P 500 and crude oil as U.S.-Iran conflict widens: Beyond the war, this week will see a highly-awaited February jobs report alon",
+          "guid": "108272057"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "13899326-df13-4536-b05e-25c1e06eba1d",
+      "label": "Strait of Hormuz Shipping Tensions",
+      "spike_ratio": 1.464,
+      "article_count": 70,
+      "sentiment_score": 0.2575,
+      "rag_answer": "The Strait of Hormuz has been largely closed for months due to escalating tensions between the U.S. and Iran, significantly disrupting global shipping and supply chains. Despite Iran's declaration that the strait is open to shipping, U.S. blockades remain active, leading to a drastic reduction in vessel traffic\u2014down by 90% compared to pre-conflict levels. This ongoing crisis has triggered volatility in oil prices and raised fears of a global recession if the blockage continues. Market analysts are closely monitoring the situation, as prolonged disruptions could lead to severe impacts on energy markets and broader economic stability.",
+      "rag_sources": [
+        {
+          "title": "The Strait of Hormuz crisis explained: What it means for global shipping",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/strait-of-hormuz-crisis-us-iran-israel-war-shipping-trade-oil.html",
+          "snippet": "2026-03-02: The Strait of Hormuz crisis explained: What it means for global shipping: The Middle East conflict has stoked fears of prolonged disruption to global trade via key maritime corridors.",
+          "guid": "108271796"
+        },
+        {
+          "title": "Trump says U.S. will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure",
+          "date": "2026-05-04",
+          "link": "https://www.cnbc.com/2026/05/03/trump-iran-strait-of-hormuz-trapped-ships.html",
+          "snippet": "2026-05-04: Trump says U.S. will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure: Vessels have been largely unable to pass through the Strait of Hormuz for months, disrupting key supp",
+          "guid": "108301292"
+        },
+        {
+          "title": "European markets close lower as U.S. blockade of Strait of Hormuz begins",
+          "date": "2026-04-13",
+          "link": "https://www.cnbc.com/2026/04/13/european-markets-stoxx-600-ftse-dax-iran-latest-hungary-election.html",
+          "snippet": "2026-04-13: European markets close lower as U.S. blockade of Strait of Hormuz begins: European stocks started the new trading week on a somber note as global traders assess developments in the Middle ",
+          "guid": "108290252"
+        },
+        {
+          "title": "'I never heard of the Strait of Hormuz before this': How one medical supply CEO is navigating the oil price shock",
+          "date": "2026-05-24",
+          "link": "https://www.cnbc.com/2026/05/24/gentell-ceo-iran-war-oil-prices.html",
+          "snippet": "2026-05-24: 'I never heard of the Strait of Hormuz before this': How one medical supply CEO is navigating the oil price shock: Medical supply company Gentell sources raw materials from around the worl",
+          "guid": "108311546"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.583,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "54630781-ac63-4b02-bff7-a1637fea6985",
+      "label": "SpaceX IPO Developments",
+      "spike_ratio": 1.41,
+      "article_count": 22,
+      "sentiment_score": 0.2906385281385281,
+      "rag_answer": "SpaceX is preparing for a highly anticipated IPO, with plans to debut on Nasdaq under the ticker SPCX, potentially making it the largest public offering in history. The company has laid out details for a roadshow starting the week of June 8, aiming to attract significant investor interest. Analysts suggest that the IPO could spark a bull market in space stocks, benefiting various suppliers and competitors, while also raising concerns that it may overshadow other IPOs in the market. Additionally, SpaceX's reliance on its Starlink division for growth has been highlighted in its prospectus, indicating its critical role in the company's future profitability.",
+      "rag_sources": [
+        {
+          "title": "SpaceX IPO filing sparks a bull market in space stocks. How to buy in",
+          "date": "2026-05-26",
+          "link": "https://www.cnbc.com/2026/05/26/spacex-ipo-filing-sparks-a-bull-market-in-space-stocks-how-to-buy-in.html",
+          "snippet": "2026-05-26: SpaceX IPO filing sparks a bull market in space stocks. How to buy in: Analysts see a range of IPO beneficiaries, from suppliers to proxies -- and even competitors",
+          "guid": "108311957"
+        },
+        {
+          "title": "SpaceX stock debut is the big market event of 2026. Why Musk's venture could be biggest IPO ever",
+          "date": "2026-01-02",
+          "link": "https://www.cnbc.com/2026/01/02/spacex-ipo-musk-2026.html",
+          "snippet": "2026-01-02: SpaceX stock debut is the big market event of 2026. Why Musk's venture could be biggest IPO ever: Investors have already thrown their weight behind the company ahead of its planned IPO.",
+          "guid": "108247577"
+        },
+        {
+          "title": "SpaceX IPO prospectus could land as soon as next week, sources say",
+          "date": "2026-05-14",
+          "link": "https://www.cnbc.com/2026/05/14/spacex-ipo-prospectus-could-land-as-soon-as-next-week-sources-say.html",
+          "snippet": "2026-05-14: SpaceX IPO prospectus could land as soon as next week, sources say: Elon Musk's reusable rocket company is getting closer to what's expected to be a record stock market debut.",
+          "guid": "108307224"
+        },
+        {
+          "title": "SpaceX lays out IPO details, targets early June roadshow: Reuters",
+          "date": "2026-04-07",
+          "link": "https://www.cnbc.com/2026/04/07/spacex-lays-out-ipo-details-targets-early-june-roadshow-reuters.html",
+          "snippet": "2026-04-07: SpaceX lays out IPO details, targets early June roadshow: Reuters: The\u00a0Elon Musk-led company\u00a0plans to launch its roadshow the week of June 8, when executives and bankers will pitch the IPO",
+          "guid": "108287745"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "721edf0c-2eb6-4a45-ba89-97db00171c77",
+      "label": NaN,
+      "spike_ratio": 1.235,
+      "article_count": 14,
+      "sentiment_score": 0.241921768707483,
+      "rag_answer": "",
+      "rag_sources": [],
+      "sectors": []
+    }
+  ]
+}

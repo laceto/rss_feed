@@ -1,0 +1,240 @@
+{
+  "date": "2026-05-25",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "2fbfc251-eaea-4872-8901-6018815599e6",
+      "label": "AI Demand and Chip Earnings",
+      "spike_ratio": 1.685,
+      "article_count": 30,
+      "sentiment_score": 0.3657142857142857,
+      "rag_answer": "Demand for AI chips is surging, driven by the rapid growth of AI infrastructure, leading to significant shortages in memory and other components essential for technology products. Companies like Nvidia and AMD are experiencing robust earnings as they capitalize on this trend, with analysts predicting continued profitability for chip stocks due to structural demand in AI applications. The AI boom is not only benefiting established players but also boosting revenues for Chinese chip firms amid U.S. tech curbs. Overall, the market is witnessing a historic rally in chip stocks, reflecting strong investor confidence in the ongoing AI transformation.",
+      "rag_sources": [
+        {
+          "title": "These funds protect against market drops. Demand is booming",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/these-funds-protect-against-market-drops-demand-is-booming.html",
+          "snippet": "2026-02-11: These funds protect against market drops. Demand is booming: Buffer ETFs could see assets quadruple over a five-year period, according to Cerulli Associates. What to know before investing.",
+          "guid": "108264590"
+        },
+        {
+          "title": "Micron stops selling memory to consumers as demand spikes from AI chips",
+          "date": "2025-12-03",
+          "link": "https://www.cnbc.com/2025/12/03/micron-stops-selling-memory-to-consumers-demand-spikes-from-ai-chips.html",
+          "snippet": "2025-12-03: Micron stops selling memory to consumers as demand spikes from AI chips: Demand driven by the AI infrastructure boom is creating shortages for certain products like memory.",
+          "guid": "108236104"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Chip stocks including Nvidia are holding up despite market volatility, according to the charts",
+          "date": "2026-03-10",
+          "link": "https://www.cnbc.com/2026/03/10/chip-stocks-including-nvidia-are-holding-up-despite-market-volatility-according-to-the-charts.html",
+          "snippet": "2026-03-10: Chip stocks including Nvidia are holding up despite market volatility, according to the charts: Todd Gordon takes a look at the technicals in Nvidia and other chipmakers.",
+          "guid": "108276190"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.583,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "d5a83771-8025-4a89-b9fc-bec0cb6b38fe",
+      "label": "Trump White House ballroom controversy",
+      "spike_ratio": 1.392,
+      "article_count": 44,
+      "sentiment_score": 0.2920918367346938,
+      "rag_answer": "The Trump White House ballroom project has faced significant controversy and legal challenges, including a lawsuit from the National Trust for Historic Preservation, which argues that federal approvals were necessary before demolishing the historic East Wing. Despite a federal judge blocking construction, the project received approval from the National Capital Planning Commission, and Congressional Republicans are rallying to secure $400 million in federal funding. Critics label the ballroom a \"vanity\" project, while Trump defends it as a security necessity, especially following a shooting incident at the White House Correspondents' Dinner. The financing of the $300 million project involves contributions from Big Tech and other corporate donors, indicating potential market implications related to corporate influence in political projects.",
+      "rag_sources": [
+        {
+          "title": "White House calls Trump ballroom demolition work furor 'manufactured outrage'",
+          "date": "2025-10-21",
+          "link": "https://www.cnbc.com/2025/10/21/trump-white-house-ballroom-demoltion-treasury.html",
+          "snippet": "2025-10-21: White House calls Trump ballroom demolition work furor 'manufactured outrage': President Donald Trump said in July that construction of his White House ballroom \\won't interfere with the c",
+          "guid": "108214688"
+        },
+        {
+          "title": "Judge blocks Trump White House ballroom project for now",
+          "date": "2026-03-31",
+          "link": "https://www.cnbc.com/2026/03/31/trump-white-house-ballroom-judge.html",
+          "snippet": "2026-03-31: Judge blocks Trump White House ballroom project for now: The National Trust for Historic Preservation in the United States sued President Trump and the National Park Service over the White",
+          "guid": "108285617"
+        },
+        {
+          "title": "Trump White House ballroom unlikely to get WHCD buy-in \u2014 or end president's off-site events, critics say",
+          "date": "2026-04-28",
+          "link": "https://www.cnbc.com/2026/04/28/trump-white-house-ballroom-whcd.html",
+          "snippet": "2026-04-28: Trump White House ballroom unlikely to get WHCD buy-in \u2014 or end president's off-site events, critics say: Critics say a White House ballroom would be a \\vanity\\\" project for President Dona",
+          "guid": "108297974"
+        },
+        {
+          "title": "Judge blocks above-ground construction of Trump's White House ballroom, administration appeals",
+          "date": "2026-04-16",
+          "link": "https://www.cnbc.com/2026/04/16/white-house-ballroom-trump-judge.html",
+          "snippet": "2026-04-16: Judge blocks above-ground construction of Trump's White House ballroom, administration appeals: The White House's East Wing was demolished to build a 90,000 square-foot ballroom sought by ",
+          "guid": "108292607"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "6e5c8e83-af63-49c2-a8d2-61d97a66e25d",
+      "label": "Strait of Hormuz Oil Tensions",
+      "spike_ratio": 1.375,
+      "article_count": 22,
+      "sentiment_score": 0.3801406926406926,
+      "rag_answer": "Tensions in the Strait of Hormuz have significantly impacted the oil market, with the strait being effectively closed due to ongoing conflict involving the U.S. and Israel against Iran. This closure has led to sharp spikes in oil prices, as seen in early March 2026, and has caused fears of supply disruptions. However, in mid-April, Iran declared the strait open amid a ceasefire, resulting in a notable drop in oil prices. Despite this, concerns remain about potential fees for tankers and the overall stability of oil supplies, with industry leaders warning that normalization may not occur until 2027 if disruptions continue.",
+      "rag_sources": [
+        {
+          "title": "Oil tankers transiting Strait of Hormuz 'must be very careful,' Iran Foreign Ministry warns",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/iran-war-oil-tankers-strait-of-hormuz.html",
+          "snippet": "2026-03-09: Oil tankers transiting Strait of Hormuz 'must be very careful,' Iran Foreign Ministry warns: The price of crude oil has sharply spiked as the Strait of Hormuz has been effectively closed a",
+          "guid": "108275520"
+        },
+        {
+          "title": "U.S. oil price plunges below $84 as Iran declares Strait of Hormuz open, easing supply fears ",
+          "date": "2026-04-17",
+          "link": "https://www.cnbc.com/2026/04/17/oil-prices-wti-brent-israel-lebanon-ceasefire-trump.html",
+          "snippet": "2026-04-17: U.S. oil price plunges below $84 as Iran declares Strait of Hormuz open, easing supply fears: Oil prices tumbled more than 11% after Iran declared the Strait of Hormuz open amid a ceasefir",
+          "guid": "108292913"
+        },
+        {
+          "title": "Saudi Aramco CEO says oil market won't normalize until 2027 if Hormuz disruption persists ",
+          "date": "2026-05-11",
+          "link": "https://www.cnbc.com/2026/05/11/saudi-aramco-oil-iran-war-strait-hormuz.html",
+          "snippet": "2026-05-11: Saudi Aramco CEO says oil market won't normalize until 2027 if Hormuz disruption persists: Oil inventories are rapidly drawing down as the Strait of Hormuz remains closed, Saudi Aramco CEO",
+          "guid": "108304933"
+        },
+        {
+          "title": "Trump says U.S. will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure",
+          "date": "2026-05-04",
+          "link": "https://www.cnbc.com/2026/05/03/trump-iran-strait-of-hormuz-trapped-ships.html",
+          "snippet": "2026-05-04: Trump says U.S. will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure: Vessels have been largely unable to pass through the Strait of Hormuz for months, disrupting key supp",
+          "guid": "108301292"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.583,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "ad0fef60-4749-4e85-809e-e1e6af36a370",
+      "label": "Kevin Warsh Fed Chair Nomination",
+      "spike_ratio": 1.074,
+      "article_count": 26,
+      "sentiment_score": 0.3119047619047619,
+      "rag_answer": "Kevin Warsh has been nominated by President Trump to succeed Jerome Powell as the Federal Reserve chair, with his nomination confirmed by the Senate on May 12, 2026, by a narrow 51-45 vote. His confirmation process faced significant hurdles, including opposition from Senator Thom Tillis due to an ongoing criminal investigation into Powell. Market analysts view Warsh as a credible steward of monetary policy, although there are concerns he may advocate for lower interest rates, which could impact market stability. Overall, Warsh's nomination and confirmation reflect a shift in the Fed's leadership amid ongoing economic challenges.",
+      "rag_sources": [
+        {
+          "title": "CNBC Daily Open: We'll soon find out who the new Fed chair is",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/cnbc-daily-open-well-soon-find-out-who-the-new-fed-chair-is.html",
+          "snippet": "2026-01-30: CNBC Daily Open: We'll soon find out who the new Fed chair is: Former Fed Governor Kevin Warsh is by far the favorite, according to prediction market Kalshi.",
+          "guid": "108259366"
+        },
+        {
+          "title": "Senate confirms Kevin Warsh as Fed governor, clears way for chair vote ",
+          "date": "2026-05-12",
+          "link": "https://www.cnbc.com/2026/05/12/senate-confirms-kevin-warsh-as-fed-governor-clears-way-for-chair-vote.html",
+          "snippet": "2026-05-12: Senate confirms Kevin Warsh as Fed governor, clears way for chair vote: The upper chamber voted to approve Warsh's nomination by a 51-45 vote, on a mostly party-line basis.",
+          "guid": "108305731"
+        },
+        {
+          "title": "Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/trump-finally-makes-his-fed-chair-pick-what-kevin-warsh-means-for-investors.html",
+          "snippet": "2026-01-30: Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors: Investors see the former Fed governor as a credible steward of monetary policy despite expectations he may pu",
+          "guid": "108259473"
+        },
+        {
+          "title": "Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/who-is-kevin-warsh-trumps-fed-chair-pick.html",
+          "snippet": "2026-01-30: Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve: Kevin Warsh, a former Fed governor, has emerged as Donald Trump\u2019s pick to lead the Federal Reserve.",
+          "guid": "108259461"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.4,
+          "mean_sentiment_score": 0.4,
+          "data_age_days": null
+        },
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.583,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "d872c7c8-3d06-4af7-ae3b-919f00442bfb",
+      "label": "Software Stocks and AI Trends",
+      "spike_ratio": 1.058,
+      "article_count": 11,
+      "sentiment_score": 0.2905844155844155,
+      "rag_answer": "Software stocks have been experiencing significant volatility due to fears of disruption from artificial intelligence (AI), leading to a sell-off in the sector. Despite this, there are indications of a potential rebound, particularly following announcements of new partnerships by companies like Anthropic. Analysts have noted that while the market is currently reacting negatively to AI developments, there may be buying opportunities for software stocks with strong earnings momentum. Overall, the market is grappling with the implications of AI on traditional software business models, creating both challenges and potential opportunities for investors.",
+      "rag_sources": [
+        {
+          "title": "Software stocks are selling off, but this big name may be worth another look, charts show",
+          "date": "2026-02-04",
+          "link": "https://www.cnbc.com/2026/02/04/software-stocks-are-selling-off-but-this-big-name-may-be-worth-another-look-charts-show.html",
+          "snippet": "2026-02-04: Software stocks are selling off, but this big name may be worth another look, charts show: Software stocks have been suffering as fears of disruption from artificial intelligence rattle th",
+          "guid": "108261430"
+        },
+        {
+          "title": "Software stocks rebound as Anthropic announces new partnerships",
+          "date": "2026-02-24",
+          "link": "https://www.cnbc.com/2026/02/24/software-stocks-anthropic-ai.html",
+          "snippet": "2026-02-24: Software stocks rebound as Anthropic announces new partnerships: Cybersecurity and software names have sold off heavily in recent weeks as investors fretted about potential disruption from",
+          "guid": "108269165"
+        },
+        {
+          "title": "AI fears are hitting software stocks the hardest. Citi sees a buying opportunity in many names",
+          "date": "2026-02-16",
+          "link": "https://www.cnbc.com/2026/02/16/ai-fears-hitting-software-stocks-citi-sees-opportunity-in-many-names.html",
+          "snippet": "2026-02-16: AI fears are hitting software stocks the hardest. Citi sees a buying opportunity in many names: Citi chose software stocks with earnings momentum and declines of more than 10% in the last ",
+          "guid": "108265587"
+        },
+        {
+          "title": "The stocks set to win as AI spend continues to soar: Analysts",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/07/the-stocks-set-to-win-from-soaring-ai-spend-according-to-analysts.html",
+          "snippet": "2025-11-07: The stocks set to win as AI spend continues to soar: Analysts: While Big Tech deals draw eyeballs, opportunities lie in those flying under the radar but supporting the AI supply chain.",
+          "guid": "108222221"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.583,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "date": "2026-05-12",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "54630781-ac63-4b02-bff7-a1637fea6985",
+      "label": "SpaceX IPO Developments",
+      "spike_ratio": 1.695,
+      "article_count": 20,
+      "sentiment_score": 0.239047619047619,
+      "rag_answer": "SpaceX is preparing for a highly anticipated IPO, with plans to debut on Nasdaq under the ticker SPCX, potentially making it the largest public offering in history. The company has laid out details for a roadshow starting the week of June 8, aiming to attract significant investor interest. Analysts suggest that the IPO could invigorate the space stock market and impact investor demand for other IPOs, particularly in Europe. However, some skeptics warn that the stock may not yield robust returns for individual investors, raising concerns about the overall market implications.",
+      "rag_sources": [
+        {
+          "title": "SpaceX IPO filing sparks a bull market in space stocks. How to buy in",
+          "date": "2026-05-26",
+          "link": "https://www.cnbc.com/2026/05/26/spacex-ipo-filing-sparks-a-bull-market-in-space-stocks-how-to-buy-in.html",
+          "snippet": "2026-05-26: SpaceX IPO filing sparks a bull market in space stocks. How to buy in: Analysts see a range of IPO beneficiaries, from suppliers to proxies -- and even competitors",
+          "guid": "108311957"
+        },
+        {
+          "title": "SpaceX stock debut is the big market event of 2026. Why Musk's venture could be biggest IPO ever",
+          "date": "2026-01-02",
+          "link": "https://www.cnbc.com/2026/01/02/spacex-ipo-musk-2026.html",
+          "snippet": "2026-01-02: SpaceX stock debut is the big market event of 2026. Why Musk's venture could be biggest IPO ever: Investors have already thrown their weight behind the company ahead of its planned IPO.",
+          "guid": "108247577"
+        },
+        {
+          "title": "SpaceX IPO prospectus could land as soon as next week, sources say",
+          "date": "2026-05-14",
+          "link": "https://www.cnbc.com/2026/05/14/spacex-ipo-prospectus-could-land-as-soon-as-next-week-sources-say.html",
+          "snippet": "2026-05-14: SpaceX IPO prospectus could land as soon as next week, sources say: Elon Musk's reusable rocket company is getting closer to what's expected to be a record stock market debut.",
+          "guid": "108307224"
+        },
+        {
+          "title": "SpaceX lays out IPO details, targets early June roadshow: Reuters",
+          "date": "2026-04-07",
+          "link": "https://www.cnbc.com/2026/04/07/spacex-lays-out-ipo-details-targets-early-june-roadshow-reuters.html",
+          "snippet": "2026-04-07: SpaceX lays out IPO details, targets early June roadshow: Reuters: The\u00a0Elon Musk-led company\u00a0plans to launch its roadshow the week of June 8, when executives and bankers will pitch the IPO",
+          "guid": "108287745"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "6a43b8f6-fc2e-4b72-b84f-0ba3a01d1d1b",
+      "label": "Elon Musk's Legal and Business Challenges",
+      "spike_ratio": 1.579,
+      "article_count": 24,
+      "sentiment_score": 0.2324404761904761,
+      "rag_answer": "Elon Musk is currently facing significant legal challenges, particularly related to his AI chatbot Grok, which has been scrutinized for generating explicit content, leading to probes in multiple countries and lawsuits in the U.S. Additionally, Musk's ongoing legal battle with OpenAI and its CEO Sam Altman culminated in a jury ruling against him, further complicating his business landscape. On the business front, Musk's ventures, including Tesla and xAI, are under pressure, with Tesla shares fluctuating amid speculation of a merger with SpaceX. These developments indicate a turbulent period for Musk, impacting investor confidence and the market performance of his companies.",
+      "rag_sources": [
+        {
+          "title": "Elon Musk's X faces probes in Europe, India, Malaysia after Grok generated explicit images of women and children",
+          "date": "2026-01-06",
+          "link": "https://www.cnbc.com/2026/01/05/india-eu-investigate-musks-x-after-grok-created-deepfake-child-porn.html",
+          "snippet": "2026-01-06: Elon Musk's X faces probes in Europe, India, Malaysia after Grok generated explicit images of women and children: Regulators in Europe, India and Malaysia are scrutinizing X after exploita",
+          "guid": "108247527"
+        },
+        {
+          "title": "Malaysia and Indonesia block Elon Musk's Grok due to nonconsensual sexual content",
+          "date": "2026-01-12",
+          "link": "https://www.cnbc.com/2026/01/12/malaysia-indonesia-block-elon-musks-grok-obscene-non-consensual-content.html",
+          "snippet": "2026-01-12: Malaysia and Indonesia block Elon Musk's Grok due to nonconsensual sexual content: Malaysia and Indonesia blocked access to Elon Musk's AI chatbot Grok over the weekend due to concerns tha",
+          "guid": "108250945"
+        },
+        {
+          "title": "NAACP sues Elon Musk's xAI over Memphis data center air pollution",
+          "date": "2026-04-14",
+          "link": "https://www.cnbc.com/2026/04/14/elon-musk-xai-memphis-data-centers.html",
+          "snippet": "2026-04-14: NAACP sues Elon Musk's xAI over Memphis data center air pollution: Elon Musk, who is the world's richest person, has been counting on the greater Memphis area to serve as the backbone for ",
+          "guid": "108291346"
+        },
+        {
+          "title": "Tesla says shareholders approve Musk's $1 trillion pay plan with over 75% voting in favor",
+          "date": "2025-11-07",
+          "link": "https://www.cnbc.com/2025/11/06/tesla-shareholders-musk-pay.html",
+          "snippet": "2025-11-07: Tesla says shareholders approve Musk's $1 trillion pay plan with over 75% voting in favor: Tesla shareholders approved CEO Elon Musk's historic pay package at the company's annual sharehol",
+          "guid": "108222725"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "ad0fef60-4749-4e85-809e-e1e6af36a370",
+      "label": "Kevin Warsh Fed Chair Nomination",
+      "spike_ratio": 1.497,
+      "article_count": 56,
+      "sentiment_score": 0.2573767006802721,
+      "rag_answer": "Kevin Warsh has been nominated by President Trump to succeed Jerome Powell as Fed chair, with his confirmation process facing significant hurdles due to a federal investigation into Powell and opposition from some senators, notably Thom Tillis. Despite these challenges, Warsh was confirmed by the Senate with a narrow 51-45 vote, marking a pivotal moment for Trump's influence over the Federal Reserve. Investors view Warsh as a credible figure who may advocate for lower interest rates, which has implications for market dynamics, particularly in the context of ongoing inflation concerns. His confirmation is seen as a potential shift in monetary policy direction, impacting investor sentiment and market strategies.",
+      "rag_sources": [
+        {
+          "title": "CNBC Daily Open: We'll soon find out who the new Fed chair is",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/cnbc-daily-open-well-soon-find-out-who-the-new-fed-chair-is.html",
+          "snippet": "2026-01-30: CNBC Daily Open: We'll soon find out who the new Fed chair is: Former Fed Governor Kevin Warsh is by far the favorite, according to prediction market Kalshi.",
+          "guid": "108259366"
+        },
+        {
+          "title": "Senate confirms Kevin Warsh as Fed governor, clears way for chair vote ",
+          "date": "2026-05-12",
+          "link": "https://www.cnbc.com/2026/05/12/senate-confirms-kevin-warsh-as-fed-governor-clears-way-for-chair-vote.html",
+          "snippet": "2026-05-12: Senate confirms Kevin Warsh as Fed governor, clears way for chair vote: The upper chamber voted to approve Warsh's nomination by a 51-45 vote, on a mostly party-line basis.",
+          "guid": "108305731"
+        },
+        {
+          "title": "Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/trump-finally-makes-his-fed-chair-pick-what-kevin-warsh-means-for-investors.html",
+          "snippet": "2026-01-30: Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors: Investors see the former Fed governor as a credible steward of monetary policy despite expectations he may pu",
+          "guid": "108259473"
+        },
+        {
+          "title": "Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/who-is-kevin-warsh-trumps-fed-chair-pick.html",
+          "snippet": "2026-01-30: Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve: Kevin Warsh, a former Fed governor, has emerged as Donald Trump\u2019s pick to lead the Federal Reserve.",
+          "guid": "108259461"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.4,
+          "mean_sentiment_score": 0.4,
+          "data_age_days": null
+        },
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.583,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "870e8477-dc1b-4788-b4a6-60f9e553f80e",
+      "label": "Obesity Drug Market Developments",
+      "spike_ratio": 1.296,
+      "article_count": 21,
+      "sentiment_score": 0.3061224489795918,
+      "rag_answer": "The obesity drug market is experiencing significant developments, particularly with Novo Nordisk's recent launch of its GLP-1 obesity pill and the anticipated approval of a rival oral drug from Eli Lilly. Despite being the first to market, Novo Nordisk is facing increased competition, leading to a decline in its market share, which now stands at about 40%. The introduction of Medicare coverage for obesity drugs is expected to expand access to millions of seniors, potentially boosting prescription volumes. However, the market is also facing challenges, including pricing pressures and the emergence of new competitors, which could impact the overall landscape of obesity treatments.",
+      "rag_sources": [
+        {
+          "title": "What the Iran war market turmoil means for those nearing retirement",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/iran-war-market-volatility-retirement.html",
+          "snippet": "2026-03-05: What the Iran war market turmoil means for those nearing retirement: Market shakiness may not concern long-term investors, but it could be a useful wake-up call for those on the precipice ",
+          "guid": "108272020"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "Novo Nordisk faces a defining year in the obesity drug market. It\u2019s off to a dramatic start  ",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/novo-nordisk-faces-defining-year-in-the-obesity-drug-market.html",
+          "snippet": "2026-02-11: Novo Nordisk faces a defining year in the obesity drug market. It\u2019s off to a dramatic start: The Danish drugmaker kicked off 2026 with its explosive obesity pill launch, but recent challen",
+          "guid": "108264597"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "a6911053-deec-44da-91d1-bfa94b65b030",
+      "label": "S&P 500 Market Analysis",
+      "spike_ratio": 1.262,
+      "article_count": 27,
+      "sentiment_score": 0.2680776014109347,
+      "rag_answer": "The S&P 500 has experienced significant volatility, with periods of both decline and recovery influenced by various factors such as geopolitical tensions, economic data, and corporate earnings. In March 2026, the index faced pressure due to an oil crisis and the ongoing Iran war, leading to a potential third consecutive week of losses. However, by May 2026, the S&P 500 had turned around, extending its winning streak to six weeks, driven by positive earnings reports and economic indicators, alongside a notable AI partnership. Despite these gains, concerns about market dislocations and overbought conditions persist, indicating a cautious outlook among investors.",
+      "rag_sources": [
+        {
+          "title": "S&P 500 is under pressure again from oil crisis, heads for third-straight losing week: Live updates",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/12/stock-market-today-live-updates.html",
+          "snippet": "2026-03-13: S&P 500 is under pressure again from oil crisis, heads for third-straight losing week: Live updates: The S&P 500 fell on Friday, while oil prices extended their gains as investors awaited ",
+          "guid": "108277498"
+        },
+        {
+          "title": "S&P 500 extends winning streak to 6 weeks. What drove the stock market gains",
+          "date": "2026-05-09",
+          "link": "https://www.cnbc.com/2026/05/09/sp-500-extends-winning-streak-to-6-weeks-what-drove-the-stock-market-gains.html",
+          "snippet": "2026-05-09: S&P 500 extends winning streak to 6 weeks. What drove the stock market gains: Investors cheered positive earnings, economic data, and a high-profile AI partnership.",
+          "guid": "108304401"
+        },
+        {
+          "title": "When will the selling stop? Jay Woods and other traders are watching this key S&P 500 level",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/when-will-the-selling-stop-jay-woods-and-others-are-watching-this-key-sp-500-level.html",
+          "snippet": "2026-03-09: When will the selling stop? Jay Woods and other traders are watching this key S&P 500 level: The broad market index is fast approaching its 200-day moving average, which is at 6,582.",
+          "guid": "108275364"
+        },
+        {
+          "title": "NYSE insider Jay Woods is watching these key levels on the S&P 500 and crude oil as U.S.-Iran conflict widens",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/nyse-insider-woods-watching-these-key-levels-on-the-sp-500-crude-oil.html",
+          "snippet": "2026-03-02: NYSE insider Jay Woods is watching these key levels on the S&P 500 and crude oil as U.S.-Iran conflict widens: Beyond the war, this week will see a highly-awaited February jobs report alon",
+          "guid": "108272057"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}

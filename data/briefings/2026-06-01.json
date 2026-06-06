@@ -1,0 +1,167 @@
+{
+  "date": "2026-06-01",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "2fbfc251-eaea-4872-8901-6018815599e6",
+      "label": "AI Demand and Chip Earnings",
+      "spike_ratio": 2.059,
+      "article_count": 42,
+      "sentiment_score": 0.3954648526077097,
+      "rag_answer": "Demand for AI chips is surging, driven by the rapid growth of AI infrastructure, leading to significant shortages in memory and other components. Companies like Nvidia and AMD are experiencing robust earnings as they pivot towards specialized processors for AI applications, with analysts predicting continued profitability for chip stocks amid this demand. The AI boom is not only benefiting established players but also boosting revenues for Chinese chip firms, as domestic demand rises in response to U.S. tech curbs. Overall, the market is witnessing a historic rally in chip stocks, reflecting strong investor confidence in the ongoing AI transformation.",
+      "rag_sources": [
+        {
+          "title": "These funds protect against market drops. Demand is booming",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/these-funds-protect-against-market-drops-demand-is-booming.html",
+          "snippet": "2026-02-11: These funds protect against market drops. Demand is booming: Buffer ETFs could see assets quadruple over a five-year period, according to Cerulli Associates. What to know before investing.",
+          "guid": "108264590"
+        },
+        {
+          "title": "Micron stops selling memory to consumers as demand spikes from AI chips",
+          "date": "2025-12-03",
+          "link": "https://www.cnbc.com/2025/12/03/micron-stops-selling-memory-to-consumers-demand-spikes-from-ai-chips.html",
+          "snippet": "2025-12-03: Micron stops selling memory to consumers as demand spikes from AI chips: Demand driven by the AI infrastructure boom is creating shortages for certain products like memory.",
+          "guid": "108236104"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Chip stocks including Nvidia are holding up despite market volatility, according to the charts",
+          "date": "2026-03-10",
+          "link": "https://www.cnbc.com/2026/03/10/chip-stocks-including-nvidia-are-holding-up-despite-market-volatility-according-to-the-charts.html",
+          "snippet": "2026-03-10: Chip stocks including Nvidia are holding up despite market volatility, according to the charts: Todd Gordon takes a look at the technicals in Nvidia and other chipmakers.",
+          "guid": "108276190"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.583,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "a48d606d-4db7-44dd-a739-16803814c2fe",
+      "label": NaN,
+      "spike_ratio": 1.667,
+      "article_count": 31,
+      "sentiment_score": 0.3971198156682027,
+      "rag_answer": "",
+      "rag_sources": [],
+      "sectors": []
+    },
+    {
+      "topic_id": "e52f3d97-ef4a-40c3-abac-feafc6ada748",
+      "label": NaN,
+      "spike_ratio": 1.364,
+      "article_count": 15,
+      "sentiment_score": 0.5972222222222221,
+      "rag_answer": "",
+      "rag_sources": [],
+      "sectors": []
+    },
+    {
+      "topic_id": "689eea93-34bb-4a6a-8037-ec5ec063a3fd",
+      "label": "Spirit Airlines bailout efforts",
+      "spike_ratio": 1.27,
+      "article_count": 16,
+      "sentiment_score": 0.317063492063492,
+      "rag_answer": "Spirit Airlines has been in a precarious financial situation, filing for Chapter 11 bankruptcy protection twice within a year and seeking a government bailout from the Trump administration. Despite reaching a $475 million debtor-in-possession financing agreement with bondholders, the airline ultimately ceased operations after failing to secure a government rescue package. The collapse of Spirit Airlines is expected to benefit rival carriers by increasing their pricing power as they compete for Spirit's former customers. Overall, the situation highlights the challenges faced by budget airlines in a volatile market.",
+      "rag_sources": [
+        {
+          "title": "Spirit Airlines lawyer says cash 'not going to last for very much longer,' but government rescue on the table",
+          "date": "2026-04-23",
+          "link": "https://www.cnbc.com/2026/04/23/spirit-airlines-bankruptcy-court-rescue.html",
+          "snippet": "2026-04-23: Spirit Airlines lawyer says cash 'not going to last for very much longer,' but government rescue on the table: Spirit Airlines confirmed it is in talks with the Trump administration for a ",
+          "guid": "108296256"
+        },
+        {
+          "title": "Spirit Airlines on track for a $475 million bankruptcy lifeline",
+          "date": "2025-10-01",
+          "link": "https://www.cnbc.com/2025/09/30/spirit-airlines-bankruptcy.html",
+          "snippet": "2025-10-01: Spirit Airlines on track for a $475 million bankruptcy lifeline: Spirit Airlines has reached an agreement with some of its debtholders for up to $475 million in debtor-in-possession financ",
+          "guid": "108205896"
+        },
+        {
+          "title": "Spirit Airlines is in deal talks with investment firm Castlelake as struggling carrier seeks path forward",
+          "date": "2026-01-22",
+          "link": "https://www.cnbc.com/2026/01/22/spirit-airlines-deal-talks-castlelake.html",
+          "snippet": "2026-01-22: Spirit Airlines is in deal talks with investment firm Castlelake as struggling carrier seeks path forward: Spirit Airlines is in talks with investment firm Castlelake for a potential takeo",
+          "guid": "108255034"
+        },
+        {
+          "title": "Spirit Airlines wins approval for $475 million lifeline in bankruptcy court",
+          "date": "2025-10-10",
+          "link": "https://www.cnbc.com/2025/10/10/spirit-airlines-bankruptcy-court-approves-lifeline-financing.html",
+          "snippet": "2025-10-10: Spirit Airlines wins approval for $475 million lifeline in bankruptcy court: Spirit Airlines will get a $475 million lifeline from its bondholders and another $150 million from an aircraft",
+          "guid": "108210815"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.583,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "6e5c8e83-af63-49c2-a8d2-61d97a66e25d",
+      "label": "Strait of Hormuz Oil Tensions",
+      "spike_ratio": 1.25,
+      "article_count": 33,
+      "sentiment_score": 0.3560966810966811,
+      "rag_answer": "Tensions in the Strait of Hormuz have escalated significantly due to the ongoing conflict between the U.S.-Israel coalition and Iran, leading to a blockade that has severely disrupted oil shipments. As a result, oil prices initially spiked but later fell sharply when Iran declared the strait open amid a ceasefire with Lebanon. However, concerns remain about potential fees imposed by Iran on tankers and the overall stability of oil supply, with industry leaders warning that the market may not normalize until 2027 if disruptions continue. The situation has created volatility in oil markets, with traders closely monitoring developments for their impact on global energy supplies.",
+      "rag_sources": [
+        {
+          "title": "Oil tankers transiting Strait of Hormuz 'must be very careful,' Iran Foreign Ministry warns",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/iran-war-oil-tankers-strait-of-hormuz.html",
+          "snippet": "2026-03-09: Oil tankers transiting Strait of Hormuz 'must be very careful,' Iran Foreign Ministry warns: The price of crude oil has sharply spiked as the Strait of Hormuz has been effectively closed a",
+          "guid": "108275520"
+        },
+        {
+          "title": "U.S. oil price plunges below $84 as Iran declares Strait of Hormuz open, easing supply fears ",
+          "date": "2026-04-17",
+          "link": "https://www.cnbc.com/2026/04/17/oil-prices-wti-brent-israel-lebanon-ceasefire-trump.html",
+          "snippet": "2026-04-17: U.S. oil price plunges below $84 as Iran declares Strait of Hormuz open, easing supply fears: Oil prices tumbled more than 11% after Iran declared the Strait of Hormuz open amid a ceasefir",
+          "guid": "108292913"
+        },
+        {
+          "title": "Saudi Aramco CEO says oil market won't normalize until 2027 if Hormuz disruption persists ",
+          "date": "2026-05-11",
+          "link": "https://www.cnbc.com/2026/05/11/saudi-aramco-oil-iran-war-strait-hormuz.html",
+          "snippet": "2026-05-11: Saudi Aramco CEO says oil market won't normalize until 2027 if Hormuz disruption persists: Oil inventories are rapidly drawing down as the Strait of Hormuz remains closed, Saudi Aramco CEO",
+          "guid": "108304933"
+        },
+        {
+          "title": "Trump says U.S. will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure",
+          "date": "2026-05-04",
+          "link": "https://www.cnbc.com/2026/05/03/trump-iran-strait-of-hormuz-trapped-ships.html",
+          "snippet": "2026-05-04: Trump says U.S. will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure: Vessels have been largely unable to pass through the Strait of Hormuz for months, disrupting key supp",
+          "guid": "108301292"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.583,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}

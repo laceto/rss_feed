@@ -1,0 +1,196 @@
+{
+  "date": "2026-05-18",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "ad9919d0-c596-4484-b51f-cec82c0c07a6",
+      "label": "Iran conflict and stock market",
+      "spike_ratio": 1.321,
+      "article_count": 37,
+      "sentiment_score": 0.2926640926640926,
+      "rag_answer": "The Iran conflict has significantly influenced the stock market, with investors closely monitoring developments as the war stretches into several weeks. Initially, stocks remained relatively calm, but as the conflict escalated, there were fluctuations in oil prices and market sentiment. Despite some volatility, global stocks have managed to recover losses and reach record levels, partly due to investor optimism about potential resolutions and Trump's assurances regarding economic impacts. However, ongoing geopolitical tensions continue to create uncertainty, leading to cautious trading and varied reactions across different markets.",
+      "rag_sources": [
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "The stock market isn't ignoring Iran. It's rising for these three very real reasons",
+          "date": "2026-05-12",
+          "link": "https://www.cnbc.com/2026/05/12/the-stock-market-isnt-ignoring-iran-its-rising-for-these-three-very-real-reasons.html",
+          "snippet": "2026-05-12: The stock market isn't ignoring Iran. It's rising for these three very real reasons: It's time to take a closer look with stocks rallying into the third month of the U.S.-Iran conflict.",
+          "guid": "108305200"
+        },
+        {
+          "title": "The clock is ticking for the stock market as the Iran war stretches into a fourth week ",
+          "date": "2026-03-20",
+          "link": "https://www.cnbc.com/2026/03/20/stock-market-next-week-outlook-for-march-23-27-2026-.html",
+          "snippet": "2026-03-20: The clock is ticking for the stock market as the Iran war stretches into a fourth week: Stocks have been largely calm since the start of the U.S. war in Iran, but the latest headlines coul",
+          "guid": "108280512"
+        },
+        {
+          "title": "Trump says oil and stock market reaction to Iran conflict not as severe as he expected",
+          "date": "2026-03-26",
+          "link": "https://www.cnbc.com/2026/03/26/trump-iran-war-oil-stocks.html",
+          "snippet": "2026-03-26: Trump says oil and stock market reaction to Iran conflict not as severe as he expected: Trump expressed confidence in the war effort and said the economic damage will reverse.",
+          "guid": "108283503"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "6fee283d-ffbb-4267-a21d-4fc542922500",
+      "label": NaN,
+      "spike_ratio": 1.244,
+      "article_count": 17,
+      "sentiment_score": 0.5462184873949579,
+      "rag_answer": "",
+      "rag_sources": [],
+      "sectors": []
+    },
+    {
+      "topic_id": "ad8e91c5-7459-4609-b222-fda591a3ae27",
+      "label": "Credit cards and student loans",
+      "spike_ratio": 1.202,
+      "article_count": 25,
+      "sentiment_score": 0.2483333333333333,
+      "rag_answer": "Credit card debt in the U.S. has reached a record high of $1.21 trillion, with consumers increasingly relying on credit cards despite rising interest rates, which have a significant impact on spending behavior. Concurrently, the resumption of federal student loan delinquency reporting has contributed to a decline in average credit scores, as more borrowers miss payments. The government is also facing challenges in managing student loan collections, with a record number of complaints from borrowers. These developments indicate a tightening credit environment, where both credit card and student loan borrowers may face increased financial strain.",
+      "rag_sources": [
+        {
+          "title": "Credit scores fall for the second year in a row as more borrowers miss payments",
+          "date": "2025-09-16",
+          "link": "https://www.cnbc.com/2025/09/16/fico-credit-scores-fall-year-over-year-more-borrowers-miss-payments.html",
+          "snippet": "2025-09-16: Credit scores fall for the second year in a row as more borrowers miss payments: The average FICO credit score fell two points year over year to 715. The resumption of federal student loan",
+          "guid": "108199018"
+        },
+        {
+          "title": "What student loan borrowers can and can't do, as the government shutdown stretches on",
+          "date": "2025-10-17",
+          "link": "https://www.cnbc.com/2025/10/17/student-loan-borrowers-government-shutdown.html",
+          "snippet": "2025-10-17: What student loan borrowers can and can't do, as the government shutdown stretches on: Despite the government shutdown, student loan borrowers should be able to complete most necessary tas",
+          "guid": "108213481"
+        },
+        {
+          "title": "Consumers love buy now, pay later loans. Here\u2019s why banks and credit card companies are wary of them",
+          "date": "2025-09-14",
+          "link": "https://www.cnbc.com/2025/09/14/heres-why-banks-credit-card-companies-are-wary-of-buy-now-pay-later-loans.html",
+          "snippet": "2025-09-14: Consumers love buy now, pay later loans. Here\u2019s why banks and credit card companies are wary of them: Buy now, pay later loans pose a direct challenge to credit cards. Banks and financial ",
+          "guid": "108195055"
+        },
+        {
+          "title": "Fed holds interest rates steady: What that means for mortgages, credit cards and loans",
+          "date": "2026-01-28",
+          "link": "https://www.cnbc.com/2026/01/28/fed-decision-mortgage-rates-credit-cards-loans.html",
+          "snippet": "2026-01-28: Fed holds interest rates steady: What that means for mortgages, credit cards and loans: From mortgage rates and auto loans to credit cards and savings accounts, here's a look at how the Ja",
+          "guid": "108257652"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.4,
+          "mean_sentiment_score": 0.4,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "689eea93-34bb-4a6a-8037-ec5ec063a3fd",
+      "label": "Spirit Airlines bailout efforts",
+      "spike_ratio": 1.066,
+      "article_count": 13,
+      "sentiment_score": 0.2802579365079364,
+      "rag_answer": "Spirit Airlines has been in a precarious financial situation, filing for Chapter 11 bankruptcy protection twice within a year and warning of its inability to survive without additional cash. Recent developments include talks with the Trump administration for a potential government rescue package, as well as negotiations with bondholders for a $475 million lifeline. However, despite these efforts, the airline ultimately ceased operations after a failed bailout attempt, highlighting the challenges faced by struggling carriers in a volatile market. The situation underscores the broader implications for the airline industry and investor confidence in the face of ongoing financial instability.",
+      "rag_sources": [
+        {
+          "title": "Spirit Airlines lawyer says cash 'not going to last for very much longer,' but government rescue on the table",
+          "date": "2026-04-23",
+          "link": "https://www.cnbc.com/2026/04/23/spirit-airlines-bankruptcy-court-rescue.html",
+          "snippet": "2026-04-23: Spirit Airlines lawyer says cash 'not going to last for very much longer,' but government rescue on the table: Spirit Airlines confirmed it is in talks with the Trump administration for a ",
+          "guid": "108296256"
+        },
+        {
+          "title": "Spirit Airlines on track for a $475 million bankruptcy lifeline",
+          "date": "2025-10-01",
+          "link": "https://www.cnbc.com/2025/09/30/spirit-airlines-bankruptcy.html",
+          "snippet": "2025-10-01: Spirit Airlines on track for a $475 million bankruptcy lifeline: Spirit Airlines has reached an agreement with some of its debtholders for up to $475 million in debtor-in-possession financ",
+          "guid": "108205896"
+        },
+        {
+          "title": "Spirit Airlines is in deal talks with investment firm Castlelake as struggling carrier seeks path forward",
+          "date": "2026-01-22",
+          "link": "https://www.cnbc.com/2026/01/22/spirit-airlines-deal-talks-castlelake.html",
+          "snippet": "2026-01-22: Spirit Airlines is in deal talks with investment firm Castlelake as struggling carrier seeks path forward: Spirit Airlines is in talks with investment firm Castlelake for a potential takeo",
+          "guid": "108255034"
+        },
+        {
+          "title": "Spirit Airlines wins approval for $475 million lifeline in bankruptcy court",
+          "date": "2025-10-10",
+          "link": "https://www.cnbc.com/2025/10/10/spirit-airlines-bankruptcy-court-approves-lifeline-financing.html",
+          "snippet": "2025-10-10: Spirit Airlines wins approval for $475 million lifeline in bankruptcy court: Spirit Airlines will get a $475 million lifeline from its bondholders and another $150 million from an aircraft",
+          "guid": "108210815"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.583,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "6e5c8e83-af63-49c2-a8d2-61d97a66e25d",
+      "label": "Strait of Hormuz Oil Tensions",
+      "spike_ratio": 0.948,
+      "article_count": 11,
+      "sentiment_score": 0.4231601731601732,
+      "rag_answer": "Tensions in the Strait of Hormuz have escalated significantly due to ongoing conflicts involving Iran, the U.S., and Israel, leading to a temporary closure of the strait, which is a critical chokepoint for global oil shipments. This disruption has caused oil prices to spike, with reports indicating that the market is short nearly 1 billion barrels due to the conflict. However, following a ceasefire agreement, Iran declared the strait open, resulting in a sharp drop in oil prices. Despite this, concerns remain about potential fees imposed by Iran on tankers and the overall stability of the oil market, with experts predicting that normalization may not occur until 2027 if disruptions continue.",
+      "rag_sources": [
+        {
+          "title": "Oil tankers transiting Strait of Hormuz 'must be very careful,' Iran Foreign Ministry warns",
+          "date": "2026-03-09",
+          "link": "https://www.cnbc.com/2026/03/09/iran-war-oil-tankers-strait-of-hormuz.html",
+          "snippet": "2026-03-09: Oil tankers transiting Strait of Hormuz 'must be very careful,' Iran Foreign Ministry warns: The price of crude oil has sharply spiked as the Strait of Hormuz has been effectively closed a",
+          "guid": "108275520"
+        },
+        {
+          "title": "U.S. oil price plunges below $84 as Iran declares Strait of Hormuz open, easing supply fears ",
+          "date": "2026-04-17",
+          "link": "https://www.cnbc.com/2026/04/17/oil-prices-wti-brent-israel-lebanon-ceasefire-trump.html",
+          "snippet": "2026-04-17: U.S. oil price plunges below $84 as Iran declares Strait of Hormuz open, easing supply fears: Oil prices tumbled more than 11% after Iran declared the Strait of Hormuz open amid a ceasefir",
+          "guid": "108292913"
+        },
+        {
+          "title": "Saudi Aramco CEO says oil market won't normalize until 2027 if Hormuz disruption persists ",
+          "date": "2026-05-11",
+          "link": "https://www.cnbc.com/2026/05/11/saudi-aramco-oil-iran-war-strait-hormuz.html",
+          "snippet": "2026-05-11: Saudi Aramco CEO says oil market won't normalize until 2027 if Hormuz disruption persists: Oil inventories are rapidly drawing down as the Strait of Hormuz remains closed, Saudi Aramco CEO",
+          "guid": "108304933"
+        },
+        {
+          "title": "Trump says U.S. will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure",
+          "date": "2026-05-04",
+          "link": "https://www.cnbc.com/2026/05/03/trump-iran-strait-of-hormuz-trapped-ships.html",
+          "snippet": "2026-05-04: Trump says U.S. will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure: Vessels have been largely unable to pass through the Strait of Hormuz for months, disrupting key supp",
+          "guid": "108301292"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.583,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}
