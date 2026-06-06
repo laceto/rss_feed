@@ -1903,3 +1903,27 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-06-02	Electronic Technology	Nvidia	positive	products	ok
 2026-06-02	Electronic Technology	HPE	positive	earnings	ok
 2026-06-02	Consumer Non-Durables	Victoria's Secret	positive	earnings	ok
+2026-06-03	Technology Services	OpenAI|Sam Altman	positive	products	ok
+2026-06-03	Technology Services	Meta	neutral	products	ok
+2026-06-03	Electronic Technology	Nvidia	positive	markets	ok
+2026-06-03	Finance	Korea’s stock market	positive	markets	ok
+2026-06-03	Finance	China	negative	regulation	ok
+2026-06-03	Consumer Non-Durables	Novo Nordisk	positive	products	ok
+2026-06-03	Consumer Services	OECD	negative	macro	ok
+2026-06-04	Consumer Durables	Lululemon	negative	earnings	ok
+2026-06-04	Communications	Bluesky|Reddit	neutral	products	ok
+2026-06-04	Consumer Non-Durables	India's viral 'Cockroach' party	neutral	markets	ok
+2026-06-04	Health Services	Biotech M&A	positive	markets	ok
+2026-06-04	Health Services	USDA|Texas	neutral	regulation	ok
+2026-06-04	Producer Manufacturing	SpaceX	positive	markets	ok
+2026-06-04	Electronic Technology	Broadcom	negative	markets	ok
+2026-06-04	Electronic Technology	SoftBank|AI	neutral	markets	ok
+2026-06-05	Technology Services	Meta|Financial Times	negative	products	ok
+2026-06-05	Electronic Technology	Google|SpaceX	neutral	markets	ok
+2026-06-05	Finance	Bitcoin|Strategy|MSTR	negative	markets	ok
+2026-06-05	Technology Services	Mythos	positive	earnings	ok
+2026-06-05	Energy Minerals	Iran|oil	negative	macro	ok
+2026-06-05	Electronic Technology	Broadcom	negative	earnings	ok
+2026-06-05	Electronic Technology	Nvidia|Jensen Huang	neutral	markets	ok
+2026-06-05	Health Services	AstraZeneca|Pascal Soriot	positive	products	ok
+2026-06-06	Communications	Bluesky|Rose Wang|CNBC	negative	regulation	ok

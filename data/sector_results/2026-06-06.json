@@ -1,0 +1,17 @@
+{
+  "date": "2026-06-06",
+  "batch_id": "batch_6a23c26a94dc8190b8e0399cf1e03e51",
+  "sectors": [
+    {
+      "entities": [
+        "Bluesky",
+        "Rose Wang",
+        "CNBC"
+      ],
+      "sector": "Communications",
+      "sentiment": "negative",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    }
+  ]
+}
