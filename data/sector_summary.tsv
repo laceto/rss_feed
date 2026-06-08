@@ -1927,3 +1927,15 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-06-05	Electronic Technology	Nvidia|Jensen Huang	neutral	markets	ok
 2026-06-05	Health Services	AstraZeneca|Pascal Soriot	positive	products	ok
 2026-06-06	Communications	Bluesky|Rose Wang|CNBC	negative	regulation	ok
+2026-06-07	Transportation	Delta|United	neutral	markets	ok
+2026-06-07	Finance	Banco BPM|MPS	neutral	M&A	ok
+2026-06-07	Electronic Technology	electronics|resin	positive	products	ok
+2026-06-07	Consumer Non-Durables	Mammoth Brands|Harry's|Coterie	positive	products	ok
+2026-06-08	Electronic Technology	Apple|Siri|Liquid Glass	positive	products	ok
+2026-06-08	Energy Minerals	Iran|Hezbollah|Tehran	negative	macro	ok
+2026-06-08	Finance	Trump|DOJ	neutral	regulation	ok
+2026-06-08	Electronic Technology	Nvidia|AI|China	positive	markets	ok
+2026-06-08	Electronic Technology	Corning|Amazon|AI	positive	products	ok
+2026-06-08	Electronic Technology	Chip|Semiconductor	positive	markets	ok
+2026-06-08	Energy Minerals	Oil|Iran|Middle East	negative	macro	ok
+2026-06-08	Finance	Hong Kong|IPO	negative	markets	ok

@@ -1,0 +1,47 @@
+{
+  "date": "2026-06-07",
+  "batch_id": "batch_6a272ff5f5e08190960d885316f678dc",
+  "sectors": [
+    {
+      "entities": [
+        "Delta",
+        "United"
+      ],
+      "sector": "Transportation",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Banco BPM",
+        "MPS"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "M&A",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "electronics",
+        "resin"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Mammoth Brands",
+        "Harry's",
+        "Coterie"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    }
+  ]
+}

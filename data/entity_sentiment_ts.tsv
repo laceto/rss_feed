@@ -1,26 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-03-08	Brent prices	Energy Minerals	positive	1	markets
-2026-03-08	China's three oil giants	Energy Minerals	positive	1	markets
-2026-03-08	Oil price surge	Energy Minerals	positive	1	markets
-2026-03-09	Commodities ETF	Process Industries	positive	1	products
-2026-03-09	Dow	Finance	neutral	0	markets
-2026-03-09	FBI	Finance	neutral	0	other
-2026-03-09	GOP Whip Tom Emmer	Energy Minerals	positive	1	macro
-2026-03-09	Gulf Arab oil producers	Energy Minerals	negative	-1	macro
-2026-03-09	Iran Foreign Ministry	Energy Minerals	negative	-1	macro
-2026-03-09	Israel	Energy Minerals	negative	-1	macro
-2026-03-09	Maricopa County	Finance	neutral	0	other
-2026-03-09	Nscale	Electronic Technology	positive	1	products
-2026-03-09	Nvidia	Electronic Technology	positive	1	products
-2026-03-09	OpenAI	Electronic Technology	positive	1	products
-2026-03-09	Promptfoo	Electronic Technology	positive	1	products
-2026-03-09	Rapidan Energy	Energy Minerals	negative	-1	macro
-2026-03-09	Rapidan Energy	Energy Minerals	negative	-1	macro
-2026-03-09	S&P 500	Finance	neutral	0	markets
-2026-03-09	Sam Altman	Electronic Technology	positive	1	products
-2026-03-09	Trump	Finance	neutral	0	markets
-2026-03-09	U.S.	Energy Minerals	negative	-1	macro
-2026-03-09	U.S.-Iran war	Energy Minerals	negative	-1	macro
 2026-03-10	Amazon	Technology Services	negative	-1	products
 2026-03-10	Anthropic	Electronic Technology	positive	1	products
 2026-03-10	Bosch	Producer Manufacturing	neutral	0	products
@@ -1048,3 +1026,33 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-06-06	Bluesky	Communications	negative	-1	regulation
 2026-06-06	CNBC	Communications	negative	-1	regulation
 2026-06-06	Rose Wang	Communications	negative	-1	regulation
+2026-06-07	Banco BPM	Finance	neutral	0	M&A
+2026-06-07	Coterie	Consumer Non-Durables	positive	1	products
+2026-06-07	Delta	Transportation	neutral	0	markets
+2026-06-07	Harry's	Consumer Non-Durables	positive	1	products
+2026-06-07	MPS	Finance	neutral	0	M&A
+2026-06-07	Mammoth Brands	Consumer Non-Durables	positive	1	products
+2026-06-07	United	Transportation	neutral	0	markets
+2026-06-07	electronics	Electronic Technology	positive	1	products
+2026-06-07	resin	Electronic Technology	positive	1	products
+2026-06-08	AI	Electronic Technology	positive	1	markets
+2026-06-08	AI	Electronic Technology	positive	1	products
+2026-06-08	Amazon	Electronic Technology	positive	1	products
+2026-06-08	Apple	Electronic Technology	positive	1	products
+2026-06-08	China	Electronic Technology	positive	1	markets
+2026-06-08	Chip	Electronic Technology	positive	1	markets
+2026-06-08	Corning	Electronic Technology	positive	1	products
+2026-06-08	DOJ	Finance	neutral	0	regulation
+2026-06-08	Hezbollah	Energy Minerals	negative	-1	macro
+2026-06-08	Hong Kong	Finance	negative	-1	markets
+2026-06-08	IPO	Finance	negative	-1	markets
+2026-06-08	Iran	Energy Minerals	negative	-1	macro
+2026-06-08	Iran	Energy Minerals	negative	-1	macro
+2026-06-08	Liquid Glass	Electronic Technology	positive	1	products
+2026-06-08	Middle East	Energy Minerals	negative	-1	macro
+2026-06-08	Nvidia	Electronic Technology	positive	1	markets
+2026-06-08	Oil	Energy Minerals	negative	-1	macro
+2026-06-08	Semiconductor	Electronic Technology	positive	1	markets
+2026-06-08	Siri	Electronic Technology	positive	1	products
+2026-06-08	Tehran	Energy Minerals	negative	-1	macro
+2026-06-08	Trump	Finance	neutral	0	regulation

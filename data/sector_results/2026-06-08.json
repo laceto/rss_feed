@@ -1,0 +1,91 @@
+{
+  "date": "2026-06-08",
+  "batch_id": "batch_6a272ff5f5e08190960d885316f678dc",
+  "sectors": [
+    {
+      "entities": [
+        "Apple",
+        "Siri",
+        "Liquid Glass"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Iran",
+        "Hezbollah",
+        "Tehran"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Trump",
+        "DOJ"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Nvidia",
+        "AI",
+        "China"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Corning",
+        "Amazon",
+        "AI"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Chip",
+        "Semiconductor"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Oil",
+        "Iran",
+        "Middle East"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Hong Kong",
+        "IPO"
+      ],
+      "sector": "Finance",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}
