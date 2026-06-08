@@ -1,0 +1,232 @@
+{
+  "date": "2026-06-08",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "ad0fef60-4749-4e85-809e-e1e6af36a370",
+      "label": "Kevin Warsh Fed Chair Nomination",
+      "spike_ratio": 1.875,
+      "article_count": 40,
+      "sentiment_score": 0.3347321428571428,
+      "rag_answer": "Kevin Warsh has been nominated by President Trump to succeed Jerome Powell as the Federal Reserve chair, with his nomination facing significant scrutiny and hurdles due to a pending criminal investigation into Powell. Despite being confirmed by the Senate with a narrow 51-45 vote, Warsh's nomination has been contentious, with some senators, including Thom Tillis, attempting to block it. Market analysts view Warsh's potential leadership as a pivotal factor, particularly regarding interest rate policies, which could influence investor sentiment and market stability. His confirmation process has highlighted the ongoing tensions within the Federal Reserve and the political landscape surrounding monetary policy.",
+      "rag_sources": [
+        {
+          "title": "CNBC Daily Open: We'll soon find out who the new Fed chair is",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/cnbc-daily-open-well-soon-find-out-who-the-new-fed-chair-is.html",
+          "snippet": "2026-01-30: CNBC Daily Open: We'll soon find out who the new Fed chair is: Former Fed Governor Kevin Warsh is by far the favorite, according to prediction market Kalshi.",
+          "guid": "108259366"
+        },
+        {
+          "title": "Senate confirms Kevin Warsh as Fed governor, clears way for chair vote ",
+          "date": "2026-05-12",
+          "link": "https://www.cnbc.com/2026/05/12/senate-confirms-kevin-warsh-as-fed-governor-clears-way-for-chair-vote.html",
+          "snippet": "2026-05-12: Senate confirms Kevin Warsh as Fed governor, clears way for chair vote: The upper chamber voted to approve Warsh's nomination by a 51-45 vote, on a mostly party-line basis.",
+          "guid": "108305731"
+        },
+        {
+          "title": "Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/trump-finally-makes-his-fed-chair-pick-what-kevin-warsh-means-for-investors.html",
+          "snippet": "2026-01-30: Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors: Investors see the former Fed governor as a credible steward of monetary policy despite expectations he may pu",
+          "guid": "108259473"
+        },
+        {
+          "title": "Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/who-is-kevin-warsh-trumps-fed-chair-pick.html",
+          "snippet": "2026-01-30: Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve: Kevin Warsh, a former Fed governor, has emerged as Donald Trump\u2019s pick to lead the Federal Reserve.",
+          "guid": "108259461"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.75,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        },
+        {
+          "sector": "Technology Services",
+          "trend_direction": "improving",
+          "trend_delta": 0.533,
+          "mean_sentiment_score": 0.091,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "2fbfc251-eaea-4872-8901-6018815599e6",
+      "label": "AI Demand and Chip Earnings",
+      "spike_ratio": 1.765,
+      "article_count": 60,
+      "sentiment_score": 0.4145238095238095,
+      "rag_answer": "Demand for AI-related chips is surging, driven by the rapid growth of AI infrastructure, leading to significant earnings boosts for companies like Nvidia, AMD, and Broadcom. This boom has resulted in shortages of certain chip components, which is raising concerns about potential price hikes for consumer electronics. Analysts predict that the structural demand for memory in AI applications will keep profitability high for chip stocks, with some expecting historic gains. However, there are ongoing debates about whether the current AI capacity being built will be profitable in the long run, indicating a potential bubble in the market.",
+      "rag_sources": [
+        {
+          "title": "These funds protect against market drops. Demand is booming",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/these-funds-protect-against-market-drops-demand-is-booming.html",
+          "snippet": "2026-02-11: These funds protect against market drops. Demand is booming: Buffer ETFs could see assets quadruple over a five-year period, according to Cerulli Associates. What to know before investing.",
+          "guid": "108264590"
+        },
+        {
+          "title": "Micron stops selling memory to consumers as demand spikes from AI chips",
+          "date": "2025-12-03",
+          "link": "https://www.cnbc.com/2025/12/03/micron-stops-selling-memory-to-consumers-demand-spikes-from-ai-chips.html",
+          "snippet": "2025-12-03: Micron stops selling memory to consumers as demand spikes from AI chips: Demand driven by the AI infrastructure boom is creating shortages for certain products like memory.",
+          "guid": "108236104"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Chip stocks including Nvidia are holding up despite market volatility, according to the charts",
+          "date": "2026-03-10",
+          "link": "https://www.cnbc.com/2026/03/10/chip-stocks-including-nvidia-are-holding-up-despite-market-volatility-according-to-the-charts.html",
+          "snippet": "2026-03-10: Chip stocks including Nvidia are holding up despite market volatility, according to the charts: Todd Gordon takes a look at the technicals in Nvidia and other chipmakers.",
+          "guid": "108276190"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "improving",
+          "trend_delta": 0.533,
+          "mean_sentiment_score": 0.091,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "27b66b68-d49d-4f9e-b7b9-3cc976c1e33b",
+      "label": "Trump DOJ 'Lawfare' Fund Issues",
+      "spike_ratio": 1.222,
+      "article_count": 22,
+      "sentiment_score": 0.3538961038961039,
+      "rag_answer": "The Trump DOJ 'Lawfare' Fund, established to compensate alleged victims of prosecutorial overreach, has faced significant legal and political challenges. Following President Trump's decision to drop a $10 billion lawsuit against the IRS in exchange for the creation of a $1.8 billion fund, various lawsuits have emerged, including one from Jan. 6 police officers seeking to block the fund. Critics, including Senate Democrats, have labeled the fund a \"slush fund\" and are pushing for votes to halt its implementation, which has stalled Senate actions. The ongoing controversy surrounding the fund has contributed to market volatility, particularly as investors react to the broader implications of Trump's policies and legal battles.",
+      "rag_sources": [
+        {
+          "title": "New lawsuit against Trump's DOJ 'lawfare' fund ",
+          "date": "2026-05-22",
+          "link": "https://www.cnbc.com/2026/05/22/trump-doj-fund-republicans.html",
+          "snippet": "2026-05-22: New lawsuit against Trump's DOJ 'lawfare' fund: President Trump droppped his $10 billion lawsuit against the IRS in exchange for the DOJ creating a $1.8 billion fund to compensate alleged ",
+          "guid": "108311191"
+        },
+        {
+          "title": "First rare earths and chips, now quantum computers: Trump reportedly eyes new U.S. stakes",
+          "date": "2025-10-23",
+          "link": "https://www.cnbc.com/2025/10/23/first-rare-earths-and-chips-now-quantum-computers-trump-reportedly-eyes-new-us-stakes.html",
+          "snippet": "2025-10-23: First rare earths and chips, now quantum computers: Trump reportedly eyes new U.S. stakes: The Commerce Department later denied that active talks were happening with the companies.",
+          "guid": "108215776"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "e52f3d97-ef4a-40c3-abac-feafc6ada748",
+      "label": "SpaceX IPO and market impact",
+      "spike_ratio": 1.109,
+      "article_count": 17,
+      "sentiment_score": 0.5049019607843137,
+      "rag_answer": "SpaceX is preparing for what is anticipated to be the largest IPO in history, with plans to debut on Nasdaq under the ticker SPCX in early June 2026. The company has already filed its IPO prospectus, highlighting its reliance on Starlink for growth and profit. Analysts suggest that the SpaceX IPO could reshape valuations across the aerospace industry and potentially squeeze investor demand for other IPOs in Europe. Overall, the event is expected to inject excitement into the IPO market, although some investors caution that the market impact may be more muted than anticipated.",
+      "rag_sources": [
+        {
+          "title": "SpaceX stock debut is the big market event of 2026. Why Musk's venture could be biggest IPO ever",
+          "date": "2026-01-02",
+          "link": "https://www.cnbc.com/2026/01/02/spacex-ipo-musk-2026.html",
+          "snippet": "2026-01-02: SpaceX stock debut is the big market event of 2026. Why Musk's venture could be biggest IPO ever: Investors have already thrown their weight behind the company ahead of its planned IPO.",
+          "guid": "108247577"
+        },
+        {
+          "title": "SpaceX could be the biggest IPO ever next year. How investors can play it right now",
+          "date": "2025-12-15",
+          "link": "https://www.cnbc.com/2025/12/15/spacex-may-be-the-biggest-ipo-ever-next-year-how-to-play-it-right-now.html",
+          "snippet": "2025-12-15: SpaceX could be the biggest IPO ever next year. How investors can play it right now: The SpaceX IPO could reshape valuations across the aerospace industry and deliver a rare blockbuster de",
+          "guid": "108241786"
+        },
+        {
+          "title": "IPO index hits 3-year high with Klarna latest offering set to boom. Why is market so hot and can it continue?",
+          "date": "2025-09-10",
+          "link": "https://www.cnbc.com/2025/09/10/ipo-index-hits-3-year-high-with-klarna-latest-offering-set-to-boom.html",
+          "snippet": "2025-09-10: IPO index hits 3-year high with Klarna latest offering set to boom. Why is market so hot and can it continue?: Klarna is just the latest IPO to hit the market.",
+          "guid": "108196799"
+        },
+        {
+          "title": "E*Trade in talks to lead SpaceX IPO share sale to small investors in U.S., sources say",
+          "date": "2026-03-30",
+          "link": "https://www.cnbc.com/2026/03/30/etrade-in-talks-to-lead-spacex-ipo-share-sale-to-small-us-investors.html",
+          "snippet": "2026-03-30: E*Trade in talks to lead SpaceX IPO share sale to small investors in U.S., sources say: The SpaceX IPO is shaping up to be the biggest in history.",
+          "guid": "108284857"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "6fee283d-ffbb-4267-a21d-4fc542922500",
+      "label": "UK Political Turmoil and Bond Markets",
+      "spike_ratio": 1.034,
+      "article_count": 20,
+      "sentiment_score": 0.4848214285714285,
+      "rag_answer": "The UK is currently experiencing significant political turmoil, with Prime Minister Starmer facing potential leadership challenges from within his party, leading to heightened instability in the bond markets. As a result, UK government bond yields have surged to their highest levels since 1998, reflecting investor concerns over the government's fiscal management and the implications of upcoming political events. The bond markets are reacting to this uncertainty, with heavy selling pressure on gilts and rising borrowing costs, which could hinder the government's ability to meet its fiscal targets. Recent developments suggest that the situation may be stabilizing slightly, as prospective next PM Andy Burnham attempts to reassure bond markets following a sell-off.",
+      "rag_sources": [
+        {
+          "title": "Bond markets brace as UK PM Starmer's political rivals break cover, heath sec. Streeting resigns",
+          "date": "2026-05-14",
+          "link": "https://www.cnbc.com/2026/05/14/uk-labour-leadership-challenge-starmer-rivals.html",
+          "snippet": "2026-05-14: Bond markets brace as UK PM Starmer's political rivals break cover, heath sec. Streeting resigns: The prime minister's colleagues could be ready to mutiny, with leadership bids potentially",
+          "guid": "108306740"
+        },
+        {
+          "title": "'Bond markets on edge' as King Charles sets out fragile UK government's agenda",
+          "date": "2026-05-13",
+          "link": "https://www.cnbc.com/2026/05/13/gilts-sterling-starmer-king-charles-uk.html",
+          "snippet": "2026-05-13: 'Bond markets on edge' as King Charles sets out fragile UK government's agenda: U.K. gilts and bonds faced heavy selling pressure in response to the latest 'Starmer drama', as the prime mi",
+          "guid": "108306117"
+        },
+        {
+          "title": "CNBC Daily Open: Political pressure cooker week",
+          "date": "2026-05-11",
+          "link": "https://www.cnbc.com/2026/05/11/cnbc-daily-open-political-pressure-cooker-week.html",
+          "snippet": "2026-05-11: CNBC Daily Open: Political pressure cooker week: Markets eye three high-stakes political stories this week, with the U.S., Iran, China and the U.K. front and center.",
+          "guid": "108304779"
+        },
+        {
+          "title": "Political risk: How Trump 2.0 is affecting investment in U.S. assets",
+          "date": "2026-02-01",
+          "link": "https://www.cnbc.com/2026/02/01/political-risk-how-trump-2point0-is-affecting-investment-in-us-assets.html",
+          "snippet": "2026-02-01: Political risk: How Trump 2.0 is affecting investment in U.S. assets: Political risk: How Trump 2.0 is affecting investment in U.S. assets",
+          "guid": "108259074"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.75,
+          "mean_sentiment_score": 0.125,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}
