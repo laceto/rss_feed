@@ -1,0 +1,83 @@
+{
+  "date": "2026-06-09",
+  "batch_id": "batch_6a287d7a8050819096039ed376fce834",
+  "sectors": [
+    {
+      "entities": [
+        "SpaceX",
+        "Charles Schwab",
+        "Fidelity",
+        "Robinhood",
+        "Morgan Stanley's E-Trade"
+      ],
+      "sector": "Distribution Services",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "U.S. Consumer Price Index"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Anthropic"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Morgan Stanley"
+      ],
+      "sector": "Finance",
+      "sentiment": "negative",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Semiconductor shorts"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Kalshi"
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Trump family",
+        "Alt5 Sigma"
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Gold"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}

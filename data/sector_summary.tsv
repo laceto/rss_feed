@@ -1939,3 +1939,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-06-08	Electronic Technology	Chip|Semiconductor	positive	markets	ok
 2026-06-08	Energy Minerals	Oil|Iran|Middle East	negative	macro	ok
 2026-06-08	Finance	Hong Kong|IPO	negative	markets	ok
+2026-06-09	Distribution Services	SpaceX|Charles Schwab|Fidelity|Robinhood|Morgan Stanley's E-Trade	neutral	markets	ok
+2026-06-09	Consumer Non-Durables	U.S. Consumer Price Index	neutral	macro	ok
+2026-06-09	Technology Services	Anthropic	positive	products	ok
+2026-06-09	Finance	Morgan Stanley	negative	products	ok
+2026-06-09	Electronic Technology	Semiconductor shorts	negative	markets	ok
+2026-06-09	Finance	Kalshi	positive	markets	ok
+2026-06-09	Finance	Trump family|Alt5 Sigma	positive	markets	ok
+2026-06-09	Consumer Non-Durables	Gold	negative	markets	ok

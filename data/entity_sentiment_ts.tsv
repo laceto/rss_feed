@@ -1,19 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-03-10	Amazon	Technology Services	negative	-1	products
-2026-03-10	Anthropic	Electronic Technology	positive	1	products
-2026-03-10	Bosch	Producer Manufacturing	neutral	0	products
-2026-03-10	Google	Electronic Technology	positive	1	products
-2026-03-10	International Energy Agency	Energy Minerals	neutral	0	macro
-2026-03-10	Mira Murati	Electronic Technology	positive	1	products
-2026-03-10	Nvidia	Electronic Technology	positive	1	products
-2026-03-10	OpenAI	Technology Services	neutral	0	products
-2026-03-10	Oracle	Technology Services	neutral	0	products
-2026-03-10	Perplexity	Technology Services	negative	-1	products
-2026-03-10	Saudi Aramco	Energy Minerals	positive	1	macro
-2026-03-10	Stellantis	Producer Manufacturing	neutral	0	products
-2026-03-10	Thinking Machines Lab	Electronic Technology	positive	1	products
-2026-03-10	Toyota	Producer Manufacturing	neutral	0	products
-2026-03-10	Volkswagen	Producer Manufacturing	negative	-1	products
 2026-03-11	AMD	Electronic Technology	positive	1	products
 2026-03-11	Cerebras	Electronic Technology	positive	1	products
 2026-03-11	Chubb	Finance	positive	1	M&A
@@ -1056,3 +1041,16 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-06-08	Siri	Electronic Technology	positive	1	products
 2026-06-08	Tehran	Energy Minerals	negative	-1	macro
 2026-06-08	Trump	Finance	neutral	0	regulation
+2026-06-09	Alt5 Sigma	Finance	positive	1	markets
+2026-06-09	Anthropic	Technology Services	positive	1	products
+2026-06-09	Charles Schwab	Distribution Services	neutral	0	markets
+2026-06-09	Fidelity	Distribution Services	neutral	0	markets
+2026-06-09	Gold	Consumer Non-Durables	negative	-1	markets
+2026-06-09	Kalshi	Finance	positive	1	markets
+2026-06-09	Morgan Stanley	Finance	negative	-1	products
+2026-06-09	Morgan Stanley's E-Trade	Distribution Services	neutral	0	markets
+2026-06-09	Robinhood	Distribution Services	neutral	0	markets
+2026-06-09	Semiconductor shorts	Electronic Technology	negative	-1	markets
+2026-06-09	SpaceX	Distribution Services	neutral	0	markets
+2026-06-09	Trump family	Finance	positive	1	markets
+2026-06-09	U.S. Consumer Price Index	Consumer Non-Durables	neutral	0	macro
