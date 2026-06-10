@@ -1947,3 +1947,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-06-09	Finance	Kalshi	positive	markets	ok
 2026-06-09	Finance	Trump family|Alt5 Sigma	positive	markets	ok
 2026-06-09	Consumer Non-Durables	Gold	negative	markets	ok
+2026-06-10	Energy Minerals	Iran|U.S. military	negative	macro	ok
+2026-06-10	Technology Services	Oracle	positive	earnings	ok
+2026-06-10	Producer Manufacturing	SpaceX	positive	products	ok
+2026-06-10	Communications	Meta|Reliance Industries	positive	products	ok
+2026-06-10	Consumer Non-Durables	Gold|Bitcoin	negative	markets	ok
+2026-06-10	Energy Minerals	BP	neutral	regulation	ok
+2026-06-10	Technology Services	AI Financial Corp.|Thoma Bravo	positive	markets	ok
+2026-06-10	Electronic Technology	China|U.S.	negative	macro	ok

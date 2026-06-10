@@ -1,18 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-03-11	AMD	Electronic Technology	positive	1	products
-2026-03-11	Cerebras	Electronic Technology	positive	1	products
-2026-03-11	Chubb	Finance	positive	1	M&A
-2026-03-11	Dow Jones Industrial Average	Consumer Services	negative	-1	markets
-2026-03-11	Iran	Energy Minerals	negative	-1	macro
-2026-03-11	Israel	Energy Minerals	negative	-1	macro
-2026-03-11	Meta	Electronic Technology	positive	1	products
-2026-03-11	Nvidia	Electronic Technology	positive	1	products
-2026-03-11	Oracle	Electronic Technology	positive	1	products
-2026-03-11	Rheinmetall	Producer Manufacturing	positive	1	products
-2026-03-11	U.S.	Energy Minerals	negative	-1	macro
-2026-03-11	U.S. International Development Finance Corp.	Finance	positive	1	M&A
-2026-03-11	U.S. Treasury	Finance	neutral	0	macro
-2026-03-11	oil companies	Energy Minerals	negative	-1	macro
 2026-03-12	Bessent	Energy Minerals	negative	-1	macro
 2026-03-12	Brent oil	Energy Minerals	positive	1	markets
 2026-03-12	Dow	Energy Minerals	negative	-1	macro
@@ -1054,3 +1040,16 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-06-09	SpaceX	Distribution Services	neutral	0	markets
 2026-06-09	Trump family	Finance	positive	1	markets
 2026-06-09	U.S. Consumer Price Index	Consumer Non-Durables	neutral	0	macro
+2026-06-10	AI Financial Corp.	Technology Services	positive	1	markets
+2026-06-10	BP	Energy Minerals	neutral	0	regulation
+2026-06-10	Bitcoin	Consumer Non-Durables	negative	-1	markets
+2026-06-10	China	Electronic Technology	negative	-1	macro
+2026-06-10	Gold	Consumer Non-Durables	negative	-1	markets
+2026-06-10	Iran	Energy Minerals	negative	-1	macro
+2026-06-10	Meta	Communications	positive	1	products
+2026-06-10	Oracle	Technology Services	positive	1	earnings
+2026-06-10	Reliance Industries	Communications	positive	1	products
+2026-06-10	SpaceX	Producer Manufacturing	positive	1	products
+2026-06-10	Thoma Bravo	Technology Services	positive	1	markets
+2026-06-10	U.S.	Electronic Technology	negative	-1	macro
+2026-06-10	U.S. military	Energy Minerals	negative	-1	macro
