@@ -1,0 +1,209 @@
+{
+  "date": "2026-06-11",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "e52f3d97-ef4a-40c3-abac-feafc6ada748",
+      "label": "SpaceX IPO and market impact",
+      "spike_ratio": 1.296,
+      "article_count": 23,
+      "sentiment_score": 0.3623188405797101,
+      "rag_answer": "The SpaceX IPO is generating significant excitement among investors, with expectations that it could be the largest IPO ever, potentially reshaping valuations in the aerospace industry. Analysts predict that the IPO, set for early June, may invigorate the broader market, particularly benefiting related space stocks and suppliers. However, there are concerns that the debut could overshadow other IPOs, particularly in Europe, and that it will serve as a critical test for how Wall Street values \"strategic tech\" companies. Overall, while the IPO is anticipated to be a major event, its actual market impact may be more muted than some investors hope.",
+      "rag_sources": [
+        {
+          "title": "Investors are getting hyped over the SpaceX IPO. Here's what the market impact may be",
+          "date": "2026-04-08",
+          "link": "https://www.cnbc.com/2026/04/08/investors-are-getting-hyped-over-the-spacex-ipo-heres-what-the-market-impact-may-be.html",
+          "snippet": "2026-04-08: Investors are getting hyped over the SpaceX IPO. Here's what the market impact may be: The Elon Musk-founded aerospace company could inject excitement into an inert IPO pipeline, but the m",
+          "guid": "108288085"
+        },
+        {
+          "title": "SpaceX stock debut is the big market event of 2026. Why Musk's venture could be biggest IPO ever",
+          "date": "2026-01-02",
+          "link": "https://www.cnbc.com/2026/01/02/spacex-ipo-musk-2026.html",
+          "snippet": "2026-01-02: SpaceX stock debut is the big market event of 2026. Why Musk's venture could be biggest IPO ever: Investors have already thrown their weight behind the company ahead of its planned IPO.",
+          "guid": "108247577"
+        },
+        {
+          "title": "SpaceX IPO filing sparks a bull market in space stocks. How to buy in",
+          "date": "2026-05-26",
+          "link": "https://www.cnbc.com/2026/05/26/spacex-ipo-filing-sparks-a-bull-market-in-space-stocks-how-to-buy-in.html",
+          "snippet": "2026-05-26: SpaceX IPO filing sparks a bull market in space stocks. How to buy in: Analysts see a range of IPO beneficiaries, from suppliers to proxies -- and even competitors",
+          "guid": "108311957"
+        },
+        {
+          "title": "SpaceX is set to be a 'seminal event' for the stock market next week. Here's what's ahead",
+          "date": "2026-06-05",
+          "link": "https://www.cnbc.com/2026/06/05/spacex-is-set-to-be-a-seminal-event-for-the-stock-market-next-week-heres-whats-ahead.html",
+          "snippet": "2026-06-05: SpaceX is set to be a 'seminal event' for the stock market next week. Here's what's ahead: What the first of several trillion dollar companies going public will mean for a stock market tha",
+          "guid": "108317305"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "27b66b68-d49d-4f9e-b7b9-3cc976c1e33b",
+      "label": "Trump DOJ 'Lawfare' Fund Issues",
+      "spike_ratio": 1.284,
+      "article_count": 26,
+      "sentiment_score": 0.3334249084249084,
+      "rag_answer": "The Trump DOJ 'Lawfare' Fund, established to compensate alleged victims of prosecutorial overreach, has faced significant legal and political challenges. Following President Trump's decision to drop a $10 billion lawsuit against the IRS in exchange for the creation of a $1.8 billion fund, various lawsuits have emerged, including one from Jan. 6 police officers seeking to block the fund. Critics, including Senate Democrats, have labeled the fund a \"slush fund\" and are pushing for votes to halt its implementation, which has stalled Senate actions. The ongoing controversy surrounding the fund has contributed to market volatility, particularly as investors react to the broader implications of Trump's policies and the potential for further political gridlock.",
+      "rag_sources": [
+        {
+          "title": "New lawsuit against Trump's DOJ 'lawfare' fund ",
+          "date": "2026-05-22",
+          "link": "https://www.cnbc.com/2026/05/22/trump-doj-fund-republicans.html",
+          "snippet": "2026-05-22: New lawsuit against Trump's DOJ 'lawfare' fund: President Trump droppped his $10 billion lawsuit against the IRS in exchange for the DOJ creating a $1.8 billion fund to compensate alleged ",
+          "guid": "108311191"
+        },
+        {
+          "title": "First rare earths and chips, now quantum computers: Trump reportedly eyes new U.S. stakes",
+          "date": "2025-10-23",
+          "link": "https://www.cnbc.com/2025/10/23/first-rare-earths-and-chips-now-quantum-computers-trump-reportedly-eyes-new-us-stakes.html",
+          "snippet": "2025-10-23: First rare earths and chips, now quantum computers: Trump reportedly eyes new U.S. stakes: The Commerce Department later denied that active talks were happening with the companies.",
+          "guid": "108215776"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "9bd540b0-4ab2-4d02-8dfb-0e77f6d38971",
+      "label": "Credit Card Rewards and Offers",
+      "spike_ratio": 1.273,
+      "article_count": 14,
+      "sentiment_score": 0.2130952380952381,
+      "rag_answer": "Credit card rewards and offers are undergoing significant changes, with premium credit cards maintaining popularity despite rising fees and new perks. Recent legal settlements involving Visa and Mastercard may alter the checkout experience for consumers, while the introduction of limited-time offers, such as those from Capital One, suggests a competitive market aiming to attract new customers. Additionally, the devaluation of rewards over time poses a challenge for cardholders, emphasizing the need for strategic redemption. Overall, the landscape for credit card rewards is evolving, with both opportunities and challenges for consumers.",
+      "rag_sources": [
+        {
+          "title": "What does it mean for a credit card to devalue? How to protect your rewards",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/select/credit-card-devaluations-how-to-protect-rewards/",
+          "snippet": "2026-01-23: What does it mean for a credit card to devalue? How to protect your rewards: Over time, credit card devaluations can quietly chip away at the value you get from your card.",
+          "guid": "108253037"
+        },
+        {
+          "title": "How often should you redeem your credit card rewards?",
+          "date": "2026-02-03",
+          "link": "https://www.cnbc.com/select/how-often-should-you-redeem-your-credit-card-rewards/",
+          "snippet": "2026-02-03: How often should you redeem your credit card rewards?: There are several different types of credit card rewards and each has its own redemption strategy.",
+          "guid": "108258959"
+        },
+        {
+          "title": "What the Visa, Mastercard legal settlement means for your rewards credit card",
+          "date": "2025-11-13",
+          "link": "https://www.cnbc.com/2025/11/13/visa-mastercard-legal-settlement-what-you-need-to-know.html",
+          "snippet": "2025-11-13: What the Visa, Mastercard legal settlement means for your rewards credit card: A Visa and MasterCard settlement with merchants announced earlier this week could bring changes to your exper",
+          "guid": "108224840"
+        },
+        {
+          "title": "CNBC Points Pro: Are credit card rewards worth it if you pay a surcharge?",
+          "date": "2026-04-27",
+          "link": "https://www.cnbc.com/select/are-credit-card-rewards-worth-it-if-you-pay-a-surcharge/",
+          "snippet": "2026-04-27: CNBC Points Pro: Are credit card rewards worth it if you pay a surcharge?: Points expert Jason Stauffer explains when paying a credit card surcharge makes sense and when to avoid it.",
+          "guid": "108293378"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.268,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "ad9919d0-c596-4484-b51f-cec82c0c07a6",
+      "label": "Iran conflict and stock market",
+      "spike_ratio": 1.253,
+      "article_count": 26,
+      "sentiment_score": 0.3248626373626374,
+      "rag_answer": "The Iran conflict has significantly influenced the stock market, with volatility observed since the U.S. and Israel's military actions began. Initially, stocks remained calm, but as the conflict extended into weeks, concerns about economic impacts grew, leading to fluctuations in oil prices and market sentiment. Despite some periods of recovery, such as global stocks recouping losses to reach record levels, the uncertainty surrounding the conflict continues to create a cautious atmosphere among investors. Key developments, including Trump's statements and potential resolutions, are closely monitored as they could lead to either further escalation or stabilization in the markets.",
+      "rag_sources": [
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "The stock market isn't ignoring Iran. It's rising for these three very real reasons",
+          "date": "2026-05-12",
+          "link": "https://www.cnbc.com/2026/05/12/the-stock-market-isnt-ignoring-iran-its-rising-for-these-three-very-real-reasons.html",
+          "snippet": "2026-05-12: The stock market isn't ignoring Iran. It's rising for these three very real reasons: It's time to take a closer look with stocks rallying into the third month of the U.S.-Iran conflict.",
+          "guid": "108305200"
+        },
+        {
+          "title": "The clock is ticking for the stock market as the Iran war stretches into a fourth week ",
+          "date": "2026-03-20",
+          "link": "https://www.cnbc.com/2026/03/20/stock-market-next-week-outlook-for-march-23-27-2026-.html",
+          "snippet": "2026-03-20: The clock is ticking for the stock market as the Iran war stretches into a fourth week: Stocks have been largely calm since the start of the U.S. war in Iran, but the latest headlines coul",
+          "guid": "108280512"
+        },
+        {
+          "title": "Trump says oil and stock market reaction to Iran conflict not as severe as he expected",
+          "date": "2026-03-26",
+          "link": "https://www.cnbc.com/2026/03/26/trump-iran-war-oil-stocks.html",
+          "snippet": "2026-03-26: Trump says oil and stock market reaction to Iran conflict not as severe as he expected: Trump expressed confidence in the war effort and said the economic damage will reverse.",
+          "guid": "108283503"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "45e0ac7c-6cb2-4ed0-881e-f64a0eea8c24",
+      "label": "Weight Loss Drug Market Dynamics",
+      "spike_ratio": 1.205,
+      "article_count": 25,
+      "sentiment_score": 0.3067619047619048,
+      "rag_answer": "The weight loss drug market is experiencing significant turbulence, driven by increased competition and safety concerns. Eli Lilly is losing market share in India due to the influx of cheaper generic semaglutide drugs, while Novo Nordisk is attempting to maintain its position with aggressive pricing strategies for its GLP-1 brands, Ozempic and Wegovy. Recent safety data for an experimental weight loss drug has spooked investors, raising doubts about the commercial viability of such products despite meeting key targets. Overall, the market is facing a \"bubble effect,\" with obesity drugs representing a substantial portion of the pharmaceutical pipeline, but the landscape is becoming riskier as new entrants and safety issues emerge.",
+      "rag_sources": [
+        {
+          "title": "Weight loss drug maker sinks 23% after new safety data spooks investors",
+          "date": "2026-06-08",
+          "link": "https://www.cnbc.com/2026/06/08/weight-loss-drug-stock-zealand-pharma-data-ada.html",
+          "snippet": "2026-06-08: Weight loss drug maker sinks 23% after new safety data spooks investors: While the experimental drug met its key targets, analysts are concerned over the commercial opportunity due to side",
+          "guid": "108317968"
+        },
+        {
+          "title": "What the Iran war market turmoil means for those nearing retirement",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/iran-war-market-volatility-retirement.html",
+          "snippet": "2026-03-05: What the Iran war market turmoil means for those nearing retirement: Market shakiness may not concern long-term investors, but it could be a useful wake-up call for those on the precipice ",
+          "guid": "108272020"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "'Bubble effect': Weight loss drug fueled growth is putting the pharma sector at risk, report finds",
+          "date": "2026-05-04",
+          "link": "https://www.cnbc.com/2026/05/04/wegovy-glp1-weight-loss-drugs-pharma-growth-bubble.html",
+          "snippet": "2026-05-04: 'Bubble effect': Weight loss drug fueled growth is putting the pharma sector at risk, report finds: Obesity assets represent about 25% of total forecast sales of the late-stage pipeline, w",
+          "guid": "108301393"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}
