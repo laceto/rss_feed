@@ -1,0 +1,84 @@
+{
+  "date": "2026-06-11",
+  "batch_id": "batch_6a2b25e056408190990de002a56ad84f",
+  "sectors": [
+    {
+      "entities": [
+        "Iran",
+        "U.S.",
+        "Trump"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "SpaceX",
+        "Elon Musk"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "SpaceX",
+        "Starlink"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Pimco"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Gold"
+      ],
+      "sector": "Non-Energy Minerals",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Hugo Boss",
+        "Frasers"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Mercedes-Benz"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    }
+  ]
+}

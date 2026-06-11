@@ -1,24 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-03-12	Bessent	Energy Minerals	negative	-1	macro
-2026-03-12	Brent oil	Energy Minerals	positive	1	markets
-2026-03-12	Dow	Energy Minerals	negative	-1	macro
-2026-03-12	EV	Consumer Durables	positive	1	products
-2026-03-12	Google	Electronic Technology	neutral	0	other
-2026-03-12	Iran	Energy Minerals	negative	-1	macro
-2026-03-12	Iran	Energy Minerals	positive	1	markets
-2026-03-12	Iran War	Energy Minerals	negative	-1	macro
-2026-03-12	Israel	Energy Minerals	negative	-1	macro
-2026-03-12	Leonardo	Industrial Services	positive	1	markets
-2026-03-12	Microsoft	Technology Services	neutral	0	other
-2026-03-12	Mojtaba Khamenei	Energy Minerals	negative	-1	macro
-2026-03-12	Rajesh Jha	Technology Services	neutral	0	other
-2026-03-12	Rivian	Consumer Durables	positive	1	products
-2026-03-12	U.S.	Energy Minerals	negative	-1	macro
-2026-03-12	U.S. Navy	Energy Minerals	negative	-1	macro
-2026-03-12	defense companies	Industrial Services	positive	1	markets
-2026-03-12	fertilizer stocks	Non-Energy Minerals	positive	1	markets
-2026-03-12	gold	Consumer Non-Durables	neutral	0	markets
-2026-03-12	oil	Energy Minerals	negative	-1	macro
 2026-03-13	AMD	Electronic Technology	positive	1	products
 2026-03-13	Amazon	Retail Trade	positive	1	products
 2026-03-13	BYD	Consumer Durables	positive	1	markets
@@ -1053,3 +1033,17 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-06-10	Thoma Bravo	Technology Services	positive	1	markets
 2026-06-10	U.S.	Electronic Technology	negative	-1	macro
 2026-06-10	U.S. military	Energy Minerals	negative	-1	macro
+2026-06-11	Anthropic	Technology Services	neutral	0	products
+2026-06-11	Elon Musk	Electronic Technology	positive	1	products
+2026-06-11	Frasers	Consumer Durables	positive	1	markets
+2026-06-11	Gold	Non-Energy Minerals	negative	-1	markets
+2026-06-11	Hugo Boss	Consumer Durables	positive	1	markets
+2026-06-11	Iran	Energy Minerals	negative	-1	macro
+2026-06-11	Mercedes-Benz	Consumer Durables	neutral	0	products
+2026-06-11	OpenAI	Technology Services	neutral	0	products
+2026-06-11	Pimco	Finance	neutral	0	markets
+2026-06-11	SpaceX	Electronic Technology	positive	1	products
+2026-06-11	SpaceX	Electronic Technology	positive	1	products
+2026-06-11	Starlink	Electronic Technology	positive	1	products
+2026-06-11	Trump	Energy Minerals	negative	-1	macro
+2026-06-11	U.S.	Energy Minerals	negative	-1	macro

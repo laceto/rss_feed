@@ -1955,3 +1955,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-06-10	Energy Minerals	BP	neutral	regulation	ok
 2026-06-10	Technology Services	AI Financial Corp.|Thoma Bravo	positive	markets	ok
 2026-06-10	Electronic Technology	China|U.S.	negative	macro	ok
+2026-06-11	Energy Minerals	Iran|U.S.|Trump	negative	macro	ok
+2026-06-11	Electronic Technology	SpaceX|Elon Musk	positive	products	ok
+2026-06-11	Electronic Technology	SpaceX|Starlink	positive	products	ok
+2026-06-11	Finance	Pimco	neutral	markets	ok
+2026-06-11	Non-Energy Minerals	Gold	negative	markets	ok
+2026-06-11	Technology Services	OpenAI|Anthropic	neutral	products	ok
+2026-06-11	Consumer Durables	Hugo Boss|Frasers	positive	markets	ok
+2026-06-11	Consumer Durables	Mercedes-Benz	neutral	products	ok
