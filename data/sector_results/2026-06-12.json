@@ -1,0 +1,34 @@
+{
+  "date": "2026-06-12",
+  "batch_id": "batch_6a2c73ab0dc88190b0999e4b53529843",
+  "sectors": [
+    {
+      "entities": [
+        "SpaceX",
+        "Elon Musk"
+      ],
+      "sector": "Producer Manufacturing",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Nokia"
+      ],
+      "sector": "Communications",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "LVMH"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}

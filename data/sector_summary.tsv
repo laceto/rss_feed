@@ -1963,3 +1963,6 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-06-11	Technology Services	OpenAI|Anthropic	neutral	products	ok
 2026-06-11	Consumer Durables	Hugo Boss|Frasers	positive	markets	ok
 2026-06-11	Consumer Durables	Mercedes-Benz	neutral	products	ok
+2026-06-12	Producer Manufacturing	SpaceX|Elon Musk	positive	markets	ok
+2026-06-12	Communications	Nokia	positive	products	ok
+2026-06-12	Consumer Durables	LVMH	positive	markets	ok

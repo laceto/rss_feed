@@ -1,21 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-03-13	AMD	Electronic Technology	positive	1	products
-2026-03-13	Amazon	Retail Trade	positive	1	products
-2026-03-13	BYD	Consumer Durables	positive	1	markets
-2026-03-13	CBS	Consumer Services	neutral	0	markets
-2026-03-13	Elon Musk	Electronic Technology	neutral	0	products
-2026-03-13	Fed Chair Jerome Powell	Finance	negative	-1	regulation
-2026-03-13	Iran	Energy Minerals	negative	-1	macro
-2026-03-13	Israel	Energy Minerals	negative	-1	macro
-2026-03-13	JPMorgan Chase	Finance	positive	1	markets
-2026-03-13	Jensen Huang	Electronic Technology	positive	1	products
-2026-03-13	NFL	Consumer Services	neutral	0	markets
-2026-03-13	Nvidia	Electronic Technology	positive	1	products
-2026-03-13	SpaceX	Electronic Technology	neutral	0	products
-2026-03-13	Tesla	Consumer Durables	positive	1	markets
-2026-03-13	U.S.	Finance	negative	-1	regulation
-2026-03-13	U.S.	Energy Minerals	negative	-1	macro
-2026-03-13	xAI	Electronic Technology	neutral	0	products
 2026-03-14	Amazon	Technology Services	positive	1	other
 2026-03-14	Brendan Carr	Communications	negative	-1	regulation
 2026-03-14	Caesars	Consumer Non-Durables	neutral	0	M&A
@@ -1047,3 +1030,7 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-06-11	Starlink	Electronic Technology	positive	1	products
 2026-06-11	Trump	Energy Minerals	negative	-1	macro
 2026-06-11	U.S.	Energy Minerals	negative	-1	macro
+2026-06-12	Elon Musk	Producer Manufacturing	positive	1	markets
+2026-06-12	LVMH	Consumer Durables	positive	1	markets
+2026-06-12	Nokia	Communications	positive	1	products
+2026-06-12	SpaceX	Producer Manufacturing	positive	1	markets
