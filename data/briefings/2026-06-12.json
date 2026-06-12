@@ -1,0 +1,209 @@
+{
+  "date": "2026-06-12",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "27b66b68-d49d-4f9e-b7b9-3cc976c1e33b",
+      "label": "Trump DOJ 'Lawfare' Fund Issues",
+      "spike_ratio": 2.196,
+      "article_count": 47,
+      "sentiment_score": 0.2832556935817805,
+      "rag_answer": "The Trump DOJ 'Lawfare' Fund, established to compensate alleged victims of prosecutorial overreach, has faced significant legal and political challenges. Initially created in exchange for Trump dropping a $10 billion lawsuit against the IRS, the fund has been met with lawsuits from Jan. 6 police officers and opposition from Senate Democrats, who are pushing to block it. A judge has temporarily blocked the fund, demanding guarantees that it will not proceed, which has led to further scrutiny and criticism of its legitimacy. These developments have contributed to market volatility, as investors react to the uncertainty surrounding Trump's policies and the implications for the broader political landscape.",
+      "rag_sources": [
+        {
+          "title": "New lawsuit against Trump's DOJ 'lawfare' fund ",
+          "date": "2026-05-22",
+          "link": "https://www.cnbc.com/2026/05/22/trump-doj-fund-republicans.html",
+          "snippet": "2026-05-22: New lawsuit against Trump's DOJ 'lawfare' fund: President Trump droppped his $10 billion lawsuit against the IRS in exchange for the DOJ creating a $1.8 billion fund to compensate alleged ",
+          "guid": "108311191"
+        },
+        {
+          "title": "First rare earths and chips, now quantum computers: Trump reportedly eyes new U.S. stakes",
+          "date": "2025-10-23",
+          "link": "https://www.cnbc.com/2025/10/23/first-rare-earths-and-chips-now-quantum-computers-trump-reportedly-eyes-new-us-stakes.html",
+          "snippet": "2025-10-23: First rare earths and chips, now quantum computers: Trump reportedly eyes new U.S. stakes: The Commerce Department later denied that active talks were happening with the companies.",
+          "guid": "108215776"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "e52f3d97-ef4a-40c3-abac-feafc6ada748",
+      "label": "SpaceX IPO and market impact",
+      "spike_ratio": 1.702,
+      "article_count": 32,
+      "sentiment_score": 0.3385416666666666,
+      "rag_answer": "The SpaceX IPO, which debuted on June 11, 2026, has been highly anticipated and is seen as a significant event for capital markets, potentially serving as a referendum on Elon Musk's leadership. The IPO was priced at $135 per share, leading to a valuation of $1.77 trillion, and the stock surged by 19% on its first day of trading. Analysts believe that the success of this IPO could reshape valuations across the aerospace industry and influence the broader market, particularly in the realm of strategic technology investments. However, there are concerns about maintaining investor enthusiasm and the implications for future market dynamics as SpaceX navigates its post-IPO phase.",
+      "rag_sources": [
+        {
+          "title": "SpaceX IPO is a \u2018referendum\u2019 on Musk, say market watchers",
+          "date": "2026-06-11",
+          "link": "https://www.cnbc.com/2026/06/11/spacex-ipo-elon-musk-valuation.html",
+          "snippet": "2026-06-11: SpaceX IPO is a \u2018referendum\u2019 on Musk, say market watchers: Friday's hotly anticipated SpaceX market debut could prove a defining moment for capital markets \u2014 and serve as a \\referendum\\\" o",
+          "guid": "108320087"
+        },
+        {
+          "title": "What comes next for SpaceX after the IPO will be in focus for investors. Here's what's ahead",
+          "date": "2026-06-12",
+          "link": "https://www.cnbc.com/2026/06/12/stock-market-next-week-outlook-for-june-15-19-2026.html",
+          "snippet": "2026-06-12: What comes next for SpaceX after the IPO will be in focus for investors. Here's what's ahead: Whether SpaceX can maintain the early enthusiasm in the coming days will be telling.",
+          "guid": "108320515"
+        },
+        {
+          "title": "SpaceX IPO will test how Wall Street prices \u2018strategic tech\u2019",
+          "date": "2026-06-11",
+          "link": "https://www.cnbc.com/2026/06/11/spacex-ipo-wall-street-valuation-strategic-tech.html",
+          "snippet": "2026-06-11: SpaceX IPO will test how Wall Street prices \u2018strategic tech\u2019: Elon Musk's SpaceX defies typical market buckets, and the IPO will give Wall Street another chance to value \\strategic tech\\\" ",
+          "guid": "108320418"
+        },
+        {
+          "title": "The SpaceX IPO could be coming for the 'Magnificent Seven' and chip stocks",
+          "date": "2026-06-10",
+          "link": "https://www.cnbc.com/2026/06/10/spacex-ipo-could-be-coming-for-the-magnificent-seven-and-chip-stocks.html",
+          "snippet": "2026-06-10: The SpaceX IPO could be coming for the 'Magnificent Seven' and chip stocks: The \\Magnificent Seven\\\" is the market pocket that's most likely to see a rotation, analysts say.\"",
+          "guid": "108319004"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "45e0ac7c-6cb2-4ed0-881e-f64a0eea8c24",
+      "label": "Weight Loss Drug Market Dynamics",
+      "spike_ratio": 1.157,
+      "article_count": 25,
+      "sentiment_score": 0.2880952380952381,
+      "rag_answer": "The weight loss drug market is experiencing significant turbulence, with major players like Eli Lilly and Novo Nordisk facing increased competition from generic drugmakers, particularly in markets like India. Recent safety concerns regarding experimental drugs have spooked investors, leading to a notable drop in stock prices for companies like Viking Therapeutics. Additionally, while Novo Nordisk's Wegovy pill has seen a strong launch in the U.S., the overall market is at risk due to a potential \"bubble effect\" as obesity assets dominate the late-stage pipeline. As competition intensifies and new entrants emerge, the market dynamics are shifting, raising questions about pricing, insurance coverage, and the sustainability of current leaders.",
+      "rag_sources": [
+        {
+          "title": "Weight loss drug maker sinks 23% after new safety data spooks investors",
+          "date": "2026-06-08",
+          "link": "https://www.cnbc.com/2026/06/08/weight-loss-drug-stock-zealand-pharma-data-ada.html",
+          "snippet": "2026-06-08: Weight loss drug maker sinks 23% after new safety data spooks investors: While the experimental drug met its key targets, analysts are concerned over the commercial opportunity due to side",
+          "guid": "108317968"
+        },
+        {
+          "title": "What the Iran war market turmoil means for those nearing retirement",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/iran-war-market-volatility-retirement.html",
+          "snippet": "2026-03-05: What the Iran war market turmoil means for those nearing retirement: Market shakiness may not concern long-term investors, but it could be a useful wake-up call for those on the precipice ",
+          "guid": "108272020"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "'Bubble effect': Weight loss drug fueled growth is putting the pharma sector at risk, report finds",
+          "date": "2026-05-04",
+          "link": "https://www.cnbc.com/2026/05/04/wegovy-glp1-weight-loss-drugs-pharma-growth-bubble.html",
+          "snippet": "2026-05-04: 'Bubble effect': Weight loss drug fueled growth is putting the pharma sector at risk, report finds: Obesity assets represent about 25% of total forecast sales of the late-stage pipeline, w",
+          "guid": "108301393"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "a48d606d-4db7-44dd-a739-16803814c2fe",
+      "label": "Asia-Pacific markets and Iran tensions",
+      "spike_ratio": 1.048,
+      "article_count": 22,
+      "sentiment_score": 0.3801406926406926,
+      "rag_answer": "Asia-Pacific markets have been experiencing volatility due to escalating tensions between the U.S. and Iran, with fluctuations in oil prices significantly impacting investor sentiment. Recent developments, including military actions and warnings from political leaders, have led to mixed market responses, with some days seeing declines as fears of a wider conflict grow. The ongoing uncertainty surrounding the Middle East conflict has resulted in cautious trading, as investors weigh the implications for inflation and global economic stability. Overall, the situation remains fluid, with markets reacting to both geopolitical developments and oil price movements.",
+      "rag_sources": [
+        {
+          "title": "Asia-Pacific markets mixed as oil prices stay elevated amid escalating U.S.-Iran tensions",
+          "date": "2026-03-16",
+          "link": "https://www.cnbc.com/2026/03/16/asia-pacific-markets-nikkei-225-kospi-hang-seng-index.html",
+          "snippet": "2026-03-16: Asia-Pacific markets mixed as oil prices stay elevated amid escalating U.S.-Iran tensions: Asia-Pacific markets were mixed as investors continued to monitor elevated oil prices and the lat",
+          "guid": "108278096"
+        },
+        {
+          "title": "Asia-Pacific markets fall as Iran war continues to fuel oil volatility",
+          "date": "2026-03-12",
+          "link": "https://www.cnbc.com/2026/03/12/asia-pacific-markets-today-nikkei-225-hang-seng-index-kospi.html",
+          "snippet": "2026-03-12: Asia-Pacific markets fall as Iran war continues to fuel oil volatility: Asia-Pacific markets fell Thursday as investors grappled with volatile oil prices and escalating tensions in the Mid",
+          "guid": "108276964"
+        },
+        {
+          "title": "Asia-Pacific markets mostly higher as investors weigh developments in the Middle East",
+          "date": "2026-03-11",
+          "link": "https://www.cnbc.com/2026/03/11/asia-pacific-markets-nikkei-225-kospi-hang-seng-index-oil-wti-brent-iran-war.html",
+          "snippet": "2026-03-11: Asia-Pacific markets mostly higher as investors weigh developments in the Middle East: Asia-Pacific markets traded mostly higher on Wednesday as investors assessed the ongoing Middle East ",
+          "guid": "108276385"
+        },
+        {
+          "title": "Asia-Pacific markets trade mixed as investors weigh Iran tensions and ceasefire talks",
+          "date": "2026-05-27",
+          "link": "https://www.cnbc.com/2026/05/27/asia-markets-live-updates-nikkei-225-hang-seng-index-kospi-csi-nifty-hari-raya-haji.html",
+          "snippet": "2026-05-27: Asia-Pacific markets trade mixed as investors weigh Iran tensions and ceasefire talks: Asia-Pacific markets traded mixed on Wednesday as investors assessed recent U.S. military action in I",
+          "guid": "108312243"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "0c0d6002-645d-4d5b-93ee-2eb5f3b4205b",
+      "label": "Trump-Xi Summit and Taiwan",
+      "spike_ratio": 1.0,
+      "article_count": 15,
+      "sentiment_score": 0.4797619047619047,
+      "rag_answer": "The Trump-Xi summit has become a focal point for discussions surrounding Taiwan, with President Trump emphasizing U.S. arms sales to Taiwan as a key agenda item. Xi Jinping has warned that mishandling the Taiwan issue could jeopardize U.S.-China relations, highlighting the sensitivity of the topic. Market implications are significant, as investors are closely monitoring the summit for potential trade agreements and easing of tensions, which could positively impact stock markets, particularly in the tech sector. Overall, the summit is seen as a critical moment for both diplomatic relations and market stability.",
+      "rag_sources": [
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Watch CNBC's full interview with Microsoft President Brad Smith at the AI Impact Summit in India",
+          "date": "2026-02-19",
+          "link": "https://www.cnbc.com/video/2026/02/19/watch-cnbcs-full-interview-with-microsoft-president-brad-smith-at-the-ai-impact-summit-in-india.html",
+          "snippet": "2026-02-19: Watch CNBC's full interview with Microsoft President Brad Smith at the AI Impact Summit in India: Microsoft President Brad Smith told CNBC\u2019s Arjun Kharpal that U.S. tech companies should \u201c",
+          "guid": "108267132"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "improving",
+          "trend_delta": 0.3,
+          "mean_sentiment_score": 0.364,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}
