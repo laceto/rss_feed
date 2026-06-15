@@ -1,0 +1,47 @@
+{
+  "date": "2026-06-14",
+  "batch_id": "batch_6a307198fcec819099125cf9eee48b59",
+  "sectors": [
+    {
+      "entities": [
+        "JPMorgan"
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "M&A",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Iran",
+        "Russia",
+        "Ukraine"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "JetBlue",
+        "Miami International Airport",
+        "American Airlines"
+      ],
+      "sector": "Transportation",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Animoca Brands",
+        "Yat Siu"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    }
+  ]
+}

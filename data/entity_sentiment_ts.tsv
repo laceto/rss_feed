@@ -1,29 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-03-14	Amazon	Technology Services	positive	1	other
-2026-03-14	Brendan Carr	Communications	negative	-1	regulation
-2026-03-14	Caesars	Consumer Non-Durables	neutral	0	M&A
-2026-03-14	Carl Icahn	Consumer Non-Durables	neutral	0	M&A
-2026-03-14	FCC	Communications	negative	-1	regulation
-2026-03-14	Fertitta	Consumer Non-Durables	neutral	0	M&A
-2026-03-14	Iran war	Finance	neutral	0	other
-2026-03-14	Suras Nayak	Technology Services	positive	1	other
-2026-03-14	Trump	Finance	neutral	0	other
-2026-03-14	Trump	Communications	negative	-1	regulation
-2026-03-14	Trump’s PAC	Finance	neutral	0	other
-2026-03-14	U.S. soldiers	Finance	neutral	0	other
-2026-03-15	Bill Ackman	Finance	positive	1	products
-2026-03-15	Goldman Sachs	Finance	negative	-1	markets
-2026-03-15	Iran	Energy Minerals	negative	-1	macro
-2026-03-15	Israel	Energy Minerals	negative	-1	macro
-2026-03-15	Piper Sandler	Finance	positive	1	products
-2026-03-15	Republicans	Non-Energy Minerals	neutral	0	macro
-2026-03-15	Senate Democrats	Non-Energy Minerals	neutral	0	macro
-2026-03-15	Trump	Energy Minerals	negative	-1	macro
-2026-03-15	UN Ambassador Waltz	Energy Minerals	negative	-1	macro
-2026-03-15	Wells Fargo	Finance	negative	-1	markets
-2026-03-16	Apple	Consumer Non-Durables	positive	1	products
-2026-03-16	Meta	Technology Services	positive	1	products
-2026-03-16	Nvidia	Electronic Technology	positive	1	products
 2026-03-17	Bank of America	Finance	positive	1	markets
 2026-03-17	Elon Musk	Technology Services	neutral	0	regulation
 2026-03-17	Federal Reserve	Finance	neutral	0	macro
@@ -1034,3 +1009,28 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-06-12	LVMH	Consumer Durables	positive	1	markets
 2026-06-12	Nokia	Communications	positive	1	products
 2026-06-12	SpaceX	Producer Manufacturing	positive	1	markets
+2026-06-13	Goldman Sachs	Technology Services	positive	1	markets
+2026-06-13	Mind Robotics	Consumer Durables	neutral	0	products
+2026-06-13	Nvidia	Technology Services	positive	1	markets
+2026-06-13	RJ Scaringe	Consumer Durables	neutral	0	products
+2026-06-13	Rivian	Consumer Durables	neutral	0	products
+2026-06-13	SpaceX	Transportation	positive	1	markets
+2026-06-13	Switzerland	Consumer Non-Durables	neutral	0	regulation
+2026-06-14	American Airlines	Transportation	neutral	0	markets
+2026-06-14	Animoca Brands	Electronic Technology	positive	1	products
+2026-06-14	Iran	Energy Minerals	neutral	0	macro
+2026-06-14	JPMorgan	Finance	positive	1	M&A
+2026-06-14	JetBlue	Transportation	neutral	0	markets
+2026-06-14	Miami International Airport	Transportation	neutral	0	markets
+2026-06-14	Russia	Energy Minerals	neutral	0	macro
+2026-06-14	Ukraine	Energy Minerals	neutral	0	macro
+2026-06-14	Yat Siu	Electronic Technology	positive	1	products
+2026-06-15	CrowdStrike Holdings	Electronic Technology	positive	1	markets
+2026-06-15	Electronic Arts	Electronic Technology	positive	1	products
+2026-06-15	Fox	Consumer Durables	positive	1	M&A
+2026-06-15	Nvidia	Electronic Technology	positive	1	markets
+2026-06-15	Roku	Consumer Durables	positive	1	M&A
+2026-06-15	SoftBank	Electronic Technology	positive	1	markets
+2026-06-15	SpaceX	Producer Manufacturing	positive	1	markets
+2026-06-15	SpaceX	Producer Manufacturing	positive	1	markets
+2026-06-15	Zhipu	Electronic Technology	positive	1	markets

@@ -1966,3 +1966,19 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-06-12	Producer Manufacturing	SpaceX|Elon Musk	positive	markets	ok
 2026-06-12	Communications	Nokia	positive	products	ok
 2026-06-12	Consumer Durables	LVMH	positive	markets	ok
+2026-06-13	Technology Services	Goldman Sachs|Nvidia	positive	markets	ok
+2026-06-13	Transportation	SpaceX	positive	markets	ok
+2026-06-13	Consumer Durables	Rivian|RJ Scaringe|Mind Robotics	neutral	products	ok
+2026-06-13	Consumer Non-Durables	Switzerland	neutral	regulation	ok
+2026-06-14	Finance	JPMorgan	positive	M&A	ok
+2026-06-14	Energy Minerals	Iran|Russia|Ukraine	neutral	macro	ok
+2026-06-14	Transportation	JetBlue|Miami International Airport|American Airlines	neutral	markets	ok
+2026-06-14	Electronic Technology	Animoca Brands|Yat Siu	positive	products	ok
+2026-06-15	Producer Manufacturing	SpaceX	positive	markets	ok
+2026-06-15	Electronic Technology	Nvidia	positive	markets	ok
+2026-06-15	Electronic Technology	CrowdStrike Holdings	positive	markets	ok
+2026-06-15	Consumer Durables	Fox|Roku	positive	M&A	ok
+2026-06-15	Electronic Technology	Electronic Arts	positive	products	ok
+2026-06-15	Electronic Technology	Zhipu	positive	markets	ok
+2026-06-15	Electronic Technology	SoftBank	positive	markets	ok
+2026-06-15	Producer Manufacturing	SpaceX	positive	markets	ok

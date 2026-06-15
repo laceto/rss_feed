@@ -1,0 +1,45 @@
+{
+  "date": "2026-06-13",
+  "batch_id": "batch_6a307198fcec819099125cf9eee48b59",
+  "sectors": [
+    {
+      "entities": [
+        "Goldman Sachs",
+        "Nvidia"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "SpaceX"
+      ],
+      "sector": "Transportation",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Rivian",
+        "RJ Scaringe",
+        "Mind Robotics"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Switzerland"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "neutral",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    }
+  ]
+}
