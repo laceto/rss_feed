@@ -1,0 +1,225 @@
+{
+  "date": "2026-06-16",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "27b66b68-d49d-4f9e-b7b9-3cc976c1e33b",
+      "label": "Trump DOJ 'Lawfare' Fund Issues",
+      "spike_ratio": 2.445,
+      "article_count": 67,
+      "sentiment_score": 0.3727453102453102,
+      "rag_answer": "The Trump DOJ 'Lawfare' Fund, initially established to compensate alleged victims of prosecutorial overreach, has faced significant legal and political challenges. A judge recently blocked the fund, demanding guarantees that it would not proceed, while Congress is exploring ways to halt it altogether. This controversy has led to heightened scrutiny and criticism, with opponents labeling it a \"slush fund.\" The ongoing legal battles and political maneuvers surrounding the fund are contributing to market volatility, as investors react to the uncertainty regarding its future and the implications for the broader political landscape.",
+      "rag_sources": [
+        {
+          "title": "New lawsuit against Trump's DOJ 'lawfare' fund ",
+          "date": "2026-05-22",
+          "link": "https://www.cnbc.com/2026/05/22/trump-doj-fund-republicans.html",
+          "snippet": "2026-05-22: New lawsuit against Trump's DOJ 'lawfare' fund: President Trump droppped his $10 billion lawsuit against the IRS in exchange for the DOJ creating a $1.8 billion fund to compensate alleged ",
+          "guid": "108311191"
+        },
+        {
+          "title": "First rare earths and chips, now quantum computers: Trump reportedly eyes new U.S. stakes",
+          "date": "2025-10-23",
+          "link": "https://www.cnbc.com/2025/10/23/first-rare-earths-and-chips-now-quantum-computers-trump-reportedly-eyes-new-us-stakes.html",
+          "snippet": "2025-10-23: First rare earths and chips, now quantum computers: Trump reportedly eyes new U.S. stakes: The Commerce Department later denied that active talks were happening with the companies.",
+          "guid": "108215776"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "e52f3d97-ef4a-40c3-abac-feafc6ada748",
+      "label": "SpaceX IPO and market impact",
+      "spike_ratio": 1.739,
+      "article_count": 48,
+      "sentiment_score": 0.5182291666666666,
+      "rag_answer": "The SpaceX IPO, which debuted on June 12, 2026, has generated significant excitement, with the stock jumping 19% to close near $161, reflecting a valuation of $1.77 trillion. Market watchers view this IPO as a pivotal moment for capital markets, potentially serving as a referendum on Elon Musk's leadership and the valuation of \"strategic tech.\" Analysts suggest that the IPO could reignite a bull market, similar to the Netscape IPO in 1995, while also raising concerns about the limited availability of shares for retail investors. Overall, the SpaceX IPO is seen as a seminal event that could influence market dynamics and investor sentiment moving forward.",
+      "rag_sources": [
+        {
+          "title": "SpaceX IPO is a \u2018referendum\u2019 on Musk, say market watchers",
+          "date": "2026-06-11",
+          "link": "https://www.cnbc.com/2026/06/11/spacex-ipo-elon-musk-valuation.html",
+          "snippet": "2026-06-11: SpaceX IPO is a \u2018referendum\u2019 on Musk, say market watchers: Friday's hotly anticipated SpaceX market debut could prove a defining moment for capital markets \u2014 and serve as a \\referendum\\\" o",
+          "guid": "108320087"
+        },
+        {
+          "title": "What comes next for SpaceX after the IPO will be in focus for investors. Here's what's ahead",
+          "date": "2026-06-12",
+          "link": "https://www.cnbc.com/2026/06/12/stock-market-next-week-outlook-for-june-15-19-2026.html",
+          "snippet": "2026-06-12: What comes next for SpaceX after the IPO will be in focus for investors. Here's what's ahead: Whether SpaceX can maintain the early enthusiasm in the coming days will be telling.",
+          "guid": "108320515"
+        },
+        {
+          "title": "SpaceX IPO will test how Wall Street prices \u2018strategic tech\u2019",
+          "date": "2026-06-11",
+          "link": "https://www.cnbc.com/2026/06/11/spacex-ipo-wall-street-valuation-strategic-tech.html",
+          "snippet": "2026-06-11: SpaceX IPO will test how Wall Street prices \u2018strategic tech\u2019: Elon Musk's SpaceX defies typical market buckets, and the IPO will give Wall Street another chance to value \\strategic tech\\\" ",
+          "guid": "108320418"
+        },
+        {
+          "title": "SpaceX IPO filing sparks a bull market in space stocks. How to buy in",
+          "date": "2026-05-26",
+          "link": "https://www.cnbc.com/2026/05/26/spacex-ipo-filing-sparks-a-bull-market-in-space-stocks-how-to-buy-in.html",
+          "snippet": "2026-05-26: SpaceX IPO filing sparks a bull market in space stocks. How to buy in: Analysts see a range of IPO beneficiaries, from suppliers to proxies -- and even competitors",
+          "guid": "108311957"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "9bd540b0-4ab2-4d02-8dfb-0e77f6d38971",
+      "label": "Credit Card Rewards and Offers",
+      "spike_ratio": 1.475,
+      "article_count": 18,
+      "sentiment_score": 0.3125,
+      "rag_answer": "Credit card rewards and offers are experiencing significant changes, with premium credit cards maintaining popularity despite rising fees and new perks. Recent legal settlements involving Visa and Mastercard may alter the checkout experience for consumers, while the disappearance of mortgage rewards credit cards highlights a shift in available options for earning rewards on major expenses. Additionally, new limited-time offers, such as those from Capital One, are making it easier for consumers to earn bonuses, indicating a competitive market for credit card rewards. Overall, these developments suggest a dynamic landscape where consumers need to stay informed to maximize their benefits amidst evolving offerings.",
+      "rag_sources": [
+        {
+          "title": "What does it mean for a credit card to devalue? How to protect your rewards",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/select/credit-card-devaluations-how-to-protect-rewards/",
+          "snippet": "2026-01-23: What does it mean for a credit card to devalue? How to protect your rewards: Over time, credit card devaluations can quietly chip away at the value you get from your card.",
+          "guid": "108253037"
+        },
+        {
+          "title": "How often should you redeem your credit card rewards?",
+          "date": "2026-02-03",
+          "link": "https://www.cnbc.com/select/how-often-should-you-redeem-your-credit-card-rewards/",
+          "snippet": "2026-02-03: How often should you redeem your credit card rewards?: There are several different types of credit card rewards and each has its own redemption strategy.",
+          "guid": "108258959"
+        },
+        {
+          "title": "What the Visa, Mastercard legal settlement means for your rewards credit card",
+          "date": "2025-11-13",
+          "link": "https://www.cnbc.com/2025/11/13/visa-mastercard-legal-settlement-what-you-need-to-know.html",
+          "snippet": "2025-11-13: What the Visa, Mastercard legal settlement means for your rewards credit card: A Visa and MasterCard settlement with merchants announced earlier this week could bring changes to your exper",
+          "guid": "108224840"
+        },
+        {
+          "title": "CNBC Points Pro: Are credit card rewards worth it if you pay a surcharge?",
+          "date": "2026-04-27",
+          "link": "https://www.cnbc.com/select/are-credit-card-rewards-worth-it-if-you-pay-a-surcharge/",
+          "snippet": "2026-04-27: CNBC Points Pro: Are credit card rewards worth it if you pay a surcharge?: Points expert Jason Stauffer explains when paying a credit card surcharge makes sense and when to avoid it.",
+          "guid": "108293378"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.476,
+          "mean_sentiment_score": -0.077,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "2ad0d77c-80d2-4ec4-b156-451a6a45c2d7",
+      "label": "Mortgage Rate Trends and Impact",
+      "spike_ratio": 1.235,
+      "article_count": 14,
+      "sentiment_score": 0.3278061224489796,
+      "rag_answer": "Mortgage rates have experienced significant volatility, influenced heavily by external factors such as the ongoing war with Iran. After reaching a four-year low, rates surged to their highest levels since July 2025, leading to a sharp decline in mortgage demand and refinancing activity. The uncertainty surrounding the war and rising rates have reversed expectations for a housing market recovery, causing affordability issues for potential buyers. Overall, the combination of higher rates and economic instability is dampening both refinancing and homebuying demand.",
+      "rag_sources": [
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Mortgage rates drop to the lowest level in over a year, pushing refinancing 111% higher annually",
+          "date": "2025-10-29",
+          "link": "https://www.cnbc.com/2025/10/29/mortgage-rates-drop-to-the-lowest-level-in-over-a-year-pushing-refinancing-111percent-higher-annually.html",
+          "snippet": "2025-10-29: Mortgage rates drop to the lowest level in over a year, pushing refinancing 111% higher annually: Refinance demand, which is most sensitive to interest rate changes, jumped 9% for the week",
+          "guid": "108218296"
+        },
+        {
+          "title": "Mortgage demand from homebuyers pulls back, after four weeks of gains",
+          "date": "2025-09-03",
+          "link": "https://www.cnbc.com/2025/09/03/mortgage-demand-from-homebuyers-pulls-back-after-four-weeks-of-gains.html",
+          "snippet": "2025-09-03: Mortgage demand from homebuyers pulls back, after four weeks of gains: Lower mortgage rates did very little to move mortgage demand out of a rut it's been in for weeks. Potential buyers ne",
+          "guid": "108193381"
+        },
+        {
+          "title": "Mortgage rates surge to highest level since July",
+          "date": "2026-05-19",
+          "link": "https://www.cnbc.com/2026/05/19/mortgage-rates-closing-in-on-7percent.html",
+          "snippet": "2026-05-19: Mortgage rates surge to highest level since July: Mortgage rates continued to move higher Tuesday on uncertainty over the war with Iran. They are at the highest level since last July.",
+          "guid": "108309073"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.476,
+          "mean_sentiment_score": -0.077,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "a1775c26-9da7-4960-bc56-46b9ce67c438",
+      "label": "Chip Stock Rally Insights",
+      "spike_ratio": 1.104,
+      "article_count": 17,
+      "sentiment_score": 0.2720588235294117,
+      "rag_answer": "Chip stocks have shown a significant rebound, particularly highlighted by the Philadelphia Stock Exchange Semiconductor Index recovering its relative losses to the S&P 500 Information Technology Sector. This resurgence follows a period of volatility and concerns over the AI buildout, with investors now more optimistic as evidenced by a surge in chip stocks in April and May. Despite this positive momentum, there remains a cautious sentiment among traders, with some opting to hedge their positions, indicating that while the chip sector is performing well, broader market uncertainties persist. Overall, the chip sector is emerging as a market leader again, attracting attention from investors looking for opportunities amidst fluctuating market conditions.",
+      "rag_sources": [
+        {
+          "title": "Chip stock breakout vs the rest of tech showing signs of topping out, says Carter Worth",
+          "date": "2026-06-05",
+          "link": "https://www.cnbc.com/2026/06/05/chip-stock-breakout-vs-the-rest-of-tech-showing-signs-of-topping-out-says-carter-worth.html",
+          "snippet": "2026-06-05: Chip stock breakout vs the rest of tech showing signs of topping out, says Carter Worth: The Philadelphia Stock Exchange Semiconductor Index finally has recouped all its relative losses to",
+          "guid": "108317541"
+        },
+        {
+          "title": "Chip stocks including Nvidia are holding up despite market volatility, according to the charts",
+          "date": "2026-03-10",
+          "link": "https://www.cnbc.com/2026/03/10/chip-stocks-including-nvidia-are-holding-up-despite-market-volatility-according-to-the-charts.html",
+          "snippet": "2026-03-10: Chip stocks including Nvidia are holding up despite market volatility, according to the charts: Todd Gordon takes a look at the technicals in Nvidia and other chipmakers.",
+          "guid": "108276190"
+        },
+        {
+          "title": "Stock market corrections will happen: Here's how we navigate the ups and downs",
+          "date": "2026-06-01",
+          "link": "https://www.cnbc.com/2026/06/01/market-corrections-happen-heres-how-we-navigate-the-ups-and-downs.html",
+          "snippet": "2026-06-01: Stock market corrections will happen: Here's how we navigate the ups and downs: We concern ourselves far more with making sure we are investing in the right companies.",
+          "guid": "108312555"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "improving",
+          "trend_delta": 0.55,
+          "mean_sentiment_score": 0.556,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}
