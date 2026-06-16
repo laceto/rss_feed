@@ -1,22 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-03-17	Bank of America	Finance	positive	1	markets
-2026-03-17	Elon Musk	Technology Services	neutral	0	regulation
-2026-03-17	Federal Reserve	Finance	neutral	0	macro
-2026-03-17	GM	Producer Manufacturing	positive	1	products
-2026-03-17	Gas field	Energy Minerals	negative	-1	macro
-2026-03-17	Honda	Consumer Non-Durables	neutral	0	products
-2026-03-17	Iran	Energy Minerals	negative	-1	macro
-2026-03-17	Kalshi	Finance	negative	-1	regulation
-2026-03-17	LG Energy Solution	Producer Manufacturing	positive	1	products
-2026-03-17	Michigan	Producer Manufacturing	positive	1	products
-2026-03-17	Nissan	Consumer Non-Durables	neutral	0	products
-2026-03-17	Orlando Bravo	Technology Services	neutral	0	appointments
-2026-03-17	SEC	Technology Services	neutral	0	regulation
-2026-03-17	Strait of Hormuz	Energy Minerals	negative	-1	macro
-2026-03-17	Tesla	Producer Manufacturing	positive	1	products
-2026-03-17	Toyota	Consumer Non-Durables	neutral	0	products
-2026-03-17	Twitter	Technology Services	neutral	0	regulation
-2026-03-17	UAE energy infrastructure	Energy Minerals	negative	-1	macro
 2026-03-18	Aluminum	Energy Minerals	negative	-1	macro
 2026-03-18	Amazon	Distribution Services	neutral	0	other
 2026-03-18	Bitcoin	Electronic Technology	neutral	0	markets
@@ -1034,3 +1016,19 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-06-15	SpaceX	Producer Manufacturing	positive	1	markets
 2026-06-15	SpaceX	Producer Manufacturing	positive	1	markets
 2026-06-15	Zhipu	Electronic Technology	positive	1	markets
+2026-06-16	Anysphere	Electronic Technology	positive	1	products
+2026-06-16	Apple	Electronic Technology	neutral	0	products
+2026-06-16	Carvana	Retail Trade	positive	1	markets
+2026-06-16	Cursor	Electronic Technology	positive	1	products
+2026-06-16	Elon Musk	Electronic Technology	neutral	0	markets
+2026-06-16	Fed	Finance	neutral	0	macro
+2026-06-16	Federal Open Market Committee	Finance	neutral	0	macro
+2026-06-16	Fox	Electronic Technology	neutral	0	markets
+2026-06-16	Intel	Electronic Technology	neutral	0	products
+2026-06-16	Pizza Hut	Consumer Non-Durables	neutral	0	markets
+2026-06-16	Qualcomm	Electronic Technology	positive	1	products
+2026-06-16	Roku	Electronic Technology	neutral	0	markets
+2026-06-16	SpaceX	Electronic Technology	neutral	0	markets
+2026-06-16	SpaceX	Electronic Technology	positive	1	products
+2026-06-16	Stellantis	Retail Trade	positive	1	markets
+2026-06-16	Yum Brands	Consumer Non-Durables	neutral	0	markets

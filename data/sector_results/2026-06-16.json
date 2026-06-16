@@ -1,0 +1,86 @@
+{
+  "date": "2026-06-16",
+  "batch_id": "batch_6a31c2d085c081908cf4150f7033fe94",
+  "sectors": [
+    {
+      "entities": [
+        "Carvana",
+        "Stellantis"
+      ],
+      "sector": "Retail Trade",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Fed",
+        "Federal Open Market Committee"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "SpaceX",
+        "Elon Musk"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Intel",
+        "Apple"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Roku",
+        "Fox"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "SpaceX",
+        "Cursor",
+        "Anysphere"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Qualcomm"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Yum Brands",
+        "Pizza Hut"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}
