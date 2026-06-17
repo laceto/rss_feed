@@ -1,0 +1,232 @@
+{
+  "date": "2026-06-17",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "e52f3d97-ef4a-40c3-abac-feafc6ada748",
+      "label": "SpaceX IPO and market impact",
+      "spike_ratio": 1.935,
+      "article_count": 65,
+      "sentiment_score": 0.5961538461538461,
+      "rag_answer": "The SpaceX IPO, which debuted on June 12, 2026, has generated significant excitement and is being viewed as a pivotal event for the stock market, potentially reigniting a bull market. Analysts suggest that the IPO could lead to a rotation in the market, particularly affecting the 'Magnificent Seven' tech stocks and chip stocks. Early trading showed a strong performance, with SpaceX stock jumping 19% to close near $161, indicating robust investor interest. However, there are concerns about the limited availability of shares for retail investors and the need for SpaceX to achieve key milestones to maintain its high valuation.",
+      "rag_sources": [
+        {
+          "title": "SpaceX IPO shines a light on the product set to disrupt Wall Street",
+          "date": "2026-06-15",
+          "link": "https://www.cnbc.com/2026/06/15/spacex-ipo-shines-a-light-on-wall-streets-blockchain-challenger.html",
+          "snippet": "2026-06-15: SpaceX IPO shines a light on the product set to disrupt Wall Street: Perp market traders had a form of early access to SpaceX, and the trading closely aligned with later prices in the stoc",
+          "guid": "108321814"
+        },
+        {
+          "title": "What comes next for SpaceX after the IPO will be in focus for investors. Here's what's ahead",
+          "date": "2026-06-12",
+          "link": "https://www.cnbc.com/2026/06/12/stock-market-next-week-outlook-for-june-15-19-2026.html",
+          "snippet": "2026-06-12: What comes next for SpaceX after the IPO will be in focus for investors. Here's what's ahead: Whether SpaceX can maintain the early enthusiasm in the coming days will be telling.",
+          "guid": "108320515"
+        },
+        {
+          "title": "SpaceX IPO will test how Wall Street prices \u2018strategic tech\u2019",
+          "date": "2026-06-11",
+          "link": "https://www.cnbc.com/2026/06/11/spacex-ipo-wall-street-valuation-strategic-tech.html",
+          "snippet": "2026-06-11: SpaceX IPO will test how Wall Street prices \u2018strategic tech\u2019: Elon Musk's SpaceX defies typical market buckets, and the IPO will give Wall Street another chance to value \\strategic tech\\\" ",
+          "guid": "108320418"
+        },
+        {
+          "title": "The SpaceX IPO could be coming for the 'Magnificent Seven' and chip stocks",
+          "date": "2026-06-10",
+          "link": "https://www.cnbc.com/2026/06/10/spacex-ipo-could-be-coming-for-the-magnificent-seven-and-chip-stocks.html",
+          "snippet": "2026-06-10: The SpaceX IPO could be coming for the 'Magnificent Seven' and chip stocks: The \\Magnificent Seven\\\" is the market pocket that's most likely to see a rotation, analysts say.\"",
+          "guid": "108319004"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "2fbfc251-eaea-4872-8901-6018815599e6",
+      "label": "AI Demand and Chip Earnings",
+      "spike_ratio": 1.434,
+      "article_count": 37,
+      "sentiment_score": 0.4242277992277992,
+      "rag_answer": "AI demand is driving significant growth in the chip sector, with companies like Nvidia and ASML experiencing record orders and robust earnings due to the AI infrastructure boom. This surge in demand has led to shortages of various types of chips, impacting consumer electronics and raising concerns about potential price hikes. Analysts predict that chip stocks could see historic gains, with some estimates suggesting increases of over 110% as profitability remains high amid structural demand for memory in AI applications. Overall, the AI boom is reshaping the semiconductor landscape, creating both opportunities and challenges for investors.",
+      "rag_sources": [
+        {
+          "title": "These funds protect against market drops. Demand is booming",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/these-funds-protect-against-market-drops-demand-is-booming.html",
+          "snippet": "2026-02-11: These funds protect against market drops. Demand is booming: Buffer ETFs could see assets quadruple over a five-year period, according to Cerulli Associates. What to know before investing.",
+          "guid": "108264590"
+        },
+        {
+          "title": "Micron stops selling memory to consumers as demand spikes from AI chips",
+          "date": "2025-12-03",
+          "link": "https://www.cnbc.com/2025/12/03/micron-stops-selling-memory-to-consumers-demand-spikes-from-ai-chips.html",
+          "snippet": "2025-12-03: Micron stops selling memory to consumers as demand spikes from AI chips: Demand driven by the AI infrastructure boom is creating shortages for certain products like memory.",
+          "guid": "108236104"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Chip stocks including Nvidia are holding up despite market volatility, according to the charts",
+          "date": "2026-03-10",
+          "link": "https://www.cnbc.com/2026/03/10/chip-stocks-including-nvidia-are-holding-up-despite-market-volatility-according-to-the-charts.html",
+          "snippet": "2026-03-10: Chip stocks including Nvidia are holding up despite market volatility, according to the charts: Todd Gordon takes a look at the technicals in Nvidia and other chipmakers.",
+          "guid": "108276190"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "improving",
+          "trend_delta": 0.55,
+          "mean_sentiment_score": 0.556,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "ad0fef60-4749-4e85-809e-e1e6af36a370",
+      "label": "Kevin Warsh Fed Chair Nomination",
+      "spike_ratio": 1.22,
+      "article_count": 31,
+      "sentiment_score": 0.3617511520737327,
+      "rag_answer": "Kevin Warsh was nominated by President Donald Trump to succeed Jerome Powell as Fed chair, but his confirmation faced significant hurdles due to a federal investigation into Powell and opposition from Senator Thom Tillis. Despite these challenges, Warsh eventually cleared a key Senate hurdle and was confirmed by a narrow 51-45 vote. As Fed chair, Warsh is expected to maintain steady interest rates initially, which may impact consumer borrowing and savings rates, while also signaling a commitment to fighting inflation. His leadership is seen as a potential shift in monetary policy, with investors cautiously optimistic about his approach.",
+      "rag_sources": [
+        {
+          "title": "Analysis: What might trip up Kevin Warsh and his agenda as Fed chair",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/analysis-what-might-trip-up-kevin-warsh-and-his-agenda-as-fed-chair.html",
+          "snippet": "2026-03-27: Analysis: What might trip up Kevin Warsh and his agenda as Fed chair: Kevin Warsh would enter the Fed as its chair with an agenda to enact that goes beyond cutting interest rates.",
+          "guid": "108284071"
+        },
+        {
+          "title": "Chair nominee Kevin Warsh says Fed must \u2018stay in its lane\u2019 to maintain independence",
+          "date": "2026-04-20",
+          "link": "https://www.cnbc.com/2026/04/20/kevin-warsh-fed-confirmation-senate.html",
+          "snippet": "2026-04-20: Chair nominee Kevin Warsh says Fed must \u2018stay in its lane\u2019 to maintain independence: Warsh also expressed firm commitment to fighting inflation with only one mention of the labor market.",
+          "guid": "108294071"
+        },
+        {
+          "title": "Tim Scott hopes Fed Chair Powell investigation 'goes away' to clear Kevin Warsh confirmation",
+          "date": "2026-03-11",
+          "link": "https://www.cnbc.com/2026/03/11/fed-powell-warsh-tim-scott.html",
+          "snippet": "2026-03-11: Tim Scott hopes Fed Chair Powell investigation 'goes away' to clear Kevin Warsh confirmation: President Donald Trump nominated Kevin Warsh to succeed Jerome Powell as Fed chair, but the pr",
+          "guid": "108276610"
+        },
+        {
+          "title": "Trump Fed pick Kevin Warsh clears key Senate hurdle, teeing up final vote",
+          "date": "2026-04-29",
+          "link": "https://www.cnbc.com/2026/04/29/trump-fed-nominee-kevin-warsh-senate-approval.html",
+          "snippet": "2026-04-29: Trump Fed pick Kevin Warsh clears key Senate hurdle, teeing up final vote: Current Fed Chair Jerome Powell has faced a barrage of criticism from Trump over his refusal to slash interest ra",
+          "guid": "108299130"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.619,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        },
+        {
+          "sector": "Technology Services",
+          "trend_direction": "improving",
+          "trend_delta": 0.55,
+          "mean_sentiment_score": 0.556,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "cfc45bd5-02de-4278-b343-9d233c603147",
+      "label": "Automotive Industry Developments",
+      "spike_ratio": 1.154,
+      "article_count": 24,
+      "sentiment_score": 0.3571428571428571,
+      "rag_answer": "The automotive industry is facing significant challenges, including rising prices and affordability issues, as new vehicle prices exceed $50,000, pricing many consumers out of the market. Automakers are increasingly focusing on large gas-guzzling trucks and SUVs, while the demand for electric vehicles (EVs) is falling short of expectations, prompting companies like Ford and GM to reevaluate their strategies. Additionally, job cuts are occurring as the industry adapts to technological changes, including the rise of AI. Overall, the sector is navigating a complex landscape marked by economic uncertainty and shifting consumer preferences.",
+      "rag_sources": [
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "The broadening stock market trade: What to buy outside AI",
+          "date": "2026-06-17",
+          "link": "https://www.cnbc.com/2026/06/17/the-broadening-stock-market-trade-what-to-buy-outside-ai.html",
+          "snippet": "2026-06-17: The broadening stock market trade: What to buy outside AI: Artificial intelligence has been the driving force for the stock market since late 2022, with investors looking for exposure to t",
+          "guid": "108323162"
+        },
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "9bd540b0-4ab2-4d02-8dfb-0e77f6d38971",
+      "label": "Credit Card Rewards and Offers",
+      "spike_ratio": 1.103,
+      "article_count": 15,
+      "sentiment_score": 0.2916666666666667,
+      "rag_answer": "Credit card rewards and offers are undergoing significant changes, with premium credit cards maintaining popularity despite rising fees and new perks. Recent legal settlements involving Visa and Mastercard may alter the checkout experience for consumers, while new limited-time offers from Capital One are making it easier to earn bonuses. Additionally, the Chase Sapphire Preferred is set for a major overhaul, introducing enhanced rewards and new transfer partner changes. Overall, these developments indicate a competitive market where credit card companies are adapting to consumer needs and market pressures, particularly in light of rising living costs.",
+      "rag_sources": [
+        {
+          "title": "What does it mean for a credit card to devalue? How to protect your rewards",
+          "date": "2026-01-23",
+          "link": "https://www.cnbc.com/select/credit-card-devaluations-how-to-protect-rewards/",
+          "snippet": "2026-01-23: What does it mean for a credit card to devalue? How to protect your rewards: Over time, credit card devaluations can quietly chip away at the value you get from your card.",
+          "guid": "108253037"
+        },
+        {
+          "title": "How often should you redeem your credit card rewards?",
+          "date": "2026-02-03",
+          "link": "https://www.cnbc.com/select/how-often-should-you-redeem-your-credit-card-rewards/",
+          "snippet": "2026-02-03: How often should you redeem your credit card rewards?: There are several different types of credit card rewards and each has its own redemption strategy.",
+          "guid": "108258959"
+        },
+        {
+          "title": "What the Visa, Mastercard legal settlement means for your rewards credit card",
+          "date": "2025-11-13",
+          "link": "https://www.cnbc.com/2025/11/13/visa-mastercard-legal-settlement-what-you-need-to-know.html",
+          "snippet": "2025-11-13: What the Visa, Mastercard legal settlement means for your rewards credit card: A Visa and MasterCard settlement with merchants announced earlier this week could bring changes to your exper",
+          "guid": "108224840"
+        },
+        {
+          "title": "CNBC Points Pro: Are credit card rewards worth it if you pay a surcharge?",
+          "date": "2026-04-27",
+          "link": "https://www.cnbc.com/select/are-credit-card-rewards-worth-it-if-you-pay-a-surcharge/",
+          "snippet": "2026-04-27: CNBC Points Pro: Are credit card rewards worth it if you pay a surcharge?: Points expert Jason Stauffer explains when paying a credit card surcharge makes sense and when to avoid it.",
+          "guid": "108293378"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "improving",
+          "trend_delta": 0.619,
+          "mean_sentiment_score": 0.0,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}
