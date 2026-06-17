@@ -1,27 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-03-18	Aluminum	Energy Minerals	negative	-1	macro
-2026-03-18	Amazon	Distribution Services	neutral	0	other
-2026-03-18	Bitcoin	Electronic Technology	neutral	0	markets
-2026-03-18	CFTC	Electronic Technology	neutral	0	markets
-2026-03-18	Dwyane Wade	Finance	positive	1	other
-2026-03-18	Federal Reserve	Finance	neutral	0	macro
-2026-03-18	Instagram	Communications	neutral	0	products
-2026-03-18	Iran conflict	Energy Minerals	negative	-1	macro
-2026-03-18	Iran war	Transportation	negative	-1	macro
-2026-03-18	Israel	Transportation	negative	-1	macro
-2026-03-18	JPMorgan Chase	Finance	positive	1	other
-2026-03-18	Mesh	Electronic Technology	neutral	0	markets
-2026-03-18	Meta	Communications	neutral	0	products
-2026-03-18	Powell	Finance	neutral	0	macro
-2026-03-18	SEC	Electronic Technology	neutral	0	markets
-2026-03-18	TikTok	Communications	neutral	0	products
-2026-03-18	Tom Brady	Finance	positive	1	other
-2026-03-18	U.S. military	Transportation	negative	-1	macro
-2026-03-18	US Postal Service	Distribution Services	neutral	0	other
-2026-03-18	Vice President Vance	Energy Minerals	negative	-1	macro
-2026-03-18	Warsh	Finance	neutral	0	macro
-2026-03-18	YouTube	Communications	neutral	0	products
-2026-03-18	oil industry	Energy Minerals	negative	-1	macro
 2026-03-19	AI	Technology Services	neutral	0	products
 2026-03-19	Alibaba	Retail Trade	negative	-1	earnings
 2026-03-19	Europe's central banks	Finance	negative	-1	macro
@@ -1032,3 +1009,18 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-06-16	SpaceX	Electronic Technology	positive	1	products
 2026-06-16	Stellantis	Retail Trade	positive	1	markets
 2026-06-16	Yum Brands	Consumer Non-Durables	neutral	0	markets
+2026-06-17	Amazon	Electronic Technology	neutral	0	products
+2026-06-17	BMW	Consumer Non-Durables	negative	-1	regulation
+2026-06-17	Blue Origin	Electronic Technology	neutral	0	markets
+2026-06-17	China	Consumer Non-Durables	neutral	0	macro
+2026-06-17	Federal Reserve	Finance	neutral	0	macro
+2026-06-17	Google	Electronic Technology	neutral	0	products
+2026-06-17	IBM	Electronic Technology	neutral	0	products
+2026-06-17	Iran	Energy Minerals	neutral	0	macro
+2026-06-17	Japan	Consumer Non-Durables	neutral	0	macro
+2026-06-17	JetBlue	Transportation	neutral	0	other
+2026-06-17	Kevin Warsh	Finance	neutral	0	macro
+2026-06-17	Microsoft	Electronic Technology	neutral	0	products
+2026-06-17	SpaceX	Electronic Technology	neutral	0	markets
+2026-06-17	Stellantis	Transportation	neutral	0	other
+2026-06-17	U.S. Navy	Energy Minerals	neutral	0	macro

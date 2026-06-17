@@ -1990,3 +1990,10 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-06-16	Electronic Technology	SpaceX|Cursor|Anysphere	positive	products	ok
 2026-06-16	Electronic Technology	Qualcomm	positive	products	ok
 2026-06-16	Consumer Non-Durables	Yum Brands|Pizza Hut	neutral	markets	ok
+2026-06-17	Finance	Federal Reserve|Kevin Warsh	neutral	macro	ok
+2026-06-17	Energy Minerals	Iran|U.S. Navy	neutral	macro	ok
+2026-06-17	Electronic Technology	SpaceX|Blue Origin	neutral	markets	ok
+2026-06-17	Transportation	JetBlue|Stellantis	neutral	other	ok
+2026-06-17	Electronic Technology	Amazon|Microsoft|Google|IBM	neutral	products	ok
+2026-06-17	Consumer Non-Durables	BMW	negative	regulation	ok
+2026-06-17	Consumer Non-Durables	China|Japan	neutral	macro	ok
