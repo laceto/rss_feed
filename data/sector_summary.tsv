@@ -1997,3 +1997,10 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-06-17	Electronic Technology	Amazon|Microsoft|Google|IBM	neutral	products	ok
 2026-06-17	Consumer Non-Durables	BMW	negative	regulation	ok
 2026-06-17	Consumer Non-Durables	China|Japan	neutral	macro	ok
+2026-06-18	Producer Manufacturing	SpaceX	positive	markets	ok
+2026-06-18	Transportation	U.S. Navy|Iran	neutral	regulation	ok
+2026-06-18	Transportation	Waymo	negative	products	ok
+2026-06-18	Electronic Technology	Amazon	neutral	markets	ok
+2026-06-18	Electronic Technology	Intel	positive	markets	ok
+2026-06-18	Electronic Technology	Nvidia	positive	markets	ok
+2026-06-18	Producer Manufacturing	SpaceX	negative	markets	ok

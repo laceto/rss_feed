@@ -4838,19 +4838,40 @@ date	topic_id	topic_label	article_count	sentiment_score
 2026-06-16	6e5c8e83-af63-49c2-a8d2-61d97a66e25d	Strait of Hormuz Oil Tensions	21	0.3511904761904761
 2026-06-17	45e0ac7c-6cb2-4ed0-881e-f64a0eea8c24	Weight Loss Drug Market Dynamics	23	0.3113354037267081
 2026-06-17	4cdcafb3-a326-4b6c-93fe-615d63b54f01	Redistricting and Trump-related legal issues	18	0.3263888888888889
-2026-06-17	27b66b68-d49d-4f9e-b7b9-3cc976c1e33b	Trump DOJ 'Lawfare' Fund Issues	26	0.38255494505494503
-2026-06-17	cfc45bd5-02de-4278-b343-9d233c603147	Automotive Industry Developments	24	0.35714285714285715
+2026-06-17	27b66b68-d49d-4f9e-b7b9-3cc976c1e33b	Trump DOJ 'Lawfare' Fund Issues	26	0.382554945054945
+2026-06-17	cfc45bd5-02de-4278-b343-9d233c603147	Automotive Industry Developments	24	0.3571428571428571
 2026-06-17	2ad0d77c-80d2-4ec4-b156-451a6a45c2d7	Mortgage Rate Trends and Impact	11	0.349025974025974
-2026-06-17	6fee283d-ffbb-4267-a21d-4fc542922500	UK Political Turmoil and Bond Markets	20	0.48482142857142857
+2026-06-17	6fee283d-ffbb-4267-a21d-4fc542922500	UK Political Turmoil and Bond Markets	20	0.4848214285714285
 2026-06-17	9bd540b0-4ab2-4d02-8dfb-0e77f6d38971	Credit Card Rewards and Offers	15	0.2916666666666667
-2026-06-17	6a43b8f6-fc2e-4b72-b84f-0ba3a01d1d1b	Elon Musk's Legal and Business Challenges	12	0.49107142857142855
+2026-06-17	6a43b8f6-fc2e-4b72-b84f-0ba3a01d1d1b	Elon Musk's Legal and Business Challenges	12	0.4910714285714285
 2026-06-17	e52f3d97-ef4a-40c3-abac-feafc6ada748	SpaceX IPO and market impact	65	0.5961538461538461
 2026-06-17	ad0fef60-4749-4e85-809e-e1e6af36a370	Kevin Warsh Fed Chair Nomination	31	0.3617511520737327
-2026-06-17	a1775c26-9da7-4960-bc56-46b9ce67c438	Chip Stock Rally Insights	11	0.26136363636363635
+2026-06-17	a1775c26-9da7-4960-bc56-46b9ce67c438	Chip Stock Rally Insights	11	0.2613636363636363
 2026-06-17	2e670405-59c0-44a8-bf07-40fe60c145c6	AI Chip Market Volatility	10	0.25
 2026-06-17	2e09d728-1cc3-4a99-8aee-198f0dea52a7	Tech and Dividend Stock Strategies	18	0.3611111111111111
-2026-06-17	2fbfc251-eaea-4872-8901-6018815599e6	AI Demand and Chip Earnings	37	0.42422779922779924
+2026-06-17	2fbfc251-eaea-4872-8901-6018815599e6	AI Demand and Chip Earnings	37	0.4242277992277992
 2026-06-17	0c0d6002-645d-4d5b-93ee-2eb5f3b4205b	Trump-Xi Summit and Taiwan	15	0.4797619047619047
-2026-06-17	ad9919d0-c596-4484-b51f-cec82c0c07a6	Iran conflict and stock market	15	0.46309523809523806
-2026-06-17	6e5c8e83-af63-49c2-a8d2-61d97a66e25d	Strait of Hormuz Oil Tensions	15	0.31666666666666665
+2026-06-17	ad9919d0-c596-4484-b51f-cec82c0c07a6	Iran conflict and stock market	15	0.463095238095238
+2026-06-17	6e5c8e83-af63-49c2-a8d2-61d97a66e25d	Strait of Hormuz Oil Tensions	15	0.3166666666666666
 2026-06-17	13899326-df13-4536-b05e-25c1e06eba1d	Strait of Hormuz Shipping Tensions	19	0.4868421052631579
+2026-06-18	45e0ac7c-6cb2-4ed0-881e-f64a0eea8c24	Weight Loss Drug Market Dynamics	22	0.2913961038961039
+2026-06-18	4cdcafb3-a326-4b6c-93fe-615d63b54f01	Redistricting and Trump-related legal issues	16	0.2890625
+2026-06-18	27b66b68-d49d-4f9e-b7b9-3cc976c1e33b	Trump DOJ 'Lawfare' Fund Issues	26	0.38255494505494503
+2026-06-18	a9054b3b-e38c-4c5f-9047-661fde3f90a8	Spirit Airlines Collapse Impact	10	0.23214285714285712
+2026-06-18	2ad0d77c-80d2-4ec4-b156-451a6a45c2d7	Mortgage Rate Trends and Impact	10	0.3267857142857143
+2026-06-18	cfc45bd5-02de-4278-b343-9d233c603147	Automotive Industry Developments	26	0.3585164835164835
+2026-06-18	9bd540b0-4ab2-4d02-8dfb-0e77f6d38971	Credit Card Rewards and Offers	21	0.3086734693877551
+2026-06-18	ff311cc1-c5d1-4a97-8030-81335414be6d	Consumer Spending and Earnings	11	0.1628787878787879
+2026-06-18	6a43b8f6-fc2e-4b72-b84f-0ba3a01d1d1b	Elon Musk's Legal and Business Challenges	11	0.46753246753246747
+2026-06-18	6fee283d-ffbb-4267-a21d-4fc542922500	UK Political Turmoil and Bond Markets	20	0.48482142857142857
+2026-06-18	e52f3d97-ef4a-40c3-abac-feafc6ada748	SpaceX IPO and market impact	70	0.5635204081632652
+2026-06-18	ad0fef60-4749-4e85-809e-e1e6af36a370	Kevin Warsh Fed Chair Nomination	36	0.2837301587301588
+2026-06-18	a1775c26-9da7-4960-bc56-46b9ce67c438	Chip Stock Rally Insights	12	0.2708333333333333
+2026-06-18	2e670405-59c0-44a8-bf07-40fe60c145c6	AI Chip Market Volatility	12	0.375
+2026-06-18	ae37e03f-07f6-4f7d-8091-6083a8968425	Stock Market Movers	10	0.32321428571428573
+2026-06-18	2fbfc251-eaea-4872-8901-6018815599e6	AI Demand and Chip Earnings	22	0.4082792207792208
+2026-06-18	2e09d728-1cc3-4a99-8aee-198f0dea52a7	Tech and Dividend Stock Strategies	12	0.306547619047619
+2026-06-18	0c0d6002-645d-4d5b-93ee-2eb5f3b4205b	Trump-Xi Summit and Taiwan	15	0.4797619047619047
+2026-06-18	ad9919d0-c596-4484-b51f-cec82c0c07a6	Iran conflict and stock market	15	0.46309523809523806
+2026-06-18	13899326-df13-4536-b05e-25c1e06eba1d	Strait of Hormuz Shipping Tensions	23	0.5108695652173914
+2026-06-18	6e5c8e83-af63-49c2-a8d2-61d97a66e25d	Strait of Hormuz Oil Tensions	20	0.3875

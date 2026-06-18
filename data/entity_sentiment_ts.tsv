@@ -1,19 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-03-19	AI	Technology Services	neutral	0	products
-2026-03-19	Alibaba	Retail Trade	negative	-1	earnings
-2026-03-19	Europe's central banks	Finance	negative	-1	macro
-2026-03-19	Iran	Energy Minerals	negative	-1	macro
-2026-03-19	LNG	Energy Minerals	negative	-1	macro
-2026-03-19	Meta	Technology Services	neutral	0	products
-2026-03-19	Micron	Electronic Technology	positive	1	earnings
-2026-03-19	Nvidia	Electronic Technology	positive	1	earnings
-2026-03-19	QatarEnergy	Energy Minerals	negative	-1	macro
-2026-03-19	QatarEnergy	Energy Minerals	negative	-1	macro
-2026-03-19	Saad al-Kaabi	Energy Minerals	negative	-1	macro
-2026-03-19	U.S. Federal Reserve	Finance	neutral	0	macro
-2026-03-19	copper	Energy Minerals	negative	-1	markets
-2026-03-19	gold	Energy Minerals	negative	-1	markets
-2026-03-19	metals	Energy Minerals	negative	-1	markets
 2026-03-20	Alibaba	Consumer Non-Durables	negative	-1	other
 2026-03-20	Apple	Consumer Durables	positive	1	products
 2026-03-20	Costco	Retail Trade	positive	1	markets
@@ -1024,3 +1009,11 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-06-17	SpaceX	Electronic Technology	neutral	0	markets
 2026-06-17	Stellantis	Transportation	neutral	0	other
 2026-06-17	U.S. Navy	Energy Minerals	neutral	0	macro
+2026-06-18	Amazon	Electronic Technology	neutral	0	markets
+2026-06-18	Intel	Electronic Technology	positive	1	markets
+2026-06-18	Iran	Transportation	neutral	0	regulation
+2026-06-18	Nvidia	Electronic Technology	positive	1	markets
+2026-06-18	SpaceX	Producer Manufacturing	positive	1	markets
+2026-06-18	SpaceX	Producer Manufacturing	negative	-1	markets
+2026-06-18	U.S. Navy	Transportation	neutral	0	regulation
+2026-06-18	Waymo	Transportation	negative	-1	products
