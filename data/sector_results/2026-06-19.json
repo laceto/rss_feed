@@ -1,0 +1,84 @@
+{
+  "date": "2026-06-19",
+  "batch_id": "batch_6a35a5c4b8a0819097270a44c19a1d4d",
+  "sectors": [
+    {
+      "entities": [
+        "U.S.-Iran deal",
+        "Strait of Hormuz"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "SpaceX",
+        "Elon Musk"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Apple",
+        "Tim Cook"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "neutral",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Nano Nuclear Energy"
+      ],
+      "sector": "Energy Minerals",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Jio Platforms",
+        "India"
+      ],
+      "sector": "Communications",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Qualcomm"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Indian IT stocks",
+        "Accenture"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Yen",
+        "Japan"
+      ],
+      "sector": "Utilities",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    }
+  ]
+}

@@ -1,16 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-03-20	Alibaba	Consumer Non-Durables	negative	-1	other
-2026-03-20	Apple	Consumer Durables	positive	1	products
-2026-03-20	Costco	Retail Trade	positive	1	markets
-2026-03-20	ECB	Finance	neutral	0	macro
-2026-03-20	Etsy	Retail Trade	neutral	0	products
-2026-03-20	Iran	Energy Minerals	negative	-1	macro
-2026-03-20	Nuveen	Finance	positive	1	macro
-2026-03-20	Nvidia	Electronic Technology	negative	-1	other
-2026-03-20	Shopify	Retail Trade	neutral	0	products
-2026-03-20	Super Micro	Electronic Technology	negative	-1	other
-2026-03-20	U.S.	Energy Minerals	negative	-1	macro
-2026-03-20	Walmart	Retail Trade	neutral	0	products
 2026-03-21	Nissan	Consumer Non-Durables	positive	1	products
 2026-03-22	China	Consumer Non-Durables	positive	1	macro
 2026-03-22	Culinary Class Wars	Consumer Non-Durables	positive	1	products
@@ -1017,3 +1005,17 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-06-18	SpaceX	Producer Manufacturing	negative	-1	markets
 2026-06-18	U.S. Navy	Transportation	neutral	0	regulation
 2026-06-18	Waymo	Transportation	negative	-1	products
+2026-06-19	Accenture	Technology Services	negative	-1	markets
+2026-06-19	Apple	Consumer Non-Durables	neutral	0	products
+2026-06-19	Elon Musk	Electronic Technology	positive	1	markets
+2026-06-19	India	Communications	neutral	0	markets
+2026-06-19	Indian IT stocks	Technology Services	negative	-1	markets
+2026-06-19	Japan	Utilities	negative	-1	macro
+2026-06-19	Jio Platforms	Communications	neutral	0	markets
+2026-06-19	Nano Nuclear Energy	Energy Minerals	positive	1	products
+2026-06-19	Qualcomm	Electronic Technology	neutral	0	markets
+2026-06-19	SpaceX	Electronic Technology	positive	1	markets
+2026-06-19	Strait of Hormuz	Energy Minerals	positive	1	macro
+2026-06-19	Tim Cook	Consumer Non-Durables	neutral	0	products
+2026-06-19	U.S.-Iran deal	Energy Minerals	positive	1	macro
+2026-06-19	Yen	Utilities	negative	-1	macro

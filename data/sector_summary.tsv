@@ -2004,3 +2004,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-06-18	Electronic Technology	Intel	positive	markets	ok
 2026-06-18	Electronic Technology	Nvidia	positive	markets	ok
 2026-06-18	Producer Manufacturing	SpaceX	negative	markets	ok
+2026-06-19	Energy Minerals	U.S.-Iran deal|Strait of Hormuz	positive	macro	ok
+2026-06-19	Electronic Technology	SpaceX|Elon Musk	positive	markets	ok
+2026-06-19	Consumer Non-Durables	Apple|Tim Cook	neutral	products	ok
+2026-06-19	Energy Minerals	Nano Nuclear Energy	positive	products	ok
+2026-06-19	Communications	Jio Platforms|India	neutral	markets	ok
+2026-06-19	Electronic Technology	Qualcomm	neutral	markets	ok
+2026-06-19	Technology Services	Indian IT stocks|Accenture	negative	markets	ok
+2026-06-19	Utilities	Yen|Japan	negative	macro	ok
