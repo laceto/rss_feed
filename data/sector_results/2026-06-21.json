@@ -1,0 +1,16 @@
+{
+  "date": "2026-06-21",
+  "batch_id": "batch_6a39a995385081908d621c31d4ffec88",
+  "sectors": [
+    {
+      "entities": [
+        "Kevin Warsh",
+        "Fed"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    }
+  ]
+}

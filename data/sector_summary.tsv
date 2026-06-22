@@ -2012,3 +2012,13 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-06-19	Electronic Technology	Qualcomm	neutral	markets	ok
 2026-06-19	Technology Services	Indian IT stocks|Accenture	negative	markets	ok
 2026-06-19	Utilities	Yen|Japan	negative	macro	ok
+2026-06-20	Finance	U.S.|UAE|Gulf states	positive	macro	ok
+2026-06-20	Electronic Technology	South Korea's chip workers|Bank of Korea	negative	macro	ok
+2026-06-21	Finance	Kevin Warsh|Fed	neutral	regulation	ok
+2026-06-22	Producer Manufacturing	SpaceX|Elon Musk	negative	markets	ok
+2026-06-22	Technology Services	Alphabet|Google	negative	markets	ok
+2026-06-22	Electronic Technology	Nvidia|Kalshi	negative	markets	ok
+2026-06-22	Communications	Meta|WhatsApp|Kunal Shah	neutral	appointments	ok
+2026-06-22	Electronic Technology	Micron|Cerebras|Super Micro	positive	markets	ok
+2026-06-22	Energy Minerals	Chevron|Microsoft	neutral	products	ok
+2026-06-22	Communications	Tencent|WeChat	neutral	products	ok

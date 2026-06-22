@@ -1,0 +1,27 @@
+{
+  "date": "2026-06-20",
+  "batch_id": "batch_6a39a995385081908d621c31d4ffec88",
+  "sectors": [
+    {
+      "entities": [
+        "U.S.",
+        "UAE",
+        "Gulf states"
+      ],
+      "sector": "Finance",
+      "sentiment": "positive",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "South Korea's chip workers",
+        "Bank of Korea"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    }
+  ]
+}

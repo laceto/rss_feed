@@ -1,29 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-03-21	Nissan	Consumer Non-Durables	positive	1	products
-2026-03-22	China	Consumer Non-Durables	positive	1	macro
-2026-03-22	Culinary Class Wars	Consumer Non-Durables	positive	1	products
-2026-03-22	DHS	Transportation	neutral	0	other
-2026-03-22	Elon Musk	Transportation	neutral	0	other
-2026-03-22	ICE	Transportation	neutral	0	other
-2026-03-22	Iran	Energy Minerals	neutral	0	macro
-2026-03-22	Netflix	Consumer Non-Durables	positive	1	products
-2026-03-22	Saudi Aramco	Energy Minerals	neutral	0	macro
-2026-03-22	TSA	Transportation	neutral	0	other
-2026-03-23	Apple	Health Services	neutral	0	markets
-2026-03-23	BTS	Consumer Durables	negative	-1	markets
-2026-03-23	BlackRock	Finance	neutral	0	markets
-2026-03-23	Chevron	Energy Minerals	neutral	0	products
-2026-03-23	Danone	Consumer Non-Durables	positive	1	products
-2026-03-23	Eli Lilly	Health Services	neutral	0	markets
-2026-03-23	Elliott	Electronic Technology	positive	1	markets
-2026-03-23	Huel	Consumer Non-Durables	positive	1	products
-2026-03-23	Hybe	Consumer Durables	negative	-1	markets
-2026-03-23	Iran	Energy Minerals	negative	-1	macro
-2026-03-23	Larry Fink	Finance	neutral	0	markets
-2026-03-23	Toyota	Producer Manufacturing	positive	1	products
-2026-03-23	U.S. President Donald Trump	Energy Minerals	negative	-1	macro
-2026-03-23	oil	Energy Minerals	neutral	0	products
-2026-03-23	synopsys	Electronic Technology	positive	1	markets
 2026-03-24	Anthropic	Electronic Technology	positive	1	products
 2026-03-24	Arm	Electronic Technology	positive	1	products
 2026-03-24	Claude	Electronic Technology	positive	1	products
@@ -1019,3 +994,26 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-06-19	Tim Cook	Consumer Non-Durables	neutral	0	products
 2026-06-19	U.S.-Iran deal	Energy Minerals	positive	1	macro
 2026-06-19	Yen	Utilities	negative	-1	macro
+2026-06-20	Bank of Korea	Electronic Technology	negative	-1	macro
+2026-06-20	Gulf states	Finance	positive	1	macro
+2026-06-20	South Korea's chip workers	Electronic Technology	negative	-1	macro
+2026-06-20	U.S.	Finance	positive	1	macro
+2026-06-20	UAE	Finance	positive	1	macro
+2026-06-21	Fed	Finance	neutral	0	regulation
+2026-06-21	Kevin Warsh	Finance	neutral	0	regulation
+2026-06-22	Alphabet	Technology Services	negative	-1	markets
+2026-06-22	Cerebras	Electronic Technology	positive	1	markets
+2026-06-22	Chevron	Energy Minerals	neutral	0	products
+2026-06-22	Elon Musk	Producer Manufacturing	negative	-1	markets
+2026-06-22	Google	Technology Services	negative	-1	markets
+2026-06-22	Kalshi	Electronic Technology	negative	-1	markets
+2026-06-22	Kunal Shah	Communications	neutral	0	appointments
+2026-06-22	Meta	Communications	neutral	0	appointments
+2026-06-22	Micron	Electronic Technology	positive	1	markets
+2026-06-22	Microsoft	Energy Minerals	neutral	0	products
+2026-06-22	Nvidia	Electronic Technology	negative	-1	markets
+2026-06-22	SpaceX	Producer Manufacturing	negative	-1	markets
+2026-06-22	Super Micro	Electronic Technology	positive	1	markets
+2026-06-22	Tencent	Communications	neutral	0	products
+2026-06-22	WeChat	Communications	neutral	0	products
+2026-06-22	WhatsApp	Communications	neutral	0	appointments
