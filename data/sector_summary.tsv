@@ -2022,3 +2022,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-06-22	Electronic Technology	Micron|Cerebras|Super Micro	positive	markets	ok
 2026-06-22	Energy Minerals	Chevron|Microsoft	neutral	products	ok
 2026-06-22	Communications	Tencent|WeChat	neutral	products	ok
+2026-06-23	Electronic Technology	Cerebras	positive	earnings	ok
+2026-06-23	Transportation	SpaceX	neutral	markets	ok
+2026-06-23	Distribution Services	FedEx	positive	earnings	ok
+2026-06-23	Electronic Technology	Micron	negative	markets	ok
+2026-06-23	Electronic Technology	Meta	positive	products	ok
+2026-06-23	Energy Minerals	Energy Fuels|Vacuumschmelze	neutral	products	ok
+2026-06-23	Consumer Durables	Tesla	negative	regulation	ok
+2026-06-23	Communications	Singtel	neutral	markets	ok

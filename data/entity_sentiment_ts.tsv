@@ -1,17 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-03-24	Anthropic	Electronic Technology	positive	1	products
-2026-03-24	Arm	Electronic Technology	positive	1	products
-2026-03-24	Claude	Electronic Technology	positive	1	products
-2026-03-24	DeepMind	Electronic Technology	positive	1	products
-2026-03-24	Goldman	Energy Minerals	neutral	0	macro
-2026-03-24	Google	Electronic Technology	positive	1	products
-2026-03-24	JPMorgan Chase	Finance	positive	1	macro
-2026-03-24	Jamie Dimon	Finance	positive	1	macro
-2026-03-24	Kuwait Petroleum Corporation	Energy Minerals	negative	-1	macro
-2026-03-24	Meta	Electronic Technology	positive	1	products
-2026-03-24	Micron	Electronic Technology	negative	-1	earnings
-2026-03-24	Patrick Pouyanné	Energy Minerals	positive	1	macro
-2026-03-24	TotalEnergies	Energy Minerals	positive	1	macro
 2026-03-25	AST SpaceMobile	Electronic Technology	positive	1	markets
 2026-03-25	Arm	Electronic Technology	positive	1	products
 2026-03-25	Donald Trump	Energy Minerals	negative	-1	macro
@@ -1017,3 +1004,12 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-06-22	Tencent	Communications	neutral	0	products
 2026-06-22	WeChat	Communications	neutral	0	products
 2026-06-22	WhatsApp	Communications	neutral	0	appointments
+2026-06-23	Cerebras	Electronic Technology	positive	1	earnings
+2026-06-23	Energy Fuels	Energy Minerals	neutral	0	products
+2026-06-23	FedEx	Distribution Services	positive	1	earnings
+2026-06-23	Meta	Electronic Technology	positive	1	products
+2026-06-23	Micron	Electronic Technology	negative	-1	markets
+2026-06-23	Singtel	Communications	neutral	0	markets
+2026-06-23	SpaceX	Transportation	neutral	0	markets
+2026-06-23	Tesla	Consumer Durables	negative	-1	regulation
+2026-06-23	Vacuumschmelze	Energy Minerals	neutral	0	products
