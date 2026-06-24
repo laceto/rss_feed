@@ -2030,3 +2030,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-06-23	Energy Minerals	Energy Fuels|Vacuumschmelze	neutral	products	ok
 2026-06-23	Consumer Durables	Tesla	negative	regulation	ok
 2026-06-23	Communications	Singtel	neutral	markets	ok
+2026-06-24	Electronic Technology	Micron	positive	earnings	ok
+2026-06-24	Electronic Technology	Qualcomm	positive	earnings	ok
+2026-06-24	Electronic Technology	Cerebras	negative	earnings	ok
+2026-06-24	Consumer Non-Durables	Toyota|General Motors	positive	markets	ok
+2026-06-24	Finance	Bitcoin	negative	markets	ok
+2026-06-24	Communications	Verizon|Alphabet	neutral	markets	ok
+2026-06-24	Finance	Schwab	positive	markets	ok
+2026-06-24	Utilities	France power outage	negative	macro	ok

@@ -1,20 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-03-25	AST SpaceMobile	Electronic Technology	positive	1	markets
-2026-03-25	Arm	Electronic Technology	positive	1	products
-2026-03-25	Donald Trump	Energy Minerals	negative	-1	macro
-2026-03-25	Firefly Aerospace	Electronic Technology	positive	1	markets
-2026-03-25	Gold	Non-Energy Minerals	neutral	0	markets
-2026-03-25	Iran	Energy Minerals	negative	-1	macro
-2026-03-25	Meta	Communications	negative	-1	regulation
-2026-03-25	Meta	Communications	neutral	0	other
-2026-03-25	Rocket Lab	Electronic Technology	positive	1	markets
-2026-03-25	Shell	Energy Minerals	negative	-1	markets
-2026-03-25	SpaceX	Electronic Technology	positive	1	markets
-2026-03-25	U.S.	Energy Minerals	negative	-1	macro
-2026-03-25	Wael Sawan	Energy Minerals	negative	-1	markets
-2026-03-25	White House	Communications	neutral	0	macro
-2026-03-25	Xi Jinping	Communications	neutral	0	macro
-2026-03-25	YouTube	Communications	negative	-1	regulation
 2026-03-26	Apple	Electronic Technology	positive	1	products
 2026-03-26	Bosch	Electronic Technology	positive	1	products
 2026-03-26	Cirrus Logic	Electronic Technology	positive	1	products
@@ -1013,3 +997,13 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-06-23	SpaceX	Transportation	neutral	0	markets
 2026-06-23	Tesla	Consumer Durables	negative	-1	regulation
 2026-06-23	Vacuumschmelze	Energy Minerals	neutral	0	products
+2026-06-24	Alphabet	Communications	neutral	0	markets
+2026-06-24	Bitcoin	Finance	negative	-1	markets
+2026-06-24	Cerebras	Electronic Technology	negative	-1	earnings
+2026-06-24	France power outage	Utilities	negative	-1	macro
+2026-06-24	General Motors	Consumer Non-Durables	positive	1	markets
+2026-06-24	Micron	Electronic Technology	positive	1	earnings
+2026-06-24	Qualcomm	Electronic Technology	positive	1	earnings
+2026-06-24	Schwab	Finance	positive	1	markets
+2026-06-24	Toyota	Consumer Non-Durables	positive	1	markets
+2026-06-24	Verizon	Communications	neutral	0	markets
