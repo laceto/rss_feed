@@ -1,0 +1,232 @@
+{
+  "date": "2026-06-24",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "27b66b68-d49d-4f9e-b7b9-3cc976c1e33b",
+      "label": "Trump DOJ 'Lawfare' Fund Issues",
+      "spike_ratio": 2.04,
+      "article_count": 82,
+      "sentiment_score": 0.3236062717770034,
+      "rag_answer": "The Trump DOJ 'Lawfare' Fund, a $1.8 billion initiative created to compensate allies of President Trump, has faced significant legal and political challenges. A judge temporarily blocked the fund, seeking guarantees that it would not proceed, while Senate Democratic Leader Chuck Schumer is pushing for votes to eliminate it, labeling it a \"slush fund.\" Additionally, the fund was established as part of a settlement related to Trump's $10 billion lawsuit against the IRS over leaked tax information. These developments have created uncertainty in the market, particularly as investors are closely monitoring the implications of the ongoing legal battles and political maneuvers surrounding the fund.",
+      "rag_sources": [
+        {
+          "title": "Trump DOJ 'lawfare' fund temporarily blocked by judge as suit proceeds",
+          "date": "2026-05-29",
+          "link": "https://www.cnbc.com/2026/05/29/trump-doj-fund-lawfare-blocked-judge.html",
+          "snippet": "2026-05-29: Trump DOJ 'lawfare' fund temporarily blocked by judge as suit proceeds: The DOJ has faced strong criticism for the creation of a $1.8 Anti-Weaponization Fund which could compensate allies ",
+          "guid": "108313806"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Schumer says Democrats will force Senate votes to block Trump's DOJ 'lawfare' fund",
+          "date": "2026-06-01",
+          "link": "https://www.cnbc.com/2026/06/01/trump-doj-lawfare-fund-congress-senate-democrats.html",
+          "snippet": "2026-06-01: Schumer says Democrats will force Senate votes to block Trump's DOJ 'lawfare' fund: Opposition to the $1.8 billion Justice Department fund, which critics call a \\slush fund,\\\" helped grind",
+          "guid": "108314549"
+        },
+        {
+          "title": "Trump administration plans to drop DOJ's $1.8B 'lawfare' fund, reports say",
+          "date": "2026-06-01",
+          "link": "https://www.cnbc.com/2026/06/01/trump-doj-fund-senate.html",
+          "snippet": "2026-06-01: Trump administration plans to drop DOJ's $1.8B 'lawfare' fund, reports say: Senate Democratic Leader Chuck Schumer said he was launching an effort to kill \\slush fund\\\" by forcing Republic",
+          "guid": "108314819"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "ad0fef60-4749-4e85-809e-e1e6af36a370",
+      "label": "Kevin Warsh Fed Chair Nomination",
+      "spike_ratio": 1.184,
+      "article_count": 49,
+      "sentiment_score": 0.2314139941690962,
+      "rag_answer": "Kevin Warsh was nominated by President Donald Trump to succeed Jerome Powell as Fed chair, but his confirmation faced significant hurdles due to a federal investigation into Powell and opposition from Senator Thom Tillis. Despite these challenges, Warsh eventually cleared a key Senate hurdle and was confirmed by a narrow 51-45 vote. As Fed chair, Warsh is expected to maintain steady interest rates initially, which may influence consumer borrowing and savings rates in the future. His leadership is seen as a potential shift in monetary policy, with expectations that he may pursue longer-term changes beyond just interest rate adjustments.",
+      "rag_sources": [
+        {
+          "title": "Analysis: What might trip up Kevin Warsh and his agenda as Fed chair",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/analysis-what-might-trip-up-kevin-warsh-and-his-agenda-as-fed-chair.html",
+          "snippet": "2026-03-27: Analysis: What might trip up Kevin Warsh and his agenda as Fed chair: Kevin Warsh would enter the Fed as its chair with an agenda to enact that goes beyond cutting interest rates.",
+          "guid": "108284071"
+        },
+        {
+          "title": "Chair nominee Kevin Warsh says Fed must \u2018stay in its lane\u2019 to maintain independence",
+          "date": "2026-04-20",
+          "link": "https://www.cnbc.com/2026/04/20/kevin-warsh-fed-confirmation-senate.html",
+          "snippet": "2026-04-20: Chair nominee Kevin Warsh says Fed must \u2018stay in its lane\u2019 to maintain independence: Warsh also expressed firm commitment to fighting inflation with only one mention of the labor market.",
+          "guid": "108294071"
+        },
+        {
+          "title": "Tim Scott hopes Fed Chair Powell investigation 'goes away' to clear Kevin Warsh confirmation",
+          "date": "2026-03-11",
+          "link": "https://www.cnbc.com/2026/03/11/fed-powell-warsh-tim-scott.html",
+          "snippet": "2026-03-11: Tim Scott hopes Fed Chair Powell investigation 'goes away' to clear Kevin Warsh confirmation: President Donald Trump nominated Kevin Warsh to succeed Jerome Powell as Fed chair, but the pr",
+          "guid": "108276610"
+        },
+        {
+          "title": "Trump Fed pick Kevin Warsh clears key Senate hurdle, teeing up final vote",
+          "date": "2026-04-29",
+          "link": "https://www.cnbc.com/2026/04/29/trump-fed-nominee-kevin-warsh-senate-approval.html",
+          "snippet": "2026-04-29: Trump Fed pick Kevin Warsh clears key Senate hurdle, teeing up final vote: Current Fed Chair Jerome Powell has faced a barrage of criticism from Trump over his refusal to slash interest ra",
+          "guid": "108299130"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "stable",
+          "trend_delta": 0.0,
+          "mean_sentiment_score": 0.25,
+          "data_age_days": null
+        },
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -1.0,
+          "mean_sentiment_score": 0.167,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "2e09d728-1cc3-4a99-8aee-198f0dea52a7",
+      "label": "Tech and Dividend Stock Strategies",
+      "spike_ratio": 1.176,
+      "article_count": 20,
+      "sentiment_score": 0.1928571428571428,
+      "rag_answer": "Tech stocks are currently experiencing a resurgence, with analysts noting that they could offer their best value in years following a strong earnings season. However, dividend stocks are also gaining traction, closing the earnings growth gap with tech stocks, which is attracting investors seeking safety in a volatile market. As a result, many investors are diversifying their portfolios by incorporating dividend-paying stocks for steady income, especially amid fears of a potential tech stock downturn. This shift indicates a growing preference for stability and income generation in uncertain market conditions.",
+      "rag_sources": [
+        {
+          "title": "Dividend stocks are catching up to tech stocks on a key earnings metric at a critical time for the market",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/dividend-stocks-tech-earnings-growth-market.html",
+          "snippet": "2026-03-13: Dividend stocks are catching up to tech stocks on a key earnings metric at a critical time for the market: Dividend stocks are closing the earnings growth gap with tech stocks, a reason fo",
+          "guid": "108277207"
+        },
+        {
+          "title": "Investors hope these three trades will weather a tech stock downturn",
+          "date": "2025-11-18",
+          "link": "https://www.cnbc.com/2025/11/18/investors-hope-these-three-trades-will-weather-a-tech-stock-downturn.html",
+          "snippet": "2025-11-18: Investors hope these three trades will weather a tech stock downturn: Strategists are eyeing several portfolio diversifiers amid fears of tech stock reversal.",
+          "guid": "108226733"
+        },
+        {
+          "title": "The market's early rally fizzles \u2014 plus, why TJX's modest dividend still matters for investors",
+          "date": "2026-03-30",
+          "link": "https://www.cnbc.com/2026/03/30/the-markets-early-rally-fizzles-plus-why-tjxs-modest-dividend-still-matters-for-investors.html",
+          "snippet": "2026-03-30: The market's early rally fizzles \u2014 plus, why TJX's modest dividend still matters for investors: Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update j",
+          "guid": "108284898"
+        },
+        {
+          "title": "Why investors are rushing back to Big Tech \u2014 plus, productive Trump-Xi talks",
+          "date": "2025-09-19",
+          "link": "https://www.cnbc.com/2025/09/19/why-investors-are-rushing-back-to-big-tech-plus-productive-trump-xi-talks.html",
+          "snippet": "2025-09-19: Why investors are rushing back to Big Tech \u2014 plus, productive Trump-Xi talks: Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for th",
+          "guid": "108201415"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "stable",
+          "trend_delta": 0.0,
+          "mean_sentiment_score": 0.25,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "13899326-df13-4536-b05e-25c1e06eba1d",
+      "label": "Strait of Hormuz Shipping Tensions",
+      "spike_ratio": 1.154,
+      "article_count": 36,
+      "sentiment_score": 0.4320436507936507,
+      "rag_answer": "The Strait of Hormuz has been largely closed due to escalating tensions between the U.S. and Iran, significantly disrupting global shipping and supply chains. Incidents of attacks on cargo ships have heightened fears, leading to a dramatic decrease in tanker traffic, with transits reported to be 90% below pre-conflict levels. As a result, oil prices have surged, and experts warn that a prolonged closure could trigger a global recession. Recent developments indicate a potential reopening following a U.S.-Iran peace deal, but backlogs and security checks may delay a return to normal shipping operations.",
+      "rag_sources": [
+        {
+          "title": "The Strait of Hormuz crisis explained: What it means for global shipping",
+          "date": "2026-03-02",
+          "link": "https://www.cnbc.com/2026/03/02/strait-of-hormuz-crisis-us-iran-israel-war-shipping-trade-oil.html",
+          "snippet": "2026-03-02: The Strait of Hormuz crisis explained: What it means for global shipping: The Middle East conflict has stoked fears of prolonged disruption to global trade via key maritime corridors.",
+          "guid": "108271796"
+        },
+        {
+          "title": "Trump says U.S. will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure",
+          "date": "2026-05-04",
+          "link": "https://www.cnbc.com/2026/05/03/trump-iran-strait-of-hormuz-trapped-ships.html",
+          "snippet": "2026-05-04: Trump says U.S. will 'free' ships trapped in Persian Gulf by Strait of Hormuz closure: Vessels have been largely unable to pass through the Strait of Hormuz for months, disrupting key supp",
+          "guid": "108301292"
+        },
+        {
+          "title": "Three cargo ships struck off Iran's coast, UK says, including one in Strait of Hormuz",
+          "date": "2026-03-11",
+          "link": "https://www.cnbc.com/2026/03/11/cargo-ship-struck-strait-of-hormuz-uk-iran-war.html",
+          "snippet": "2026-03-11: Three cargo ships struck off Iran's coast, UK says, including one in Strait of Hormuz: The incidents mark the latest in a string of reported attacks in or near to the Strait of Hormuz, whe",
+          "guid": "108276463"
+        },
+        {
+          "title": "CNBC Daily Open: Ship struck and Strait shut",
+          "date": "2026-04-20",
+          "link": "https://www.cnbc.com/2026/04/20/cnbc-daily-open-ship-struck-and-strait-shut.html",
+          "snippet": "2026-04-20: CNBC Daily Open: Ship struck and Strait shut: A dramatic escalation in tension over the Strait of Hormuz drives oil prices and risk assets higher in early trade.",
+          "guid": "108293737"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -1.0,
+          "mean_sentiment_score": 0.167,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "e52f3d97-ef4a-40c3-abac-feafc6ada748",
+      "label": "SpaceX IPO and market impact",
+      "spike_ratio": 1.12,
+      "article_count": 84,
+      "sentiment_score": 0.4817176870748299,
+      "rag_answer": "The SpaceX IPO, which debuted on June 12, 2026, has generated significant excitement and is being viewed as a pivotal event for the stock market, potentially reigniting a bull market. The IPO has already seen a strong performance, with the stock jumping 19% on its first day, and analysts suggest it could influence other sectors, particularly the 'Magnificent Seven' and chip stocks. Investors are closely monitoring how SpaceX maintains its momentum and whether it can achieve its ambitious goals to sustain its valuation. Overall, the IPO is seen as a referendum on Elon Musk's leadership and a test of how Wall Street values strategic technology companies.",
+      "rag_sources": [
+        {
+          "title": "SpaceX IPO shines a light on the product set to disrupt Wall Street",
+          "date": "2026-06-15",
+          "link": "https://www.cnbc.com/2026/06/15/spacex-ipo-shines-a-light-on-wall-streets-blockchain-challenger.html",
+          "snippet": "2026-06-15: SpaceX IPO shines a light on the product set to disrupt Wall Street: Perp market traders had a form of early access to SpaceX, and the trading closely aligned with later prices in the stoc",
+          "guid": "108321814"
+        },
+        {
+          "title": "What comes next for SpaceX after the IPO will be in focus for investors. Here's what's ahead",
+          "date": "2026-06-12",
+          "link": "https://www.cnbc.com/2026/06/12/stock-market-next-week-outlook-for-june-15-19-2026.html",
+          "snippet": "2026-06-12: What comes next for SpaceX after the IPO will be in focus for investors. Here's what's ahead: Whether SpaceX can maintain the early enthusiasm in the coming days will be telling.",
+          "guid": "108320515"
+        },
+        {
+          "title": "SpaceX IPO will test how Wall Street prices \u2018strategic tech\u2019",
+          "date": "2026-06-11",
+          "link": "https://www.cnbc.com/2026/06/11/spacex-ipo-wall-street-valuation-strategic-tech.html",
+          "snippet": "2026-06-11: SpaceX IPO will test how Wall Street prices \u2018strategic tech\u2019: Elon Musk's SpaceX defies typical market buckets, and the IPO will give Wall Street another chance to value \\strategic tech\\\" ",
+          "guid": "108320418"
+        },
+        {
+          "title": "The SpaceX IPO could be coming for the 'Magnificent Seven' and chip stocks",
+          "date": "2026-06-10",
+          "link": "https://www.cnbc.com/2026/06/10/spacex-ipo-could-be-coming-for-the-magnificent-seven-and-chip-stocks.html",
+          "snippet": "2026-06-10: The SpaceX IPO could be coming for the 'Magnificent Seven' and chip stocks: The \\Magnificent Seven\\\" is the market pocket that's most likely to see a rotation, analysts say.\"",
+          "guid": "108319004"
+        }
+      ],
+      "sectors": []
+    }
+  ]
+}
