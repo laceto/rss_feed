@@ -2038,3 +2038,9 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-06-24	Communications	Verizon|Alphabet	neutral	markets	ok
 2026-06-24	Finance	Schwab	positive	markets	ok
 2026-06-24	Utilities	France power outage	negative	macro	ok
+2026-06-25	Technology Services	Apple	negative	markets	ok
+2026-06-25	Electronic Technology	Micron Technology	positive	earnings	ok
+2026-06-25	Industrial Services	Rheinmetall	negative	markets	ok
+2026-06-25	Producer Manufacturing	Tesla	positive	products	ok
+2026-06-25	Technology Services	Apple	negative	markets	ok
+2026-06-25	Electronic Technology	SK Hynix	positive	markets	ok

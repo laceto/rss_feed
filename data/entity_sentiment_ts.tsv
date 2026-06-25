@@ -1,21 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-03-26	Apple	Electronic Technology	positive	1	products
-2026-03-26	Bosch	Electronic Technology	positive	1	products
-2026-03-26	Cirrus Logic	Electronic Technology	positive	1	products
-2026-03-26	Coca-Cola	Consumer Non-Durables	neutral	0	other
-2026-03-26	Coinbase	Finance	positive	1	products
-2026-03-26	El Paso AI data center	Electronic Technology	positive	1	products
-2026-03-26	Fannie Mae	Finance	positive	1	products
-2026-03-26	Goldman Sachs	Finance	positive	1	markets
-2026-03-26	MLB	Consumer Services	neutral	0	markets
-2026-03-26	Meta	Electronic Technology	positive	1	products
-2026-03-26	Micron	Electronic Technology	negative	-1	markets
-2026-03-26	Qnity Electronics	Electronic Technology	positive	1	products
-2026-03-26	SK Hynix	Electronic Technology	negative	-1	markets
-2026-03-26	Samsung	Electronic Technology	negative	-1	markets
-2026-03-26	TDK	Electronic Technology	positive	1	products
-2026-03-26	United Airlines	Transportation	positive	1	markets
-2026-03-26	Walmart	Consumer Non-Durables	neutral	0	other
 2026-03-27	Alibaba	Electronic Technology	positive	1	markets
 2026-03-27	Anthropic	Technology Services	negative	-1	markets
 2026-03-27	AstraZeneca	Health Services	positive	1	products
@@ -1007,3 +990,9 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-06-24	Schwab	Finance	positive	1	markets
 2026-06-24	Toyota	Consumer Non-Durables	positive	1	markets
 2026-06-24	Verizon	Communications	neutral	0	markets
+2026-06-25	Apple	Technology Services	negative	-1	markets
+2026-06-25	Apple	Technology Services	negative	-1	markets
+2026-06-25	Micron Technology	Electronic Technology	positive	1	earnings
+2026-06-25	Rheinmetall	Industrial Services	negative	-1	markets
+2026-06-25	SK Hynix	Electronic Technology	positive	1	markets
+2026-06-25	Tesla	Producer Manufacturing	positive	1	products
