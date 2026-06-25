@@ -1,0 +1,217 @@
+{
+  "date": "2026-06-25",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "27b66b68-d49d-4f9e-b7b9-3cc976c1e33b",
+      "label": "Trump DOJ 'Lawfare' Fund Issues",
+      "spike_ratio": 1.518,
+      "article_count": 78,
+      "sentiment_score": 0.298992673992674,
+      "rag_answer": "The Trump DOJ 'Lawfare' Fund, initially set up to compensate allies of President Trump, has faced significant legal and political challenges. A judge temporarily blocked the $1.8 billion fund, prompting Senate Democratic Leader Chuck Schumer to push for votes to eliminate it, labeling it a \"slush fund.\" Despite these setbacks, Trump expressed a desire for the fund to proceed, while the DOJ has been ordered to clarify its intentions regarding the fund's future. The ongoing legal disputes and political maneuvering surrounding the fund could create volatility in the markets, particularly as investors monitor the implications of the fund on broader political and economic stability.",
+      "rag_sources": [
+        {
+          "title": "Trump DOJ 'lawfare' fund temporarily blocked by judge as suit proceeds",
+          "date": "2026-05-29",
+          "link": "https://www.cnbc.com/2026/05/29/trump-doj-fund-lawfare-blocked-judge.html",
+          "snippet": "2026-05-29: Trump DOJ 'lawfare' fund temporarily blocked by judge as suit proceeds: The DOJ has faced strong criticism for the creation of a $1.8 Anti-Weaponization Fund which could compensate allies ",
+          "guid": "108313806"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Schumer says Democrats will force Senate votes to block Trump's DOJ 'lawfare' fund",
+          "date": "2026-06-01",
+          "link": "https://www.cnbc.com/2026/06/01/trump-doj-lawfare-fund-congress-senate-democrats.html",
+          "snippet": "2026-06-01: Schumer says Democrats will force Senate votes to block Trump's DOJ 'lawfare' fund: Opposition to the $1.8 billion Justice Department fund, which critics call a \\slush fund,\\\" helped grind",
+          "guid": "108314549"
+        },
+        {
+          "title": "Trump administration plans to drop DOJ's $1.8B 'lawfare' fund, reports say",
+          "date": "2026-06-01",
+          "link": "https://www.cnbc.com/2026/06/01/trump-doj-fund-senate.html",
+          "snippet": "2026-06-01: Trump administration plans to drop DOJ's $1.8B 'lawfare' fund, reports say: Senate Democratic Leader Chuck Schumer said he was launching an effort to kill \\slush fund\\\" by forcing Republic",
+          "guid": "108314819"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "2fbfc251-eaea-4872-8901-6018815599e6",
+      "label": "AI Demand and Chip Earnings",
+      "spike_ratio": 1.18,
+      "article_count": 21,
+      "sentiment_score": 0.413265306122449,
+      "rag_answer": "AI demand is driving significant growth in the chip sector, with companies like Nvidia and AMD experiencing surging orders for AI semiconductors. This boom has led to shortages of certain chip components, impacting consumer electronics prices and creating a robust market for chip stocks. Analysts predict that the structural demand for memory in AI applications will keep profitability high for these companies, with some stocks potentially rallying over 110%. Overall, the AI infrastructure buildout is reshaping the chip market, leading to both opportunities and challenges for investors.",
+      "rag_sources": [
+        {
+          "title": "These funds protect against market drops. Demand is booming",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/these-funds-protect-against-market-drops-demand-is-booming.html",
+          "snippet": "2026-02-11: These funds protect against market drops. Demand is booming: Buffer ETFs could see assets quadruple over a five-year period, according to Cerulli Associates. What to know before investing.",
+          "guid": "108264590"
+        },
+        {
+          "title": "Micron stops selling memory to consumers as demand spikes from AI chips",
+          "date": "2025-12-03",
+          "link": "https://www.cnbc.com/2025/12/03/micron-stops-selling-memory-to-consumers-demand-spikes-from-ai-chips.html",
+          "snippet": "2025-12-03: Micron stops selling memory to consumers as demand spikes from AI chips: Demand driven by the AI infrastructure boom is creating shortages for certain products like memory.",
+          "guid": "108236104"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Chip stocks including Nvidia are holding up despite market volatility, according to the charts",
+          "date": "2026-03-10",
+          "link": "https://www.cnbc.com/2026/03/10/chip-stocks-including-nvidia-are-holding-up-despite-market-volatility-according-to-the-charts.html",
+          "snippet": "2026-03-10: Chip stocks including Nvidia are holding up despite market volatility, according to the charts: Todd Gordon takes a look at the technicals in Nvidia and other chipmakers.",
+          "guid": "108276190"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -1.0,
+          "mean_sentiment_score": -0.5,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "e52f3d97-ef4a-40c3-abac-feafc6ada748",
+      "label": "SpaceX IPO and market impact",
+      "spike_ratio": 1.104,
+      "article_count": 87,
+      "sentiment_score": 0.4794745484400657,
+      "rag_answer": "The SpaceX IPO, which debuted with a valuation of $1.77 trillion and a share price of $135, has generated significant enthusiasm among investors, with shares rallying over 25% shortly after the launch. Analysts suggest that this landmark IPO could reignite the bull market and potentially push the S&P 500 to new heights, reminiscent of the Netscape IPO in 1995. However, there are concerns about the sustainability of this excitement, as some investors question the high valuation and face tough decisions on whether to hold or sell their shares. Overall, the IPO is seen as a pivotal moment for both SpaceX and the broader stock market, testing Wall Street's ability to price \"strategic tech\" effectively.",
+      "rag_sources": [
+        {
+          "title": "SpaceX IPO shines a light on the product set to disrupt Wall Street",
+          "date": "2026-06-15",
+          "link": "https://www.cnbc.com/2026/06/15/spacex-ipo-shines-a-light-on-wall-streets-blockchain-challenger.html",
+          "snippet": "2026-06-15: SpaceX IPO shines a light on the product set to disrupt Wall Street: Perp market traders had a form of early access to SpaceX, and the trading closely aligned with later prices in the stoc",
+          "guid": "108321814"
+        },
+        {
+          "title": "What comes next for SpaceX after the IPO will be in focus for investors. Here's what's ahead",
+          "date": "2026-06-12",
+          "link": "https://www.cnbc.com/2026/06/12/stock-market-next-week-outlook-for-june-15-19-2026.html",
+          "snippet": "2026-06-12: What comes next for SpaceX after the IPO will be in focus for investors. Here's what's ahead: Whether SpaceX can maintain the early enthusiasm in the coming days will be telling.",
+          "guid": "108320515"
+        },
+        {
+          "title": "SpaceX IPO will test how Wall Street prices \u2018strategic tech\u2019",
+          "date": "2026-06-11",
+          "link": "https://www.cnbc.com/2026/06/11/spacex-ipo-wall-street-valuation-strategic-tech.html",
+          "snippet": "2026-06-11: SpaceX IPO will test how Wall Street prices \u2018strategic tech\u2019: Elon Musk's SpaceX defies typical market buckets, and the IPO will give Wall Street another chance to value \\strategic tech\\\" ",
+          "guid": "108320418"
+        },
+        {
+          "title": "The SpaceX IPO could be coming for the 'Magnificent Seven' and chip stocks",
+          "date": "2026-06-10",
+          "link": "https://www.cnbc.com/2026/06/10/spacex-ipo-could-be-coming-for-the-magnificent-seven-and-chip-stocks.html",
+          "snippet": "2026-06-10: The SpaceX IPO could be coming for the 'Magnificent Seven' and chip stocks: The \\Magnificent Seven\\\" is the market pocket that's most likely to see a rotation, analysts say.\"",
+          "guid": "108319004"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "49912db9-2c71-44ec-aa34-d3dc30bb6915",
+      "label": "Personal finance and debt management",
+      "spike_ratio": 1.091,
+      "article_count": 16,
+      "sentiment_score": 0.2712053571428571,
+      "rag_answer": "Personal finance and debt management are facing significant challenges as consumer debt levels reach near-record highs, leading to increased financial stress across all income levels. Many borrowers are turning to personal loans to refinance high-interest credit card debt, with a projected increase in such loans by nearly 6% this year. Additionally, the rise of buy now, pay later (BNPL) schemes has resulted in late payment issues for over 40% of users, highlighting the precarious nature of consumer debt management. Overall, these trends indicate a growing need for effective debt relief strategies as inflation and high debt levels continue to pressure American households.",
+      "rag_sources": [
+        {
+          "title": "Private credit is beginning to look like the bond market \u2014 and that comes with red flags",
+          "date": "2025-12-09",
+          "link": "https://www.cnbc.com/2025/12/09/private-credit-public-debt-market-red-flags.html",
+          "snippet": "2025-12-09: Private credit is beginning to look like the bond market \u2014 and that comes with red flags: Private credit is starting to resemble the public debt market, as its expansion blurs lines that o",
+          "guid": "108238012"
+        },
+        {
+          "title": "Personal loans surge amid affordability struggles: It's 'the middle-class refinancing option,' expert says",
+          "date": "2026-02-20",
+          "link": "https://www.cnbc.com/2026/02/20/subprime-borrowers-personal-loans.html",
+          "snippet": "2026-02-20: Personal loans surge amid affordability struggles: It's 'the middle-class refinancing option,' expert says: Some borrowers are turning to personal loans to refinance credit card debt. Thos",
+          "guid": "108267463"
+        },
+        {
+          "title": "Rising household debt balances point to worsening 'K-shaped' economic divide",
+          "date": "2025-11-05",
+          "link": "https://www.cnbc.com/2025/11/05/consumer-debt-rises-amid-worsening-k-shaped-economic-divide.html",
+          "snippet": "2025-11-05: Rising household debt balances point to worsening 'K-shaped' economic divide: Recent reports show a growing divide among consumers, with more borrowers either in a position of financial di",
+          "guid": "108221364"
+        },
+        {
+          "title": " Debt struggles are hitting consumers at all income levels \u2014 it's a 'tipping point,' expert says",
+          "date": "2025-08-28",
+          "link": "https://www.cnbc.com/2025/08/28/-debt-struggles-hit-consumers-at-all-income-levels-heres-why.html",
+          "snippet": "2025-08-28: Debt struggles are hitting consumers at all income levels \u2014 it's a 'tipping point,' expert says: Consumer debt is near an all-time high, and there are signs that an increasing number of bo",
+          "guid": "108191626"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "0c0d6002-645d-4d5b-93ee-2eb5f3b4205b",
+      "label": "Trump-Xi Summit and Taiwan",
+      "spike_ratio": 1.053,
+      "article_count": 16,
+      "sentiment_score": 0.4854910714285714,
+      "rag_answer": "The Trump-Xi summit has become a focal point for discussions surrounding Taiwan, with U.S. President Donald Trump emphasizing arms sales to Taiwan as a key agenda item. Chinese President Xi Jinping has warned that mishandling the Taiwan issue could jeopardize U.S.-China relations. The summit has also sparked hopes for easing trade tensions, which could positively impact markets, as investors are closely monitoring the outcomes for potential agreements on trade and technology. Overall, the developments suggest a delicate balancing act between addressing Taiwan's significance and fostering cooperative ties between the two nations.",
+      "rag_sources": [
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Watch CNBC's full interview with Microsoft President Brad Smith at the AI Impact Summit in India",
+          "date": "2026-02-19",
+          "link": "https://www.cnbc.com/video/2026/02/19/watch-cnbcs-full-interview-with-microsoft-president-brad-smith-at-the-ai-impact-summit-in-india.html",
+          "snippet": "2026-02-19: Watch CNBC's full interview with Microsoft President Brad Smith at the AI Impact Summit in India: Microsoft President Brad Smith told CNBC\u2019s Arjun Kharpal that U.S. tech companies should \u201c",
+          "guid": "108267132"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -1.0,
+          "mean_sentiment_score": -0.5,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}
