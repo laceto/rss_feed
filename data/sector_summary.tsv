@@ -2044,3 +2044,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-06-25	Producer Manufacturing	Tesla	positive	products	ok
 2026-06-25	Technology Services	Apple	negative	markets	ok
 2026-06-25	Electronic Technology	SK Hynix	positive	markets	ok
+2026-06-26	Energy Minerals	U.S.-Iran peace deal|UN agency	positive	macro	ok
+2026-06-26	Technology Services	Oracle	negative	markets	ok
+2026-06-26	Electronic Technology	OpenAI	neutral	products	ok
+2026-06-26	Electronic Technology	Nvidia|Alphabet	negative	markets	ok
+2026-06-26	Producer Manufacturing	Volkswagen	negative	other	ok
+2026-06-26	Health Services	Sanofi	negative	regulation	ok
+2026-06-26	Producer Manufacturing	SpaceX	neutral	markets	ok
+2026-06-26	Finance	Airwallex	positive	products	ok
