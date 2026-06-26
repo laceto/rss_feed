@@ -1,0 +1,233 @@
+{
+  "date": "2026-06-26",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "2e09d728-1cc3-4a99-8aee-198f0dea52a7",
+      "label": "Tech and Dividend Stock Strategies",
+      "spike_ratio": 1.57,
+      "article_count": 27,
+      "sentiment_score": 0.2810846560846561,
+      "rag_answer": "Tech stocks are currently experiencing a resurgence, with analysts suggesting they may offer their best value in years following a strong earnings season. However, dividend stocks are also gaining traction, closing the earnings growth gap with tech stocks, which is attracting investors seeking safety in a volatile market. As a result, many investors are diversifying their portfolios by incorporating dividend-paying stocks for steady income, especially amid fears of a potential tech stock downturn. This shift indicates a growing preference for stability and income generation in uncertain market conditions.",
+      "rag_sources": [
+        {
+          "title": "Dividend stocks are catching up to tech stocks on a key earnings metric at a critical time for the market",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/dividend-stocks-tech-earnings-growth-market.html",
+          "snippet": "2026-03-13: Dividend stocks are catching up to tech stocks on a key earnings metric at a critical time for the market: Dividend stocks are closing the earnings growth gap with tech stocks, a reason fo",
+          "guid": "108277207"
+        },
+        {
+          "title": "Investors hope these three trades will weather a tech stock downturn",
+          "date": "2025-11-18",
+          "link": "https://www.cnbc.com/2025/11/18/investors-hope-these-three-trades-will-weather-a-tech-stock-downturn.html",
+          "snippet": "2025-11-18: Investors hope these three trades will weather a tech stock downturn: Strategists are eyeing several portfolio diversifiers amid fears of tech stock reversal.",
+          "guid": "108226733"
+        },
+        {
+          "title": "The market's early rally fizzles \u2014 plus, why TJX's modest dividend still matters for investors",
+          "date": "2026-03-30",
+          "link": "https://www.cnbc.com/2026/03/30/the-markets-early-rally-fizzles-plus-why-tjxs-modest-dividend-still-matters-for-investors.html",
+          "snippet": "2026-03-30: The market's early rally fizzles \u2014 plus, why TJX's modest dividend still matters for investors: Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update j",
+          "guid": "108284898"
+        },
+        {
+          "title": "Why investors are rushing back to Big Tech \u2014 plus, productive Trump-Xi talks",
+          "date": "2025-09-19",
+          "link": "https://www.cnbc.com/2025/09/19/why-investors-are-rushing-back-to-big-tech-plus-productive-trump-xi-talks.html",
+          "snippet": "2025-09-19: Why investors are rushing back to Big Tech \u2014 plus, productive Trump-Xi talks: Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for th",
+          "guid": "108201415"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.25,
+          "mean_sentiment_score": 0.375,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "2fbfc251-eaea-4872-8901-6018815599e6",
+      "label": "AI Demand and Chip Earnings",
+      "spike_ratio": 1.42,
+      "article_count": 25,
+      "sentiment_score": 0.4057142857142857,
+      "rag_answer": "AI demand is driving significant growth in the chip sector, with companies like Nvidia and ASML experiencing record orders and robust earnings due to the AI infrastructure boom. This surge in demand has led to shortages of certain chip components, impacting consumer electronics prices and creating a competitive landscape among chip manufacturers. Analysts predict that the structural demand for memory in AI applications will keep profitability high for chip stocks, despite recent market volatility. Overall, the AI boom is reshaping the chip market, with both opportunities and challenges for investors.",
+      "rag_sources": [
+        {
+          "title": "These funds protect against market drops. Demand is booming",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/these-funds-protect-against-market-drops-demand-is-booming.html",
+          "snippet": "2026-02-11: These funds protect against market drops. Demand is booming: Buffer ETFs could see assets quadruple over a five-year period, according to Cerulli Associates. What to know before investing.",
+          "guid": "108264590"
+        },
+        {
+          "title": "Micron stops selling memory to consumers as demand spikes from AI chips",
+          "date": "2025-12-03",
+          "link": "https://www.cnbc.com/2025/12/03/micron-stops-selling-memory-to-consumers-demand-spikes-from-ai-chips.html",
+          "snippet": "2025-12-03: Micron stops selling memory to consumers as demand spikes from AI chips: Demand driven by the AI infrastructure boom is creating shortages for certain products like memory.",
+          "guid": "108236104"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Chip stocks including Nvidia are holding up despite market volatility, according to the charts",
+          "date": "2026-03-10",
+          "link": "https://www.cnbc.com/2026/03/10/chip-stocks-including-nvidia-are-holding-up-despite-market-volatility-according-to-the-charts.html",
+          "snippet": "2026-03-10: Chip stocks including Nvidia are holding up despite market volatility, according to the charts: Todd Gordon takes a look at the technicals in Nvidia and other chipmakers.",
+          "guid": "108276190"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": -0.667,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "9bd540b0-4ab2-4d02-8dfb-0e77f6d38971",
+      "label": "Credit Card Rewards and Offers",
+      "spike_ratio": 1.25,
+      "article_count": 18,
+      "sentiment_score": 0.3819444444444444,
+      "rag_answer": "Credit card rewards and offers are experiencing significant changes, with a growing focus on premium credit cards that provide enhanced benefits despite higher fees. In 2025, there was a notable increase in demand for premium cards, driven by new perks and a legal settlement involving Visa and Mastercard that may alter the rewards landscape. However, challenges persist, such as the disappearance of mortgage rewards credit cards and the difficulty in maximizing travel card benefits. Overall, consumers are advised to stay informed about the evolving credit card market to make the most of their rewards and offers.",
+      "rag_sources": [
+        {
+          "title": "Capital One drops 6%, other banks hit after Trump calls for credit card rate cap",
+          "date": "2026-01-12",
+          "link": "https://www.cnbc.com/2026/01/12/trump-credit-card-limit-banks-jpmorgan-citi.html",
+          "snippet": "2026-01-12: Capital One drops 6%, other banks hit after Trump calls for credit card rate cap: Posting on Truth Social, Trump said he would \\no longer let the American Public be 'ripped off' by Credit ",
+          "guid": "108250994"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Credit card debt reaches $1.21 trillion \u2014 in line with last year's all-time high, NY Fed finds",
+          "date": "2025-08-05",
+          "link": "https://www.cnbc.com/2025/08/05/ny-fed-credit-card-debt-second-quarter-2025.html",
+          "snippet": "2025-08-05: Credit card debt reaches $1.21 trillion \u2014 in line with last year's all-time high, NY Fed finds: Credit card balances rose by $27 billion in the second quarter to $1.21 trillion, according ",
+          "guid": "108181754"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.25,
+          "mean_sentiment_score": 0.375,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "cfc45bd5-02de-4278-b343-9d233c603147",
+      "label": "Automotive Industry Developments",
+      "spike_ratio": 1.182,
+      "article_count": 26,
+      "sentiment_score": 0.3159340659340659,
+      "rag_answer": "The automotive industry is facing significant challenges, including rising vehicle prices and increasing auto loan delinquencies, which indicate a potential K-shaped economy affecting consumer affordability. As automakers like Ford and GM grapple with falling electric vehicle (EV) sales, they are reevaluating their strategies and product lineups in response to changing market dynamics and policies. Additionally, foreign car companies are investing in technology to maintain competitiveness in the lucrative Chinese market amid a sales slump. Overall, the industry is navigating a complex landscape of economic pressures, shifting consumer preferences, and geopolitical factors, leading to a cautious outlook for 2026.",
+      "rag_sources": [
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "The broadening stock market trade: What to buy outside AI",
+          "date": "2026-06-17",
+          "link": "https://www.cnbc.com/2026/06/17/the-broadening-stock-market-trade-what-to-buy-outside-ai.html",
+          "snippet": "2026-06-17: The broadening stock market trade: What to buy outside AI: Artificial intelligence has been the driving force for the stock market since late 2022, with investors looking for exposure to t",
+          "guid": "108323162"
+        },
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "0c0d6002-645d-4d5b-93ee-2eb5f3b4205b",
+      "label": "Trump-Xi Summit and Taiwan",
+      "spike_ratio": 1.104,
+      "article_count": 17,
+      "sentiment_score": 0.5010504201680672,
+      "rag_answer": "The Trump-Xi summit has become a focal point for discussions surrounding Taiwan, with U.S. arms sales to Taiwan being a significant agenda item. President Xi warned that mishandling the Taiwan issue could jeopardize U.S.-China relations, highlighting its importance in the bilateral talks. The summit has led to a cautious optimism in the markets, as investors hope for easing trade tensions and potential agreements that could benefit both economies. Overall, the outcome of the summit could have substantial implications for market stability and investor sentiment regarding U.S.-China relations.",
+      "rag_sources": [
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Watch CNBC's full interview with Microsoft President Brad Smith at the AI Impact Summit in India",
+          "date": "2026-02-19",
+          "link": "https://www.cnbc.com/video/2026/02/19/watch-cnbcs-full-interview-with-microsoft-president-brad-smith-at-the-ai-impact-summit-in-india.html",
+          "snippet": "2026-02-19: Watch CNBC's full interview with Microsoft President Brad Smith at the AI Impact Summit in India: Microsoft President Brad Smith told CNBC\u2019s Arjun Kharpal that U.S. tech companies should \u201c",
+          "guid": "108267132"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "deteriorating",
+          "trend_delta": -0.667,
+          "mean_sentiment_score": -0.667,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}
