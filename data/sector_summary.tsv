@@ -2052,3 +2052,16 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-06-26	Health Services	Sanofi	negative	regulation	ok
 2026-06-26	Producer Manufacturing	SpaceX	neutral	markets	ok
 2026-06-26	Finance	Airwallex	positive	products	ok
+2026-06-27	Retail Trade	Kohl's	negative	markets	ok
+2026-06-28	Finance	IRAs|401(k) plans	neutral	markets	ok
+2026-06-28	Consumer Durables	auto industry	negative	macro	ok
+2026-06-28	Electronic Technology	Chinese stocks|data centers	positive	markets	ok
+2026-06-28	Health Services	Medicare|obesity drug coverage	positive	regulation	ok
+2026-06-29	Technology Services	Alphabet	positive	markets	ok
+2026-06-29	Electronic Technology	Axon	neutral	products	ok
+2026-06-29	Health Services	Eli Lilly|Regeneron	positive	products	ok
+2026-06-29	Distribution Services	Comcast|NBCUniversal|Sky	neutral	markets	ok
+2026-06-29	Finance	MetLife	positive	markets	ok
+2026-06-29	Transportation	SpaceX	neutral	markets	ok
+2026-06-29	Producer Manufacturing	Martin Marietta|Lhoist North America	positive	M&A	ok
+2026-06-29	Electronic Technology	Samsung|SK Hynix	neutral	markets	ok

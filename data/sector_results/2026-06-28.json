@@ -1,0 +1,45 @@
+{
+  "date": "2026-06-28",
+  "batch_id": "batch_6a42da33039c819082ef495419160bc9",
+  "sectors": [
+    {
+      "entities": [
+        "IRAs",
+        "401(k) plans"
+      ],
+      "sector": "Finance",
+      "sentiment": "neutral",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "auto industry"
+      ],
+      "sector": "Consumer Durables",
+      "sentiment": "negative",
+      "news_category": "macro",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Chinese stocks",
+        "data centers"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Medicare",
+        "obesity drug coverage"
+      ],
+      "sector": "Health Services",
+      "sentiment": "positive",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    }
+  ]
+}

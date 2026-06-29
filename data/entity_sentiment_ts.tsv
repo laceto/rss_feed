@@ -1,31 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-03-28	Bank of America	Finance	positive	1	regulation
-2026-03-29	BTS	Consumer Services	positive	1	markets
-2026-03-29	Deutsche Bank	Health Technology	positive	1	markets
-2026-03-29	Egypt	Transportation	neutral	0	macro
-2026-03-29	Hybe	Consumer Services	positive	1	markets
-2026-03-29	Meta	Technology Services	negative	-1	regulation
-2026-03-29	Pakistan	Transportation	neutral	0	macro
-2026-03-29	Pokémon	Consumer Non-Durables	positive	1	markets
-2026-03-29	Saudi Arabia	Transportation	neutral	0	macro
-2026-03-29	Turkey	Transportation	neutral	0	macro
-2026-03-29	U.S.-Iran talks	Transportation	neutral	0	macro
-2026-03-29	gold	Energy Minerals	neutral	0	markets
-2026-03-29	psychedelic therapies	Health Technology	positive	1	markets
-2026-03-30	Brent oil	Energy Minerals	positive	1	markets
-2026-03-30	China suppliers	Distribution Services	negative	-1	macro
-2026-03-30	Dell Technologies	Electronic Technology	negative	-1	markets
-2026-03-30	Federal Reserve	Finance	neutral	0	macro
-2026-03-30	Five Below	Electronic Technology	negative	-1	markets
-2026-03-30	Iran	Energy Minerals	negative	-1	macro
-2026-03-30	Israel	Energy Minerals	negative	-1	macro
-2026-03-30	Jerome Powell	Finance	neutral	0	macro
-2026-03-30	JetBlue Airways	Transportation	negative	-1	products
-2026-03-30	Nvidia	Electronic Technology	negative	-1	markets
-2026-03-30	Rebellions	Electronic Technology	positive	1	markets
-2026-03-30	SpaceX	Producer Manufacturing	neutral	0	markets
-2026-03-30	WTI	Energy Minerals	positive	1	markets
-2026-03-30	Yemen's Houthis	Energy Minerals	negative	-1	macro
 2026-03-31	Apple	Electronic Technology	neutral	0	markets
 2026-03-31	McCormick	Consumer Non-Durables	neutral	0	M&A
 2026-03-31	Mercedes	Consumer Durables	positive	1	products
@@ -988,3 +961,24 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-06-26	U.S.-Iran peace deal	Energy Minerals	positive	1	macro
 2026-06-26	UN agency	Energy Minerals	positive	1	macro
 2026-06-26	Volkswagen	Producer Manufacturing	negative	-1	other
+2026-06-27	Kohl's	Retail Trade	negative	-1	markets
+2026-06-28	401(k) plans	Finance	neutral	0	markets
+2026-06-28	Chinese stocks	Electronic Technology	positive	1	markets
+2026-06-28	IRAs	Finance	neutral	0	markets
+2026-06-28	Medicare	Health Services	positive	1	regulation
+2026-06-28	auto industry	Consumer Durables	negative	-1	macro
+2026-06-28	data centers	Electronic Technology	positive	1	markets
+2026-06-28	obesity drug coverage	Health Services	positive	1	regulation
+2026-06-29	Alphabet	Technology Services	positive	1	markets
+2026-06-29	Axon	Electronic Technology	neutral	0	products
+2026-06-29	Comcast	Distribution Services	neutral	0	markets
+2026-06-29	Eli Lilly	Health Services	positive	1	products
+2026-06-29	Lhoist North America	Producer Manufacturing	positive	1	M&A
+2026-06-29	Martin Marietta	Producer Manufacturing	positive	1	M&A
+2026-06-29	MetLife	Finance	positive	1	markets
+2026-06-29	NBCUniversal	Distribution Services	neutral	0	markets
+2026-06-29	Regeneron	Health Services	positive	1	products
+2026-06-29	SK Hynix	Electronic Technology	neutral	0	markets
+2026-06-29	Samsung	Electronic Technology	neutral	0	markets
+2026-06-29	Sky	Distribution Services	neutral	0	markets
+2026-06-29	SpaceX	Transportation	neutral	0	markets

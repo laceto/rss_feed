@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-27",
+  "batch_id": "batch_6a42da33039c819082ef495419160bc9",
+  "sectors": [
+    {
+      "entities": [
+        "Kohl's"
+      ],
+      "sector": "Retail Trade",
+      "sentiment": "negative",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}
