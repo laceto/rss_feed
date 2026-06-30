@@ -1,0 +1,240 @@
+{
+  "date": "2026-06-30",
+  "n_spikes": 5,
+  "spikes": [
+    {
+      "topic_id": "ad0fef60-4749-4e85-809e-e1e6af36a370",
+      "label": "Kevin Warsh Fed Chair Nomination",
+      "spike_ratio": 1.401,
+      "article_count": 58,
+      "sentiment_score": 0.167487684729064,
+      "rag_answer": "Kevin Warsh was nominated by President Trump to replace Jerome Powell as Fed Chair, facing significant hurdles due to a federal investigation into Powell and opposition from Senator Thom Tillis. Despite these challenges, Warsh's nomination was confirmed by the Senate on May 12, 2026, with a narrow 51-45 vote. As Fed Chair, Warsh is expected to maintain steady interest rates initially, which could influence consumer borrowing and savings rates. His leadership is seen as a potential shift in monetary policy, with investors cautiously optimistic about his approach to managing inflation and economic stability.",
+      "rag_sources": [
+        {
+          "title": "Senate confirms Kevin Warsh as Fed governor, clears way for chair vote ",
+          "date": "2026-05-12",
+          "link": "https://www.cnbc.com/2026/05/12/senate-confirms-kevin-warsh-as-fed-governor-clears-way-for-chair-vote.html",
+          "snippet": "2026-05-12: Senate confirms Kevin Warsh as Fed governor, clears way for chair vote: The upper chamber voted to approve Warsh's nomination by a 51-45 vote, on a mostly party-line basis.",
+          "guid": "108305731"
+        },
+        {
+          "title": "Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/trump-finally-makes-his-fed-chair-pick-what-kevin-warsh-means-for-investors.html",
+          "snippet": "2026-01-30: Trump finally makes his Fed chair pick \u2014 what Kevin Warsh means for investors: Investors see the former Fed governor as a credible steward of monetary policy despite expectations he may pu",
+          "guid": "108259473"
+        },
+        {
+          "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
+          "date": "2026-06-17",
+          "link": "https://www.cnbc.com/2026/06/17/here-are-the-five-big-takeaways-from-kevin-warshs-first-meeting-as-fed-chairman.html",
+          "snippet": "2026-06-17: Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman: The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
+          "guid": "108323522"
+        },
+        {
+          "title": "Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve",
+          "date": "2026-01-30",
+          "link": "https://www.cnbc.com/2026/01/30/who-is-kevin-warsh-trumps-fed-chair-pick.html",
+          "snippet": "2026-01-30: Everything you need to know about Kevin Warsh, Trump's pick to lead the Federal Reserve: Kevin Warsh, a former Fed governor, has emerged as Donald Trump\u2019s pick to lead the Federal Reserve.",
+          "guid": "108259461"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "stable",
+          "trend_delta": 0.15,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        },
+        {
+          "sector": "Technology Services",
+          "trend_direction": "improving",
+          "trend_delta": 1.5,
+          "mean_sentiment_score": -0.25,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "0c0d6002-645d-4d5b-93ee-2eb5f3b4205b",
+      "label": "Trump-Xi Summit and Taiwan",
+      "spike_ratio": 1.4,
+      "article_count": 21,
+      "sentiment_score": 0.2939342403628118,
+      "rag_answer": "The Trump-Xi summit has become a focal point for discussions surrounding Taiwan, with President Trump emphasizing U.S. arms sales to Taiwan as a key agenda item. Chinese President Xi Jinping warned that mishandling the Taiwan issue could jeopardize U.S.-China relations. The summit has generated optimism in the markets, as investors hope for a resolution to trade tensions and potential agreements that could benefit both economies. Overall, the summit's outcomes are seen as critical for shaping future U.S.-China relations and impacting market dynamics.",
+      "rag_sources": [
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Watch CNBC's full interview with Microsoft President Brad Smith at the AI Impact Summit in India",
+          "date": "2026-02-19",
+          "link": "https://www.cnbc.com/video/2026/02/19/watch-cnbcs-full-interview-with-microsoft-president-brad-smith-at-the-ai-impact-summit-in-india.html",
+          "snippet": "2026-02-19: Watch CNBC's full interview with Microsoft President Brad Smith at the AI Impact Summit in India: Microsoft President Brad Smith told CNBC\u2019s Arjun Kharpal that U.S. tech companies should \u201c",
+          "guid": "108267132"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        },
+        {
+          "title": "'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off",
+          "date": "2026-01-20",
+          "link": "https://www.cnbc.com/2026/01/20/europe-us-banks-global-markets-trump-tariff-threats-selloff-goldman-sachs.html",
+          "snippet": "2026-01-20: 'Stay calm' and 'this is the new normal': What banking CEOs are saying about the global market sell-off: Investors are reeling from President Trump's new tariffs threat, with markets in th",
+          "guid": "108254121"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "improving",
+          "trend_delta": 1.5,
+          "mean_sentiment_score": -0.25,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "9bd540b0-4ab2-4d02-8dfb-0e77f6d38971",
+      "label": "Credit Card Rewards and Offers",
+      "spike_ratio": 1.164,
+      "article_count": 17,
+      "sentiment_score": 0.3602941176470588,
+      "rag_answer": "Credit card rewards and offers are experiencing significant changes, with a notable increase in demand for premium credit cards that provide higher fees and new perks, as seen in 2025. Despite the challenges posed by rising credit card debt, which reached $1.21 trillion, consumers are seeking cards that help offset everyday costs, as highlighted by a CNBC survey indicating that 56% of Americans find life less affordable. Additionally, legal settlements involving Visa and Mastercard may lead to alterations in the rewards experience for consumers. Overall, the market is adapting to consumer needs for more valuable rewards amidst economic pressures.",
+      "rag_sources": [
+        {
+          "title": "Capital One drops 6%, other banks hit after Trump calls for credit card rate cap",
+          "date": "2026-01-12",
+          "link": "https://www.cnbc.com/2026/01/12/trump-credit-card-limit-banks-jpmorgan-citi.html",
+          "snippet": "2026-01-12: Capital One drops 6%, other banks hit after Trump calls for credit card rate cap: Posting on Truth Social, Trump said he would \\no longer let the American Public be 'ripped off' by Credit ",
+          "guid": "108250994"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Credit card debt reaches $1.21 trillion \u2014 in line with last year's all-time high, NY Fed finds",
+          "date": "2025-08-05",
+          "link": "https://www.cnbc.com/2025/08/05/ny-fed-credit-card-debt-second-quarter-2025.html",
+          "snippet": "2025-08-05: Credit card debt reaches $1.21 trillion \u2014 in line with last year's all-time high, NY Fed finds: Credit card balances rose by $27 billion in the second quarter to $1.21 trillion, according ",
+          "guid": "108181754"
+        },
+        {
+          "title": "The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector",
+          "date": "2026-03-27",
+          "link": "https://www.cnbc.com/2026/03/27/russia-helium-supply-crunch-iran-war.html",
+          "snippet": "2026-03-27: The Tech Download: How Russia could profit from Iran war helium supply chain disruption in the chip sector: Helium has emerged as a key focus for the tech sector as industry watchers cast ",
+          "guid": "108283943"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Finance",
+          "trend_direction": "stable",
+          "trend_delta": 0.15,
+          "mean_sentiment_score": 0.333,
+          "data_age_days": null
+        }
+      ]
+    },
+    {
+      "topic_id": "df5f7872-c7c6-48fa-8322-44956ed3075e",
+      "label": "Gold and Bitcoin Market Trends",
+      "spike_ratio": 1.133,
+      "article_count": 17,
+      "sentiment_score": 0.1670168067226891,
+      "rag_answer": "Gold has experienced significant volatility, recently entering bear market territory after a sharp selloff, yet some market veterans maintain optimistic long-term forecasts, suggesting potential buying opportunities. Despite this downturn, gold prices had previously reached record highs, driven by factors such as geopolitical tensions and concerns over central bank independence. In contrast, Bitcoin has also faced fluctuations, dipping below $79,000 amid market reactions to commodities and showing signs of a historical cycle around halving. The interplay between gold and Bitcoin suggests a shifting investor sentiment, with some moving towards cryptocurrencies as gold's appeal fluctuates.",
+      "rag_sources": [
+        {
+          "title": "Gold at $10,000? Market watchers hold firm on forecasts despite bullion bear market slide",
+          "date": "2026-03-24",
+          "link": "https://www.cnbc.com/2026/03/24/gold-price-forecast-10000-expectations-in-spite-of-bear-market.html",
+          "snippet": "2026-03-24: Gold at $10,000? Market watchers hold firm on forecasts despite bullion bear market slide: Gold's sharp selloff may have pushed the metal firmly into bear market territory, but some market",
+          "guid": "108281953"
+        },
+        {
+          "title": "Gold and silver keep hitting record highs. But is the precious metals market 'broken'?",
+          "date": "2026-01-29",
+          "link": "https://www.cnbc.com/2026/01/29/gold-and-silver-keep-hitting-record-high-but-the-market-may-be-broken.html",
+          "snippet": "2026-01-29: Gold and silver keep hitting record highs. But is the precious metals market 'broken'?: Gold and silver prices keep notching fresh records. The question now facing investors is whether the",
+          "guid": "108258049"
+        },
+        {
+          "title": "What the Iran war market turmoil means for those nearing retirement",
+          "date": "2026-03-05",
+          "link": "https://www.cnbc.com/2026/03/05/iran-war-market-volatility-retirement.html",
+          "snippet": "2026-03-05: What the Iran war market turmoil means for those nearing retirement: Market shakiness may not concern long-term investors, but it could be a useful wake-up call for those on the precipice ",
+          "guid": "108272020"
+        },
+        {
+          "title": "Bitcoin dips below $79,000 as market digests silver sell-off, Trump's Fed chair pick",
+          "date": "2026-02-01",
+          "link": "https://www.cnbc.com/2026/01/31/bitcoin-dips-below-78000-after-silver-selloff.html",
+          "snippet": "2026-02-01: Bitcoin dips below $79,000 as market digests silver sell-off, Trump's Fed chair pick: Bitcoin and Ethereum plunged following wide swings in the commodities market.",
+          "guid": "108259915"
+        }
+      ],
+      "sectors": []
+    },
+    {
+      "topic_id": "2fbfc251-eaea-4872-8901-6018815599e6",
+      "label": "AI Demand and Chip Earnings",
+      "spike_ratio": 1.064,
+      "article_count": 20,
+      "sentiment_score": 0.2616071428571428,
+      "rag_answer": "AI demand is driving significant growth in the chip sector, with companies like Nvidia and ASML experiencing record orders and robust earnings due to the AI infrastructure boom. This surge in demand has led to shortages of certain chip components, impacting consumer electronics prices. Analysts predict that chip stocks could see historic gains, with some estimates suggesting potential increases of over 110%. However, there are ongoing concerns about whether the current AI-driven growth is sustainable or if it may lead to a market bubble.",
+      "rag_sources": [
+        {
+          "title": "These funds protect against market drops. Demand is booming",
+          "date": "2026-02-11",
+          "link": "https://www.cnbc.com/2026/02/11/these-funds-protect-against-market-drops-demand-is-booming.html",
+          "snippet": "2026-02-11: These funds protect against market drops. Demand is booming: Buffer ETFs could see assets quadruple over a five-year period, according to Cerulli Associates. What to know before investing.",
+          "guid": "108264590"
+        },
+        {
+          "title": "Micron stops selling memory to consumers as demand spikes from AI chips",
+          "date": "2025-12-03",
+          "link": "https://www.cnbc.com/2025/12/03/micron-stops-selling-memory-to-consumers-demand-spikes-from-ai-chips.html",
+          "snippet": "2025-12-03: Micron stops selling memory to consumers as demand spikes from AI chips: Demand driven by the AI infrastructure boom is creating shortages for certain products like memory.",
+          "guid": "108236104"
+        },
+        {
+          "title": "Oil and Nvidia are key for Wall Street next week amid Iran war volatility",
+          "date": "2026-03-13",
+          "link": "https://www.cnbc.com/2026/03/13/stock-market-next-week-outlook-for-march-16-20-2026.html",
+          "snippet": "2026-03-13: Oil and Nvidia are key for Wall Street next week amid Iran war volatility: Investors will be awaiting developments with Nvidia and the Middle East as the war against Iran by the U.S. and I",
+          "guid": "108277942"
+        },
+        {
+          "title": "Chip stocks including Nvidia are holding up despite market volatility, according to the charts",
+          "date": "2026-03-10",
+          "link": "https://www.cnbc.com/2026/03/10/chip-stocks-including-nvidia-are-holding-up-despite-market-volatility-according-to-the-charts.html",
+          "snippet": "2026-03-10: Chip stocks including Nvidia are holding up despite market volatility, according to the charts: Todd Gordon takes a look at the technicals in Nvidia and other chipmakers.",
+          "guid": "108276190"
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Technology Services",
+          "trend_direction": "improving",
+          "trend_delta": 1.5,
+          "mean_sentiment_score": -0.25,
+          "data_age_days": null
+        }
+      ]
+    }
+  ]
+}
