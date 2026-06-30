@@ -2065,3 +2065,11 @@ date	sector	entities	sentiment	news_category	extraction_status
 2026-06-29	Transportation	SpaceX	neutral	markets	ok
 2026-06-29	Producer Manufacturing	Martin Marietta|Lhoist North America	positive	M&A	ok
 2026-06-29	Electronic Technology	Samsung|SK Hynix	neutral	markets	ok
+2026-06-30	Consumer Non-Durables	Nike	neutral	earnings	ok
+2026-06-30	Technology Services	CrowdStrike	positive	markets	ok
+2026-06-30	Electronic Technology	Micron|Intel|AMD	positive	markets	ok
+2026-06-30	Health Technology	Anthropic	positive	products	ok
+2026-06-30	Consumer Non-Durables	Cal-Maine Foods|Versova|Hickman's Egg Ranch	neutral	regulation	ok
+2026-06-30	Technology Services	AWS	positive	products	ok
+2026-06-30	Transportation	Blue Origin	positive	products	ok
+2026-06-30	Transportation	AeroVironment	positive	markets	ok

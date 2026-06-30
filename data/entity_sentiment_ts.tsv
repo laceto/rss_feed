@@ -1,13 +1,4 @@
 date	entity	sector	sentiment	sentiment_score	news_category
-2026-03-31	Apple	Electronic Technology	neutral	0	markets
-2026-03-31	McCormick	Consumer Non-Durables	neutral	0	M&A
-2026-03-31	Mercedes	Consumer Durables	positive	1	products
-2026-03-31	Nike	Consumer Durables	neutral	0	earnings
-2026-03-31	Novo Nordisk	Health Services	positive	1	products
-2026-03-31	Nvidia	Electronic Technology	positive	1	markets
-2026-03-31	Oracle	Technology Services	neutral	0	markets
-2026-03-31	Snap	Technology Services	positive	1	markets
-2026-03-31	Unilever	Consumer Non-Durables	neutral	0	M&A
 2026-04-01	Apple	Electronic Technology	neutral	0	markets
 2026-04-01	Baidu	Electronic Technology	neutral	0	markets
 2026-04-01	Department of Homeland Security	Transportation	neutral	0	regulation
@@ -982,3 +973,15 @@ date	entity	sector	sentiment	sentiment_score	news_category
 2026-06-29	Samsung	Electronic Technology	neutral	0	markets
 2026-06-29	Sky	Distribution Services	neutral	0	markets
 2026-06-29	SpaceX	Transportation	neutral	0	markets
+2026-06-30	AMD	Electronic Technology	positive	1	markets
+2026-06-30	AWS	Technology Services	positive	1	products
+2026-06-30	AeroVironment	Transportation	positive	1	markets
+2026-06-30	Anthropic	Health Technology	positive	1	products
+2026-06-30	Blue Origin	Transportation	positive	1	products
+2026-06-30	Cal-Maine Foods	Consumer Non-Durables	neutral	0	regulation
+2026-06-30	CrowdStrike	Technology Services	positive	1	markets
+2026-06-30	Hickman's Egg Ranch	Consumer Non-Durables	neutral	0	regulation
+2026-06-30	Intel	Electronic Technology	positive	1	markets
+2026-06-30	Micron	Electronic Technology	positive	1	markets
+2026-06-30	Nike	Consumer Non-Durables	neutral	0	earnings
+2026-06-30	Versova	Consumer Non-Durables	neutral	0	regulation

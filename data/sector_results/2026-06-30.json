@@ -1,0 +1,82 @@
+{
+  "date": "2026-06-30",
+  "batch_id": "batch_6a442d41edf881908bfd6ba843829737",
+  "sectors": [
+    {
+      "entities": [
+        "Nike"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "neutral",
+      "news_category": "earnings",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "CrowdStrike"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Micron",
+        "Intel",
+        "AMD"
+      ],
+      "sector": "Electronic Technology",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Anthropic"
+      ],
+      "sector": "Health Technology",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Cal-Maine Foods",
+        "Versova",
+        "Hickman's Egg Ranch"
+      ],
+      "sector": "Consumer Non-Durables",
+      "sentiment": "neutral",
+      "news_category": "regulation",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "AWS"
+      ],
+      "sector": "Technology Services",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "Blue Origin"
+      ],
+      "sector": "Transportation",
+      "sentiment": "positive",
+      "news_category": "products",
+      "extraction_status": "ok"
+    },
+    {
+      "entities": [
+        "AeroVironment"
+      ],
+      "sector": "Transportation",
+      "sentiment": "positive",
+      "news_category": "markets",
+      "extraction_status": "ok"
+    }
+  ]
+}
