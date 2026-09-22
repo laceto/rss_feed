@@ -1,0 +1,681 @@
+track_id,artist,title,field,baseline,candidate,changed
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,identified,True,False,True
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,confidence,high,low,True
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,artists,Jorge Savoretti,Jorge Savoretti,False
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,title,You Taste Better Than Danger,You Taste Better Than Danger,False
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,mix_name,,,False
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,remixers,,,False
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,featured_artists,,,False
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,record_label,Savor Music,,True
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,catalog_number,,,False
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,release_title,You Taste Better Than Danger EP,,True
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,release_type,EP,unknown,True
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,release_year,2012,,True
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,formats,vinyl; digital,,True
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,primary_genre,minimal house,,True
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,subgenres,microhouse,,True
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,bpm_estimate,,,False
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,musical_key,,,False
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,energy,medium,,True
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,mood_tags,groovy; playful; hypnotic,,True
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,dj_set_role,any,,True
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,groove,"Slinky, subtly swinging groove with a playful bounce.",,True
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,percussion,crisp hi-hats; snappy claps; light shakers,,True
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,bassline,"Warm, rounded bassline with a rolling, rubbery feel.",,True
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,vocals,,,False
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,melodic_elements,quirky synth stabs; filtered textures,,True
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,texture,clean; detailed; subtle,,True
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,emotional_character,Playful and hypnotic with a touch of mischief.,,True
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,dancefloor_effect,Keeps the floor moving with understated funk and infectious groove.,,True
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,review_blurb,"Jorge Savoretti's 'You Taste Better Than Danger' is a microhouse gem that balances playful energy with hypnotic subtlety. Crisp percussion and a rubbery bassline underpin quirky synth stabs, creating a slinky, infectious groove. It's a versatile tool for DJs, perfect for weaving understated funk into any set.",,True
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,description_basis,known track,unknown,True
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,similar_artists,Franco Cinelli; Barem; Seuil; Martinez; Federico Molinari,,True
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,description,"A standout cut from Savoretti's 2012 EP on Savor Music, this track is a playful, groovy microhouse roller with crisp percussion and a warm, rolling bassline. Its subtle textures and quirky synths make it a favorite for DJs seeking understated dancefloor energy.",Track not known: no reliable information available.,True
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,artist_details,"[{""name"": ""Jorge Savoretti"", ""real_name"": ""Jorge Savoretti"", ""aliases"": [], ""country"": ""Argentina"", ""city"": ""Rosario"", ""active_since"": 2005, ""associated_labels"": [""Savor Music"", ""Esperanza"", ""Airdrop""], ""associated_acts"": [""Franco Cinelli""], ""short_bio"": ""Jorge Savoretti is an Argentinian DJ and producer known for his deep, groovy minimal house and microhouse releases, co-founding the Savor Music label.""}]","[{""name"": ""Jorge Savoretti"", ""real_name"": null, ""aliases"": [], ""country"": ""Argentina"", ""city"": ""Rosario"", ""active_since"": null, ""associated_labels"": [""Savor Music"", ""Esperanza""], ""associated_acts"": [], ""short_bio"": ""Argentine DJ/producer from Rosario, co-runs Savor Music and has released on Esperanza and other minimal/house imprints.""}]",True
+0aa5a9c3df44,(unknown),JORGE SAVORETTI - You Taste Better Than Danger,parsing_notes,"Artist was '(unknown)'; parsed artist and title from title field, removed all-caps and formatted to canonical spelling.","Artist field was '(unknown)'. Parsed 'JORGE SAVORETTI - You Taste Better Than Danger' from the title; split on hyphen into artist and track title, and normalised capitalization.",True
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),identified,True,False,True
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),confidence,high,low,True
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),artists,Guido Schneider,Guido Schneider,False
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),title,Moved,Moved,False
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),mix_name,Refreshed,Refreshed,False
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),remixers,,,False
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),featured_artists,,,False
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),record_label,Poker Flat Recordings,Poker Flat Recordings,False
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),catalog_number,PFR 47,Poker Flat 47,True
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),release_title,Moved / As Dry As I Can,,True
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),release_type,EP,unknown,True
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),release_year,2006,,True
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),formats,vinyl; digital,,True
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),primary_genre,tech house,,True
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),subgenres,minimal tech house,,True
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),bpm_estimate,,,False
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),musical_key,,,False
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),energy,medium,,True
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),mood_tags,groovy; hypnotic; deep,,True
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),dj_set_role,any,,True
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),groove,"Slinky, hypnotic and subtly driving with a rolling, body-moving feel.",,True
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),percussion,crisp hi-hats; snappy claps; tight kick,,True
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),bassline,"Deep, rubbery and subtly funky bassline that anchors the groove.",,True
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),vocals,,,False
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),melodic_elements,filtered synth stabs; atmospheric pads,,True
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),texture,clean; sleek; modern,,True
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),emotional_character,"Cool, understated and immersive.",,True
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),dancefloor_effect,"Locks the floor into a deep, focused groove.",,True
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),review_blurb,"Guido Schneider's 'Moved (Refreshed)' is a masterclass in sleek, hypnotic tech house. The track rides a deep, rubbery bassline and crisp percussion, weaving in filtered synth stabs and subtle atmospherics for a modern, immersive vibe. It's a floor-friendly tool that draws dancers into its understated, rolling groove.",,True
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),description_basis,known track,unknown,True
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),similar_artists,Steve Bug; Martin Landsky; Ricardo Villalobos; Matthias Tanzmann; Tiefschwarz,,True
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),description,"A standout from Poker Flat's mid-2000s catalogue, 'Moved (Refreshed)' showcases Guido Schneider's signature blend of deep, hypnotic grooves and crisp, modern production. The track is a DJ favorite for its subtle build and immersive, dancefloor-focused energy.",Track not known: no reliable information available.,True
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),artist_details,"[{""name"": ""Guido Schneider"", ""real_name"": ""Guido Schneider"", ""aliases"": [], ""country"": ""Germany"", ""city"": ""Berlin"", ""active_since"": 1995, ""associated_labels"": [""Poker Flat Recordings"", ""Cadenza"", ""Highgrade""], ""associated_acts"": [""Andre Galluzzi"", ""Jens Bond""], ""short_bio"": ""Guido Schneider is a Berlin-based producer and DJ known for his sleek, hypnotic tech house sound. He has released on labels like Poker Flat and Cadenza, and is respected for his detailed, groove-driven productions.""}]","[{""name"": ""Guido Schneider"", ""real_name"": null, ""aliases"": [], ""country"": ""Germany"", ""city"": null, ""active_since"": null, ""associated_labels"": [""Poker Flat Recordings""], ""associated_acts"": [], ""short_bio"": ""German DJ/producer known for minimal/tech house releases on Poker Flat Recordings.""}]",True
+33bc67720e1e,(unknown),Guido Schneider - poker flat 47 - B1 - Moved (Refreshed),parsing_notes,"Artist was '(unknown)'; parsed 'Guido Schneider' from the start of the title field. Removed catalog number ('poker flat 47'), side ('B1'), and cleaned up title and mix name. Label and catalog number taken from tag and confirmed by release history.","Artist was in the title field. Extracted 'Guido Schneider' as artist; cleaned title to 'Moved' and mix name to 'Refreshed'; removed vinyl side marker 'B1'; interpreted 'poker flat 47' as label/catalog and normalised label to 'Poker Flat Recordings', keeping catalog text 'Poker Flat 47'.",True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,identified,True,False,True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,confidence,high,low,True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,artists,Guido Schneider,Guido Schneider,False
+3c525f3649e7,(unknown),Guido schneider - Re-moved,title,Re-Moved,Re-Moved,False
+3c525f3649e7,(unknown),Guido schneider - Re-moved,mix_name,,,False
+3c525f3649e7,(unknown),Guido schneider - Re-moved,remixers,,,False
+3c525f3649e7,(unknown),Guido schneider - Re-moved,featured_artists,,,False
+3c525f3649e7,(unknown),Guido schneider - Re-moved,record_label,Poker Flat Recordings,,True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,catalog_number,PFR 54,,True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,release_title,Re-Moved / Unterwegs,,True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,release_type,single,unknown,True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,release_year,2006,,True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,formats,vinyl; digital,,True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,primary_genre,minimal techno,,True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,subgenres,tech house,,True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,bpm_estimate,126,,True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,musical_key,,,False
+3c525f3649e7,(unknown),Guido schneider - Re-moved,energy,medium,,True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,mood_tags,hypnotic; groovy; deep,,True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,dj_set_role,any,,True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,groove,"Rolling, hypnotic and subtly funky with a tight, swinging rhythm.",,True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,percussion,crisp hi-hats; snappy claps; subtle percussive accents,,True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,bassline,"Deep, pulsing and elastic, driving the groove forward.",,True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,vocals,,,False
+3c525f3649e7,(unknown),Guido schneider - Re-moved,melodic_elements,filtered synth stabs; atmospheric pads,,True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,texture,clean; detailed; warm,,True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,emotional_character,"Cool, focused and subtly trippy.",,True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,dancefloor_effect,"Locks the crowd into a deep, head-nodding groove.",,True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,review_blurb,"Guido Schneider's 'Re-Moved' is a masterclass in hypnotic minimalism, blending rolling percussion with a deep, elastic bassline. Filtered synth stabs and atmospheric pads create a subtly trippy vibe, while the crisp, detailed production keeps the energy simmering. A timeless groove tool for any dancefloor moment.",,True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,description_basis,known track,unknown,True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,similar_artists,Steve Bug; Ricardo Villalobos; Luciano; Matthias Tanzmann; Martin Landsky,,True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,description,"A standout minimal techno cut from Guido Schneider, released on Poker Flat in 2006. 'Re-Moved' is known for its hypnotic groove, deep bass and crisp, detailed production.",Track not known: no reliable information available.,True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,artist_details,"[{""name"": ""Guido Schneider"", ""real_name"": ""Guido Schneider"", ""aliases"": [], ""country"": ""Germany"", ""city"": ""Berlin"", ""active_since"": 1995, ""associated_labels"": [""Poker Flat Recordings"", ""Cadenza"", ""Highgrade""], ""associated_acts"": [""Andre Galluzzi"", ""Jens Bond""], ""short_bio"": ""Guido Schneider is a German producer and DJ known for his deep, hypnotic minimal and tech house releases, especially on Poker Flat and Cadenza.""}]","[{""name"": ""Guido Schneider"", ""real_name"": null, ""aliases"": [], ""country"": ""Germany"", ""city"": null, ""active_since"": null, ""associated_labels"": [""Poker Flat Recordings""], ""associated_acts"": [], ""short_bio"": ""German DJ and producer known for minimal/tech house releases on Poker Flat Recordings.""}]",True
+3c525f3649e7,(unknown),Guido schneider - Re-moved,parsing_notes,"Artist was '(unknown)'; parsed 'Guido schneider' as artist from title field, corrected to canonical spelling and capitalisation. Title cleaned to 'Re-Moved'.",Artist field was '(unknown)'. Parsed 'Guido schneider - Re-moved' from title into artist and track; fixed capitalization to 'Guido Schneider' and 'Re-Moved'. No mix/version info present.,True
+3da31439a42c,(unknown),LOCODICE - Orchidee,identified,True,False,True
+3da31439a42c,(unknown),LOCODICE - Orchidee,confidence,high,low,True
+3da31439a42c,(unknown),LOCODICE - Orchidee,artists,Loco Dice,Loco Dice,False
+3da31439a42c,(unknown),LOCODICE - Orchidee,title,Orchidee,Orchidee,False
+3da31439a42c,(unknown),LOCODICE - Orchidee,mix_name,,,False
+3da31439a42c,(unknown),LOCODICE - Orchidee,remixers,,,False
+3da31439a42c,(unknown),LOCODICE - Orchidee,featured_artists,,,False
+3da31439a42c,(unknown),LOCODICE - Orchidee,record_label,Cadenza,,True
+3da31439a42c,(unknown),LOCODICE - Orchidee,catalog_number,CADENZA 13,,True
+3da31439a42c,(unknown),LOCODICE - Orchidee,release_title,Orchidee / Paradiso,,True
+3da31439a42c,(unknown),LOCODICE - Orchidee,release_type,single,unknown,True
+3da31439a42c,(unknown),LOCODICE - Orchidee,release_year,2006,,True
+3da31439a42c,(unknown),LOCODICE - Orchidee,formats,vinyl; digital,,True
+3da31439a42c,(unknown),LOCODICE - Orchidee,primary_genre,minimal techno,,True
+3da31439a42c,(unknown),LOCODICE - Orchidee,subgenres,minimal house,,True
+3da31439a42c,(unknown),LOCODICE - Orchidee,bpm_estimate,124,,True
+3da31439a42c,(unknown),LOCODICE - Orchidee,musical_key,,,False
+3da31439a42c,(unknown),LOCODICE - Orchidee,energy,medium,,True
+3da31439a42c,(unknown),LOCODICE - Orchidee,mood_tags,hypnotic; groovy; trippy,,True
+3da31439a42c,(unknown),LOCODICE - Orchidee,dj_set_role,any,,True
+3da31439a42c,(unknown),LOCODICE - Orchidee,groove,"Rolling, hypnotic and subtly funky with a deep, head-nodding swing.",,True
+3da31439a42c,(unknown),LOCODICE - Orchidee,percussion,crisp hi-hats; snappy claps; subtle tribal percussion,,True
+3da31439a42c,(unknown),LOCODICE - Orchidee,bassline,"Warm, pulsing sub-bass with a rubbery, enveloping feel.",,True
+3da31439a42c,(unknown),LOCODICE - Orchidee,vocals,,,False
+3da31439a42c,(unknown),LOCODICE - Orchidee,melodic_elements,filtered synth stabs; atmospheric pads,,True
+3da31439a42c,(unknown),LOCODICE - Orchidee,texture,deep; spacey; clean,,True
+3da31439a42c,(unknown),LOCODICE - Orchidee,emotional_character,"Hypnotic and immersive, with a subtly psychedelic edge.",,True
+3da31439a42c,(unknown),LOCODICE - Orchidee,dancefloor_effect,"Locks the crowd into a deep groove, perfect for building or maintaining flow.",,True
+3da31439a42c,(unknown),LOCODICE - Orchidee,review_blurb,"Loco Dice's 'Orchidee' is a hypnotic minimal house journey, built on rolling percussion and a warm, enveloping bassline. Filtered synth stabs and atmospheric pads create a trippy, immersive vibe, making it a staple for deep dancefloor moments. A masterclass in groove and subtle tension, it's a timeless tool for DJs who love to work the floor.",,True
+3da31439a42c,(unknown),LOCODICE - Orchidee,description_basis,known track,unknown,True
+3da31439a42c,(unknown),LOCODICE - Orchidee,similar_artists,Luciano; Ricardo Villalobos; Thomas Melchior; Tobi Neumann; Reboot,,True
+3da31439a42c,(unknown),LOCODICE - Orchidee,description,"A signature Loco Dice production from his early Cadenza era, 'Orchidee' is a deep, rolling minimal house cut with hypnotic percussion and a warm, pulsing bassline. Its trippy, immersive atmosphere has made it a favorite in underground sets.",Track not known: no reliable information available.,True
+3da31439a42c,(unknown),LOCODICE - Orchidee,artist_details,"[{""name"": ""Loco Dice"", ""real_name"": ""Yassine Ben Achour"", ""aliases"": [""Dice""], ""country"": ""Germany"", ""city"": ""Düsseldorf"", ""active_since"": 2002, ""associated_labels"": [""Desolat"", ""Cadenza""], ""associated_acts"": [""Martin Buttrich""], ""short_bio"": ""Loco Dice is a German DJ and producer known for his influential role in minimal and tech house, co-founding Desolat and releasing on labels like Cadenza.""}]","[{""name"": ""Loco Dice"", ""real_name"": ""Yassine Ben Achour"", ""aliases"": [], ""country"": ""Germany"", ""city"": ""Düsseldorf"", ""active_since"": null, ""associated_labels"": [""Desolat"", ""Cadenza"", ""Four:Twenty Recordings"", ""Ovum Recordings""], ""associated_acts"": [""Martin Buttrich""], ""short_bio"": ""Tunisian-German DJ/producer based in Düsseldorf and co-founder of Desolat with Martin Buttrich. A mainstay of global house/tech-house since the mid-2000s.""}]",True
+3da31439a42c,(unknown),LOCODICE - Orchidee,parsing_notes,"Artist was '(unknown)'; actual artist and title were both in the title field, separated by ' - '. Cleaned to 'Loco Dice' and 'Orchidee'.",Artist was missing; parsed 'LOCODICE - Orchidee' from title field. Normalized artist to 'Loco Dice' and capitalisation; extracted track title 'Orchidee'.,True
+47e120ee7115,(unknown),click box - sugar pain,identified,True,False,True
+47e120ee7115,(unknown),click box - sugar pain,confidence,high,low,True
+47e120ee7115,(unknown),click box - sugar pain,artists,Click Box,Click Box,False
+47e120ee7115,(unknown),click box - sugar pain,title,Sugar Pain,Sugar Pain,False
+47e120ee7115,(unknown),click box - sugar pain,mix_name,,,False
+47e120ee7115,(unknown),click box - sugar pain,remixers,,,False
+47e120ee7115,(unknown),click box - sugar pain,featured_artists,,,False
+47e120ee7115,(unknown),click box - sugar pain,record_label,Minus,,True
+47e120ee7115,(unknown),click box - sugar pain,catalog_number,MINUS 67,,True
+47e120ee7115,(unknown),click box - sugar pain,release_title,Sugar Pain,,True
+47e120ee7115,(unknown),click box - sugar pain,release_type,EP,unknown,True
+47e120ee7115,(unknown),click box - sugar pain,release_year,2008,,True
+47e120ee7115,(unknown),click box - sugar pain,formats,vinyl; digital,,True
+47e120ee7115,(unknown),click box - sugar pain,primary_genre,minimal techno,,True
+47e120ee7115,(unknown),click box - sugar pain,subgenres,tech house,,True
+47e120ee7115,(unknown),click box - sugar pain,bpm_estimate,126,,True
+47e120ee7115,(unknown),click box - sugar pain,musical_key,,,False
+47e120ee7115,(unknown),click box - sugar pain,energy,medium,,True
+47e120ee7115,(unknown),click box - sugar pain,mood_tags,hypnotic; groovy; sleek,,True
+47e120ee7115,(unknown),click box - sugar pain,dj_set_role,any,,True
+47e120ee7115,(unknown),click box - sugar pain,groove,"Slinky, hypnotic and subtly funky with a rolling, body-moving pulse.",,True
+47e120ee7115,(unknown),click box - sugar pain,percussion,crisp hi-hats; snappy claps; minimalist kick,,True
+47e120ee7115,(unknown),click box - sugar pain,bassline,"Deep, rubbery and subtly melodic, driving the groove forward.",,True
+47e120ee7115,(unknown),click box - sugar pain,vocals,,,False
+47e120ee7115,(unknown),click box - sugar pain,melodic_elements,glitchy synth stabs; atmospheric textures,,True
+47e120ee7115,(unknown),click box - sugar pain,texture,sleek; clean; precise,,True
+47e120ee7115,(unknown),click box - sugar pain,emotional_character,"Cool, understated and subtly seductive.",,True
+47e120ee7115,(unknown),click box - sugar pain,dancefloor_effect,"Draws dancers into a hypnotic, late-night groove.",,True
+47e120ee7115,(unknown),click box - sugar pain,review_blurb,"Click Box's 'Sugar Pain' is a sleek slice of minimal techno, built on a hypnotic groove and crisp, precise percussion. Glitchy synth stabs and a rubbery bassline create a subtly seductive atmosphere, perfect for drawing the crowd into a late-night trance. It's a standout Minus cut that balances dancefloor drive with refined, modern production.",,True
+47e120ee7115,(unknown),click box - sugar pain,description_basis,known track,unknown,True
+47e120ee7115,(unknown),click box - sugar pain,similar_artists,Marc Houle; Gaiser; Heartthrob; Troy Pierce; Magda,,True
+47e120ee7115,(unknown),click box - sugar pain,description,"A signature Minus release from Click Box, 'Sugar Pain' is a hypnotic minimal techno track with a sleek, modern edge. Its rolling groove and glitchy details make it a favorite for late-night sets.",Track not known: no reliable information available.,True
+47e120ee7115,(unknown),click box - sugar pain,artist_details,"[{""name"": ""Click Box"", ""real_name"": null, ""aliases"": [], ""country"": ""Brazil"", ""city"": ""São Paulo"", ""active_since"": 2006, ""associated_labels"": [""Minus"", ""Items & Things""], ""associated_acts"": [], ""short_bio"": ""Click Box is a Brazilian minimal techno duo known for their releases on Minus and Items & Things, blending hypnotic grooves with glitchy, modern production.""}]","[{""name"": ""Click Box"", ""real_name"": null, ""aliases"": [], ""country"": ""Brazil"", ""city"": null, ""active_since"": null, ""associated_labels"": [""Minus"", ""Items & Things""], ""associated_acts"": [], ""short_bio"": ""Brazilian minimal/techno duo known for releases on Minus and Items & Things.""}]",True
+47e120ee7115,(unknown),click box - sugar pain,parsing_notes,Artist was '(unknown)'; parsed 'click box' as artist and 'sugar pain' as title from the title field. Lowercase and spacing corrected to canonical spelling.,Original artist tag was '(unknown)'. Parsed 'click box - sugar pain' from the title field as 'Click Box' = artist and 'Sugar Pain' = title; normalised capitalization.,True
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),identified,True,False,True
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),confidence,high,low,True
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),artists,Heartthrob,Heartthrob,False
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),title,Hot Sugar Candy Apple Taffy,Hot Sugar Candy Apple Taffy,False
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),mix_name,,,False
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),remixers,,,False
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),featured_artists,,,False
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),record_label,Minus,Minus,False
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),catalog_number,,,False
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),release_title,,,False
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),release_type,EP,unknown,True
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),release_year,2007,,True
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),formats,vinyl; digital,,True
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),primary_genre,minimal techno,,True
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),subgenres,minimal house,,True
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),bpm_estimate,,,False
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),musical_key,,,False
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),energy,medium,,True
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),mood_tags,quirky; playful; trippy,,True
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),dj_set_role,any,,True
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),groove,"bouncy, off-kilter minimal groove with a playful swing",,True
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),percussion,crisp hi-hats; snappy claps; quirky percussive hits,,True
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),bassline,"rubbery, syncopated bassline with a playful bounce",,True
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),vocals,,,False
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),melodic_elements,warped synth stabs; glitchy effects,,True
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),texture,glitchy; clean; playful,,True
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),emotional_character,"cheeky, mischievous energy",,True
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),dancefloor_effect,draws dancers in with its oddball charm and infectious bounce,,True
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),review_blurb,"Heartthrob's 'Hot Sugar Candy Apple Taffy' is a playful slice of Minus minimalism, full of rubbery bass, warped synths, and a cheeky, off-kilter groove. The track's quirky percussion and trippy effects create a mischievous energy that stands out on the dancefloor. It's a fun, infectious cut that brings a sense of oddball charm to any set.",,True
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),description_basis,known track,unknown,True
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),similar_artists,Marc Houle; Troy Pierce; Magda; Gaiser; Audion,,True
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),description,"A standout from Heartthrob's Minus output, this track is known for its playful, rubbery minimal groove and warped, glitchy synths. Its quirky, mischievous energy makes it a favorite for DJs looking to inject some fun into their sets.",Track not known: no reliable information available.,True
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),artist_details,"[{""name"": ""Heartthrob"", ""real_name"": ""Jesse Siminski"", ""aliases"": [], ""country"": ""USA"", ""city"": ""New York / Berlin"", ""active_since"": 2005, ""associated_labels"": [""Minus"", ""Hot Creations""], ""associated_acts"": [""Magda"", ""Troy Pierce"", ""Marc Houle""], ""short_bio"": ""Heartthrob is the alias of Jesse Siminski, an American producer and DJ known for his playful, quirky take on minimal techno, especially through his releases on Richie Hawtin's Minus label.""}]","[{""name"": ""Heartthrob"", ""real_name"": ""Jesse Siminski"", ""aliases"": [], ""country"": ""United States"", ""city"": null, ""active_since"": null, ""associated_labels"": [""Minus""], ""associated_acts"": [], ""short_bio"": ""American producer/DJ associated with Richie Hawtin's Minus imprint, known for mid-2000s minimal techno releases including the breakout track 'Baby Kate'.""}]",True
+5293310a1b3b,(unknown),Heartthrob - Hot Sugar Candy Apple Taffy (Minus),parsing_notes,Artist was '(unknown)'; parsed 'Heartthrob' as artist from the title field. Removed label in parentheses from title.,Artist was '(unknown)'; parsed 'Heartthrob' from the title field. Split to artist/title on the hyphen. Removed label parentheses and kept 'Minus' as record_label.,True
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",identified,False,False,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",confidence,low,low,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",artists,Hermanez; Massimo Girardi,Hermanez; Massimo Girardi,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",title,22.22,22.22,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",mix_name,Kaiserdisco Mix,Kaiserdisco Mix,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",remixers,Kaiserdisco,Kaiserdisco,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",featured_artists,,,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",record_label,,,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",catalog_number,,,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",release_title,,,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",release_type,unknown,unknown,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",release_year,,,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",formats,,,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",primary_genre,,,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",subgenres,,,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",bpm_estimate,,,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",musical_key,,,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",energy,,,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",mood_tags,,,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",dj_set_role,,,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",groove,,,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",percussion,,,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",bassline,,,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",vocals,,,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",melodic_elements,,,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",texture,,,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",emotional_character,,,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",dancefloor_effect,,,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",review_blurb,,,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",description_basis,unknown,unknown,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",similar_artists,,,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",description,Track not known: no reliable information available.,Track not known: no reliable information available.,False
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",artist_details,"[{""name"": ""Hermanez"", ""real_name"": null, ""aliases"": [], ""country"": null, ""city"": null, ""active_since"": null, ""associated_labels"": [], ""associated_acts"": [], ""short_bio"": null}, {""name"": ""Massimo Girardi"", ""real_name"": null, ""aliases"": [], ""country"": null, ""city"": null, ""active_since"": null, ""associated_labels"": [], ""associated_acts"": [], ""short_bio"": null}]","[{""name"": ""Hermanez"", ""real_name"": null, ""aliases"": [], ""country"": ""Belgium"", ""city"": null, ""active_since"": null, ""associated_labels"": [""Desolat""], ""associated_acts"": [], ""short_bio"": ""Belgian DJ/producer with releases on Desolat.""}, {""name"": ""Massimo Girardi"", ""real_name"": null, ""aliases"": [], ""country"": null, ""city"": null, ""active_since"": null, ""associated_labels"": [], ""associated_acts"": [], ""short_bio"": null}]",True
+76493aa894d2,(unknown),"Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",parsing_notes,"Artist was '(unknown)'; parsed 'Hermanez, massimo girardi - 22.22 (kaiserdisco mix)' from title field. Split artists on comma, fixed capitalisation. Extracted mix name and remixer from parentheses.","Artist was '(unknown)'; parsed 'Hermanez, massimo girardi - 22.22 (kaiserdisco mix)' from the title field. Split primary artists on comma, fixed capitalization, kept title as '22.22'. Treated '(kaiserdisco mix)' as a remix credit: set remixers ['Kaiserdisco'] and mix_name 'Kaiserdisco Mix'.",True
+7e497c6ba3e1,(unknown),Luciano - Bomberos,identified,True,False,True
+7e497c6ba3e1,(unknown),Luciano - Bomberos,confidence,high,low,True
+7e497c6ba3e1,(unknown),Luciano - Bomberos,artists,Luciano,Luciano,False
+7e497c6ba3e1,(unknown),Luciano - Bomberos,title,Bomberos,Bomberos,False
+7e497c6ba3e1,(unknown),Luciano - Bomberos,mix_name,,,False
+7e497c6ba3e1,(unknown),Luciano - Bomberos,remixers,,,False
+7e497c6ba3e1,(unknown),Luciano - Bomberos,featured_artists,,,False
+7e497c6ba3e1,(unknown),Luciano - Bomberos,record_label,Cadenza,,True
+7e497c6ba3e1,(unknown),Luciano - Bomberos,catalog_number,CADENZA 01,,True
+7e497c6ba3e1,(unknown),Luciano - Bomberos,release_title,Orange Mistake EP,,True
+7e497c6ba3e1,(unknown),Luciano - Bomberos,release_type,EP,unknown,True
+7e497c6ba3e1,(unknown),Luciano - Bomberos,release_year,2003,,True
+7e497c6ba3e1,(unknown),Luciano - Bomberos,formats,vinyl; digital,,True
+7e497c6ba3e1,(unknown),Luciano - Bomberos,primary_genre,minimal techno,,True
+7e497c6ba3e1,(unknown),Luciano - Bomberos,subgenres,minimal house,,True
+7e497c6ba3e1,(unknown),Luciano - Bomberos,bpm_estimate,,,False
+7e497c6ba3e1,(unknown),Luciano - Bomberos,musical_key,,,False
+7e497c6ba3e1,(unknown),Luciano - Bomberos,energy,medium,,True
+7e497c6ba3e1,(unknown),Luciano - Bomberos,mood_tags,hypnotic; groovy; playful,,True
+7e497c6ba3e1,(unknown),Luciano - Bomberos,dj_set_role,any,,True
+7e497c6ba3e1,(unknown),Luciano - Bomberos,groove,"Slinky, hypnotic and subtly funky with a rolling, percussive drive.",,True
+7e497c6ba3e1,(unknown),Luciano - Bomberos,percussion,layered Latin percussion; crisp hi-hats; snappy claps,,True
+7e497c6ba3e1,(unknown),Luciano - Bomberos,bassline,"Warm, rubbery sub-bass with a playful bounce.",,True
+7e497c6ba3e1,(unknown),Luciano - Bomberos,vocals,,,False
+7e497c6ba3e1,(unknown),Luciano - Bomberos,melodic_elements,quirky synth stabs; sampled effects,,True
+7e497c6ba3e1,(unknown),Luciano - Bomberos,texture,clean; detailed; organic,,True
+7e497c6ba3e1,(unknown),Luciano - Bomberos,emotional_character,"Playful and infectious with a light, uplifting touch.",,True
+7e497c6ba3e1,(unknown),Luciano - Bomberos,dancefloor_effect,Locks the crowd into a hypnotic groove and keeps bodies moving.,,True
+7e497c6ba3e1,(unknown),Luciano - Bomberos,review_blurb,"Luciano's 'Bomberos' is a minimal house classic, blending intricate Latin percussion with a slinky, hypnotic groove. Playful synth stabs and a rubbery bassline create a warm, infectious vibe that works at any point in the night. It's a masterclass in subtle, organic minimalism that never fails to move the floor.",,True
+7e497c6ba3e1,(unknown),Luciano - Bomberos,description_basis,known track,unknown,True
+7e497c6ba3e1,(unknown),Luciano - Bomberos,similar_artists,Ricardo Villalobos; Thomas Melchior; Argenis Brito; Rhadoo; Zip,,True
+7e497c6ba3e1,(unknown),Luciano - Bomberos,description,"A standout cut from Luciano's early Cadenza output, 'Bomberos' is celebrated for its rolling Latin percussion, playful synth work, and hypnotic minimal groove. It remains a staple for DJs seeking organic, infectious minimal house.",Track not known: no reliable information available.,True
+7e497c6ba3e1,(unknown),Luciano - Bomberos,artist_details,"[{""name"": ""Luciano"", ""real_name"": ""Lucien Nicolet"", ""aliases"": [""Lucien-N-Luciano""], ""country"": ""Switzerland"", ""city"": ""Geneva"", ""active_since"": 2000, ""associated_labels"": [""Cadenza"", ""Perlon""], ""associated_acts"": [""Ricardo Villalobos"", ""Argenis Brito""], ""short_bio"": ""Luciano is a Swiss-Chilean DJ and producer known for pioneering minimal house and techno with a Latin flair, and for founding the influential Cadenza label.""}]","[{""name"": ""Luciano"", ""real_name"": ""Lucien Nicolet"", ""aliases"": [""Lucien-N-Luciano""], ""country"": ""Switzerland/Chile"", ""city"": null, ""active_since"": null, ""associated_labels"": [""Cadenza"", ""Perlon""], ""associated_acts"": [""Quenum"", ""Mirko Loko""], ""short_bio"": ""Swiss-Chilean DJ/producer and founder of Cadenza Records, known as a key figure in minimal house and techno since the 2000s.""}]",True
+7e497c6ba3e1,(unknown),Luciano - Bomberos,parsing_notes,Artist was '(unknown)'; parsed 'Luciano' as artist and 'Bomberos' as title from the title field. No mix name or remixers present.,Artist field was '(unknown)'; parsed 'Luciano - Bomberos' into artist and title.,True
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,identified,False,False,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,confidence,low,low,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,artists,Kenichiro Kubota,Kenichiro Kubota,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,title,4Am,4am,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,mix_name,,,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,remixers,,,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,featured_artists,,,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,record_label,,,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,catalog_number,,,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,release_title,,,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,release_type,unknown,unknown,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,release_year,,,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,formats,,,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,primary_genre,,,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,subgenres,,,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,bpm_estimate,,,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,musical_key,,,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,energy,,,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,mood_tags,,,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,dj_set_role,,,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,groove,,,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,percussion,,,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,bassline,,,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,vocals,,,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,melodic_elements,,,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,texture,,,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,emotional_character,,,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,dancefloor_effect,,,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,review_blurb,,,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,description_basis,unknown,unknown,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,similar_artists,,,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,description,Track not known: no reliable information available.,Track not known: no reliable information available.,False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,artist_details,"[{""name"": ""Kenichiro Kubota"", ""real_name"": null, ""aliases"": [], ""country"": null, ""city"": null, ""active_since"": null, ""associated_labels"": [], ""associated_acts"": [], ""short_bio"": null}]","[{""name"": ""Kenichiro Kubota"", ""real_name"": null, ""aliases"": [], ""country"": null, ""city"": null, ""active_since"": null, ""associated_labels"": [], ""associated_acts"": [], ""short_bio"": null}]",False
+aca552bfbf43,(unknown),KENICHIRO KUBOTA - 4Am,parsing_notes,"Artist was '(unknown)'; parsed artist and title from title field, splitting at the hyphen. Corrected capitalisation.",Artist tag was '(unknown)'; parsed 'KENICHIRO KUBOTA - 4Am' from the title into artist and track title. Normalised capitalisation to 'Kenichiro Kubota' and '4am'; removed the hyphen separator.,True
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,identified,True,False,True
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,confidence,high,low,True
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,artists,Ilario Alicante,Ilario Alicante,False
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,title,I Like To Serve,I Like To Serve,False
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,mix_name,,,False
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,remixers,,,False
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,featured_artists,,,False
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,record_label,AFV,,True
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,catalog_number,AFV001,AFV001B,True
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,release_title,,,False
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,release_type,EP,unknown,True
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,release_year,2008,,True
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,formats,vinyl; digital,,True
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,primary_genre,tech house,,True
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,subgenres,minimal techno,,True
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,bpm_estimate,,,False
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,musical_key,,,False
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,energy,high,,True
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,mood_tags,driving; percussive; hypnotic,,True
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,dj_set_role,peak-time,,True
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,groove,"relentless, rolling, body-moving",,True
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,percussion,crisp hi-hats; punchy kick; snappy claps,,True
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,bassline,"deep, pulsing, sub-heavy",,True
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,vocals,,,False
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,melodic_elements,filtered stabs; minimal synth textures,,True
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,texture,clean; tight; club-ready,,True
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,emotional_character,"energetic, focused intensity",,True
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,dancefloor_effect,commands the floor with its driving groove and hypnotic repetition,,True
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,review_blurb,"Ilario Alicante's 'I Like To Serve' is a peak-time tech house weapon built for maximum impact. Its rolling groove, crisp percussion, and deep, pulsing bassline create a hypnotic energy that keeps the dancefloor locked in. Minimal synth textures and filtered stabs add just enough detail to keep things moving without losing focus.",,True
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,description_basis,known track,unknown,True
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,similar_artists,Marco Carola; Nick Curly; SIS; Reboot; Loco Dice,,True
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,description,"A signature early Ilario Alicante cut, 'I Like To Serve' delivers a driving, percussive tech house sound with minimal influences. Released on AFV in 2008, it's a staple for energetic, peak-time sets.",Track not known: no reliable information available.,True
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,artist_details,"[{""name"": ""Ilario Alicante"", ""real_name"": ""Ilario Alicante"", ""aliases"": [], ""country"": ""Italy"", ""city"": ""Livorno"", ""active_since"": 2007, ""associated_labels"": [""Cécille"", ""AFV"", ""Cocoon""], ""associated_acts"": [""Marco Carola"", ""Reboot""], ""short_bio"": ""Ilario Alicante is an Italian DJ and producer known for his energetic tech house and techno sets. He rose to prominence in the late 2000s with releases on labels like Cécille and Cocoon.""}]","[{""name"": ""Ilario Alicante"", ""real_name"": null, ""aliases"": [], ""country"": ""Italy"", ""city"": ""Livorno"", ""active_since"": 2007, ""associated_labels"": [""Cocoon Recordings"", ""VIRGO""], ""associated_acts"": [], ""short_bio"": ""Italian DJ/producer known for driving techno and house releases, rising from the Tenax scene and becoming a Cocoon mainstay. He later founded his VIRGO imprint.""}]",True
+b0d66f7d96f2,(unknown),AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320,parsing_notes,Artist was '(unknown)'; parsed artist and title from filename-style title field. Removed catalog number prefix 'AFV001B-' and bitrate suffix '-320'. Converted 'ILARIO_ALICANTE' to 'Ilario Alicante' and 'I_LIKE_TO_SERVE' to 'I Like To Serve'.,Artist field was '(unknown)'. Parsed 'Ilario Alicante' as artist and 'I Like To Serve' as title from the title string; replaced underscores with spaces and normalised capitalisation; removed bitrate suffix '-320'. Treated leading 'AFV001B' as a possible catalog/side code and stored it as catalog_number.,True
+b3736627d0fd,(unknown),Jeff Samuel - Lost,identified,True,False,True
+b3736627d0fd,(unknown),Jeff Samuel - Lost,confidence,high,low,True
+b3736627d0fd,(unknown),Jeff Samuel - Lost,artists,Jeff Samuel,Jeff Samuel,False
+b3736627d0fd,(unknown),Jeff Samuel - Lost,title,Lost,Lost,False
+b3736627d0fd,(unknown),Jeff Samuel - Lost,mix_name,,,False
+b3736627d0fd,(unknown),Jeff Samuel - Lost,remixers,,,False
+b3736627d0fd,(unknown),Jeff Samuel - Lost,featured_artists,,,False
+b3736627d0fd,(unknown),Jeff Samuel - Lost,record_label,Trapez,,True
+b3736627d0fd,(unknown),Jeff Samuel - Lost,catalog_number,TRAPEZ 27,,True
+b3736627d0fd,(unknown),Jeff Samuel - Lost,release_title,Lost,,True
+b3736627d0fd,(unknown),Jeff Samuel - Lost,release_type,EP,unknown,True
+b3736627d0fd,(unknown),Jeff Samuel - Lost,release_year,2003,,True
+b3736627d0fd,(unknown),Jeff Samuel - Lost,formats,vinyl; digital,,True
+b3736627d0fd,(unknown),Jeff Samuel - Lost,primary_genre,minimal techno,,True
+b3736627d0fd,(unknown),Jeff Samuel - Lost,subgenres,microhouse,,True
+b3736627d0fd,(unknown),Jeff Samuel - Lost,bpm_estimate,,,False
+b3736627d0fd,(unknown),Jeff Samuel - Lost,musical_key,,,False
+b3736627d0fd,(unknown),Jeff Samuel - Lost,energy,medium,,True
+b3736627d0fd,(unknown),Jeff Samuel - Lost,mood_tags,quirky; playful; groovy,,True
+b3736627d0fd,(unknown),Jeff Samuel - Lost,dj_set_role,any,,True
+b3736627d0fd,(unknown),Jeff Samuel - Lost,groove,"bouncy, off-kilter, subtly funky",,True
+b3736627d0fd,(unknown),Jeff Samuel - Lost,percussion,crisp hi-hats; skittering snares; minimal kick,,True
+b3736627d0fd,(unknown),Jeff Samuel - Lost,bassline,"rubbery, syncopated bass groove",,True
+b3736627d0fd,(unknown),Jeff Samuel - Lost,vocals,,,False
+b3736627d0fd,(unknown),Jeff Samuel - Lost,melodic_elements,glitchy synth stabs; playful micro-edits,,True
+b3736627d0fd,(unknown),Jeff Samuel - Lost,texture,clean; detailed; glitchy,,True
+b3736627d0fd,(unknown),Jeff Samuel - Lost,emotional_character,"playful, lighthearted",,True
+b3736627d0fd,(unknown),Jeff Samuel - Lost,dancefloor_effect,"draws dancers in with its quirky, infectious groove",,True
+b3736627d0fd,(unknown),Jeff Samuel - Lost,review_blurb,"Jeff Samuel's 'Lost' is a microhouse classic, built on a bouncy, off-kilter groove and playful, glitchy edits. The track's rubbery bassline and crisp percussion create a subtly funky energy, while quirky synth stabs keep things light and engaging. It's a dancefloor tool that charms with its inventive details and irresistible swing.",,True
+b3736627d0fd,(unknown),Jeff Samuel - Lost,description_basis,known track,unknown,True
+b3736627d0fd,(unknown),Jeff Samuel - Lost,similar_artists,Akufen; Ricardo Villalobos; Pantytec; Jan Jelinek; Sutekh,,True
+b3736627d0fd,(unknown),Jeff Samuel - Lost,description,"A standout from the early 2000s microhouse wave, 'Lost' showcases Jeff Samuel's knack for playful, detailed minimalism. Its infectious groove and inventive edits make it a favorite for DJs seeking quirky, danceable tracks.",Track not known: no reliable information available.,True
+b3736627d0fd,(unknown),Jeff Samuel - Lost,artist_details,"[{""name"": ""Jeff Samuel"", ""real_name"": ""Jeff Samuel"", ""aliases"": [], ""country"": ""USA"", ""city"": ""Seattle"", ""active_since"": 1999, ""associated_labels"": [""Trapez"", ""Poker Flat"", ""7th City""], ""associated_acts"": [], ""short_bio"": ""Jeff Samuel is an American producer and DJ known for his inventive, playful take on minimal techno and microhouse, with releases on labels like Trapez and Poker Flat.""}]","[{""name"": ""Jeff Samuel"", ""real_name"": null, ""aliases"": [], ""country"": ""United States"", ""city"": null, ""active_since"": null, ""associated_labels"": [], ""associated_acts"": [], ""short_bio"": ""American electronic music producer and DJ known for minimal and microhouse.""}]",True
+b3736627d0fd,(unknown),Jeff Samuel - Lost,parsing_notes,Artist was '(unknown)'; parsed 'Jeff Samuel' as artist and 'Lost' as title from the title field.,Artist field was '(unknown)'; extracted 'Jeff Samuel' as artist from the title string and set track title to 'Lost'.,True
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),identified,True,False,True
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),confidence,high,low,True
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),artists,Josh Wink,Josh Wink,False
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),title,Thick As Thieves,Thick As Thieves,False
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),mix_name,Original Mix,Original Mix,False
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),remixers,,,False
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),featured_artists,,,False
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),record_label,Ovum Recordings,,True
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),catalog_number,,,False
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),release_title,Thick As Thieves,,True
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),release_type,single,unknown,True
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),release_year,2007,,True
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),formats,vinyl; digital,,True
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),primary_genre,tech house,,True
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),subgenres,techno,,True
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),bpm_estimate,126,,True
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),musical_key,,,False
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),energy,high,,True
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),mood_tags,hypnotic; driving; trippy,,True
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),dj_set_role,peak-time,,True
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),groove,"Relentless, hypnotic and rolling with a strong forward momentum.",,True
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),percussion,punchy kick; crisp hi-hats; syncopated claps,,True
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),bassline,"Deep, pulsing and subtly acidic.",,True
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),vocals,,,False
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),melodic_elements,warped synth stabs; acidic squelches,,True
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),texture,trippy; clean; psychedelic,,True
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),emotional_character,Intense and mind-bending.,,True
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),dancefloor_effect,Locks the crowd into a hypnotic groove and builds tension on the floor.,,True
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),review_blurb,"Josh Wink's 'Thick As Thieves' is a peak-time tech house weapon, built on a hypnotic, rolling groove and trippy, acidic synths. The track's relentless energy and warped textures create a psychedelic atmosphere that keeps the dancefloor locked in. A masterclass in tension and release, it's a late-night favorite for adventurous DJs.",,True
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),description_basis,known track,unknown,True
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),similar_artists,Steve Bug; Radio Slave; Slam; Richie Hawtin; Loco Dice,,True
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),description,"A signature Josh Wink production from 2007, 'Thick As Thieves' is a hypnotic tech house track with driving percussion and trippy, acid-tinged synths. Released on Ovum, it remains a staple for peak-time sets.",Track not known: no reliable information available.,True
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),artist_details,"[{""name"": ""Josh Wink"", ""real_name"": ""Joshua Winkelman"", ""aliases"": [""Winx""], ""country"": ""USA"", ""city"": ""Philadelphia"", ""active_since"": 1990, ""associated_labels"": [""Ovum Recordings""], ""associated_acts"": [], ""short_bio"": ""Josh Wink is a pioneering American DJ and producer, co-founder of Ovum Recordings, known for his influential acid house and techno tracks since the early 1990s.""}]","[{""name"": ""Josh Wink"", ""real_name"": ""Joshua Winkelman"", ""aliases"": [""Wink"", ""Winx""], ""country"": ""United States"", ""city"": ""Philadelphia"", ""active_since"": null, ""associated_labels"": [""Ovum Recordings""], ""associated_acts"": [""King Britt""], ""short_bio"": ""Philadelphia DJ/producer and co-founder of Ovum Recordings, a key figure in 1990s–2000s techno and house.""}]",True
+d08284c45a0e,(unknown),Josh Wink - Thick As Thieves (Original Mix 2007),parsing_notes,Artist was '(unknown)'; parsed 'Josh Wink' as artist and 'Thick As Thieves (Original Mix 2007)' as title. Removed mix/version and year from title.,"Artist field was '(unknown)'; parsed 'Josh Wink - Thick As Thieves (Original Mix 2007)' from title into artist, track title, and mix. Treated '2007' as a year annotation and removed it from mix_name; year not set due to lack of verification.",True
+d28d8b609287,(unknown),John Gaiser - Seepage,identified,True,False,True
+d28d8b609287,(unknown),John Gaiser - Seepage,confidence,high,low,True
+d28d8b609287,(unknown),John Gaiser - Seepage,artists,Gaiser,Gaiser,False
+d28d8b609287,(unknown),John Gaiser - Seepage,title,Seepage,Seepage,False
+d28d8b609287,(unknown),John Gaiser - Seepage,mix_name,,,False
+d28d8b609287,(unknown),John Gaiser - Seepage,remixers,,,False
+d28d8b609287,(unknown),John Gaiser - Seepage,featured_artists,,,False
+d28d8b609287,(unknown),John Gaiser - Seepage,record_label,Minus,,True
+d28d8b609287,(unknown),John Gaiser - Seepage,catalog_number,MINUS 62,,True
+d28d8b609287,(unknown),John Gaiser - Seepage,release_title,Seepage,,True
+d28d8b609287,(unknown),John Gaiser - Seepage,release_type,EP,unknown,True
+d28d8b609287,(unknown),John Gaiser - Seepage,release_year,2008,,True
+d28d8b609287,(unknown),John Gaiser - Seepage,formats,vinyl; digital,,True
+d28d8b609287,(unknown),John Gaiser - Seepage,primary_genre,minimal techno,,True
+d28d8b609287,(unknown),John Gaiser - Seepage,subgenres,minimal; Detroit-influenced,,True
+d28d8b609287,(unknown),John Gaiser - Seepage,bpm_estimate,126,,True
+d28d8b609287,(unknown),John Gaiser - Seepage,musical_key,,,False
+d28d8b609287,(unknown),John Gaiser - Seepage,energy,medium,,True
+d28d8b609287,(unknown),John Gaiser - Seepage,mood_tags,hypnotic; groovy; dark,,True
+d28d8b609287,(unknown),John Gaiser - Seepage,dj_set_role,any,,True
+d28d8b609287,(unknown),John Gaiser - Seepage,groove,"Rolling, hypnotic and subtly funky with a tight, minimal swing.",,True
+d28d8b609287,(unknown),John Gaiser - Seepage,percussion,crisp hi-hats; snappy claps; subtle percussive accents,,True
+d28d8b609287,(unknown),John Gaiser - Seepage,bassline,"Deep, rubbery and pulsing with a morphing, synthetic character.",,True
+d28d8b609287,(unknown),John Gaiser - Seepage,vocals,,,False
+d28d8b609287,(unknown),John Gaiser - Seepage,melodic_elements,bleepy synth stabs; atmospheric FX,,True
+d28d8b609287,(unknown),John Gaiser - Seepage,texture,clean; precise; spacious,,True
+d28d8b609287,(unknown),John Gaiser - Seepage,emotional_character,"Cool, mysterious and slightly mechanical.",,True
+d28d8b609287,(unknown),John Gaiser - Seepage,dancefloor_effect,"Locks the crowd into a deep, head-nodding groove.",,True
+d28d8b609287,(unknown),John Gaiser - Seepage,review_blurb,"Gaiser's 'Seepage' is a masterclass in Minus-style minimalism: a hypnotic, rolling groove underpinned by a morphing, rubbery bassline and crisp, precise percussion. Subtle synth stabs and atmospheric FX create a cool, mysterious vibe, making it a versatile tool for locking the dancefloor into a deep, focused state. Essential for fans of stripped-back, Detroit-influenced minimal techno.",,True
+d28d8b609287,(unknown),John Gaiser - Seepage,description_basis,known track,unknown,True
+d28d8b609287,(unknown),John Gaiser - Seepage,similar_artists,Marc Houle; Heartthrob; Magda; Richie Hawtin; Troy Pierce,,True
+d28d8b609287,(unknown),John Gaiser - Seepage,description,"A signature Minus minimal techno cut from Gaiser, 'Seepage' is built on a rolling, hypnotic groove with deep, synthetic bass and crisp percussion. The track's subtle melodic elements and spacious production create a cool, mysterious atmosphere, perfect for deep dancefloor moments.",Track not known: no reliable information available.,True
+d28d8b609287,(unknown),John Gaiser - Seepage,artist_details,"[{""name"": ""Gaiser"", ""real_name"": ""Jon Gaiser"", ""aliases"": [""John Gaiser""], ""country"": ""USA"", ""city"": ""Detroit"", ""active_since"": 2005, ""associated_labels"": [""Minus""], ""associated_acts"": [""Richie Hawtin"", ""Marc Houle"", ""Magda""], ""short_bio"": ""Jon Gaiser is an American minimal techno producer and live act, closely associated with Richie Hawtin's Minus label and the Detroit/Berlin minimal scene.""}]","[{""name"": ""Gaiser"", ""real_name"": ""John Gaiser"", ""aliases"": [], ""country"": ""United States"", ""city"": null, ""active_since"": null, ""associated_labels"": [""Minus"", ""Items & Things""], ""associated_acts"": [], ""short_bio"": ""American minimal techno producer known for releases on Minus and Items & Things.""}]",True
+d28d8b609287,(unknown),John Gaiser - Seepage,parsing_notes,Artist was '(unknown)'; parsed 'John Gaiser' as artist from title field and canonicalised to 'Gaiser'. Removed artist prefix from title.,Artist field was '(unknown)'. Parsed 'John Gaiser - Seepage' from the title; set canonical artist name to 'Gaiser' and track title to 'Seepage'. No mix or label info present in the tag.,True
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,identified,True,False,True
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,confidence,high,low,True
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,artists,Gaiser,Gaiser,False
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,title,Half Life,Half Life,False
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,mix_name,,,False
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,remixers,,,False
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,featured_artists,,,False
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,record_label,Minus,,True
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,catalog_number,,,False
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,release_title,Half Life,,True
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,release_type,EP,unknown,True
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,release_year,2007,,True
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,formats,vinyl; digital,,True
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,primary_genre,minimal techno,,True
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,subgenres,minimal,,True
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,bpm_estimate,126,,True
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,musical_key,,,False
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,energy,medium,,True
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,mood_tags,hypnotic; groovy; dark,,True
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,dj_set_role,any,,True
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,groove,"Rolling, hypnotic and subtly funky with a persistent drive.",,True
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,percussion,crisp hi-hats; snappy claps; minimalist kick,,True
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,bassline,"Deep, pulsing sub-bass with a rubbery, elastic feel.",,True
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,vocals,,,False
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,melodic_elements,bleepy synth stabs; atmospheric effects,,True
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,texture,clean; precise; spacious,,True
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,emotional_character,"Cool, mysterious and slightly tense.",,True
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,dancefloor_effect,"Locks the crowd into a deep, focused groove.",,True
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,review_blurb,"Gaiser's 'Half Life' is a masterclass in Minus-style minimalism: a hypnotic, rolling groove underpinned by deep sub-bass and crisp percussion. Bleepy synths and subtle effects create a spacious, mysterious atmosphere, making it a versatile tool for locking the dancefloor into a focused, late-night trance.",,True
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,description_basis,known track,unknown,True
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,similar_artists,Marc Houle; Heartthrob; Magda; Troy Pierce; Richie Hawtin,,True
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,description,"A signature Minus minimal techno cut from Gaiser, 'Half Life' is known for its hypnotic groove, deep bass and spacious, bleepy textures. A staple in late-2000s minimal sets.",Track not known: no reliable information available.,True
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,artist_details,"[{""name"": ""Gaiser"", ""real_name"": ""Jon Gaiser"", ""aliases"": [""John Gaiser""], ""country"": ""USA"", ""city"": ""Detroit"", ""active_since"": 2005, ""associated_labels"": [""Minus""], ""associated_acts"": [""Marc Houle"", ""Magda"", ""Heartthrob""], ""short_bio"": ""Jon Gaiser is an American minimal techno producer and live act, closely associated with Richie Hawtin's Minus label and the late-2000s minimal scene.""}]","[{""name"": ""Gaiser"", ""real_name"": ""Jon Gaiser"", ""aliases"": [], ""country"": ""United States"", ""city"": null, ""active_since"": null, ""associated_labels"": [""Minus""], ""associated_acts"": [], ""short_bio"": ""American minimal techno producer known for releases on Richie Hawtin's Minus label.""}]",True
+d7c3a26a2cf1,(unknown),John Gaiser - Half Life,parsing_notes,Artist was '(unknown)'; parsed 'John Gaiser' as artist from title field and canonicalised to 'Gaiser'. Title cleaned to 'Half Life'.,Artist field was '(unknown)'. Parsed 'John Gaiser - Half Life' from the title into artist and track title; normalised artist credit to the canonical 'Gaiser' (aka Jon Gaiser).,True
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,identified,False,False,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,confidence,low,low,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,artists,Innersphere,Innersphere,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,title,Phunk,Phunk,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,mix_name,,Angello Mix,True
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,remixers,,,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,featured_artists,,,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,record_label,,,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,catalog_number,,,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,release_title,,,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,release_type,unknown,unknown,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,release_year,,,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,formats,,,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,primary_genre,,,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,subgenres,,,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,bpm_estimate,,,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,musical_key,,,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,energy,,,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,mood_tags,,,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,dj_set_role,,,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,groove,,,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,percussion,,,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,bassline,,,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,vocals,,,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,melodic_elements,,,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,texture,,,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,emotional_character,,,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,dancefloor_effect,,,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,review_blurb,,,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,description_basis,unknown,unknown,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,similar_artists,,,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,description,Track not known: no reliable information available.,Track not known: no reliable information available.,False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,artist_details,"[{""name"": ""Innersphere"", ""real_name"": null, ""aliases"": [], ""country"": null, ""city"": null, ""active_since"": null, ""associated_labels"": [], ""associated_acts"": [], ""short_bio"": null}]","[{""name"": ""Innersphere"", ""real_name"": null, ""aliases"": [], ""country"": null, ""city"": null, ""active_since"": null, ""associated_labels"": [], ""associated_acts"": [], ""short_bio"": null}]",False
+ddc6d788b00e,(unknown),innersphere_phunk_angellomi,parsing_notes,Artist field was '(unknown)'; parsed artist and title from title field by splitting on underscores. Removed possible file suffix 'angellomi' as it does not match known mix names or artists.,Artist field was '(unknown)'. Parsed artist and title from the underscored filename: 'innersphere_phunk_angellomi' -> 'Innersphere - Phunk (Angello Mix)'. Fixed capitalization and underscores; interpreted 'angellomi' as truncated 'Angello Mix'. No label or catalog info present in tag.,True
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,identified,True,True,False
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,confidence,high,high,False
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,artists,Heartthrob,Heartthrob,False
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,title,Baby Kate,Baby Kate,False
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,mix_name,Magda's Where's My Baby Daddy Remix,Magda's Where's My Baby Daddy Remix,False
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,remixers,Magda,Magda,False
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,featured_artists,,,False
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,record_label,Minus,Minus,False
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,catalog_number,,,False
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,release_title,Baby Kate,,True
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,release_type,single,unknown,True
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,release_year,2006,,True
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,formats,vinyl; digital,,True
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,primary_genre,minimal techno,minimal techno,False
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,subgenres,minimal; Detroit minimal,mid-2000s minimal; microhouse-influenced,True
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,bpm_estimate,126,127,True
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,musical_key,,,False
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,energy,medium,medium,False
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,mood_tags,quirky; hypnotic; playful,hypnotic; sleek; tense,True
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,dj_set_role,any,peak-time,True
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,groove,"Slinky, off-kilter minimal groove with a playful bounce.","stripped, rolling and shuffling with a tight lock-in",True
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,percussion,crisp hi-hats; snappy claps; glitchy percussive hits,crisp 909-style hi-hats; snapping claps; clicks & cuts details,True
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,bassline,"Rubbery, syncopated bassline that anchors the groove.","rubbery, pulsing sub that anchors the loop",True
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,vocals,,,False
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,melodic_elements,quirky synth stabs; warped FX,bleepy lead motif; glitchy edits and stutters; minimalist tonal chirps,True
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,texture,glitchy; sleek; stripped-back,sleek; dry; spacious,True
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,emotional_character,"Playful and mischievous, with a hypnotic undertone.","taut, teasing tension with a cool, clinical edge",True
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,dancefloor_effect,"Draws dancers in with its infectious, oddball groove and subtle tension.",locks the floor into a hypnotic stride and slowly ratchets the pressure,True
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,review_blurb,"Magda's remix of Heartthrob's 'Baby Kate' is a minimal techno classic, twisting the original into a slinky, offbeat dancefloor weapon. Crisp percussion and a rubbery bassline underpin warped synth stabs and playful FX, creating a hypnotic, mischievous vibe. It's a quirky, infectious cut that never fails to intrigue and move the crowd.","Magda distills Heartthrob’s modern classic into a razor-trimmed tool: rubbery low-end, surgical percussion and a nagging bleep that won’t let go. It’s all tension and control—the kind of minimalist pressure cooker that keeps the room moving while the energy quietly climbs.",True
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,description_basis,known track,known track,False
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,similar_artists,Marc Houle; Troy Pierce; Richie Hawtin; Gaiser; Matthew Dear,Gaiser; Troy Pierce; Marc Houle; Barem; Click Box,True
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,description,"A standout remix from the Minus camp, Magda's take on 'Baby Kate' is a playful, hypnotic minimal techno track with a distinctive off-kilter groove and quirky sound design.","Magda’s ‘Where’s My Baby Daddy’ take on Heartthrob’s ‘Baby Kate’ is a signature Minus-era minimal roller: tightly reduced drums, a pulsing sub and a persistent bleep hook engineered for long blends.",True
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,artist_details,"[{""name"": ""Heartthrob"", ""real_name"": ""Jesse Siminski"", ""aliases"": [""Jesse Siminski""], ""country"": ""USA"", ""city"": ""New York"", ""active_since"": 2004, ""associated_labels"": [""Minus"", ""Hot Creations""], ""associated_acts"": [""Magda"", ""Marc Houle"", ""Troy Pierce""], ""short_bio"": ""Heartthrob is the alias of Jesse Siminski, an American producer and DJ known for his influential releases on Minus and his role in the minimal techno scene.""}]","[{""name"": ""Heartthrob"", ""real_name"": ""Jesse Siminski"", ""aliases"": [], ""country"": ""United States"", ""city"": null, ""active_since"": 2005, ""associated_labels"": [""Minus"", ""Items & Things""], ""associated_acts"": [""Magda"", ""Troy Pierce"", ""Marc Houle""], ""short_bio"": ""American minimal techno producer known for defining Minus releases in the mid-2000s, including the breakout track ‘Baby Kate’.""}]",True
+df049a466f7c,(unknown),Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix,parsing_notes,Artist was '(unknown)'; parsed 'Heartthrob' as artist and 'Baby Kate Magda S Where S My Baby Daddy Remix' as title. Corrected mix name to 'Magda's Where's My Baby Daddy Remix' and fixed spacing/grammar.,Artist field was unknown; parsed artist and title from the title string. Normalized to 'Heartthrob – Baby Kate (Magda's Where's My Baby Daddy Remix)' and fixed spacing/apostrophes from 'Magda S Where S'.,True
+eb086ee59483,(unknown),Marco Carola - Long Jump,identified,True,False,True
+eb086ee59483,(unknown),Marco Carola - Long Jump,confidence,high,low,True
+eb086ee59483,(unknown),Marco Carola - Long Jump,artists,Marco Carola,Marco Carola,False
+eb086ee59483,(unknown),Marco Carola - Long Jump,title,Long Jump,Long Jump,False
+eb086ee59483,(unknown),Marco Carola - Long Jump,mix_name,,,False
+eb086ee59483,(unknown),Marco Carola - Long Jump,remixers,,,False
+eb086ee59483,(unknown),Marco Carola - Long Jump,featured_artists,,,False
+eb086ee59483,(unknown),Marco Carola - Long Jump,record_label,Minus,,True
+eb086ee59483,(unknown),Marco Carola - Long Jump,catalog_number,MINUS 32,,True
+eb086ee59483,(unknown),Marco Carola - Long Jump,release_title,Play It Loud!,,True
+eb086ee59483,(unknown),Marco Carola - Long Jump,release_type,album,unknown,True
+eb086ee59483,(unknown),Marco Carola - Long Jump,release_year,2011,,True
+eb086ee59483,(unknown),Marco Carola - Long Jump,formats,vinyl; digital; CD,,True
+eb086ee59483,(unknown),Marco Carola - Long Jump,primary_genre,tech house,,True
+eb086ee59483,(unknown),Marco Carola - Long Jump,subgenres,minimal techno,,True
+eb086ee59483,(unknown),Marco Carola - Long Jump,bpm_estimate,126,,True
+eb086ee59483,(unknown),Marco Carola - Long Jump,musical_key,,,False
+eb086ee59483,(unknown),Marco Carola - Long Jump,energy,high,,True
+eb086ee59483,(unknown),Marco Carola - Long Jump,mood_tags,driving; hypnotic; groovy,,True
+eb086ee59483,(unknown),Marco Carola - Long Jump,dj_set_role,peak-time,,True
+eb086ee59483,(unknown),Marco Carola - Long Jump,groove,"relentless, rolling, body-moving",,True
+eb086ee59483,(unknown),Marco Carola - Long Jump,percussion,crisp hi-hats; punchy kick; snappy claps,,True
+eb086ee59483,(unknown),Marco Carola - Long Jump,bassline,"deep, pulsing, sub-heavy",,True
+eb086ee59483,(unknown),Marco Carola - Long Jump,vocals,,,False
+eb086ee59483,(unknown),Marco Carola - Long Jump,melodic_elements,filtered synth stabs; minimalist FX,,True
+eb086ee59483,(unknown),Marco Carola - Long Jump,texture,clean; precise; stripped-back,,True
+eb086ee59483,(unknown),Marco Carola - Long Jump,emotional_character,"focused, energetic",,True
+eb086ee59483,(unknown),Marco Carola - Long Jump,dancefloor_effect,locks the crowd into a hypnotic groove,,True
+eb086ee59483,(unknown),Marco Carola - Long Jump,review_blurb,"Marco Carola's 'Long Jump' is a peak-time tech house weapon built for maximum dancefloor impact. Driven by a rolling, sub-heavy bassline and crisp, precise percussion, the track's stripped-back arrangement keeps the energy high and the groove relentless. Minimalist synth stabs and subtle FX add just enough detail to keep dancers locked in from start to finish.",,True
+eb086ee59483,(unknown),Marco Carola - Long Jump,description_basis,known track,unknown,True
+eb086ee59483,(unknown),Marco Carola - Long Jump,similar_artists,Paco Osuna; Dubfire; Loco Dice; Richie Hawtin; Matador,,True
+eb086ee59483,(unknown),Marco Carola - Long Jump,description,"A signature Marco Carola production from his 'Play It Loud!' album, 'Long Jump' delivers a hypnotic, driving tech house groove with minimal melodic elements and a powerful, rolling bassline. Designed for peak-time sets, it exemplifies Carola's precise, dancefloor-focused style.",Track not known: no reliable information available.,True
+eb086ee59483,(unknown),Marco Carola - Long Jump,artist_details,"[{""name"": ""Marco Carola"", ""real_name"": ""Marco Carola"", ""aliases"": [], ""country"": ""Italy"", ""city"": ""Naples"", ""active_since"": 1995, ""associated_labels"": [""Minus"", ""Music On"", ""Zenit"", ""Plus 8""], ""associated_acts"": [""Paco Osuna"", ""Joseph Capriati""], ""short_bio"": ""Marco Carola is a pioneering Italian DJ and producer, known for shaping the minimal techno and tech house scenes. He is the founder of the Music On party and label, and has released influential records on Minus, Zenit, and Plus 8.""}]","[{""name"": ""Marco Carola"", ""real_name"": ""Marco Carola"", ""aliases"": [], ""country"": ""Italy"", ""city"": ""Naples"", ""active_since"": null, ""associated_labels"": [""Zenit"", ""Question"", ""M_nus"", ""Music On""], ""associated_acts"": [], ""short_bio"": ""Italian techno DJ and producer from Naples, a leading figure of the '90s and 2000s minimal/techno movement. Founder of the Zenit and Question labels and the Music On brand, with releases including an album on M_nus.""}]",True
+eb086ee59483,(unknown),Marco Carola - Long Jump,parsing_notes,Artist was '(unknown)'; parsed 'Marco Carola' as artist and 'Long Jump' as title from the title field. No mix name or remixers present.,Artist field was '(unknown)'. Parsed 'Marco Carola' from the title string 'Marco Carola - Long Jump' as the artist and 'Long Jump' as the track title; no mix information present.,True
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,identified,False,False,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,confidence,low,low,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,artists,Marco Carola,Marco Carola,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,title,Re Solution,Re Solution,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,mix_name,,,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,remixers,,,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,featured_artists,,,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,record_label,,,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,catalog_number,,,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,release_title,,,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,release_type,unknown,unknown,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,release_year,,,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,formats,,,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,primary_genre,,,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,subgenres,,,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,bpm_estimate,,,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,musical_key,,,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,energy,,,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,mood_tags,,,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,dj_set_role,,,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,groove,,,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,percussion,,,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,bassline,,,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,vocals,,,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,melodic_elements,,,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,texture,,,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,emotional_character,,,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,dancefloor_effect,,,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,review_blurb,,,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,description_basis,unknown,unknown,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,similar_artists,,,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,description,Track not known: no reliable information available.,Track not known: no reliable information available.,False
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,artist_details,"[{""name"": ""Marco Carola"", ""real_name"": ""Marco Carola"", ""aliases"": [], ""country"": ""Italy"", ""city"": ""Naples"", ""active_since"": 1995, ""associated_labels"": [""Minus"", ""Plus 8"", ""Music On"", ""Zenit"", ""Cocoon""], ""associated_acts"": [""Gaetano Parisio"", ""Rino Cerrone""], ""short_bio"": ""Marco Carola is a pioneering Italian techno DJ and producer from Naples, known for his influential role in the minimal and tech house scenes and for founding the Music On party series.""}]","[{""name"": ""Marco Carola"", ""real_name"": ""Marco Carola"", ""aliases"": [], ""country"": ""Italy"", ""city"": ""Naples"", ""active_since"": null, ""associated_labels"": [""Minus""], ""associated_acts"": [], ""short_bio"": ""Italian techno DJ and producer from Naples, active since the 1990s and known for influential minimal/techno releases and marathon DJ sets.""}]",True
+ebfbbcc93095,(unknown),Marco Carola - Re_Solution,parsing_notes,Artist field was '(unknown)'; parsed 'Marco Carola' as artist and 'Re_Solution' as title from the title field. Removed underscore and corrected spacing in title.,Artist field was '(unknown)'. Parsed 'Marco Carola - Re_Solution' as artist and title; converted underscore to space; no mix name or remixers indicated.,True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,identified,True,False,True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,confidence,high,low,True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,artists,Loco Dice,Loco Dice,False
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,title,A Chico A Rhytmico,A Chico A Rhytmico,False
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,mix_name,,,False
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,remixers,,,False
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,featured_artists,,,False
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,record_label,Cadenza,,True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,catalog_number,CADENZA 13,,True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,release_title,El Gallo Negro EP,,True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,release_type,EP,unknown,True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,release_year,2007,,True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,formats,vinyl; digital,,True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,primary_genre,minimal techno,,True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,subgenres,tech house,,True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,bpm_estimate,126,,True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,musical_key,,,False
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,energy,high,,True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,mood_tags,groovy; tribal; hypnotic,,True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,dj_set_role,peak-time,,True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,groove,"Chunky, rolling and percussive with a hypnotic tribal swing.",,True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,percussion,tribal drums; shuffling hi-hats; syncopated claps,,True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,bassline,"Deep, rubbery and driving sub-bass that anchors the groove.",,True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,vocals,,,False
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,melodic_elements,percussive stabs; subtle Latin samples,,True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,texture,raw; percussive; earthy,,True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,emotional_character,"Energetic and primal, with a hypnotic, dance-inducing vibe.",,True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,dancefloor_effect,Ignites the floor with infectious tribal rhythms and relentless drive.,,True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,review_blurb,"Loco Dice's 'A Chico A Rhytmico' is a peak-time minimal techno bomb, built on rolling tribal drums and a deep, rubbery bassline. The groove is hypnotic and earthy, with subtle Latin touches that keep dancers locked in. A true dancefloor weapon from the golden era of Cadenza.",,True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,description_basis,known track,unknown,True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,similar_artists,Luciano; Ricardo Villalobos; Reboot; Tania Vulcano; Thomas Melchior,,True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,description,"A standout cut from Loco Dice's 'El Gallo Negro EP' on Cadenza, 'A Chico A Rhytmico' is known for its tribal percussion, hypnotic groove, and deep, driving bass. A staple in late-2000s minimal and tech house sets.",Track not known: no reliable information available.,True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,artist_details,"[{""name"": ""Loco Dice"", ""real_name"": ""Yassine Ben Achour"", ""aliases"": [], ""country"": ""Germany"", ""city"": ""Düsseldorf"", ""active_since"": 2002, ""associated_labels"": [""Desolat"", ""Cadenza""], ""associated_acts"": [""Martin Buttrich""], ""short_bio"": ""Loco Dice is a German DJ and producer known for his influential role in minimal and tech house, co-founding the Desolat label and releasing on Cadenza.""}]","[{""name"": ""Loco Dice"", ""real_name"": ""Yassine Ben Achour"", ""aliases"": [], ""country"": ""Tunisia"", ""city"": ""Düsseldorf"", ""active_since"": null, ""associated_labels"": [""Desolat"", ""Cadenza""], ""associated_acts"": [""Martin Buttrich""], ""short_bio"": ""Tunisian-born, Düsseldorf-based DJ/producer and co-founder of Desolat alongside Martin Buttrich.""}]",True
+ee58b44ea79c,(unknown),LOCODICE - A chico a rhytmico,parsing_notes,Artist was '(unknown)'; parsed 'LOCODICE' as artist and 'A chico a rhytmico' as title from the title field. Corrected spelling and capitalisation.,Artist was missing; parsed 'LOCODICE - A chico a rhytmico' from the title field. Set artist to 'Loco Dice' and fixed capitalization. Kept track title as 'A Chico A Rhytmico' due to uncertain official spelling; no label or catalog present.,True
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),identified,True,True,False
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),confidence,high,high,False
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),artists,Heartthrob,Heartthrob,False
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),title,Baby Kate,Baby Kate,False
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),mix_name,Konrad Black Remix,Konrad Black Remix,False
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),remixers,Konrad Black,Konrad Black,False
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),featured_artists,,,False
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),record_label,Minus,Minus,False
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),catalog_number,MINUS 49,,True
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),release_title,Baby Kate,,True
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),release_type,EP,unknown,True
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),release_year,2006,,True
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),formats,vinyl; digital,,True
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),primary_genre,minimal techno,minimal techno,False
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),subgenres,minimal; Detroit-influenced,dark minimal; mnml,True
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),bpm_estimate,126,126,False
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),musical_key,,,False
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),energy,medium,medium,False
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),mood_tags,hypnotic; dark; groovy,hypnotic; sleek; sinister,True
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),dj_set_role,peak-time,peak-time,False
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),groove,"Slinky, hypnotic and subtly driving with a rolling, head-nodding pulse.",rolling and tightly coiled with a shuffling swing,True
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),percussion,crisp hi-hats; snappy claps; minimalist kick,"dry 4/4 kick; crisp, ticking hats; rimshot accents; subtle percussive fills",True
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),bassline,"Deep, rubbery and subtly morphing bassline that anchors the groove.","rubbery, snaking low-end that drives the track",True
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),vocals,,,False
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),melodic_elements,bleepy synth stabs; warped FX,bleep motifs; eerie drones; FX swells,True
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),texture,sleek; atmospheric; stripped-back,dry; sleek; clinical,True
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),emotional_character,"Tense, mysterious and slightly menacing.",tense and seductive,True
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),dancefloor_effect,"Locks the crowd into a trance-like state, perfect for building tension on the floor.",locks the floor into a hypnotic march and tightens the room’s focus,True
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),review_blurb,"Konrad Black's remix of 'Baby Kate' transforms Heartthrob's original into a hypnotic minimal techno weapon. Sleek percussion and a morphing bassline create a tense, heady atmosphere, while warped synths and FX keep dancers locked in. It's a masterclass in stripped-back groove, ideal for peak-time tension and late-night floors.","Konrad Black strips 'Baby Kate' down to a shadowy roller, sharpening the swing and letting that infamous serpentine bassline do the talking. Crisp hats and rimshots snap against eerie drones, pushing the tension without ever breaking the spell. A quintessential Minus weapon that creeps under the skin and owns the middle of the night.",True
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),description_basis,known track,known track,False
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),similar_artists,Marc Houle; Magda; Troy Pierce; Gaiser; Richie Hawtin,Magda; Troy Pierce; Marc Houle; Richie Hawtin; Konrad Black,True
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),description,"A standout remix from the Minus camp, this version of 'Baby Kate' is a minimal techno classic known for its hypnotic groove and dark, atmospheric production. Konrad Black's touch brings a mysterious edge, making it a favorite for building tension in peak-time sets.","Heartthrob’s minimal classic on Minus, remixed by Konrad Black into a darker, more shuffling tool built around the original’s signature bassline. A staple of mid‑2000s minimal sets.",True
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),artist_details,"[{""name"": ""Heartthrob"", ""real_name"": ""Jesse Siminski"", ""aliases"": [""Jesse Siminski""], ""country"": ""USA"", ""city"": ""New York"", ""active_since"": 2005, ""associated_labels"": [""Minus"", ""Hot Creations""], ""associated_acts"": [""Magda"", ""Marc Houle"", ""Troy Pierce""], ""short_bio"": ""Heartthrob is the alias of Jesse Siminski, an American producer and DJ known for his influential releases on Minus and his role in the minimal techno scene.""}]","[{""name"": ""Heartthrob"", ""real_name"": ""Jesse Siminski"", ""aliases"": [], ""country"": ""United States"", ""city"": ""Berlin"", ""active_since"": null, ""associated_labels"": [""Minus"", ""Spectral Sound"", ""ISNISNT""], ""associated_acts"": [], ""short_bio"": ""Detroit-born, Berlin-based producer/DJ known for seminal minimal releases on Minus and Spectral Sound; founder of the ISNISNT label.""}]",True
+ffa5558f5a00,(unknown),Heartthrob - Baby Kate (Konrad Black Remix),parsing_notes,Artist was '(unknown)'; parsed 'Heartthrob' as artist and 'Baby Kate (Konrad Black Remix)' as title. Extracted remix info and canonical artist spelling from title field.,Artist field was '(unknown)'; parsed 'Heartthrob' from the title. Extracted track title and mix name from 'Heartthrob - Baby Kate (Konrad Black Remix)'; set remixer to Konrad Black and cleaned capitalization.,True
