@@ -90,3 +90,6 @@ tracks-submit *args:
 
 tracks-collect:
     python batch/retrieve_batch_tracks.py
+
+tracks-direct *args:
+    python enrich/enrich_tracks_direct.py {{args}}

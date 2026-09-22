@@ -1,0 +1,84 @@
+name: track-metadata-direct
+
+# Synchronous sibling of `track-metadata`: enriches data/unique_tracks.csv by calling
+# OpenAI chat completions directly (no Batch API) via enrich/enrich_tracks_direct.py.
+# Results in minutes at full price; same schema, prompt, parser and output store
+# (data/track_metadata.jsonl + .csv, batch_id="direct"). Tracks in a pending batch
+# are skipped unless include_pending is set.
+
+on:
+  push:
+    paths:
+      - '.github/workflows/track_metadata_direct.yml'  # TEMP smoke test - revert before merge
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Max tracks this run (blank = all remaining)'
+        required: false
+        default: '10'
+      model:
+        description: 'OpenAI chat model (blank = pipeline default)'
+        required: false
+        default: ''
+      include_pending:
+        description: 'Also process tracks already in the pending batch'
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: track-metadata-direct
+  cancel-in-progress: false
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+      PYTHONPATH: "."
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Python dependencies
+        run: pip install openai pydantic python-dotenv
+
+      - name: Enrich tracks (direct OpenAI calls)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          LIMIT: ${{ github.event.inputs.limit || '10' }}  # TEMP smoke test: push default 10
+          MODEL: ${{ github.event.inputs.model }}
+          INCLUDE_PENDING: ${{ github.event.inputs.include_pending }}
+        # Exit codes: 0 = done (possibly partial), 1 = every track failed
+        run: |
+          # latest store first: the batch workflow may have pushed results meanwhile
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          ARGS=""
+          if [ -n "$LIMIT" ]; then ARGS="$ARGS --limit $LIMIT"; fi
+          if [ -n "$MODEL" ]; then ARGS="$ARGS --model $MODEL"; fi
+          if [ "$INCLUDE_PENDING" = "true" ]; then ARGS="$ARGS --include-pending"; fi
+          python enrich/enrich_tracks_direct.py $ARGS
+
+      - name: Commit track metadata
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          # one path per add: a missing pathspec would abort the whole `git add`
+          for f in data/track_metadata.jsonl data/track_metadata.csv; do
+            git add -A -- "$f" 2>/dev/null || true
+          done
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "track metadata results (direct)"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi

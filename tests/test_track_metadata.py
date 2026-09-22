@@ -520,3 +520,103 @@ class TestRetrieveBatchTracksMain:
         assert len(tm.load_records(TRACK_METADATA_FILE)) == 1
         # sentinels cleared: failed tracks are simply resubmitted next run
         assert not PENDING_TRACKS_BATCH_FILE.exists()
+
+
+# ── enrich_tracks_direct CLI (synchronous Chat Completions, no Batch API) ────
+
+sys.path.insert(0, str(PROJECT_ROOT / "enrich"))
+import enrich_tracks_direct as etd
+
+
+class _FakeCompletion:
+    def __init__(self, content: str, finish_reason: str = "stop"):
+        self._d = {"choices": [{"finish_reason": finish_reason,
+                                "message": {"content": content, "refusal": None}}]}
+
+    def model_dump(self) -> dict:
+        return self._d
+
+
+class _FakeDirectClient:
+    """Mimics OpenAI().chat.completions.create; `responses` maps user content -> content | Exception."""
+
+    def __init__(self, responses: dict):
+        self.responses, self.calls = responses, []
+        self.chat = type("Chat", (), {"completions": self})()
+
+    def create(self, **body):
+        self.calls.append(body)
+        user = json.loads(body["messages"][1]["content"])
+        out = self.responses.get(user["title"], json.dumps(_valid_metadata()))
+        if isinstance(out, Exception):
+            raise out
+        return _FakeCompletion(out)
+
+
+class TestCompletionToResultItem:
+    def test_wraps_completion_in_batch_item_shape(self):
+        item = etd.completion_to_result_item("track-x", _FakeCompletion('{"a":1}'))
+        assert item["custom_id"] == "track-x"
+        assert item["error"] is None
+        assert item["response"]["status_code"] == 200
+        assert item["response"]["body"]["choices"][0]["message"]["content"] == '{"a":1}'
+
+    def test_exception_becomes_item_error(self):
+        item = etd.error_to_result_item("track-x", RuntimeError("boom"))
+        assert item["error"] == {"type": "RuntimeError", "message": "boom"}
+        assert item["response"] is None
+
+
+class TestEnrichTracksDirectMain:
+    def test_happy_path_writes_records_with_direct_batch_id(self, workdir):
+        client = _FakeDirectClient({})
+        assert etd.main([], client=client) == 0
+        assert len(client.calls) == 2
+        records = tm.load_records(TRACK_METADATA_FILE)
+        assert len(records) == 2
+        assert {r["batch_id"] for r in records.values()} == {"direct"}
+        assert TRACK_METADATA_CSV.exists()
+
+    def test_sends_the_same_body_as_the_batch_task(self, workdir):
+        client = _FakeDirectClient({})
+        etd.main(["--limit", "1"], client=client)
+        track = tm.load_tracks(TRACKS_INPUT_FILE)[0]
+        assert client.calls[0] == tm.build_task(track)["body"]
+
+    def test_skips_tracks_in_pending_batch_by_default(self, workdir):
+        pending_id = tm.make_track_id("Adam Beyer", "China Girl")
+        TRACKS_BATCH_META_FILE.write_text(json.dumps({"batch_id": "b", "model": "m", "tracks": {
+            f"track-{pending_id}": {"track_id": pending_id, "artist": "Adam Beyer",
+                                    "title": "China Girl", "play_count": 1}}}), encoding="utf-8")
+        client = _FakeDirectClient({})
+        etd.main([], client=client)
+        titles = [json.loads(c["messages"][1]["content"])["title"] for c in client.calls]
+        assert titles == ["Marco Carola - Weekend"]
+
+    def test_include_pending_flag_overrides_skip(self, workdir):
+        pending_id = tm.make_track_id("Adam Beyer", "China Girl")
+        TRACKS_BATCH_META_FILE.write_text(json.dumps({"batch_id": "b", "model": "m", "tracks": {
+            f"track-{pending_id}": {"track_id": pending_id, "artist": "Adam Beyer",
+                                    "title": "China Girl", "play_count": 1}}}), encoding="utf-8")
+        client = _FakeDirectClient({})
+        etd.main(["--include-pending"], client=client)
+        assert len(client.calls) == 2
+
+    def test_partial_failure_keeps_successes_and_exits_0(self, workdir):
+        client = _FakeDirectClient({"China Girl": RuntimeError("rate limited")})
+        assert etd.main([], client=client) == 0
+        assert len(tm.load_records(TRACK_METADATA_FILE)) == 1
+
+    def test_all_failed_exits_1(self, workdir):
+        client = _FakeDirectClient({"China Girl": RuntimeError("x"),
+                                    "Marco Carola - Weekend": "not json"})
+        assert etd.main([], client=client) == 1
+        assert tm.load_records(TRACK_METADATA_FILE) == {}
+
+    def test_nothing_to_do_makes_no_calls(self, workdir):
+        ids = [tm.make_track_id("Adam Beyer", "China Girl"),
+               tm.make_track_id("(unknown)", "Marco Carola - Weekend")]
+        TRACK_METADATA_FILE.write_text("".join(json.dumps({"track_id": i}) + "\n" for i in ids), encoding="utf-8")
+        client = _FakeDirectClient({})
+        assert etd.main([], client=client) == 0
+        assert client.calls == []

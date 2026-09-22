@@ -30,6 +30,7 @@ just embed               # embed new feed articles
 just briefing --save     # generate daily briefing
 just tracks-submit --limit 20  # submit track-metadata batch (smoke test)
 just tracks-collect      # collect track-metadata batch
+just tracks-direct --limit 10  # enrich tracks via direct calls
 just collect             # run full collect sequence locally
 ```
 
@@ -102,6 +103,8 @@ python batch/create_batch_tracks.py --limit 20     # smoke test on 20 tracks
 python batch/create_batch_tracks.py --dry-run      # write data/batch_tasks_tracks.jsonl only
 python batch/create_batch_tracks.py --model gpt-4.1  # override model
 python batch/retrieve_batch_tracks.py              # collect: exit 0 done / 1 error / 2 in progress
+python enrich/enrich_tracks_direct.py --limit 10   # synchronous, no batch (full price, seconds)
+python enrich/enrich_tracks_direct.py --include-pending  # also redo tracks in the pending batch
 ```
 
 ## Visualization

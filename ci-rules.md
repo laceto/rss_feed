@@ -13,6 +13,7 @@ daily-pipeline  →  collect-sector-results  →  embed-feeds  →  daily-briefi
 - `embed-feeds`: triggered by collect-sector-results — embed new articles → update FAISS + registry → commit
 - `daily-briefing`: triggered by embed-feeds + cron 0 13 * * 1-5 — daily_briefing.py --save → commit
 - `track-metadata` (independent, not chained): push to `data/unique_tracks.csv` + cron 0 6 * * * — create_batch_tracks.py → commit sentinels → retrieve_batch_tracks.py retry loop → commit
+- `track-metadata-direct` (independent, manual): enrich_tracks_direct.py → commit (same store, no batch)
 
 ## Required Settings (all workflows)
 
