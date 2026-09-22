@@ -23,6 +23,7 @@ Usage:
     python enrich/enrich_tracks_direct.py --limit 10
     python enrich/enrich_tracks_direct.py --include-pending   # also redo tracks in the pending batch
     python enrich/enrich_tracks_direct.py --refresh --limit 20  # re-ask + overwrite existing records
+    python enrich/enrich_tracks_direct.py --model gpt-5 --output-tag gpt-5 --limit 20  # side-by-side run
     python enrich/enrich_tracks_direct.py --workers 8 --model gpt-4.1
 
 Exit codes: 0 = done (possibly partial; see log) or nothing to do,
@@ -47,12 +48,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
 from pipeline import track_metadata as tm
-from pipeline.constants import (
-    TRACK_METADATA_CSV,
-    TRACK_METADATA_FILE,
-    TRACKS_BATCH_META_FILE,
-    TRACKS_INPUT_FILE,
-)
+from pipeline.constants import TRACKS_BATCH_META_FILE, TRACKS_INPUT_FILE
 
 DIRECT_BATCH_ID = "direct"
 DEFAULT_WORKERS = 4
@@ -87,6 +83,9 @@ def _parse_args(argv: list[str] | None) -> argparse.Namespace:
                    help=f"Parallel requests (default: {DEFAULT_WORKERS})")
     p.add_argument("--include-pending", action="store_true",
                    help="Also process tracks already submitted in the pending batch")
+    p.add_argument("--output-tag", default=None,
+                   help="Write to a separate store data/track_metadata_<tag>.{jsonl,csv} "
+                        "(e.g. a candidate model) instead of the default store")
     p.add_argument("--refresh", action="store_true",
                    help="Re-ask for tracks already in the store and overwrite them on success")
     return p.parse_args(argv)
@@ -96,8 +95,9 @@ def main(argv: list[str] | None = None, client=None) -> int:
     args = _parse_args(argv)
     print("=== Track Metadata Direct Enrichment ===")
 
+    jsonl_path, csv_path = tm.store_paths(args.output_tag)
     tracks = tm.load_tracks(args.input)
-    existing = tm.load_records(TRACK_METADATA_FILE)
+    existing = tm.load_records(jsonl_path)
     excluded = set(existing)
     pending = set() if args.include_pending else _pending_batch_ids()
     excluded |= pending
@@ -107,6 +107,7 @@ def main(argv: list[str] | None = None, client=None) -> int:
     else:
         todo = tm.select_tracks_to_submit(tracks, excluded, limit=args.limit)
 
+    print(f"Output store           : {jsonl_path}")
     print(f"Unique tracks          : {len(tracks)}")
     print(f"Already enriched       : {len(set(existing) & {t.track_id for t in tracks})}")
     print(f"Skipped (pending batch): {len(pending)}")
@@ -153,10 +154,10 @@ def main(argv: list[str] | None = None, client=None) -> int:
     # refresh: a failed re-ask keeps the old record (only successes overwrite)
     merged, added, dupes = tm.merge_records(existing, records, overwrite=args.refresh)
     if added:
-        tm.write_records(merged, TRACK_METADATA_FILE, TRACK_METADATA_CSV)
+        tm.write_records(merged, jsonl_path, csv_path)
 
     print(f"\nDone: {len(records)} ok, {failed} failed, {dupes} duplicate(s) skipped. "
-          f"Added {added} -> {TRACK_METADATA_FILE} (total {len(merged)}).")
+          f"Added {added} -> {jsonl_path} (total {len(merged)}).")
     return 1 if not records else 0
 
 

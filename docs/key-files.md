@@ -25,6 +25,7 @@ Root shims (`hybrid_rag.py`, `cluster_topics.py`) re-export from `pipeline/` for
 | `batch/retrieve_batch_briefings.py` | Polls batch; assembles briefing JSONs → `data/briefings/{date}.json` |
 | `batch/create_batch_tracks.py` | Submits track-metadata batch for un-enriched rows of `data/unique_tracks.csv` |
 | `enrich/enrich_tracks_direct.py` | Synchronous track enrichment (no Batch API); same schema/parser/store, `batch_id="direct"` |
+| `results/compare_track_models.py` | Diffs two track stores (e.g. model A vs B) → `data/track_model_diff_<tag>.{csv,md}` |
 | `batch/retrieve_batch_tracks.py` | Collects track batch → merges into `data/track_metadata.jsonl` + `.csv` |
 
 ## results/ — Flatten + Export

@@ -108,4 +108,8 @@ One JSON record per line, sorted by `track_id`, first-write-wins per `track_id`:
 list-of-string fields joined with `"; "`, `artist_details` as a JSON string, null as empty cell.
 To re-enrich tracks: `enrich/enrich_tracks_direct.py --refresh` (workflow input `refresh`);
 only successful re-asks overwrite, failures keep the old record.
+**Tagged stores** `data/track_metadata_<tag>.{jsonl,csv}` have the same schema (side-by-side runs,
+e.g. `--output-tag gpt-5`). **Model diff** `data/track_model_diff_<tag>.csv` is long format
+(`track_id, artist, title, field, baseline, candidate, changed`); `.md` is the review report.
+Reasoning models (`gpt-5*`, `o1/o3/o4*`) are sent without `temperature` (they reject it).
 Records written before a schema change lack the newer fields (empty CSV cells) until refreshed.

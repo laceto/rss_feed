@@ -757,3 +757,98 @@ class TestEnforceNoInference:
     def test_prompt_forbids_inference(self):
         assert "artist/label style" not in tm.SYSTEM_PROMPT
         assert "do not infer" in tm.SYSTEM_PROMPT.lower()
+
+
+# ── reasoning models / tagged stores / model comparison ─────────────────────
+
+sys.path.insert(0, str(PROJECT_ROOT / "results"))
+import compare_track_models as ctm
+
+
+class TestReasoningModelTask:
+    @pytest.mark.parametrize("model", ["gpt-5", "gpt-5-mini", "o3", "o4-mini"])
+    def test_reasoning_models_omit_temperature(self, model):
+        assert "temperature" not in tm.build_task(_track(), model=model)["body"]
+
+    @pytest.mark.parametrize("model", ["gpt-4.1", "gpt-4.1-mini", "gpt-4o"])
+    def test_classic_models_keep_temperature_zero(self, model):
+        assert tm.build_task(_track(), model=model)["body"]["temperature"] == 0
+
+
+class TestStorePaths:
+    def test_no_tag_returns_default_store(self):
+        assert tm.store_paths(None) == (TRACK_METADATA_FILE, TRACK_METADATA_CSV)
+
+    def test_tag_returns_separate_files(self):
+        jsonl, csv_path = tm.store_paths("gpt-5")
+        assert jsonl == TRACK_METADATA_FILE.with_name("track_metadata_gpt-5.jsonl")
+        assert csv_path == TRACK_METADATA_CSV.with_name("track_metadata_gpt-5.csv")
+
+    @pytest.mark.parametrize("bad", ["../x", "a/b", "a b", ""])
+    def test_unsafe_tag_raises(self, bad):
+        with pytest.raises(ValueError):
+            tm.store_paths(bad)
+
+
+class TestDirectOutputTag:
+    def test_output_tag_writes_separate_store_and_leaves_default_untouched(self, workdir):
+        tid = tm.make_track_id("Adam Beyer", "China Girl")
+        TRACK_METADATA_FILE.write_text(json.dumps({"track_id": tid}) + "\n", encoding="utf-8")
+        before = TRACK_METADATA_FILE.read_text(encoding="utf-8")
+        client = _FakeDirectClient({})
+        assert etd.main(["--output-tag", "gpt-5", "--model", "gpt-5"], client=client) == 0
+        assert len(client.calls) == 2  # default store's contents don't count as done
+        assert "temperature" not in client.calls[0]
+        tagged, _ = tm.store_paths("gpt-5")
+        assert len(tm.load_records(tagged)) == 2
+        assert TRACK_METADATA_FILE.read_text(encoding="utf-8") == before
+
+
+def _rec(tid, **meta):
+    return {"track_id": tid, "input_artist": "A", "input_title": f"T{tid}", "play_count": 1,
+            "batch_id": "direct", "model": "m", "metadata": _valid_metadata(**meta)}
+
+
+class TestDiffRecords:
+    def test_only_common_tracks_are_compared(self):
+        rows = ctm.diff_records({"a": _rec("a"), "b": _rec("b")}, {"a": _rec("a"), "c": _rec("c")},
+                                fields=["record_label"])
+        assert {r["track_id"] for r in rows} == {"a"}
+
+    def test_changed_flag(self):
+        rows = ctm.diff_records({"a": _rec("a", record_label="Minus")},
+                                {"a": _rec("a", record_label="Plus 8")}, fields=["record_label", "title"])
+        by = {r["field"]: r for r in rows}
+        assert by["record_label"]["changed"] is True
+        assert (by["record_label"]["baseline"], by["record_label"]["candidate"]) == ("Minus", "Plus 8")
+        assert by["title"]["changed"] is False
+
+    def test_lists_are_compared_order_insensitive_and_rendered(self):
+        rows = ctm.diff_records({"a": _rec("a", mood_tags=["dark", "hypnotic"])},
+                                {"a": _rec("a", mood_tags=["hypnotic", "dark"])}, fields=["mood_tags"])
+        assert rows[0]["changed"] is False
+        assert rows[0]["baseline"] == "dark; hypnotic"
+
+    def test_string_compare_ignores_case_and_whitespace(self):
+        rows = ctm.diff_records({"a": _rec("a", record_label="Poker Flat ")},
+                                {"a": _rec("a", record_label="poker flat")}, fields=["record_label"])
+        assert rows[0]["changed"] is False
+
+
+class TestCompareMain:
+    def test_writes_csv_and_markdown(self, tmp_path):
+        base, cand = tmp_path / "b.jsonl", tmp_path / "c.jsonl"
+        tm.write_records({"a": _rec("a", record_label="Minus")}, base, tmp_path / "b.csv")
+        tm.write_records({"a": _rec("a", record_label="Plus 8", identified=False,
+                                    description_basis="unknown")}, cand, tmp_path / "c.csv")
+        out = tmp_path / "diff"
+        assert ctm.main(["--baseline", str(base), "--candidate", str(cand), "--out", str(out)]) == 0
+        with out.with_suffix(".csv").open(encoding="utf-8", newline="") as f:
+            rows = list(csv.DictReader(f))
+        assert any(r["field"] == "record_label" and r["changed"] == "True" for r in rows)
+        md = out.with_suffix(".md").read_text(encoding="utf-8")
+        assert "record_label" in md and "Plus 8" in md
+
+    def test_missing_input_exits_1(self, tmp_path):
+        assert ctm.main(["--baseline", str(tmp_path / "x.jsonl"),
+                         "--candidate", str(tmp_path / "y.jsonl"), "--out", str(tmp_path / "d")]) == 1

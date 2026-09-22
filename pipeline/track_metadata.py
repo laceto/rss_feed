@@ -41,12 +41,14 @@ import csv
 import hashlib
 import json
 import os
+import re
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable, Literal
 
 from pydantic import BaseModel, Field, ValidationError
 
+from .constants import TRACK_METADATA_CSV, TRACK_METADATA_FILE
 from .openai_schema import make_openai_strict
 
 # ── Configuration ─────────────────────────────────────────────────────────────
@@ -56,6 +58,9 @@ from .openai_schema import make_openai_strict
 # correctly returns "unknown"). ~650 tracks at batch pricing is a few USD.
 TRACK_METADATA_MODEL = "gpt-4.1"
 CUSTOM_ID_PREFIX = "track-"
+# Reasoning models reject a non-default temperature (HTTP 400), so it is omitted for them.
+REASONING_MODEL_PREFIXES = ("gpt-5", "o1", "o3", "o4")
+_SAFE_TAG = re.compile(r"^[A-Za-z0-9._-]+$")
 UNKNOWN_TOKENS = frozenset({"", "(unknown)", "unknown"})
 
 
@@ -292,29 +297,53 @@ def select_tracks_to_submit(
 
 # ── Batch tasks ───────────────────────────────────────────────────────────────
 
+def is_reasoning_model(model: str) -> bool:
+    return model.startswith(REASONING_MODEL_PREFIXES)
+
+
+def store_paths(tag: str | None) -> tuple[Path, Path]:
+    """(jsonl, csv) for the default store (tag=None) or a separate tagged store.
+
+    Tagged stores (data/track_metadata_<tag>.*) hold side-by-side runs, e.g. a
+    candidate model, compared with results/compare_track_models.py.
+
+    Raises:
+        ValueError: tag is empty or contains characters outside [A-Za-z0-9._-]
+            (keeps it a plain filename; no path traversal).
+    """
+    if tag is None:
+        return TRACK_METADATA_FILE, TRACK_METADATA_CSV
+    if not _SAFE_TAG.match(tag) or tag in {".", ".."}:
+        raise ValueError(f"invalid output tag {tag!r}: use letters, digits, '.', '_' or '-'")
+    return (TRACK_METADATA_FILE.with_name(f"{TRACK_METADATA_FILE.stem}_{tag}{TRACK_METADATA_FILE.suffix}"),
+            TRACK_METADATA_CSV.with_name(f"{TRACK_METADATA_CSV.stem}_{tag}{TRACK_METADATA_CSV.suffix}"))
+
+
 def build_task(track: TrackInput, model: str = TRACK_METADATA_MODEL) -> dict:
     """One OpenAI Batch API /v1/chat/completions task with strict structured output."""
+    body = {
+        "model": model,
+        "response_format": {
+            "type": "json_schema",
+            "json_schema": {
+                "name": "track_metadata",
+                "schema": STRICT_SCHEMA,
+                "strict": True,
+            },
+        },
+        "messages": [
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": json.dumps(
+                {"artist": track.artist, "title": track.title}, ensure_ascii=False)},
+        ],
+    }
+    if not is_reasoning_model(model):
+        body["temperature"] = 0
     return {
         "custom_id": custom_id_for(track),
         "method": "POST",
         "url": "/v1/chat/completions",
-        "body": {
-            "model": model,
-            "temperature": 0,
-            "response_format": {
-                "type": "json_schema",
-                "json_schema": {
-                    "name": "track_metadata",
-                    "schema": STRICT_SCHEMA,
-                    "strict": True,
-                },
-            },
-            "messages": [
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": json.dumps(
-                    {"artist": track.artist, "title": track.title}, ensure_ascii=False)},
-            ],
-        },
+        "body": body,
     }
 
 

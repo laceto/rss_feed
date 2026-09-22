@@ -106,6 +106,9 @@ python batch/retrieve_batch_tracks.py              # collect: exit 0 done / 1 er
 python enrich/enrich_tracks_direct.py --limit 10   # synchronous, no batch (full price, seconds)
 python enrich/enrich_tracks_direct.py --include-pending  # also redo tracks in the pending batch
 python enrich/enrich_tracks_direct.py --refresh --limit 20  # re-ask + overwrite existing records
+python enrich/enrich_tracks_direct.py --model gpt-5 --output-tag gpt-5 --limit 20  # separate store
+python results/compare_track_models.py --baseline data/track_metadata.jsonl \
+    --candidate data/track_metadata_gpt-5.jsonl --out data/track_model_diff_gpt-5  # -> .csv + .md
 ```
 
 ## Visualization
