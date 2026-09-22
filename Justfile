@@ -82,3 +82,11 @@ chatbot:
 # --- full collect sequence (local) ---
 
 collect: batch-collect flatten charts export-ts build-db cluster topic-charts push-analysis
+
+# --- track-metadata ---
+
+tracks-submit *args:
+    python batch/create_batch_tracks.py {{args}}
+
+tracks-collect:
+    python batch/retrieve_batch_tracks.py

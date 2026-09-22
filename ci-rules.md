@@ -12,6 +12,7 @@ daily-pipeline  →  collect-sector-results  →  embed-feeds  →  daily-briefi
 - `collect-sector-results`: triggered by daily-pipeline — retrieve → flatten → charts → export TSVs → build SQLite → cluster topics → push analysis to HF → commit
 - `embed-feeds`: triggered by collect-sector-results — embed new articles → update FAISS + registry → commit
 - `daily-briefing`: triggered by embed-feeds + cron 0 13 * * 1-5 — daily_briefing.py --save → commit
+- `track-metadata` (independent, not chained): push to `data/unique_tracks.csv` + cron 0 6 * * * — create_batch_tracks.py → commit sentinels → retrieve_batch_tracks.py retry loop → commit
 
 ## Required Settings (all workflows)
 

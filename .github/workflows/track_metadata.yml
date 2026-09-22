@@ -1,0 +1,148 @@
+name: track-metadata
+
+# Enrich data/unique_tracks.csv with structured track + artist metadata via the
+# OpenAI Batch API (kitai.batch). Each run is an idempotent state machine:
+#
+#   no pending batch -> create_batch_tracks.py submits un-enriched tracks,
+#                       sentinel files are committed immediately
+#   pending batch    -> retrieve_batch_tracks.py polls (exit 2 = retry) for up to 1h,
+#                       then merges results into data/track_metadata.{jsonl,csv}
+#
+# Batches that take longer than the poll window are collected by the next run
+# (daily cron or manual dispatch). Submit and retrieve stay separate scripts.
+
+on:
+  push:
+    paths:
+      - 'data/unique_tracks.csv'
+  schedule:
+    - cron: '0 6 * * *'   # daily: collect batches that outlived the 1h poll window
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Max tracks to submit this run (blank = all remaining)'
+        required: false
+        default: ''
+      model:
+        description: 'OpenAI chat model (blank = pipeline default)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: track-metadata
+  cancel-in-progress: false
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+      PYTHONPATH: "."
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Python dependencies
+        run: |
+          pip install openai pydantic python-dotenv
+          pip install git+https://github.com/laceto/kitai.git
+
+      - name: Submit track batch (if none pending)
+        id: submit
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          LIMIT: ${{ github.event.inputs.limit }}
+          MODEL: ${{ github.event.inputs.model }}
+        run: |
+          if [ -f data/pending_tracks_batch.txt ]; then
+            echo "Batch already pending: $(cat data/pending_tracks_batch.txt) -> skipping submit."
+            exit 0
+          fi
+          ARGS=""
+          if [ -n "$LIMIT" ]; then ARGS="$ARGS --limit $LIMIT"; fi
+          if [ -n "$MODEL" ]; then ARGS="$ARGS --model $MODEL"; fi
+          python batch/create_batch_tracks.py $ARGS
+
+      - name: Commit pending sentinels
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          # one path per add: a missing pathspec would abort the whole `git add`
+          for f in data/pending_tracks_batch.txt data/pending_tracks_meta.json; do
+            git add -A -- "$f" 2>/dev/null || true
+          done
+          if git diff --staged --quiet; then
+            echo "No new sentinel files."
+          else
+            git commit -m "track metadata batch submitted"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+
+      - name: Check if a batch is pending
+        id: check
+        run: |
+          if [ -f data/pending_tracks_batch.txt ]; then
+            echo "pending=true" >> "$GITHUB_OUTPUT"
+            echo "Batch ID: $(cat data/pending_tracks_batch.txt)"
+          else
+            echo "pending=false" >> "$GITHUB_OUTPUT"
+            echo "No pending track batch - nothing to collect."
+          fi
+
+      - name: Collect batch results (with retry)
+        if: steps.check.outputs.pending == 'true'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        # Exit codes from retrieve_batch_tracks.py:
+        #   0 = collected   1 = fatal / batch failed   2 = still in progress (retry)
+        run: |
+          MAX_ATTEMPTS=12
+          SLEEP_SECONDS=300   # 5 min between retries -> up to 1 hour total
+
+          for i in $(seq 1 $MAX_ATTEMPTS); do
+            echo "=== Attempt $i / $MAX_ATTEMPTS ==="
+            rc=0
+            python batch/retrieve_batch_tracks.py || rc=$?
+
+            if [ $rc -eq 0 ]; then
+              echo "Collection succeeded on attempt $i."
+              exit 0
+            elif [ $rc -eq 2 ]; then
+              if [ $i -lt $MAX_ATTEMPTS ]; then
+                echo "Batch not ready yet. Waiting ${SLEEP_SECONDS}s..."
+                sleep $SLEEP_SECONDS
+              else
+                echo "Batch still running after $MAX_ATTEMPTS attempts."
+                echo "The daily cron (or a manual run) will collect it."
+                exit 0
+              fi
+            else
+              echo "Fatal error during collection (exit $rc)."
+              exit 1
+            fi
+          done
+
+      - name: Commit track metadata
+        # always(): a failed/expired batch clears its sentinels; commit that too
+        if: always() && steps.check.outputs.pending == 'true'
+        run: |
+          for f in data/track_metadata.jsonl data/track_metadata.csv \
+                   data/pending_tracks_batch.txt data/pending_tracks_meta.json; do
+            git add -A -- "$f" 2>/dev/null || true
+          done
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "track metadata results"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi

@@ -74,3 +74,28 @@ Tab-separated. Columns: `title, description, link, guid, type, id, sponsored, pu
 - TSV rolling window controlled by `EXPORT_LOOKBACK_DAYS = 90` in `constants.py`
 - Topic clustering window: `CLUSTER_WINDOW_DAYS = 45` (separate constant, also in `constants.py`)
 - SQLite contains all dates regardless of rolling window
+
+## TrackMetadata (`data/track_metadata.jsonl`)
+
+Source of truth for track enrichment; defined in `pipeline/track_metadata.py`.
+One JSON record per line, sorted by `track_id`, first-write-wins per `track_id`:
+
+```json
+{"track_id": "3f2a...", "input_artist": "(unknown)", "input_title": "Marco Carola - Weekend",
+ "play_count": 1, "batch_id": "batch_...", "model": "gpt-4.1-mini",
+ "metadata": { ...TrackMetadata... }}
+```
+
+- `track_id` = sha1(lower/whitespace-normalised `"artist|title"`)[:12] — idempotency key
+- `metadata` fields: `identified`, `confidence` (high/medium/low), `artists`, `title`, `mix_name`,
+  `remixers`, `featured_artists`, `record_label`, `catalog_number`, `release_title`,
+  `release_type`, `release_year`, `formats`, `primary_genre` (fixed Literal),
+  `subgenres`, `bpm_estimate`, `musical_key`, `energy`, `mood_tags`, `dj_set_role`,
+  `instrumentation`, `similar_artists`, `description`, `artist_details[]`
+  (`name`, `real_name`, `aliases`, `country`, `city`, `active_since`, `associated_labels`,
+  `associated_acts`, `short_bio`), `parsing_notes`
+- Facts are LLM recall, not a lookup: treat `confidence="low"` / `identified=false` rows as unverified.
+
+`data/track_metadata.csv` is a derived flat view (regenerated on every write):
+list-of-string fields joined with `"; "`, `artist_details` as a JSON string, null as empty cell.
+To re-enrich a track, delete its line from the JSONL and re-run the workflow.

@@ -9,6 +9,8 @@
 | `pipeline/query_entity.py` | Module API: `get_entity_snapshot`, `get_entity_time_series`, `get_all_entities_ts`, `export_entity_ts` |
 | `pipeline/cluster_topics.py` | Daily topic clustering; `run(date)` is the public entry point; exposes `get_emerging_topics`, `ClusteringAborted`, `DuplicateDateError` |
 | `pipeline/hybrid_rag.py` | Hybrid RAG (BM25 + FAISS + query translation); exposes `ask()` public API |
+| `pipeline/track_metadata.py` | Pure logic for track enrichment: `TrackMetadata` schema, prompt, `load_tracks`, `build_task`, `parse_result_item`, `write_records` |
+| `pipeline/openai_schema.py` | `make_openai_strict()` — Pydantic JSON schema → OpenAI strict structured-output schema |
 | `pipeline/__init__.py` | Package entry point; documents public API surface |
 
 Root shims (`hybrid_rag.py`, `cluster_topics.py`) re-export from `pipeline/` for backward compat.
@@ -21,6 +23,8 @@ Root shims (`hybrid_rag.py`, `cluster_topics.py`) re-export from `pipeline/` for
 | `batch/retrieve_batch_file_results.py` | Polls and collects sector batch → `data/sector_results/{date}.json` |
 | `batch/create_batch_briefings.py` | Local FAISS+BM25 retrieval per spike + OpenAI Batch API submission |
 | `batch/retrieve_batch_briefings.py` | Polls batch; assembles briefing JSONs → `data/briefings/{date}.json` |
+| `batch/create_batch_tracks.py` | Submits track-metadata batch for un-enriched rows of `data/unique_tracks.csv` |
+| `batch/retrieve_batch_tracks.py` | Collects track batch → merges into `data/track_metadata.jsonl` + `.csv` |
 
 ## results/ — Flatten + Export
 
@@ -98,6 +102,7 @@ See `notebooks/README.md` for data-source table and daily workflow guide.
 |---|---|
 | `tests/test_cluster_topics.py` | 61 unit tests for `pipeline/cluster_topics.py` (TDD) |
 | `tests/test_build_sector_db.py` | Unit tests for `results/build_sector_db.py` |
+| `tests/test_track_metadata.py` | Unit tests for track-metadata schema, parsing, I/O and both batch CLIs |
 
 ## Required Directories
 

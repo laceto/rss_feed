@@ -23,6 +23,9 @@ Four workflows form a chained daily pipeline. Each triggers the next on success.
 
 All four workflows also support `workflow_dispatch` for manual runs.
 
+A fifth, independent workflow — **`track-metadata`** (`.github/workflows/track_metadata.yml`) — is
+not part of the chain; see section 5.
+
 ---
 
 ## 1. `daily-pipeline`
@@ -142,6 +145,27 @@ All four workflows also support `workflow_dispatch` for manual runs.
 
 ---
 
+## 5. `track-metadata`
+
+**File:** `.github/workflows/track_metadata.yml`
+**Trigger:** push touching `data/unique_tracks.csv` + cron `0 6 * * *` + manual (`limit`, `model` inputs)
+
+Idempotent state machine per run:
+
+| State at start | Action |
+|---|---|
+| no `data/pending_tracks_batch.txt` | `create_batch_tracks.py` submits un-enriched tracks; sentinels committed immediately |
+| pending batch | `retrieve_batch_tracks.py` retried every 5 min for 1 h (exit 2 = retry) |
+| collected | merge into `data/track_metadata.jsonl` + `.csv`, clear sentinels, commit |
+
+- Batches that outlive the 1 h window are collected by the next daily cron / manual run.
+- Per-item failures and failed/expired batches clear the sentinels; the affected tracks are
+  absent from the JSONL, so the next run resubmits them automatically.
+- `concurrency: track-metadata` prevents two runs submitting in parallel.
+- Secret: `OPENAI_API_KEY`.
+
+---
+
 ## Secrets Reference
 
 | Secret | Used by | Purpose |
@@ -162,6 +186,7 @@ gh workflow run collect_sectors.yml               # collect + analyze
 gh workflow run embed_feeds.yml                   # embed articles
 gh workflow run daily_briefing.yml                # today's briefing
 gh workflow run daily_briefing.yml -f date=2026-03-25 -f top=5  # specific date
+gh workflow run track_metadata.yml -f limit=20    # track enrichment smoke test
 
 # Watch a run live
 gh run list --workflow=main.yml --limit=3
@@ -174,6 +199,8 @@ gh run watch <run-id>
 
 | Symptom | Likely cause | Fix |
 |---|---|---|
+| `track-metadata`: every item fails with HTTP 400 | Strict schema rejected | Check `pipeline/openai_schema.py`; compare with `openai.lib._pydantic.to_strict_json_schema` |
+| `track-metadata` submit exits 1 "still pending" | Previous batch not collected yet | Normal — the same run collects it; or run `retrieve_batch_tracks.py` |
 | `collect-sector-results` exits early with "No pending batch" | `daily-pipeline` had nothing new to process | Normal — no action needed |
 | `collect-sector-results` retries 12 times then stops | OpenAI batch took > 1 hour | Re-run manually once batch completes |
 | `cluster_topics.py` exits 2 | Degenerate clustering (too few articles or too much noise) | Check feed volume; re-run next day |

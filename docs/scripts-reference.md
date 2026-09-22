@@ -28,6 +28,8 @@ just topic-charts        # visualize_topics
 just push-analysis       # push analysis to HF
 just embed               # embed new feed articles
 just briefing --save     # generate daily briefing
+just tracks-submit --limit 20  # submit track-metadata batch (smoke test)
+just tracks-collect      # collect track-metadata batch
 just collect             # run full collect sequence locally
 ```
 
@@ -87,6 +89,19 @@ python enrich/daily_briefing.py --no-rag --save    # fast briefing, save to data
 python batch/create_batch_briefings.py             # submit RAG briefing batch
 python batch/create_batch_briefings.py --dry-run   # show counts, no submission
 python batch/retrieve_batch_briefings.py           # collect completed batch
+```
+
+## Track Metadata Batch
+
+Enriches `data/unique_tracks.csv` (artist,title,count) with structured track + artist
+metadata. Output schema: `docs/schemas.md` -> TrackMetadata.
+
+```bash
+python batch/create_batch_tracks.py                # submit all un-enriched tracks
+python batch/create_batch_tracks.py --limit 20     # smoke test on 20 tracks
+python batch/create_batch_tracks.py --dry-run      # write data/batch_tasks_tracks.jsonl only
+python batch/create_batch_tracks.py --model gpt-4.1  # override model
+python batch/retrieve_batch_tracks.py              # collect: exit 0 done / 1 error / 2 in progress
 ```
 
 ## Visualization

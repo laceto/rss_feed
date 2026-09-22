@@ -122,3 +122,19 @@ PENDING_BRIEFINGS_BATCH_FILE = Path("data") / "pending_briefings_batch.txt"
 BRIEFINGS_BATCH_META_FILE    = Path("data") / "pending_briefings_meta.json"
 BATCH_FILE_BRIEFINGS         = Path("data") / "batch_tasks_briefings.jsonl"
 BRIEFINGS_DIR                = Path("data") / "briefings"
+
+# ── Track metadata batch pipeline ────────────────────────────────────────────
+# Enriches data/unique_tracks.csv (DJ library export) with structured music
+# metadata via the OpenAI Batch API. Mirrors the submit/retrieve split:
+#   create_batch_tracks.py   → writes PENDING_TRACKS_BATCH_FILE + TRACKS_BATCH_META_FILE
+#   retrieve_batch_tracks.py → reads them, merges into TRACK_METADATA_FILE (+ CSV view)
+#
+# TRACK_METADATA_FILE is the source of truth (one JSON record per track_id);
+# TRACK_METADATA_CSV is a derived, flattened view regenerated on every write.
+
+TRACKS_INPUT_FILE         = Path("data") / "unique_tracks.csv"
+TRACK_METADATA_FILE       = Path("data") / "track_metadata.jsonl"
+TRACK_METADATA_CSV        = Path("data") / "track_metadata.csv"
+PENDING_TRACKS_BATCH_FILE = Path("data") / "pending_tracks_batch.txt"
+TRACKS_BATCH_META_FILE    = Path("data") / "pending_tracks_meta.json"
+BATCH_FILE_TRACKS         = Path("data") / "batch_tasks_tracks.jsonl"
