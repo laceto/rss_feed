@@ -82,7 +82,7 @@ One JSON record per line, sorted by `track_id`, first-write-wins per `track_id`:
 
 ```json
 {"track_id": "3f2a...", "input_artist": "(unknown)", "input_title": "Marco Carola - Weekend",
- "play_count": 1, "batch_id": "batch_...", "model": "gpt-4.1-mini",
+ "play_count": 1, "batch_id": "batch_...", "model": "gpt-4.1",
  "metadata": { ...TrackMetadata... }}
 ```
 

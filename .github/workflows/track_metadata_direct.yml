@@ -7,9 +7,6 @@ name: track-metadata-direct
 # are skipped unless include_pending is set.
 
 on:
-  push:
-    paths:
-      - '.github/workflows/track_metadata_direct.yml'  # TEMP refresh test - revert
   workflow_dispatch:
     inputs:
       limit:
@@ -59,10 +56,10 @@ jobs:
       - name: Enrich tracks (direct OpenAI calls)
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          LIMIT: ${{ github.event.inputs.limit || '20' }}  # TEMP refresh test - revert
-          MODEL: ${{ github.event.inputs.model || 'gpt-4.1' }}  # TEMP refresh test - revert
+          LIMIT: ${{ github.event.inputs.limit }}
+          MODEL: ${{ github.event.inputs.model }}
           INCLUDE_PENDING: ${{ github.event.inputs.include_pending }}
-          REFRESH: ${{ github.event.inputs.refresh || 'true' }}  # TEMP refresh test - revert
+          REFRESH: ${{ github.event.inputs.refresh }}
         # Exit codes: 0 = done (possibly partial), 1 = every track failed
         run: |
           # latest store first: the batch workflow may have pushed results meanwhile

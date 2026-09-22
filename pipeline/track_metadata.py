@@ -51,9 +51,10 @@ from .openai_schema import make_openai_strict
 
 # ── Configuration ─────────────────────────────────────────────────────────────
 
-# gpt-4.1-mini: materially better recall of underground electronic releases
-# than nano, still cheap at batch pricing (~650 short requests).
-TRACK_METADATA_MODEL = "gpt-4.1-mini"
+# gpt-4.1: under the no-inference rule, recall is what matters. On the 20-track
+# smoke test gpt-4.1 knew 16/20 records vs 1/20 for gpt-4.1-mini (which then
+# correctly returns "unknown"). ~650 tracks at batch pricing is a few USD.
+TRACK_METADATA_MODEL = "gpt-4.1"
 CUSTOM_ID_PREFIX = "track-"
 UNKNOWN_TOKENS = frozenset({"", "(unknown)", "unknown"})
 
