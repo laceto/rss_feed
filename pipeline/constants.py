@@ -122,3 +122,10 @@ PENDING_BRIEFINGS_BATCH_FILE = Path("data") / "pending_briefings_batch.txt"
 BRIEFINGS_BATCH_META_FILE    = Path("data") / "pending_briefings_meta.json"
 BATCH_FILE_BRIEFINGS         = Path("data") / "batch_tasks_briefings.jsonl"
 BRIEFINGS_DIR                = Path("data") / "briefings"
+
+# ── Track metadata (webai + Tavily) ──────────────────────────────────────────
+# enrich/track_metadata.py reads UNIQUE_TRACKS_FILE, writes TRACK_METADATA_FILE.
+
+UNIQUE_TRACKS_FILE   = Path("data") / "unique_tracks.csv"
+TRACK_METADATA_FILE  = Path("data") / "track_metadata.csv"
+TRACK_METADATA_LIMIT = 10

@@ -12,6 +12,7 @@ daily-pipeline  →  collect-sector-results  →  embed-feeds  →  daily-briefi
 - `collect-sector-results`: triggered by daily-pipeline — retrieve → flatten → charts → export TSVs → build SQLite → cluster topics → push analysis to HF → commit
 - `embed-feeds`: triggered by collect-sector-results — embed new articles → update FAISS + registry → commit
 - `daily-briefing`: triggered by embed-feeds + cron 0 13 * * 1-5 — daily_briefing.py --save → commit
+- `track-metadata` (standalone, manual `workflow_dispatch`): installs `laceto/webai` → track_metadata.py → commit `data/track_metadata.csv`. Needs `TAVILY_API_KEY` + `OPENAI_API_KEY` secrets.
 
 ## Required Settings (all workflows)
 

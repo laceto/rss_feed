@@ -81,6 +81,16 @@ python enrich/daily_briefing.py --date 2026-03-21  # briefing for a specific dat
 python enrich/daily_briefing.py --no-rag --save    # fast briefing, save to data/briefings/
 ```
 
+## Track Metadata (webai + Tavily)
+
+Needs `TAVILY_API_KEY`, `OPENAI_API_KEY` and `webai` installed (`pip install git+https://github.com/laceto/webai.git`).
+
+```bash
+python enrich/track_metadata.py                       # first 10 rows of data/unique_tracks.csv -> data/track_metadata.csv
+python enrich/track_metadata.py --limit 25 --offset 10
+python enrich/track_metadata.py --dry-run             # list input rows, no API calls
+```
+
 ## Briefing Batch
 
 ```bash

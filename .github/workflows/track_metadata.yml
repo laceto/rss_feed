@@ -1,0 +1,63 @@
+name: track-metadata
+
+# Look up structured track metadata (artist, title, mix, label, year, genre, ...)
+# for rows of data/unique_tracks.csv via webai.TrackResearcher (Tavily + OpenAI),
+# then commit data/track_metadata.csv. Idempotent: already-enriched rows are skipped.
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Number of rows of unique_tracks.csv to process (default: 10)'
+        required: false
+        default: '10'
+      offset:
+        description: 'Row offset to start from (default: 0)'
+        required: false
+        default: '0'
+      webai_ref:
+        description: 'laceto/webai git ref (branch/tag/SHA) to install'
+        required: false
+        default: 'main'
+
+jobs:
+  track-metadata:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+      PYTHONPATH: "."
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Python dependencies
+        run: |
+          pip install pandas python-dotenv
+          pip install "git+https://github.com/laceto/webai.git@${{ github.event.inputs.webai_ref || 'main' }}"
+          # webai.utils imports kitai; --no-deps because kitai pins langchain<1.0,
+          # which conflicts with webai's langchain-core>=1 (webai only needs kitai's
+          # langchain_core-based modules).
+          pip install --no-deps git+https://github.com/laceto/kitai.git
+
+      - name: Look up track metadata
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python enrich/track_metadata.py \
+            --limit "${{ github.event.inputs.limit || '10' }}" \
+            --offset "${{ github.event.inputs.offset || '0' }}"
+
+      - name: Commit track metadata
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add data/track_metadata.csv
+          git diff --staged --quiet || git commit -m "track metadata"
+          git pull --rebase origin "${{ github.ref_name }}"
+          git push origin "HEAD:${{ github.ref_name }}"

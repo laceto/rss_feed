@@ -82,3 +82,8 @@ chatbot:
 # --- full collect sequence (local) ---
 
 collect: batch-collect flatten charts export-ts build-db cluster topic-charts push-analysis
+
+# --- track-metadata (webai + Tavily) ---
+
+track-metadata *args:
+    python enrich/track_metadata.py {{args}}
