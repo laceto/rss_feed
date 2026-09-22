@@ -152,8 +152,11 @@ RULES:
   description_basis="unknown", and leave every descriptive field null / [] (genre,
   subgenres, BPM, key, energy, mood, set role, similar artists, all sound fields,
   review_blurb). Say so in description ("Track not known.").
-  Still return what the raw tag itself states (cleaned artist/title, mix, remixer,
-  catalog number / label written in the tag) and artist_details you actually know.
+  Still parse the raw tag fully: split it into artists / title / mix_name / remixers
+  with canonical spelling and capitalisation (fix CAPS, underscores, mojibake), keep any
+  catalog number or label written in the tag, and fill artist_details you actually know.
+- Recognising a well-known record counts as knowledge: if you know the track, say
+  identified=true / description_basis="known track" and describe it.
 - artist_details must contain one entry per name in `artists`.
 - Explain in parsing_notes how you interpreted the raw tag when it needed cleaning.
 
