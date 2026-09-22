@@ -15,7 +15,6 @@ on:
   push:
     paths:
       - 'data/unique_tracks.csv'
-      - '.github/workflows/track_metadata.yml'  # TEMP smoke test - revert before merge
   schedule:
     - cron: '0 6 * * *'   # daily: collect batches that outlived the 1h poll window
   workflow_dispatch:
@@ -60,7 +59,7 @@ jobs:
         id: submit
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          LIMIT: ${{ github.event.inputs.limit || '10' }}  # TEMP smoke test: default 10 - revert before merge
+          LIMIT: ${{ github.event.inputs.limit }}
           MODEL: ${{ github.event.inputs.model }}
         run: |
           if [ -f data/pending_tracks_batch.txt ]; then
@@ -111,6 +110,8 @@ jobs:
 
           for i in $(seq 1 $MAX_ATTEMPTS); do
             echo "=== Attempt $i / $MAX_ATTEMPTS ==="
+            # latest store first: track-metadata-direct may have pushed results meanwhile
+            git pull --rebase origin "${GITHUB_REF_NAME}"
             rc=0
             python batch/retrieve_batch_tracks.py || rc=$?
 

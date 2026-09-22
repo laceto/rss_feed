@@ -7,9 +7,6 @@ name: track-metadata-direct
 # are skipped unless include_pending is set.
 
 on:
-  push:
-    paths:
-      - '.github/workflows/track_metadata_direct.yml'  # TEMP smoke test - revert before merge
   workflow_dispatch:
     inputs:
       limit:
@@ -54,7 +51,7 @@ jobs:
       - name: Enrich tracks (direct OpenAI calls)
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          LIMIT: ${{ github.event.inputs.limit || '10' }}  # TEMP smoke test: push default 10
+          LIMIT: ${{ github.event.inputs.limit }}
           MODEL: ${{ github.event.inputs.model }}
           INCLUDE_PENDING: ${{ github.event.inputs.include_pending }}
         # Exit codes: 0 = done (possibly partial), 1 = every track failed
