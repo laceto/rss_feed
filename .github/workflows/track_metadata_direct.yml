@@ -7,9 +7,6 @@ name: track-metadata-direct
 # are skipped unless include_pending is set.
 
 on:
-  push:
-    paths:
-      - '.github/workflows/track_metadata_direct.yml'  # TEMP gpt-5 test - revert
   workflow_dispatch:
     inputs:
       limit:
@@ -49,7 +46,7 @@ jobs:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
       PYTHONPATH: "."
       # job-level so step `if:` conditions can read it
-      OUTPUT_TAG: ${{ github.event.inputs.output_tag || 'gpt-5' }}  # TEMP gpt-5 test - revert
+      OUTPUT_TAG: ${{ github.event.inputs.output_tag }}
 
     steps:
       - uses: actions/checkout@v4
@@ -65,8 +62,8 @@ jobs:
       - name: Enrich tracks (direct OpenAI calls)
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          LIMIT: ${{ github.event.inputs.limit || '20' }}  # TEMP gpt-5 test - revert
-          MODEL: ${{ github.event.inputs.model || 'gpt-5' }}  # TEMP gpt-5 test - revert
+          LIMIT: ${{ github.event.inputs.limit }}
+          MODEL: ${{ github.event.inputs.model }}
           INCLUDE_PENDING: ${{ github.event.inputs.include_pending }}
           REFRESH: ${{ github.event.inputs.refresh }}
         # Exit codes: 0 = done (possibly partial), 1 = every track failed
