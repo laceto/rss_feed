@@ -22,8 +22,9 @@ Invariants:
   - Raw artist/title strings are sent to the model unchanged; cleaning messy
     tags (artist in title field, vinyl side prefixes, mojibake) is the model's
     job and is reported back in `parsing_notes`.
-  - merge_records() is first-write-wins: an existing track_id is never
-    overwritten. Delete its line from the JSONL to force re-enrichment.
+  - merge_records() is first-write-wins by default: an existing track_id is
+    never overwritten. Re-enrichment is explicit: merge_records(overwrite=True),
+    used by `enrich_tracks_direct.py --refresh`.
   - write_records() writes atomically (.tmp + os.replace) and regenerates the
     CSV view from the full record set.
 
@@ -105,8 +106,19 @@ class TrackMetadata(BaseModel):
     mood_tags: list[str] = Field(..., description="Mood descriptors, e.g. 'hypnotic', 'dark', 'groovy'.")
     dj_set_role: Literal["warm-up", "peak-time", "closing", "after-hours", "any"] | None = Field(
         ..., description="Where the track typically fits in a DJ set.")
-    instrumentation: list[str] = Field(
-        ..., description="Salient sound elements, e.g. '303 acid line', 'vocal sample', 'organ stabs'.")
+    # ── Sound description (vocabulary of record-shop / label press copy) ──
+    groove: str | None = Field(..., description="Rhythm and groove feel, e.g. 'chunky, body-moving, shuffling'.")
+    percussion: list[str] = Field(..., description="Drum / percussion elements, e.g. 'tribal drums', 'rolling hi-hats'.")
+    bassline: str | None = Field(..., description="Bass character, e.g. 'rubbery, bouncing sub'.")
+    vocals: str | None = Field(..., description="Vocal character, e.g. 'smoldering vocal hooks'; null if instrumental/unknown.")
+    melodic_elements: list[str] = Field(..., description="Synths, chords, samples, e.g. 'organ stabs', '303 acid line'.")
+    texture: list[str] = Field(..., description="Sonic texture / production feel, e.g. 'raw', 'gritty', 'warm', 'crisp'.")
+    emotional_character: str | None = Field(..., description="Emotional core, e.g. 'soulful, heartfelt human energy'.")
+    dancefloor_effect: str | None = Field(..., description="What it does to a crowd, e.g. 'grabs you by the hips'.")
+    review_blurb: str | None = Field(
+        ..., description="2-3 sentence evocative review in record-shop / press style.")
+    description_basis: Literal["known track", "artist/label style", "title only"] = Field(
+        ..., description="What the sound description is based on.")
     similar_artists: list[str] = Field(..., description="Up to 5 stylistically similar artists.")
     description: str | None = Field(..., description="1-3 factual sentences about the track.")
     artist_details: list[ArtistInfo] = Field(..., description="One entry per name in `artists`.")
@@ -137,6 +149,26 @@ RULES:
 - artist_details must contain one entry per name in `artists`.
 - bpm_estimate may be a genre-typical estimate only when identified=true.
 - Explain in parsing_notes how you interpreted the raw tag when it needed cleaning.
+
+SOUND DESCRIPTION (groove, percussion, bassline, vocals, melodic_elements, texture,
+emotional_character, dancefloor_effect, review_blurb):
+Describe the track the way a record-shop or label press text would. Style reference
+(for tone and the kinds of elements to cover only -- do NOT copy its phrases):
+
+  "Their 'Lift Me Up' is a chunky tech house heater that grabs you by the hips. The
+   body-moving groove is anchored by tribal drums, but there's plenty of soul within:
+   smoldering vocal hooks rise from the depths and bring a heartfelt human energy.
+   It's a dancefloor confessional that's real, raw and gritty."
+
+- Cover: genre + energy, groove, drums/percussion, bass, vocals, melodic/sample elements,
+  emotional character, texture, and the effect on the dancefloor.
+- Be specific to THIS track; avoid generic filler that would fit any record.
+- Set description_basis honestly:
+    "known track"         -> you know how this track actually sounds
+    "artist/label style"  -> you don't know the track, but describe the artist's/label's
+                             typical sound for that era; keep it hedged ("likely", "typical of")
+    "title only"          -> nothing known; keep fields minimal (null / []) and review_blurb null
+- Never invent vocals: use null for vocals unless you know the track has them.
 """
 
 
@@ -212,11 +244,12 @@ def load_tracks(path: Path) -> list[TrackInput]:
 
 def select_tracks_to_submit(
     tracks: list[TrackInput], done_ids: set[str], limit: int | None = None,
+    refresh: bool = False,
 ) -> list[TrackInput]:
-    """Tracks not yet enriched, capped at `limit` (None or 0 = no cap)."""
+    """Tracks not yet enriched (or all, if refresh), capped at `limit` (None or 0 = no cap)."""
     if limit is not None and limit < 0:
         raise ValueError(f"limit must be >= 0, got {limit}")
-    todo = [t for t in tracks if t.track_id not in done_ids]
+    todo = list(tracks) if refresh else [t for t in tracks if t.track_id not in done_ids]
     return todo[:limit] if limit else todo
 
 
@@ -316,13 +349,14 @@ def load_records(path: Path) -> dict[str, dict]:
 
 
 def merge_records(
-    existing: dict[str, dict], new: Iterable[dict],
+    existing: dict[str, dict], new: Iterable[dict], overwrite: bool = False,
 ) -> tuple[dict[str, dict], int, int]:
-    """First-write-wins merge. Returns (merged, added_count, duplicate_count)."""
+    """Merge new records. Default first-write-wins; overwrite=True replaces existing
+    track_ids (explicit re-enrichment). Returns (merged, written_count, skipped_duplicates)."""
     merged = dict(existing)
     added = dupes = 0
     for rec in new:
-        if rec["track_id"] in merged:
+        if rec["track_id"] in merged and not overwrite:
             dupes += 1
             continue
         merged[rec["track_id"]] = rec

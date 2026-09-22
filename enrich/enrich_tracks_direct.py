@@ -22,6 +22,7 @@ Architecture:
 Usage:
     python enrich/enrich_tracks_direct.py --limit 10
     python enrich/enrich_tracks_direct.py --include-pending   # also redo tracks in the pending batch
+    python enrich/enrich_tracks_direct.py --refresh --limit 20  # re-ask + overwrite existing records
     python enrich/enrich_tracks_direct.py --workers 8 --model gpt-4.1
 
 Exit codes: 0 = done (possibly partial; see log) or nothing to do,
@@ -86,6 +87,8 @@ def _parse_args(argv: list[str] | None) -> argparse.Namespace:
                    help=f"Parallel requests (default: {DEFAULT_WORKERS})")
     p.add_argument("--include-pending", action="store_true",
                    help="Also process tracks already submitted in the pending batch")
+    p.add_argument("--refresh", action="store_true",
+                   help="Re-ask for tracks already in the store and overwrite them on success")
     return p.parse_args(argv)
 
 
@@ -98,12 +101,17 @@ def main(argv: list[str] | None = None, client=None) -> int:
     excluded = set(existing)
     pending = set() if args.include_pending else _pending_batch_ids()
     excluded |= pending
-    todo = tm.select_tracks_to_submit(tracks, excluded, limit=args.limit)
+    if args.refresh:
+        todo = tm.select_tracks_to_submit(
+            [t for t in tracks if t.track_id not in pending], set(), limit=args.limit, refresh=True)
+    else:
+        todo = tm.select_tracks_to_submit(tracks, excluded, limit=args.limit)
 
     print(f"Unique tracks          : {len(tracks)}")
     print(f"Already enriched       : {len(set(existing) & {t.track_id for t in tracks})}")
     print(f"Skipped (pending batch): {len(pending)}")
-    print(f"To process this run    : {len(todo)} (model {args.model}, {args.workers} workers)")
+    print(f"To process this run    : {len(todo)} (model {args.model}, {args.workers} workers"
+          f"{', REFRESH: overwrite on success' if args.refresh else ''})")
     if not todo:
         print("Nothing to do.")
         return 0
@@ -134,12 +142,16 @@ def main(argv: list[str] | None = None, client=None) -> int:
             records.append(rec)
             m = rec["metadata"]
             print(f"[ok]   {t.artist} - {t.title} -> {', '.join(m['artists'])} - {m['title']} "
-                  f"| {m['record_label']} {m['release_year']} | {m['primary_genre']} | {m['confidence']}")
+                  f"| {m['record_label']} {m['release_year']} | {m['primary_genre']} | {m['confidence']} "
+                  f"| basis: {m['description_basis']}")
+            if m["review_blurb"]:
+                print(f"       \"{m['review_blurb']}\"")
         except tm.TrackResultError as exc:
             print(f"[fail] {item['custom_id']} ({t.artist} - {t.title}): {exc}")
             failed += 1
 
-    merged, added, dupes = tm.merge_records(existing, records)
+    # refresh: a failed re-ask keeps the old record (only successes overwrite)
+    merged, added, dupes = tm.merge_records(existing, records, overwrite=args.refresh)
     if added:
         tm.write_records(merged, TRACK_METADATA_FILE, TRACK_METADATA_CSV)
 

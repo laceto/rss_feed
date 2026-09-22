@@ -91,11 +91,15 @@ One JSON record per line, sorted by `track_id`, first-write-wins per `track_id`:
   `remixers`, `featured_artists`, `record_label`, `catalog_number`, `release_title`,
   `release_type`, `release_year`, `formats`, `primary_genre` (fixed Literal),
   `subgenres`, `bpm_estimate`, `musical_key`, `energy`, `mood_tags`, `dj_set_role`,
-  `instrumentation`, `similar_artists`, `description`, `artist_details[]`
+  sound description: `groove`, `percussion`, `bassline`, `vocals`, `melodic_elements`, `texture`,
+  `emotional_character`, `dancefloor_effect`, `review_blurb` (press-style prose),
+  `description_basis` (known track / artist/label style / title only), `similar_artists`, `description`, `artist_details[]`
   (`name`, `real_name`, `aliases`, `country`, `city`, `active_since`, `associated_labels`,
   `associated_acts`, `short_bio`), `parsing_notes`
 - Facts are LLM recall, not a lookup: treat `confidence="low"` / `identified=false` rows as unverified.
 
 `data/track_metadata.csv` is a derived flat view (regenerated on every write):
 list-of-string fields joined with `"; "`, `artist_details` as a JSON string, null as empty cell.
-To re-enrich a track, delete its line from the JSONL and re-run the workflow.
+To re-enrich tracks: `enrich/enrich_tracks_direct.py --refresh` (workflow input `refresh`);
+only successful re-asks overwrite, failures keep the old record.
+Records written before a schema change lack the newer fields (empty CSV cells) until refreshed.

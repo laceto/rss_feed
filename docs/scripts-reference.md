@@ -105,6 +105,7 @@ python batch/create_batch_tracks.py --model gpt-4.1  # override model
 python batch/retrieve_batch_tracks.py              # collect: exit 0 done / 1 error / 2 in progress
 python enrich/enrich_tracks_direct.py --limit 10   # synchronous, no batch (full price, seconds)
 python enrich/enrich_tracks_direct.py --include-pending  # also redo tracks in the pending batch
+python enrich/enrich_tracks_direct.py --refresh --limit 20  # re-ask + overwrite existing records
 ```
 
 ## Visualization

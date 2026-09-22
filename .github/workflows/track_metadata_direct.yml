@@ -7,6 +7,9 @@ name: track-metadata-direct
 # are skipped unless include_pending is set.
 
 on:
+  push:
+    paths:
+      - '.github/workflows/track_metadata_direct.yml'  # TEMP refresh test - revert
   workflow_dispatch:
     inputs:
       limit:
@@ -19,6 +22,11 @@ on:
         default: ''
       include_pending:
         description: 'Also process tracks already in the pending batch'
+        type: boolean
+        required: false
+        default: false
+      refresh:
+        description: 'Re-ask for tracks already enriched and overwrite them'
         type: boolean
         required: false
         default: false
@@ -51,9 +59,10 @@ jobs:
       - name: Enrich tracks (direct OpenAI calls)
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          LIMIT: ${{ github.event.inputs.limit }}
+          LIMIT: ${{ github.event.inputs.limit || '20' }}  # TEMP refresh test - revert
           MODEL: ${{ github.event.inputs.model }}
           INCLUDE_PENDING: ${{ github.event.inputs.include_pending }}
+          REFRESH: ${{ github.event.inputs.refresh || 'true' }}  # TEMP refresh test - revert
         # Exit codes: 0 = done (possibly partial), 1 = every track failed
         run: |
           # latest store first: the batch workflow may have pushed results meanwhile
@@ -62,6 +71,7 @@ jobs:
           if [ -n "$LIMIT" ]; then ARGS="$ARGS --limit $LIMIT"; fi
           if [ -n "$MODEL" ]; then ARGS="$ARGS --model $MODEL"; fi
           if [ "$INCLUDE_PENDING" = "true" ]; then ARGS="$ARGS --include-pending"; fi
+          if [ "$REFRESH" = "true" ]; then ARGS="$ARGS --refresh"; fi
           python enrich/enrich_tracks_direct.py $ARGS
 
       - name: Commit track metadata

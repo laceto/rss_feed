@@ -67,7 +67,16 @@ def _valid_metadata(**overrides) -> dict:
         "energy": "high",
         "mood_tags": ["hypnotic"],
         "dj_set_role": "peak-time",
-        "instrumentation": ["percussive loops"],
+        "groove": "chunky, rolling loop groove",
+        "percussion": ["tribal drums", "clattering hi-hats"],
+        "bassline": "dry, stabbing sub bass",
+        "vocals": None,
+        "melodic_elements": ["hypnotic stab"],
+        "texture": ["raw", "gritty"],
+        "emotional_character": "relentless, hypnotic",
+        "dancefloor_effect": "locks the room into a trance-like shuffle",
+        "review_blurb": "A relentless loop workout that never lets go.",
+        "description_basis": "known track",
         "similar_artists": ["Christian Varela"],
         "description": "Loop-driven Neapolitan minimal techno.",
         "artist_details": [{
@@ -362,6 +371,12 @@ class TestRecordsIO:
         assert set(merged) == {"x", "y"}
         assert (added, dupes) == (1, 1)
 
+    def test_merge_overwrite_replaces_existing(self):
+        existing = {"x": self._record("x", "old")}
+        merged, added, dupes = tm.merge_records(existing, [self._record("x", "new")], overwrite=True)
+        assert merged["x"]["input_title"] == "new"
+        assert (added, dupes) == (1, 0)
+
     def test_write_then_load_roundtrip(self, tmp_path):
         jsonl, csv_path = tmp_path / "o.jsonl", tmp_path / "o.csv"
         records = {"x": self._record("x"), "y": self._record("y")}
@@ -620,3 +635,57 @@ class TestEnrichTracksDirectMain:
         client = _FakeDirectClient({})
         assert etd.main([], client=client) == 0
         assert client.calls == []
+
+
+class TestSoundDescriptionSchema:
+    def test_sound_fields_present_in_strict_schema(self):
+        props = tm.STRICT_SCHEMA["properties"]
+        for field in ("groove", "percussion", "bassline", "vocals", "melodic_elements", "texture",
+                      "emotional_character", "dancefloor_effect", "review_blurb", "description_basis"):
+            assert field in props, field
+        assert "instrumentation" not in props  # superseded by percussion/bassline/melodic_elements
+
+    def test_description_basis_is_a_closed_set(self):
+        with pytest.raises(Exception):
+            tm.TrackMetadata.model_validate(_valid_metadata(description_basis="vibes"))
+
+    def test_prompt_carries_style_reference(self):
+        assert "grabs you by the hips" in tm.SYSTEM_PROMPT
+        assert "do not copy" in tm.SYSTEM_PROMPT.lower()
+
+
+class TestSelectTracksRefresh:
+    def test_refresh_ignores_done_ids(self):
+        a = _track("A", "1")
+        assert tm.select_tracks_to_submit([a], done_ids={a.track_id}, refresh=True) == [a]
+
+
+class TestEnrichTracksDirectRefresh:
+    def _seed(self):
+        tid = tm.make_track_id("Adam Beyer", "China Girl")
+        old = {"track_id": tid, "input_artist": "Adam Beyer", "input_title": "China Girl",
+               "play_count": 1, "batch_id": "batch_old", "model": "m",
+               "metadata": _valid_metadata(review_blurb=None)}
+        TRACK_METADATA_FILE.write_text(json.dumps(old) + "\n", encoding="utf-8")
+        return tid
+
+    def test_without_refresh_existing_tracks_are_skipped(self, workdir):
+        self._seed()
+        client = _FakeDirectClient({})
+        etd.main([], client=client)
+        assert len(client.calls) == 1
+
+    def test_refresh_reasks_and_overwrites(self, workdir):
+        tid = self._seed()
+        client = _FakeDirectClient({})
+        assert etd.main(["--refresh"], client=client) == 0
+        assert len(client.calls) == 2
+        rec = tm.load_records(TRACK_METADATA_FILE)[tid]
+        assert rec["batch_id"] == "direct"
+        assert rec["metadata"]["review_blurb"] == "A relentless loop workout that never lets go."
+
+    def test_refresh_failure_keeps_old_record(self, workdir):
+        tid = self._seed()
+        client = _FakeDirectClient({"China Girl": RuntimeError("down")})
+        etd.main(["--refresh"], client=client)
+        assert tm.load_records(TRACK_METADATA_FILE)[tid]["batch_id"] == "batch_old"

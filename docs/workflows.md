@@ -166,7 +166,7 @@ Idempotent state machine per run:
 
 ### 5b. `track-metadata-direct`
 
-**File:** `.github/workflows/track_metadata_direct.yml` — manual (`limit` default 10, `model`, `include_pending`).
+**File:** `.github/workflows/track_metadata_direct.yml` — manual (`limit` default 10, `model`, `include_pending`, `refresh`).
 Runs `enrich/enrich_tracks_direct.py` (direct chat completions, no batch) and commits into the same store.
 Tracks in a pending batch are skipped by default. Both workflows `git pull --rebase` right before
 writing results so concurrent runs do not conflict on `data/track_metadata.jsonl`.
