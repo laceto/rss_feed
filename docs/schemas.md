@@ -93,10 +93,16 @@ One JSON record per line, sorted by `track_id`, first-write-wins per `track_id`:
   `subgenres`, `bpm_estimate`, `musical_key`, `energy`, `mood_tags`, `dj_set_role`,
   sound description: `groove`, `percussion`, `bassline`, `vocals`, `melodic_elements`, `texture`,
   `emotional_character`, `dancefloor_effect`, `review_blurb` (press-style prose),
-  `description_basis` (known track / artist/label style / title only), `similar_artists`, `description`, `artist_details[]`
+  `description_basis` (`known track` | `unknown`), `similar_artists`, `description`, `artist_details[]`
   (`name`, `real_name`, `aliases`, `country`, `city`, `active_since`, `associated_labels`,
   `associated_acts`, `short_bio`), `parsing_notes`
 - Facts are LLM recall, not a lookup: treat `confidence="low"` / `identified=false` rows as unverified.
+- **No inference** (enforced in code by `enforce_no_inference()`, not just the prompt):
+  `identified=false` <=> `description_basis="unknown"`; unknown tracks have all descriptive
+  fields null/[] (genre, subgenres, BPM, key, energy, mood, set role, similar artists, sound
+  fields, review_blurb) and `description = "Track not known: no reliable information available."`.
+  Tag-parsed fields (artists, title, mix, remixers, label/catalog from the tag) and
+  `artist_details` are kept.
 
 `data/track_metadata.csv` is a derived flat view (regenerated on every write):
 list-of-string fields joined with `"; "`, `artist_details` as a JSON string, null as empty cell.

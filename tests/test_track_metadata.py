@@ -645,6 +645,11 @@ class TestSoundDescriptionSchema:
             assert field in props, field
         assert "instrumentation" not in props  # superseded by percussion/bassline/melodic_elements
 
+    def test_description_basis_is_known_or_unknown_only(self):
+        tm.TrackMetadata.model_validate(_valid_metadata(description_basis="unknown"))
+        with pytest.raises(Exception):
+            tm.TrackMetadata.model_validate(_valid_metadata(description_basis="artist/label style"))
+
     def test_description_basis_is_a_closed_set(self):
         with pytest.raises(Exception):
             tm.TrackMetadata.model_validate(_valid_metadata(description_basis="vibes"))
@@ -689,3 +694,66 @@ class TestEnrichTracksDirectRefresh:
         client = _FakeDirectClient({"China Girl": RuntimeError("down")})
         etd.main(["--refresh"], client=client)
         assert tm.load_records(TRACK_METADATA_FILE)[tid]["batch_id"] == "batch_old"
+
+
+# ── enforce_no_inference ─────────────────────────────────────────────────────
+
+_INFERRED_NULL = ("groove", "bassline", "vocals", "emotional_character", "dancefloor_effect",
+                  "review_blurb", "bpm_estimate", "musical_key", "energy", "dj_set_role", "primary_genre")
+_INFERRED_EMPTY = ("percussion", "melodic_elements", "texture", "mood_tags", "subgenres", "similar_artists")
+
+
+class TestEnforceNoInference:
+    def _unknown(self, **kw) -> tm.TrackMetadata:
+        base = dict(identified=False, confidence="low", description_basis="unknown")
+        base.update(kw)
+        return tm.TrackMetadata.model_validate(_valid_metadata(**base))
+
+    def test_known_track_is_unchanged(self):
+        meta = tm.TrackMetadata.model_validate(_valid_metadata())
+        assert tm.enforce_no_inference(meta) == meta
+
+    def test_unknown_clears_every_inferred_field(self):
+        out = tm.enforce_no_inference(self._unknown())
+        for f in _INFERRED_NULL:
+            assert getattr(out, f) is None, f
+        for f in _INFERRED_EMPTY:
+            assert getattr(out, f) == [], f
+
+    def test_unknown_says_so_in_description(self):
+        out = tm.enforce_no_inference(self._unknown(description="A smooth sensual groove."))
+        assert out.description == tm.UNKNOWN_TRACK_NOTE
+
+    def test_unknown_keeps_tag_parsed_and_artist_knowledge(self):
+        out = tm.enforce_no_inference(self._unknown(catalog_number="AFV001B", mix_name="Kaiserdisco Mix"))
+        assert out.artists == ["Marco Carola"]
+        assert out.title == "Step By Step"
+        assert out.catalog_number == "AFV001B"
+        assert out.mix_name == "Kaiserdisco Mix"
+        assert out.artist_details[0].city == "Naples"
+
+    def test_not_identified_forces_unknown_basis(self):
+        meta = tm.TrackMetadata.model_validate(
+            _valid_metadata(identified=False, confidence="low", description_basis="known track"))
+        out = tm.enforce_no_inference(meta)
+        assert out.description_basis == "unknown"
+        assert out.review_blurb is None
+
+    def test_unknown_basis_forces_not_identified(self):
+        meta = tm.TrackMetadata.model_validate(_valid_metadata(description_basis="unknown"))
+        out = tm.enforce_no_inference(meta)
+        assert out.identified is False
+        assert out.confidence == "low"
+
+    def test_parse_result_item_applies_enforcement(self):
+        track = _track()
+        cid = tm.custom_id_for(track)
+        payload = _valid_metadata(identified=False, confidence="low", description_basis="unknown")
+        rec = tm.parse_result_item(_result_item(cid, json.dumps(payload)), {cid: track},
+                                   batch_id="b", model="m")
+        assert rec["metadata"]["review_blurb"] is None
+        assert rec["metadata"]["description"] == tm.UNKNOWN_TRACK_NOTE
+
+    def test_prompt_forbids_inference(self):
+        assert "artist/label style" not in tm.SYSTEM_PROMPT
+        assert "do not infer" in tm.SYSTEM_PROMPT.lower()

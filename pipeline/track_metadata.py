@@ -22,6 +22,8 @@ Invariants:
   - Raw artist/title strings are sent to the model unchanged; cleaning messy
     tags (artist in title field, vinyl side prefixes, mojibake) is the model's
     job and is reported back in `parsing_notes`.
+  - No inference: enforce_no_inference() runs on every parsed result, so an
+    unknown track never carries descriptive fields (see UNKNOWN_TRACK_NOTE).
   - merge_records() is first-write-wins by default: an existing track_id is
     never overwritten. Re-enrichment is explicit: merge_records(overwrite=True),
     used by `enrich_tracks_direct.py --refresh`.
@@ -98,7 +100,7 @@ class TrackMetadata(BaseModel):
     release_year: int | None = Field(..., description="Year of original release.")
     formats: list[Literal["vinyl", "digital", "CD", "cassette"]] = Field(
         ..., description="Known release formats.")
-    primary_genre: Genre = Field(..., description="Single best-fit genre.")
+    primary_genre: Genre | None = Field(..., description="Single best-fit genre; null if the track is unknown.")
     subgenres: list[str] = Field(..., description="Finer style tags, e.g. 'Romanian minimal', 'loop techno'.")
     bpm_estimate: int | None = Field(..., description="Typical tempo in BPM; null if no reasonable basis.")
     musical_key: str | None = Field(..., description="Key (e.g. 'A minor' or Camelot '8A') if known.")
@@ -117,8 +119,8 @@ class TrackMetadata(BaseModel):
     dancefloor_effect: str | None = Field(..., description="What it does to a crowd, e.g. 'grabs you by the hips'.")
     review_blurb: str | None = Field(
         ..., description="2-3 sentence evocative review in record-shop / press style.")
-    description_basis: Literal["known track", "artist/label style", "title only"] = Field(
-        ..., description="What the sound description is based on.")
+    description_basis: Literal["known track", "unknown"] = Field(
+        ..., description="'known track' only if you actually know this track; otherwise 'unknown'.")
     similar_artists: list[str] = Field(..., description="Up to 5 stylistically similar artists.")
     description: str | None = Field(..., description="1-3 factual sentences about the track.")
     artist_details: list[ArtistInfo] = Field(..., description="One entry per name in `artists`.")
@@ -144,10 +146,15 @@ RULES:
 - Output ONLY JSON matching the schema.
 - Never invent facts. If you are not reasonably sure of a field, use null
   (or [] for lists). Prefer null over a guess for label, catalog number, year, key.
-- Set identified=false and confidence="low" when you do not recognise the specific track;
-  still return the cleaned artist/title you can infer from the raw tag.
+- Do not infer. Describe a track only from actual knowledge of THAT track -- never from
+  the artist's usual style, the label, the title or the genre.
+- If you do not know the specific track: identified=false, confidence="low",
+  description_basis="unknown", and leave every descriptive field null / [] (genre,
+  subgenres, BPM, key, energy, mood, set role, similar artists, all sound fields,
+  review_blurb). Say so in description ("Track not known.").
+  Still return what the raw tag itself states (cleaned artist/title, mix, remixer,
+  catalog number / label written in the tag) and artist_details you actually know.
 - artist_details must contain one entry per name in `artists`.
-- bpm_estimate may be a genre-typical estimate only when identified=true.
 - Explain in parsing_notes how you interpreted the raw tag when it needed cleaning.
 
 SOUND DESCRIPTION (groove, percussion, bassline, vocals, melodic_elements, texture,
@@ -163,12 +170,8 @@ Describe the track the way a record-shop or label press text would. Style refere
 - Cover: genre + energy, groove, drums/percussion, bass, vocals, melodic/sample elements,
   emotional character, texture, and the effect on the dancefloor.
 - Be specific to THIS track; avoid generic filler that would fit any record.
-- Set description_basis honestly:
-    "known track"         -> you know how this track actually sounds
-    "artist/label style"  -> you don't know the track, but describe the artist's/label's
-                             typical sound for that era; keep it hedged ("likely", "typical of")
-    "title only"          -> nothing known; keep fields minimal (null / []) and review_blurb null
-- Never invent vocals: use null for vocals unless you know the track has them.
+- Only for description_basis="known track". Any element you don't actually know stays
+  null / [] -- e.g. vocals null unless you know the track has vocals.
 """
 
 
@@ -180,6 +183,36 @@ class TrackInput:
     artist: str
     title: str
     play_count: int
+
+
+UNKNOWN_TRACK_NOTE = "Track not known: no reliable information available."
+
+# Fields that can only come from knowing the track itself. Cleared for unknown tracks by
+# enforce_no_inference(); tag-parsed fields (artists, title, mix_name, remixers,
+# featured_artists, label/catalog/release) and artist_details are kept.
+_INFERRED_NULL_FIELDS = (
+    "primary_genre", "bpm_estimate", "musical_key", "energy", "dj_set_role",
+    "groove", "bassline", "vocals", "emotional_character", "dancefloor_effect", "review_blurb",
+)
+_INFERRED_LIST_FIELDS = (
+    "subgenres", "mood_tags", "similar_artists", "percussion", "melodic_elements", "texture",
+)
+
+
+def enforce_no_inference(meta: TrackMetadata) -> TrackMetadata:
+    """Code-level guarantee of the 'use knowledge, never infer' rule.
+
+    Invariant after this call: identified is False  <=>  description_basis == "unknown",
+    and an unknown track carries no descriptive fields, only UNKNOWN_TRACK_NOTE.
+    The prompt asks for the same thing, but models don't always comply.
+    """
+    if meta.identified and meta.description_basis == "known track":
+        return meta
+    update: dict = {f: None for f in _INFERRED_NULL_FIELDS}
+    update.update({f: [] for f in _INFERRED_LIST_FIELDS})
+    update.update(identified=False, confidence="low", description_basis="unknown",
+                  description=UNKNOWN_TRACK_NOTE)
+    return meta.model_copy(update=update)
 
 
 class TrackResultError(Exception):
@@ -322,6 +355,8 @@ def parse_result_item(
         metadata = TrackMetadata.model_validate_json(message.get("content") or "")
     except ValidationError as exc:
         raise TrackResultError(f"response does not match schema: {exc.errors()[:3]}") from exc
+
+    metadata = enforce_no_inference(metadata)
 
     return {
         "track_id": track.track_id,
