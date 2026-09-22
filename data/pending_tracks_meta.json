@@ -1,0 +1,66 @@
+{
+  "batch_id": "batch_6ab2e1ec9da08190b6220c0500f1448e",
+  "model": "gpt-4.1-mini",
+  "tracks": {
+    "track-b0d66f7d96f2": {
+      "track_id": "b0d66f7d96f2",
+      "artist": "(unknown)",
+      "title": "AFV001B-ILARIO_ALICANTE-I_LIKE_TO_SERVE-320",
+      "play_count": 1
+    },
+    "track-47e120ee7115": {
+      "track_id": "47e120ee7115",
+      "artist": "(unknown)",
+      "title": "click box - sugar pain",
+      "play_count": 1
+    },
+    "track-33bc67720e1e": {
+      "track_id": "33bc67720e1e",
+      "artist": "(unknown)",
+      "title": "Guido Schneider - poker flat 47 - B1 - Moved (Refreshed)",
+      "play_count": 1
+    },
+    "track-3c525f3649e7": {
+      "track_id": "3c525f3649e7",
+      "artist": "(unknown)",
+      "title": "Guido schneider - Re-moved",
+      "play_count": 1
+    },
+    "track-ffa5558f5a00": {
+      "track_id": "ffa5558f5a00",
+      "artist": "(unknown)",
+      "title": "Heartthrob - Baby Kate (Konrad Black Remix)",
+      "play_count": 1
+    },
+    "track-df049a466f7c": {
+      "track_id": "df049a466f7c",
+      "artist": "(unknown)",
+      "title": "Heartthrob - Baby Kate Magda S Where S My Baby Daddy Remix",
+      "play_count": 1
+    },
+    "track-5293310a1b3b": {
+      "track_id": "5293310a1b3b",
+      "artist": "(unknown)",
+      "title": "Heartthrob - Hot Sugar Candy Apple Taffy (Minus)",
+      "play_count": 1
+    },
+    "track-76493aa894d2": {
+      "track_id": "76493aa894d2",
+      "artist": "(unknown)",
+      "title": "Hermanez, massimo girardi - 22.22 (kaiserdisco mix)",
+      "play_count": 1
+    },
+    "track-ddc6d788b00e": {
+      "track_id": "ddc6d788b00e",
+      "artist": "(unknown)",
+      "title": "innersphere_phunk_angellomi",
+      "play_count": 1
+    },
+    "track-b3736627d0fd": {
+      "track_id": "b3736627d0fd",
+      "artist": "(unknown)",
+      "title": "Jeff Samuel - Lost",
+      "play_count": 1
+    }
+  }
+}
