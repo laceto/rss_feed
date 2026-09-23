@@ -7,6 +7,9 @@ name: artist-profiles
 #   writes data/artist_profiles[_<output_tag>].{jsonl,csv}
 
 on:
+  push:
+    paths:
+      - '.github/workflows/artist_profiles.yml'  # TEMP full gpt-5 run - revert
   workflow_dispatch:
     inputs:
       tracks_tag:
@@ -44,7 +47,7 @@ jobs:
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
       PYTHONPATH: "."
-      OUTPUT_TAG: ${{ github.event.inputs.output_tag }}
+      OUTPUT_TAG: ${{ github.event.inputs.output_tag || 'gpt-5' }}  # TEMP full gpt-5 run - revert
 
     steps:
       - uses: actions/checkout@v4
@@ -60,8 +63,8 @@ jobs:
       - name: Enrich artists (direct OpenAI calls)
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          TRACKS_TAG: ${{ github.event.inputs.tracks_tag }}
-          MODEL: ${{ github.event.inputs.model }}
+          TRACKS_TAG: ${{ github.event.inputs.tracks_tag || 'gpt-5' }}  # TEMP full gpt-5 run - revert
+          MODEL: ${{ github.event.inputs.model || 'gpt-5' }}  # TEMP full gpt-5 run - revert
           LIMIT: ${{ github.event.inputs.limit }}
           REFRESH: ${{ github.event.inputs.refresh }}
         # Exit codes: 0 = done (possibly partial), 1 = track store missing / every artist failed

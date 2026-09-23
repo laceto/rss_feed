@@ -15,7 +15,6 @@ on:
   push:
     paths:
       - 'data/unique_tracks.csv'
-      - '.github/workflows/track_metadata.yml'  # TEMP gpt-5 full batch - revert
   schedule:
     - cron: '0 6 * * *'   # daily: collect batches that outlived the 1h poll window
   workflow_dispatch:
@@ -51,7 +50,7 @@ jobs:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
       PYTHONPATH: "."
       # job-level so every step (and the commit globs) see the same tag
-      OUTPUT_TAG: ${{ github.event.inputs.output_tag || 'gpt-5' }}  # TEMP gpt-5 full batch - revert
+      OUTPUT_TAG: ${{ github.event.inputs.output_tag }}
 
     steps:
       - uses: actions/checkout@v4
@@ -71,7 +70,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           LIMIT: ${{ github.event.inputs.limit }}
-          MODEL: ${{ github.event.inputs.model || 'gpt-5' }}  # TEMP gpt-5 full batch - revert
+          MODEL: ${{ github.event.inputs.model }}
         run: |
           if [ -f data/pending_tracks_batch.txt ]; then
             echo "Batch already pending: $(cat data/pending_tracks_batch.txt) -> skipping submit."
@@ -114,7 +113,7 @@ jobs:
         if: steps.check.outputs.pending == 'true'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          POLL_ATTEMPTS: ${{ github.event.inputs.poll_attempts || '64' }}  # TEMP gpt-5 full batch - revert
+          POLL_ATTEMPTS: ${{ github.event.inputs.poll_attempts }}
         # Exit codes from retrieve_batch_tracks.py:
         #   0 = collected   1 = fatal / batch failed   2 = still in progress (retry)
         run: |
