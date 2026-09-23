@@ -94,8 +94,7 @@ One JSON record per line, sorted by `track_id`, first-write-wins per `track_id`:
   sound description: `groove`, `percussion`, `bassline`, `vocals`, `melodic_elements`, `texture`,
   `emotional_character`, `dancefloor_effect`, `review_blurb` (press-style prose),
   `description_basis` (`known track` | `unknown`), `similar_artists`, `description`, `artist_details[]`
-  (`name`, `real_name`, `aliases`, `country`, `city`, `active_since`, `associated_labels`,
-  `associated_acts`, `short_bio`), `parsing_notes`
+  — removed; artist background now lives in `data/artist_profiles.*` (below), `parsing_notes`
 - Facts are LLM recall, not a lookup: treat `confidence="low"` / `identified=false` rows as unverified.
 - **No inference** (enforced in code by `enforce_no_inference()`, not just the prompt):
   `identified=false` <=> `description_basis="unknown"`; unknown tracks have all descriptive
@@ -113,3 +112,23 @@ e.g. `--output-tag gpt-5`). **Model diff** `data/track_model_diff_<tag>.csv` is 
 (`track_id, artist, title, field, baseline, candidate, changed`); `.md` is the review report.
 Reasoning models (`gpt-5*`, `o1/o3/o4*`) are sent without `temperature` (they reject it).
 Records written before a schema change lack the newer fields (empty CSV cells) until refreshed.
+
+## ArtistProfile (`data/artist_profiles[_<tag>].jsonl`)
+
+One record per unique artist, defined in `pipeline/artist_profiles.py`, built by
+`enrich/enrich_artists.py` from the cleaned `artists` + `remixers` + `featured_artists`
+of a track store (so run it after track enrichment):
+
+```json
+{"artist_id": "9c1e...", "name": "Heartthrob", "track_count": 3, "source": "direct", "model": "gpt-5",
+ "profile": {"known": true, "confidence": "high", "name": "Heartthrob", "real_name": "...",
+             "aliases": [], "country": "...", "city": null, "active_since": 2005,
+             "associated_labels": ["Minus"], "associated_acts": [], "styles": [],
+             "notable_releases": [], "short_bio": "..."}}
+```
+
+- `artist_id` = sha1(normalised name)[:12]. Join to tracks: `make_artist_id(name)` for each
+  name in a track's `artists` / `remixers` / `featured_artists`.
+- No inference (enforced in code): `known=false` -> only `name` kept,
+  `short_bio = "Artist not known: no reliable information available."`.
+- Up to 5 library titles per artist are sent as context to disambiguate homonyms.

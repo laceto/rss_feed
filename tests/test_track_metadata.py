@@ -22,6 +22,7 @@ sys.path.insert(0, str(PROJECT_ROOT / "batch"))
 
 from pipeline.openai_schema import make_openai_strict
 from pipeline import track_metadata as tm
+from pipeline import openai_results as orr
 from pipeline.constants import (
     TRACKS_INPUT_FILE,
     TRACK_METADATA_FILE,
@@ -79,17 +80,6 @@ def _valid_metadata(**overrides) -> dict:
         "description_basis": "known track",
         "similar_artists": ["Christian Varela"],
         "description": "Loop-driven Neapolitan minimal techno.",
-        "artist_details": [{
-            "name": "Marco Carola",
-            "real_name": None,
-            "aliases": [],
-            "country": "Italy",
-            "city": "Naples",
-            "active_since": 1990,
-            "associated_labels": ["Zenit", "Question"],
-            "associated_acts": [],
-            "short_bio": "Neapolitan techno DJ and producer.",
-        }],
         "parsing_notes": None,
     }
     payload.update(overrides)
@@ -347,7 +337,7 @@ class TestParseResultItem:
 
     def test_unidentified_track_is_still_a_valid_record(self):
         meta = _valid_metadata(identified=False, confidence="low", artists=[],
-                               title=None, artist_details=[], primary_genre="other")
+                               title=None, primary_genre="other")
         item = _result_item(self.cid, json.dumps(meta))
         record = tm.parse_result_item(item, self.inputs, batch_id="b", model="m")
         assert record["metadata"]["identified"] is False
@@ -395,7 +385,7 @@ class TestRecordsIO:
         row = rows[0]
         assert row["track_id"] == "x"
         assert row["mood_tags"] == "hypnotic; dark"
-        assert json.loads(row["artist_details"])[0]["city"] == "Naples"
+        assert "artist_details" not in row  # artists live in data/artist_profiles.*
         assert row["catalog_number"] == ""  # None -> empty cell
 
     def test_jsonl_is_sorted_by_track_id(self, tmp_path):
@@ -570,14 +560,14 @@ class _FakeDirectClient:
 
 class TestCompletionToResultItem:
     def test_wraps_completion_in_batch_item_shape(self):
-        item = etd.completion_to_result_item("track-x", _FakeCompletion('{"a":1}'))
+        item = orr.completion_to_result_item("track-x", _FakeCompletion('{"a":1}'))
         assert item["custom_id"] == "track-x"
         assert item["error"] is None
         assert item["response"]["status_code"] == 200
         assert item["response"]["body"]["choices"][0]["message"]["content"] == '{"a":1}'
 
     def test_exception_becomes_item_error(self):
-        item = etd.error_to_result_item("track-x", RuntimeError("boom"))
+        item = orr.error_to_result_item("track-x", RuntimeError("boom"))
         assert item["error"] == {"type": "RuntimeError", "message": "boom"}
         assert item["response"] is None
 
@@ -724,13 +714,12 @@ class TestEnforceNoInference:
         out = tm.enforce_no_inference(self._unknown(description="A smooth sensual groove."))
         assert out.description == tm.UNKNOWN_TRACK_NOTE
 
-    def test_unknown_keeps_tag_parsed_and_artist_knowledge(self):
+    def test_unknown_keeps_tag_parsed_fields(self):
         out = tm.enforce_no_inference(self._unknown(catalog_number="AFV001B", mix_name="Kaiserdisco Mix"))
         assert out.artists == ["Marco Carola"]
         assert out.title == "Step By Step"
         assert out.catalog_number == "AFV001B"
         assert out.mix_name == "Kaiserdisco Mix"
-        assert out.artist_details[0].city == "Naples"
 
     def test_not_identified_forces_unknown_basis(self):
         meta = tm.TrackMetadata.model_validate(
@@ -852,3 +841,51 @@ class TestCompareMain:
     def test_missing_input_exits_1(self, tmp_path):
         assert ctm.main(["--baseline", str(tmp_path / "x.jsonl"),
                          "--candidate", str(tmp_path / "y.jsonl"), "--out", str(tmp_path / "d")]) == 1
+
+
+# ── batch path with a tagged store ──────────────────────────────────────────
+
+class TestBatchOutputTag:
+    def test_submit_records_tag_and_uses_tagged_store_for_done_ids(self, workdir, monkeypatch):
+        tagged, _ = tm.store_paths("gpt-5")
+        done = tm.make_track_id("Adam Beyer", "China Girl")
+        tagged.write_text(json.dumps({"track_id": done}) + "\n", encoding="utf-8")
+        # a default-store record must NOT count as done for the tagged run
+        TRACK_METADATA_FILE.write_text(
+            json.dumps({"track_id": tm.make_track_id("(unknown)", "Marco Carola - Weekend")}) + "\n",
+            encoding="utf-8")
+        captured = {}
+        def fake_submit(client, tasks, endpoint, metadata=None):
+            captured["tasks"] = tasks
+            return "batch_t"
+        monkeypatch.setattr(cbt, "submit_batch_job", fake_submit)
+        assert cbt.main(["--model", "gpt-5", "--output-tag", "gpt-5"], client=_FakeClient()) == 0
+        assert len(captured["tasks"]) == 1
+        assert "temperature" not in captured["tasks"][0]["body"]
+        meta = json.loads(TRACKS_BATCH_META_FILE.read_text(encoding="utf-8"))
+        assert meta["output_tag"] == "gpt-5" and meta["model"] == "gpt-5"
+
+    def test_retrieve_writes_to_tagged_store_from_sidecar(self, pending, monkeypatch):
+        meta = json.loads(TRACKS_BATCH_META_FILE.read_text(encoding="utf-8"))
+        meta["output_tag"] = "gpt-5"
+        TRACKS_BATCH_META_FILE.write_text(json.dumps(meta), encoding="utf-8")
+        monkeypatch.setattr(rbt, "check_batch_job", lambda c, b: _status("completed"))
+        monkeypatch.setattr(rbt, "download_batch_results",
+                            lambda c, b: [_result_item(pending, json.dumps(_valid_metadata()))])
+        assert rbt.main(client=_FakeClient()) == 0
+        tagged, tagged_csv = tm.store_paths("gpt-5")
+        assert len(tm.load_records(tagged)) == 1 and tagged_csv.exists()
+        assert not TRACK_METADATA_FILE.exists()
+
+    def test_retrieve_without_tag_in_sidecar_uses_default_store(self, pending, monkeypatch):
+        monkeypatch.setattr(rbt, "check_batch_job", lambda c, b: _status("completed"))
+        monkeypatch.setattr(rbt, "download_batch_results",
+                            lambda c, b: [_result_item(pending, json.dumps(_valid_metadata()))])
+        assert rbt.main(client=_FakeClient()) == 0
+        assert len(tm.load_records(TRACK_METADATA_FILE)) == 1
+
+
+class TestTrackSchemaHasNoArtistDetails:
+    def test_artist_details_moved_to_artist_profiles(self):
+        assert "artist_details" not in tm.STRICT_SCHEMA["properties"]
+        assert "artist_details" not in tm.SYSTEM_PROMPT

@@ -15,6 +15,7 @@ on:
   push:
     paths:
       - 'data/unique_tracks.csv'
+      - '.github/workflows/track_metadata.yml'  # TEMP gpt-5 full batch - revert
   schedule:
     - cron: '0 6 * * *'   # daily: collect batches that outlived the 1h poll window
   workflow_dispatch:
@@ -27,6 +28,14 @@ on:
         description: 'OpenAI chat model (blank = pipeline default)'
         required: false
         default: ''
+      output_tag:
+        description: 'Target store data/track_metadata_<tag>.* (blank = main store)'
+        required: false
+        default: ''
+      poll_attempts:
+        description: 'Collect attempts, 5 min apart (default 12 = 1h; max ~64 within the 6h job limit)'
+        required: false
+        default: '12'
 
 permissions:
   contents: write
@@ -41,6 +50,8 @@ jobs:
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
       PYTHONPATH: "."
+      # job-level so every step (and the commit globs) see the same tag
+      OUTPUT_TAG: ${{ github.event.inputs.output_tag || 'gpt-5' }}  # TEMP gpt-5 full batch - revert
 
     steps:
       - uses: actions/checkout@v4
@@ -60,7 +71,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           LIMIT: ${{ github.event.inputs.limit }}
-          MODEL: ${{ github.event.inputs.model }}
+          MODEL: ${{ github.event.inputs.model || 'gpt-5' }}  # TEMP gpt-5 full batch - revert
         run: |
           if [ -f data/pending_tracks_batch.txt ]; then
             echo "Batch already pending: $(cat data/pending_tracks_batch.txt) -> skipping submit."
@@ -69,6 +80,7 @@ jobs:
           ARGS=""
           if [ -n "$LIMIT" ]; then ARGS="$ARGS --limit $LIMIT"; fi
           if [ -n "$MODEL" ]; then ARGS="$ARGS --model $MODEL"; fi
+          if [ -n "$OUTPUT_TAG" ]; then ARGS="$ARGS --output-tag $OUTPUT_TAG"; fi
           python batch/create_batch_tracks.py $ARGS
 
       - name: Commit pending sentinels
@@ -102,10 +114,11 @@ jobs:
         if: steps.check.outputs.pending == 'true'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          POLL_ATTEMPTS: ${{ github.event.inputs.poll_attempts || '64' }}  # TEMP gpt-5 full batch - revert
         # Exit codes from retrieve_batch_tracks.py:
         #   0 = collected   1 = fatal / batch failed   2 = still in progress (retry)
         run: |
-          MAX_ATTEMPTS=12
+          MAX_ATTEMPTS="${POLL_ATTEMPTS:-12}"
           SLEEP_SECONDS=300   # 5 min between retries -> up to 1 hour total
 
           for i in $(seq 1 $MAX_ATTEMPTS); do
@@ -137,7 +150,9 @@ jobs:
         # always(): a failed/expired batch clears its sentinels; commit that too
         if: always() && steps.check.outputs.pending == 'true'
         run: |
-          for f in data/track_metadata.jsonl data/track_metadata.csv \
+          # every track store: the retrieve step writes to the store named in the batch
+          # sidecar, which may differ from this run's output_tag (e.g. cron collecting it)
+          for f in data/track_metadata*.jsonl data/track_metadata*.csv \
                    data/pending_tracks_batch.txt data/pending_tracks_meta.json; do
             git add -A -- "$f" 2>/dev/null || true
           done

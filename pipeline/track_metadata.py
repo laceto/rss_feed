@@ -46,9 +46,10 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable, Literal
 
-from pydantic import BaseModel, Field, ValidationError
+from pydantic import BaseModel, Field
 
 from .constants import TRACK_METADATA_CSV, TRACK_METADATA_FILE
+from .openai_results import ResultError, validate_result_item
 from .openai_schema import make_openai_strict
 
 # ── Configuration ─────────────────────────────────────────────────────────────
@@ -71,20 +72,6 @@ Genre = Literal[
     "minimal house", "microhouse", "progressive house", "acid house",
     "electro", "other",
 ]
-
-
-class ArtistInfo(BaseModel):
-    """Background on one primary artist of the track."""
-
-    name: str = Field(..., description="Canonical artist / act name.")
-    real_name: str | None = Field(..., description="Legal name if publicly known, else null.")
-    aliases: list[str] = Field(..., description="Other names the artist releases under.")
-    country: str | None = Field(..., description="Country of origin, e.g. 'Germany'.")
-    city: str | None = Field(..., description="Home city / scene, e.g. 'Berlin'.")
-    active_since: int | None = Field(..., description="Year of first release or career start.")
-    associated_labels: list[str] = Field(..., description="Labels the artist is known for (own or frequent).")
-    associated_acts: list[str] = Field(..., description="Groups, duos or frequent collaborators.")
-    short_bio: str | None = Field(..., description="1-2 factual sentences; null if unknown.")
 
 
 class TrackMetadata(BaseModel):
@@ -129,7 +116,6 @@ class TrackMetadata(BaseModel):
         ..., description="'known track' only if you actually know this track; otherwise 'unknown'.")
     similar_artists: list[str] = Field(..., description="Up to 5 stylistically similar artists.")
     description: str | None = Field(..., description="1-3 factual sentences about the track.")
-    artist_details: list[ArtistInfo] = Field(..., description="One entry per name in `artists`.")
     parsing_notes: str | None = Field(
         ..., description="How the raw tag was interpreted (e.g. 'artist was in title field; removed side A1').")
 
@@ -160,10 +146,9 @@ RULES:
   review_blurb). Say so in description ("Track not known.").
   Still parse the raw tag fully: split it into artists / title / mix_name / remixers
   with canonical spelling and capitalisation (fix CAPS, underscores, mojibake), keep any
-  catalog number or label written in the tag, and fill artist_details you actually know.
+  catalog number or label written in the tag.
 - Recognising a well-known record counts as knowledge: if you know the track, say
   identified=true / description_basis="known track" and describe it.
-- artist_details must contain one entry per name in `artists`.
 - Explain in parsing_notes how you interpreted the raw tag when it needed cleaning.
 
 SOUND DESCRIPTION (groove, percussion, bassline, vocals, melodic_elements, texture,
@@ -198,7 +183,8 @@ UNKNOWN_TRACK_NOTE = "Track not known: no reliable information available."
 
 # Fields that can only come from knowing the track itself. Cleared for unknown tracks by
 # enforce_no_inference(); tag-parsed fields (artists, title, mix_name, remixers,
-# featured_artists, label/catalog/release) and artist_details are kept.
+# featured_artists, label/catalog/release) are kept. Artist background lives in
+# pipeline/artist_profiles.py (one profile per artist, shared by all their tracks).
 _INFERRED_NULL_FIELDS = (
     "primary_genre", "bpm_estimate", "musical_key", "energy", "dj_set_role",
     "groove", "bassline", "vocals", "emotional_character", "dancefloor_effect", "review_blurb",
@@ -224,8 +210,9 @@ def enforce_no_inference(meta: TrackMetadata) -> TrackMetadata:
     return meta.model_copy(update=update)
 
 
-class TrackResultError(Exception):
-    """A single batch result item could not be turned into a valid record."""
+# One error type for every result failure (track or artist); kept under this name
+# because the track CLIs and tests catch tm.TrackResultError.
+TrackResultError = ResultError
 
 
 def _normalise(value: str) -> str:
@@ -301,6 +288,21 @@ def is_reasoning_model(model: str) -> bool:
     return model.startswith(REASONING_MODEL_PREFIXES)
 
 
+def tagged_paths(jsonl: Path, csv_path: Path, tag: str | None) -> tuple[Path, Path]:
+    """(jsonl, csv) unchanged for tag=None, else `<stem>_<tag>.<ext>` beside them.
+
+    Raises:
+        ValueError: tag is empty or contains characters outside [A-Za-z0-9._-]
+            (keeps it a plain filename; no path traversal).
+    """
+    if tag is None:
+        return jsonl, csv_path
+    if not _SAFE_TAG.match(tag) or tag in {".", ".."}:
+        raise ValueError(f"invalid output tag {tag!r}: use letters, digits, '.', '_' or '-'")
+    return (jsonl.with_name(f"{jsonl.stem}_{tag}{jsonl.suffix}"),
+            csv_path.with_name(f"{csv_path.stem}_{tag}{csv_path.suffix}"))
+
+
 def store_paths(tag: str | None) -> tuple[Path, Path]:
     """(jsonl, csv) for the default store (tag=None) or a separate tagged store.
 
@@ -308,15 +310,9 @@ def store_paths(tag: str | None) -> tuple[Path, Path]:
     candidate model, compared with results/compare_track_models.py.
 
     Raises:
-        ValueError: tag is empty or contains characters outside [A-Za-z0-9._-]
-            (keeps it a plain filename; no path traversal).
+        ValueError: see tagged_paths().
     """
-    if tag is None:
-        return TRACK_METADATA_FILE, TRACK_METADATA_CSV
-    if not _SAFE_TAG.match(tag) or tag in {".", ".."}:
-        raise ValueError(f"invalid output tag {tag!r}: use letters, digits, '.', '_' or '-'")
-    return (TRACK_METADATA_FILE.with_name(f"{TRACK_METADATA_FILE.stem}_{tag}{TRACK_METADATA_FILE.suffix}"),
-            TRACK_METADATA_CSV.with_name(f"{TRACK_METADATA_CSV.stem}_{tag}{TRACK_METADATA_CSV.suffix}"))
+    return tagged_paths(TRACK_METADATA_FILE, TRACK_METADATA_CSV, tag)
 
 
 def build_task(track: TrackInput, model: str = TRACK_METADATA_MODEL) -> dict:
@@ -365,30 +361,7 @@ def parse_result_item(
     if track is None:
         raise TrackResultError(f"unknown custom_id {custom_id!r} (not in sidecar metadata)")
 
-    if item.get("error"):
-        raise TrackResultError(f"batch item error: {item['error']}")
-
-    response = item.get("response") or {}
-    status = response.get("status_code")
-    if status != 200:
-        raise TrackResultError(f"HTTP {status}")
-
-    try:
-        choice = response["body"]["choices"][0]
-        message = choice["message"]
-    except (KeyError, IndexError, TypeError) as exc:
-        raise TrackResultError(f"unexpected response structure: {exc!r}") from exc
-
-    if message.get("refusal"):
-        raise TrackResultError(f"model refused: {message['refusal']}")
-    if choice.get("finish_reason") == "length":
-        raise TrackResultError("output truncated (finish_reason=length)")
-
-    try:
-        metadata = TrackMetadata.model_validate_json(message.get("content") or "")
-    except ValidationError as exc:
-        raise TrackResultError(f"response does not match schema: {exc.errors()[:3]}") from exc
-
+    metadata = validate_result_item(item, TrackMetadata)
     metadata = enforce_no_inference(metadata)
 
     return {
@@ -402,8 +375,8 @@ def parse_result_item(
     }
 
 
-def load_records(path: Path) -> dict[str, dict]:
-    """Read the JSONL store -> {track_id: record}. Missing file -> {}."""
+def load_records(path: Path, key: str = "track_id") -> dict[str, dict]:
+    """Read a JSONL store -> {record[key]: record}. Missing file -> {}."""
     path = Path(path)
     if not path.exists():
         return {}
@@ -412,22 +385,23 @@ def load_records(path: Path) -> dict[str, dict]:
         for line in f:
             if line.strip():
                 rec = json.loads(line)
-                records[rec["track_id"]] = rec
+                records[rec[key]] = rec
     return records
 
 
 def merge_records(
     existing: dict[str, dict], new: Iterable[dict], overwrite: bool = False,
+    key: str = "track_id",
 ) -> tuple[dict[str, dict], int, int]:
     """Merge new records. Default first-write-wins; overwrite=True replaces existing
     track_ids (explicit re-enrichment). Returns (merged, written_count, skipped_duplicates)."""
     merged = dict(existing)
     added = dupes = 0
     for rec in new:
-        if rec["track_id"] in merged and not overwrite:
+        if rec[key] in merged and not overwrite:
             dupes += 1
             continue
-        merged[rec["track_id"]] = rec
+        merged[rec[key]] = rec
         added += 1
     return merged, added, dupes
 
@@ -436,7 +410,8 @@ _RECORD_COLUMNS = ["track_id", "input_artist", "input_title", "play_count", "bat
 _METADATA_COLUMNS = list(TrackMetadata.model_fields)
 
 
-def _cell(value) -> str:
+def cell(value) -> str:
+    """Render one value for a CSV cell (None -> '', str lists -> '; '-joined, else JSON)."""
     if value is None:
         return ""
     if isinstance(value, list):
@@ -448,7 +423,8 @@ def _cell(value) -> str:
     return str(value)
 
 
-def _atomic_write(path: Path, write) -> None:
+def atomic_write(path: Path, write) -> None:
+    """Write via <name>.tmp + os.replace so readers never see a partial file."""
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_name(path.name + ".tmp")  # per-file: .jsonl and .csv must not share one
     with tmp.open("w", encoding="utf-8", newline="") as f:
@@ -469,8 +445,8 @@ def write_records(records: dict[str, dict], jsonl_path: Path, csv_path: Path) ->
         writer.writerow(_RECORD_COLUMNS + _METADATA_COLUMNS)
         for rec in ordered:
             meta = rec.get("metadata") or {}
-            writer.writerow([_cell(rec.get(c)) for c in _RECORD_COLUMNS]
-                            + [_cell(meta.get(c)) for c in _METADATA_COLUMNS])
+            writer.writerow([cell(rec.get(c)) for c in _RECORD_COLUMNS]
+                            + [cell(meta.get(c)) for c in _METADATA_COLUMNS])
 
-    _atomic_write(Path(jsonl_path), write_jsonl)
-    _atomic_write(Path(csv_path), write_csv)
+    atomic_write(Path(jsonl_path), write_jsonl)
+    atomic_write(Path(csv_path), write_csv)

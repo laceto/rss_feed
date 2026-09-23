@@ -164,11 +164,21 @@ Idempotent state machine per run:
 - `concurrency: track-metadata` prevents two runs submitting in parallel.
 - Secret: `OPENAI_API_KEY`.
 
+Inputs: `limit`, `model`, `output_tag` (separate store; recorded in the batch sidecar, which the
+collect step obeys), `poll_attempts` (default 12 x 5 min; raise it where the daily cron does not
+run, e.g. on a feature branch). The commit step commits every `data/track_metadata*` store.
+
 ### 5b. `track-metadata-direct`
 
 **File:** `.github/workflows/track_metadata_direct.yml` — manual (`limit` default 10, `model`, `include_pending`, `refresh`, `output_tag`).
 With `output_tag`, results go to a separate store `data/track_metadata_<tag>.*` and the run also
 writes `data/track_model_diff_<tag>.{csv,md}` (diff vs the default store) for model review.
+
+### 5c. `artist-profiles`
+
+**File:** `.github/workflows/artist_profiles.yml` — manual (`tracks_tag`, `output_tag`, `model`,
+`limit`, `refresh`). Runs `enrich/enrich_artists.py` after the track store is populated and
+commits `data/artist_profiles[_<tag>].{jsonl,csv}`.
 Runs `enrich/enrich_tracks_direct.py` (direct chat completions, no batch) and commits into the same store.
 Tracks in a pending batch are skipped by default. Both workflows `git pull --rebase` right before
 writing results so concurrent runs do not conflict on `data/track_metadata.jsonl`.

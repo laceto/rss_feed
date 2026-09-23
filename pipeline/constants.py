@@ -138,3 +138,11 @@ TRACK_METADATA_CSV        = Path("data") / "track_metadata.csv"
 PENDING_TRACKS_BATCH_FILE = Path("data") / "pending_tracks_batch.txt"
 TRACKS_BATCH_META_FILE    = Path("data") / "pending_tracks_meta.json"
 BATCH_FILE_TRACKS         = Path("data") / "batch_tasks_tracks.jsonl"
+
+# ── Artist profiles ──────────────────────────────────────────────────────────
+# One profile per unique artist (from cleaned track results), shared by all
+# their tracks. Built by enrich/enrich_artists.py; join to tracks by artist name
+# (artist_id = sha1(normalised name)[:12]). Tagged variants: artist_profiles_<tag>.*
+
+ARTIST_PROFILES_FILE = Path("data") / "artist_profiles.jsonl"
+ARTIST_PROFILES_CSV  = Path("data") / "artist_profiles.csv"

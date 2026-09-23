@@ -107,6 +107,8 @@ python enrich/enrich_tracks_direct.py --limit 10   # synchronous, no batch (full
 python enrich/enrich_tracks_direct.py --include-pending  # also redo tracks in the pending batch
 python enrich/enrich_tracks_direct.py --refresh --limit 20  # re-ask + overwrite existing records
 python enrich/enrich_tracks_direct.py --model gpt-5 --output-tag gpt-5 --limit 20  # separate store
+python batch/create_batch_tracks.py --model gpt-5 --output-tag gpt-5  # batch into a separate store
+python enrich/enrich_artists.py --tracks-tag gpt-5 --output-tag gpt-5 --model gpt-5  # one profile per artist
 python results/compare_track_models.py --baseline data/track_metadata.jsonl \
     --candidate data/track_metadata_gpt-5.jsonl --out data/track_model_diff_gpt-5  # -> .csv + .md
 ```

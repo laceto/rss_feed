@@ -49,7 +49,7 @@ def _norm(value):
 
 
 def _render(value) -> str:
-    return tm._cell(value)
+    return tm.cell(value)
 
 
 def diff_records(baseline: dict[str, dict], candidate: dict[str, dict],

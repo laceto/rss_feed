@@ -15,13 +15,14 @@ Usage:
     python batch/create_batch_tracks.py               # all un-enriched tracks
     python batch/create_batch_tracks.py --limit 20    # smoke-test on 20 tracks
     python batch/create_batch_tracks.py --dry-run     # write debug JSONL only
+    python batch/create_batch_tracks.py --model gpt-5 --output-tag gpt-5  # separate store
 
 Exit codes: 0 = submitted or nothing to do, 1 = a batch is already pending.
 
 Debugging:
   - data/batch_tasks_tracks.jsonl  — exact tasks built (written on every run, incl. --dry-run)
   - data/pending_tracks_batch.txt  — active batch ID
-  - data/pending_tracks_meta.json  — {batch_id, model, tracks: {custom_id: input}}
+  - data/pending_tracks_meta.json  — {batch_id, model, output_tag, tracks: {custom_id: input}}
 
 Failure modes:
   - OPENAI_API_KEY missing / invalid: openai.AuthenticationError from submit
@@ -44,7 +45,6 @@ from pipeline import track_metadata as tm
 from pipeline.constants import (
     BATCH_FILE_TRACKS,
     PENDING_TRACKS_BATCH_FILE,
-    TRACK_METADATA_FILE,
     TRACKS_BATCH_META_FILE,
     TRACKS_INPUT_FILE,
 )
@@ -58,6 +58,9 @@ def _parse_args(argv: list[str] | None) -> argparse.Namespace:
                    help=f"OpenAI chat model (default: {tm.TRACK_METADATA_MODEL})")
     p.add_argument("--input", type=Path, default=TRACKS_INPUT_FILE,
                    help=f"Track list CSV (default: {TRACKS_INPUT_FILE})")
+    p.add_argument("--output-tag", default=None,
+                   help="Target store data/track_metadata_<tag>.* (recorded in the sidecar; "
+                        "retrieve writes there). Default: the main store")
     p.add_argument("--dry-run", action="store_true",
                    help="Build tasks and write debug JSONL; do not submit")
     return p.parse_args(argv)
@@ -73,10 +76,12 @@ def main(argv: list[str] | None = None, client=None) -> int:
               "Run retrieve_batch_tracks.py first.")
         return 1
 
+    store, _ = tm.store_paths(args.output_tag)  # validates the tag before any API call
     tracks = tm.load_tracks(args.input)
-    done_ids = set(tm.load_records(TRACK_METADATA_FILE))
+    done_ids = set(tm.load_records(store))
     todo = tm.select_tracks_to_submit(tracks, done_ids, limit=args.limit)
 
+    print(f"Target store                   : {store}")
     print(f"Unique tracks in {args.input} : {len(tracks)}")
     print(f"Already enriched               : {len(done_ids & {t.track_id for t in tracks})}")
     print(f"To submit this run             : {len(todo)}")
@@ -114,6 +119,7 @@ def main(argv: list[str] | None = None, client=None) -> int:
     TRACKS_BATCH_META_FILE.write_text(json.dumps({
         "batch_id": batch_id,
         "model": args.model,
+        "output_tag": args.output_tag,
         "tracks": {
             tm.custom_id_for(t): {"track_id": t.track_id, "artist": t.artist,
                                   "title": t.title, "play_count": t.play_count}

@@ -1,0 +1,95 @@
+name: artist-profiles
+
+# One profile per unique artist found in a track store (artists + remixers +
+# featured), via direct OpenAI calls: enrich/enrich_artists.py. Run it after the
+# track enrichment has populated the store it reads from.
+#   reads  data/track_metadata[_<tracks_tag>].jsonl
+#   writes data/artist_profiles[_<output_tag>].{jsonl,csv}
+
+on:
+  push:
+    paths:
+      - '.github/workflows/artist_profiles.yml'  # TEMP gpt-5 test - revert
+  workflow_dispatch:
+    inputs:
+      tracks_tag:
+        description: 'Track store tag to read artists from (blank = main store)'
+        required: false
+        default: ''
+      output_tag:
+        description: 'Artist store tag to write (blank = main store)'
+        required: false
+        default: ''
+      model:
+        description: 'OpenAI chat model (blank = pipeline default)'
+        required: false
+        default: ''
+      limit:
+        description: 'Max artists this run, highest track count first (blank = all)'
+        required: false
+        default: ''
+      refresh:
+        description: 'Re-ask existing artists and overwrite them'
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: artist-profiles
+  cancel-in-progress: false
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+      PYTHONPATH: "."
+      OUTPUT_TAG: ${{ github.event.inputs.output_tag || 'gpt-5' }}  # TEMP gpt-5 test - revert
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Python dependencies
+        run: pip install openai pydantic python-dotenv
+
+      - name: Enrich artists (direct OpenAI calls)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          TRACKS_TAG: ${{ github.event.inputs.tracks_tag || 'gpt-5' }}  # TEMP gpt-5 test - revert
+          MODEL: ${{ github.event.inputs.model || 'gpt-5' }}  # TEMP gpt-5 test - revert
+          LIMIT: ${{ github.event.inputs.limit }}
+          REFRESH: ${{ github.event.inputs.refresh }}
+        # Exit codes: 0 = done (possibly partial), 1 = track store missing / every artist failed
+        run: |
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          ARGS=""
+          if [ -n "$TRACKS_TAG" ]; then ARGS="$ARGS --tracks-tag $TRACKS_TAG"; fi
+          if [ -n "$OUTPUT_TAG" ]; then ARGS="$ARGS --output-tag $OUTPUT_TAG"; fi
+          if [ -n "$MODEL" ]; then ARGS="$ARGS --model $MODEL"; fi
+          if [ -n "$LIMIT" ]; then ARGS="$ARGS --limit $LIMIT"; fi
+          if [ "$REFRESH" = "true" ]; then ARGS="$ARGS --refresh"; fi
+          python enrich/enrich_artists.py $ARGS
+
+      - name: Commit artist profiles
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          SUFFIX="${OUTPUT_TAG:+_$OUTPUT_TAG}"
+          for f in "data/artist_profiles${SUFFIX}.jsonl" "data/artist_profiles${SUFFIX}.csv"; do
+            git add -A -- "$f" 2>/dev/null || true
+          done
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "artist profiles${OUTPUT_TAG:+ ($OUTPUT_TAG)}"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi

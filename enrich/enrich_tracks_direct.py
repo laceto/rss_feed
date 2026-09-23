@@ -41,28 +41,17 @@ from __future__ import annotations
 import argparse
 import json
 import sys
-from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
 from pipeline import track_metadata as tm
+from pipeline.openai_results import call_chat_completions
 from pipeline.constants import TRACKS_BATCH_META_FILE, TRACKS_INPUT_FILE
 
 DIRECT_BATCH_ID = "direct"
 DEFAULT_WORKERS = 4
-
-
-def completion_to_result_item(custom_id: str, completion) -> dict:
-    """Wrap a ChatCompletion in the Batch API result-item shape parse_result_item expects."""
-    return {"custom_id": custom_id, "error": None,
-            "response": {"status_code": 200, "body": completion.model_dump()}}
-
-
-def error_to_result_item(custom_id: str, exc: Exception) -> dict:
-    return {"custom_id": custom_id, "response": None,
-            "error": {"type": type(exc).__name__, "message": str(exc)}}
 
 
 def _pending_batch_ids() -> set[str]:
@@ -123,16 +112,8 @@ def main(argv: list[str] | None = None, client=None) -> int:
         load_dotenv()
         client = OpenAI()
 
-    def call(track: tm.TrackInput) -> dict:
-        cid = tm.custom_id_for(track)
-        try:
-            body = tm.build_task(track, model=args.model)["body"]
-            return completion_to_result_item(cid, client.chat.completions.create(**body))
-        except Exception as exc:  # noqa: BLE001 — per-track failure is logged, not fatal
-            return error_to_result_item(cid, exc)
-
-    with ThreadPoolExecutor(max_workers=max(1, args.workers)) as pool:
-        items = list(pool.map(call, todo))
+    bodies = {tm.custom_id_for(t): tm.build_task(t, model=args.model)["body"] for t in todo}
+    items = call_chat_completions(client, bodies, workers=args.workers)
 
     inputs = {tm.custom_id_for(t): t for t in todo}
     records, failed = [], 0

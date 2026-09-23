@@ -36,12 +36,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 from kitai.batch import check_batch_job, download_batch_results
 
 from pipeline import track_metadata as tm
-from pipeline.constants import (
-    PENDING_TRACKS_BATCH_FILE,
-    TRACK_METADATA_CSV,
-    TRACK_METADATA_FILE,
-    TRACKS_BATCH_META_FILE,
-)
+from pipeline.constants import PENDING_TRACKS_BATCH_FILE, TRACKS_BATCH_META_FILE
 
 
 def _clear_sentinels() -> None:
@@ -50,13 +45,15 @@ def _clear_sentinels() -> None:
     print("Cleared pending sentinel files.")
 
 
-def _load_sidecar() -> tuple[str, dict[str, tm.TrackInput]]:
+def _load_sidecar() -> tuple[str, str | None, dict[str, tm.TrackInput]]:
+    """(model, output_tag, inputs). The sidecar is the single source of truth for
+    which store a batch belongs to; older sidecars without output_tag -> main store."""
     meta = json.loads(TRACKS_BATCH_META_FILE.read_text(encoding="utf-8"))
     inputs = {
         cid: tm.TrackInput(v["track_id"], v["artist"], v["title"], v["play_count"])
         for cid, v in meta["tracks"].items()
     }
-    return meta.get("model", tm.TRACK_METADATA_MODEL), inputs
+    return meta.get("model", tm.TRACK_METADATA_MODEL), meta.get("output_tag"), inputs
 
 
 def main(client=None) -> int:
@@ -68,8 +65,9 @@ def main(client=None) -> int:
         return 1
 
     batch_id = PENDING_TRACKS_BATCH_FILE.read_text(encoding="utf-8").strip()
-    model, inputs = _load_sidecar()
-    print(f"Pending batch: {batch_id} ({len(inputs)} tracks, model {model})")
+    model, output_tag, inputs = _load_sidecar()
+    store, store_csv = tm.store_paths(output_tag)
+    print(f"Pending batch: {batch_id} ({len(inputs)} tracks, model {model}) -> {store}")
 
     if client is None:
         from dotenv import load_dotenv
@@ -106,15 +104,14 @@ def main(client=None) -> int:
             failed += 1
 
     missing = len(inputs) - len(items)
-    existing = tm.load_records(TRACK_METADATA_FILE)
+    existing = tm.load_records(store)
     merged, added, dupes = tm.merge_records(existing, records)
-    tm.write_records(merged, TRACK_METADATA_FILE, TRACK_METADATA_CSV)
+    tm.write_records(merged, store, store_csv)
 
     identified = sum(1 for r in records if r["metadata"]["identified"])
     print(f"\nCollected: {len(records)} ok ({identified} identified), {failed} failed, "
           f"{missing} missing from output, {dupes} duplicate(s) skipped.")
-    print(f"Added {added} record(s) -> {TRACK_METADATA_FILE} (total {len(merged)}); "
-          f"CSV view -> {TRACK_METADATA_CSV}")
+    print(f"Added {added} record(s) -> {store} (total {len(merged)}); CSV view -> {store_csv}")
     if failed or missing:
         print(f"[warn] {failed + missing} track(s) not collected; they will be resubmitted next run.")
 
