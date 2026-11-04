@@ -52,7 +52,11 @@ jobs:
         print(f'Latest pubDate: {max(dates)}')
         "
 
+    # DISABLED: OPENAI_API_KEY secret returns 401 (invalid key) since ~2026-10-21.
+    # This step failing blocked "Commit results", so scraped feeds stopped being committed.
+    # To re-enable: rotate the OPENAI_API_KEY secret, then delete the `if: false` line below.
     - name: Submit sector batch
+      if: false
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         HF_TOKEN: ${{ secrets.HF_TOKEN }}
